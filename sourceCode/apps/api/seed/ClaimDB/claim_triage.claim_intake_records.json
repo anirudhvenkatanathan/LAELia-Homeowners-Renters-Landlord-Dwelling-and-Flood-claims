@@ -202,7 +202,7 @@
     "validationMessage": "Passed",
     "severityCategory": "low",
     "severityScore": 3,
-    "jurisdiction": "FL",
+    "jurisdiction": "TX",
     "fraudScore": 34,
     "statusIntervalDays": 10,
     "totalReserveAmount": 16330,
@@ -228,7 +228,7 @@
       "coverageALimit": 207000
     },
     "claimInformation": {
-      "jurisdiction": "FL",
+      "jurisdiction": "TX",
       "claimSeverity": "low",
       "severityScore": 3
     },
@@ -237,8 +237,8 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "126 Cypress Way, Orlando, FL",
-      "county": "Orange"
+      "address": "126 Cypress Way, Houston, TX",
+      "county": "Harris"
     },
     "assignment": {
       "assignedAdjuster": "Priya Nair",
@@ -395,9 +395,9 @@
       {
         "roleName": "Legal",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Sawgrass Insurance Law Group",
-        "proposedVendor": "Sawgrass Insurance Law Group",
-        "selectedVendor": "Sawgrass Insurance Law Group",
+        "recommendedVendor": "Palmetto Recovery Group",
+        "proposedVendor": "Palmetto Recovery Group",
+        "selectedVendor": "Palmetto Recovery Group",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-13T12:00:00.000Z",
@@ -474,8 +474,8 @@
         "roleName": "Legal",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Sawgrass Insurance Law Group",
-        "selectedVendor": "Sawgrass Insurance Law Group",
+        "proposedVendor": "Palmetto Recovery Group",
+        "selectedVendor": "Palmetto Recovery Group",
         "status": "Pending Review",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-13T12:00:00.000Z",
@@ -488,13 +488,13 @@
     "vendorServices": [
       "Tri-County Fire Analysis",
       "Harbor Forensic Engineering",
-      "Sawgrass Insurance Law Group",
+      "Palmetto Recovery Group",
       "Tri-County Fire Analysis",
       "Coastal Claim Estimators",
       "Keystone Contents Services",
       "Gulfshore Restoration Group",
       "Safe Harbor Temporary Housing",
-      "Sawgrass Insurance Law Group"
+      "Palmetto Recovery Group"
     ],
     "servicesTriggered": 8,
     "__v": 0,
@@ -518,7 +518,7 @@
     "validationMessage": "Passed",
     "severityCategory": "low",
     "severityScore": 3,
-    "jurisdiction": "FL",
+    "jurisdiction": "GA",
     "fraudScore": 23,
     "statusIntervalDays": 10,
     "totalReserveAmount": 8740,
@@ -544,7 +544,7 @@
       "coverageALimit": 180000
     },
     "claimInformation": {
-      "jurisdiction": "FL",
+      "jurisdiction": "GA",
       "claimSeverity": "low",
       "severityScore": 3
     },
@@ -553,8 +553,8 @@
       "contentsExposure": 7600
     },
     "property": {
-      "address": "152 Magnolia St, Jacksonville, FL",
-      "county": "Duval"
+      "address": "152 Magnolia St, Atlanta, GA",
+      "county": "Fulton"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -772,8 +772,8 @@
         "roleName": "Legal",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Sawgrass Insurance Law Group",
-        "selectedVendor": "Sawgrass Insurance Law Group",
+        "proposedVendor": "Palmetto Recovery Group",
+        "selectedVendor": "Palmetto Recovery Group",
         "status": "Pending Review",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-11T12:00:00.000Z",
@@ -786,7 +786,7 @@
     "vendorServices": [
       "Sunstate Water Mitigation",
       "Magnolia Coverage Counsel",
-      "Sawgrass Insurance Law Group"
+      "Palmetto Recovery Group"
     ],
     "servicesTriggered": 2,
     "__v": 0,
@@ -1096,9 +1096,9 @@
       {
         "roleName": "Legal",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Sawgrass Insurance Law Group",
-        "proposedVendor": "Sawgrass Insurance Law Group",
-        "selectedVendor": "Sawgrass Insurance Law Group",
+        "recommendedVendor": "Palmetto Recovery Group",
+        "proposedVendor": "Palmetto Recovery Group",
+        "selectedVendor": "Palmetto Recovery Group",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-09T12:00:00.000Z",
@@ -1122,9 +1122,9 @@
       {
         "roleName": "Subrogation",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Tidewater Recovery Partners",
-        "proposedVendor": "Tidewater Recovery Partners",
-        "selectedVendor": "Tidewater Recovery Partners",
+        "recommendedVendor": "Palmetto Recovery Group",
+        "proposedVendor": "Palmetto Recovery Group",
+        "selectedVendor": "Palmetto Recovery Group",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-09T12:00:00.000Z",
@@ -1166,9 +1166,9 @@
     "vendorServices": [
       "Tri-County Fire Analysis",
       "Harbor Forensic Engineering",
-      "Sawgrass Insurance Law Group",
+      "Palmetto Recovery Group",
       "Bayfront Independent Adjusters",
-      "Tidewater Recovery Partners",
+      "Palmetto Recovery Group",
       "Meridian Desk Investigations"
     ],
     "servicesTriggered": 6,
@@ -1194,7 +1194,7 @@
     "validationMessage": "Passed",
     "severityCategory": "low",
     "severityScore": 3,
-    "jurisdiction": "FL",
+    "jurisdiction": "SC",
     "fraudScore": 33,
     "statusIntervalDays": 10,
     "totalReserveAmount": 10695,
@@ -1219,7 +1219,7 @@
       "coverageALimit": 187000
     },
     "claimInformation": {
-      "jurisdiction": "FL",
+      "jurisdiction": "SC",
       "claimSeverity": "low",
       "severityScore": 3
     },
@@ -1228,8 +1228,8 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "217 Palm Ave, Palm Beach Gardens, FL",
-      "county": "Palm Beach"
+      "address": "217 Palm Ave, Charleston, SC",
+      "county": "Charleston"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -1274,7 +1274,7 @@
     "validationMessage": "Passed",
     "severityCategory": "moderate",
     "severityScore": 5,
-    "jurisdiction": "FL",
+    "jurisdiction": "AL",
     "fraudScore": 40,
     "statusIntervalDays": 10,
     "totalReserveAmount": 37950,
@@ -1303,7 +1303,7 @@
       "coverageALimit": 282000
     },
     "claimInformation": {
-      "jurisdiction": "FL",
+      "jurisdiction": "AL",
       "claimSeverity": "moderate",
       "severityScore": 5
     },
@@ -1312,8 +1312,8 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "230 Cypress Way, Naples, FL",
-      "county": "Collier"
+      "address": "230 Cypress Way, Mobile, AL",
+      "county": "Mobile"
     },
     "assignment": {
       "assignedAdjuster": "Priya Nair",
@@ -1624,7 +1624,7 @@
     "validationMessage": "Passed",
     "severityCategory": "low",
     "severityScore": 3,
-    "jurisdiction": "FL",
+    "jurisdiction": "LA",
     "fraudScore": 36,
     "statusIntervalDays": 10,
     "totalReserveAmount": 4830,
@@ -1649,7 +1649,7 @@
       "coverageALimit": 167000
     },
     "claimInformation": {
-      "jurisdiction": "FL",
+      "jurisdiction": "LA",
       "claimSeverity": "low",
       "severityScore": 3
     },
@@ -1658,8 +1658,8 @@
       "contentsExposure": 2100
     },
     "property": {
-      "address": "269 Gulf Breeze Pkwy, Tallahassee, FL",
-      "county": "Leon"
+      "address": "269 Gulf Breeze Pkwy, Baton Rouge, LA",
+      "county": "East Baton Rouge"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -2110,7 +2110,7 @@
     "validationMessage": "Passed",
     "severityCategory": "low",
     "severityScore": 3,
-    "jurisdiction": "FL",
+    "jurisdiction": "GA",
     "fraudScore": 41,
     "statusIntervalDays": 10,
     "totalReserveAmount": 10235,
@@ -2136,7 +2136,7 @@
       "coverageALimit": 186000
     },
     "claimInformation": {
-      "jurisdiction": "FL",
+      "jurisdiction": "GA",
       "claimSeverity": "low",
       "severityScore": 3
     },
@@ -2145,8 +2145,8 @@
       "contentsExposure": 8900
     },
     "property": {
-      "address": "139 Bayshore Dr, Jacksonville, FL",
-      "county": "Duval"
+      "address": "139 Bayshore Dr, Atlanta, GA",
+      "county": "Fulton"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -2430,9 +2430,9 @@
       {
         "roleName": "Legal",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Sawgrass Insurance Law Group",
-        "proposedVendor": "Sawgrass Insurance Law Group",
-        "selectedVendor": "Sawgrass Insurance Law Group",
+        "recommendedVendor": "Palmetto Recovery Group",
+        "proposedVendor": "Palmetto Recovery Group",
+        "selectedVendor": "Palmetto Recovery Group",
         "status": "Pending Review",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-09-19T12:00:00.000Z",
@@ -2482,7 +2482,7 @@
     ],
     "vendorServices": [
       "Tri-County Fire Analysis",
-      "Sawgrass Insurance Law Group",
+      "Palmetto Recovery Group",
       "Bayfront Independent Adjusters",
       "Meridian Desk Investigations",
       "Keystone Contents Services"
@@ -2590,7 +2590,7 @@
     "validationMessage": "Passed",
     "severityCategory": "low",
     "severityScore": 3,
-    "jurisdiction": "FL",
+    "jurisdiction": "TX",
     "fraudScore": 44,
     "statusIntervalDays": 10,
     "totalReserveAmount": 5865,
@@ -2615,7 +2615,7 @@
       "coverageALimit": 170000
     },
     "claimInformation": {
-      "jurisdiction": "FL",
+      "jurisdiction": "TX",
       "claimSeverity": "low",
       "severityScore": 3
     },
@@ -2624,8 +2624,8 @@
       "contentsExposure": 5100
     },
     "property": {
-      "address": "191 Sawgrass Ln, Fort Lauderdale, FL",
-      "county": "Broward"
+      "address": "191 Sawgrass Ln, Houston, TX",
+      "county": "Harris"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -3075,7 +3075,7 @@
     "validationMessage": "Passed",
     "severityCategory": "low",
     "severityScore": 3,
-    "jurisdiction": "FL",
+    "jurisdiction": "LA",
     "fraudScore": 29,
     "statusIntervalDays": 10,
     "totalReserveAmount": 8165,
@@ -3100,7 +3100,7 @@
       "coverageALimit": 178000
     },
     "claimInformation": {
-      "jurisdiction": "FL",
+      "jurisdiction": "LA",
       "claimSeverity": "low",
       "severityScore": 3
     },
@@ -3109,8 +3109,8 @@
       "contentsExposure": 7100
     },
     "property": {
-      "address": "256 Magnolia St, Hialeah, FL",
-      "county": "Miami-Dade"
+      "address": "256 Magnolia St, New Orleans, LA",
+      "county": "Orleans"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -3361,7 +3361,7 @@
     "validationMessage": "Passed",
     "severityCategory": "low",
     "severityScore": 3,
-    "jurisdiction": "FL",
+    "jurisdiction": "NC",
     "fraudScore": 43,
     "statusIntervalDays": 10,
     "totalReserveAmount": 6210,
@@ -3385,7 +3385,7 @@
       "coverageALimit": 172000
     },
     "claimInformation": {
-      "jurisdiction": "FL",
+      "jurisdiction": "NC",
       "claimSeverity": "low",
       "severityScore": 3
     },
@@ -3394,8 +3394,8 @@
       "contentsExposure": 5400
     },
     "property": {
-      "address": "282 Citrus Grove Rd, Lakeland, FL",
-      "county": "Polk"
+      "address": "282 Citrus Grove Rd, Charlotte, NC",
+      "county": "Mecklenburg"
     },
     "assignment": {
       "assignedAdjuster": "Sarah Mitchell",
@@ -3405,16 +3405,14 @@
     "recordIndex": 14,
     "planServices": [
       "3455af34-b088-440b-a1f7-99dea13403cf",
-      "d25a0874-807e-43b7-af32-863e746db8b2",
-      "1f5b97d6-24a7-4880-a10e-cf540be4089c"
+      "d25a0874-807e-43b7-af32-863e746db8b2"
     ],
     "existingplanservices": [
       "3455af34-b088-440b-a1f7-99dea13403cf",
-      "d25a0874-807e-43b7-af32-863e746db8b2",
-      "1f5b97d6-24a7-4880-a10e-cf540be4089c"
+      "d25a0874-807e-43b7-af32-863e746db8b2"
     ],
     "confirmedPlanServices": [
-      "1f5b97d6-24a7-4880-a10e-cf540be4089c"
+      "d25a0874-807e-43b7-af32-863e746db8b2"
     ],
     "planServiceStatus": "Pending Review",
     "planServiceComments": "Plan services confirmed",
@@ -3427,7 +3425,7 @@
         "changeType": "ProviderChange",
         "recommendedVendor": "Magnolia Coverage Counsel",
         "proposedVendor": "Magnolia Coverage Counsel",
-        "selectedVendor": "Fidelity Coverage Review",
+        "selectedVendor": "Peach State Property Adjusters",
         "status": "Pending Review",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-09-11T12:00:00.000Z",
@@ -3442,33 +3440,19 @@
         "recommendedVendor": "Keystone Contents Services",
         "proposedVendor": "Keystone Contents Services",
         "selectedVendor": "Keystone Contents Services",
-        "status": "Pending Review",
+        "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-09-11T12:00:00.000Z",
         "_id": {
           "$oid": "554d4959e5b25f5f8ff57e72"
         }
-      },
-      {
-        "roleName": "Statutory Deadline Watch",
-        "changeType": "ProviderChange",
-        "recommendedVendor": "Clarity Claim Letters",
-        "proposedVendor": "Clarity Claim Letters",
-        "selectedVendor": "Clarity Claim Letters",
-        "status": "Locked",
-        "confirmedBy": "Sarah Mitchell",
-        "confirmedAt": "2026-09-11T12:00:00.000Z",
-        "_id": {
-          "$oid": "fe0bfcb4e5b604560569e23b"
-        }
       }
     ],
     "vendorServices": [
-      "Fidelity Coverage Review",
-      "Keystone Contents Services",
-      "Clarity Claim Letters"
+      "Peach State Property Adjusters",
+      "Keystone Contents Services"
     ],
-    "servicesTriggered": 3,
+    "servicesTriggered": 2,
     "__v": 0,
     "adjusterSubmittedBy": "Sarah Mitchell",
     "adjusterSubmittedAt": "2026-09-11T12:00:00.000Z",
@@ -3680,9 +3664,9 @@
       {
         "roleName": "Tenant-Caused Loss Recovery",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Tidewater Recovery Partners",
-        "proposedVendor": "Tidewater Recovery Partners",
-        "selectedVendor": "Tidewater Recovery Partners",
+        "recommendedVendor": "Palmetto Recovery Group",
+        "proposedVendor": "Palmetto Recovery Group",
+        "selectedVendor": "Palmetto Recovery Group",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-09T12:00:00.000Z",
@@ -3695,7 +3679,7 @@
       "Sunstate Water Mitigation",
       "Lakeshore Forensic Accounting",
       "Coastal Claim Estimators",
-      "Tidewater Recovery Partners"
+      "Palmetto Recovery Group"
     ],
     "servicesTriggered": 4,
     "__v": 0,
@@ -3931,8 +3915,8 @@
         "roleName": "Legal",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Sawgrass Insurance Law Group",
-        "selectedVendor": "Sawgrass Insurance Law Group",
+        "proposedVendor": "Palmetto Recovery Group",
+        "selectedVendor": "Palmetto Recovery Group",
         "status": "Pending Review",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-09-17T12:00:00.000Z",
@@ -3947,7 +3931,7 @@
       "Coastal Claim Estimators",
       "Magnolia Coverage Counsel",
       "Occupancy Verification Services",
-      "Sawgrass Insurance Law Group"
+      "Palmetto Recovery Group"
     ],
     "servicesTriggered": 4,
     "__v": 0,
@@ -3971,7 +3955,7 @@
     "validationMessage": "Passed",
     "severityCategory": "high",
     "severityScore": 8,
-    "jurisdiction": "FL",
+    "jurisdiction": "GA",
     "fraudScore": 23,
     "statusIntervalDays": 10,
     "totalReserveAmount": 101200,
@@ -3998,7 +3982,7 @@
       "coverageALimit": 502000
     },
     "claimInformation": {
-      "jurisdiction": "FL",
+      "jurisdiction": "GA",
       "claimSeverity": "high",
       "severityScore": 8
     },
@@ -4007,8 +3991,8 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "152 Magnolia St, Jacksonville, FL",
-      "county": "Duval"
+      "address": "152 Magnolia St, Savannah, GA",
+      "county": "Chatham"
     },
     "assignment": {
       "assignedAdjuster": "Priya Nair",
@@ -4095,9 +4079,9 @@
       {
         "roleName": "Legal",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Sawgrass Insurance Law Group",
-        "proposedVendor": "Sawgrass Insurance Law Group",
-        "selectedVendor": "Sawgrass Insurance Law Group",
+        "recommendedVendor": "Palmetto Recovery Group",
+        "proposedVendor": "Palmetto Recovery Group",
+        "selectedVendor": "Palmetto Recovery Group",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-16T12:00:00.000Z",
@@ -4108,9 +4092,9 @@
       {
         "roleName": "Subrogation",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Tidewater Recovery Partners",
-        "proposedVendor": "Tidewater Recovery Partners",
-        "selectedVendor": "Tidewater Recovery Partners",
+        "recommendedVendor": "Palmetto Recovery Group",
+        "proposedVendor": "Palmetto Recovery Group",
+        "selectedVendor": "Palmetto Recovery Group",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-16T12:00:00.000Z",
@@ -4134,9 +4118,9 @@
       {
         "roleName": "Tenant-Caused Loss Recovery",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Tidewater Recovery Partners",
-        "proposedVendor": "Tidewater Recovery Partners",
-        "selectedVendor": "Tidewater Recovery Partners",
+        "recommendedVendor": "Palmetto Recovery Group",
+        "proposedVendor": "Palmetto Recovery Group",
+        "selectedVendor": "Palmetto Recovery Group",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-16T12:00:00.000Z",
@@ -4166,10 +4150,10 @@
       "Tri-County Fire Analysis",
       "Harbor Forensic Engineering",
       "Lakeshore Forensic Accounting",
-      "Sawgrass Insurance Law Group",
-      "Tidewater Recovery Partners",
+      "Palmetto Recovery Group",
+      "Palmetto Recovery Group",
       "Tri-County Fire Analysis",
-      "Tidewater Recovery Partners"
+      "Palmetto Recovery Group"
     ],
     "servicesTriggered": 7,
     "__v": 0,
@@ -4194,7 +4178,7 @@
     "validationMessage": "Passed",
     "severityCategory": "low",
     "severityScore": 3,
-    "jurisdiction": "FL",
+    "jurisdiction": "TX",
     "fraudScore": 30,
     "statusIntervalDays": 10,
     "totalReserveAmount": 12880,
@@ -4221,7 +4205,7 @@
       "coverageALimit": 195000
     },
     "claimInformation": {
-      "jurisdiction": "FL",
+      "jurisdiction": "TX",
       "claimSeverity": "low",
       "severityScore": 3
     },
@@ -4230,8 +4214,8 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "165 Gulf Breeze Pkwy, Hollywood, FL",
-      "county": "Broward"
+      "address": "165 Gulf Breeze Pkwy, Dallas, TX",
+      "county": "Dallas"
     },
     "assignment": {
       "assignedAdjuster": "Sarah Mitchell",
@@ -4371,8 +4355,8 @@
         "roleName": "Legal",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Sawgrass Insurance Law Group",
-        "selectedVendor": "Sawgrass Insurance Law Group",
+        "proposedVendor": "Palmetto Recovery Group",
+        "selectedVendor": "Palmetto Recovery Group",
         "status": "Pending Review",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-27T12:00:00.000Z",
@@ -4385,7 +4369,7 @@
     "vendorServices": [
       "Estimate Integrity Partners",
       "Sawgrass Insurance Law Group",
-      "Sawgrass Insurance Law Group"
+      "Palmetto Recovery Group"
     ],
     "servicesTriggered": 2,
     "__v": 0,
@@ -4636,9 +4620,9 @@
       {
         "roleName": "Legal",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Sawgrass Insurance Law Group",
-        "proposedVendor": "Sawgrass Insurance Law Group",
-        "selectedVendor": "Sawgrass Insurance Law Group",
+        "recommendedVendor": "Palmetto Recovery Group",
+        "proposedVendor": "Palmetto Recovery Group",
+        "selectedVendor": "Palmetto Recovery Group",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-05T12:00:00.000Z",
@@ -4690,7 +4674,7 @@
       "Sunstate Water Mitigation",
       "Everglades Cause & Origin",
       "Harbor Forensic Engineering",
-      "Sawgrass Insurance Law Group",
+      "Palmetto Recovery Group",
       "Gulfshore Restoration Group",
       "Sunstate Roofing Inspections",
       "Coastal Claim Estimators"
@@ -4717,7 +4701,7 @@
     "validationMessage": "Passed",
     "severityCategory": "low",
     "severityScore": 3,
-    "jurisdiction": "FL",
+    "jurisdiction": "AL",
     "fraudScore": 33,
     "statusIntervalDays": 10,
     "totalReserveAmount": 20700,
@@ -4743,7 +4727,7 @@
       "coverageALimit": 222000
     },
     "claimInformation": {
-      "jurisdiction": "FL",
+      "jurisdiction": "AL",
       "claimSeverity": "low",
       "severityScore": 3
     },
@@ -4752,8 +4736,8 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "217 Palm Ave, Pensacola, FL",
-      "county": "Escambia"
+      "address": "217 Palm Ave, Mobile, AL",
+      "county": "Mobile"
     },
     "assignment": {
       "assignedAdjuster": "Sarah Mitchell",
@@ -4881,9 +4865,9 @@
       {
         "roleName": "Tenant-Caused Loss Recovery",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Tidewater Recovery Partners",
-        "proposedVendor": "Tidewater Recovery Partners",
-        "selectedVendor": "Tidewater Recovery Partners",
+        "recommendedVendor": "Palmetto Recovery Group",
+        "proposedVendor": "Palmetto Recovery Group",
+        "selectedVendor": "Palmetto Recovery Group",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-13T12:00:00.000Z",
@@ -4911,7 +4895,7 @@
     ],
     "vendorServices": [
       "Cardinal Loss Analytics",
-      "Tidewater Recovery Partners"
+      "Palmetto Recovery Group"
     ],
     "servicesTriggered": 2,
     "__v": 0,
@@ -5101,7 +5085,7 @@
     "validationMessage": "Passed",
     "severityCategory": "moderate",
     "severityScore": 5,
-    "jurisdiction": "FL",
+    "jurisdiction": "NC",
     "fraudScore": 36,
     "statusIntervalDays": 10,
     "totalReserveAmount": 31050,
@@ -5126,7 +5110,7 @@
       "coverageALimit": 258000
     },
     "claimInformation": {
-      "jurisdiction": "FL",
+      "jurisdiction": "NC",
       "claimSeverity": "moderate",
       "severityScore": 5
     },
@@ -5135,8 +5119,8 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "269 Gulf Breeze Pkwy, Ocala, FL",
-      "county": "Marion"
+      "address": "269 Gulf Breeze Pkwy, Wilmington, NC",
+      "county": "New Hanover"
     },
     "assignment": {
       "assignedAdjuster": "Sarah Mitchell",
@@ -5147,14 +5131,12 @@
     "planServices": [
       "ebdc794f-65a3-4b19-ac45-393830e15e13",
       "34ff1d01-fb6c-44d6-a77b-062615d797a4",
-      "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
-      "1f5b97d6-24a7-4880-a10e-cf540be4089c"
+      "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563"
     ],
     "existingplanservices": [
       "ebdc794f-65a3-4b19-ac45-393830e15e13",
       "34ff1d01-fb6c-44d6-a77b-062615d797a4",
-      "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
-      "1f5b97d6-24a7-4880-a10e-cf540be4089c"
+      "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563"
     ],
     "confirmedPlanServices": [],
     "planServiceStatus": "Pending Selection",
@@ -5164,7 +5146,7 @@
     "completedBy": "",
     "serviceVendorReview": [],
     "vendorServices": [],
-    "servicesTriggered": 4,
+    "servicesTriggered": 3,
     "__v": 0
   },
   {
@@ -5500,9 +5482,9 @@
       {
         "roleName": "Legal",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Sawgrass Insurance Law Group",
-        "proposedVendor": "Sawgrass Insurance Law Group",
-        "selectedVendor": "Sawgrass Insurance Law Group",
+        "recommendedVendor": "Palmetto Recovery Group",
+        "proposedVendor": "Palmetto Recovery Group",
+        "selectedVendor": "Palmetto Recovery Group",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-17T12:00:00.000Z",
@@ -5540,7 +5522,7 @@
     "vendorServices": [
       "Tri-County Fire Analysis",
       "Harbor Forensic Engineering",
-      "Sawgrass Insurance Law Group",
+      "Palmetto Recovery Group",
       "Tri-County Fire Analysis",
       "Coastal Claim Estimators"
     ],
@@ -5650,7 +5632,7 @@
     "validationMessage": "Passed",
     "severityCategory": "low",
     "severityScore": 3,
-    "jurisdiction": "FL",
+    "jurisdiction": "AL",
     "fraudScore": 41,
     "statusIntervalDays": 10,
     "totalReserveAmount": 22770,
@@ -5676,7 +5658,7 @@
       "coverageALimit": 229000
     },
     "claimInformation": {
-      "jurisdiction": "FL",
+      "jurisdiction": "AL",
       "claimSeverity": "low",
       "severityScore": 3
     },
@@ -5685,8 +5667,8 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "139 Bayshore Dr, Pensacola, FL",
-      "county": "Escambia"
+      "address": "139 Bayshore Dr, Mobile, AL",
+      "county": "Mobile"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -5835,9 +5817,9 @@
       {
         "roleName": "Legal",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Sawgrass Insurance Law Group",
-        "proposedVendor": "Sawgrass Insurance Law Group",
-        "selectedVendor": "Sawgrass Insurance Law Group",
+        "recommendedVendor": "Palmetto Recovery Group",
+        "proposedVendor": "Palmetto Recovery Group",
+        "selectedVendor": "Palmetto Recovery Group",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-09-30T12:00:00.000Z",
@@ -5892,7 +5874,7 @@
     "vendorServices": [
       "Tri-County Fire Analysis",
       "Harbor Forensic Engineering",
-      "Sawgrass Insurance Law Group",
+      "Palmetto Recovery Group",
       "Gulfshore Restoration Group",
       "Sawgrass Insurance Law Group"
     ],
@@ -6148,7 +6130,7 @@
     "validationMessage": "Passed",
     "severityCategory": "low",
     "severityScore": 3,
-    "jurisdiction": "FL",
+    "jurisdiction": "TX",
     "fraudScore": 44,
     "statusIntervalDays": 10,
     "totalReserveAmount": 20125,
@@ -6173,7 +6155,7 @@
       "coverageALimit": 220000
     },
     "claimInformation": {
-      "jurisdiction": "FL",
+      "jurisdiction": "TX",
       "claimSeverity": "low",
       "severityScore": 3
     },
@@ -6182,8 +6164,8 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "191 Sawgrass Ln, Port St. Lucie, FL",
-      "county": "St. Lucie"
+      "address": "191 Sawgrass Ln, Corpus Christi, TX",
+      "county": "Nueces"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -6410,8 +6392,8 @@
         "roleName": "Legal",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Sawgrass Insurance Law Group",
-        "selectedVendor": "Sawgrass Insurance Law Group",
+        "proposedVendor": "Palmetto Recovery Group",
+        "selectedVendor": "Palmetto Recovery Group",
         "status": "Pending Review",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-09-13T12:00:00.000Z",
@@ -6425,7 +6407,7 @@
       "Estimate Integrity Partners",
       "Magnolia Coverage Counsel",
       "Clarity Claim Letters",
-      "Sawgrass Insurance Law Group"
+      "Palmetto Recovery Group"
     ],
     "servicesTriggered": 3,
     "__v": 0,
@@ -6449,7 +6431,7 @@
     "validationMessage": "Passed",
     "severityCategory": "moderate",
     "severityScore": 5,
-    "jurisdiction": "FL",
+    "jurisdiction": "SC",
     "fraudScore": 40,
     "statusIntervalDays": 10,
     "totalReserveAmount": 33925,
@@ -6477,7 +6459,7 @@
       "coverageALimit": 268000
     },
     "claimInformation": {
-      "jurisdiction": "FL",
+      "jurisdiction": "SC",
       "claimSeverity": "moderate",
       "severityScore": 5
     },
@@ -6486,8 +6468,8 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "230 Cypress Way, Tampa, FL",
-      "county": "Hillsborough"
+      "address": "230 Cypress Way, Charleston, SC",
+      "county": "Charleston"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -6709,9 +6691,9 @@
       {
         "roleName": "Legal",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Sawgrass Insurance Law Group",
-        "proposedVendor": "Sawgrass Insurance Law Group",
-        "selectedVendor": "Sawgrass Insurance Law Group",
+        "recommendedVendor": "Palmetto Recovery Group",
+        "proposedVendor": "Palmetto Recovery Group",
+        "selectedVendor": "Palmetto Recovery Group",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-09-16T12:00:00.000Z",
@@ -6735,9 +6717,9 @@
       {
         "roleName": "Subrogation",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Tidewater Recovery Partners",
-        "proposedVendor": "Tidewater Recovery Partners",
-        "selectedVendor": "Tidewater Recovery Partners",
+        "recommendedVendor": "Palmetto Recovery Group",
+        "proposedVendor": "Palmetto Recovery Group",
+        "selectedVendor": "Palmetto Recovery Group",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-09-16T12:00:00.000Z",
@@ -6780,9 +6762,9 @@
       "Tri-County Fire Analysis",
       "Harbor Forensic Engineering",
       "Lakeshore Forensic Accounting",
-      "Sawgrass Insurance Law Group",
+      "Palmetto Recovery Group",
       "Bayfront Independent Adjusters",
-      "Tidewater Recovery Partners",
+      "Palmetto Recovery Group",
       "Meridian Desk Investigations",
       "Lakeshore Forensic Accounting"
     ],
@@ -6889,7 +6871,7 @@
     "validationMessage": "Passed",
     "severityCategory": "low",
     "severityScore": 3,
-    "jurisdiction": "FL",
+    "jurisdiction": "AL",
     "fraudScore": 36,
     "statusIntervalDays": 30,
     "totalReserveAmount": 9430,
@@ -6911,7 +6893,7 @@
       "coverageALimit": 183000
     },
     "claimInformation": {
-      "jurisdiction": "FL",
+      "jurisdiction": "AL",
       "claimSeverity": "low",
       "severityScore": 3
     },
@@ -6920,8 +6902,8 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "269 Gulf Breeze Pkwy, Gainesville, FL",
-      "county": "Alachua"
+      "address": "269 Gulf Breeze Pkwy, Birmingham, AL",
+      "county": "Jefferson"
     },
     "assignment": {
       "assignedAdjuster": "Sarah Mitchell",
@@ -7553,7 +7535,7 @@
     "validationMessage": "Passed",
     "severityCategory": "moderate",
     "severityScore": 5,
-    "jurisdiction": "FL",
+    "jurisdiction": "LA",
     "fraudScore": 41,
     "statusIntervalDays": 10,
     "totalReserveAmount": 43700,
@@ -7579,7 +7561,7 @@
       "coverageALimit": 250000
     },
     "claimInformation": {
-      "jurisdiction": "FL",
+      "jurisdiction": "LA",
       "claimSeverity": "moderate",
       "severityScore": 5
     },
@@ -7588,8 +7570,8 @@
       "contentsExposure": 9000
     },
     "property": {
-      "address": "139 Bayshore Dr, Tampa, FL",
-      "county": "Hillsborough"
+      "address": "139 Bayshore Dr, New Orleans, LA",
+      "county": "Orleans"
     },
     "assignment": {
       "assignedAdjuster": "Priya Nair",
@@ -7660,8 +7642,8 @@
         "roleName": "Legal",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Sawgrass Insurance Law Group",
-        "selectedVendor": "Sawgrass Insurance Law Group",
+        "proposedVendor": "Palmetto Recovery Group",
+        "selectedVendor": "Palmetto Recovery Group",
         "status": "Pending Review",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-09-12T12:00:00.000Z",
@@ -7675,7 +7657,7 @@
       "Tidewater Flood Services",
       "Palmetto Flood Adjusters",
       "Keystone Contents Services",
-      "Sawgrass Insurance Law Group"
+      "Palmetto Recovery Group"
     ],
     "servicesTriggered": 3,
     "__v": 0,
@@ -7781,7 +7763,7 @@
     "validationMessage": "Passed",
     "severityCategory": "moderate",
     "severityScore": 5,
-    "jurisdiction": "FL",
+    "jurisdiction": "GA",
     "fraudScore": 30,
     "statusIntervalDays": 10,
     "totalReserveAmount": 62100,
@@ -7809,7 +7791,7 @@
       "coverageALimit": 250000
     },
     "claimInformation": {
-      "jurisdiction": "FL",
+      "jurisdiction": "GA",
       "claimSeverity": "moderate",
       "severityScore": 5
     },
@@ -7818,8 +7800,8 @@
       "contentsExposure": 11000
     },
     "property": {
-      "address": "165 Gulf Breeze Pkwy, Jacksonville, FL",
-      "county": "Duval"
+      "address": "165 Gulf Breeze Pkwy, Savannah, GA",
+      "county": "Chatham"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -8325,9 +8307,9 @@
       {
         "roleName": "Legal",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Sawgrass Insurance Law Group",
-        "proposedVendor": "Sawgrass Insurance Law Group",
-        "selectedVendor": "Magnolia Coverage Counsel",
+        "recommendedVendor": "Palmetto Recovery Group",
+        "proposedVendor": "Palmetto Recovery Group",
+        "selectedVendor": "Sawgrass Insurance Law Group",
         "status": "Pending Review",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-28T12:00:00.000Z",
@@ -8405,8 +8387,8 @@
         "roleName": "Legal",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Sawgrass Insurance Law Group",
-        "selectedVendor": "Sawgrass Insurance Law Group",
+        "proposedVendor": "Palmetto Recovery Group",
+        "selectedVendor": "Palmetto Recovery Group",
         "status": "Pending Review",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-28T12:00:00.000Z",
@@ -8417,13 +8399,13 @@
       }
     ],
     "vendorServices": [
-      "Magnolia Coverage Counsel",
+      "Sawgrass Insurance Law Group",
       "Palmetto Flood Adjusters",
       "Sunshine Floodplain Consultants",
       "Resilient Home Consultants",
       "Limit Review Associates",
       "Keystone Contents Services",
-      "Sawgrass Insurance Law Group"
+      "Palmetto Recovery Group"
     ],
     "servicesTriggered": 6,
     "__v": 0,
@@ -8447,7 +8429,7 @@
     "validationMessage": "Passed",
     "severityCategory": "low",
     "severityScore": 3,
-    "jurisdiction": "FL",
+    "jurisdiction": "AL",
     "fraudScore": 40,
     "statusIntervalDays": 10,
     "totalReserveAmount": 28175,
@@ -8474,7 +8456,7 @@
       "coverageALimit": 250000
     },
     "claimInformation": {
-      "jurisdiction": "FL",
+      "jurisdiction": "AL",
       "claimSeverity": "low",
       "severityScore": 3
     },
@@ -8483,8 +8465,8 @@
       "contentsExposure": 6000
     },
     "property": {
-      "address": "230 Cypress Way, Pensacola, FL",
-      "county": "Escambia"
+      "address": "230 Cypress Way, Mobile, AL",
+      "county": "Mobile"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -8564,7 +8546,7 @@
     "validationMessage": "Passed",
     "severityCategory": "low",
     "severityScore": 3,
-    "jurisdiction": "FL",
+    "jurisdiction": "SC",
     "fraudScore": 22,
     "statusIntervalDays": 10,
     "totalReserveAmount": 17250,
@@ -8591,7 +8573,7 @@
       "coverageALimit": 250000
     },
     "claimInformation": {
-      "jurisdiction": "FL",
+      "jurisdiction": "SC",
       "claimSeverity": "low",
       "severityScore": 3
     },
@@ -8600,8 +8582,8 @@
       "contentsExposure": 15000
     },
     "property": {
-      "address": "243 Bayshore Dr, Daytona Beach, FL",
-      "county": "Volusia"
+      "address": "243 Bayshore Dr, Charleston, SC",
+      "county": "Charleston"
     },
     "assignment": {
       "assignedAdjuster": "Priya Nair",
@@ -8727,7 +8709,7 @@
     "validationMessage": "Passed",
     "severityCategory": "catastrophic",
     "severityScore": 10,
-    "jurisdiction": "FL",
+    "jurisdiction": "TX",
     "fraudScore": 36,
     "statusIntervalDays": 10,
     "totalReserveAmount": 410550,
@@ -8758,7 +8740,7 @@
       "coverageALimit": 250000
     },
     "claimInformation": {
-      "jurisdiction": "FL",
+      "jurisdiction": "TX",
       "claimSeverity": "catastrophic",
       "severityScore": 10
     },
@@ -8767,8 +8749,8 @@
       "contentsExposure": 102000
     },
     "property": {
-      "address": "269 Gulf Breeze Pkwy, Punta Gorda, FL",
-      "county": "Charlotte"
+      "address": "269 Gulf Breeze Pkwy, Galveston, TX",
+      "county": "Galveston"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -8953,7 +8935,7 @@
     "validationMessage": "Passed",
     "severityCategory": "moderate",
     "severityScore": 5,
-    "jurisdiction": "FL",
+    "jurisdiction": "NC",
     "fraudScore": 74,
     "statusIntervalDays": 10,
     "totalReserveAmount": 47150,
@@ -8981,7 +8963,7 @@
       "coverageALimit": 250000
     },
     "claimInformation": {
-      "jurisdiction": "FL",
+      "jurisdiction": "NC",
       "claimSeverity": "moderate",
       "severityScore": 5
     },
@@ -8990,8 +8972,8 @@
       "contentsExposure": 12000
     },
     "property": {
-      "address": "295 Sawgrass Ln, Tampa, FL",
-      "county": "Hillsborough"
+      "address": "295 Sawgrass Ln, Wilmington, NC",
+      "county": "New Hanover"
     },
     "assignment": {
       "assignedAdjuster": "Priya Nair",
@@ -9078,8 +9060,8 @@
         "roleName": "Legal",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Sawgrass Insurance Law Group",
-        "selectedVendor": "Sawgrass Insurance Law Group",
+        "proposedVendor": "Palmetto Recovery Group",
+        "selectedVendor": "Palmetto Recovery Group",
         "status": "Pending Review",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-08-30T12:00:00.000Z",
@@ -9094,7 +9076,7 @@
       "Palmetto Flood Adjusters",
       "Palmetto Flood Adjusters",
       "Keystone Contents Services",
-      "Sawgrass Insurance Law Group"
+      "Palmetto Recovery Group"
     ],
     "servicesTriggered": 4,
     "__v": 0,

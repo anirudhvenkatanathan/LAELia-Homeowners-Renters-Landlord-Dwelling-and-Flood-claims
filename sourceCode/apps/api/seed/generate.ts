@@ -86,7 +86,7 @@ const vendorDetails = PROVIDERS.map((p, i) => {
   const roleIds = p.rules.map((n) => { const id = ROLE_BY_NAME.get(n); if (!id) throw new Error(`Provider ${p.company}: unknown rule "${n}"`); return id; });
   const row: Record<string, unknown> = {
     _id: hex24('vd:' + p.company), vendorId: vid(p), companyName: p.company, emailId: `claims@${slug(p.company)}.example`, rating: p.rating,
-    address: `${100 + i * 7} ${STREETS[i % STREETS.length]}`, city: p.city, state: 'Florida', country: 'USA', Status: STATUS_ID[p.status],
+    address: `${100 + i * 7} ${STREETS[i % STREETS.length]}`, city: p.city, state: p.state ?? 'Florida', country: 'USA', Status: STATUS_ID[p.status],
     RequalificationStartDate: ago(p.status === 'requalDue' ? 372 : 120).toISOString(), RequalificationEndDate: ago(p.status === 'requalDue' ? 7 : -245).toISOString(),
     Coverage: p.coverage, phoneNumber: ph(i), turnaroundTime: p.turnaround, serviceRequestRoleId: roleIds, serviceRequestRoleName: p.rules.join(', '),
     createdBy: 'admin', createdAt: ago(150).toISOString(), uploadedBy: 'admin', uploadedAt: ago(150).toISOString(),
@@ -191,7 +191,7 @@ for (const c of CLAIMS) {
     claimNumber: num, policyNumber: `POL-${c.form.replace(/\W/g, '')}-${300000 + c.n * 37 + c.lob.length * 1000}`, insuredName: c.insured,
     claimType: FORM_TYPE(c), lossDate: ymd(ago(c.lossAgo)), reportedDate: ymd(ago(c.reportedAgo)), claimAmount: String(c.amount),
     claimStatus: c.stage === 'DN' ? 'Denied' : c.stage === 'CP' ? 'Closed' : 'Active', validationStatus: 'Passed', validationMessage: 'Passed',
-    severityCategory: sev, severityScore: SEVSCORE[sev], jurisdiction: 'FL', fraudScore: 20 + (c.n * 7) % 25,
+    severityCategory: sev, severityScore: SEVSCORE[sev], jurisdiction: c.st, fraudScore: 20 + (c.n * 7) % 25,
     statusIntervalDays: 10, totalReserveAmount: Math.round(c.amount * 1.15), potentialRecoveryAmount: 0,
     daysSinceLoss: c.lossAgo, daysSinceNotice: c.reportedAgo,
     acknowledgedFlag: 'present', paymentDecisionIssuedFlag: 'present',
@@ -206,9 +206,9 @@ for (const c of CLAIMS) {
   const nested = {
     lossInformation: { causeOfLoss: c.cause, damagedAreas: c.areas, lossDate: flat['lossDate'] },
     policyInformation: { policyForm: c.form, floodZone: c.lob === 'Flood' ? (flat['sfhaFlag'] ? 'AE' : 'X') : '', coverageALimit: c.lob === 'Flood' ? 250000 : Math.round(c.amount * 4 / 1000) * 1000 + 150000 },
-    claimInformation: { jurisdiction: 'FL', claimSeverity: sev, severityScore: SEVSCORE[sev] },
+    claimInformation: { jurisdiction: c.st, claimSeverity: sev, severityScore: SEVSCORE[sev] },
     financialExposure: { buildingExposure: Number(flat['buildingLossAmount'] ?? flat['contractorEstimateAmount'] ?? c.amount), contentsExposure: Number(flat['contentsLossAmount'] ?? 0) },
-    property: { address: `${100 + c.n * 13} ${STREETS[c.n % STREETS.length]}, ${c.city}, FL`, county: c.county },
+    property: { address: `${100 + c.n * 13} ${STREETS[c.n % STREETS.length]}, ${c.city}, ${c.st}`, county: c.county },
     assignment: { assignedAdjuster: adj, contractorName: '' },
   };
 

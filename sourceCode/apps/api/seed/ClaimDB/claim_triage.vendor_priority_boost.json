@@ -71,5 +71,29 @@
     "updatedAt": {
       "$date": "2026-09-30T12:00:00.000Z"
     }
+  },
+  {
+    "_id": {
+      "$oid": "45e5215d0984de38e383cc9a"
+    },
+    "vendorId": "73bb4ef40229c8729c817063",
+    "__v": 0,
+    "assignmentLimit": null,
+    "boostApplied": true,
+    "createdAt": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    },
+    "createdBy": "claimssupervisor",
+    "reasonForBoost": "Boost for 90 days: CAT season capacity",
+    "serviceDisciplines": [
+      "CAT Response",
+      "24/7 Loss Mitigation Contractors"
+    ],
+    "states": [
+      "FL"
+    ],
+    "updatedAt": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    }
   }
 ]

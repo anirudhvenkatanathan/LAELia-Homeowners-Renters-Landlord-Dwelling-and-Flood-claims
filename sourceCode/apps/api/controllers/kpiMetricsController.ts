@@ -500,31 +500,31 @@ export async function deleteKpiMetric(req: Request, res: Response): Promise<void
 
 const AI_REC_CONFIG = [
   {
-    ruleId:        'ai-rule-billreview',
-    serviceName:   'Medical Bill Review',
-    metricLabel:   'Review Accuracy Rate · Historical Outcomes',
-    currentRule:   'Good ≥ 95%',
-    suggestedRule: 'Good ≥ 92%',
-    description:   'Vendors with 92–95% review accuracy had a 0.3% downstream correction rate — statistically identical to those above 95% across 412 reviewed claims. The current threshold of ≥ 95% marks these vendors as Moderate and routes them away from high-priority assignments.',
-    suggestionName: 'Review Accuracy Rate',
+    ruleId:        'ai-rule-estimate-review',
+    serviceName:   'Estimate & Invoice Review',
+    metricLabel:   'Estimate Variance % · Cost Efficiency',
+    currentRule:   'Good ≤ 5%',
+    suggestedRule: 'Good ≤ 6%',
+    description:   'Reviewers whose estimates land within 5–6% of the final settled repair cost showed the same supplement rate as those under 5% across 318 sample homeowners and dwelling claims. The current threshold marks these reviewers as Moderate and routes them away from higher-value property claims.',
+    suggestionName: 'Estimate Variance %',
   },
   {
-    ruleId:        'ai-rule-ime',
-    serviceName:   'IME / Peer Review',
-    metricLabel:   'Savings Rate · Cost Efficiency',
-    currentRule:   'Good ≥ 18%',
-    suggestedRule: 'Good ≥ 14%',
-    description:   'IME vendors generating 14–18% in medical cost savings still produce claim closure outcomes within 3% of the top quartile, based on 198 similar claims. The current Good threshold of ≥ 18% excludes 1 in 3 performing vendors from preferred panel placement.',
-    suggestionName: '',
+    ruleId:        'ai-rule-nfip-adjuster',
+    serviceName:   'NFIP Authorized Adjuster',
+    metricLabel:   'First Pass Acceptance Rate · Report Quality',
+    currentRule:   'Good ≥ 90%',
+    suggestedRule: 'Good ≥ 87%',
+    description:   'NFIP adjusters with 87–90% first-pass acceptance of preliminary and final reports had no more reinspections than those above 90%, based on 146 sample flood claims. The current threshold labels these adjusters Moderate during catastrophe surges, when approved-adjuster capacity matters most.',
+    suggestionName: 'First Pass Acceptance Rate',
   },
   {
-    ruleId:        'ai-rule-ncm',
-    serviceName:   'Nurse Case Management',
-    metricLabel:   'Barrier Resolution Rate · Historical Outcomes',
-    currentRule:   'Good ≥ 75%',
-    suggestedRule: 'Good ≥ 70%',
-    description:   'NCM vendors resolving 70–75% of identified RTW barriers produce the same sustained outcomes (90-day retention) as vendors above 75%, based on 247 similar claims. The current threshold mislabels 1 in 5 high-performing vendors as Moderate.',
-    suggestionName: 'RTW Barrier Resolution Rate',
+    ruleId:        'ai-rule-mitigation',
+    serviceName:   '24/7 Loss Mitigation Contractors',
+    metricLabel:   'SLA Compliance % · Turnaround Time',
+    currentRule:   'Good ≥ 90%',
+    suggestedRule: 'Good ≥ 85%',
+    description:   'Mitigation contractors on site within the SLA for 85–90% of dispatches kept secondary water damage and mold claims at the same level as those above 90%, across 231 sample water-loss claims. The current threshold excludes about 1 in 4 capable vendors from the after-hours panel.',
+    suggestionName: 'SLA Compliance %',
   },
 ] as const;
 
@@ -539,20 +539,27 @@ export async function getAiRecommendations(_req: Request, res: Response): Promis
     ).lean();
     const acceptedGtIds = new Set(acceptedSections.map((s) => s.kpiMatricsGroupTrackingId));
 
-    const names = AI_REC_CONFIG.map((c) => c.suggestionName).filter(Boolean);
-    const groupTrackings = names.length
-      ? await KpiGroupTrackingModel.find({ kpiGroupTrackingSuggestion: { $in: names } }).lean()
+    // Resolve each card to the KPI of its own service (suggestion names repeat across services).
+    const db = mongoose.connection.db!;
+    const roleDocs = await db.collection('service_request_roles')
+      .find({ roleName: { $in: AI_REC_CONFIG.map((c) => c.serviceName) } }).toArray();
+    const roleIdByName = new Map(roleDocs.map((r) => [String(r['roleName']), String(r['roleId'] ?? '')]));
+    const kpis = await KpiMatricsModel.find({ serviceRequestRoleId: { $in: [...roleIdByName.values()] } }).lean();
+    const kpiIds = kpis.map((k) => k.kpiMatricsId);
+    const groupTrackings = kpiIds.length
+      ? await KpiGroupTrackingModel.find({ kpiMatricsId: { $in: kpiIds } }).lean()
       : [];
+    const kpiRole = new Map(kpis.map((k) => [k.kpiMatricsId, k.serviceRequestRoleId]));
     const gtIds    = groupTrackings.map((g) => g.kpiMatricsGroupTrackingId);
     const sections = gtIds.length
       ? await KpiFieldAndSectionsModel.find({ kpiMatricsGroupTrackingId: { $in: gtIds } }).lean()
       : [];
-    const sectionByGt    = new Map(sections.map((s) => [s.kpiMatricsGroupTrackingId, s]));
-    const gtBySuggestion = new Map(groupTrackings.map((g) => [g.kpiGroupTrackingSuggestion, g]));
+    const sectionByGt = new Map(sections.map((s) => [s.kpiMatricsGroupTrackingId, s]));
+    const gtByKey     = new Map(groupTrackings.map((g) => [`${kpiRole.get(g.kpiMatricsId)}|${g.kpiGroupTrackingSuggestion}`, g]));
 
     const data = AI_REC_CONFIG
       .map((cfg) => {
-        const gt      = cfg.suggestionName ? gtBySuggestion.get(cfg.suggestionName) : undefined;
+        const gt      = gtByKey.get(`${roleIdByName.get(cfg.serviceName)}|${cfg.suggestionName}`);
         const section = gt ? sectionByGt.get(gt.kpiMatricsGroupTrackingId) : undefined;
         if (gt && acceptedGtIds.has(gt.kpiMatricsGroupTrackingId)) return null;
         return {

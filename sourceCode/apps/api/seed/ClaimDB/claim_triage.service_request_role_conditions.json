@@ -553,7 +553,7 @@
     "roleId": "558e9abc-e33d-46fc-a519-839fafb746eb",
     "fieldName": "jurisdiction",
     "operator": "IN",
-    "value": "CA,TX,FL",
+    "value": "FL,TX,LA,AL,GA,SC,NC",
     "conditionType": "AND",
     "sortOrder": 2,
     "__v": 0
@@ -1240,10 +1240,10 @@
     },
     "conditionId": "14a4fe75-7486-4973-a3eb-2fe994c16ac6",
     "roleId": "1f5b97d6-24a7-4880-a10e-cf540be4089c",
-    "fieldName": "days_since_proof_of_loss",
-    "operator": ">=",
-    "value": "23",
-    "conditionType": "OR",
+    "fieldName": "jurisdiction",
+    "operator": "=",
+    "value": "FL",
+    "conditionType": "AND",
     "sortOrder": 2,
     "__v": 0
   },
@@ -1253,10 +1253,10 @@
     },
     "conditionId": "f25b8f8c-8b72-4b85-a489-4732d957e7b5",
     "roleId": "1f5b97d6-24a7-4880-a10e-cf540be4089c",
-    "fieldName": "inspection_completed_flag",
-    "operator": "=",
-    "value": "",
-    "conditionType": "AND",
+    "fieldName": "days_since_proof_of_loss",
+    "operator": ">=",
+    "value": "23",
+    "conditionType": "OR",
     "sortOrder": 3,
     "__v": 0
   },
@@ -1266,10 +1266,10 @@
     },
     "conditionId": "5ef9dbc2-2fa3-48f0-af34-7cdbf3a6bd9a",
     "roleId": "1f5b97d6-24a7-4880-a10e-cf540be4089c",
-    "fieldName": "days_since_notice",
-    "operator": ">=",
-    "value": "50",
-    "conditionType": "OR",
+    "fieldName": "inspection_completed_flag",
+    "operator": "=",
+    "value": "",
+    "conditionType": "AND",
     "sortOrder": 4,
     "__v": 0
   },
@@ -1279,11 +1279,50 @@
     },
     "conditionId": "0d8b9d1c-a9fb-4bc0-adaf-71b71d94a89e",
     "roleId": "1f5b97d6-24a7-4880-a10e-cf540be4089c",
+    "fieldName": "jurisdiction",
+    "operator": "=",
+    "value": "FL",
+    "conditionType": "AND",
+    "sortOrder": 5,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d6f56e6bcbc221020a39efe0"
+    },
+    "conditionId": "23a42849-e388-42ea-a801-36df0be43bca",
+    "roleId": "1f5b97d6-24a7-4880-a10e-cf540be4089c",
+    "fieldName": "days_since_notice",
+    "operator": ">=",
+    "value": "50",
+    "conditionType": "OR",
+    "sortOrder": 6,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e3a5bff1553f6c71d99fa9e8"
+    },
+    "conditionId": "aa9ba4ea-dfa3-4cfc-a2dc-2118a993de05",
+    "roleId": "1f5b97d6-24a7-4880-a10e-cf540be4089c",
     "fieldName": "payment_decision_issued_flag",
     "operator": "=",
     "value": "",
     "conditionType": "AND",
-    "sortOrder": 5,
+    "sortOrder": 7,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "1e1959caf0fdde9c2ab54f3f"
+    },
+    "conditionId": "e02f8457-4d63-4d34-a001-676d1259362e",
+    "roleId": "1f5b97d6-24a7-4880-a10e-cf540be4089c",
+    "fieldName": "jurisdiction",
+    "operator": "=",
+    "value": "FL",
+    "conditionType": "AND",
+    "sortOrder": 8,
     "__v": 0
   },
   {

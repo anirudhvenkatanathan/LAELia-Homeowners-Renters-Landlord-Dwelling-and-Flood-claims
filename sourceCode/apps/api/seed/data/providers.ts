@@ -1,4 +1,4 @@
-// Fictional Florida service providers for the demo. Every name, address, e-mail
+// Fictional service providers for the demo (mostly Florida, plus the wider Gulf and Southeast footprint). Every name, address, e-mail
 // and phone number is invented (e-mail uses the reserved .example domain,
 // phone numbers use the 555-01xx fictional range).
 export type ProviderStatus =
@@ -15,11 +15,16 @@ export interface ProviderDef {
   contact: string;
   rules: string[];         // exact rule names (see rules.ts)
   boosted?: boolean;
+  state?: string;          // full state name; defaults to Florida
 }
 
 const P = (company: string, city: string, county: string, rating: number, turnaround: string,
            contact: string, rules: string[], status: ProviderStatus = 'Active', coverage = 'FL', boosted = false): ProviderDef =>
   ({ company, city, county, rating, status, turnaround, coverage, contact, rules, boosted });
+
+const X = (company: string, city: string, county: string, state: string, coverage: string, rating: number, turnaround: string,
+           contact: string, rules: string[], status: ProviderStatus = 'Active', boosted = false): ProviderDef =>
+  ({ company, city, county, state, rating, status, turnaround, coverage, contact, rules, boosted });
 
 export const PROVIDERS: ProviderDef[] = [
   // 24/7 Loss Mitigation Contractors
@@ -121,4 +126,23 @@ export const PROVIDERS: ProviderDef[] = [
   P('Compliance Clock Services', 'Tallahassee', 'Leon', 4.4, '24 Hours', 'Celeste Rowe', ['Statutory Deadline Watch']),
   P('Fee & Waiver Audit Group', 'Orlando', 'Orange', 4.2, '5 Business Days', 'Dennis Hall', ['Deductible Waiver Review']),
   P('Integrity Review Associates', 'Miami', 'Miami-Dade', 4.0, '5 Business Days', 'Tasha Greene', ['Deductible Waiver Review'], 'Disqualified'),
+
+  // ── Wider footprint: Gulf and Southeast coast (fictional) ────────────────────
+  X('Lone Star Storm Response', 'Houston', 'Harris', 'Texas', 'TX, LA', 4.5, '12 Hours', 'Marcus Delaney', ['CAT Response', '24/7 Loss Mitigation Contractors'], 'Active', true),
+  X('Gulf Coast Flood Adjusters', 'Corpus Christi', 'Nueces', 'Texas', 'TX, LA, MS', 4.4, '2 Business Days', 'Renata Silva', ['NFIP Authorized Adjuster', 'Proof of Loss Follow-up', 'Waiting Period Review']),
+  X('Brazos Independent Adjusters', 'Dallas', 'Dallas', 'Texas', 'TX, OK', 4.1, '3 Business Days', 'Cole Hendricks', ['Independent Adjusters', 'Appraisers/Independent Adjusters', 'Estimate & Invoice Review']),
+  X('Bayou Restoration Partners', 'New Orleans', 'Orleans', 'Louisiana', 'LA, MS', 4.3, '6 Hours', 'Antoine Boudreaux', ['24/7 Loss Mitigation Contractors', 'Pack-out & Contents Cleaning']),
+  X('Crescent Flood Services', 'Baton Rouge', 'East Baton Rouge', 'Louisiana', 'LA', 4.2, '2 Business Days', 'Simone Arceneaux', ['NFIP Authorized Adjuster', 'Substantial Damage Determination', 'ICC Claim Handling']),
+  X('Mobile Bay Claims Group', 'Mobile', 'Mobile', 'Alabama', 'AL, MS, FL', 4.4, '3 Business Days', 'Tyrone Wells', ['Independent Adjusters', 'Roof Surface Review', 'Repair Network Referral']),
+  X('Yellowhammer Roof Inspections', 'Birmingham', 'Jefferson', 'Alabama', 'AL, GA', 4.0, '4 Business Days', 'Carla Whitfield', ['Roof Surface Review', 'Estimate & Invoice Review']),
+  X('Peach State Property Adjusters', 'Atlanta', 'Fulton', 'Georgia', 'GA, SC, AL', 4.3, '3 Business Days', 'Jamal Ellis', ['Independent Adjusters', 'Appraisers/Independent Adjusters', 'Coverage Verification & ROR']),
+  X('Lowcountry Coastal Claims', 'Savannah', 'Chatham', 'Georgia', 'GA, SC', 4.4, '2 Business Days', 'Hannah Dorsey', ['NFIP Authorized Adjuster', 'CAT Response', 'Contents Inventory & Valuation']),
+  X('Palmetto Recovery Group', 'Charleston', 'Charleston', 'South Carolina', 'SC, NC, GA', 4.5, '10 Business Days', 'Gideon Marsh', ['Subrogation', 'Tenant-Caused Loss Recovery', 'Legal']),
+  X('Holy City Mitigation', 'Charleston', 'Charleston', 'South Carolina', 'SC, NC', 4.2, '4 Hours', 'Beth Calloway', ['24/7 Loss Mitigation Contractors', 'Temporary Housing / ALE']),
+  X('Cape Fear Catastrophe Services', 'Wilmington', 'New Hanover', 'North Carolina', 'NC, SC', 4.3, '12 Hours', 'Russell Pike', ['CAT Response', 'Desk investigations']),
+  X('Outer Banks Flood Review', 'Wilmington', 'New Hanover', 'North Carolina', 'NC, SC, VA', 4.1, '3 Business Days', 'Mallory Quinn', ['NFIP Authorized Adjuster', 'NFIP Limit Exposure']),
 ];
+
+// Spread the Florida providers across neighbouring states so the coverage column shows a realistic footprint.
+const WIDER_COVERAGE = ['FL, GA, AL', 'FL, GA', 'FL, AL, MS', 'FL, SC, NC', 'FL, GA, SC'];
+PROVIDERS.forEach((pr, i) => { if (pr.coverage === 'FL' && i % 3 === 1) pr.coverage = WIDER_COVERAGE[(i / 3 | 0) % WIDER_COVERAGE.length]; });
