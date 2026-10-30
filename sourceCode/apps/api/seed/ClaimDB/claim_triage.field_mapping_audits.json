@@ -1,0 +1,16 @@
+[
+  {
+    "_id": {
+      "$oid": "e0731b5a6653648c7b7a6bd0"
+    },
+    "auditId": "f51b7137-6517-416b-a6ed-3f5812566e1b",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "action": "UPLOAD",
+    "performedBy": "Admin",
+    "performedDate": {
+      "$date": "2026-09-15T12:00:00.000Z"
+    },
+    "remarks": "Property field mapping loaded",
+    "__v": 0
+  }
+]

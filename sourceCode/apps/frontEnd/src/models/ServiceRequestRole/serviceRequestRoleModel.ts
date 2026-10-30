@@ -128,7 +128,7 @@ export interface NlpFieldMapping {
 
 export const CONDITION_TYPES     = ['AND', 'OR'] as const;
 export const ROLE_STATUS_OPTIONS = ['Active', 'Inactive'] as const;
-export const LINE_OF_BUSINESS_OPTIONS = ['WCM', 'Auto', 'General Liability', 'Property'] as const;
+export const LINE_OF_BUSINESS_OPTIONS = ['Homeowners', 'Renters', 'Landlord', 'Dwelling', 'Flood'] as const;
 
 // ─── Condition Summary Builder ────────────────────────────────────────────────
 

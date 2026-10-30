@@ -1,0 +1,72 @@
+[
+  {
+    "_id": {
+      "$oid": "e602ece396f9f572d934b016"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "action": "UPLOAD",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-25T12:00:00.000Z"
+    },
+    "status": "Processed",
+    "remarks": "JSON upload — 15 record(s)",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ad8ec4949536e9ed7a7bf0e6"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "action": "UPLOAD",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-26T12:00:00.000Z"
+    },
+    "status": "Processed",
+    "remarks": "JSON upload — 15 record(s)",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5aec167e9f127e7dda136969"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "action": "UPLOAD",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-27T12:00:00.000Z"
+    },
+    "status": "Processed",
+    "remarks": "JSON upload — 15 record(s)",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "3ccb9b42c21356c7fa164daa"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "action": "UPLOAD",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-28T12:00:00.000Z"
+    },
+    "status": "Processed",
+    "remarks": "JSON upload — 15 record(s)",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d7e78fee80b94545074e52cc"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "action": "UPLOAD",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-29T12:00:00.000Z"
+    },
+    "status": "Processed",
+    "remarks": "JSON upload — 15 record(s)",
+    "__v": 0
+  }
+]

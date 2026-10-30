@@ -355,8 +355,8 @@ describe('DashboardMaster — Executive Overview', () => {
     const { container } = render(<DashboardMaster />, { wrapper: Wrapper });
     await waitFor(() => {
       expect(screen.getByText('LAE Savings Trend')).toBeInTheDocument();
-      expect(screen.getByText('Medical Savings Trend')).toBeInTheDocument();
-      expect(screen.getByText('Indemnity Savings Trend')).toBeInTheDocument();
+      expect(screen.getByText('Repair Cost Savings Trend')).toBeInTheDocument();
+      expect(screen.getByText('Contents & ALE Savings Trend')).toBeInTheDocument();
       expect(screen.getByText('Subrogation Recovery Trend')).toBeInTheDocument();
       const heroValues = container.querySelectorAll('.chart-hero-value');
       expect(heroValues[0].textContent).toBe('18.6%');

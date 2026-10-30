@@ -59,7 +59,7 @@ vi.mock('../../../../utils/kpiScoring',          () => ({
 vi.mock('../../../../utils/claimSummaryMockData', () => ({
   getClaimSummaryData: vi.fn(() => ({
     items: [], signals: [], footerNote: '',
-    injury: { label: 'lumbar strain', icd: 'M54.5', bodyPart: 'Lumbar spine', description: 'lumbar strain to the lower back' },
+    loss: { label: 'water damage', policyForm: 'HO3', area: 'Kitchen', description: 'water damage to the kitchen' },
   })),
 }));
 
@@ -83,21 +83,21 @@ const IME_ROLE_ID    = 'role-ime';
 const PT_ROLE_ID     = 'role-pt';
 
 const SAMPLE_ROLES = [
-  { roleId: NURSE_ROLE_ID, uploadId: 'upload-1', roleName: 'Nurse case management', description: '', status: 'Active', nlpCondition: '', conditionExpression: '', nlpConditionInWords: '' },
-  { roleId: IME_ROLE_ID,   uploadId: 'upload-1', roleName: 'IME / peer review',      description: '', status: 'Active', nlpCondition: '', conditionExpression: '', nlpConditionInWords: '' },
+  { roleId: NURSE_ROLE_ID, uploadId: 'upload-1', roleName: 'Nurse case management', description: '', status: 'Active', lineOfBusiness: ['Homeowners'], nlpCondition: '', conditionExpression: '', nlpConditionInWords: '' },
+  { roleId: IME_ROLE_ID,   uploadId: 'upload-1', roleName: 'IME / peer review',      description: '', status: 'Active', lineOfBusiness: ['Homeowners'], nlpCondition: '', conditionExpression: '', nlpConditionInWords: '' },
   // Not part of the record's plan at all — renders SUGGESTED/inactive, so a
   // Supervisor enabling it exercises the "turn a service on" path rather
   // than reviewing one the Adjuster already touched.
-  { roleId: PT_ROLE_ID,    uploadId: 'upload-1', roleName: 'Physical Therapy',       description: '', status: 'Active', nlpCondition: '', conditionExpression: '', nlpConditionInWords: '' },
+  { roleId: PT_ROLE_ID,    uploadId: 'upload-1', roleName: 'Physical Therapy',       description: '', status: 'Active', lineOfBusiness: ['Homeowners'], nlpCondition: '', conditionExpression: '', nlpConditionInWords: '' },
 ];
 
 function makeRecord(overrides: Partial<Record<string, unknown>> = {}) {
   return {
     recordIndex: 0,
-    claimNumber: 'WCM-TEST-001',
+    claimNumber: 'HO-TEST-001',
     policyNumber: 'POL-001',
     insuredName: 'John Doe',
-    claimType: 'Medical',
+    claimType: 'Homeowners',
     lossDate: '2026-01-01',
     reportedDate: '2026-01-02',
     claimAmount: '5000',

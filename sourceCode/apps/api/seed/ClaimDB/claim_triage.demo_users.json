@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "6a587cc18ca8efb9561d3b18"
+  },
+  "loginId": "admin-login-001",
+  "__v": 0,
+  "createdBy": "system",
+  "createdTime": {
+    "$date": "2026-07-16T06:40:01.513Z"
+  },
+  "email": "admin@laelia.com",
+  "menuIds": [
+    "menu-dashboard-001",
+    "menu-admin-vendor-management-001",
+    "menu-admin-vendor-onboarding-001",
+    "menu-admin-vendor-panel-001",
+    "menu-admin-kpi-metrics",
+    "menu-vendor-request-001",
+    "menu-service-request-role-001"
+  ],
+  "password": "admin@123",
+  "roleName": "Admin",
+  "updatedBy": "system",
+  "updatedTime": {
+    "$date": "2026-07-16T06:40:01.513Z"
+  },
+  "username": "admin"
+},
+{
+  "_id": {
+    "$oid": "6a587cc18ca8efb9561d3b19"
+  },
+  "loginId": "adjuster-login-001",
+  "__v": 0,
+  "createdBy": "system",
+  "createdTime": {
+    "$date": "2026-07-16T06:40:01.562Z"
+  },
+  "email": "claimsadj@laelia.com",
+  "menuIds": [
+    "menu-claim-intake-001"
+  ],
+  "password": "client@123",
+  "roleName": "Claims Adjuster",
+  "updatedBy": "system",
+  "updatedTime": {
+    "$date": "2026-07-16T06:40:01.562Z"
+  },
+  "username": "claimsadj"
+},
+{
+  "_id": {
+    "$oid": "6a587cc18ca8efb9561d3b1a"
+  },
+  "loginId": "supervisor-login-001",
+  "__v": 0,
+  "createdBy": "system",
+  "createdTime": {
+    "$date": "2026-07-16T06:40:01.565Z"
+  },
+  "email": "claimssupr@laelia.com",
+  "menuIds": [
+    "menu-dashboard-001",
+    "menu-admin-vendor-management-001",
+    "menu-admin-vendor-onboarding-001",
+    "menu-admin-vendor-panel-001",
+    "menu-admin-kpi-metrics",
+    "menu-vendor-request-001",
+    "menu-service-request-role-001",
+    "menu-claim-intake-001",
+    "menu-admin-analytics-insight-001"
+  ],
+  "password": "client@123",
+  "roleName": "Claims Supervisor",
+  "updatedBy": "system",
+  "updatedTime": {
+    "$date": "2026-07-16T06:40:01.565Z"
+  },
+  "username": "claimssupr"
+}]

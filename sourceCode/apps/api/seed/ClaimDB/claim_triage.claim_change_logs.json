@@ -1,0 +1,6032 @@
+[
+  {
+    "_id": {
+      "$oid": "720f1e21aa27aa148ce0bc09"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 1,
+    "claimNumber": "HO-2026-100001",
+    "type": "role",
+    "changedItem": "24/7 Loss Mitigation Contractors",
+    "previousValue": "—",
+    "updatedValue": "24/7 Loss Mitigation Contractors",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-02T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6512b935399b5a9dbbd1e4cd"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 1,
+    "claimNumber": "HO-2026-100001",
+    "type": "vendor",
+    "changedItem": "Sunstate Water Mitigation",
+    "previousValue": "Gulfshore Restoration Group",
+    "updatedValue": "Sunstate Water Mitigation",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-02T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e354d14f65a020496c50042c"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 1,
+    "claimNumber": "HO-2026-100001",
+    "type": "role",
+    "changedItem": "CAT Response",
+    "previousValue": "—",
+    "updatedValue": "CAT Response",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-02T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "571f9fb77b6ac47fa60fad00"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 1,
+    "claimNumber": "HO-2026-100001",
+    "type": "vendor",
+    "changedItem": "Gulfshore Restoration Group",
+    "previousValue": "Gulfshore Restoration Group",
+    "updatedValue": "Gulfshore Restoration Group",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-02T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "9548ac05709c624f4a7585b1"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 1,
+    "claimNumber": "HO-2026-100001",
+    "type": "role",
+    "changedItem": "Repair Network Referral",
+    "previousValue": "—",
+    "updatedValue": "Repair Network Referral",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-02T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "52e94efa75db44145e745603"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 1,
+    "claimNumber": "HO-2026-100001",
+    "type": "vendor",
+    "changedItem": "Sunstate Roofing Inspections",
+    "previousValue": "Sunstate Roofing Inspections",
+    "updatedValue": "Sunstate Roofing Inspections",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-02T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "064be092f2ad6caf1ff26ae8"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 1,
+    "claimNumber": "HO-2026-100001",
+    "type": "role",
+    "changedItem": "Estimate & Invoice Review",
+    "previousValue": "—",
+    "updatedValue": "Estimate & Invoice Review",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-02T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ec176039ba92f6c1c2f9aa3a"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 1,
+    "claimNumber": "HO-2026-100001",
+    "type": "vendor",
+    "changedItem": "Coastal Claim Estimators",
+    "previousValue": "Coastal Claim Estimators",
+    "updatedValue": "Coastal Claim Estimators",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-02T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f37f3089b724aa40da8c319f"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 1,
+    "claimNumber": "HO-2026-100001",
+    "type": "role",
+    "changedItem": "Roof Surface Review",
+    "previousValue": "—",
+    "updatedValue": "Roof Surface Review",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-02T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a9875bc67d498ea54617c3e9"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 1,
+    "claimNumber": "HO-2026-100001",
+    "type": "vendor",
+    "changedItem": "Sunstate Roofing Inspections",
+    "previousValue": "Sunstate Roofing Inspections",
+    "updatedValue": "Sunstate Roofing Inspections",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-02T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "96f8656c2402ece3a67f44c3"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 1,
+    "claimNumber": "HO-2026-100001",
+    "type": "role",
+    "changedItem": "Temporary Housing / ALE",
+    "previousValue": "—",
+    "updatedValue": "Temporary Housing / ALE",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-02T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "449e5230ad16e46d88a8cd14"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 1,
+    "claimNumber": "HO-2026-100001",
+    "type": "vendor",
+    "changedItem": "Safe Harbor Temporary Housing",
+    "previousValue": "Safe Harbor Temporary Housing",
+    "updatedValue": "Safe Harbor Temporary Housing",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-02T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a802e2b10fb1bfff334fc1a3"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 3,
+    "claimNumber": "HO-2026-100003",
+    "type": "role",
+    "changedItem": "Cause & Origin Specialists",
+    "previousValue": "—",
+    "updatedValue": "Cause & Origin Specialists",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f1e46852fccba57e70d22958"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 3,
+    "claimNumber": "HO-2026-100003",
+    "type": "vendor",
+    "changedItem": "Tri-County Fire Analysis",
+    "previousValue": "Everglades Cause & Origin",
+    "updatedValue": "Tri-County Fire Analysis",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f01ad3eb95e6d4c6f061d353"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 3,
+    "claimNumber": "HO-2026-100003",
+    "type": "role",
+    "changedItem": "Forensic Engineers",
+    "previousValue": "—",
+    "updatedValue": "Forensic Engineers",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a3d3fe3aa640638b3dbc2592"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 3,
+    "claimNumber": "HO-2026-100003",
+    "type": "vendor",
+    "changedItem": "Harbor Forensic Engineering",
+    "previousValue": "Harbor Forensic Engineering",
+    "updatedValue": "Harbor Forensic Engineering",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "c8903f3f8a7a1c817ec4852a"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 3,
+    "claimNumber": "HO-2026-100003",
+    "type": "role",
+    "changedItem": "Legal",
+    "previousValue": "—",
+    "updatedValue": "Legal",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5663ba1f3ebba6fdd0d2d9ed"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 3,
+    "claimNumber": "HO-2026-100003",
+    "type": "vendor",
+    "changedItem": "Sawgrass Insurance Law Group",
+    "previousValue": "Sawgrass Insurance Law Group",
+    "updatedValue": "Sawgrass Insurance Law Group",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "4dfc45b9bbc4f9358d5f2937"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 3,
+    "claimNumber": "HO-2026-100003",
+    "type": "role",
+    "changedItem": "Scene Investigation & Official Reports",
+    "previousValue": "—",
+    "updatedValue": "Scene Investigation & Official Reports",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "36efe578a2b8c636b16a7971"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 3,
+    "claimNumber": "HO-2026-100003",
+    "type": "vendor",
+    "changedItem": "Tri-County Fire Analysis",
+    "previousValue": "Tri-County Fire Analysis",
+    "updatedValue": "Tri-County Fire Analysis",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "49e2dd237918a0a531a7a4ff"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 3,
+    "claimNumber": "HO-2026-100003",
+    "type": "role",
+    "changedItem": "Estimate & Invoice Review",
+    "previousValue": "—",
+    "updatedValue": "Estimate & Invoice Review",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a3ff5f4c1fb1b7a3e5a63a60"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 3,
+    "claimNumber": "HO-2026-100003",
+    "type": "vendor",
+    "changedItem": "Coastal Claim Estimators",
+    "previousValue": "Coastal Claim Estimators",
+    "updatedValue": "Coastal Claim Estimators",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "316ffd25a57656be70a971a6"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 3,
+    "claimNumber": "HO-2026-100003",
+    "type": "role",
+    "changedItem": "Contents Inventory & Valuation",
+    "previousValue": "—",
+    "updatedValue": "Contents Inventory & Valuation",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "360688467bfa8d9412d790c4"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 3,
+    "claimNumber": "HO-2026-100003",
+    "type": "vendor",
+    "changedItem": "Keystone Contents Services",
+    "previousValue": "Keystone Contents Services",
+    "updatedValue": "Keystone Contents Services",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f3dfd6688b9fdd4317c8a882"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 3,
+    "claimNumber": "HO-2026-100003",
+    "type": "role",
+    "changedItem": "Pack-out & Contents Cleaning",
+    "previousValue": "—",
+    "updatedValue": "Pack-out & Contents Cleaning",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66d642cbd4d5636a29e369a6"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 3,
+    "claimNumber": "HO-2026-100003",
+    "type": "vendor",
+    "changedItem": "Gulfshore Restoration Group",
+    "previousValue": "Gulfshore Restoration Group",
+    "updatedValue": "Gulfshore Restoration Group",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "236221fe8e4d8acfe59a84f9"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 3,
+    "claimNumber": "HO-2026-100003",
+    "type": "role",
+    "changedItem": "Temporary Housing / ALE",
+    "previousValue": "—",
+    "updatedValue": "Temporary Housing / ALE",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ed661d87c112307e0a248e72"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 3,
+    "claimNumber": "HO-2026-100003",
+    "type": "vendor",
+    "changedItem": "Safe Harbor Temporary Housing",
+    "previousValue": "Safe Harbor Temporary Housing",
+    "updatedValue": "Safe Harbor Temporary Housing",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "c8903f3f8a7a1c817ec4852a"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 3,
+    "claimNumber": "HO-2026-100003",
+    "type": "role",
+    "changedItem": "Legal",
+    "previousValue": "—",
+    "updatedValue": "Legal",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5663ba1f3ebba6fdd0d2d9ed"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 3,
+    "claimNumber": "HO-2026-100003",
+    "type": "vendor",
+    "changedItem": "Sawgrass Insurance Law Group",
+    "previousValue": "—",
+    "updatedValue": "Sawgrass Insurance Law Group",
+    "reason": "Coverage position needs counsel",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "9cafb59e061739eddf55f812"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 6,
+    "claimNumber": "HO-2026-100006",
+    "type": "role",
+    "changedItem": "24/7 Loss Mitigation Contractors",
+    "previousValue": "—",
+    "updatedValue": "24/7 Loss Mitigation Contractors",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-11T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "7e7a61d9bad8dfbb9f79df70"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 6,
+    "claimNumber": "HO-2026-100006",
+    "type": "vendor",
+    "changedItem": "Sunstate Water Mitigation",
+    "previousValue": "Gulfshore Restoration Group",
+    "updatedValue": "Sunstate Water Mitigation",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-11T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "884d2f706918625400b32b5c"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 6,
+    "claimNumber": "HO-2026-100006",
+    "type": "role",
+    "changedItem": "Coverage Verification & ROR",
+    "previousValue": "—",
+    "updatedValue": "Coverage Verification & ROR",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-11T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d052c7c6f1cf9dd1ef60a520"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 6,
+    "claimNumber": "HO-2026-100006",
+    "type": "vendor",
+    "changedItem": "Magnolia Coverage Counsel",
+    "previousValue": "Magnolia Coverage Counsel",
+    "updatedValue": "Magnolia Coverage Counsel",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-11T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6708fa9de553d4f19f0dd3f2"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 6,
+    "claimNumber": "HO-2026-100006",
+    "type": "role",
+    "changedItem": "Legal",
+    "previousValue": "—",
+    "updatedValue": "Legal",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-11T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "9550012ee03ac0d0a9b22a2a"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 6,
+    "claimNumber": "HO-2026-100006",
+    "type": "vendor",
+    "changedItem": "Sawgrass Insurance Law Group",
+    "previousValue": "—",
+    "updatedValue": "Sawgrass Insurance Law Group",
+    "reason": "Coverage position needs counsel",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-11T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f20a47e9565be7651ec37daf"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 7,
+    "claimNumber": "HO-2026-100007",
+    "type": "role",
+    "changedItem": "24/7 Loss Mitigation Contractors",
+    "previousValue": "—",
+    "updatedValue": "24/7 Loss Mitigation Contractors",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-07T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6dcb4c6d13332fee00e958ae"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 7,
+    "claimNumber": "HO-2026-100007",
+    "type": "vendor",
+    "changedItem": "Sunstate Water Mitigation",
+    "previousValue": "Gulfshore Restoration Group",
+    "updatedValue": "Sunstate Water Mitigation",
+    "reason": "Faster arrival time",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-07T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "11f3ac1f2eed9ee7fb047a55"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 7,
+    "claimNumber": "HO-2026-100007",
+    "type": "role",
+    "changedItem": "Estimate & Invoice Review",
+    "previousValue": "—",
+    "updatedValue": "Estimate & Invoice Review",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-07T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e4469c778ead9c8faf830487"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 7,
+    "claimNumber": "HO-2026-100007",
+    "type": "vendor",
+    "changedItem": "Coastal Claim Estimators",
+    "previousValue": "Coastal Claim Estimators",
+    "updatedValue": "Coastal Claim Estimators",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-07T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "8222199a9cc06a2717a0ffc8"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 7,
+    "claimNumber": "HO-2026-100007",
+    "type": "role",
+    "changedItem": "Public Adjuster / Appraisal",
+    "previousValue": "—",
+    "updatedValue": "Public Adjuster / Appraisal",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-07T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a4941efae83580a66f0cfdad"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 7,
+    "claimNumber": "HO-2026-100007",
+    "type": "vendor",
+    "changedItem": "Sawgrass Insurance Law Group",
+    "previousValue": "Sawgrass Insurance Law Group",
+    "updatedValue": "Sawgrass Insurance Law Group",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-07T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "19154386051d7a1280c544b9"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 7,
+    "claimNumber": "HO-2026-100007",
+    "type": "role",
+    "changedItem": "Roof Surface Review",
+    "previousValue": "—",
+    "updatedValue": "Roof Surface Review",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-07T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e7859a2080279da75f44154b"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 7,
+    "claimNumber": "HO-2026-100007",
+    "type": "vendor",
+    "changedItem": "Sunstate Roofing Inspections",
+    "previousValue": "Sunstate Roofing Inspections",
+    "updatedValue": "Sunstate Roofing Inspections",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-07T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "eb4473e0e5b40de92d597cc1"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 7,
+    "claimNumber": "HO-2026-100007",
+    "type": "role",
+    "changedItem": "Forensic Accountant",
+    "previousValue": "—",
+    "updatedValue": "Forensic Accountant",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-07T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "7e53f448079c61bf960d4139"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 7,
+    "claimNumber": "HO-2026-100007",
+    "type": "vendor",
+    "changedItem": "Lakeshore Forensic Accounting",
+    "previousValue": "—",
+    "updatedValue": "Lakeshore Forensic Accounting",
+    "reason": "Rent loss needs validating",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-07T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "12126c214cf37221a6ac1062"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 8,
+    "claimNumber": "HO-2026-100008",
+    "type": "role",
+    "changedItem": "Cause & Origin Specialists",
+    "previousValue": "—",
+    "updatedValue": "Cause & Origin Specialists",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-09T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d3c40e08a2a7373e7730ba8a"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 8,
+    "claimNumber": "HO-2026-100008",
+    "type": "vendor",
+    "changedItem": "Tri-County Fire Analysis",
+    "previousValue": "Everglades Cause & Origin",
+    "updatedValue": "Tri-County Fire Analysis",
+    "reason": "Faster arrival time",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-09T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "7bd3c9b24dd21b42a61ea0c7"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 8,
+    "claimNumber": "HO-2026-100008",
+    "type": "role",
+    "changedItem": "Forensic Engineers",
+    "previousValue": "—",
+    "updatedValue": "Forensic Engineers",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-09T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5c4c73aabeb56554515bd209"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 8,
+    "claimNumber": "HO-2026-100008",
+    "type": "vendor",
+    "changedItem": "Harbor Forensic Engineering",
+    "previousValue": "Harbor Forensic Engineering",
+    "updatedValue": "Harbor Forensic Engineering",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-09T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "0757252a381b2c5b770307ee"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 8,
+    "claimNumber": "HO-2026-100008",
+    "type": "role",
+    "changedItem": "Legal",
+    "previousValue": "—",
+    "updatedValue": "Legal",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-09T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "dd7718661fb8859a495b513b"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 8,
+    "claimNumber": "HO-2026-100008",
+    "type": "vendor",
+    "changedItem": "Sawgrass Insurance Law Group",
+    "previousValue": "Sawgrass Insurance Law Group",
+    "updatedValue": "Sawgrass Insurance Law Group",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-09T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "7fd826cf125686e19961f0d9"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 8,
+    "claimNumber": "HO-2026-100008",
+    "type": "role",
+    "changedItem": "Independent Adjusters",
+    "previousValue": "—",
+    "updatedValue": "Independent Adjusters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-09T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "767771a0baabc87d1e278d57"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 8,
+    "claimNumber": "HO-2026-100008",
+    "type": "vendor",
+    "changedItem": "Bayfront Independent Adjusters",
+    "previousValue": "Bayfront Independent Adjusters",
+    "updatedValue": "Bayfront Independent Adjusters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-09T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f8de67b4d457e8bfc660e608"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 8,
+    "claimNumber": "HO-2026-100008",
+    "type": "role",
+    "changedItem": "Subrogation",
+    "previousValue": "—",
+    "updatedValue": "Subrogation",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-09T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "114d2858c8cd35473e4e31b5"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 8,
+    "claimNumber": "HO-2026-100008",
+    "type": "vendor",
+    "changedItem": "Tidewater Recovery Partners",
+    "previousValue": "Tidewater Recovery Partners",
+    "updatedValue": "Tidewater Recovery Partners",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-09T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ffc19fc71d47653480047870"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 8,
+    "claimNumber": "HO-2026-100008",
+    "type": "role",
+    "changedItem": "Desk investigations",
+    "previousValue": "—",
+    "updatedValue": "Desk investigations",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-09T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e84012b8e5a28452d53e87c6"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 8,
+    "claimNumber": "HO-2026-100008",
+    "type": "vendor",
+    "changedItem": "Meridian Desk Investigations",
+    "previousValue": "Meridian Desk Investigations",
+    "updatedValue": "Meridian Desk Investigations",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-09T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "04ef86994bc50d14b90b17e9"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 8,
+    "claimNumber": "HO-2026-100008",
+    "type": "role",
+    "changedItem": "Forensic Accountant",
+    "previousValue": "—",
+    "updatedValue": "Forensic Accountant",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-09T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d94a32134b03f66771034522"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 10,
+    "claimNumber": "HO-2026-100010",
+    "type": "role",
+    "changedItem": "24/7 Loss Mitigation Contractors",
+    "previousValue": "—",
+    "updatedValue": "24/7 Loss Mitigation Contractors",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-10T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "8319c5b761708e88fe03e12c"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 10,
+    "claimNumber": "HO-2026-100010",
+    "type": "vendor",
+    "changedItem": "Sunstate Water Mitigation",
+    "previousValue": "Gulfshore Restoration Group",
+    "updatedValue": "Sunstate Water Mitigation",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-10T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a9393b8d732980d19244cb4d"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 10,
+    "claimNumber": "HO-2026-100010",
+    "type": "role",
+    "changedItem": "Appraisers/Independent Adjusters",
+    "previousValue": "—",
+    "updatedValue": "Appraisers/Independent Adjusters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-10T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "436c1ffa39cb5db9761b1fe0"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 10,
+    "claimNumber": "HO-2026-100010",
+    "type": "vendor",
+    "changedItem": "Coastal Claim Estimators",
+    "previousValue": "Coastal Claim Estimators",
+    "updatedValue": "Coastal Claim Estimators",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-10T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "46a06dd99e6b9654a3cf0b06"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 10,
+    "claimNumber": "HO-2026-100010",
+    "type": "role",
+    "changedItem": "Repair Network Referral",
+    "previousValue": "—",
+    "updatedValue": "Repair Network Referral",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-10T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "c406e3387629274c135ae90d"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 10,
+    "claimNumber": "HO-2026-100010",
+    "type": "vendor",
+    "changedItem": "Sunstate Roofing Inspections",
+    "previousValue": "Sunstate Roofing Inspections",
+    "updatedValue": "Sunstate Roofing Inspections",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-10T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "72319c026dc6b06aadd61068"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 10,
+    "claimNumber": "HO-2026-100010",
+    "type": "role",
+    "changedItem": "Estimate & Invoice Review",
+    "previousValue": "—",
+    "updatedValue": "Estimate & Invoice Review",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-10T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67af5f82b78c8dec8fcf0c52"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 10,
+    "claimNumber": "HO-2026-100010",
+    "type": "vendor",
+    "changedItem": "Coastal Claim Estimators",
+    "previousValue": "Coastal Claim Estimators",
+    "updatedValue": "Coastal Claim Estimators",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-10T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "0254d539aa506703398a5e3d"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 10,
+    "claimNumber": "HO-2026-100010",
+    "type": "role",
+    "changedItem": "Temporary Housing / ALE",
+    "previousValue": "—",
+    "updatedValue": "Temporary Housing / ALE",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-10T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "b5764a473ca9590bff72c794"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 10,
+    "claimNumber": "HO-2026-100010",
+    "type": "vendor",
+    "changedItem": "Safe Harbor Temporary Housing",
+    "previousValue": "Safe Harbor Temporary Housing",
+    "updatedValue": "Safe Harbor Temporary Housing",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-10T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "da1f7f4e5d9052fa0f6b27af"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 12,
+    "claimNumber": "HO-2026-100012",
+    "type": "role",
+    "changedItem": "Decision letters",
+    "previousValue": "—",
+    "updatedValue": "Decision letters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-01T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "0396819dfadcfe1e340d8be6"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 12,
+    "claimNumber": "HO-2026-100012",
+    "type": "vendor",
+    "changedItem": "Clarity Claim Letters",
+    "previousValue": "Clarity Claim Letters",
+    "updatedValue": "Clarity Claim Letters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-01T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6553438e64175bdeffde6bdd"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 15,
+    "claimNumber": "HO-2026-100015",
+    "type": "role",
+    "changedItem": "Decision letters",
+    "previousValue": "—",
+    "updatedValue": "Decision letters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-08-15T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "87c8d1c6a00b8b0fb6c39a79"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 15,
+    "claimNumber": "HO-2026-100015",
+    "type": "vendor",
+    "changedItem": "Clarity Claim Letters",
+    "previousValue": "Clarity Claim Letters",
+    "updatedValue": "Clarity Claim Letters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-08-15T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e28b2cada2b3276d107441db"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 2,
+    "claimNumber": "RN-2026-100102",
+    "type": "role",
+    "changedItem": "Scene Investigation & Official Reports",
+    "previousValue": "—",
+    "updatedValue": "Scene Investigation & Official Reports",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-15T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "8d906a16fec5154f9b6d3b1d"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 2,
+    "claimNumber": "RN-2026-100102",
+    "type": "vendor",
+    "changedItem": "Northpoint Special Investigations",
+    "previousValue": "Tri-County Fire Analysis",
+    "updatedValue": "Northpoint Special Investigations",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-15T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "bede187398de456b41fcbf14"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 2,
+    "claimNumber": "RN-2026-100102",
+    "type": "role",
+    "changedItem": "Contents Inventory & Valuation",
+    "previousValue": "—",
+    "updatedValue": "Contents Inventory & Valuation",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-15T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d94c85a56a6236c1979d82e6"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 2,
+    "claimNumber": "RN-2026-100102",
+    "type": "vendor",
+    "changedItem": "Keystone Contents Services",
+    "previousValue": "Keystone Contents Services",
+    "updatedValue": "Keystone Contents Services",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-15T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "732185144051788f258a0258"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 2,
+    "claimNumber": "RN-2026-100102",
+    "type": "role",
+    "changedItem": "Pack-out & Contents Cleaning",
+    "previousValue": "—",
+    "updatedValue": "Pack-out & Contents Cleaning",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-15T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e05ee8365f92c200e19a0fdf"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 2,
+    "claimNumber": "RN-2026-100102",
+    "type": "vendor",
+    "changedItem": "Gulfshore Restoration Group",
+    "previousValue": "Gulfshore Restoration Group",
+    "updatedValue": "Gulfshore Restoration Group",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-15T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "2113b5df6262b9d41631ba71"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 2,
+    "claimNumber": "RN-2026-100102",
+    "type": "role",
+    "changedItem": "Temporary Housing / ALE",
+    "previousValue": "—",
+    "updatedValue": "Temporary Housing / ALE",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-15T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64bf38afd7a4198ed0f56a94"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 2,
+    "claimNumber": "RN-2026-100102",
+    "type": "vendor",
+    "changedItem": "Safe Harbor Temporary Housing",
+    "previousValue": "Safe Harbor Temporary Housing",
+    "updatedValue": "Safe Harbor Temporary Housing",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-15T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "edba3ea89a8385c6e8dcd894"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 4,
+    "claimNumber": "RN-2026-100104",
+    "type": "role",
+    "changedItem": "CAT Response",
+    "previousValue": "—",
+    "updatedValue": "CAT Response",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-03T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "00d080e471ebef6d8a9dc512"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 4,
+    "claimNumber": "RN-2026-100104",
+    "type": "vendor",
+    "changedItem": "Stormline CAT Services",
+    "previousValue": "Gulfshore Restoration Group",
+    "updatedValue": "Stormline CAT Services",
+    "reason": "Faster arrival time",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-03T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "373a153e075f57efafbb041a"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 4,
+    "claimNumber": "RN-2026-100104",
+    "type": "role",
+    "changedItem": "Contents Inventory & Valuation",
+    "previousValue": "—",
+    "updatedValue": "Contents Inventory & Valuation",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-03T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6c48eebcda80523d011aeba8"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 4,
+    "claimNumber": "RN-2026-100104",
+    "type": "vendor",
+    "changedItem": "Keystone Contents Services",
+    "previousValue": "Keystone Contents Services",
+    "updatedValue": "Keystone Contents Services",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-03T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "7bdc33e683b6922793506a0a"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 4,
+    "claimNumber": "RN-2026-100104",
+    "type": "role",
+    "changedItem": "Temporary Housing / ALE",
+    "previousValue": "—",
+    "updatedValue": "Temporary Housing / ALE",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-03T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e49d12b433bfe7b9e561fbe3"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 4,
+    "claimNumber": "RN-2026-100104",
+    "type": "vendor",
+    "changedItem": "Safe Harbor Temporary Housing",
+    "previousValue": "Safe Harbor Temporary Housing",
+    "updatedValue": "Safe Harbor Temporary Housing",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-03T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e51ab055f44682bdacd83270"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 4,
+    "claimNumber": "RN-2026-100104",
+    "type": "role",
+    "changedItem": "Forensic Accountant",
+    "previousValue": "—",
+    "updatedValue": "Forensic Accountant",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-03T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d79cbdd6f343c6460303590d"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 5,
+    "claimNumber": "RN-2026-100105",
+    "type": "role",
+    "changedItem": "Cause & Origin Specialists",
+    "previousValue": "—",
+    "updatedValue": "Cause & Origin Specialists",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-19T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a1c2b94ae91d0899ca4e1cb0"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 5,
+    "claimNumber": "RN-2026-100105",
+    "type": "vendor",
+    "changedItem": "Tri-County Fire Analysis",
+    "previousValue": "Everglades Cause & Origin",
+    "updatedValue": "Tri-County Fire Analysis",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-19T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a0044c6b520c8ec39710fb33"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 5,
+    "claimNumber": "RN-2026-100105",
+    "type": "role",
+    "changedItem": "Legal",
+    "previousValue": "—",
+    "updatedValue": "Legal",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-19T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "46066e8e793ce60e2ce18024"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 5,
+    "claimNumber": "RN-2026-100105",
+    "type": "vendor",
+    "changedItem": "Sawgrass Insurance Law Group",
+    "previousValue": "Sawgrass Insurance Law Group",
+    "updatedValue": "Sawgrass Insurance Law Group",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-19T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6349889a341a1d5b454b2636"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 5,
+    "claimNumber": "RN-2026-100105",
+    "type": "role",
+    "changedItem": "Independent Adjusters",
+    "previousValue": "—",
+    "updatedValue": "Independent Adjusters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-19T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "82558766d80b56e0a238edea"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 5,
+    "claimNumber": "RN-2026-100105",
+    "type": "vendor",
+    "changedItem": "Bayfront Independent Adjusters",
+    "previousValue": "Bayfront Independent Adjusters",
+    "updatedValue": "Bayfront Independent Adjusters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-19T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "01e6c26a57c795ac54ea1ec2"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 5,
+    "claimNumber": "RN-2026-100105",
+    "type": "role",
+    "changedItem": "Desk investigations",
+    "previousValue": "—",
+    "updatedValue": "Desk investigations",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-19T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "911d9ed4cf824401e26551df"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 5,
+    "claimNumber": "RN-2026-100105",
+    "type": "vendor",
+    "changedItem": "Meridian Desk Investigations",
+    "previousValue": "Meridian Desk Investigations",
+    "updatedValue": "Meridian Desk Investigations",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-19T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "75b71dfa4099838bea7e64aa"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 5,
+    "claimNumber": "RN-2026-100105",
+    "type": "role",
+    "changedItem": "Contents Inventory & Valuation",
+    "previousValue": "—",
+    "updatedValue": "Contents Inventory & Valuation",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-19T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ed79fc8eac3adab5256eb3"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 5,
+    "claimNumber": "RN-2026-100105",
+    "type": "vendor",
+    "changedItem": "Keystone Contents Services",
+    "previousValue": "Keystone Contents Services",
+    "updatedValue": "Keystone Contents Services",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-19T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "811d35ba900ad025c6a42554"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 7,
+    "claimNumber": "RN-2026-100107",
+    "type": "role",
+    "changedItem": "Contents Inventory & Valuation",
+    "previousValue": "—",
+    "updatedValue": "Contents Inventory & Valuation",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-12T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "90c59a456f2db4259e0baa94"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 7,
+    "claimNumber": "RN-2026-100107",
+    "type": "vendor",
+    "changedItem": "Keystone Contents Services",
+    "previousValue": "Keystone Contents Services",
+    "updatedValue": "Keystone Contents Services",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-12T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e782fa9300e8b3d6707ac9ec"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 7,
+    "claimNumber": "RN-2026-100107",
+    "type": "role",
+    "changedItem": "Pack-out & Contents Cleaning",
+    "previousValue": "—",
+    "updatedValue": "Pack-out & Contents Cleaning",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-12T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "734551c97b799091c661c555"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 7,
+    "claimNumber": "RN-2026-100107",
+    "type": "vendor",
+    "changedItem": "Gulfshore Restoration Group",
+    "previousValue": "Gulfshore Restoration Group",
+    "updatedValue": "Gulfshore Restoration Group",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-12T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "20bb26f1cd5b6dcd824c5ae9"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 8,
+    "claimNumber": "RN-2026-100108",
+    "type": "role",
+    "changedItem": "Public Adjuster / Appraisal",
+    "previousValue": "—",
+    "updatedValue": "Public Adjuster / Appraisal",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "428df5356d2d94da879495d1"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 8,
+    "claimNumber": "RN-2026-100108",
+    "type": "vendor",
+    "changedItem": "Neutral Appraisal Group of Florida",
+    "previousValue": "Sawgrass Insurance Law Group",
+    "updatedValue": "Neutral Appraisal Group of Florida",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "7032a0a7296bc584422b9fd6"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 8,
+    "claimNumber": "RN-2026-100108",
+    "type": "role",
+    "changedItem": "Contents Inventory & Valuation",
+    "previousValue": "—",
+    "updatedValue": "Contents Inventory & Valuation",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "479e78ef59276263a4439f78"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 8,
+    "claimNumber": "RN-2026-100108",
+    "type": "vendor",
+    "changedItem": "Keystone Contents Services",
+    "previousValue": "Keystone Contents Services",
+    "updatedValue": "Keystone Contents Services",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6444137616dcf3fb0aef9f6d"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 10,
+    "claimNumber": "RN-2026-100110",
+    "type": "role",
+    "changedItem": "Decision letters",
+    "previousValue": "—",
+    "updatedValue": "Decision letters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-05T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f2ce68d5d38f1df690b58ef8"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 10,
+    "claimNumber": "RN-2026-100110",
+    "type": "vendor",
+    "changedItem": "Clarity Claim Letters",
+    "previousValue": "Clarity Claim Letters",
+    "updatedValue": "Clarity Claim Letters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-05T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "7c494410c91380dd90a1ba07"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 12,
+    "claimNumber": "RN-2026-100112",
+    "type": "role",
+    "changedItem": "Desk investigations",
+    "previousValue": "—",
+    "updatedValue": "Desk investigations",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-06T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "7dca7c12c37bae11117d7fad"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 12,
+    "claimNumber": "RN-2026-100112",
+    "type": "vendor",
+    "changedItem": "Northpoint Special Investigations",
+    "previousValue": "Meridian Desk Investigations",
+    "updatedValue": "Northpoint Special Investigations",
+    "reason": "Faster arrival time",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-06T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6b0c532a65e3f819bf8a211a"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 12,
+    "claimNumber": "RN-2026-100112",
+    "type": "role",
+    "changedItem": "Scene Investigation & Official Reports",
+    "previousValue": "—",
+    "updatedValue": "Scene Investigation & Official Reports",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-06T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "c43aadb7472396942002a98d"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 12,
+    "claimNumber": "RN-2026-100112",
+    "type": "vendor",
+    "changedItem": "Tri-County Fire Analysis",
+    "previousValue": "Tri-County Fire Analysis",
+    "updatedValue": "Tri-County Fire Analysis",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-06T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "888a72e89a1410f05a1b312c"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 12,
+    "claimNumber": "RN-2026-100112",
+    "type": "role",
+    "changedItem": "Contents Inventory & Valuation",
+    "previousValue": "—",
+    "updatedValue": "Contents Inventory & Valuation",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-06T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "b099ff745f08bfb305ad189f"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 12,
+    "claimNumber": "RN-2026-100112",
+    "type": "vendor",
+    "changedItem": "Keystone Contents Services",
+    "previousValue": "Keystone Contents Services",
+    "updatedValue": "Keystone Contents Services",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-06T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f61f9fa5464a004bb645f912"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 12,
+    "claimNumber": "RN-2026-100112",
+    "type": "role",
+    "changedItem": "Forensic Accountant",
+    "previousValue": "—",
+    "updatedValue": "Forensic Accountant",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-06T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "c03e1ce5414bf77f65bdd135"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 13,
+    "claimNumber": "RN-2026-100113",
+    "type": "role",
+    "changedItem": "CAT Response",
+    "previousValue": "—",
+    "updatedValue": "CAT Response",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-29T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "20b39c0809786e67b914aefa"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 13,
+    "claimNumber": "RN-2026-100113",
+    "type": "vendor",
+    "changedItem": "Gulfshore Restoration Group",
+    "previousValue": "Gulfshore Restoration Group",
+    "updatedValue": "Gulfshore Restoration Group",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-29T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "20a680b96c37506d757d84fd"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 13,
+    "claimNumber": "RN-2026-100113",
+    "type": "role",
+    "changedItem": "Contents Inventory & Valuation",
+    "previousValue": "—",
+    "updatedValue": "Contents Inventory & Valuation",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-29T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "3e7206903bbf518d7b477115"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 13,
+    "claimNumber": "RN-2026-100113",
+    "type": "vendor",
+    "changedItem": "Keystone Contents Services",
+    "previousValue": "Keystone Contents Services",
+    "updatedValue": "Keystone Contents Services",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-29T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6b69f2d9cd30c6d4f02eb833"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 13,
+    "claimNumber": "RN-2026-100113",
+    "type": "role",
+    "changedItem": "Temporary Housing / ALE",
+    "previousValue": "—",
+    "updatedValue": "Temporary Housing / ALE",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-29T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "61a541d3974bbb2da31f0691"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 13,
+    "claimNumber": "RN-2026-100113",
+    "type": "vendor",
+    "changedItem": "Safe Harbor Temporary Housing",
+    "previousValue": "Safe Harbor Temporary Housing",
+    "updatedValue": "Safe Harbor Temporary Housing",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-29T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "08f8fd007859f39b64bf8dcd"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 14,
+    "claimNumber": "RN-2026-100114",
+    "type": "role",
+    "changedItem": "Coverage Verification & ROR",
+    "previousValue": "—",
+    "updatedValue": "Coverage Verification & ROR",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-11T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "43b2eb53ffea10dea8e3718b"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 14,
+    "claimNumber": "RN-2026-100114",
+    "type": "vendor",
+    "changedItem": "Fidelity Coverage Review",
+    "previousValue": "Magnolia Coverage Counsel",
+    "updatedValue": "Fidelity Coverage Review",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-11T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "cecb7ad1c54ea2180fdc7e6f"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 14,
+    "claimNumber": "RN-2026-100114",
+    "type": "role",
+    "changedItem": "Contents Inventory & Valuation",
+    "previousValue": "—",
+    "updatedValue": "Contents Inventory & Valuation",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-11T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "254d7f6fe6906f2a2272d30a"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 14,
+    "claimNumber": "RN-2026-100114",
+    "type": "vendor",
+    "changedItem": "Keystone Contents Services",
+    "previousValue": "Keystone Contents Services",
+    "updatedValue": "Keystone Contents Services",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-11T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "db717dd3d970be7eb708e685"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 14,
+    "claimNumber": "RN-2026-100114",
+    "type": "role",
+    "changedItem": "Statutory Deadline Watch",
+    "previousValue": "—",
+    "updatedValue": "Statutory Deadline Watch",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-11T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "c9c731f9bff0b8d6853c065d"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 14,
+    "claimNumber": "RN-2026-100114",
+    "type": "vendor",
+    "changedItem": "Clarity Claim Letters",
+    "previousValue": "Clarity Claim Letters",
+    "updatedValue": "Clarity Claim Letters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-11T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d616f60c7584f37ecc782a02"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 1,
+    "claimNumber": "LL-2026-100201",
+    "type": "role",
+    "changedItem": "24/7 Loss Mitigation Contractors",
+    "previousValue": "—",
+    "updatedValue": "24/7 Loss Mitigation Contractors",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-09T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a734e9845ce125e35b13a70f"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 1,
+    "claimNumber": "LL-2026-100201",
+    "type": "vendor",
+    "changedItem": "Sunstate Water Mitigation",
+    "previousValue": "Gulfshore Restoration Group",
+    "updatedValue": "Sunstate Water Mitigation",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-09T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "91bb1118f17da49bee340ee5"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 1,
+    "claimNumber": "LL-2026-100201",
+    "type": "role",
+    "changedItem": "Forensic Accountant",
+    "previousValue": "—",
+    "updatedValue": "Forensic Accountant",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-09T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "4013501e51724533b2014d68"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 1,
+    "claimNumber": "LL-2026-100201",
+    "type": "vendor",
+    "changedItem": "Lakeshore Forensic Accounting",
+    "previousValue": "Lakeshore Forensic Accounting",
+    "updatedValue": "Lakeshore Forensic Accounting",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-09T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a1d40f00ffd142d6e6fcad2a"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 1,
+    "claimNumber": "LL-2026-100201",
+    "type": "role",
+    "changedItem": "Estimate & Invoice Review",
+    "previousValue": "—",
+    "updatedValue": "Estimate & Invoice Review",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-09T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "1b5586068202c5bcff458948"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 1,
+    "claimNumber": "LL-2026-100201",
+    "type": "vendor",
+    "changedItem": "Coastal Claim Estimators",
+    "previousValue": "Coastal Claim Estimators",
+    "updatedValue": "Coastal Claim Estimators",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-09T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "93df2d4fbb36a46f3126de6c"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 1,
+    "claimNumber": "LL-2026-100201",
+    "type": "role",
+    "changedItem": "Tenant-Caused Loss Recovery",
+    "previousValue": "—",
+    "updatedValue": "Tenant-Caused Loss Recovery",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-09T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "cb80c9d001f6a12da7d08252"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 1,
+    "claimNumber": "LL-2026-100201",
+    "type": "vendor",
+    "changedItem": "Tidewater Recovery Partners",
+    "previousValue": "Tidewater Recovery Partners",
+    "updatedValue": "Tidewater Recovery Partners",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-09T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "57ffef5ba13fb06885172168"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 3,
+    "claimNumber": "LL-2026-100203",
+    "type": "role",
+    "changedItem": "24/7 Loss Mitigation Contractors",
+    "previousValue": "—",
+    "updatedValue": "24/7 Loss Mitigation Contractors",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "80c9b56b8e541eaca2c03c0d"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 3,
+    "claimNumber": "LL-2026-100203",
+    "type": "vendor",
+    "changedItem": "Sunstate Water Mitigation",
+    "previousValue": "Gulfshore Restoration Group",
+    "updatedValue": "Sunstate Water Mitigation",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d7d4cd5a5e8a92b7799de3e6"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 3,
+    "claimNumber": "LL-2026-100203",
+    "type": "role",
+    "changedItem": "Estimate & Invoice Review",
+    "previousValue": "—",
+    "updatedValue": "Estimate & Invoice Review",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "1b6f91fd4b8827c224265be3"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 3,
+    "claimNumber": "LL-2026-100203",
+    "type": "vendor",
+    "changedItem": "Coastal Claim Estimators",
+    "previousValue": "Coastal Claim Estimators",
+    "updatedValue": "Coastal Claim Estimators",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "de72e32303b219af58b04332"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 3,
+    "claimNumber": "LL-2026-100203",
+    "type": "role",
+    "changedItem": "Coverage Verification & ROR",
+    "previousValue": "—",
+    "updatedValue": "Coverage Verification & ROR",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a35ad5546f1aa9243b6bac5b"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 3,
+    "claimNumber": "LL-2026-100203",
+    "type": "vendor",
+    "changedItem": "Magnolia Coverage Counsel",
+    "previousValue": "Magnolia Coverage Counsel",
+    "updatedValue": "Magnolia Coverage Counsel",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "8ceddbc28d9550300a630fc4"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 3,
+    "claimNumber": "LL-2026-100203",
+    "type": "role",
+    "changedItem": "Vacancy Review",
+    "previousValue": "—",
+    "updatedValue": "Vacancy Review",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "b416a103f7f1fa112ff8021a"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 3,
+    "claimNumber": "LL-2026-100203",
+    "type": "vendor",
+    "changedItem": "Occupancy Verification Services",
+    "previousValue": "Occupancy Verification Services",
+    "updatedValue": "Occupancy Verification Services",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "183901fc16908dd490d54055"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 3,
+    "claimNumber": "LL-2026-100203",
+    "type": "role",
+    "changedItem": "Legal",
+    "previousValue": "—",
+    "updatedValue": "Legal",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d44daabd468b2dcdb85b43d9"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 3,
+    "claimNumber": "LL-2026-100203",
+    "type": "vendor",
+    "changedItem": "Sawgrass Insurance Law Group",
+    "previousValue": "—",
+    "updatedValue": "Sawgrass Insurance Law Group",
+    "reason": "Coverage position needs counsel",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "0b426e154c3e408eadb7091a"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 4,
+    "claimNumber": "LL-2026-100204",
+    "type": "role",
+    "changedItem": "Cause & Origin Specialists",
+    "previousValue": "—",
+    "updatedValue": "Cause & Origin Specialists",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6631c5ab9df6c786dd5745a4"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 4,
+    "claimNumber": "LL-2026-100204",
+    "type": "vendor",
+    "changedItem": "Tri-County Fire Analysis",
+    "previousValue": "Everglades Cause & Origin",
+    "updatedValue": "Tri-County Fire Analysis",
+    "reason": "Faster arrival time",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f5dcce1dc9f4d1f7dec2eac1"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 4,
+    "claimNumber": "LL-2026-100204",
+    "type": "role",
+    "changedItem": "Forensic Engineers",
+    "previousValue": "—",
+    "updatedValue": "Forensic Engineers",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "99884669f5bc774fed4f74a9"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 4,
+    "claimNumber": "LL-2026-100204",
+    "type": "vendor",
+    "changedItem": "Harbor Forensic Engineering",
+    "previousValue": "Harbor Forensic Engineering",
+    "updatedValue": "Harbor Forensic Engineering",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "c8f4b83518849e7e39c070d4"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 4,
+    "claimNumber": "LL-2026-100204",
+    "type": "role",
+    "changedItem": "Forensic Accountant",
+    "previousValue": "—",
+    "updatedValue": "Forensic Accountant",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "bccb8c3a627968455483961b"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 4,
+    "claimNumber": "LL-2026-100204",
+    "type": "vendor",
+    "changedItem": "Lakeshore Forensic Accounting",
+    "previousValue": "Lakeshore Forensic Accounting",
+    "updatedValue": "Lakeshore Forensic Accounting",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "021705ae26a3c0db79ca224f"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 4,
+    "claimNumber": "LL-2026-100204",
+    "type": "role",
+    "changedItem": "Legal",
+    "previousValue": "—",
+    "updatedValue": "Legal",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "2071db57d48bcd00ff96f2c7"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 4,
+    "claimNumber": "LL-2026-100204",
+    "type": "vendor",
+    "changedItem": "Sawgrass Insurance Law Group",
+    "previousValue": "Sawgrass Insurance Law Group",
+    "updatedValue": "Sawgrass Insurance Law Group",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "641ec170350b12eb2b5dc928"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 4,
+    "claimNumber": "LL-2026-100204",
+    "type": "role",
+    "changedItem": "Subrogation",
+    "previousValue": "—",
+    "updatedValue": "Subrogation",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "42c44ae35a5abc69367f63fb"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 4,
+    "claimNumber": "LL-2026-100204",
+    "type": "vendor",
+    "changedItem": "Tidewater Recovery Partners",
+    "previousValue": "Tidewater Recovery Partners",
+    "updatedValue": "Tidewater Recovery Partners",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "36a9e1c2f882e1b76213b6c3"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 4,
+    "claimNumber": "LL-2026-100204",
+    "type": "role",
+    "changedItem": "Scene Investigation & Official Reports",
+    "previousValue": "—",
+    "updatedValue": "Scene Investigation & Official Reports",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "00a02213bb9ce7f139750f79"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 4,
+    "claimNumber": "LL-2026-100204",
+    "type": "vendor",
+    "changedItem": "Tri-County Fire Analysis",
+    "previousValue": "Tri-County Fire Analysis",
+    "updatedValue": "Tri-County Fire Analysis",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "4310e40f158064fc659e739a"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 4,
+    "claimNumber": "LL-2026-100204",
+    "type": "role",
+    "changedItem": "Tenant-Caused Loss Recovery",
+    "previousValue": "—",
+    "updatedValue": "Tenant-Caused Loss Recovery",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "1e3b09ebc11cef208558b39b"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 4,
+    "claimNumber": "LL-2026-100204",
+    "type": "vendor",
+    "changedItem": "Tidewater Recovery Partners",
+    "previousValue": "Tidewater Recovery Partners",
+    "updatedValue": "Tidewater Recovery Partners",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "c8f4b83518849e7e39c070d4"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 4,
+    "claimNumber": "LL-2026-100204",
+    "type": "role",
+    "changedItem": "Forensic Accountant",
+    "previousValue": "—",
+    "updatedValue": "Forensic Accountant",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "edd6ea8cf9395b4b64aefbf6"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 6,
+    "claimNumber": "LL-2026-100206",
+    "type": "role",
+    "changedItem": "Estimate & Invoice Review",
+    "previousValue": "—",
+    "updatedValue": "Estimate & Invoice Review",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-27T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "923c8f9e3feb76c12ee8595f"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 6,
+    "claimNumber": "LL-2026-100206",
+    "type": "vendor",
+    "changedItem": "Estimate Integrity Partners",
+    "previousValue": "Coastal Claim Estimators",
+    "updatedValue": "Estimate Integrity Partners",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-27T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "18c25207e34cee171b56260e"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 6,
+    "claimNumber": "LL-2026-100206",
+    "type": "role",
+    "changedItem": "Public Adjuster / Appraisal",
+    "previousValue": "—",
+    "updatedValue": "Public Adjuster / Appraisal",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-27T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "4a9cb473fe91e94a67c536e3"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 6,
+    "claimNumber": "LL-2026-100206",
+    "type": "vendor",
+    "changedItem": "Sawgrass Insurance Law Group",
+    "previousValue": "Sawgrass Insurance Law Group",
+    "updatedValue": "Sawgrass Insurance Law Group",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-27T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "7693e7ddf48c53dcbb36e129"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 6,
+    "claimNumber": "LL-2026-100206",
+    "type": "role",
+    "changedItem": "Legal",
+    "previousValue": "—",
+    "updatedValue": "Legal",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-27T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "41ff1b287a32f7b3d90bfe4f"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 6,
+    "claimNumber": "LL-2026-100206",
+    "type": "vendor",
+    "changedItem": "Sawgrass Insurance Law Group",
+    "previousValue": "—",
+    "updatedValue": "Sawgrass Insurance Law Group",
+    "reason": "Coverage position needs counsel",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-27T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "c31def9ead3bc1a7fada7840"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 7,
+    "claimNumber": "LL-2026-100207",
+    "type": "role",
+    "changedItem": "Decision letters",
+    "previousValue": "—",
+    "updatedValue": "Decision letters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-03T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "79025e2eaa6d8340a106388d"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 7,
+    "claimNumber": "LL-2026-100207",
+    "type": "vendor",
+    "changedItem": "Clarity Claim Letters",
+    "previousValue": "Clarity Claim Letters",
+    "updatedValue": "Clarity Claim Letters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-03T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6766ad93abc41448213e4d0a"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 8,
+    "claimNumber": "LL-2026-100208",
+    "type": "role",
+    "changedItem": "24/7 Loss Mitigation Contractors",
+    "previousValue": "—",
+    "updatedValue": "24/7 Loss Mitigation Contractors",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-05T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "04d53c704e51a50bdfdd9dfe"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 8,
+    "claimNumber": "LL-2026-100208",
+    "type": "vendor",
+    "changedItem": "Sunstate Water Mitigation",
+    "previousValue": "Gulfshore Restoration Group",
+    "updatedValue": "Sunstate Water Mitigation",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-05T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "2268e6a860159738aab437e6"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 8,
+    "claimNumber": "LL-2026-100208",
+    "type": "role",
+    "changedItem": "Cause & Origin Specialists",
+    "previousValue": "—",
+    "updatedValue": "Cause & Origin Specialists",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-05T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "82e3f20e2f72c5055f8b92c8"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 8,
+    "claimNumber": "LL-2026-100208",
+    "type": "vendor",
+    "changedItem": "Everglades Cause & Origin",
+    "previousValue": "Everglades Cause & Origin",
+    "updatedValue": "Everglades Cause & Origin",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-05T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "db8285cf761e5cfe7a164f4d"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 8,
+    "claimNumber": "LL-2026-100208",
+    "type": "role",
+    "changedItem": "Forensic Engineers",
+    "previousValue": "—",
+    "updatedValue": "Forensic Engineers",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-05T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "24adf9d626ac8e6a73ce15c7"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 8,
+    "claimNumber": "LL-2026-100208",
+    "type": "vendor",
+    "changedItem": "Harbor Forensic Engineering",
+    "previousValue": "Harbor Forensic Engineering",
+    "updatedValue": "Harbor Forensic Engineering",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-05T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6c65c21f7482df87caef7dfb"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 8,
+    "claimNumber": "LL-2026-100208",
+    "type": "role",
+    "changedItem": "Legal",
+    "previousValue": "—",
+    "updatedValue": "Legal",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-05T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "42f2c64cd59468352ac56f7c"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 8,
+    "claimNumber": "LL-2026-100208",
+    "type": "vendor",
+    "changedItem": "Sawgrass Insurance Law Group",
+    "previousValue": "Sawgrass Insurance Law Group",
+    "updatedValue": "Sawgrass Insurance Law Group",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-05T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "fc3511d09ccbf8b292c9df50"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 8,
+    "claimNumber": "LL-2026-100208",
+    "type": "role",
+    "changedItem": "CAT Response",
+    "previousValue": "—",
+    "updatedValue": "CAT Response",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-05T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a6e14dc312a851a0f4345f45"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 8,
+    "claimNumber": "LL-2026-100208",
+    "type": "vendor",
+    "changedItem": "Gulfshore Restoration Group",
+    "previousValue": "Gulfshore Restoration Group",
+    "updatedValue": "Gulfshore Restoration Group",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-05T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a3bd00eb4c8a7e7e3707c90a"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 8,
+    "claimNumber": "LL-2026-100208",
+    "type": "role",
+    "changedItem": "Repair Network Referral",
+    "previousValue": "—",
+    "updatedValue": "Repair Network Referral",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-05T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "1eb25f7412dbbe905220deea"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 8,
+    "claimNumber": "LL-2026-100208",
+    "type": "vendor",
+    "changedItem": "Sunstate Roofing Inspections",
+    "previousValue": "Sunstate Roofing Inspections",
+    "updatedValue": "Sunstate Roofing Inspections",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-05T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "4c06c2fa25bc670de8b71e9a"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 8,
+    "claimNumber": "LL-2026-100208",
+    "type": "role",
+    "changedItem": "Estimate & Invoice Review",
+    "previousValue": "—",
+    "updatedValue": "Estimate & Invoice Review",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-05T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d1660b912692f386783cd954"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 8,
+    "claimNumber": "LL-2026-100208",
+    "type": "vendor",
+    "changedItem": "Coastal Claim Estimators",
+    "previousValue": "Coastal Claim Estimators",
+    "updatedValue": "Coastal Claim Estimators",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-05T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "4661c1571bc09fb0b80a59dd"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 10,
+    "claimNumber": "LL-2026-100210",
+    "type": "role",
+    "changedItem": "Forensic Accountant",
+    "previousValue": "—",
+    "updatedValue": "Forensic Accountant",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "0c4e753a118f4a7730e52176"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 10,
+    "claimNumber": "LL-2026-100210",
+    "type": "vendor",
+    "changedItem": "Cardinal Loss Analytics",
+    "previousValue": "Lakeshore Forensic Accounting",
+    "updatedValue": "Cardinal Loss Analytics",
+    "reason": "Faster arrival time",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "867f79c10a221863cd4eb56a"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 10,
+    "claimNumber": "LL-2026-100210",
+    "type": "role",
+    "changedItem": "Tenant-Caused Loss Recovery",
+    "previousValue": "—",
+    "updatedValue": "Tenant-Caused Loss Recovery",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "919b59819289388063d57cf4"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 10,
+    "claimNumber": "LL-2026-100210",
+    "type": "vendor",
+    "changedItem": "Tidewater Recovery Partners",
+    "previousValue": "Tidewater Recovery Partners",
+    "updatedValue": "Tidewater Recovery Partners",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "4661c1571bc09fb0b80a59dd"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 10,
+    "claimNumber": "LL-2026-100210",
+    "type": "role",
+    "changedItem": "Forensic Accountant",
+    "previousValue": "—",
+    "updatedValue": "Forensic Accountant",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68a8c0799a770b5a2895d062"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 14,
+    "claimNumber": "LL-2026-100214",
+    "type": "role",
+    "changedItem": "Decision letters",
+    "previousValue": "—",
+    "updatedValue": "Decision letters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-07-27T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "4b386f22154015d35270de88"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 14,
+    "claimNumber": "LL-2026-100214",
+    "type": "vendor",
+    "changedItem": "Clarity Claim Letters",
+    "previousValue": "Clarity Claim Letters",
+    "updatedValue": "Clarity Claim Letters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-07-27T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f4d700040c736ecb91b31fed"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 14,
+    "claimNumber": "LL-2026-100214",
+    "type": "role",
+    "changedItem": "Estimate & Invoice Review",
+    "previousValue": "—",
+    "updatedValue": "Estimate & Invoice Review",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-07-27T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "c85c121ba785ada6483168a3"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 14,
+    "claimNumber": "LL-2026-100214",
+    "type": "vendor",
+    "changedItem": "Coastal Claim Estimators",
+    "previousValue": "Coastal Claim Estimators",
+    "updatedValue": "Coastal Claim Estimators",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-07-27T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "fdf6fe2636c3794cc36dbbb8"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 15,
+    "claimNumber": "LL-2026-100215",
+    "type": "role",
+    "changedItem": "Decision letters",
+    "previousValue": "—",
+    "updatedValue": "Decision letters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-08-20T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "159579cf3851a263c4f4eaa1"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 15,
+    "claimNumber": "LL-2026-100215",
+    "type": "vendor",
+    "changedItem": "Clarity Claim Letters",
+    "previousValue": "Clarity Claim Letters",
+    "updatedValue": "Clarity Claim Letters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-08-20T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "0b702e67e0a05c8bd64f50a4"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 1,
+    "claimNumber": "DW-2026-100301",
+    "type": "role",
+    "changedItem": "Cause & Origin Specialists",
+    "previousValue": "—",
+    "updatedValue": "Cause & Origin Specialists",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "06af4300962aa0d0386ef957"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 1,
+    "claimNumber": "DW-2026-100301",
+    "type": "vendor",
+    "changedItem": "Tri-County Fire Analysis",
+    "previousValue": "Everglades Cause & Origin",
+    "updatedValue": "Tri-County Fire Analysis",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a0bcb4119ba15c54b8562933"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 1,
+    "claimNumber": "DW-2026-100301",
+    "type": "role",
+    "changedItem": "Forensic Engineers",
+    "previousValue": "—",
+    "updatedValue": "Forensic Engineers",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f1fd90e29c4bba80db535503"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 1,
+    "claimNumber": "DW-2026-100301",
+    "type": "vendor",
+    "changedItem": "Harbor Forensic Engineering",
+    "previousValue": "Harbor Forensic Engineering",
+    "updatedValue": "Harbor Forensic Engineering",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6bc3706ea4bfec12051d2f0d"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 1,
+    "claimNumber": "DW-2026-100301",
+    "type": "role",
+    "changedItem": "Legal",
+    "previousValue": "—",
+    "updatedValue": "Legal",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "273771883c20412a961bbe83"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 1,
+    "claimNumber": "DW-2026-100301",
+    "type": "vendor",
+    "changedItem": "Sawgrass Insurance Law Group",
+    "previousValue": "Sawgrass Insurance Law Group",
+    "updatedValue": "Sawgrass Insurance Law Group",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "944d7939051ec9b2ba4be1b9"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 1,
+    "claimNumber": "DW-2026-100301",
+    "type": "role",
+    "changedItem": "Scene Investigation & Official Reports",
+    "previousValue": "—",
+    "updatedValue": "Scene Investigation & Official Reports",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "125a65b89ecc1ed6bb2972a3"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 1,
+    "claimNumber": "DW-2026-100301",
+    "type": "vendor",
+    "changedItem": "Tri-County Fire Analysis",
+    "previousValue": "Tri-County Fire Analysis",
+    "updatedValue": "Tri-County Fire Analysis",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "2984c9181fc8da94e1860077"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 1,
+    "claimNumber": "DW-2026-100301",
+    "type": "role",
+    "changedItem": "Estimate & Invoice Review",
+    "previousValue": "—",
+    "updatedValue": "Estimate & Invoice Review",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f45cf96c2be2c9fc98897ac1"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 1,
+    "claimNumber": "DW-2026-100301",
+    "type": "vendor",
+    "changedItem": "Coastal Claim Estimators",
+    "previousValue": "Coastal Claim Estimators",
+    "updatedValue": "Coastal Claim Estimators",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "624c5f5e6ef53b680be8d753"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 4,
+    "claimNumber": "DW-2026-100304",
+    "type": "role",
+    "changedItem": "Cause & Origin Specialists",
+    "previousValue": "—",
+    "updatedValue": "Cause & Origin Specialists",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "2347568b7c9ba44e54578266"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 4,
+    "claimNumber": "DW-2026-100304",
+    "type": "vendor",
+    "changedItem": "Tri-County Fire Analysis",
+    "previousValue": "Everglades Cause & Origin",
+    "updatedValue": "Tri-County Fire Analysis",
+    "reason": "Faster arrival time",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "0184c74a7a50b483e41c14d0"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 4,
+    "claimNumber": "DW-2026-100304",
+    "type": "role",
+    "changedItem": "Forensic Engineers",
+    "previousValue": "—",
+    "updatedValue": "Forensic Engineers",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "50c157e4f44c2aa7198883fe"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 4,
+    "claimNumber": "DW-2026-100304",
+    "type": "vendor",
+    "changedItem": "Harbor Forensic Engineering",
+    "previousValue": "Harbor Forensic Engineering",
+    "updatedValue": "Harbor Forensic Engineering",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "4dcdefccee34dca51475fee7"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 4,
+    "claimNumber": "DW-2026-100304",
+    "type": "role",
+    "changedItem": "Legal",
+    "previousValue": "—",
+    "updatedValue": "Legal",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "7555bcb00f51debe9b6e1e99"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 4,
+    "claimNumber": "DW-2026-100304",
+    "type": "vendor",
+    "changedItem": "Sawgrass Insurance Law Group",
+    "previousValue": "Sawgrass Insurance Law Group",
+    "updatedValue": "Sawgrass Insurance Law Group",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "4d114e8195daee0a137082d8"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 4,
+    "claimNumber": "DW-2026-100304",
+    "type": "role",
+    "changedItem": "CAT Response",
+    "previousValue": "—",
+    "updatedValue": "CAT Response",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "179fedab835758ef2c185dc0"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 4,
+    "claimNumber": "DW-2026-100304",
+    "type": "vendor",
+    "changedItem": "Gulfshore Restoration Group",
+    "previousValue": "Gulfshore Restoration Group",
+    "updatedValue": "Gulfshore Restoration Group",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "44ee1229ea1a6593958a7e1b"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 4,
+    "claimNumber": "DW-2026-100304",
+    "type": "role",
+    "changedItem": "Public Adjuster / Appraisal",
+    "previousValue": "—",
+    "updatedValue": "Public Adjuster / Appraisal",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e482ef1be4471961ca7163b1"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 4,
+    "claimNumber": "DW-2026-100304",
+    "type": "vendor",
+    "changedItem": "Sawgrass Insurance Law Group",
+    "previousValue": "Sawgrass Insurance Law Group",
+    "updatedValue": "Sawgrass Insurance Law Group",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "86da4e6af6010f65fe8c281e"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 4,
+    "claimNumber": "DW-2026-100304",
+    "type": "role",
+    "changedItem": "Forensic Accountant",
+    "previousValue": "—",
+    "updatedValue": "Forensic Accountant",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "76b3ec5a52d21701cead464d"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 5,
+    "claimNumber": "DW-2026-100305",
+    "type": "role",
+    "changedItem": "Appraisers/Independent Adjusters",
+    "previousValue": "—",
+    "updatedValue": "Appraisers/Independent Adjusters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "88119e83e2e8250a0082f4f1"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 5,
+    "claimNumber": "DW-2026-100305",
+    "type": "vendor",
+    "changedItem": "Bayfront Independent Adjusters",
+    "previousValue": "Coastal Claim Estimators",
+    "updatedValue": "Bayfront Independent Adjusters",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "8ac19b4b050b7f4fbc6f61da"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 5,
+    "claimNumber": "DW-2026-100305",
+    "type": "role",
+    "changedItem": "Forensic Engineers",
+    "previousValue": "—",
+    "updatedValue": "Forensic Engineers",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "c55895d64069f8d5b29e43ef"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 5,
+    "claimNumber": "DW-2026-100305",
+    "type": "vendor",
+    "changedItem": "Harbor Forensic Engineering",
+    "previousValue": "Harbor Forensic Engineering",
+    "updatedValue": "Harbor Forensic Engineering",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ddf109276f71f7c32f64c856"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 5,
+    "claimNumber": "DW-2026-100305",
+    "type": "role",
+    "changedItem": "Estimate & Invoice Review",
+    "previousValue": "—",
+    "updatedValue": "Estimate & Invoice Review",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "049a664b2e3343588751ef19"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 5,
+    "claimNumber": "DW-2026-100305",
+    "type": "vendor",
+    "changedItem": "Coastal Claim Estimators",
+    "previousValue": "Coastal Claim Estimators",
+    "updatedValue": "Coastal Claim Estimators",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "792333ea4d29e16dbbcb997d"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 5,
+    "claimNumber": "DW-2026-100305",
+    "type": "role",
+    "changedItem": "Coverage Verification & ROR",
+    "previousValue": "—",
+    "updatedValue": "Coverage Verification & ROR",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "c6a7803d8c53adaef1e13f2f"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 5,
+    "claimNumber": "DW-2026-100305",
+    "type": "vendor",
+    "changedItem": "Magnolia Coverage Counsel",
+    "previousValue": "Magnolia Coverage Counsel",
+    "updatedValue": "Magnolia Coverage Counsel",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "696291b087c5f6b2b5c95f33"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 9,
+    "claimNumber": "DW-2026-100309",
+    "type": "role",
+    "changedItem": "Estimate & Invoice Review",
+    "previousValue": "—",
+    "updatedValue": "Estimate & Invoice Review",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "08bb51bab0b31d80c1d61931"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 9,
+    "claimNumber": "DW-2026-100309",
+    "type": "vendor",
+    "changedItem": "Estimate Integrity Partners",
+    "previousValue": "Coastal Claim Estimators",
+    "updatedValue": "Estimate Integrity Partners",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ff2572a513dc49a260a34dca"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 9,
+    "claimNumber": "DW-2026-100309",
+    "type": "role",
+    "changedItem": "Coverage Verification & ROR",
+    "previousValue": "—",
+    "updatedValue": "Coverage Verification & ROR",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "b351c750e5d7da0b39ae7958"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 9,
+    "claimNumber": "DW-2026-100309",
+    "type": "vendor",
+    "changedItem": "Magnolia Coverage Counsel",
+    "previousValue": "Magnolia Coverage Counsel",
+    "updatedValue": "Magnolia Coverage Counsel",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "947158fda17143b48846b30c"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 9,
+    "claimNumber": "DW-2026-100309",
+    "type": "role",
+    "changedItem": "Statutory Deadline Watch",
+    "previousValue": "—",
+    "updatedValue": "Statutory Deadline Watch",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f4736ee9263bd7279d45ee2e"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 9,
+    "claimNumber": "DW-2026-100309",
+    "type": "vendor",
+    "changedItem": "Clarity Claim Letters",
+    "previousValue": "Clarity Claim Letters",
+    "updatedValue": "Clarity Claim Letters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "cfb89ecf1f60eba47acbdaac"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 9,
+    "claimNumber": "DW-2026-100309",
+    "type": "role",
+    "changedItem": "Legal",
+    "previousValue": "—",
+    "updatedValue": "Legal",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "78209e97005cd44e52f7a421"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 9,
+    "claimNumber": "DW-2026-100309",
+    "type": "vendor",
+    "changedItem": "Sawgrass Insurance Law Group",
+    "previousValue": "—",
+    "updatedValue": "Sawgrass Insurance Law Group",
+    "reason": "Coverage position needs counsel",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "cc5a074f803abd31322f3b20"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 10,
+    "claimNumber": "DW-2026-100310",
+    "type": "role",
+    "changedItem": "Estimate & Invoice Review",
+    "previousValue": "—",
+    "updatedValue": "Estimate & Invoice Review",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-25T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "b070c18af98e3682c906d5b8"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 10,
+    "claimNumber": "DW-2026-100310",
+    "type": "vendor",
+    "changedItem": "Estimate Integrity Partners",
+    "previousValue": "Coastal Claim Estimators",
+    "updatedValue": "Estimate Integrity Partners",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-25T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "31d8fa5f0763e0f7db0e5d57"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 10,
+    "claimNumber": "DW-2026-100310",
+    "type": "role",
+    "changedItem": "Public Adjuster / Appraisal",
+    "previousValue": "—",
+    "updatedValue": "Public Adjuster / Appraisal",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-25T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "97af8a03f2761d88e8a98d64"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 10,
+    "claimNumber": "DW-2026-100310",
+    "type": "vendor",
+    "changedItem": "Sawgrass Insurance Law Group",
+    "previousValue": "Sawgrass Insurance Law Group",
+    "updatedValue": "Sawgrass Insurance Law Group",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-25T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "fa2ce8b4b94bf24ad15ea70b"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 10,
+    "claimNumber": "DW-2026-100310",
+    "type": "role",
+    "changedItem": "Roof Surface Review",
+    "previousValue": "—",
+    "updatedValue": "Roof Surface Review",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-25T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "9dd66e61d0b12af31deb1136"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 10,
+    "claimNumber": "DW-2026-100310",
+    "type": "vendor",
+    "changedItem": "Sunstate Roofing Inspections",
+    "previousValue": "Sunstate Roofing Inspections",
+    "updatedValue": "Sunstate Roofing Inspections",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-25T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "557ba11185788956e880724d"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 11,
+    "claimNumber": "DW-2026-100311",
+    "type": "role",
+    "changedItem": "Cause & Origin Specialists",
+    "previousValue": "—",
+    "updatedValue": "Cause & Origin Specialists",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "40d829b54b06fe897f1720f9"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 11,
+    "claimNumber": "DW-2026-100311",
+    "type": "vendor",
+    "changedItem": "Tri-County Fire Analysis",
+    "previousValue": "Everglades Cause & Origin",
+    "updatedValue": "Tri-County Fire Analysis",
+    "reason": "Faster arrival time",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5edbdf33014e5394748de27e"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 11,
+    "claimNumber": "DW-2026-100311",
+    "type": "role",
+    "changedItem": "Forensic Engineers",
+    "previousValue": "—",
+    "updatedValue": "Forensic Engineers",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "b0c4428393d1c332abd0fdd2"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 11,
+    "claimNumber": "DW-2026-100311",
+    "type": "vendor",
+    "changedItem": "Harbor Forensic Engineering",
+    "previousValue": "Harbor Forensic Engineering",
+    "updatedValue": "Harbor Forensic Engineering",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "96a2ff3d0cd31210a5c8681f"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 11,
+    "claimNumber": "DW-2026-100311",
+    "type": "role",
+    "changedItem": "Forensic Accountant",
+    "previousValue": "—",
+    "updatedValue": "Forensic Accountant",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ccbdf020e65441e8edeb35b1"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 11,
+    "claimNumber": "DW-2026-100311",
+    "type": "vendor",
+    "changedItem": "Lakeshore Forensic Accounting",
+    "previousValue": "Lakeshore Forensic Accounting",
+    "updatedValue": "Lakeshore Forensic Accounting",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "76e97962be2c354dbdfdd42a"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 11,
+    "claimNumber": "DW-2026-100311",
+    "type": "role",
+    "changedItem": "Legal",
+    "previousValue": "—",
+    "updatedValue": "Legal",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d4e61f27016ad979d6e0262a"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 11,
+    "claimNumber": "DW-2026-100311",
+    "type": "vendor",
+    "changedItem": "Sawgrass Insurance Law Group",
+    "previousValue": "Sawgrass Insurance Law Group",
+    "updatedValue": "Sawgrass Insurance Law Group",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "1e99b431347e0c2ddae3c373"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 11,
+    "claimNumber": "DW-2026-100311",
+    "type": "role",
+    "changedItem": "Independent Adjusters",
+    "previousValue": "—",
+    "updatedValue": "Independent Adjusters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "08387c37b9f33d6e0720c037"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 11,
+    "claimNumber": "DW-2026-100311",
+    "type": "vendor",
+    "changedItem": "Bayfront Independent Adjusters",
+    "previousValue": "Bayfront Independent Adjusters",
+    "updatedValue": "Bayfront Independent Adjusters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "1016816df93dc693fd41feb9"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 11,
+    "claimNumber": "DW-2026-100311",
+    "type": "role",
+    "changedItem": "Subrogation",
+    "previousValue": "—",
+    "updatedValue": "Subrogation",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "de5a138a99c0a2cc3462c14b"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 11,
+    "claimNumber": "DW-2026-100311",
+    "type": "vendor",
+    "changedItem": "Tidewater Recovery Partners",
+    "previousValue": "Tidewater Recovery Partners",
+    "updatedValue": "Tidewater Recovery Partners",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "cc4f08cbec6a26c5f6fab489"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 11,
+    "claimNumber": "DW-2026-100311",
+    "type": "role",
+    "changedItem": "Desk investigations",
+    "previousValue": "—",
+    "updatedValue": "Desk investigations",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ddf1b7b67c6b90c25b5259b8"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 11,
+    "claimNumber": "DW-2026-100311",
+    "type": "vendor",
+    "changedItem": "Meridian Desk Investigations",
+    "previousValue": "Meridian Desk Investigations",
+    "updatedValue": "Meridian Desk Investigations",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "96a2ff3d0cd31210a5c8681f"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 11,
+    "claimNumber": "DW-2026-100311",
+    "type": "role",
+    "changedItem": "Forensic Accountant",
+    "previousValue": "—",
+    "updatedValue": "Forensic Accountant",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ccbdf020e65441e8edeb35b1"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 11,
+    "claimNumber": "DW-2026-100311",
+    "type": "vendor",
+    "changedItem": "Lakeshore Forensic Accounting",
+    "previousValue": "—",
+    "updatedValue": "Lakeshore Forensic Accounting",
+    "reason": "Rent loss needs validating",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "7f6f5468cb7c4e256def9faf"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 13,
+    "claimNumber": "DW-2026-100313",
+    "type": "role",
+    "changedItem": "Decision letters",
+    "previousValue": "—",
+    "updatedValue": "Decision letters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-07-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "fdc3c1cedf190dcfe6d616da"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 13,
+    "claimNumber": "DW-2026-100313",
+    "type": "vendor",
+    "changedItem": "Clarity Claim Letters",
+    "previousValue": "Clarity Claim Letters",
+    "updatedValue": "Clarity Claim Letters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-07-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "77240adc5843729b636622b6"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 14,
+    "claimNumber": "DW-2026-100314",
+    "type": "role",
+    "changedItem": "Decision letters",
+    "previousValue": "—",
+    "updatedValue": "Decision letters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-03T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a3e5399c92114806220e7d35"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 14,
+    "claimNumber": "DW-2026-100314",
+    "type": "vendor",
+    "changedItem": "Clarity Claim Letters",
+    "previousValue": "Clarity Claim Letters",
+    "updatedValue": "Clarity Claim Letters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-03T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "3c76e1fa2d50435f63b5bab2"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 1,
+    "claimNumber": "FL-2026-100401",
+    "type": "role",
+    "changedItem": "24/7 Loss Mitigation Contractors",
+    "previousValue": "—",
+    "updatedValue": "24/7 Loss Mitigation Contractors",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-06T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "1cb4903d65586b07f22a2dff"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 1,
+    "claimNumber": "FL-2026-100401",
+    "type": "vendor",
+    "changedItem": "Sunstate Water Mitigation",
+    "previousValue": "Gulfshore Restoration Group",
+    "updatedValue": "Sunstate Water Mitigation",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-06T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "27db14e402cbd3cca16a2f71"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 1,
+    "claimNumber": "FL-2026-100401",
+    "type": "role",
+    "changedItem": "NFIP Authorized Adjuster",
+    "previousValue": "—",
+    "updatedValue": "NFIP Authorized Adjuster",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-06T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a92875d6c14d382915f48555"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 1,
+    "claimNumber": "FL-2026-100401",
+    "type": "vendor",
+    "changedItem": "Palmetto Flood Adjusters",
+    "previousValue": "Palmetto Flood Adjusters",
+    "updatedValue": "Palmetto Flood Adjusters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-06T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "605740e6e40541f839d7b893"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 1,
+    "claimNumber": "FL-2026-100401",
+    "type": "role",
+    "changedItem": "Substantial Damage Determination",
+    "previousValue": "—",
+    "updatedValue": "Substantial Damage Determination",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-06T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "db58d5925f96e1c8a4f403b4"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 1,
+    "claimNumber": "FL-2026-100401",
+    "type": "vendor",
+    "changedItem": "Sunshine Floodplain Consultants",
+    "previousValue": "Sunshine Floodplain Consultants",
+    "updatedValue": "Sunshine Floodplain Consultants",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-06T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5f3b1884007e255661682b47"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 1,
+    "claimNumber": "FL-2026-100401",
+    "type": "role",
+    "changedItem": "ICC Claim Handling",
+    "previousValue": "—",
+    "updatedValue": "ICC Claim Handling",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-06T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "4e2baa7d3a5902b09b62601e"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 1,
+    "claimNumber": "FL-2026-100401",
+    "type": "vendor",
+    "changedItem": "Resilient Home Consultants",
+    "previousValue": "Resilient Home Consultants",
+    "updatedValue": "Resilient Home Consultants",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-06T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d946d4d2a22c1e8366389316"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 1,
+    "claimNumber": "FL-2026-100401",
+    "type": "role",
+    "changedItem": "Contents Inventory & Valuation",
+    "previousValue": "—",
+    "updatedValue": "Contents Inventory & Valuation",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-06T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "877dfad9a6f72082613de237"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 1,
+    "claimNumber": "FL-2026-100401",
+    "type": "vendor",
+    "changedItem": "Keystone Contents Services",
+    "previousValue": "Keystone Contents Services",
+    "updatedValue": "Keystone Contents Services",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-06T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d15ad11489305f4fcea2ae4c"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 2,
+    "claimNumber": "FL-2026-100402",
+    "type": "role",
+    "changedItem": "CAT Response",
+    "previousValue": "—",
+    "updatedValue": "CAT Response",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-01T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a75e9b07ff8a27925f1c891e"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 2,
+    "claimNumber": "FL-2026-100402",
+    "type": "vendor",
+    "changedItem": "Stormline CAT Services",
+    "previousValue": "Gulfshore Restoration Group",
+    "updatedValue": "Stormline CAT Services",
+    "reason": "Faster arrival time",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-01T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e8777312993d876b88aa6419"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 2,
+    "claimNumber": "FL-2026-100402",
+    "type": "role",
+    "changedItem": "NFIP Authorized Adjuster",
+    "previousValue": "—",
+    "updatedValue": "NFIP Authorized Adjuster",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-01T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d25c7efe37f33c71503046d6"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 2,
+    "claimNumber": "FL-2026-100402",
+    "type": "vendor",
+    "changedItem": "Palmetto Flood Adjusters",
+    "previousValue": "Palmetto Flood Adjusters",
+    "updatedValue": "Palmetto Flood Adjusters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-01T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ce9a8a3e65f204c89b00572a"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 2,
+    "claimNumber": "FL-2026-100402",
+    "type": "role",
+    "changedItem": "Substantial Damage Determination",
+    "previousValue": "—",
+    "updatedValue": "Substantial Damage Determination",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-01T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "4f0958d1f9de6d97fb584345"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 2,
+    "claimNumber": "FL-2026-100402",
+    "type": "vendor",
+    "changedItem": "Sunshine Floodplain Consultants",
+    "previousValue": "Sunshine Floodplain Consultants",
+    "updatedValue": "Sunshine Floodplain Consultants",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-01T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e83b7ee9f076f62bf1dcb49d"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 2,
+    "claimNumber": "FL-2026-100402",
+    "type": "role",
+    "changedItem": "ICC Claim Handling",
+    "previousValue": "—",
+    "updatedValue": "ICC Claim Handling",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-01T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "faa203e8cd50ca1e6d71f681"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 2,
+    "claimNumber": "FL-2026-100402",
+    "type": "vendor",
+    "changedItem": "Resilient Home Consultants",
+    "previousValue": "Resilient Home Consultants",
+    "updatedValue": "Resilient Home Consultants",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-01T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f7b4cd5597354015a7d02a83"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 2,
+    "claimNumber": "FL-2026-100402",
+    "type": "role",
+    "changedItem": "NFIP Limit Exposure",
+    "previousValue": "—",
+    "updatedValue": "NFIP Limit Exposure",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-01T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ad8a0f2950b1b70bfbbc468d"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 2,
+    "claimNumber": "FL-2026-100402",
+    "type": "vendor",
+    "changedItem": "Limit Review Associates",
+    "previousValue": "Limit Review Associates",
+    "updatedValue": "Limit Review Associates",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-01T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "83825433fc3952d4cf50ab89"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 2,
+    "claimNumber": "FL-2026-100402",
+    "type": "role",
+    "changedItem": "Contents Inventory & Valuation",
+    "previousValue": "—",
+    "updatedValue": "Contents Inventory & Valuation",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-01T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6461fd1a0072b55f3027871a"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 2,
+    "claimNumber": "FL-2026-100402",
+    "type": "vendor",
+    "changedItem": "Keystone Contents Services",
+    "previousValue": "Keystone Contents Services",
+    "updatedValue": "Keystone Contents Services",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-01T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "aad7f517715f91b4081bac4f"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 2,
+    "claimNumber": "FL-2026-100402",
+    "type": "role",
+    "changedItem": "Forensic Accountant",
+    "previousValue": "—",
+    "updatedValue": "Forensic Accountant",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-01T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "08f648445cf958e8c9911681"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 3,
+    "claimNumber": "FL-2026-100403",
+    "type": "role",
+    "changedItem": "NFIP Authorized Adjuster",
+    "previousValue": "—",
+    "updatedValue": "NFIP Authorized Adjuster",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-12T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "df46075277a8fb0c4169c5fe"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 3,
+    "claimNumber": "FL-2026-100403",
+    "type": "vendor",
+    "changedItem": "Tidewater Flood Services",
+    "previousValue": "Palmetto Flood Adjusters",
+    "updatedValue": "Tidewater Flood Services",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-12T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "09af0f496a98b080ef3ad78e"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 3,
+    "claimNumber": "FL-2026-100403",
+    "type": "role",
+    "changedItem": "Proof of Loss Follow-up",
+    "previousValue": "—",
+    "updatedValue": "Proof of Loss Follow-up",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-12T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "7aa34346dd8e30228d43a705"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 3,
+    "claimNumber": "FL-2026-100403",
+    "type": "vendor",
+    "changedItem": "Palmetto Flood Adjusters",
+    "previousValue": "Palmetto Flood Adjusters",
+    "updatedValue": "Palmetto Flood Adjusters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-12T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "cd4b3c74c815b5d720f67299"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 3,
+    "claimNumber": "FL-2026-100403",
+    "type": "role",
+    "changedItem": "Contents Inventory & Valuation",
+    "previousValue": "—",
+    "updatedValue": "Contents Inventory & Valuation",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-12T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5adfb9b103e45dba62691137"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 3,
+    "claimNumber": "FL-2026-100403",
+    "type": "vendor",
+    "changedItem": "Keystone Contents Services",
+    "previousValue": "Keystone Contents Services",
+    "updatedValue": "Keystone Contents Services",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-12T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a9e0feeb96bcc2c29c2fb195"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 3,
+    "claimNumber": "FL-2026-100403",
+    "type": "role",
+    "changedItem": "Legal",
+    "previousValue": "—",
+    "updatedValue": "Legal",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-12T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ed9bfc181162e449fe59f1a8"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 3,
+    "claimNumber": "FL-2026-100403",
+    "type": "vendor",
+    "changedItem": "Sawgrass Insurance Law Group",
+    "previousValue": "—",
+    "updatedValue": "Sawgrass Insurance Law Group",
+    "reason": "Coverage position needs counsel",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-09-12T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d35a8f5c103420c41c8dc83b"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 5,
+    "claimNumber": "FL-2026-100405",
+    "type": "role",
+    "changedItem": "NFIP Authorized Adjuster",
+    "previousValue": "—",
+    "updatedValue": "NFIP Authorized Adjuster",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e2d5410c3771d3d205ad4132"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 5,
+    "claimNumber": "FL-2026-100405",
+    "type": "vendor",
+    "changedItem": "Tidewater Flood Services",
+    "previousValue": "Palmetto Flood Adjusters",
+    "updatedValue": "Tidewater Flood Services",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "2bbe4e928fac0e546109bafd"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 5,
+    "claimNumber": "FL-2026-100405",
+    "type": "role",
+    "changedItem": "Proof of Loss Follow-up",
+    "previousValue": "—",
+    "updatedValue": "Proof of Loss Follow-up",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "95f27d6f8271bf602e45cb16"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 5,
+    "claimNumber": "FL-2026-100405",
+    "type": "vendor",
+    "changedItem": "Palmetto Flood Adjusters",
+    "previousValue": "Palmetto Flood Adjusters",
+    "updatedValue": "Palmetto Flood Adjusters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "4833455d5c1030bb4f9a1919"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 5,
+    "claimNumber": "FL-2026-100405",
+    "type": "role",
+    "changedItem": "Contents Inventory & Valuation",
+    "previousValue": "—",
+    "updatedValue": "Contents Inventory & Valuation",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "018ae25d7982c821a3b50410"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 5,
+    "claimNumber": "FL-2026-100405",
+    "type": "vendor",
+    "changedItem": "Keystone Contents Services",
+    "previousValue": "Keystone Contents Services",
+    "updatedValue": "Keystone Contents Services",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "1b115dd8757336803b12b187"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 7,
+    "claimNumber": "FL-2026-100407",
+    "type": "role",
+    "changedItem": "Decision letters",
+    "previousValue": "—",
+    "updatedValue": "Decision letters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-08T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "71d38c71ce1829f559668165"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 7,
+    "claimNumber": "FL-2026-100407",
+    "type": "vendor",
+    "changedItem": "Sunrise Correspondence Services",
+    "previousValue": "Clarity Claim Letters",
+    "updatedValue": "Sunrise Correspondence Services",
+    "reason": "Faster arrival time",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-08T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "3d5e3183544e395978ddc1da"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 7,
+    "claimNumber": "FL-2026-100407",
+    "type": "role",
+    "changedItem": "NFIP Authorized Adjuster",
+    "previousValue": "—",
+    "updatedValue": "NFIP Authorized Adjuster",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-08T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ec9ecc48929a071d47b06752"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 7,
+    "claimNumber": "FL-2026-100407",
+    "type": "vendor",
+    "changedItem": "Palmetto Flood Adjusters",
+    "previousValue": "Palmetto Flood Adjusters",
+    "updatedValue": "Palmetto Flood Adjusters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-08T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "3e58c056f39d20e53fb538b9"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 7,
+    "claimNumber": "FL-2026-100407",
+    "type": "role",
+    "changedItem": "Forensic Accountant",
+    "previousValue": "—",
+    "updatedValue": "Forensic Accountant",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-08T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "30ee7a8a58ef93876d1b0c05"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 7,
+    "claimNumber": "FL-2026-100407",
+    "type": "vendor",
+    "changedItem": "Lakeshore Forensic Accounting",
+    "previousValue": "—",
+    "updatedValue": "Lakeshore Forensic Accounting",
+    "reason": "Rent loss needs validating",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-08T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f6d32c68394868a00c1f74d5"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 8,
+    "claimNumber": "FL-2026-100408",
+    "type": "role",
+    "changedItem": "Decision letters",
+    "previousValue": "—",
+    "updatedValue": "Decision letters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-25T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "2ea3020829f78c44d14a19f5"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 8,
+    "claimNumber": "FL-2026-100408",
+    "type": "vendor",
+    "changedItem": "Clarity Claim Letters",
+    "previousValue": "Clarity Claim Letters",
+    "updatedValue": "Clarity Claim Letters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-25T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "3a80c123383f1a39f7a140e1"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 9,
+    "claimNumber": "FL-2026-100409",
+    "type": "role",
+    "changedItem": "Legal",
+    "previousValue": "—",
+    "updatedValue": "Legal",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-28T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "147f2abfe8cad8c18f1aca71"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 9,
+    "claimNumber": "FL-2026-100409",
+    "type": "vendor",
+    "changedItem": "Magnolia Coverage Counsel",
+    "previousValue": "Sawgrass Insurance Law Group",
+    "updatedValue": "Magnolia Coverage Counsel",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-28T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "b59687800144e5c454cba38d"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 9,
+    "claimNumber": "FL-2026-100409",
+    "type": "role",
+    "changedItem": "NFIP Authorized Adjuster",
+    "previousValue": "—",
+    "updatedValue": "NFIP Authorized Adjuster",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-28T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6e22846812fae5c140ca51e9"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 9,
+    "claimNumber": "FL-2026-100409",
+    "type": "vendor",
+    "changedItem": "Palmetto Flood Adjusters",
+    "previousValue": "Palmetto Flood Adjusters",
+    "updatedValue": "Palmetto Flood Adjusters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-28T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "2075a96464b9249a1d39c9c1"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 9,
+    "claimNumber": "FL-2026-100409",
+    "type": "role",
+    "changedItem": "Substantial Damage Determination",
+    "previousValue": "—",
+    "updatedValue": "Substantial Damage Determination",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-28T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "eaaee81f410327901ce504f5"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 9,
+    "claimNumber": "FL-2026-100409",
+    "type": "vendor",
+    "changedItem": "Sunshine Floodplain Consultants",
+    "previousValue": "Sunshine Floodplain Consultants",
+    "updatedValue": "Sunshine Floodplain Consultants",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-28T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d5b3a93e4a89918dabcac35a"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 9,
+    "claimNumber": "FL-2026-100409",
+    "type": "role",
+    "changedItem": "ICC Claim Handling",
+    "previousValue": "—",
+    "updatedValue": "ICC Claim Handling",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-28T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5e244c800ca0694e6c38c689"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 9,
+    "claimNumber": "FL-2026-100409",
+    "type": "vendor",
+    "changedItem": "Resilient Home Consultants",
+    "previousValue": "Resilient Home Consultants",
+    "updatedValue": "Resilient Home Consultants",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-28T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "cb070f639c0b44566e928a51"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 9,
+    "claimNumber": "FL-2026-100409",
+    "type": "role",
+    "changedItem": "NFIP Limit Exposure",
+    "previousValue": "—",
+    "updatedValue": "NFIP Limit Exposure",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-28T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "bd78a444510b7ca79d6cfd8f"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 9,
+    "claimNumber": "FL-2026-100409",
+    "type": "vendor",
+    "changedItem": "Limit Review Associates",
+    "previousValue": "Limit Review Associates",
+    "updatedValue": "Limit Review Associates",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-28T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ff16a0b044a8ac6ecccfe03d"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 9,
+    "claimNumber": "FL-2026-100409",
+    "type": "role",
+    "changedItem": "Contents Inventory & Valuation",
+    "previousValue": "—",
+    "updatedValue": "Contents Inventory & Valuation",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-28T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f0cb2f012574a81f5777dbf2"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 9,
+    "claimNumber": "FL-2026-100409",
+    "type": "vendor",
+    "changedItem": "Keystone Contents Services",
+    "previousValue": "Keystone Contents Services",
+    "updatedValue": "Keystone Contents Services",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-28T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "3a80c123383f1a39f7a140e1"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 9,
+    "claimNumber": "FL-2026-100409",
+    "type": "role",
+    "changedItem": "Legal",
+    "previousValue": "—",
+    "updatedValue": "Legal",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-28T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "147f2abfe8cad8c18f1aca71"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 9,
+    "claimNumber": "FL-2026-100409",
+    "type": "vendor",
+    "changedItem": "Sawgrass Insurance Law Group",
+    "previousValue": "—",
+    "updatedValue": "Sawgrass Insurance Law Group",
+    "reason": "Coverage position needs counsel",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-28T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "b3eff6829f35d06b0e41764c"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 10,
+    "claimNumber": "FL-2026-100410",
+    "type": "role",
+    "changedItem": "NFIP Authorized Adjuster",
+    "previousValue": "—",
+    "updatedValue": "NFIP Authorized Adjuster",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-06T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6c180bf34e55eca9fdd63517"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 10,
+    "claimNumber": "FL-2026-100410",
+    "type": "vendor",
+    "changedItem": "Palmetto Flood Adjusters",
+    "previousValue": "Palmetto Flood Adjusters",
+    "updatedValue": "Palmetto Flood Adjusters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-06T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ce52710aabd1ce0e61b18b40"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 10,
+    "claimNumber": "FL-2026-100410",
+    "type": "role",
+    "changedItem": "Contents Inventory & Valuation",
+    "previousValue": "—",
+    "updatedValue": "Contents Inventory & Valuation",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-06T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "801ad0d3cc9f45984013d517"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 10,
+    "claimNumber": "FL-2026-100410",
+    "type": "vendor",
+    "changedItem": "Keystone Contents Services",
+    "previousValue": "Keystone Contents Services",
+    "updatedValue": "Keystone Contents Services",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-09-06T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "b7853475a3cba75919db8e1a"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 14,
+    "claimNumber": "FL-2026-100414",
+    "type": "role",
+    "changedItem": "Decision letters",
+    "previousValue": "—",
+    "updatedValue": "Decision letters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-07-07T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "510dd85de818e1e1264040f9"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 14,
+    "claimNumber": "FL-2026-100414",
+    "type": "vendor",
+    "changedItem": "Clarity Claim Letters",
+    "previousValue": "Clarity Claim Letters",
+    "updatedValue": "Clarity Claim Letters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-07-07T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "b1de1dfe288fbe0f12d3c01d"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 14,
+    "claimNumber": "FL-2026-100414",
+    "type": "role",
+    "changedItem": "NFIP Authorized Adjuster",
+    "previousValue": "—",
+    "updatedValue": "NFIP Authorized Adjuster",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-07-07T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "59f8f00dc65b1e857e41c285"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 14,
+    "claimNumber": "FL-2026-100414",
+    "type": "vendor",
+    "changedItem": "Palmetto Flood Adjusters",
+    "previousValue": "Palmetto Flood Adjusters",
+    "updatedValue": "Palmetto Flood Adjusters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-07-07T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "18d4aa1130aeb6a6954a4174"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 14,
+    "claimNumber": "FL-2026-100414",
+    "type": "role",
+    "changedItem": "Contents Inventory & Valuation",
+    "previousValue": "—",
+    "updatedValue": "Contents Inventory & Valuation",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-07-07T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "55c9808ba1564fde9a0f91af"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 14,
+    "claimNumber": "FL-2026-100414",
+    "type": "vendor",
+    "changedItem": "Keystone Contents Services",
+    "previousValue": "Keystone Contents Services",
+    "updatedValue": "Keystone Contents Services",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-07-07T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "59fc226e4b9663446252ba58"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 15,
+    "claimNumber": "FL-2026-100415",
+    "type": "role",
+    "changedItem": "Desk investigations",
+    "previousValue": "—",
+    "updatedValue": "Desk investigations",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-08-30T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "961601d585cbe11e2aef77eb"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 15,
+    "claimNumber": "FL-2026-100415",
+    "type": "vendor",
+    "changedItem": "Northpoint Special Investigations",
+    "previousValue": "Meridian Desk Investigations",
+    "updatedValue": "Northpoint Special Investigations",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-08-30T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e1b728309110d4dc30513d6d"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 15,
+    "claimNumber": "FL-2026-100415",
+    "type": "role",
+    "changedItem": "NFIP Authorized Adjuster",
+    "previousValue": "—",
+    "updatedValue": "NFIP Authorized Adjuster",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-08-30T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "0b19b3250fd2ff1fd2a9816c"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 15,
+    "claimNumber": "FL-2026-100415",
+    "type": "vendor",
+    "changedItem": "Palmetto Flood Adjusters",
+    "previousValue": "Palmetto Flood Adjusters",
+    "updatedValue": "Palmetto Flood Adjusters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-08-30T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a8b363d14a44167cc8e508ea"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 15,
+    "claimNumber": "FL-2026-100415",
+    "type": "role",
+    "changedItem": "Proof of Loss Follow-up",
+    "previousValue": "—",
+    "updatedValue": "Proof of Loss Follow-up",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-08-30T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ed72d4ee6b4927e4d9b0e716"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 15,
+    "claimNumber": "FL-2026-100415",
+    "type": "vendor",
+    "changedItem": "Palmetto Flood Adjusters",
+    "previousValue": "Palmetto Flood Adjusters",
+    "updatedValue": "Palmetto Flood Adjusters",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-08-30T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ebfd65e42b42750c199e5a73"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 15,
+    "claimNumber": "FL-2026-100415",
+    "type": "role",
+    "changedItem": "Contents Inventory & Valuation",
+    "previousValue": "—",
+    "updatedValue": "Contents Inventory & Valuation",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-08-30T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "af30e56faceb521560489542"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 15,
+    "claimNumber": "FL-2026-100415",
+    "type": "vendor",
+    "changedItem": "Keystone Contents Services",
+    "previousValue": "Keystone Contents Services",
+    "updatedValue": "Keystone Contents Services",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-08-30T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6ce00c55e4119e5d8f761b3f"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 15,
+    "claimNumber": "FL-2026-100415",
+    "type": "role",
+    "changedItem": "Legal",
+    "previousValue": "—",
+    "updatedValue": "Legal",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-08-30T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "7d4ed8e8eb758f21dc274c5e"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 15,
+    "claimNumber": "FL-2026-100415",
+    "type": "vendor",
+    "changedItem": "Sawgrass Insurance Law Group",
+    "previousValue": "—",
+    "updatedValue": "Sawgrass Insurance Law Group",
+    "reason": "Coverage position needs counsel",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-08-30T12:00:00.000Z"
+    },
+    "__v": 0
+  }
+]

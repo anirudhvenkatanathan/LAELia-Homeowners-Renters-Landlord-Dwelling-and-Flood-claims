@@ -1,0 +1,926 @@
+[
+  {
+    "_id": "3778ca0450b83946af301174",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "3778ca0450b83946af301174",
+    "vendorConfirmationName": "IICRC certification (WRT / ASD) for technicians",
+    "isMandatory": true
+  },
+  {
+    "_id": "ec7ccadee9ae5892d6c978a0",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "ec7ccadee9ae5892d6c978a0",
+    "vendorConfirmationName": "24/7 emergency response SOP with 2-hour arrival target",
+    "isMandatory": true
+  },
+  {
+    "_id": "0c576e01e84050421dbaa72b",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "0c576e01e84050421dbaa72b",
+    "vendorConfirmationName": "Sample moisture map and drying log",
+    "isMandatory": true
+  },
+  {
+    "_id": "f39f4180be90dbc489ff9b3f",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "f39f4180be90dbc489ff9b3f",
+    "vendorConfirmationName": "Equipment inventory and capacity attestation",
+    "isMandatory": true
+  },
+  {
+    "_id": "0f159da7be92bcb99e707529",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "0f159da7be92bcb99e707529",
+    "vendorConfirmationName": "Certified Fire Investigator credentials",
+    "isMandatory": true
+  },
+  {
+    "_id": "895471ab54123aebc2b8ed0e",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "895471ab54123aebc2b8ed0e",
+    "vendorConfirmationName": "Sample cause-and-origin report",
+    "isMandatory": true
+  },
+  {
+    "_id": "af393d801faea1fde067fa4a",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "af393d801faea1fde067fa4a",
+    "vendorConfirmationName": "Evidence preservation and chain-of-custody SOP",
+    "isMandatory": true
+  },
+  {
+    "_id": "2f1888afb9157b2b0e7d28b6",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "2f1888afb9157b2b0e7d28b6",
+    "vendorConfirmationName": "Florida licence documentation",
+    "isMandatory": true
+  },
+  {
+    "_id": "abcbb9dbdb2b73d7180f56c8",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "abcbb9dbdb2b73d7180f56c8",
+    "vendorConfirmationName": "Florida all-lines adjuster licence",
+    "isMandatory": true
+  },
+  {
+    "_id": "49644a083d31e87445aa8d85",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "49644a083d31e87445aa8d85",
+    "vendorConfirmationName": "Xactimate proficiency evidence",
+    "isMandatory": true
+  },
+  {
+    "_id": "b440671d1dea88de5bc6617a",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "b440671d1dea88de5bc6617a",
+    "vendorConfirmationName": "Sample estimate and photo report",
+    "isMandatory": true
+  },
+  {
+    "_id": "d26c245d1f4ee07863678bb3",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "d26c245d1f4ee07863678bb3",
+    "vendorConfirmationName": "Turnaround Time SLA Attestation",
+    "isMandatory": true
+  },
+  {
+    "_id": "98ec952ce2fcffb105a93232",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "98ec952ce2fcffb105a93232",
+    "vendorConfirmationName": "Florida Professional Engineer licence",
+    "isMandatory": true
+  },
+  {
+    "_id": "0fed85dae3e0b721a415de97",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "0fed85dae3e0b721a415de97",
+    "vendorConfirmationName": "Sample forensic engineering report",
+    "isMandatory": true
+  },
+  {
+    "_id": "48e29eaffa7370dd42e49318",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "48e29eaffa7370dd42e49318",
+    "vendorConfirmationName": "Expert witness history",
+    "isMandatory": true
+  },
+  {
+    "_id": "7437d2798b48f8d4879b2875",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "7437d2798b48f8d4879b2875",
+    "vendorConfirmationName": "Roof and structural testing methodology",
+    "isMandatory": true
+  },
+  {
+    "_id": "526b54ec8c0bd3e6fee1229d",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "526b54ec8c0bd3e6fee1229d",
+    "vendorConfirmationName": "CPA / CFE credentials",
+    "isMandatory": true
+  },
+  {
+    "_id": "11337f50fafcc34fa8453527",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "11337f50fafcc34fa8453527",
+    "vendorConfirmationName": "Sample loss-of-rents analysis",
+    "isMandatory": true
+  },
+  {
+    "_id": "e206a80686e0ec50093a9542",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "e206a80686e0ec50093a9542",
+    "vendorConfirmationName": "Valuation methodology documentation",
+    "isMandatory": true
+  },
+  {
+    "_id": "4ecd58878ffa79180a1743e4",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "4ecd58878ffa79180a1743e4",
+    "vendorConfirmationName": "Conflict of interest screening SOP",
+    "isMandatory": true
+  },
+  {
+    "_id": "1ac93b1ce8c805c08482e63b",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "1ac93b1ce8c805c08482e63b",
+    "vendorConfirmationName": "Florida Bar membership and property-coverage experience",
+    "isMandatory": true
+  },
+  {
+    "_id": "e61fd54ad23e99c6a93f37da",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "e61fd54ad23e99c6a93f37da",
+    "vendorConfirmationName": "Reservation of rights letter templates",
+    "isMandatory": true
+  },
+  {
+    "_id": "2d3d3be6ac54aeaf636aaee5",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "2d3d3be6ac54aeaf636aaee5",
+    "vendorConfirmationName": "Litigation fee schedule",
+    "isMandatory": true
+  },
+  {
+    "_id": "c16f7d7dc0c147e66c337532",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "c16f7d7dc0c147e66c337532",
+    "vendorConfirmationName": "Sample field adjuster report",
+    "isMandatory": true
+  },
+  {
+    "_id": "215cea7bdf1da74c0d3e49fe",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "215cea7bdf1da74c0d3e49fe",
+    "vendorConfirmationName": "Caseload capacity attestation",
+    "isMandatory": true
+  },
+  {
+    "_id": "a5ca3bc659b145d945359197",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "a5ca3bc659b145d945359197",
+    "vendorConfirmationName": "Florida statute-compliant letter templates (s. 627.70131)",
+    "isMandatory": true
+  },
+  {
+    "_id": "f6a7b0920aba4874852df05f",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "f6a7b0920aba4874852df05f",
+    "vendorConfirmationName": "Attorney review and compliance approval process",
+    "isMandatory": true
+  },
+  {
+    "_id": "da2abfbff780ae23a1aad655",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "da2abfbff780ae23a1aad655",
+    "vendorConfirmationName": "State filing and delivery compliance SOP",
+    "isMandatory": true
+  },
+  {
+    "_id": "780e45db538ad05eb5c9cfed",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "780e45db538ad05eb5c9cfed",
+    "vendorConfirmationName": "Subrogation counsel network documentation",
+    "isMandatory": true
+  },
+  {
+    "_id": "7a69725abf123711cfb232fa",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "7a69725abf123711cfb232fa",
+    "vendorConfirmationName": "Evidence preservation (spoliation) SOP",
+    "isMandatory": true
+  },
+  {
+    "_id": "ace9a92eded96f013f8fe1da",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "ace9a92eded96f013f8fe1da",
+    "vendorConfirmationName": "Statute of limitations compliance documentation",
+    "isMandatory": true
+  },
+  {
+    "_id": "baf13135366c8df2fa9cf6c9",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "baf13135366c8df2fa9cf6c9",
+    "vendorConfirmationName": "Recovery rate history report",
+    "isMandatory": true
+  },
+  {
+    "_id": "811dd27ec10be233bd5e2714",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "811dd27ec10be233bd5e2714",
+    "vendorConfirmationName": "Florida investigator licence documentation",
+    "isMandatory": true
+  },
+  {
+    "_id": "438ab09ef0bdaa0aba5b80bb",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "438ab09ef0bdaa0aba5b80bb",
+    "vendorConfirmationName": "Database access documentation",
+    "isMandatory": true
+  },
+  {
+    "_id": "df84a5925356fea987932aa8",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "df84a5925356fea987932aa8",
+    "vendorConfirmationName": "Fraud indicator scoring methodology",
+    "isMandatory": true
+  },
+  {
+    "_id": "c4848642f76253c792835dce",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "c4848642f76253c792835dce",
+    "vendorConfirmationName": "Sample desk investigation report",
+    "isMandatory": true
+  },
+  {
+    "_id": "ee551773c3fd6b05f2717b8f",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "ee551773c3fd6b05f2717b8f",
+    "vendorConfirmationName": "CAT surge capacity attestation",
+    "isMandatory": true
+  },
+  {
+    "_id": "97a1fec46852f822630db940",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "97a1fec46852f822630db940",
+    "vendorConfirmationName": "Deployment readiness plan",
+    "isMandatory": true
+  },
+  {
+    "_id": "ea0c0341b5a10c38cd4e2792",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "ea0c0341b5a10c38cd4e2792",
+    "vendorConfirmationName": "Emergency adjuster certification",
+    "isMandatory": true
+  },
+  {
+    "_id": "d2a7a5568f48fb5e12bd5005",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "d2a7a5568f48fb5e12bd5005",
+    "vendorConfirmationName": "Sample CAT field report",
+    "isMandatory": true
+  },
+  {
+    "_id": "c128a9fabe4a23c93133c981",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "c128a9fabe4a23c93133c981",
+    "vendorConfirmationName": "Florida contractor licence (CGC / CRC)",
+    "isMandatory": true
+  },
+  {
+    "_id": "b2a337ac08a94869c6b0af74",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "b2a337ac08a94869c6b0af74",
+    "vendorConfirmationName": "Workmanship warranty terms (10-year roof)",
+    "isMandatory": true
+  },
+  {
+    "_id": "e071594c04658897a4cf24fa",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "e071594c04658897a4cf24fa",
+    "vendorConfirmationName": "Pricing alignment with Xactimate price lists",
+    "isMandatory": true
+  },
+  {
+    "_id": "b0cd3ba4f9671fbd384314ef",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "b0cd3ba4f9671fbd384314ef",
+    "vendorConfirmationName": "Customer satisfaction and re-inspection report",
+    "isMandatory": true
+  },
+  {
+    "_id": "fe50a94b39329ef44cd8c01f",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "fe50a94b39329ef44cd8c01f",
+    "vendorConfirmationName": "Fire and police report retrieval SOP",
+    "isMandatory": true
+  },
+  {
+    "_id": "a44a21a4bb35c2c188b36321",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "a44a21a4bb35c2c188b36321",
+    "vendorConfirmationName": "Sample scene investigation report",
+    "isMandatory": true
+  },
+  {
+    "_id": "998cd429415d42cc37091edf",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "998cd429415d42cc37091edf",
+    "vendorConfirmationName": "Photo and evidence standards",
+    "isMandatory": true
+  },
+  {
+    "_id": "ecbcfc1eb71137e03a3419f5",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "ecbcfc1eb71137e03a3419f5",
+    "vendorConfirmationName": "Investigator credentials",
+    "isMandatory": true
+  },
+  {
+    "_id": "1f8ad866756c22587a811d01",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "1f8ad866756c22587a811d01",
+    "vendorConfirmationName": "NFIP flood adjuster certification",
+    "isMandatory": true
+  },
+  {
+    "_id": "296040a4a3ff0caf0da7ef3f",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "296040a4a3ff0caf0da7ef3f",
+    "vendorConfirmationName": "Elevation certificate review capability",
+    "isMandatory": true
+  },
+  {
+    "_id": "d95a1b95ff2219c61bda8d23",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "d95a1b95ff2219c61bda8d23",
+    "vendorConfirmationName": "Sample SFIP adjuster report",
+    "isMandatory": true
+  },
+  {
+    "_id": "52d0780b0c01a9b1b7934ea1",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "52d0780b0c01a9b1b7934ea1",
+    "vendorConfirmationName": "Proof-of-loss processing SOP",
+    "isMandatory": true
+  },
+  {
+    "_id": "5357fed65f6f63e7ad0b91ee",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "5357fed65f6f63e7ad0b91ee",
+    "vendorConfirmationName": "Insured outreach protocol",
+    "isMandatory": true
+  },
+  {
+    "_id": "503e482d80216be626aa08ea",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "503e482d80216be626aa08ea",
+    "vendorConfirmationName": "Proof-of-loss form templates",
+    "isMandatory": true
+  },
+  {
+    "_id": "589070fc29a89527ff12c0bf",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "589070fc29a89527ff12c0bf",
+    "vendorConfirmationName": "Deadline tracking SOP",
+    "isMandatory": true
+  },
+  {
+    "_id": "5f3ac68f0cf655648fa60a9b",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "5f3ac68f0cf655648fa60a9b",
+    "vendorConfirmationName": "Policy effective-date verification SOP",
+    "isMandatory": true
+  },
+  {
+    "_id": "f07aacfec9cd7ed47e2fa061",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "f07aacfec9cd7ed47e2fa061",
+    "vendorConfirmationName": "Waiting-period exception guide",
+    "isMandatory": true
+  },
+  {
+    "_id": "19f1b269319d1e4cabb66dda",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "19f1b269319d1e4cabb66dda",
+    "vendorConfirmationName": "Sample waiting-period review",
+    "isMandatory": true
+  },
+  {
+    "_id": "20f9c91a987172b9b04a9609",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "20f9c91a987172b9b04a9609",
+    "vendorConfirmationName": "Floodplain administrator coordination documentation",
+    "isMandatory": true
+  },
+  {
+    "_id": "54d93ac38419128f6b7cbb55",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "54d93ac38419128f6b7cbb55",
+    "vendorConfirmationName": "Structure valuation methodology",
+    "isMandatory": true
+  },
+  {
+    "_id": "d3dcd48617f85673d54fc1dc",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "d3dcd48617f85673d54fc1dc",
+    "vendorConfirmationName": "Sample substantial damage determination",
+    "isMandatory": true
+  },
+  {
+    "_id": "838fba8f471100c178b96283",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "838fba8f471100c178b96283",
+    "vendorConfirmationName": "50% rule training evidence",
+    "isMandatory": true
+  },
+  {
+    "_id": "01fca6d59c9765b8a7564b7b",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "01fca6d59c9765b8a7564b7b",
+    "vendorConfirmationName": "ICC claim processing SOP",
+    "isMandatory": true
+  },
+  {
+    "_id": "33a1bd2697b5ed2f55436188",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "33a1bd2697b5ed2f55436188",
+    "vendorConfirmationName": "Local code-enforcement coordination protocol",
+    "isMandatory": true
+  },
+  {
+    "_id": "40bb3faa9c1d179cea341130",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "40bb3faa9c1d179cea341130",
+    "vendorConfirmationName": "Sample ICC claim package",
+    "isMandatory": true
+  },
+  {
+    "_id": "ae3e9b03d9f2f8180af88b18",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "ae3e9b03d9f2f8180af88b18",
+    "vendorConfirmationName": "Limits monitoring methodology",
+    "isMandatory": true
+  },
+  {
+    "_id": "55e3fb807dfc92b01e6bba8b",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "55e3fb807dfc92b01e6bba8b",
+    "vendorConfirmationName": "Sample limit exposure report",
+    "isMandatory": true
+  },
+  {
+    "_id": "03d715ff1f6fa7051439cc0f",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "03d715ff1f6fa7051439cc0f",
+    "vendorConfirmationName": "Reporting cadence SLA",
+    "isMandatory": true
+  },
+  {
+    "_id": "aca81b42f3a69d1c9dad3269",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "aca81b42f3a69d1c9dad3269",
+    "vendorConfirmationName": "Xactimate-certified reviewer evidence",
+    "isMandatory": true
+  },
+  {
+    "_id": "6c1e85980c95760292228208",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "6c1e85980c95760292228208",
+    "vendorConfirmationName": "Price-list methodology",
+    "isMandatory": true
+  },
+  {
+    "_id": "9c022571e8d3ddadea55c8ec",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "9c022571e8d3ddadea55c8ec",
+    "vendorConfirmationName": "Sample estimate review",
+    "isMandatory": true
+  },
+  {
+    "_id": "a4479bfa6726893c59b35623",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "a4479bfa6726893c59b35623",
+    "vendorConfirmationName": "Coverage opinion template",
+    "isMandatory": true
+  },
+  {
+    "_id": "f562e92e9ab1b8671d12ee72",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "f562e92e9ab1b8671d12ee72",
+    "vendorConfirmationName": "Reservation of rights letter library",
+    "isMandatory": true
+  },
+  {
+    "_id": "5dc6041960d931b3eff11f13",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "5dc6041960d931b3eff11f13",
+    "vendorConfirmationName": "Florida licensed counsel evidence",
+    "isMandatory": true
+  },
+  {
+    "_id": "fa7efcc954d88b5850dee224",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "fa7efcc954d88b5850dee224",
+    "vendorConfirmationName": "Appraiser and umpire credentials",
+    "isMandatory": true
+  },
+  {
+    "_id": "25694db910b5b4757dfe5286",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "25694db910b5b4757dfe5286",
+    "vendorConfirmationName": "Appraisal protocol",
+    "isMandatory": true
+  },
+  {
+    "_id": "f7bd9f2aaddefe15cd6a5784",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "f7bd9f2aaddefe15cd6a5784",
+    "vendorConfirmationName": "Sample appraisal award",
+    "isMandatory": true
+  },
+  {
+    "_id": "3cd0fbec829f7ad5f6319c97",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "3cd0fbec829f7ad5f6319c97",
+    "vendorConfirmationName": "Conflict of interest disclosure",
+    "isMandatory": true
+  },
+  {
+    "_id": "af67e925b995c7821c49046e",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "af67e925b995c7821c49046e",
+    "vendorConfirmationName": "Roof inspector credentials",
+    "isMandatory": true
+  },
+  {
+    "_id": "903e520b1a19e3a9d8d2a131",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "903e520b1a19e3a9d8d2a131",
+    "vendorConfirmationName": "Sample roof inspection report with age and condition grading",
+    "isMandatory": true
+  },
+  {
+    "_id": "86567c29bba06db20d3374b8",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "86567c29bba06db20d3374b8",
+    "vendorConfirmationName": "Drone inspection capability (FAA Part 107)",
+    "isMandatory": true
+  },
+  {
+    "_id": "97c21a6cb047c729cdfdc733",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "97c21a6cb047c729cdfdc733",
+    "vendorConfirmationName": "Roof payment-schedule training",
+    "isMandatory": true
+  },
+  {
+    "_id": "95de0df06946c850bf378fbb",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "95de0df06946c850bf378fbb",
+    "vendorConfirmationName": "Replacement cost estimator methodology",
+    "isMandatory": true
+  },
+  {
+    "_id": "b4f13caca5286acd6253a063",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "b4f13caca5286acd6253a063",
+    "vendorConfirmationName": "Sample insurance-to-value report",
+    "isMandatory": true
+  },
+  {
+    "_id": "c4987b5a1717c5504a010a87",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "c4987b5a1717c5504a010a87",
+    "vendorConfirmationName": "Data source documentation",
+    "isMandatory": true
+  },
+  {
+    "_id": "3538a5d85dda700585182d39",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "3538a5d85dda700585182d39",
+    "vendorConfirmationName": "Inventory software evidence",
+    "isMandatory": true
+  },
+  {
+    "_id": "54927c80fa5bc0ca7ea1e61a",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "54927c80fa5bc0ca7ea1e61a",
+    "vendorConfirmationName": "Sample contents inventory report",
+    "isMandatory": true
+  },
+  {
+    "_id": "585f35710b5fba8aa5bb62d8",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "585f35710b5fba8aa5bb62d8",
+    "vendorConfirmationName": "Valuation methodology (ACV / RCV)",
+    "isMandatory": true
+  },
+  {
+    "_id": "d925ef76e7a90f7c3ef59b49",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "d925ef76e7a90f7c3ef59b49",
+    "vendorConfirmationName": "Salvage handling SOP",
+    "isMandatory": true
+  },
+  {
+    "_id": "689655f0d50ffa2c29fc6195",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "689655f0d50ffa2c29fc6195",
+    "vendorConfirmationName": "Textile and contents restoration certification",
+    "isMandatory": true
+  },
+  {
+    "_id": "3fa9f5a79e2d01119445308d",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "3fa9f5a79e2d01119445308d",
+    "vendorConfirmationName": "Storage facility documentation",
+    "isMandatory": true
+  },
+  {
+    "_id": "c55b05c67a8242429b9063f9",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "c55b05c67a8242429b9063f9",
+    "vendorConfirmationName": "Chain-of-custody SOP",
+    "isMandatory": true
+  },
+  {
+    "_id": "d2278713ffbd2198ced5c1fa",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "d2278713ffbd2198ced5c1fa",
+    "vendorConfirmationName": "Sample pack-out inventory",
+    "isMandatory": true
+  },
+  {
+    "_id": "9e67849a13fd54a49f4584bf",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "9e67849a13fd54a49f4584bf",
+    "vendorConfirmationName": "Housing inventory coverage documentation",
+    "isMandatory": true
+  },
+  {
+    "_id": "2064f297281b644a4d77a83a",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "2064f297281b644a4d77a83a",
+    "vendorConfirmationName": "Vetted lodging contracts",
+    "isMandatory": true
+  },
+  {
+    "_id": "bd88e35b959695141f34f8c9",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "bd88e35b959695141f34f8c9",
+    "vendorConfirmationName": "Rapid placement SLA",
+    "isMandatory": true
+  },
+  {
+    "_id": "5f4c55840872e4fe33bf945e",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "5f4c55840872e4fe33bf945e",
+    "vendorConfirmationName": "Pet and accessibility policy",
+    "isMandatory": true
+  },
+  {
+    "_id": "5b19272746ff4b750befbf3a",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "5b19272746ff4b750befbf3a",
+    "vendorConfirmationName": "Occupancy verification methodology",
+    "isMandatory": true
+  },
+  {
+    "_id": "168e219878ee33c78fa1e225",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "168e219878ee33c78fa1e225",
+    "vendorConfirmationName": "Sample vacancy inspection report",
+    "isMandatory": true
+  },
+  {
+    "_id": "383217bdcbf6cd7d15ca20f8",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "383217bdcbf6cd7d15ca20f8",
+    "vendorConfirmationName": "Photo and utility-record standards",
+    "isMandatory": true
+  },
+  {
+    "_id": "aa06f99ed5c6b3d434a5faca",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "aa06f99ed5c6b3d434a5faca",
+    "vendorConfirmationName": "Tenant recovery process SOP",
+    "isMandatory": true
+  },
+  {
+    "_id": "29973375948627063953558e",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "29973375948627063953558e",
+    "vendorConfirmationName": "Florida consumer collection agency licence",
+    "isMandatory": true
+  },
+  {
+    "_id": "636db8a64f5cda00a88aadc7",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "636db8a64f5cda00a88aadc7",
+    "vendorConfirmationName": "Sample recovery file",
+    "isMandatory": true
+  },
+  {
+    "_id": "b259501bd07693bceb1db9cc",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "b259501bd07693bceb1db9cc",
+    "vendorConfirmationName": "Florida statutory deadline calendar methodology",
+    "isMandatory": true
+  },
+  {
+    "_id": "1ba7909bfbda52e19a03ec67",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "1ba7909bfbda52e19a03ec67",
+    "vendorConfirmationName": "Alerting and escalation SOP",
+    "isMandatory": true
+  },
+  {
+    "_id": "a9141e8390fdacf5893653dd",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "a9141e8390fdacf5893653dd",
+    "vendorConfirmationName": "Sample compliance report",
+    "isMandatory": true
+  },
+  {
+    "_id": "29669f2421048606eca6066f",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "29669f2421048606eca6066f",
+    "vendorConfirmationName": "Contractor rebate and waiver investigation method",
+    "isMandatory": true
+  },
+  {
+    "_id": "21337196b3b300725e68b451",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "21337196b3b300725e68b451",
+    "vendorConfirmationName": "Contractor audit SOP",
+    "isMandatory": true
+  },
+  {
+    "_id": "e869471ed7cc60ef8ee0ae5d",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "e869471ed7cc60ef8ee0ae5d",
+    "vendorConfirmationName": "Sample audit report",
+    "isMandatory": true
+  },
+  {
+    "_id": "01cb4203f9db4b456dca0e61",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "01cb4203f9db4b456dca0e61",
+    "vendorConfirmationName": "Professional / E&O liability insurance ≥ $1M",
+    "isMandatory": true
+  },
+  {
+    "_id": "dd791c9bfbe0b23e3dc7278d",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "dd791c9bfbe0b23e3dc7278d",
+    "vendorConfirmationName": "General liability insurance ≥ $1M",
+    "isMandatory": true
+  },
+  {
+    "_id": "461b9414be524186f571f75e",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "461b9414be524186f571f75e",
+    "vendorConfirmationName": "Workers' compensation insurance (statutory)",
+    "isMandatory": true
+  },
+  {
+    "_id": "6c6b2cd793e69918c098ba51",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "6c6b2cd793e69918c098ba51",
+    "vendorConfirmationName": "Business license & legal entity / tax ID",
+    "isMandatory": true
+  },
+  {
+    "_id": "48abde57c481c2a80dc4bf66",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "48abde57c481c2a80dc4bf66",
+    "vendorConfirmationName": "Florida licence per covered service (adjuster, contractor or engineer)",
+    "isMandatory": true
+  },
+  {
+    "_id": "35e428adf112cb17324a732a",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "35e428adf112cb17324a732a",
+    "vendorConfirmationName": "Background checks on field personnel",
+    "isMandatory": true
+  },
+  {
+    "_id": "2b05f2d78df457207295405d",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "2b05f2d78df457207295405d",
+    "vendorConfirmationName": "Cyber liability insurance ≥ $1M",
+    "isMandatory": false
+  },
+  {
+    "_id": "4aa4210b51813c49a64dbe31",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "4aa4210b51813c49a64dbe31",
+    "vendorConfirmationName": "SOC 2 Type II certification",
+    "isMandatory": false
+  },
+  {
+    "_id": "1a4b3e5a54cce03941923460",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "1a4b3e5a54cce03941923460",
+    "vendorConfirmationName": "Conflict of interest disclosure",
+    "isMandatory": false
+  },
+  {
+    "_id": "be4663254af5f9150b2bbd81",
+    "vendorStageId": "6841a101f1a23c0012342453",
+    "vendorConfirmationId": "be4663254af5f9150b2bbd81",
+    "vendorConfirmationName": "REST API with documented endpoints",
+    "isMandatory": false
+  },
+  {
+    "_id": "3ac2282de9200de7d7e70511",
+    "vendorStageId": "6841a101f1a23c0012342453",
+    "vendorConfirmationId": "3ac2282de9200de7d7e70511",
+    "vendorConfirmationName": "ClaimSystem integration (native or middleware)",
+    "isMandatory": false
+  },
+  {
+    "_id": "356dc74750e9643afe4e00b3",
+    "vendorStageId": "6841a101f1a23c0012342453",
+    "vendorConfirmationId": "356dc74750e9643afe4e00b3",
+    "vendorConfirmationName": "Two-way status updates (webhook or daily batch)",
+    "isMandatory": false
+  },
+  {
+    "_id": "c9391a7f5d7f02fdb06f9b1e",
+    "vendorStageId": "6841a101f1a23c0012342453",
+    "vendorConfirmationId": "c9391a7f5d7f02fdb06f9b1e",
+    "vendorConfirmationName": "Xactimate-compatible estimate and photo exchange",
+    "isMandatory": false
+  },
+  {
+    "_id": "e71ac74bf8f4f8fd3b4ae2f8",
+    "vendorStageId": "6841a101f1a23c0012342453",
+    "vendorConfirmationId": "e71ac74bf8f4f8fd3b4ae2f8",
+    "vendorConfirmationName": "Machine-readable reports with audit trail",
+    "isMandatory": false
+  },
+  {
+    "_id": "1b6c057d14e7974398766be3",
+    "vendorStageId": "6841a101f1a23c0012342453",
+    "vendorConfirmationId": "1b6c057d14e7974398766be3",
+    "vendorConfirmationName": "Business continuity plan with tested RTO/RPO",
+    "isMandatory": false
+  },
+  {
+    "_id": "2dbb79e96f519125dba5c470",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "2dbb79e96f519125dba5c470",
+    "vendorConfirmationName": "3+ years in each applied service category",
+    "isMandatory": true
+  },
+  {
+    "_id": "18b43fb222458c6c92ea4e12",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "18b43fb222458c6c92ea4e12",
+    "vendorConfirmationName": "Carrier reference of comparable scale",
+    "isMandatory": true
+  },
+  {
+    "_id": "674fd9e1d2cc961473f4a2d4",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "674fd9e1d2cc961473f4a2d4",
+    "vendorConfirmationName": "Capacity attestation — max claim volume per month/quarter + certification to meet demand",
+    "isMandatory": true
+  },
+  {
+    "_id": "733af2bba9414b0fbcfbbf85",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "733af2bba9414b0fbcfbbf85",
+    "vendorConfirmationName": "CAT surge attestation — capacity to scale during a declared catastrophe",
+    "isMandatory": true
+  },
+  {
+    "_id": "a4aaadd7164ec4f4b23ef872",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "a4aaadd7164ec4f4b23ef872",
+    "vendorConfirmationName": "Performance monitoring plan (SLA, cycle time, re-inspection rate)",
+    "isMandatory": true
+  },
+  {
+    "_id": "2cceee3e18da11631e31e90e",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "2cceee3e18da11631e31e90e",
+    "vendorConfirmationName": "Prior pilot disclosure (including failures)",
+    "isMandatory": true
+  },
+  {
+    "_id": "0a695d67e0816e625a7ab887",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "0a695d67e0816e625a7ab887",
+    "vendorConfirmationName": "Third-party analyst rating (if category has one)",
+    "isMandatory": true
+  },
+  {
+    "_id": "2c55691e6e89e814fa0358dc",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "2c55691e6e89e814fa0358dc",
+    "vendorConfirmationName": "Willingness to accept performance-based fees",
+    "isMandatory": true
+  }
+]

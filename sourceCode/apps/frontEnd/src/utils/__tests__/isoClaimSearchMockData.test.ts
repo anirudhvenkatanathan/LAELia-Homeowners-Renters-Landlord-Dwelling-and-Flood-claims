@@ -4,16 +4,16 @@ import { getClaimSummaryData } from '../claimSummaryMockData';
 import type { IndividualClaimRecord } from '../../models/claimIntakeMaster/claimIntakeModel';
 
 const ALL_TYPES: IsoFlagType[] = [
-  'PriorClaimsHistory', 'SharedLegalRepresentation', 'EmployerClaimClustering',
-  'EmployerFrequencySpike', 'CrossJurisdictionMatch', 'TreatingProviderUtilizationOutlier', 'ClaimFrequency',
+  'PriorClaimsHistory', 'SharedRepresentation', 'PropertyClaimClustering',
+  'PropertyFrequencySpike', 'CrossCarrierMatch', 'ContractorUtilizationOutlier', 'ClaimFrequency',
 ];
 
-const KNOWN_CLAIM_NUMBERS = ['WCM-2026-007', 'WCM-2026-100001', 'WCM-2026-008', 'WCM-2026-006'];
+const KNOWN_CLAIM_NUMBERS = ['HO-2026-001', 'LL-2026-001', 'DW-2026-001', 'FL-2026-001'];
 
 function makeRecord(overrides: Partial<IndividualClaimRecord>): IndividualClaimRecord {
   return {
     recordIndex: 0,
-    claimNumber: 'WCM-TEST',
+    claimNumber: 'HO-TEST',
     policyNumber: '',
     insuredName: '',
     claimType: '',
@@ -44,7 +44,7 @@ describe('getIsoClaimSearchData', () => {
   });
 
   it('is deterministic within a session — same claim number always yields the same result', () => {
-    const r = makeRecord({ claimNumber: 'WCM-2026-999', insuredName: 'Jordan Ellis' });
+    const r = makeRecord({ claimNumber: 'HO-2026-999', insuredName: 'Jordan Ellis' });
     const a = getIsoClaimSearchData(r);
     const b = getIsoClaimSearchData(r);
     expect(a).toEqual(b);
@@ -68,11 +68,11 @@ describe('getIsoClaimSearchData', () => {
       if (data === null || data.flags.length !== 2) continue;
       const [first, second] = data.flags;
       expect(first.flagType).not.toBe(second.flagType);
-      // SharedLegalRepresentation/EmployerClaimClustering/TreatingProviderUtilizationOutlier
-      // outrank PriorClaimsHistory/CrossJurisdictionMatch, which outrank
-      // EmployerFrequencySpike/ClaimFrequency — spot-check a same-tier-vs-lower-tier pair.
-      const HIGH_TIER: IsoFlagType[] = ['SharedLegalRepresentation', 'EmployerClaimClustering', 'TreatingProviderUtilizationOutlier'];
-      const LOW_TIER: IsoFlagType[] = ['EmployerFrequencySpike', 'ClaimFrequency'];
+      // SharedRepresentation/PropertyClaimClustering/ContractorUtilizationOutlier
+      // outrank PriorClaimsHistory/CrossCarrierMatch, which outrank
+      // PropertyFrequencySpike/ClaimFrequency — spot-check a same-tier-vs-lower-tier pair.
+      const HIGH_TIER: IsoFlagType[] = ['SharedRepresentation', 'PropertyClaimClustering', 'ContractorUtilizationOutlier'];
+      const LOW_TIER: IsoFlagType[] = ['PropertyFrequencySpike', 'ClaimFrequency'];
       if (HIGH_TIER.includes(second.flagType)) expect(HIGH_TIER).toContain(first.flagType);
       if (LOW_TIER.includes(first.flagType)) expect(LOW_TIER).toContain(second.flagType);
     }
@@ -102,7 +102,7 @@ describe('getIsoClaimSearchData', () => {
 
   it('always surfaces this claim\'s own real identifying fields, regardless of which flag type is assigned', () => {
     const record = makeRecord({
-      claimNumber: 'WCM-2026-555',
+      claimNumber: 'HO-2026-555',
       insuredName: 'Alex Rivera',
       policyNumber: 'POL-555555555',
       claimStatus: 'Open',
@@ -112,7 +112,7 @@ describe('getIsoClaimSearchData', () => {
     // Not guaranteed non-null (session-random), but if it matched, the
     // current-claim fields must be the real ones, not generated filler.
     if (data) {
-      expect(data.currentClaimNumber).toBe('WCM-2026-555');
+      expect(data.currentClaimNumber).toBe('HO-2026-555');
       expect(data.currentPolicyNumber).toBe('POL-555555555');
       expect(data.currentClaimStatus).toBe('Open');
       expect(data.currentJurisdiction).toBe('Texas');
@@ -125,14 +125,14 @@ describe('getIsoClaimSearchData', () => {
     // non-null result to exercise currentClaimFields() end-to-end.
     let found = false;
     for (let i = 0; i < 20 && !found; i++) {
-      const claimNumber = `WCM-2026-PROV-${i}`;
+      const claimNumber = `HO-2026-PROV-${i}`;
       const data = getIsoClaimSearchData(makeRecord({
         claimNumber,
         insuredName: 'John Smith',
-        employerName: 'ABC Manufacturing Inc',
-        treatingProvider: 'Dr. Robert Johnson',
-        medicalFacility: 'Valley Occupational Health',
-        injuryType: 'Lumbar Strain',
+        propertyAddress: 'ABC Manufacturing Inc',
+        assignedAdjuster: 'Dr. Robert Johnson',
+        contractorName: 'Valley Occupational Health',
+        causeOfLoss: 'Lumbar Strain',
       }));
       if (data) {
         found = true;
@@ -143,23 +143,23 @@ describe('getIsoClaimSearchData', () => {
     expect(found).toBe(true);
   });
 
-  it('every match\'s Alleged Injury / Part of Body always agrees with this claim\'s Claims Summary section, even when the record has real injuryType/bodyParts set', () => {
+  it('every match\'s Cause of Loss / Damaged Area always agrees with this claim\'s Claims Summary section, even when the record has real causeOfLoss/damagedAreas set', () => {
     for (const claimNumber of KNOWN_CLAIM_NUMBERS) {
       const record = makeRecord({
         claimNumber,
         insuredName: 'Test Claimant',
-        injuryType: 'Lumbar Strain',
-        bodyParts: 'Lower back',
+        causeOfLoss: 'Lumbar Strain',
+        damagedAreas: 'Lower back',
       });
       const data = getIsoClaimSearchData(record);
       if (data === null) continue;
       const summary = getClaimSummaryData(claimNumber, 'Test Claimant', 'Lumbar Strain', 'Lower back');
       for (const card of data.flags) {
         for (const match of card.matches) {
-          const allegedInjury = match.fields.find(f => f.label === 'Alleged Injury')?.value;
-          const partOfBody    = match.fields.find(f => f.label === 'Part of Body')?.value;
-          if (allegedInjury !== undefined) expect(allegedInjury).toBe(summary.injury.label);
-          if (partOfBody !== undefined) expect(partOfBody).toBe(summary.injury.bodyPart);
+          const allegedInjury = match.fields.find(f => f.label === 'Cause of Loss')?.value;
+          const partOfBody    = match.fields.find(f => f.label === 'Damaged Area')?.value;
+          if (allegedInjury !== undefined) expect(allegedInjury).toBe(summary.loss.label);
+          if (partOfBody !== undefined) expect(partOfBody).toBe(summary.loss.area);
         }
       }
     }

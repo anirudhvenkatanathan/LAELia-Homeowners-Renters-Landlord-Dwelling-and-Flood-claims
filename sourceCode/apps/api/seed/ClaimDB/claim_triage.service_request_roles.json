@@ -1,0 +1,596 @@
+[
+  {
+    "_id": {
+      "$oid": "84813bd70cda835f130b0762"
+    },
+    "roleId": "0658976d-6d55-4f61-a2a8-bb245fd7543d",
+    "uploadId": "manual",
+    "roleName": "24/7 Loss Mitigation Contractors",
+    "description": "Emergency mitigation (drying, debris removal, odor and mold remediation, roof protection) dispatched within hours of the loss.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(roof_damage_flag != '' OR debris_removal_required_flag != '' OR hvac_odor_remediation_required_flag != '' OR mold_remediation_required_flag != '' OR structural_drying_required_flag != '')",
+    "nlpCondition": "roof_damage_flag != '' OR debris_removal_required_flag != '' OR hvac_odor_remediation_required_flag != '' OR mold_remediation_required_flag != '' OR structural_drying_required_flag != ''",
+    "nlpConditionInWords": "Emergency mitigation (drying, debris removal, odor and mold remediation, roof protection) dispatched within hours of the loss.",
+    "lineOfBusiness": [
+      "Homeowners",
+      "Landlord",
+      "Dwelling",
+      "Flood"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "2f3eb34bf6e0e5635fa09613"
+    },
+    "roleId": "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
+    "uploadId": "manual",
+    "roleName": "Cause & Origin Specialists",
+    "description": "Determine how and where a loss started on high-value, catastrophic, suspicious or contractor-related fire and explosion losses.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(high_value_claim_flag != '' OR catastrophic_claim_flag != '' OR fraud_score > 70 OR contractor_negligence_flag != '' OR product_involvement_flag != '')",
+    "nlpCondition": "high_value_claim_flag != '' OR catastrophic_claim_flag != '' OR fraud_score > 70 OR contractor_negligence_flag != '' OR product_involvement_flag != ''",
+    "nlpConditionInWords": "Determine how and where a loss started on high-value, catastrophic, suspicious or contractor-related fire and explosion losses.",
+    "lineOfBusiness": [
+      "Homeowners",
+      "Renters",
+      "Landlord",
+      "Dwelling"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "e77c16cb4fd44a4a2bf46c65"
+    },
+    "roleId": "d2329338-efe4-49c4-af73-bae9a39c55cb",
+    "uploadId": "manual",
+    "roleName": "Appraisers/Independent Adjusters",
+    "description": "Field appraisal and independent adjusting for losses with construction-trade involvement or special-handling property.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(construction_trade_involvement_flag != '' OR special_handling_property_flag != '')",
+    "nlpCondition": "construction_trade_involvement_flag != '' OR special_handling_property_flag != ''",
+    "nlpConditionInWords": "Field appraisal and independent adjusting for losses with construction-trade involvement or special-handling property.",
+    "lineOfBusiness": [
+      "Homeowners",
+      "Renters",
+      "Landlord",
+      "Dwelling"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "3775eac859729ad37cbd4cb1"
+    },
+    "roleId": "de2a54b5-1dab-48f6-aafe-09ab14d462ec",
+    "uploadId": "manual",
+    "roleName": "Forensic Engineers",
+    "description": "Structural and causation analysis for high-value, catastrophic or disputed-cause losses.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(high_value_claim_flag != '' OR catastrophic_claim_flag != '' OR disputed_cause_origin_flag != '' OR multiple_entities_jobsite_flag != '' OR liability_contribution_determination_flag != '' OR contractor_negligence_flag != '')",
+    "nlpCondition": "high_value_claim_flag != '' OR catastrophic_claim_flag != '' OR disputed_cause_origin_flag != '' OR multiple_entities_jobsite_flag != '' OR liability_contribution_determination_flag != '' OR contractor_negligence_flag != ''",
+    "nlpConditionInWords": "Structural and causation analysis for high-value, catastrophic or disputed-cause losses.",
+    "lineOfBusiness": [
+      "Homeowners",
+      "Landlord",
+      "Dwelling",
+      "Flood"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "e0c77b9005cddf3e3d208947"
+    },
+    "roleId": "a0efd921-2a5e-424f-a4db-2419d12c121a",
+    "uploadId": "manual",
+    "roleName": "Forensic Accountant",
+    "description": "Loss-of-rents, additional-expense and inventory valuation review on complex or inflated claims.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(business_interruption_flag != '' OR large_additional_expense_flag != '' OR inflated_value_claim_flag != '' OR complex_inventory_loss_flag != '' OR Litigated claim != '' OR potential_recovery_amount > 35000)",
+    "nlpCondition": "business_interruption_flag != '' OR large_additional_expense_flag != '' OR inflated_value_claim_flag != '' OR complex_inventory_loss_flag != '' OR Litigated claim != '' OR potential_recovery_amount > 35000",
+    "nlpConditionInWords": "Loss-of-rents, additional-expense and inventory valuation review on complex or inflated claims.",
+    "lineOfBusiness": [
+      "Homeowners",
+      "Landlord",
+      "Dwelling"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6f166adfecaa06b7eec324fa"
+    },
+    "roleId": "afd882e6-5968-41a5-a627-499eea6a6ef0",
+    "uploadId": "manual",
+    "roleName": "Legal",
+    "description": "Coverage and litigation counsel for contested, litigated, fraud-flagged or high-value claims.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(first_notice_petition_flag != '' OR high_value_claim_flag != '' OR catastrophic_claim_flag != '' OR Contested claim != '' OR Litigated claim != '' OR Fraud flag != '' OR significant_preexisting_condition_flag != '' OR Diagnosis in dispute != '' OR large_lump_sum_resolution_flag != '' OR medical_set_aside_agreement_flag != '')",
+    "nlpCondition": "first_notice_petition_flag != '' OR high_value_claim_flag != '' OR catastrophic_claim_flag != '' OR Contested claim != '' OR Litigated claim != '' OR Fraud flag != '' OR significant_preexisting_condition_flag != '' OR Diagnosis in dispute != '' OR large_lump_sum_resolution_flag != '' OR medical_set_aside_agreement_flag != ''",
+    "nlpConditionInWords": "Coverage and litigation counsel for contested, litigated, fraud-flagged or high-value claims.",
+    "lineOfBusiness": [
+      "Homeowners",
+      "Renters",
+      "Landlord",
+      "Dwelling",
+      "Flood"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "856fe10eb4d4f7dce1859ab3"
+    },
+    "roleId": "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+    "uploadId": "manual",
+    "roleName": "Independent Adjusters",
+    "description": "Independent adjusting where the loss version is inconsistent, liability is contested or damages look overstated.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(inconsistent_loss_version_flag != '' OR liability_negligence_contested_flag != '' OR damages_overstated_flag != '' OR prior_claim_history_flag != '' OR party_non_cooperation_flag != '')",
+    "nlpCondition": "inconsistent_loss_version_flag != '' OR liability_negligence_contested_flag != '' OR damages_overstated_flag != '' OR prior_claim_history_flag != '' OR party_non_cooperation_flag != ''",
+    "nlpConditionInWords": "Independent adjusting where the loss version is inconsistent, liability is contested or damages look overstated.",
+    "lineOfBusiness": [
+      "Homeowners",
+      "Renters",
+      "Landlord",
+      "Dwelling"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "3b518ee2bdbcb17a59d9531a"
+    },
+    "roleId": "aeda679c-ad7b-4fec-a6a4-5b6616cb15c2",
+    "uploadId": "manual",
+    "roleName": "Decision letters",
+    "description": "Coverage decision and status letters on the 30-day status cycle.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(status_interval_days = 30)",
+    "nlpCondition": "status_interval_days = 30",
+    "nlpConditionInWords": "Coverage decision and status letters on the 30-day status cycle.",
+    "lineOfBusiness": [
+      "Homeowners",
+      "Renters",
+      "Landlord",
+      "Dwelling",
+      "Flood"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "cc5afb555646edf8223548d7"
+    },
+    "roleId": "558e9abc-e33d-46fc-a519-839fafb746eb",
+    "uploadId": "manual",
+    "roleName": "Subrogation",
+    "description": "Recovery from responsible third parties: product failures, contractor negligence, multiple liable entities or ISO hits.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(liability_evidence_flag != '' AND potential_recovery_amount > 35000 AND jurisdiction IN CA,TX,FL OR product_involvement_flag != '' OR multiple_entities_jobsite_flag != '' OR contractor_negligence_flag != '' OR multiple_insurer_iso_hit_flag != '')",
+    "nlpCondition": "liability_evidence_flag != '' AND potential_recovery_amount > 35000 AND jurisdiction IN CA,TX,FL OR product_involvement_flag != '' OR multiple_entities_jobsite_flag != '' OR contractor_negligence_flag != '' OR multiple_insurer_iso_hit_flag != ''",
+    "nlpConditionInWords": "Recovery from responsible third parties: product failures, contractor negligence, multiple liable entities or ISO hits.",
+    "lineOfBusiness": [
+      "Homeowners",
+      "Renters",
+      "Landlord",
+      "Dwelling",
+      "Flood"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "c8707b0159387f9ca795a523"
+    },
+    "roleId": "ebdc794f-65a3-4b19-ac45-393830e15e13",
+    "uploadId": "manual",
+    "roleName": "Desk investigations",
+    "description": "Desk-based verification for fraud indicators, prior-claim history, ISO hits, inconsistent accounts or early attorney involvement.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(fraud_score > 70 OR prior_claim_history_flag != '' OR multiple_insurer_iso_hit_flag != '' OR inconsistent_loss_version_flag != '' OR attorney_initial_notice_flag != '' OR unwitnessed_credibility_concern_flag != '' OR immediate_counsel_representation_flag != '')",
+    "nlpCondition": "fraud_score > 70 OR prior_claim_history_flag != '' OR multiple_insurer_iso_hit_flag != '' OR inconsistent_loss_version_flag != '' OR attorney_initial_notice_flag != '' OR unwitnessed_credibility_concern_flag != '' OR immediate_counsel_representation_flag != ''",
+    "nlpConditionInWords": "Desk-based verification for fraud indicators, prior-claim history, ISO hits, inconsistent accounts or early attorney involvement.",
+    "lineOfBusiness": [
+      "Homeowners",
+      "Renters",
+      "Landlord",
+      "Dwelling",
+      "Flood"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "222651c7d6eb4b597896ce24"
+    },
+    "roleId": "c1a4282d-12fe-4faa-aef3-8c8631646edd",
+    "uploadId": "manual",
+    "roleName": "CAT Response",
+    "description": "Catastrophe surge handling for catastrophic-severity claims, large reserves or claims tied to a declared catastrophe event.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(severity_category = catastrophic OR total_reserve_amount > 500000 OR cat_event_flag != '')",
+    "nlpCondition": "severity_category = catastrophic OR total_reserve_amount > 500000 OR cat_event_flag != ''",
+    "nlpConditionInWords": "Catastrophe surge handling for catastrophic-severity claims, large reserves or claims tied to a declared catastrophe event.",
+    "lineOfBusiness": [
+      "Homeowners",
+      "Renters",
+      "Landlord",
+      "Dwelling",
+      "Flood"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "f03dde1c39907af7cd5006d4"
+    },
+    "roleId": "43017e2f-5a5a-418a-a972-f10cef277c2f",
+    "uploadId": "manual",
+    "roleName": "Repair Network Referral",
+    "description": "Refer repairs to the carrier’s contractor network, including specialty trades.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(contractor_referral_required_flag != '' OR specialty_trade_required_flag != '')",
+    "nlpCondition": "contractor_referral_required_flag != '' OR specialty_trade_required_flag != ''",
+    "nlpConditionInWords": "Refer repairs to the carrier’s contractor network, including specialty trades.",
+    "lineOfBusiness": [
+      "Homeowners",
+      "Landlord",
+      "Dwelling"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "802e577a56726f20a2620fbc"
+    },
+    "roleId": "34ff1d01-fb6c-44d6-a77b-062615d797a4",
+    "uploadId": "manual",
+    "roleName": "Scene Investigation & Official Reports",
+    "description": "On-site scene investigation and fire, police or other official report retrieval.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(scene_investigation_required_flag != '' OR police_report_required_flag != '')",
+    "nlpCondition": "scene_investigation_required_flag != '' OR police_report_required_flag != ''",
+    "nlpConditionInWords": "On-site scene investigation and fire, police or other official report retrieval.",
+    "lineOfBusiness": [
+      "Homeowners",
+      "Renters",
+      "Landlord",
+      "Dwelling"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "555763fd8f0e4f138d7495a2"
+    },
+    "roleId": "2a0941a9-ab8e-42c5-aa96-53a4124d097e",
+    "uploadId": "manual",
+    "roleName": "NFIP Authorized Adjuster",
+    "description": "Assign an NFIP-authorized flood adjuster to every claim under a National Flood Insurance Program policy.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(nfip_policy_flag != '')",
+    "nlpCondition": "nfip_policy_flag != ''",
+    "nlpConditionInWords": "Assign an NFIP-authorized flood adjuster to every claim under a National Flood Insurance Program policy.",
+    "lineOfBusiness": [
+      "Flood"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "9c8db6dc1c04e010ac88af13"
+    },
+    "roleId": "e3973762-fe7d-42a3-a028-c3483457bf9a",
+    "uploadId": "manual",
+    "roleName": "Proof of Loss Follow-up",
+    "description": "Chase the sworn proof of loss before the 60-day SFIP deadline (follow-up starts at day 45).",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(days_since_loss >= 45 AND proof_of_loss_received_flag = '')",
+    "nlpCondition": "days_since_loss >= 45 AND proof_of_loss_received_flag = ''",
+    "nlpConditionInWords": "Chase the sworn proof of loss before the 60-day SFIP deadline (follow-up starts at day 45).",
+    "lineOfBusiness": [
+      "Flood"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "b8d0ad7d21fc124e30e761f2"
+    },
+    "roleId": "0443bbe8-c14d-40ef-adec-4458907ababd",
+    "uploadId": "manual",
+    "roleName": "Waiting Period Review",
+    "description": "Review losses that occur inside the standard 30-day flood waiting period unless an exception applies.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(policy_days_before_loss < 30 AND waiting_period_exception_flag = '')",
+    "nlpCondition": "policy_days_before_loss < 30 AND waiting_period_exception_flag = ''",
+    "nlpConditionInWords": "Review losses that occur inside the standard 30-day flood waiting period unless an exception applies.",
+    "lineOfBusiness": [
+      "Flood"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "abf8217f2c9edd7ffdb0ff8a"
+    },
+    "roleId": "d094afe9-ba8f-412f-aa9b-aca77e7db7f1",
+    "uploadId": "manual",
+    "roleName": "Substantial Damage Determination",
+    "description": "Determine substantial damage (repair cost of 50% or more of structure value) for structures in a special flood hazard area.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(repair_cost_pct_of_value >= 50 AND sfha_flag != '')",
+    "nlpCondition": "repair_cost_pct_of_value >= 50 AND sfha_flag != ''",
+    "nlpConditionInWords": "Determine substantial damage (repair cost of 50% or more of structure value) for structures in a special flood hazard area.",
+    "lineOfBusiness": [
+      "Flood"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "f6be9e520c95bce87129b53f"
+    },
+    "roleId": "be8db67b-6f4c-49b7-a14f-da9ca27c509a",
+    "uploadId": "manual",
+    "roleName": "ICC Claim Handling",
+    "description": "Handle Increased Cost of Compliance claims (up to $30,000) once substantial damage is determined.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(substantial_damage_flag != '')",
+    "nlpCondition": "substantial_damage_flag != ''",
+    "nlpConditionInWords": "Handle Increased Cost of Compliance claims (up to $30,000) once substantial damage is determined.",
+    "lineOfBusiness": [
+      "Flood"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "311cd99613e93e5862d98e46"
+    },
+    "roleId": "53a227b9-317f-48dc-aeb6-6bf1a0c7a4ab",
+    "uploadId": "manual",
+    "roleName": "NFIP Limit Exposure",
+    "description": "Monitor losses approaching the NFIP residential limits of $250,000 building and $100,000 contents.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(building_loss_amount > 250000 OR contents_loss_amount > 100000)",
+    "nlpCondition": "building_loss_amount > 250000 OR contents_loss_amount > 100000",
+    "nlpConditionInWords": "Monitor losses approaching the NFIP residential limits of $250,000 building and $100,000 contents.",
+    "lineOfBusiness": [
+      "Flood"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "ea209a5a284ef62d206e2404"
+    },
+    "roleId": "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
+    "uploadId": "manual",
+    "roleName": "Estimate & Invoice Review",
+    "description": "Review contractor estimates and invoices that are large (demo threshold $5,000) or disputed.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(contractor_estimate_amount > 5000 OR estimate_dispute_flag != '')",
+    "nlpCondition": "contractor_estimate_amount > 5000 OR estimate_dispute_flag != ''",
+    "nlpConditionInWords": "Review contractor estimates and invoices that are large (demo threshold $5,000) or disputed.",
+    "lineOfBusiness": [
+      "Homeowners",
+      "Landlord",
+      "Dwelling"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "cf9b912300500941f6b27b40"
+    },
+    "roleId": "3455af34-b088-440b-a1f7-99dea13403cf",
+    "uploadId": "manual",
+    "roleName": "Coverage Verification & ROR",
+    "description": "Verify coverage and issue a reservation of rights where coverage is questioned, the policy lapsed, a peril is excluded or notice was late.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(coverage_question_flag != '' OR policy_lapse_flag != '' OR excluded_peril_flag != '' OR late_notice_flag != '')",
+    "nlpCondition": "coverage_question_flag != '' OR policy_lapse_flag != '' OR excluded_peril_flag != '' OR late_notice_flag != ''",
+    "nlpConditionInWords": "Verify coverage and issue a reservation of rights where coverage is questioned, the policy lapsed, a peril is excluded or notice was late.",
+    "lineOfBusiness": [
+      "Homeowners",
+      "Renters",
+      "Landlord",
+      "Dwelling",
+      "Flood"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "7fd4776fa64223a2b3d4fb4b"
+    },
+    "roleId": "5a3693f8-0fc6-4985-ae83-37bfe5ce7235",
+    "uploadId": "manual",
+    "roleName": "Public Adjuster / Appraisal",
+    "description": "Manage claims where a public adjuster represents the insured or an appraisal has been demanded.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(public_adjuster_flag != '' OR appraisal_demand_flag != '')",
+    "nlpCondition": "public_adjuster_flag != '' OR appraisal_demand_flag != ''",
+    "nlpConditionInWords": "Manage claims where a public adjuster represents the insured or an appraisal has been demanded.",
+    "lineOfBusiness": [
+      "Homeowners",
+      "Renters",
+      "Landlord",
+      "Dwelling",
+      "Flood"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "54d5e54cfea4d77095c00d2f"
+    },
+    "roleId": "953716fb-084f-41be-a85d-c7f32b82c23e",
+    "uploadId": "manual",
+    "roleName": "Roof Surface Review",
+    "description": "Inspect older roofs on wind or hail losses (over 20 years, demo) and apply roof payment-schedule endorsements.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(wind_hail_flag != '' AND roof_age_years > 20 OR roof_payment_schedule_flag != '')",
+    "nlpCondition": "wind_hail_flag != '' AND roof_age_years > 20 OR roof_payment_schedule_flag != ''",
+    "nlpConditionInWords": "Inspect older roofs on wind or hail losses (over 20 years, demo) and apply roof payment-schedule endorsements.",
+    "lineOfBusiness": [
+      "Homeowners",
+      "Landlord",
+      "Dwelling"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "7f69bbdd4cd742387f000dae"
+    },
+    "roleId": "0e056f9a-3549-4d0b-a11c-6e2b5ebdf4a5",
+    "uploadId": "manual",
+    "roleName": "Insurance-to-Value Review",
+    "description": "Review underinsured properties where insurance-to-value is below 80% (demo).",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(insurance_to_value_pct < 80)",
+    "nlpCondition": "insurance_to_value_pct < 80",
+    "nlpConditionInWords": "Review underinsured properties where insurance-to-value is below 80% (demo).",
+    "lineOfBusiness": [
+      "Homeowners",
+      "Landlord",
+      "Dwelling"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "1f604df0741340e00d75570b"
+    },
+    "roleId": "d25a0874-807e-43b7-af32-863e746db8b2",
+    "uploadId": "manual",
+    "roleName": "Contents Inventory & Valuation",
+    "description": "Build and value the contents inventory, and resolve valuation disputes (ACV versus replacement cost).",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(contents_loss_amount > 0 OR contents_valuation_dispute_flag != '')",
+    "nlpCondition": "contents_loss_amount > 0 OR contents_valuation_dispute_flag != ''",
+    "nlpConditionInWords": "Build and value the contents inventory, and resolve valuation disputes (ACV versus replacement cost).",
+    "lineOfBusiness": [
+      "Homeowners",
+      "Renters",
+      "Flood"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6f041d0894881449fd7c8f47"
+    },
+    "roleId": "4791beff-4706-4585-afb4-ebb0f7e2bfe0",
+    "uploadId": "manual",
+    "roleName": "Pack-out & Contents Cleaning",
+    "description": "Pack-out, cleaning and storage of contents after smoke, water or odor losses.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(contents_cleaning_required_flag != '' OR smoke_odor_flag != '')",
+    "nlpCondition": "contents_cleaning_required_flag != '' OR smoke_odor_flag != ''",
+    "nlpConditionInWords": "Pack-out, cleaning and storage of contents after smoke, water or odor losses.",
+    "lineOfBusiness": [
+      "Homeowners",
+      "Renters"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "a8e0a70ce95ed97f5ce3d60a"
+    },
+    "roleId": "f1eac9f3-ae9a-4584-a776-35f7428c0ff7",
+    "uploadId": "manual",
+    "roleName": "Temporary Housing / ALE",
+    "description": "Arrange temporary housing and additional living expense when the insured is displaced or the home is uninhabitable.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(displaced_flag != '' OR uninhabitable_flag != '')",
+    "nlpCondition": "displaced_flag != '' OR uninhabitable_flag != ''",
+    "nlpConditionInWords": "Arrange temporary housing and additional living expense when the insured is displaced or the home is uninhabitable.",
+    "lineOfBusiness": [
+      "Homeowners",
+      "Renters"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "116fa9cf1014a1818a14d5c8"
+    },
+    "roleId": "26e206b6-c156-492e-aa11-41c474ca3827",
+    "uploadId": "manual",
+    "roleName": "Vacancy Review",
+    "description": "Review dwelling-fire and landlord losses at properties vacant more than 60 days or flagged unoccupied.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(vacancy_days > 60 OR unoccupied_flag != '')",
+    "nlpCondition": "vacancy_days > 60 OR unoccupied_flag != ''",
+    "nlpConditionInWords": "Review dwelling-fire and landlord losses at properties vacant more than 60 days or flagged unoccupied.",
+    "lineOfBusiness": [
+      "Landlord",
+      "Dwelling"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "c8bb3376fc5a82cf4a2fc454"
+    },
+    "roleId": "abc0e227-f29f-4d44-adac-f0b6776c8e79",
+    "uploadId": "manual",
+    "roleName": "Tenant-Caused Loss Recovery",
+    "description": "Pursue recovery from tenants where the tenant caused the loss and there is recoverable value.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(tenant_caused_flag != '' AND potential_recovery_amount > 0)",
+    "nlpCondition": "tenant_caused_flag != '' AND potential_recovery_amount > 0",
+    "nlpConditionInWords": "Pursue recovery from tenants where the tenant caused the loss and there is recoverable value.",
+    "lineOfBusiness": [
+      "Landlord"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "dce5e9ebd926da0ed3545e11"
+    },
+    "roleId": "1f5b97d6-24a7-4880-a10e-cf540be4089c",
+    "uploadId": "manual",
+    "roleName": "Statutory Deadline Watch",
+    "description": "Florida 627.70131 clocks: acknowledge in 7 days, inspect within 7 days of proof of loss, decide within 60 days of notice.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(days_since_notice > 7 AND acknowledged_flag = '' OR days_since_proof_of_loss >= 23 AND inspection_completed_flag = '' OR days_since_notice >= 50 AND payment_decision_issued_flag = '')",
+    "nlpCondition": "days_since_notice > 7 AND acknowledged_flag = '' OR days_since_proof_of_loss >= 23 AND inspection_completed_flag = '' OR days_since_notice >= 50 AND payment_decision_issued_flag = ''",
+    "nlpConditionInWords": "Florida 627.70131 clocks: acknowledge in 7 days, inspect within 7 days of proof of loss, decide within 60 days of notice.",
+    "lineOfBusiness": [
+      "Homeowners",
+      "Renters",
+      "Landlord",
+      "Dwelling"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "58fd38acee2c58a372ca8b0b"
+    },
+    "roleId": "dd83632f-6e75-429b-a53e-6bbae87e5d0d",
+    "uploadId": "manual",
+    "roleName": "Deductible Waiver Review",
+    "description": "Review suspected improper deductible waivers or rebates by contractors.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(deductible_waiver_suspected_flag != '')",
+    "nlpCondition": "deductible_waiver_suspected_flag != ''",
+    "nlpConditionInWords": "Review suspected improper deductible waivers or rebates by contractors.",
+    "lineOfBusiness": [
+      "Homeowners",
+      "Renters",
+      "Landlord",
+      "Dwelling"
+    ]
+  }
+]

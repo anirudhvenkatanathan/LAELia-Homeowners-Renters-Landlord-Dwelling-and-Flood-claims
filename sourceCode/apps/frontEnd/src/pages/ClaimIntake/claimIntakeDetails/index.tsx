@@ -441,7 +441,7 @@ const ClaimIntakeDetails: React.FC = () => {
 
   console.log('selectedRecord', selectedRecord);
 
-  const claimSummaryData = getClaimSummaryData(selectedRecord?.claimNumber ?? '', selectedRecord?.insuredName, selectedRecord?.injuryType, selectedRecord?.bodyParts);
+  const claimSummaryData = getClaimSummaryData(selectedRecord?.claimNumber ?? '', selectedRecord?.insuredName, selectedRecord?.causeOfLoss, selectedRecord?.damagedAreas);
   const isoClaimSearchData = getIsoClaimSearchData(selectedRecord);
   // Stores the trigger's own rect, not a pre-computed panel position — the
   // panel's real (rendered) size is only known once its actual content has
@@ -471,12 +471,12 @@ const ClaimIntakeDetails: React.FC = () => {
   // allRoles array so already-confirmed/legacy roles still resolve even if a
   // claim's LOB classification changes later.
   const claimLOB = mapClaimTypeToLOB(selectedRecord?.claimType);
-  const allRoleNames = allRoles.filter(r => r.lineOfBusiness.includes(claimLOB)).map(r => r.roleName);
+  const allRoleNames = claimLOB ? allRoles.filter(r => r.lineOfBusiness.includes(claimLOB)).map(r => r.roleName) : [];
 
   const loadRoles = () => {
     setRolesLoading(true);
     getAllServiceRequestRoles()
-      .then(r => setAllRoles(r.filter(x=>x.status==='Active').map(x=>({roleId:x.roleId,roleName:x.roleName,nlpCondition:x.nlpCondition??'',nlpConditionInWords:x.nlpConditionInWords??'',lineOfBusiness:x.lineOfBusiness?.length?x.lineOfBusiness:['WCM']})).filter(x=>x.roleName)))
+      .then(r => setAllRoles(r.filter(x=>x.status==='Active').map(x=>({roleId:x.roleId,roleName:x.roleName,nlpCondition:x.nlpCondition??'',nlpConditionInWords:x.nlpConditionInWords??'',lineOfBusiness:x.lineOfBusiness??[]})).filter(x=>x.roleName)))
       .catch(err => logError(err, 'CID.loadRoles'))
       .finally(() => setRolesLoading(false));
   };

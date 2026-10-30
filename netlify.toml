@@ -1,0 +1,36 @@
+# LAELia (property lines) — static React frontend + one serverless function for the API.
+[build]
+  command = "npm --prefix sourceCode/apps/api ci && npm --prefix sourceCode/apps/frontEnd ci && npm --prefix sourceCode/apps/frontEnd run build"
+  publish = "sourceCode/apps/frontEnd/dist"
+  functions = "sourceCode/apps/api/netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "20"
+  # Same-origin API: the frontend calls /api/... and /graphql on the Netlify site itself.
+  VITE_API_URL = ""
+  VITE_GRAPHQL_URL = "/graphql"
+  TEMPLATE_FOLDER_PATH = "Template"
+
+[functions]
+  node_bundler = "esbuild"
+  included_files = ["Template/**"]
+
+[functions."api"]
+  timeout = 26
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/api/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/graphql"
+  to = "/.netlify/functions/api/graphql"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

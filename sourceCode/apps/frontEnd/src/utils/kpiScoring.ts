@@ -4,214 +4,60 @@
 export interface KpiCategory { name: string; weight: number | null; }
 export interface KpiRow      { name: string; weight: number | null; score: number | null; contribution: number | null; }
 
-export const SERVICE_KPI_CONFIG: Record<string, KpiCategory[]> = {
-  'Bill Review': [
-    { name: 'Injury specialization',    weight: null },
-    { name: 'Historical outcomes',      weight: 22   },
-    { name: 'Litigation effectiveness', weight: 8    },
-    { name: 'Turnaround time',          weight: 15   },
-    { name: 'Cost efficiency',          weight: 20   },
-    { name: 'Geographic proximity',     weight: null },
-    { name: 'Capacity',                 weight: 10   },
-    { name: 'Report quality',           weight: 12   },
-    { name: 'Compliance',               weight: 8    },
-    { name: 'Adjuster satisfaction',    weight: 5    },
-    { name: 'Claimant experience',      weight: null },
-  ],
-  'Records Production': [
-    { name: 'Injury specialization',    weight: 8    },
-    { name: 'Historical outcomes',      weight: 18   },
-    { name: 'Litigation effectiveness', weight: 15   },
-    { name: 'Turnaround time',          weight: 15   },
-    { name: 'Cost efficiency',          weight: 8    },
-    { name: 'Geographic proximity',     weight: 10   },
-    { name: 'Capacity',                 weight: 8    },
-    { name: 'Report quality',           weight: 10   },
-    { name: 'Compliance',               weight: 5    },
-    { name: 'Adjuster satisfaction',    weight: 3    },
-    { name: 'Claimant experience',      weight: null },
-  ],
-  'Records Retrieval': [
-    { name: 'Injury specialization',    weight: null },
-    { name: 'Historical outcomes',      weight: 18   },
-    { name: 'Litigation effectiveness', weight: 5    },
-    { name: 'Turnaround time',          weight: 22   },
-    { name: 'Cost efficiency',          weight: 12   },
-    { name: 'Geographic proximity',     weight: 15   },
-    { name: 'Capacity',                 weight: 10   },
-    { name: 'Report quality',           weight: 8    },
-    { name: 'Compliance',               weight: 5    },
-    { name: 'Adjuster satisfaction',    weight: 3    },
-    { name: 'Claimant experience',      weight: 2    },
-  ],
-  'Medical Canvassing': [
-    { name: 'Injury specialization',    weight: 22   },
-    { name: 'Historical outcomes',      weight: 15   },
-    { name: 'Litigation effectiveness', weight: null },
-    { name: 'Turnaround time',          weight: 12   },
-    { name: 'Cost efficiency',          weight: 8    },
-    { name: 'Geographic proximity',     weight: 18   },
-    { name: 'Capacity',                 weight: 8    },
-    { name: 'Report quality',           weight: 8    },
-    { name: 'Compliance',               weight: 5    },
-    { name: 'Adjuster satisfaction',    weight: 2    },
-    { name: 'Claimant experience',      weight: 2    },
-  ],
-  'IME / Peer Review': [
-    { name: 'Injury specialization',    weight: 22   },
-    { name: 'Historical outcomes',      weight: 15   },
-    { name: 'Litigation effectiveness', weight: 12   },
-    { name: 'Turnaround time',          weight: 10   },
-    { name: 'Cost efficiency',          weight: 7    },
-    { name: 'Geographic proximity',     weight: 10   },
-    { name: 'Capacity',                 weight: 7    },
-    { name: 'Report quality',           weight: 8    },
-    { name: 'Compliance',               weight: 5    },
-    { name: 'Adjuster satisfaction',    weight: 2    },
-    { name: 'Claimant experience',      weight: 2    },
-  ],
-  'Desk Investigations': [
-    { name: 'Injury specialization',    weight: 15   },
-    { name: 'Historical outcomes',      weight: 20   },
-    { name: 'Litigation effectiveness', weight: 18   },
-    { name: 'Turnaround time',          weight: 10   },
-    { name: 'Cost efficiency',          weight: 8    },
-    { name: 'Geographic proximity',     weight: 3    },
-    { name: 'Capacity',                 weight: 8    },
-    { name: 'Report quality',           weight: 12   },
-    { name: 'Compliance',               weight: 5    },
-    { name: 'Adjuster satisfaction',    weight: 1    },
-    { name: 'Claimant experience',      weight: null },
-  ],
-  'Nurse Case Management': [
-    { name: 'Injury specialization',    weight: 20   },
-    { name: 'Historical outcomes',      weight: 22   },
-    { name: 'Litigation effectiveness', weight: null },
-    { name: 'Turnaround time',          weight: 8    },
-    { name: 'Cost efficiency',          weight: 8    },
-    { name: 'Geographic proximity',     weight: 12   },
-    { name: 'Capacity',                 weight: 8    },
-    { name: 'Report quality',           weight: 8    },
-    { name: 'Compliance',               weight: 5    },
-    { name: 'Adjuster satisfaction',    weight: 5    },
-    { name: 'Claimant experience',      weight: 4    },
-  ],
-  'Catastrophic Case Management': [
-    { name: 'Injury specialization',    weight: 25   },
-    { name: 'Historical outcomes',      weight: 20   },
-    { name: 'Litigation effectiveness', weight: 5    },
-    { name: 'Turnaround time',          weight: 8    },
-    { name: 'Cost efficiency',          weight: 10   },
-    { name: 'Geographic proximity',     weight: 7    },
-    { name: 'Capacity',                 weight: 8    },
-    { name: 'Report quality',           weight: 8    },
-    { name: 'Compliance',               weight: 4    },
-    { name: 'Adjuster satisfaction',    weight: 3    },
-    { name: 'Claimant experience',      weight: 2    },
-  ],
-  'Pharmacy Carve-Out': [
-    { name: 'Injury specialization',    weight: 10   },
-    { name: 'Historical outcomes',      weight: 20   },
-    { name: 'Litigation effectiveness', weight: null },
-    { name: 'Turnaround time',          weight: 12   },
-    { name: 'Cost efficiency',          weight: 22   },
-    { name: 'Geographic proximity',     weight: 3    },
-    { name: 'Capacity',                 weight: 8    },
-    { name: 'Report quality',           weight: 8    },
-    { name: 'Compliance',               weight: 10   },
-    { name: 'Adjuster satisfaction',    weight: 5    },
-    { name: 'Claimant experience',      weight: 2    },
-  ],
-  'RTW / Job Fit': [
-    { name: 'Injury specialization',    weight: 18   },
-    { name: 'Historical outcomes',      weight: 22   },
-    { name: 'Litigation effectiveness', weight: null },
-    { name: 'Turnaround time',          weight: 10   },
-    { name: 'Cost efficiency',          weight: 8    },
-    { name: 'Geographic proximity',     weight: 12   },
-    { name: 'Capacity',                 weight: 8    },
-    { name: 'Report quality',           weight: 8    },
-    { name: 'Compliance',               weight: 5    },
-    { name: 'Adjuster satisfaction',    weight: 5    },
-    { name: 'Claimant experience',      weight: 4    },
-  ],
-  'Transportation': [
-    { name: 'Injury specialization',    weight: null },
-    { name: 'Historical outcomes',      weight: 22   },
-    { name: 'Litigation effectiveness', weight: null },
-    { name: 'Turnaround time',          weight: 15   },
-    { name: 'Cost efficiency',          weight: 18   },
-    { name: 'Geographic proximity',     weight: 18   },
-    { name: 'Capacity',                 weight: 12   },
-    { name: 'Report quality',           weight: null },
-    { name: 'Compliance',               weight: 5    },
-    { name: 'Adjuster satisfaction',    weight: 3    },
-    { name: 'Claimant experience',      weight: 7    },
-  ],
-  'Subrogation': [
-    { name: 'Injury specialization',    weight: 8    },
-    { name: 'Historical outcomes',      weight: 22   },
-    { name: 'Litigation effectiveness', weight: 25   },
-    { name: 'Turnaround time',          weight: 8    },
-    { name: 'Cost efficiency',          weight: 15   },
-    { name: 'Geographic proximity',     weight: 8    },
-    { name: 'Capacity',                 weight: 5    },
-    { name: 'Report quality',           weight: 5    },
-    { name: 'Compliance',               weight: 3    },
-    { name: 'Adjuster satisfaction',    weight: 1    },
-    { name: 'Claimant experience',      weight: null },
-  ],
-  'Decision Letters': [
-    { name: 'Injury specialization',    weight: null },
-    { name: 'Historical outcomes',      weight: 15   },
-    { name: 'Litigation effectiveness', weight: 15   },
-    { name: 'Turnaround time',          weight: 20   },
-    { name: 'Cost efficiency',          weight: 8    },
-    { name: 'Geographic proximity',     weight: null },
-    { name: 'Capacity',                 weight: 10   },
-    { name: 'Report quality',           weight: 18   },
-    { name: 'Compliance',               weight: 12   },
-    { name: 'Adjuster satisfaction',    weight: 2    },
-    { name: 'Claimant experience',      weight: null },
-  ],
-  'Telephonic Case Management': [
-    { name: 'Injury specialization',    weight: 18   },
-    { name: 'Historical outcomes',      weight: 18   },
-    { name: 'Litigation effectiveness', weight: null },
-    { name: 'Turnaround time',          weight: 12   },
-    { name: 'Cost efficiency',          weight: 8    },
-    { name: 'Geographic proximity',     weight: null },
-    { name: 'Capacity',                 weight: 8    },
-    { name: 'Report quality',           weight: 8    },
-    { name: 'Compliance',               weight: 5    },
-    { name: 'Adjuster satisfaction',    weight: 10   },
-    { name: 'Claimant experience',      weight: 13   },
-  ],
-  'Field Investigations': [
-    { name: 'Injury specialization',    weight: 18   },
-    { name: 'Historical outcomes',      weight: 18   },
-    { name: 'Litigation effectiveness', weight: 18   },
-    { name: 'Turnaround time',          weight: 10   },
-    { name: 'Cost efficiency',          weight: 8    },
-    { name: 'Geographic proximity',     weight: 12   },
-    { name: 'Capacity',                 weight: 5    },
-    { name: 'Report quality',           weight: 8    },
-    { name: 'Compliance',               weight: 3    },
-    { name: 'Adjuster satisfaction',    weight: 0    },
-    { name: 'Claimant experience',      weight: null },
-  ],
+const KPI_NAMES = [
+  'Peril specialization',
+  'Historical outcomes',
+  'Dispute resolution',
+  'Turnaround time',
+  'Cost efficiency',
+  'Geographic proximity',
+  'Capacity',
+  'Report quality',
+  'Compliance',
+  'Adjuster satisfaction',
+  'Policyholder experience',
+] as const;
+
+/** Builds a config from weights in KPI_NAMES order; null = not applicable. */
+function profile(weights: (number | null)[]): KpiCategory[] {
+  return KPI_NAMES.map((name, i) => ({ name, weight: weights[i] }));
+}
+
+// Weighting profiles (each applicable weight set sums to 100).
+const PROFILES = {
+  //                         Peril Hist Disp Turn Cost Geo  Cap  Rpt  Comp Adj  PH
+  estimateValuation: profile([8,   18,  8,   12,  22,  null, 8,  14,  5,   5,   null]),
+  investigation:     profile([18,  18,  12,  10,  5,   12,  5,   12,  5,   3,   null]),
+  recovery:          profile([8,   22,  25,  8,   15,  8,   5,   5,   3,   1,   null]),
+  mitigationField:   profile([10,  12,  null, 22, 10,  15,  12,  8,   5,   3,   3]),
+  legalCoverage:     profile([10,  15,  25,  12,  8,   null, 5,  10,  8,   7,   null]),
+  floodCompliance:   profile([15,  12,  null, 15, 5,   null, 8,  15,  20,  5,   5]),
+  letters:           profile([null, null, null, 15, null, null, null, 25, 20, 20, 20]),
 };
 
-// Aliases for alternate role name spellings used in the app
-SERVICE_KPI_CONFIG['RTW / Job Fit Analysis']              = SERVICE_KPI_CONFIG['RTW / Job Fit'];
-SERVICE_KPI_CONFIG['RTW / JFA']                           = SERVICE_KPI_CONFIG['RTW / Job Fit'];
-SERVICE_KPI_CONFIG['Records Production (Adverse-Party)']  = SERVICE_KPI_CONFIG['Records Production'];
-SERVICE_KPI_CONFIG['Records Retrieval (Defense)']         = SERVICE_KPI_CONFIG['Records Retrieval'];
+const RULES_BY_PROFILE: Record<keyof typeof PROFILES, string[]> = {
+  estimateValuation: ['Estimate & Invoice Review', 'Insurance-to-Value Review', 'Contents Inventory & Valuation', 'Roof Surface Review', 'Appraisers/Independent Adjusters'],
+  investigation:     ['Cause & Origin Specialists', 'Forensic Engineers', 'Forensic Accountant', 'Desk investigations', 'Scene Investigation & Official Reports', 'Independent Adjusters', 'Vacancy Review'],
+  recovery:          ['Subrogation', 'Tenant-Caused Loss Recovery'],
+  mitigationField:   ['24/7 Loss Mitigation Contractors', 'CAT Response', 'Repair Network Referral', 'Pack-out & Contents Cleaning', 'Temporary Housing / ALE'],
+  legalCoverage:     ['Legal', 'Coverage Verification & ROR', 'Public Adjuster / Appraisal', 'Deductible Waiver Review', 'Statutory Deadline Watch'],
+  floodCompliance:   ['NFIP Authorized Adjuster', 'Proof of Loss Follow-up', 'Waiting Period Review', 'Substantial Damage Determination', 'ICC Claim Handling', 'NFIP Limit Exposure'],
+  letters:           ['Decision letters'],
+};
+
+export const SERVICE_KPI_CONFIG: Record<string, KpiCategory[]> = {};
+(Object.keys(RULES_BY_PROFILE) as (keyof typeof PROFILES)[]).forEach((key) => {
+  RULES_BY_PROFILE[key].forEach((rule) => { SERVICE_KPI_CONFIG[rule] = PROFILES[key]; });
+});
+
+// Aliases for alternate role name spellings
+SERVICE_KPI_CONFIG['Decision Letters'] = SERVICE_KPI_CONFIG['Decision letters'];
+SERVICE_KPI_CONFIG['Desk Investigations'] = SERVICE_KPI_CONFIG['Desk investigations'];
 
 const DEFAULT_KPI_CONFIG: KpiCategory[] = [
-  { name: 'Injury specialization',    weight: 20 },
+  { name: 'Peril specialization',    weight: 20 },
   { name: 'Historical outcomes',      weight: 18 },
-  { name: 'Litigation effectiveness', weight: 12 },
+  { name: 'Dispute resolution', weight: 12 },
   { name: 'Turnaround time',          weight: 10 },
   { name: 'Cost efficiency',          weight: 8  },
   { name: 'Geographic proximity',     weight: 5  },
@@ -219,7 +65,7 @@ const DEFAULT_KPI_CONFIG: KpiCategory[] = [
   { name: 'Report quality',           weight: 8  },
   { name: 'Compliance',               weight: 5  },
   { name: 'Adjuster satisfaction',    weight: 3  },
-  { name: 'Claimant experience',      weight: 3  },
+  { name: 'Policyholder experience',      weight: 3  },
 ];
 
 export function getKpiConfig(role: string): KpiCategory[] {

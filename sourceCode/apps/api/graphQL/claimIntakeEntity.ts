@@ -12,6 +12,7 @@ import { VendorModel, getActiveVendorsByRoleIds } from './vendorEntity';
 import { requireSupervisor } from './loginEntity';
 import { Console } from 'console';
 import { mapClaimTypeToLOB } from '../utils/lineOfBusiness';
+import { ConditionData, evaluateRoleConditions, getClaimField } from '../utils/ruleEvaluator';
 
 // ─── Mongoose: Upload Record (one per file) ───────────────────────────────────
 
@@ -313,18 +314,18 @@ export const typeDefs = gql`
     adjusterComments:      String
     adjusterSubmittedBy:   String
     adjusterSubmittedAt:   String
-    injuryType:            String
-    bodyParts:              String
-    icd10:                  String
+    causeOfLoss:            String
+    damagedAreas:              String
+    policyForm:                  String
     severity:                String
     jurisdiction:            String
-    employerCooperation:    String
-    avgWeeklyWage:          String
-    indemnityExposure:      String
-    medicalExposure:        String
-    employerName:           String
-    treatingProvider:       String
-    medicalFacility:        String
+    floodZone:    String
+    coverageALimit:          String
+    buildingExposure:      String
+    contentsExposure:        String
+    propertyAddress:           String
+    assignedAdjuster:       String
+    contractorName:        String
   }
 
   type CompleteClaimResponse {
@@ -520,6 +521,12 @@ function validateRawRecord(raw: RawRecord): { valid: boolean; message: string } 
     console.warn('[validateRawRecord] Validation failed. Missing fields:', missing, '| Raw record keys:', Object.keys(raw), '| Values:', JSON.stringify(raw));
     return { valid: false, message: `Missing required fields: ${missing.join(', ')}` };
   }
+  if (!mapClaimTypeToLOB(raw['claimType'])) {
+    return {
+      valid: false,
+      message: `Unrecognised claimType "${raw['claimType']}". Use Homeowners, Renters, Landlord, Dwelling or Flood.`,
+    };
+  }
   return { valid: true, message: 'Passed' };
 }
 
@@ -567,120 +574,6 @@ function formatDate(d: Date | undefined | null): string {
 
 // ─── Plan Services: condition evaluation ─────────────────────────────────────
 
-interface ConditionData {
-  roleId:        string;
-  fieldName:     string;
-  operator:      string;
-  value:         string;
-  conditionType: string;
-  sortOrder:     number;
-}
-
-// Maps human-readable operator labels → symbolic values so both formats work.
-const OPERATOR_LABEL_MAP: Record<string, string> = {
-  'equals':                   '=',
-  '= (equals)':               '=',
-  'not equals':               '!=',
-  '!= (not equals)':          '!=',
-  'greater than':             '>',
-  '> (greater than)':         '>',
-  'greater than or equal to': '>=',
-  'greater or equal':         '>=',
-  '>= (greater or equal)':    '>=',
-  'less than':                '<',
-  '< (less than)':            '<',
-  'less than or equal to':    '<=',
-  'less or equal':            '<=',
-  '<= (less or equal)':       '<=',
-  'in (in list)':             'IN',
-  'not in':                   'NOT IN',
-  'contains':                 'contains',
-  'starts with':              'starts_with',
-  'starts_with':              'starts_with',
-  'ends with':                'ends_with',
-  'ends_with':                'ends_with',
-};
-
-function normalizeOperator(op: string): string {
-  return OPERATOR_LABEL_MAP[op.toLowerCase().trim()] ?? op.trim();
-}
-
-function getClaimField(record: Record<string, unknown>, fieldName: string): string {
-  // Normalize: lowercase, strip spaces/underscores/hyphens for lookup
-  const n = fieldName.toLowerCase().replace(/[_\s-]/g, '');
-  const fieldMap: Record<string, string> = {
-    claimnumber:       'claimNumber',
-    policynumber:      'policyNumber',
-    insuredname:       'insuredName',
-    claimtype:         'claimType',
-    lossdate:          'lossDate',
-    reporteddate:      'reportedDate',
-    claimamount:       'claimAmount',
-    amount:            'claimAmount',
-    claimstatus:       'claimStatus',
-    status:            'claimStatus',
-    validationstatus:  'validationStatus',
-    validationmessage: 'validationMessage',
-  };
-  // 1. Normalized map lookup
-  const mappedKey = fieldMap[n];
-  if (mappedKey && record[mappedKey] !== undefined && record[mappedKey] !== null)
-    return String(record[mappedKey]).trim();
-  // 2. Exact key in record
-  if (record[fieldName] !== undefined && record[fieldName] !== null)
-    return String(record[fieldName]).trim();
-  // 3. Case-insensitive scan of all keys
-  const directKey = Object.keys(record).find((k) => k.toLowerCase().replace(/[_\s-]/g, '') === n);
-  return directKey && record[directKey] != null ? String(record[directKey]).trim() : '';
-}
-
-// Strip currency symbols, commas, spaces so "$8,500.00" → "8500"
-function toNumericString(s: string): string {
-  return s.replace(/[$,£€¥\s]/g, '');
-}
-
-function evalCondition(recordValue: string, rawOp: string, condValue: string): boolean {
-  const op  = normalizeOperator(rawOp);
-  const rv  = (recordValue ?? '').toLowerCase().trim();
-  const cv  = (condValue ?? '').toLowerCase().trim();
-  // Parse numerics after stripping formatting (handles "$8,500.00" etc.)
-  const rvN = parseFloat(toNumericString(rv));
-  const cvN = parseFloat(toNumericString(cv));
-  switch (op) {
-    case '=':  {
-      // Try exact string match first; if both look numeric, compare as numbers
-      if (!isNaN(rvN) && !isNaN(cvN)) return rvN === cvN;
-      return rv === cv;
-    }
-    case '!=': {
-      if (!isNaN(rvN) && !isNaN(cvN)) return rvN !== cvN;
-      return rv !== cv;
-    }
-    case '>':           return !isNaN(rvN) && !isNaN(cvN) && rvN > cvN;
-    case '>=':          return !isNaN(rvN) && !isNaN(cvN) && rvN >= cvN;
-    case '<':           return !isNaN(rvN) && !isNaN(cvN) && rvN < cvN;
-    case '<=':          return !isNaN(rvN) && !isNaN(cvN) && rvN <= cvN;
-    case 'IN':          return cv.split(',').map((s) => s.trim()).includes(rv);
-    case 'NOT IN':      return !cv.split(',').map((s) => s.trim()).includes(rv);
-    case 'contains':    return rv.includes(cv);
-    case 'starts_with': return rv.startsWith(cv);
-    case 'ends_with':   return rv.endsWith(cv);
-    default:            return false;
-  }
-}
-
-function evaluateRoleConditions(record: Record<string, unknown>, conditions: ConditionData[]): boolean {
-  if (conditions.length === 0) return false;
-  const sorted = [...conditions].sort((a, b) => a.sortOrder - b.sortOrder);
-  let result = evalCondition(getClaimField(record, sorted[0].fieldName), sorted[0].operator, sorted[0].value);
-  for (let i = 1; i < sorted.length; i++) {
-    const c = sorted[i];
-    const cur = evalCondition(getClaimField(record, c.fieldName), c.operator, c.value);
-    result = c.conditionType === 'OR' ? result || cur : result && cur;
-  }
-  return result;
-}
-
 async function buildRoleConditionsMap(): Promise<{
   activeRoles: Array<{ roleId: string; roleName: string; lineOfBusiness?: string[] }>;
   condsByRole: Map<string, ConditionData[]>;
@@ -718,12 +611,13 @@ function matchRolesForRecord(
 ): string[] {
   const recordLOB = mapClaimTypeToLOB(getClaimField(record, 'claimType'));
   const matched: string[] = [];
+  if (!recordLOB) return matched;   // unrecognised claimType: no rules apply
   for (const role of activeRoles) {
     // Only rules configured for this claim's LOB are eligible — a role may
     // now be configured for more than one LOB, and a single bulk upload can
     // mix claimTypes/LOBs across records, so this must be checked per-record
     // rather than once for the whole batch.
-    const roleLOBs = role.lineOfBusiness?.length ? role.lineOfBusiness : ['WCM'];
+    const roleLOBs = role.lineOfBusiness ?? [];
     if (!roleLOBs.includes(recordLOB)) continue;
     const conds = condsByRole.get(role.roleId) ?? [];
     if (evaluateRoleConditions(record, conds)) {
@@ -765,7 +659,7 @@ async function resolveRoleNames(roleIds: string[]): Promise<string[]> {
 }
 
 // Guards against a role selected for a claim that belongs to a different LOB
-// (e.g. an Auto rule submitted against a WCM claim) — the UI already filters
+// (e.g. a Flood rule submitted against a Renters claim) — the UI already filters
 // the choices it offers by LOB, so this only ever fires on stale/tampered
 // input, but it's the enforcement point since the UI filter alone isn't a
 // server-side guarantee.
@@ -777,42 +671,41 @@ async function validateRolesMatchClaimLOB(
   const claimLOB = mapClaimTypeToLOB(claimType);
   const roles = await ServiceRequestRoleModel.find({ roleId: { $in: roleIds } }).lean().exec();
   const invalidRoleNames = roles
-    .filter((r) => !(r.lineOfBusiness?.length ? r.lineOfBusiness : ['WCM']).includes(claimLOB))
+    .filter((r) => !claimLOB || !(r.lineOfBusiness ?? []).includes(claimLOB))
     .map((r) => r.roleName);
   return { valid: invalidRoleNames.length === 0, invalidRoleNames };
 }
 
-// ─── Clinical fields: read-only, extracted from the nested sub-documents that
-// uploads populate (injuryInformation / claimInformation / claimIndicators /
-// financialExposure). Not part of the declared schema (strict:false), so
-// docs from older uploads simply lack these keys and every field resolves ''.
-interface ClinicalFields {
-  injuryType:           string;
-  bodyParts:             string;
-  icd10:                 string;
-  severity:              string;
-  jurisdiction:          string;
-  employerCooperation:   string;
-  avgWeeklyWage:         string;
-  indemnityExposure:     string;
-  medicalExposure:       string;
-  employerName:          string;
-  treatingProvider:      string;
-  medicalFacility:       string;
+// ─── Property fields: read-only, extracted from the nested sub-documents that
+// uploads and the seed populate (lossInformation / policyInformation /
+// claimInformation / financialExposure / property / assignment). Not part of
+// the declared schema (strict:false), so docs that lack these keys simply
+// resolve every field to ''.
+interface PropertyFields {
+  causeOfLoss:       string;
+  damagedAreas:      string;
+  policyForm:        string;
+  severity:          string;
+  jurisdiction:      string;
+  floodZone:         string;
+  coverageALimit:    string;
+  buildingExposure:  string;
+  contentsExposure:  string;
+  propertyAddress:   string;
+  assignedAdjuster:  string;
+  contractorName:    string;
 }
 
-function extractClinicalFields(doc: Record<string, unknown>): ClinicalFields {
-  const injuryInfo = (doc['injuryInformation'] ?? {}) as Record<string, unknown>;
+function extractPropertyFields(doc: Record<string, unknown>): PropertyFields {
+  const lossInfo   = (doc['lossInformation']   ?? {}) as Record<string, unknown>;
+  const policyInfo = (doc['policyInformation'] ?? {}) as Record<string, unknown>;
   const claimInfo  = (doc['claimInformation']  ?? {}) as Record<string, unknown>;
-  const indicators = (doc['claimIndicators']   ?? {}) as Record<string, unknown>;
-  const financials  = (doc['financialExposure'] ?? {}) as Record<string, unknown>;
-  const employer    = (doc['employer']          ?? {}) as Record<string, unknown>;
-  const medicalInfo = (doc['medicalInformation'] ?? {}) as Record<string, unknown>;
+  const financials = (doc['financialExposure'] ?? {}) as Record<string, unknown>;
+  const property   = (doc['property']          ?? {}) as Record<string, unknown>;
+  const assignment = (doc['assignment']        ?? {}) as Record<string, unknown>;
 
-  const bodyPartsRaw = injuryInfo['bodyParts'];
-  const bodyParts = Array.isArray(bodyPartsRaw)
-    ? bodyPartsRaw.join(', ')
-    : String(bodyPartsRaw ?? '');
+  const areasRaw = lossInfo['damagedAreas'];
+  const damagedAreas = Array.isArray(areasRaw) ? areasRaw.join(', ') : String(areasRaw ?? '');
 
   const claimSeverity = claimInfo['claimSeverity'];
   const severityScore = claimInfo['severityScore'];
@@ -820,22 +713,21 @@ function extractClinicalFields(doc: Record<string, unknown>): ClinicalFields {
     ? `${claimSeverity} (${severityScore})`
     : String(claimSeverity ?? severityScore ?? '');
 
-  const coopScore = indicators['employerCooperationScore'];
-  const employerCooperation = coopScore != null ? `${coopScore} / 10` : '';
+  const money = (v: unknown): string => (v != null ? String(v) : '');
 
   return {
-    injuryType:          String(injuryInfo['injuryType'] ?? ''),
-    bodyParts,
-    icd10:               String(injuryInfo['icd10Code'] ?? ''),
+    causeOfLoss:      String(lossInfo['causeOfLoss'] ?? ''),
+    damagedAreas,
+    policyForm:       String(policyInfo['policyForm'] ?? ''),
     severity,
-    jurisdiction:        String(claimInfo['jurisdiction'] ?? ''),
-    employerCooperation,
-    avgWeeklyWage:       financials['averageWeeklyWage'] != null ? String(financials['averageWeeklyWage']) : '',
-    indemnityExposure:   financials['indemnityExposure'] != null ? String(financials['indemnityExposure']) : '',
-    medicalExposure:     financials['medicalExposure']   != null ? String(financials['medicalExposure'])   : '',
-    employerName:        String(employer['employerName'] ?? ''),
-    treatingProvider:    String(medicalInfo['treatingPhysician'] ?? ''),
-    medicalFacility:     String(medicalInfo['medicalFacility'] ?? ''),
+    jurisdiction:     String(claimInfo['jurisdiction'] ?? ''),
+    floodZone:        String(policyInfo['floodZone'] ?? ''),
+    coverageALimit:   money(policyInfo['coverageALimit']),
+    buildingExposure: money(financials['buildingExposure']),
+    contentsExposure: money(financials['contentsExposure']),
+    propertyAddress:  String(property['address'] ?? ''),
+    assignedAdjuster: String(assignment['assignedAdjuster'] ?? ''),
+    contractorName:   String(assignment['contractorName'] ?? ''),
   };
 }
 
@@ -1489,7 +1381,7 @@ export const resolvers = {
             vendorServiceComments: r.vendorServiceComments ?? '',
             serviceVendorReview:   r.serviceVendorReview ?? [],
             suggestedVendors:      [],
-            ...extractClinicalFields(r as unknown as Record<string, unknown>),
+            ...extractPropertyFields(r as unknown as Record<string, unknown>),
           };
         });
       } catch (err) {
@@ -1739,7 +1631,7 @@ export const resolvers = {
             adjusterSubmittedBy:       r.adjusterSubmittedBy ?? '',
             adjusterSubmittedAt:       r.adjusterSubmittedAt ?? '',
             suggestedVendors,
-            ...extractClinicalFields(r as unknown as Record<string, unknown>),
+            ...extractPropertyFields(r as unknown as Record<string, unknown>),
           };
         });
 

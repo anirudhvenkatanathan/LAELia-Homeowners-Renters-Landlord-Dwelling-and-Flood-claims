@@ -59,7 +59,7 @@ vi.mock('../../../../utils/kpiScoring',          () => ({
 vi.mock('../../../../utils/claimSummaryMockData', () => ({
   getClaimSummaryData: vi.fn(() => ({
     items: [], signals: [], footerNote: '',
-    injury: { label: 'lumbar strain', icd: 'M54.5', bodyPart: 'Lumbar spine', description: 'lumbar strain to the lower back' },
+    loss: { label: 'water damage', policyForm: 'HO3', area: 'Kitchen', description: 'water damage to the kitchen' },
   })),
 }));
 
@@ -78,19 +78,19 @@ const NURSE_ROLE_ID = 'role-nurse';
 const PT_ROLE_ID     = 'role-pt';
 
 const SAMPLE_ROLES = [
-  { roleId: NURSE_ROLE_ID, uploadId: 'upload-1', roleName: 'Nurse case management', description: '', status: 'Active', nlpCondition: '', conditionExpression: '', nlpConditionInWords: '' },
+  { roleId: NURSE_ROLE_ID, uploadId: 'upload-1', roleName: 'Nurse case management', description: '', status: 'Active', lineOfBusiness: ['Homeowners'], nlpCondition: '', conditionExpression: '', nlpConditionInWords: '' },
   // Not part of the record's recommended plan at all — starts SUGGESTED/
   // inactive, so toggling it on is the "add a new/additional service" trigger.
-  { roleId: PT_ROLE_ID,    uploadId: 'upload-1', roleName: 'Physical Therapy',       description: '', status: 'Active', nlpCondition: '', conditionExpression: '', nlpConditionInWords: '' },
+  { roleId: PT_ROLE_ID,    uploadId: 'upload-1', roleName: 'Physical Therapy',       description: '', status: 'Active', lineOfBusiness: ['Homeowners'], nlpCondition: '', conditionExpression: '', nlpConditionInWords: '' },
 ];
 
 function makeRecord(overrides: Partial<Record<string, unknown>> = {}) {
   return {
     recordIndex: 0,
-    claimNumber: 'WCM-TEST-002',
+    claimNumber: 'HO-TEST-002',
     policyNumber: 'POL-002',
     insuredName: 'Jane Roe',
-    claimType: 'Medical',
+    claimType: 'Homeowners',
     lossDate: '2026-01-01',
     reportedDate: '2026-01-02',
     claimAmount: '5000',

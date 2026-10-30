@@ -5,13 +5,14 @@ import type { ParsedRuleCondition } from '../models/ServiceRequestRole/serviceRe
 
 const BUILTIN_FIELD_MAPPINGS: Record<string, string> = {
   'claim amount':     'claimAmount',
-  'injury type':      'injuryType',
+  'cause of loss':    'causeOfLoss',
   'claim type':       'claimType',
   'severity score':   'severityScore',
-  'employer':         'employerName',
-  'body part':        'bodyParts',
-  'physician':        'treatingPhysician',
-  'medical facility': 'medicalFacility',
+  'property address': 'propertyAddress',
+  'damaged area':     'damagedAreas',
+  'adjuster':         'assignedAdjuster',
+  'contractor':       'contractorName',
+  'flood zone':       'floodZone',
   'jurisdiction':     'jurisdiction',
   'reserve amount':   'totalReserve',
 };
@@ -267,7 +268,7 @@ function parseClauseWithCompromise(
  * This is the inverse of buildConditionExpression.
  *
  * Supports single and multi-condition expressions with AND / OR connectors:
- *   "(claimAmount > 10000) AND (injuryType CONTAINS 'Soft Tissue')"
+ *   "(claimAmount > 10000) AND (causeOfLoss CONTAINS 'Water')"
  *   "(Universal Execution = 1)"
  *   "claimAmount > 10000"   ← bare clause without outer parens also works
  *
@@ -357,7 +358,7 @@ export function buildConditionExpression(conditions: ParsedRuleCondition[]): str
 /**
  * Parse an NLP rule statement into structured conditions.
  *
- * @param text          Plain-English rule, e.g. "If claim amount is greater than 10000 and injury type contains soft tissue"
+ * @param text          Plain-English rule, e.g. "If claim amount is greater than 10000 and cause of loss contains water damage"
  * @param dynamicFields Optional DB-loaded field mappings ({ sourceField, nlpAlias }[]).
  *                      When provided they are merged with the built-in dictionary.
  *

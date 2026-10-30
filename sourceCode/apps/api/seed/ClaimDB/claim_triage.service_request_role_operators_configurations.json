@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "6a1d368654e8d2313a99ca9b"
+  },
+  "operatorId": "op-01",
+  "label": "= (Equals)",
+  "value": "=",
+  "sortOrder": 1,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1d368654e8d2313a99ca9c"
+  },
+  "operatorId": "op-02",
+  "label": "!= (Not Equals)",
+  "value": "!=",
+  "sortOrder": 2,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1d368654e8d2313a99ca9d"
+  },
+  "operatorId": "op-03",
+  "label": "> (Greater Than)",
+  "value": ">",
+  "sortOrder": 3,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1d368654e8d2313a99ca9e"
+  },
+  "operatorId": "op-04",
+  "label": ">= (Greater or Equal)",
+  "value": ">=",
+  "sortOrder": 4,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1d368654e8d2313a99ca9f"
+  },
+  "operatorId": "op-05",
+  "label": "< (Less Than)",
+  "value": "<",
+  "sortOrder": 5,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1d368654e8d2313a99caa0"
+  },
+  "operatorId": "op-06",
+  "label": "<= (Less or Equal)",
+  "value": "<=",
+  "sortOrder": 6,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1d368654e8d2313a99caa1"
+  },
+  "operatorId": "op-07",
+  "label": "IN (In List)",
+  "value": "IN",
+  "sortOrder": 7,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1d368654e8d2313a99caa2"
+  },
+  "operatorId": "op-08",
+  "label": "NOT IN",
+  "value": "NOT IN",
+  "sortOrder": 8,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1d368654e8d2313a99caa3"
+  },
+  "operatorId": "op-09",
+  "label": "Contains",
+  "value": "contains",
+  "sortOrder": 9,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1d368654e8d2313a99caa4"
+  },
+  "operatorId": "op-10",
+  "label": "Starts With",
+  "value": "starts_with",
+  "sortOrder": 10,
+  "isActive": true,
+  "__v": 0
+}]

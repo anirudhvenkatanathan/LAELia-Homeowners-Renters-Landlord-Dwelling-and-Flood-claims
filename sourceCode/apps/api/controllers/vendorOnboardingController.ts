@@ -551,7 +551,9 @@ export async function uploadDocument(req: Request, res: Response): Promise<void>
       await ConfirmationDocModel.deleteOne({ vendorId, vendorConfirmationId, approvalStatus: 'Sent Back' });
     }
 
-    const filePath = fileBase64 ? await saveUploadedFile(vendorId, fileName ?? 'document', fileBase64) : '';
+    // Documents are stored in MongoDB (serverless hosting has no persistent disk).
+    const storedBase64 = fileBase64 ? (fileBase64.includes(',') ? fileBase64.split(',')[1] : fileBase64) : '';
+    const filePath = '';
 
     await new ConfirmationDocModel({
       vendorId,
@@ -559,18 +561,19 @@ export async function uploadDocument(req: Request, res: Response): Promise<void>
       vendorConfirmationId: vendorConfirmationId,
       fileName:             fileName             ?? '',
       filePath,
-      fileBase64:           '',
+      fileBase64:           storedBase64,
       approvalStatus:       status,
       comments:             '',
       uploadedBy:           uploadedBy           ?? 'admin',
       uploadedAt:           new Date(),
     }).save();
 
-    res.status(201).json({ success: true, message: 'Document uploaded successfully.' });
-    // Draft saves do not change vendor qualification status
+    // Draft saves do not change vendor qualification status. Awaited (not fire-and-forget)
+    // because a serverless function may be frozen as soon as the response is sent.
     if (status !== 'Draft') {
-      syncVendorStatus(vendorId).catch(() => {});
+      await syncVendorStatus(vendorId).catch(() => {});
     }
+    res.status(201).json({ success: true, message: 'Document uploaded successfully.' });
   } catch (err) {
     await logError(err as Error, 'vendorOnboardingController.uploadDocument');
     res.status(500).json({ success: false, message: 'Internal server error while uploading document.' });
@@ -584,7 +587,7 @@ export async function getDocument(req: Request, res: Response): Promise<void> {
     if (!docId) { res.status(400).json({ success: false, message: 'docId is required.' }); return; }
 
     const doc = await ConfirmationDocModel.findById(docId);
-    if (!doc || !doc.filePath) {
+    if (!doc || (!doc.filePath && !doc.fileBase64)) {
       res.status(404).json({ success: false, message: 'Document not found.' });
       return;
     }
@@ -604,7 +607,13 @@ export async function getDocument(req: Request, res: Response): Promise<void> {
     };
     res.setHeader('Content-Type', CONTENT_TYPES[ext] ?? 'application/octet-stream');
     res.setHeader('Content-Disposition', `inline; filename="${path.basename(doc.fileName)}"`);
-    fs.createReadStream(doc.filePath).pipe(res);
+    if (doc.fileBase64) {
+      res.send(Buffer.from(doc.fileBase64, 'base64'));
+    } else if (doc.filePath && fs.existsSync(doc.filePath)) {
+      fs.createReadStream(doc.filePath).pipe(res);
+    } else {
+      res.status(404).json({ success: false, message: 'No file content stored for this document (demo placeholder).' });
+    }
   } catch (err) {
     await logError(err as Error, 'vendorOnboardingController.getDocument');
     res.status(500).json({ success: false, message: 'Internal server error while retrieving document.' });
