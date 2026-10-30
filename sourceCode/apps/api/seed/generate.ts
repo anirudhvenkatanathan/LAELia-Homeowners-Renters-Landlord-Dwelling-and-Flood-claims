@@ -269,10 +269,10 @@ for (const c of CLAIMS) {
   records.push(rec);
 
   if (c.stage !== 'PS') {
-    for (const e of svr) {
-      changeLogs.push({ _id: oid(`cl:${num}:${e['roleName']}:r`), uploadId: uploadOf(c.lob), recordIndex: c.n, claimNumber: num, type: 'role', changedItem: e['roleName'], previousValue: '—', updatedValue: e['roleName'], reason: 'Plan services confirmed', updatedBy: adj, updatedAt: dt(submittedAt), __v: 0 });
-      if (e['status'] !== 'Rejected') changeLogs.push({ _id: oid(`cl:${num}:${e['roleName']}:v`), uploadId: uploadOf(c.lob), recordIndex: c.n, claimNumber: num, type: 'vendor', changedItem: e['selectedVendor'], previousValue: e['recommendedVendor'] || '—', updatedValue: e['selectedVendor'], reason: e['adjusterComment'] ?? 'Vendor selection confirmed', updatedBy: adj, updatedAt: dt(submittedAt), __v: 0 });
-    }
+    svr.forEach((e, ei) => {
+      changeLogs.push({ _id: oid(`cl:${num}:${ei}:${e['roleName']}:r`), uploadId: uploadOf(c.lob), recordIndex: c.n, claimNumber: num, type: 'role', changedItem: e['roleName'], previousValue: '—', updatedValue: e['roleName'], reason: 'Plan services confirmed', updatedBy: adj, updatedAt: dt(submittedAt), __v: 0 });
+      if (e['status'] !== 'Rejected') changeLogs.push({ _id: oid(`cl:${num}:${ei}:${e['roleName']}:v`), uploadId: uploadOf(c.lob), recordIndex: c.n, claimNumber: num, type: 'vendor', changedItem: e['selectedVendor'], previousValue: e['recommendedVendor'] || '—', updatedValue: e['selectedVendor'], reason: e['adjusterComment'] ?? 'Vendor selection confirmed', updatedBy: adj, updatedAt: dt(submittedAt), __v: 0 });
+    });
   }
 }
 put('claim_intake_records', records);

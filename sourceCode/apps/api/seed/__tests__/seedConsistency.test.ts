@@ -49,6 +49,14 @@ describe('property-lines seed', () => {
     claims.forEach((c) => c.serviceVendorReview.forEach((e: any) => { if (e.selectedVendor) expect(names.has(e.selectedVendor)).toBe(true); }));
   });
 
+  it('has unique _id values in every collection', () => {
+    for (const f of fs.readdirSync(dir).filter((x) => x.endsWith('.json'))) {
+      const rows: any[] = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'));
+      const ids = rows.map((r) => JSON.stringify(r._id));
+      expect({ file: f, dupes: ids.length - new Set(ids).size }).toEqual({ file: f, dupes: 0 });
+    }
+  });
+
   it('uses fictional contact details only', () => {
     vendors.forEach((v) => { expect(v.emailId).toMatch(/\.example$/); expect(v.phoneNumber).toMatch(/555-01\d\d$/); });
   });
