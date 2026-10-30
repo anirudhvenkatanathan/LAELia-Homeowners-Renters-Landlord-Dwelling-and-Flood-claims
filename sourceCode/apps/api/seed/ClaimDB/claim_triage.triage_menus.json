@@ -1,0 +1,247 @@
+[{
+  "_id": {
+    "$oid": "6a1aabd1bb5fe7fe1fea52a4"
+  },
+  "id": "menu-dashboard-001",
+  "__v": 0,
+  "icon": "dashboard",
+  "isActive": true,
+  "label": "Dashboard",
+  "parentId": null,
+  "path": "/",
+  "sortOrder": 1
+},
+{
+  "_id": {
+    "$oid": "6a1aabd1bb5fe7fe1fea52a5"
+  },
+  "id": "menu-claim-intake-001",
+  "__v": 0,
+  "icon": "inbox",
+  "isActive": true,
+  "label": "Claims Command Center",
+  "parentId": null,
+  "path": "/claim-intake",
+  "sortOrder": 2
+},
+{
+  "_id": {
+    "$oid": "6a1bce52bb5fe7fe1fea52a7"
+  },
+  "id": "menu-field-mapping-001",
+  "__v": 0,
+  "icon": "map",
+  "isActive": true,
+  "label": "Field Mapping",
+  "parentId": null,
+  "path": "/field-mapping",
+  "sortOrder": 3
+},
+{
+  "_id": {
+    "$oid": "6a1d284ae80d4f953e738e40"
+  },
+  "id": "menu-service-request-role-001",
+  "__v": 0,
+  "icon": "service-request-role",
+  "isActive": true,
+  "label": "Claims Orchestration Engine",
+  "parentId": null,
+  "path": "/service-request-role",
+  "sortOrder": 3
+},
+{
+  "_id": {
+    "$oid": "6a29806b34d24465c03a0387"
+  },
+  "id": "menu-admin-kpi-metrics",
+  "label": "Provider Scoreboard",
+  "icon": "sigma",
+  "path": "/service-provider-analytics",
+  "parentId": "menu-admin-vendor-group",
+  "sortOrder": 4,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a29869be33b527ed0107d34"
+  },
+  "id": "menu-admin-vendor-management-001",
+  "__v": 0,
+  "icon": "vendor",
+  "isActive": true,
+  "label": "Provider Administration",
+  "parentId": "menu-admin-vendor-group",
+  "path": "/vendor/search",
+  "sortOrder": 1
+},
+{
+  "_id": {
+    "$oid": "6a29869be33b527ed0107d35"
+  },
+  "id": "menu-admin-vendor-onboarding-001",
+  "__v": 0,
+  "icon": "vendor-onboarding",
+  "isActive": true,
+  "label": "Provider Onboarding",
+  "parentId": "menu-admin-vendor-group",
+  "path": "/vendor/onboarding",
+  "sortOrder": 2
+},
+{
+  "_id": {
+    "$oid": "6a298855e33b527ed0107d36"
+  },
+  "id": "menu-vendor-request-001",
+  "__v": 0,
+  "icon": "vendor",
+  "isActive": true,
+  "label": "Service Provider Request",
+  "parentId": "menu-admin-vendor-group",
+  "path": "/vendor-request/new",
+  "sortOrder": 5
+},
+{
+  "_id": {
+    "$oid": "6a3031baeb21b364f9974dde"
+  },
+  "id": "menu-admin-vendor-group",
+  "__v": 0,
+  "icon": "users",
+  "isActive": true,
+  "label": "Service Provider",
+  "parentId": null,
+  "path": "/service-provider",
+  "sortOrder": 4
+},
+{
+  "_id": {
+    "$oid": "6a3031baeb21b364f9974ddf"
+  },
+  "id": "menu-admin-vendor-panel-001",
+  "__v": 0,
+  "icon": "vendor",
+  "isActive": true,
+  "label": "Curated Provider Network",
+  "parentId": "menu-admin-vendor-group",
+  "path": "/vendor/panel",
+  "sortOrder": 3
+},
+{
+  "_id": {
+    "$oid": "6a3bb4ffda57dab408b1a490"
+  },
+  "id": "menu-group-active-vendor-portal",
+  "__v": 0,
+  "icon": "",
+  "isActive": true,
+  "label": "Active Service Provider Portal",
+  "parentId": null,
+  "path": "",
+  "sortOrder": 100
+},
+{
+  "_id": {
+    "$oid": "6a3bb4ffda57dab408b1a492"
+  },
+  "id": "menu-active-vendor-performance",
+  "__v": 0,
+  "icon": "portal-performance",
+  "isActive": true,
+  "label": "Client Management",
+  "parentId": "menu-group-active-vendor-portal",
+  "path": "/vendor/active/clients",
+  "sortOrder": 2
+},
+{
+  "_id": {
+    "$oid": "6a3bb4ffda57dab408b1a493"
+  },
+  "id": "menu-active-vendor-documents",
+  "__v": 0,
+  "icon": "portal-documents",
+  "isActive": true,
+  "label": "Documents",
+  "parentId": "menu-group-active-vendor-portal",
+  "path": "/vendor/active",
+  "sortOrder": 3
+},
+{
+  "_id": {
+    "$oid": "6a3bb4ffda57dab408b1a494"
+  },
+  "id": "menu-active-vendor-profile",
+  "__v": 0,
+  "icon": "portal-profile",
+  "isActive": true,
+  "label": "Profile",
+  "parentId": "menu-group-active-vendor-portal",
+  "path": "/vendor/active",
+  "sortOrder": 4
+},
+{
+  "_id": {
+    "$oid": "6a3bb607da57dab408b1a495"
+  },
+  "id": "menu-group-vendor-portal",
+  "__v": 0,
+  "icon": "",
+  "isActive": true,
+  "label": "Service Provider Portal",
+  "parentId": null,
+  "path": "",
+  "sortOrder": 99
+},
+{
+  "_id": {
+    "$oid": "6a3bb607da57dab408b1a496"
+  },
+  "id": "menu-vendor-portal-onboarding",
+  "__v": 0,
+  "icon": "portal-onboarding",
+  "isActive": true,
+  "label": "Onboarding",
+  "parentId": "menu-group-vendor-portal",
+  "path": "/vendor/portal/onboarding",
+  "sortOrder": 1
+},
+{
+  "_id": {
+    "$oid": "6a3bb607da57dab408b1a497"
+  },
+  "id": "menu-vendor-portal-profile",
+  "__v": 0,
+  "icon": "portal-profile",
+  "isActive": true,
+  "label": "Profile",
+  "parentId": "menu-group-vendor-portal",
+  "path": "/vendor/portal/profile",
+  "sortOrder": 2
+},
+{
+  "_id": {
+    "$oid": "6a34e1765b76649a6568bf67"
+  },
+  "id": "menu-admin-analytics-insight-001",
+  "__v": 0,
+  "icon": "vendor",
+  "isActive": true,
+  "label": "Service Metrics Configuration",
+  "parentId": null,
+  "path": "/admin/kpi-matrics",
+  "sortOrder": 6
+},
+{
+  "_id": {
+    "$oid": "6a1aabd1bb5fe7fe1fe852a5"
+  },
+  "id": "menu-claim-supervisor-comments-001",
+  "__v": 0,
+  "icon": "inbox",
+  "isActive": true,
+  "label": "Authority Reviewer Comments",
+  "parentId": null,
+  "path": "/claim-supervisor-comments",
+  "sortOrder": 3
+}]

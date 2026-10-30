@@ -2,7 +2,15 @@ import { Request, Response } from 'express';
 import Anthropic from '@anthropic-ai/sdk';
 import { logError } from '../services/errorLogService';
 
-const client = new Anthropic({ apiKey: process.env['ANTHROPIC_API_KEY'] ?? '' });
+// Optional key: without it the endpoint answers 503 with a clear message.
+let client: Anthropic | null = null;
+function getClient(): Anthropic | null {
+  const apiKey = process.env['ANTHROPIC_API_KEY'];
+  if (!apiKey) return null;
+  if (!client) client = new Anthropic({ apiKey });
+  return client;
+}
+const AI_MODEL = process.env['ANTHROPIC_MODEL'] || 'claude-sonnet-4-6';
 
 export interface RedFlag {
   severity:    'HIGH' | 'MODERATE' | 'LOW';
@@ -25,7 +33,7 @@ export async function generateVendorIntelligence(req: Request, res: Response): P
       return;
     }
 
-    const prompt = `You are a vendor risk intelligence system. Analyze the following vendor profile and return a structured JSON response.
+    const prompt = `You are a vendor risk intelligence system for a Florida residential property insurance carrier (Homeowners, Renters, Landlord, Dwelling and Flood). Vendors include adjusters, restoration and repair contractors, roofers, engineers, appraisers and flood (NFIP) adjusters. Analyze the following vendor profile and return a structured JSON response.
 
 Vendor Data:
 ${JSON.stringify(vendor, null, 2)}
@@ -45,16 +53,22 @@ Return ONLY valid JSON (no markdown, no code fences) in this exact shape:
 
 Rules:
 - summary must be factual, derived only from the provided data
-- redFlags should surface real concerns about licensing, insurance, regulatory standing, qualifications, or documentation gaps based on the data
+- redFlags should surface real concerns about licensing (Florida adjuster or contractor licence), insurance (general liability, workers' compensation), regulatory standing, qualifications (for example NFIP authorization or restoration certifications), or documentation gaps based on the data
 - If vendor status is Active and all qualifications are complete, redFlags can be empty []
 - severity HIGH = blocks operations, MODERATE = needs attention, LOW = informational
 - category values: LICENSING, INSURANCE, REGULATORY, QUALIFICATION, DOCUMENTATION, COMPLIANCE, FINANCIAL
-- reference must be a real authoritative domain relevant to the category (e.g. osha.gov, acord.org)
+- reference must be a real authoritative domain relevant to the category (e.g. myfloridalicense.com, floir.com, fema.gov, acord.org)
 - Return 0–5 red flags maximum
 - Output ONLY the JSON object, nothing else`;
 
-    const message = await client.messages.create({
-      model:      'claude-sonnet-4-6',
+    const ai = getClient();
+    if (!ai) {
+      res.status(503).json({ success: false, message: 'Vendor intelligence is unavailable: no Anthropic API key is configured.' });
+      return;
+    }
+
+    const message = await ai.messages.create({
+      model:      AI_MODEL,
       max_tokens: 1024,
       messages:   [{ role: 'user', content: prompt }],
     });

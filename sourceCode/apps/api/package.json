@@ -7,6 +7,9 @@
     "start": "node dist/server.js",
     "build": "tsc",
     "lint": "tsc --noEmit",
+    "seed": "ts-node seed/seed.ts",
+    "seed:generate": "ts-node seed/generate.ts",
+    "seed:check": "ts-node seed/check.ts",
     "test": "jest --no-coverage",
     "test:coverage": "jest --coverage"
   },

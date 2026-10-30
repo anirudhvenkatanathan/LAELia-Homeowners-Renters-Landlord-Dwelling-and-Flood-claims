@@ -1,0 +1,1062 @@
+[{
+  "_id": {
+    "$oid": "6a38cf0839676f17698e8126"
+  },
+  "loginId": "admin-login-001",
+  "email": "admin@gmail.com",
+  "username": "admin",
+  "password": "$2b$10$idZ/pDDl98i5trz4JVf9dOPlmlIcRQsmfHfjLVHu6K86B9xxCoSaW",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.442Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.442Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a38cf0839676f17698e812a"
+  },
+  "loginUserAccessId": "68440606-3bd8-4fd8-a7e9-c65e95dd4fa5",
+  "loginId": "client-login-001",
+  "roleId": "b6c237e9-974d-4a78-85cb-4d475e6a7f84",
+  "menuId": "menu-dashboard-001",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.459Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.459Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a38cf0839676f17698e812c"
+  },
+  "loginUserAccessId": "a398fcd4-70a4-4591-b7bd-d8c844290ca6",
+  "loginId": "client-login-001",
+  "roleId": "b6c237e9-974d-4a78-85cb-4d475e6a7f84",
+  "menuId": "menu-claim-intake-001",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.462Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.462Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a38cf0839676f17698e912c"
+  },
+  "loginUserAccessId": "a398fcd4-70a4-4591-b7bd-d8c844290ca8",
+  "loginId": "clientadj-login-001",
+  "roleId": "b6c237e9-974d-4a78-85cb-4d475e6a7f85",
+  "menuId": "menu-claim-intake-001",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.462Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.462Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a38cf0839676f17698e812e"
+  },
+  "loginUserAccessId": "77655d46-3b6a-4524-9aec-e18d5dceb25d",
+  "loginId": "client-login-001",
+  "roleId": "b6c237e9-974d-4a78-85cb-4d475e6a7f84",
+  "menuId": "menu-group-main",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.465Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.465Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a38cf0839676f17698e8130"
+  },
+  "loginUserAccessId": "0231afe2-6e86-43db-8d91-353500d02f3b",
+  "loginId": "client-login-001",
+  "roleId": "b6c237e9-974d-4a78-85cb-4d475e6a7f84",
+  "menuId": "menu-field-mapping-001",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.467Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.467Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a38cf0839676f17698e8132"
+  },
+  "loginUserAccessId": "6721101c-03d6-425e-a190-725b4a82eb47",
+  "loginId": "client-login-001",
+  "roleId": "b6c237e9-974d-4a78-85cb-4d475e6a7f84",
+  "menuId": "menu-service-request-role-001",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.470Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.470Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a38cf0839676f17698e8134"
+  },
+  "loginUserAccessId": "695ab7c3-f8d1-4d84-896c-41b1ef6eb3e6",
+  "loginId": "client-login-001",
+  "roleId": "b6c237e9-974d-4a78-85cb-4d475e6a7f84",
+  "menuId": "menu-admin-group",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.472Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.472Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a38cf0839676f17698e8136"
+  },
+  "loginUserAccessId": "24ae290e-fade-4d1a-bcbf-7f1b890d68ed",
+  "loginId": "client-login-001",
+  "roleId": "b6c237e9-974d-4a78-85cb-4d475e6a7f84",
+  "menuId": "menu-admin-kpi-metrics",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.474Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.474Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a38cf0839676f17698e8138"
+  },
+  "loginUserAccessId": "cb1059a7-8f15-41e0-a69e-1a7fbe1d1a58",
+  "loginId": "client-login-001",
+  "roleId": "b6c237e9-974d-4a78-85cb-4d475e6a7f84",
+  "menuId": "menu-admin-vendor-management-001",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.475Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.476Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a38cf0839676f17698e813c"
+  },
+  "loginUserAccessId": "54ca0fd9-8699-4444-ae1c-cb263aea4f46",
+  "loginId": "client-login-001",
+  "roleId": "b6c237e9-974d-4a78-85cb-4d475e6a7f84",
+  "menuId": "menu-vendor-request-001",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.480Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.480Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a38cf0839676f17698e813e"
+  },
+  "loginUserAccessId": "5610e735-3dd2-42eb-a658-84dc4f4be9e7",
+  "loginId": "client-login-001",
+  "roleId": "b6c237e9-974d-4a78-85cb-4d475e6a7f84",
+  "menuId": "menu-admin-vendor-group",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.483Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.483Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a38cf0839676f17698e8140"
+  },
+  "loginUserAccessId": "ac189f7a-f876-46a2-8ed4-b63d26fcb836",
+  "loginId": "client-login-001",
+  "roleId": "b6c237e9-974d-4a78-85cb-4d475e6a7f84",
+  "menuId": "menu-admin-vendor-panel-001",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.485Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.485Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a38cf0839676f17698e8142"
+  },
+  "loginUserAccessId": "106ce43c-0525-452d-9480-6c189e384508",
+  "loginId": "client-login-001",
+  "roleId": "b6c237e9-974d-4a78-85cb-4d475e6a7f84",
+  "menuId": "menu-admin-services-group",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.488Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.488Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a38cf0839676f17698e8144"
+  },
+  "loginUserAccessId": "3f505326-0a8c-4c97-8af0-5d322f45bb24",
+  "loginId": "client-login-001",
+  "roleId": "b6c237e9-974d-4a78-85cb-4d475e6a7f84",
+  "menuId": "menu-admin-vendor-selection-logic-001",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.490Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.490Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a38cf0839676f17698e8146"
+  },
+  "loginUserAccessId": "3f505326-0a8c-4c97-8af0-5d322f45bb26",
+  "loginId": "vendor-login-001",
+  "roleId": "7b83e6f2-f102-4be6-8353-210631d0e307",
+  "menuId": "menu-admin-vendor-onboarding-001",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.478Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.478Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a3b2144e1e258b01b207c"
+  },
+  "loginUserAccessId": "93f1d10d-3bf1-4a2a-a63e-9d9a876b9679",
+  "loginId": "a9b655f7-2a0b-41b3-8d63-aacba9616574",
+  "roleId": "939d9a2e-93cf-4c11-bffd-a55afa1344c1",
+  "menuId": "vendor-portal",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-23T07:52:01.372Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T07:52:01.372Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a3c0644e1e258b01b2099"
+  },
+  "loginUserAccessId": "b4178b01-080f-45fe-b586-63952dc00ff8",
+  "loginId": "e8462afb-acc7-4517-81b6-eaaab5082297",
+  "roleId": "939d9a2e-93cf-4c11-bffd-a55afa1344c1",
+  "menuId": "vendor-portal",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-23T07:55:50.594Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T07:55:50.594Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a3f4444e1e258b01b2109"
+  },
+  "loginUserAccessId": "7862ee0b-2700-42b4-9db1-52c9cefa97f5",
+  "loginId": "c549d86b-1286-4433-acf8-bab73f8de150",
+  "roleId": "939d9a2e-93cf-4c11-bffd-a55afa1344c1",
+  "menuId": "vendor-portal",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-23T08:09:40.125Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T08:09:40.125Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a4cfe9066e3157fe4ef73"
+  },
+  "loginUserAccessId": "7cfe3cc3-b8cb-4425-98a0-d7afb3de5917",
+  "loginId": "admin-login-001",
+  "roleId": "d165fec0-380d-470a-828a-7e0c041523fb",
+  "menuId": "menu-dashboard-001",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-23T09:08:14.926Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T09:08:14.926Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a4cfe9066e3157fe4ef77"
+  },
+  "loginUserAccessId": "56123d40-c49a-477a-b7b7-51d4ae8ec4ca",
+  "loginId": "admin-login-001",
+  "roleId": "d165fec0-380d-470a-828a-7e0c041523fb",
+  "menuId": "menu-group-main",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-23T09:08:14.929Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T09:08:14.929Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a4cfe9066e3157fe4ef79"
+  },
+  "loginUserAccessId": "8b25db4d-a81d-4554-b8f1-05c133c7a595",
+  "loginId": "admin-login-001",
+  "roleId": "d165fec0-380d-470a-828a-7e0c041523fb",
+  "menuId": "menu-field-mapping-001",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-23T09:08:14.930Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T09:08:14.930Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a4cfe9066e3157fe4ef7b"
+  },
+  "loginUserAccessId": "a7e46fd4-4351-476b-ac4a-cf8026866102",
+  "loginId": "admin-login-001",
+  "roleId": "d165fec0-380d-470a-828a-7e0c041523fb",
+  "menuId": "menu-service-request-role-001",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-23T09:08:14.931Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T09:08:14.931Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a4cfe9066e3157fe4ef7d"
+  },
+  "loginUserAccessId": "086b3ab5-1a76-4e54-969a-215eac30250e",
+  "loginId": "admin-login-001",
+  "roleId": "d165fec0-380d-470a-828a-7e0c041523fb",
+  "menuId": "menu-admin-group",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-23T09:08:14.932Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T09:08:14.932Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a4cfe9066e3157fe4ef7f"
+  },
+  "loginUserAccessId": "66a71987-ce96-49d9-a2c0-d1031d4eb780",
+  "loginId": "admin-login-001",
+  "roleId": "d165fec0-380d-470a-828a-7e0c041523fb",
+  "menuId": "menu-admin-kpi-metrics",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-23T09:08:14.933Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T09:08:14.933Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a4cfe9066e3157fe4ef81"
+  },
+  "loginUserAccessId": "5aa44fa9-b925-4033-9b1d-3c61babd06ad",
+  "loginId": "admin-login-001",
+  "roleId": "d165fec0-380d-470a-828a-7e0c041523fb",
+  "menuId": "menu-admin-vendor-management-001",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-23T09:08:14.934Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T09:08:14.934Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a4cfe9066e3157fe4ef83"
+  },
+  "loginUserAccessId": "b0d34682-8789-4f38-8b57-f829b331524b",
+  "loginId": "admin-login-001",
+  "roleId": "d165fec0-380d-470a-828a-7e0c041523fb",
+  "menuId": "menu-admin-vendor-onboarding-001",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-23T09:08:14.935Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T09:08:14.935Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a4cfe9066e3157fe4ef85"
+  },
+  "loginUserAccessId": "696e6410-5e99-4d6f-a23f-e254e98ad4f8",
+  "loginId": "admin-login-001",
+  "roleId": "d165fec0-380d-470a-828a-7e0c041523fb",
+  "menuId": "menu-vendor-request-001",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-23T09:08:14.936Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T09:08:14.936Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a4cfe9066e3157fe4ef87"
+  },
+  "loginUserAccessId": "499e7ab4-63f1-426f-aec4-a6a5ec505438",
+  "loginId": "admin-login-001",
+  "roleId": "d165fec0-380d-470a-828a-7e0c041523fb",
+  "menuId": "menu-admin-vendor-group",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-23T09:08:14.937Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T09:08:14.937Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a4cfe9066e3157fe4ef89"
+  },
+  "loginUserAccessId": "080fae99-5d89-4b9a-9b66-30bc48bd8ee2",
+  "loginId": "admin-login-001",
+  "roleId": "d165fec0-380d-470a-828a-7e0c041523fb",
+  "menuId": "menu-admin-vendor-panel-001",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-23T09:08:14.938Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T09:08:14.938Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a4cfe9066e3157fe4ef8b"
+  },
+  "loginUserAccessId": "5295bfaa-bcfa-42d2-a5bc-f7731e4d4f60",
+  "loginId": "admin-login-001",
+  "roleId": "d165fec0-380d-470a-828a-7e0c041523fb",
+  "menuId": "menu-admin-services-group",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-23T09:08:14.939Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T09:08:14.939Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a4de2a97838a59a6e6071"
+  },
+  "loginUserAccessId": "9fa687eb-3413-4327-97fd-d866cf61df1d",
+  "loginId": "86b25efb-ec38-4a14-b059-e265d5977e43",
+  "roleId": "939d9a2e-93cf-4c11-bffd-a55afa1344c1",
+  "menuId": "vendor-portal",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-23T09:12:02.538Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T09:12:02.539Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a4fc146d0a61a53610c2a"
+  },
+  "loginUserAccessId": "5c0f2ab8-5ddb-4518-8762-17ea6dd40932",
+  "loginId": "68042b66-5661-488e-9ea0-977e4d024e77",
+  "roleId": "939d9a2e-93cf-4c11-bffd-a55afa1344c1",
+  "menuId": "vendor-portal",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-23T09:20:01.856Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T09:20:01.856Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a57d5cda629641611fd8b"
+  },
+  "loginUserAccessId": "f3284580-47cb-4dfd-b809-8131f393289b",
+  "loginId": "85458059-28c6-48f3-a60b-cfed61242560",
+  "roleId": "939d9a2e-93cf-4c11-bffd-a55afa1344c1",
+  "menuId": "vendor-portal",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-23T09:54:29.710Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T09:54:29.710Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a5b1bcda629641611fe25"
+  },
+  "loginUserAccessId": "e6b3fb08-c148-4bdb-a7f5-85e16d45215a",
+  "loginId": "30cb320e-4bc0-4ab5-8335-6783503806ab",
+  "roleId": "939d9a2e-93cf-4c11-bffd-a55afa1344c1",
+  "menuId": "vendor-portal",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-23T10:08:27.739Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T10:08:27.739Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a67e3cda629641611ff7e"
+  },
+  "loginUserAccessId": "7ead5cda-f30d-4f3a-bf57-d4e5f3b7602f",
+  "loginId": "0b037880-84e6-445b-a8bd-06b58f2955e3",
+  "roleId": "939d9a2e-93cf-4c11-bffd-a55afa1344c1",
+  "menuId": "vendor-portal",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-23T11:02:59.707Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T11:02:59.707Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a7bf5cda6296416120191"
+  },
+  "loginUserAccessId": "aa4b753e-b261-4397-942d-24814df5405d",
+  "loginId": "c474d9c6-64f0-46d9-8038-98a4654a0bdc",
+  "roleId": "939d9a2e-93cf-4c11-bffd-a55afa1344c1",
+  "menuId": "vendor-portal",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-23T12:28:37.434Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T12:28:37.434Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3bba54a5cd276bf3ee5dac"
+  },
+  "loginUserAccessId": "277e6c1e-af61-4757-9d75-a20936c75b14",
+  "loginId": "113d4939-efbd-49aa-9921-be995c807fd5",
+  "roleId": "939d9a2e-93cf-4c11-bffd-a55afa1344c1",
+  "menuId": "vendor-portal",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-24T11:07:00.874Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-24T11:07:00.874Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3bbb79dd0bec716aaf1b0a"
+  },
+  "loginUserAccessId": "4c14155d-e6f9-414f-9ef0-deda0ba76cce",
+  "loginId": "677183fe-e065-4a58-9e1a-f895d8b0e0f2",
+  "roleId": "939d9a2e-93cf-4c11-bffd-a55afa1344c1",
+  "menuId": "vendor-portal",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-24T11:11:53.942Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-24T11:11:53.942Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3bc769dd0bec716aaf1c4e"
+  },
+  "loginUserAccessId": "b40b4ddf-60db-447b-b31d-5e3518573f5b",
+  "loginId": "623b6f57-2544-4245-91bd-b73dd87fdf1d",
+  "roleId": "939d9a2e-93cf-4c11-bffd-a55afa1344c1",
+  "menuId": "vendor-portal",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-24T12:02:49.787Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-24T12:02:49.787Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3d0359dd0bec716aaf1e6d"
+  },
+  "loginUserAccessId": "5f62dd7f-1965-4913-a632-254b776f70c0",
+  "loginId": "298ce3b1-525c-43c5-8452-c99f935525bd",
+  "roleId": "939d9a2e-93cf-4c11-bffd-a55afa1344c1",
+  "menuId": "vendor-portal",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-25T10:30:49.404Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-25T10:30:49.404Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a38cf0839676f17698e8186"
+  },
+  "loginUserAccessId": "3f505326-0a8c-4c97-8af0-5d322f45bb32",
+  "loginId": "client-login-001",
+  "roleId": "b6c237e9-974d-4a78-85cb-4d475e6a7f84",
+  "menuId": "menu-admin-vendor-onboarding-001",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.478Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.478Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3f62922ea2c140f0a86aea"
+  },
+  "loginUserAccessId": "800e8876-326c-4f39-b9c8-f991a84c80f1",
+  "loginId": "f1dfe5f1-209e-4352-9b67-d07c80107ddd",
+  "roleId": "939d9a2e-93cf-4c11-bffd-a55afa1344c1",
+  "menuId": "vendor-portal",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-27T05:41:38.158Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-27T05:41:38.158Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3f88232ea2c140f0a86b56"
+  },
+  "loginUserAccessId": "2464be01-c4c1-4df3-b2f4-08ee99190e62",
+  "loginId": "125fc2f4-873b-400c-9825-4722b3a84cd8",
+  "roleId": "939d9a2e-93cf-4c11-bffd-a55afa1344c1",
+  "menuId": "vendor-portal",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-27T08:21:55.249Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-27T08:21:55.249Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3f88832ea2c140f0a86b79"
+  },
+  "loginUserAccessId": "cb15538a-f140-4338-b476-2dc13d12f603",
+  "loginId": "f4af976f-27d9-453b-9d39-14f86ff7b39f",
+  "roleId": "939d9a2e-93cf-4c11-bffd-a55afa1344c1",
+  "menuId": "vendor-portal",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-27T08:23:31.828Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-27T08:23:31.828Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3fca6feef174dee846fdf4"
+  },
+  "loginUserAccessId": "ffc3e1d1-1ac1-4caf-aec5-ee51dea62490",
+  "loginId": "624eaefa-3a7f-4e5f-9cff-0bc12e531bb1",
+  "roleId": "939d9a2e-93cf-4c11-bffd-a55afa1344c1",
+  "menuId": "vendor-portal",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-27T13:04:47.597Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-27T13:04:47.598Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4202240ed39dff5bf971ea"
+  },
+  "loginUserAccessId": "4070482c-d11a-4605-a951-9062a33c63fe",
+  "loginId": "f7870aa6-8d49-4898-bb83-8bd263e8e802",
+  "roleId": "939d9a2e-93cf-4c11-bffd-a55afa1344c1",
+  "menuId": "vendor-portal",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-29T05:27:00.629Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-29T05:27:00.629Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a4cfe9066e3157fe4e77f"
+  },
+  "loginUserAccessId": "66a71987-ce96-49d9-a2c0-d1031d47b780",
+  "loginId": "client-login-001",
+  "roleId": "b6c237e9-974d-4a78-85cb-4d475e6a7f84",
+  "menuId": "menu-admin-analytics-insight-001",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-23T09:08:14.933Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T09:08:14.933Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4b50ff1babe5a9a589ac8d"
+  },
+  "loginUserAccessId": "89b1cc99-d40e-4f66-b9f6-24583ba25933",
+  "loginId": "28bfb191-01b9-44e9-ac9e-c734acb5a6a8",
+  "roleId": "939d9a2e-93cf-4c11-bffd-a55afa1344c1",
+  "menuId": "vendor-portal",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-07-06T06:53:51.048Z"
+  },
+  "updatedTime": {
+    "$date": "2026-07-06T06:53:51.048Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4ccc829e84040d4742bb4e"
+  },
+  "loginUserAccessId": "f4687f4a-33a7-48bc-a887-bcff9bb523e4",
+  "loginId": "c863f959-47a0-4173-8409-ae63df904c1c",
+  "roleId": "939d9a2e-93cf-4c11-bffd-a55afa1344c1",
+  "menuId": "vendor-portal",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-07-07T09:53:06.509Z"
+  },
+  "updatedTime": {
+    "$date": "2026-07-07T09:53:06.509Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4cd0059e84040d4742bd59"
+  },
+  "loginUserAccessId": "29f7f8cb-a300-48c7-b994-9eb9a7093d09",
+  "loginId": "4eee25be-01ee-4c67-b5be-d6e88cd62f0d",
+  "roleId": "939d9a2e-93cf-4c11-bffd-a55afa1344c1",
+  "menuId": "vendor-portal",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-07-07T10:08:05.042Z"
+  },
+  "updatedTime": {
+    "$date": "2026-07-07T10:08:05.042Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4cd0469e84040d4742bdf5"
+  },
+  "loginUserAccessId": "75c389c8-c416-4482-a2d2-31cd54809d70",
+  "loginId": "8f4f9cbe-51dd-4cd1-980a-910f398e953c",
+  "roleId": "939d9a2e-93cf-4c11-bffd-a55afa1344c1",
+  "menuId": "vendor-portal",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-07-07T10:09:10.707Z"
+  },
+  "updatedTime": {
+    "$date": "2026-07-07T10:09:10.707Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4cd0a59e84040d4742be91"
+  },
+  "loginUserAccessId": "b1b6dc81-b34e-4f87-a8ef-fe8b4eaf7c52",
+  "loginId": "ee69f54b-d987-4ada-8e17-0872e6638964",
+  "roleId": "939d9a2e-93cf-4c11-bffd-a55afa1344c1",
+  "menuId": "vendor-portal",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-07-07T10:10:45.824Z"
+  },
+  "updatedTime": {
+    "$date": "2026-07-07T10:10:45.824Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5dcc0923a65f597e4ffa34"
+  },
+  "loginUserAccessId": "5d52c197-e08c-44fc-845d-e12c00148964",
+  "loginId": "senior-adjuster-login-001",
+  "roleId": "b2d04641-6e6b-4769-9f8f-a8e14dac7ed4",
+  "menuId": "menu-claim-intake-001",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-07-20T07:19:37.697Z"
+  },
+  "updatedTime": {
+    "$date": "2026-07-20T07:19:37.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5dcc0923a65f597e4ffa3a"
+  },
+  "loginUserAccessId": "00b0c215-dc3a-407c-af46-017b6315215d",
+  "loginId": "senior-adjuster-login-002",
+  "roleId": "b2d04641-6e6b-4769-9f8f-a8e14dac7ed4",
+  "menuId": "menu-claim-intake-001",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-07-20T07:19:37.947Z"
+  },
+  "updatedTime": {
+    "$date": "2026-07-20T07:19:37.947Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5dcc0a23a65f597e4ffa40"
+  },
+  "loginUserAccessId": "1293c501-4c62-4c16-9845-8db74ada5276",
+  "loginId": "junior-adjuster-login-001",
+  "roleId": "3b41c18a-44cb-4fb6-ba65-861800d979a0",
+  "menuId": "menu-claim-intake-001",
+  "createdBy": "system",
+  "updatedBy": "client-login-001",
+  "createdTime": {
+    "$date": "2026-07-20T07:19:38.206Z"
+  },
+  "updatedTime": {
+    "$date": "2026-07-20T07:37:09.840Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5dd10e4c1fcbf3ebf7a510"
+  },
+  "loginUserAccessId": "1e0e5c95-485e-47f8-8ecc-d2cc576fdeeb",
+  "loginId": "junior-adjuster-login-002",
+  "roleId": "3b41c18a-44cb-4fb6-ba65-861800d979a0",
+  "menuId": "menu-claim-intake-001",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-07-20T07:41:02.919Z"
+  },
+  "updatedTime": {
+    "$date": "2026-07-20T07:41:02.919Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5dd10e4c1fcbf3eb978510"
+  },
+  "loginUserAccessId": "1k0e5c95-485e-47f8-8ecc-d2cc576fdeeb",
+  "loginId": "junior-adjuster-login-001",
+  "roleId": "3b41c18a-44cb-4fb6-ba65-861800d979a0",
+  "menuId": "menu-claim-supervisor-comments-001",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-07-20T07:41:02.919Z"
+  },
+  "updatedTime": {
+    "$date": "2026-07-20T07:41:02.919Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5dd10e4c1fcbf3eb978540"
+  },
+  "loginUserAccessId": "1k0e5c95-485e-47f8-7ecc-d2cc576fdeeb",
+  "loginId": "junior-adjuster-login-002",
+  "roleId": "3b41c18a-44cb-4fb6-ba65-861800d979a0",
+  "menuId": "menu-claim-supervisor-comments-001",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-07-20T07:41:02.919Z"
+  },
+  "updatedTime": {
+    "$date": "2026-07-20T07:41:02.919Z"
+  },
+  "__v": 0
+}]

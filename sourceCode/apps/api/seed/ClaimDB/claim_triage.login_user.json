@@ -1,0 +1,504 @@
+[{
+  "_id": {
+    "$oid": "6a38cf0839676f17698e8126"
+  },
+  "loginId": "client-login-001",
+  "email": "claimssupr@laelia.com",
+  "username": "claimssupervisor",
+  "password": "$2b$10$zN4nYPUuKgVhY.sI/tOx/OiKFkVO4avRy.R4dv7kzRuDTi38RvVxq",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.442Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.442Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3d0359dd0bec716aaf1e68"
+  },
+  "loginId": "clientadj-login-001",
+  "email": "claimsadj@laelia.com",
+  "username": "claimsadjuster",
+  "password": "$2b$10$zN4nYPUuKgVhY.sI/tOx/OiKFkVO4avRy.R4dv7kzRuDTi38RvVxq",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.442Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.442Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a38cf0839676f17698e8127"
+  },
+  "loginId": "vendor-login-001",
+  "email": "vendor@gmail.com",
+  "username": "vendor",
+  "password": "$2b$10$R9rbkuyL8yQA.3egPSCrLeEhn2wG6tJTwRcS9xwtmoIgwHFyRgt/a",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.442Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.442Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a4cfe9066e3157fe4ef6f"
+  },
+  "loginId": "admin-login-001",
+  "email": "admin@laelia.com",
+  "username": "platformadmin",
+  "password": "$2b$10$07G3u3P4DXs5qJA1jY21F.5iJC13trL3HXSfVLmVBX1NzKU0hBkbm",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-23T09:08:14.921Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T09:08:14.921Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a57d5cda629641611fd88"
+  },
+  "loginId": "85458059-28c6-48f3-a60b-cfed61242560",
+  "email": "ags@gmail.com",
+  "username": "ags-vendor",
+  "password": "$2b$10$n3E7XEj4D.0k6v63vxkjMOQ6pAI/WeJBbjww52jxHWsUYnlCZoqiS",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-23T09:54:29.706Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T09:54:29.706Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a5b1bcda629641611fe22"
+  },
+  "loginId": "30cb320e-4bc0-4ab5-8335-6783503806ab",
+  "email": "newvendor@gmail.com",
+  "username": "q",
+  "password": "$2b$10$se7n0bpp7VdIQgFy9Lg15uCLTo5c5woXAJ6NHKb/HCwRVPI4uTbkC",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-23T10:08:27.735Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T10:08:27.735Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a67e3cda629641611ff7b"
+  },
+  "loginId": "0b037880-84e6-445b-a8bd-06b58f2955e3",
+  "email": "test1@gmail.com",
+  "username": "test1",
+  "password": "$2b$10$EzfQ58DwdF8yZkYhrAvY/u3OLtU118KIfd.kHBi9gcK9lzKx5GqTm",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-23T11:02:59.704Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T11:02:59.704Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a7bf5cda629641612018e"
+  },
+  "loginId": "c474d9c6-64f0-46d9-8038-98a4654a0bdc",
+  "email": "test2@gmail.com",
+  "username": "test123",
+  "password": "$2b$10$JcdnSpuxXuQ/KcDVaZ5cBOY1ymypYm1w1tkyIz3xujbCJ663PwVjS",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-23T12:28:37.431Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T12:28:37.431Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3bba54a5cd276bf3ee5da9"
+  },
+  "loginId": "113d4939-efbd-49aa-9921-be995c807fd5",
+  "email": "demo@gmail.com",
+  "username": "demo",
+  "password": "$2b$10$kc0xXSvNuxoVnU.PiuOh7OKemFLrGspiKMTuwj8/wqBC6ViGyFFBq",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-24T11:07:00.864Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-24T11:07:00.864Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3bbb79dd0bec716aaf1b07"
+  },
+  "loginId": "677183fe-e065-4a58-9e1a-f895d8b0e0f2",
+  "email": "test456@gmail.com",
+  "username": "test456",
+  "password": "$2b$10$.l0j5DS23GqCaV/dMNinrOaEGGSgnER.XV9XX..L87c4LzOLk.8nC",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-24T11:11:53.929Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-24T11:11:53.930Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3bc769dd0bec716aaf1c4b"
+  },
+  "loginId": "623b6f57-2544-4245-91bd-b73dd87fdf1d",
+  "email": "demo123@gmail.com",
+  "username": "demo123",
+  "password": "$2b$10$le.pRA5c8GGop3rSWmX7NOsGBOlT2qhSrit1t0odptUsTKIhgqpUG",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-24T12:02:49.783Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-24T12:02:49.783Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3d0359dd0bec716aaf1e6a"
+  },
+  "loginId": "298ce3b1-525c-43c5-8452-c99f935525bd",
+  "email": "testmain@gmail.com",
+  "username": "testmain",
+  "password": "$2b$10$cGaXE83cKknLdQBTWda4nuimx.eDZJmd31vzXRRTIunkbv0Q2xAaS",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-25T10:30:49.400Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-25T10:30:49.400Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3f62922ea2c140f0a86ae7"
+  },
+  "loginId": "f1dfe5f1-209e-4352-9b67-d07c80107ddd",
+  "email": "acme@gmail.com",
+  "username": "acme-field",
+  "password": "$2b$10$2ubMBvo3C3TX1UhTgE6Qs.kk2Np5vLIYVwoUUTMuLAVPkB1.e08k6",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-27T05:41:38.155Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-27T05:41:38.155Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3f88232ea2c140f0a86b53"
+  },
+  "loginId": "125fc2f4-873b-400c-9825-4722b3a84cd8",
+  "email": "bpo@laelia.com",
+  "username": "bposer",
+  "password": "$2b$10$4V5ukMwhileDHOcuLoeU.u5wNnDtfpVU6rLHvaxQ4lNO0xeWlstKi",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-27T08:21:55.246Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-27T08:21:55.246Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3f88832ea2c140f0a86b76"
+  },
+  "loginId": "f4af976f-27d9-453b-9d39-14f86ff7b39f",
+  "email": "bpo1@gmail.com",
+  "username": "bpo-serv1",
+  "password": "$2b$10$7v0klEUbvtkGY9hAB3HNnu6Lqalaw/V9CR4woNVFyUm.30QQlJqwa",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-27T08:23:31.826Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-27T08:23:31.826Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3fca6feef174dee846fdf1"
+  },
+  "loginId": "624eaefa-3a7f-4e5f-9cff-0bc12e531bb1",
+  "email": "serviceprovider@laelia.com",
+  "username": "serviceprovider-test",
+  "password": "$2b$10$GUvvx3yLtLUb.4cgZ0x7me.2to/MIrp0BHZ7tgKBEYzMiolSrlwUu",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-27T13:04:47.588Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-27T13:04:47.588Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4202240ed39dff5bf971e7"
+  },
+  "loginId": "f7870aa6-8d49-4898-bb83-8bd263e8e802",
+  "email": "kpn@gmail.com",
+  "username": "kpn-productions",
+  "password": "$2b$10$pyPGB2ST60LBjyUr9kjrb.S/7nhrU1gGYyMDe3bVuhiKqHRDaW2ia",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-06-29T05:27:00.625Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-29T05:27:00.625Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4b50ff1babe5a9a589ac8a"
+  },
+  "loginId": "28bfb191-01b9-44e9-ac9e-c734acb5a6a8",
+  "email": "eximo@gmail.com",
+  "username": "eximo-services",
+  "password": "$2b$10$uJ7j7fqasYo1CCB6UfTtZ.9Ivp17sAVKApRQAyQxqxeCvC690HBDW",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-07-06T06:53:51.035Z"
+  },
+  "updatedTime": {
+    "$date": "2026-07-06T06:53:51.035Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4ccc829e84040d4742bb4b"
+  },
+  "loginId": "c863f959-47a0-4173-8409-ae63df904c1c",
+  "email": "lyca@gmail.com",
+  "username": "lyca-productions",
+  "password": "$2b$10$dRegs/zMLUIAZvaRh9vM/unQpUyl5LcPBZ1dWyFaRnRSFLqqjM112",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-07-07T09:53:06.495Z"
+  },
+  "updatedTime": {
+    "$date": "2026-07-07T09:53:06.495Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4cd0059e84040d4742bd56"
+  },
+  "loginId": "4eee25be-01ee-4c67-b5be-d6e88cd62f0d",
+  "email": "prorestore@gmail.com",
+  "username": "prorestore-network",
+  "password": "$2b$10$Klv//fPTS6g0EF54407e7uf.o3NIgOsj/3KhjYEuroqPKxNk0ewy6",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-07-07T10:08:05.039Z"
+  },
+  "updatedTime": {
+    "$date": "2026-07-07T10:08:05.039Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4cd0469e84040d4742bdf2"
+  },
+  "loginId": "8f4f9cbe-51dd-4cd1-980a-910f398e953c",
+  "email": "carebridge@gmail.com",
+  "username": "carebridge-medical-management",
+  "password": "$2b$10$22hdm30HKPH.HZ5zE8Qg/ej03qg0Pde8G8HGjLKKkyhoL7kuHCj66",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-07-07T10:09:10.702Z"
+  },
+  "updatedTime": {
+    "$date": "2026-07-07T10:09:10.702Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4cd0a59e84040d4742be8e"
+  },
+  "loginId": "ee69f54b-d987-4ada-8e17-0872e6638964",
+  "email": "pinnacle@gmail.com",
+  "username": "pinnacle-bill-audit-services",
+  "password": "$2b$10$e7ATkw.WntfMk2omXxcH2ec0GcXnhCJKwZ1cK9UkB2HuhE4EeNu3C",
+  "createdBy": "self-registration",
+  "updatedBy": "self-registration",
+  "createdTime": {
+    "$date": "2026-07-07T10:10:45.821Z"
+  },
+  "updatedTime": {
+    "$date": "2026-07-07T10:10:45.821Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5dcc0923a65f597e4ffa31"
+  },
+  "loginId": "senior-adjuster-login-001",
+  "email": "sarah.mitchell@laelia.com",
+  "username": "sarah.mitchell",
+  "password": "$2b$10$IJg6xNHV7A.2OGcX38uS7OF1RFpy/FwEyoKnK8idmBUx7bUrWO32i",
+  "fullName": "Sarah Mitchell",
+  "status": "Active",
+  "isActive": true,
+  "createdBy": "system",
+  "updatedBy": "client-login-001",
+  "createdTime": {
+    "$date": "2026-07-20T07:19:37.670Z"
+  },
+  "updatedTime": {
+    "$date": "2026-07-30T06:50:45.471Z"
+  },
+  "__v": 0,
+  "permissions": {
+    "canAccessServiceProviderRating": false,
+    "canOverrideService": false,
+    "canOverrideProvider": false,
+    "canViewReserveExposure": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6a5dcc0923a65f597e4ffa37"
+  },
+  "loginId": "senior-adjuster-login-002",
+  "email": "james.okoro@laelia.com",
+  "username": "james.okoro",
+  "password": "$2b$10$vjNcmKgWTpd/qiwe43Hr..vadMGmTXXftmSGNNMl641X1WazbbRMi",
+  "fullName": "James Okoro",
+  "status": "Active",
+  "isActive": true,
+  "createdBy": "system",
+  "updatedBy": "client-login-001",
+  "createdTime": {
+    "$date": "2026-07-20T07:19:37.936Z"
+  },
+  "updatedTime": {
+    "$date": "2026-07-30T06:50:48.822Z"
+  },
+  "__v": 0,
+  "permissions": {
+    "canAccessServiceProviderRating": true,
+    "canOverrideService": false,
+    "canOverrideProvider": true,
+    "canViewReserveExposure": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6a5dcc0a23a65f597e4ffa3d"
+  },
+  "loginId": "junior-adjuster-login-001",
+  "email": "priya.nair@laelia.com",
+  "username": "priya.nair",
+  "password": "$2b$10$fUAWButZNh.tlnCaHE3KP.nc05F7GzJ/t3cjWSAVZwsSr1HHKGb72",
+  "fullName": "Priya Nair",
+  "status": "Active",
+  "isActive": true,
+  "createdBy": "system",
+  "updatedBy": "client-login-001",
+  "createdTime": {
+    "$date": "2026-07-20T07:19:38.195Z"
+  },
+  "updatedTime": {
+    "$date": "2026-08-06T00:53:11.904Z"
+  },
+  "__v": 0,
+  "permissions": {
+    "canAccessServiceProviderRating": true,
+    "canOverrideService": true,
+    "canOverrideProvider": true,
+    "canViewReserveExposure": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6a5dd10e4c1fcbf3ebf7a50d"
+  },
+  "loginId": "junior-adjuster-login-002",
+  "email": "derek.chan@laelia.com",
+  "username": "derek.chan",
+  "password": "$2b$10$YeYwX3lvhtLBmg36ctoixO5vp0Njd5zqL1I/Ie9BRK7QuhgJFj.fW",
+  "fullName": "Derek Chan",
+  "status": "Active",
+  "isActive": true,
+  "createdBy": "system",
+  "updatedBy": "client-login-001",
+  "createdTime": {
+    "$date": "2026-07-20T07:41:02.881Z"
+  },
+  "updatedTime": {
+    "$date": "2026-07-30T06:50:34.682Z"
+  },
+  "__v": 0,
+  "permissions": {
+    "canAccessServiceProviderRating": true,
+    "canOverrideService": false,
+    "canOverrideProvider": true,
+    "canViewReserveExposure": true
+  }
+}]

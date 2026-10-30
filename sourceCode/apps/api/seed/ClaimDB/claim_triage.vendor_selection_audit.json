@@ -1,0 +1,41 @@
+[
+  {
+    "_id": {
+      "$oid": "64b57bbbc7c81c4e2faab796"
+    },
+    "auditId": "332f9690-93c8-43f9-ad73-b952622b9c6b",
+    "ruleId": "dbae9297-aded-41e1-abb1-11d2a5022690",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-10-10T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a4d053b1b4f995d19c37243c"
+    },
+    "auditId": "e83229f1-00f0-4115-a8cd-81b65d0a5c2b",
+    "ruleId": "e0ca51b8-5cfc-42ba-a69b-384631024ab4",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-10-10T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "20ceb6034a5e04bcdb67ab22"
+    },
+    "auditId": "c411c953-022d-4425-a5fc-a97e08933993",
+    "ruleId": "ec88ed17-9cf6-488b-a93a-111093a3dcbf",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-10-10T12:00:00.000Z"
+    },
+    "__v": 0
+  }
+]

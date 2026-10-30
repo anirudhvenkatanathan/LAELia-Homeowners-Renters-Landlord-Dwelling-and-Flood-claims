@@ -1,0 +1,405 @@
+[
+  {
+    "_id": {
+      "$oid": "cd17d6f4d1fed5d34902e966"
+    },
+    "auditId": "bbc41926-36b5-40d0-a263-27896a2738ac",
+    "roleId": "0658976d-6d55-4f61-a2a8-bb245fd7543d",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-08-31T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "bb0dbb085b651d6b6fca5e6e"
+    },
+    "auditId": "451215fb-adbf-4564-aa2c-acdc5979e076",
+    "roleId": "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-01T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f51cc3b31427048f5ae776a3"
+    },
+    "auditId": "78c94b66-ab2a-4457-a612-14eb760a6c17",
+    "roleId": "d2329338-efe4-49c4-af73-bae9a39c55cb",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-02T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d351d023abf2e5ae67442613"
+    },
+    "auditId": "648af900-3786-4e88-a9b5-a31d5775b1ec",
+    "roleId": "de2a54b5-1dab-48f6-aafe-09ab14d462ec",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-03T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "79b5f9ddcec1660a35985070"
+    },
+    "auditId": "36dc04b4-d73a-41c8-aafb-fb7082aff99b",
+    "roleId": "a0efd921-2a5e-424f-a4db-2419d12c121a",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-04T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "29d64a282e5b221c840f5d8e"
+    },
+    "auditId": "1481d63f-ddea-4606-a943-9b4e59a8b793",
+    "roleId": "afd882e6-5968-41a5-a627-499eea6a6ef0",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-05T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6b56b9456efc2ce0b197b1ee"
+    },
+    "auditId": "017cec39-9015-427e-ac38-05094ac11e90",
+    "roleId": "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-06T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "09a859a1e6a01c6ca22cae3c"
+    },
+    "auditId": "1cc4e34b-318b-4a0b-ac71-f9c8356281d0",
+    "roleId": "aeda679c-ad7b-4fec-a6a4-5b6616cb15c2",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-07T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "1c6ebc8adfd02656b7f25b88"
+    },
+    "auditId": "8a387f73-9a9e-4271-addb-ad104f11dafa",
+    "roleId": "558e9abc-e33d-46fc-a519-839fafb746eb",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-08T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5237b3326f56908472780d00"
+    },
+    "auditId": "a64c88d6-2a7d-466b-ae1d-6b3fa86e74b2",
+    "roleId": "ebdc794f-65a3-4b19-ac45-393830e15e13",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-09T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68b2030293862687bc15c9d4"
+    },
+    "auditId": "64187fc5-376b-4324-a4c8-e68744c32d79",
+    "roleId": "c1a4282d-12fe-4faa-aef3-8c8631646edd",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-10T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "8d69051e468e1a987ef07e1f"
+    },
+    "auditId": "ca3c37d3-de9f-4c19-a349-9d134f1890c2",
+    "roleId": "43017e2f-5a5a-418a-a972-f10cef277c2f",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-11T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f02e41001ad21c4715c4be62"
+    },
+    "auditId": "979651be-7a12-43b6-a1c4-636a7575edfb",
+    "roleId": "34ff1d01-fb6c-44d6-a77b-062615d797a4",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-12T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "76b4db059d34b7544e708fb9"
+    },
+    "auditId": "d4a10898-3a4b-4708-aaa0-aa447fa694b0",
+    "roleId": "2a0941a9-ab8e-42c5-aa96-53a4124d097e",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-13T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "647306f106b3a41a9acef25b"
+    },
+    "auditId": "8f740477-3f30-41b6-a674-fb1a2c3c7465",
+    "roleId": "e3973762-fe7d-42a3-a028-c3483457bf9a",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-14T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5dc47abae349aec4ba003bc2"
+    },
+    "auditId": "f2dbf127-1786-475d-a5c6-cfb476be16d0",
+    "roleId": "0443bbe8-c14d-40ef-adec-4458907ababd",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-15T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "0759ba9db6b748bb1ddb6736"
+    },
+    "auditId": "31bba97c-f059-48c7-a5cf-9084704246d5",
+    "roleId": "d094afe9-ba8f-412f-aa9b-aca77e7db7f1",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "372cae455e86b3b9fe6f9df8"
+    },
+    "auditId": "5ef6d618-7fa1-4a1b-a93f-850c3860e094",
+    "roleId": "be8db67b-6f4c-49b7-a14f-da9ca27c509a",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "37e4ccb79ed663a14f6500cf"
+    },
+    "auditId": "e5e639cb-8221-4cd0-a533-1895e54e41ba",
+    "roleId": "53a227b9-317f-48dc-aeb6-6bf1a0c7a4ab",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-18T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "c9aaddd63fa530022f5ace83"
+    },
+    "auditId": "dc0952ca-151f-44b3-a4e1-75b84b45e738",
+    "roleId": "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-19T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a8491fda5da56c3c9d79f33d"
+    },
+    "auditId": "a5a891b7-2eee-40f1-a107-9520eb30a834",
+    "roleId": "3455af34-b088-440b-a1f7-99dea13403cf",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-08-31T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6333fc2353267b02bbd81e24"
+    },
+    "auditId": "d0bc4319-1425-4211-a2c1-7f2410758ef4",
+    "roleId": "5a3693f8-0fc6-4985-ae83-37bfe5ce7235",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-01T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f287e7fbd96e195d43ad39d1"
+    },
+    "auditId": "792faac6-3c58-438b-a6bb-882ab2fa7de8",
+    "roleId": "953716fb-084f-41be-a85d-c7f32b82c23e",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-02T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "c6f4c82accd0cefade005645"
+    },
+    "auditId": "ea431741-d936-4acf-a5e3-0ab21e99a531",
+    "roleId": "0e056f9a-3549-4d0b-a11c-6e2b5ebdf4a5",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-03T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "972fa5e65a3443398c57ad8b"
+    },
+    "auditId": "35be70e3-1253-45c4-a877-4446d9ac3c66",
+    "roleId": "d25a0874-807e-43b7-af32-863e746db8b2",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-04T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "445b45b27e4a81e018963a47"
+    },
+    "auditId": "a233f8d0-0aeb-4c1d-a20c-6c00495e4fb9",
+    "roleId": "4791beff-4706-4585-afb4-ebb0f7e2bfe0",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-05T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "82a18443e0d6e6bf3c79447e"
+    },
+    "auditId": "7aa9525b-942c-45f7-aa4a-50ad224ddf1a",
+    "roleId": "f1eac9f3-ae9a-4584-a776-35f7428c0ff7",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-06T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "657291a807e5e32eeaeb9e67"
+    },
+    "auditId": "fc5c43e6-24f4-4615-a5f4-3c43e732188a",
+    "roleId": "26e206b6-c156-492e-aa11-41c474ca3827",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-07T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "1171e6750d8322dab0aed8fa"
+    },
+    "auditId": "fabe4750-4520-495c-ad9e-1614b9f8ab6a",
+    "roleId": "abc0e227-f29f-4d44-adac-f0b6776c8e79",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-08T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "87c8f60d45b66e5e7b0d497d"
+    },
+    "auditId": "fa9821aa-9a4c-49e7-aebb-70d592311331",
+    "roleId": "1f5b97d6-24a7-4880-a10e-cf540be4089c",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-09T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "1f9e644f22faccc5a3b097c7"
+    },
+    "auditId": "0bc96f85-5178-43c9-ac7e-68ab8f35b128",
+    "roleId": "dd83632f-6e75-429b-a53e-6bbae87e5d0d",
+    "action": "CREATE",
+    "user": "Admin",
+    "timestamp": {
+      "$date": "2026-09-10T12:00:00.000Z"
+    },
+    "__v": 0
+  }
+]

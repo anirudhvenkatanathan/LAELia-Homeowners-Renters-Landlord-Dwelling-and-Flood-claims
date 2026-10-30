@@ -1,0 +1,26 @@
+[
+  {
+    "_id": {
+      "$oid": "d93e20b73b6dfbc905f43264"
+    },
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "fileName": "property-field-mapping-template.xlsx",
+    "uploadType": "EXCEL",
+    "uploadedBy": "Admin",
+    "uploadDate": {
+      "$date": "2026-09-15T12:00:00.000Z"
+    },
+    "totalRecords": 102,
+    "status": "Processed",
+    "headers": "[\"Payload Fields\",\"Field Mapping\"]",
+    "validationResults": "PASS",
+    "processingMessages": "Processed 102 record(s), 102 mapping(s).",
+    "createdAt": {
+      "$date": "2026-09-15T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-15T12:00:00.000Z"
+    },
+    "__v": 0
+  }
+]

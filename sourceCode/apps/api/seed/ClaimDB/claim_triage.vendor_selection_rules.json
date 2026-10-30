@@ -1,0 +1,170 @@
+[
+  {
+    "_id": {
+      "$oid": "9d4392fbbbcbb7a20a869278"
+    },
+    "ruleId": "f27e2c78-9efc-45d3-aa96-d5082cc80008",
+    "name": "Conflict Check",
+    "category": "Compliance",
+    "description": "Prevents vendor assignment when conflict of interest is detected.",
+    "status": "Active",
+    "conditions": "IF vendor.conflict_flag = TRUE THEN exclude vendor",
+    "createdBy": "Admin",
+    "createdOn": {
+      "$date": "2026-08-01T12:00:00.000Z"
+    },
+    "updatedBy": "Admin",
+    "updatedOn": {
+      "$date": "2026-08-01T12:00:00.000Z"
+    },
+    "isDeleted": false,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "cdfb5cb754a2c8f802a854ee"
+    },
+    "ruleId": "46783e39-9741-4ed2-ae87-75b36ee78e90",
+    "name": "Geographic Eligibility",
+    "category": "Coverage",
+    "description": "Restricts vendor selection based on service area coverage.",
+    "status": "Active",
+    "conditions": "IF vendor.states CONTAINS claim.state THEN include vendor",
+    "createdBy": "Admin",
+    "createdOn": {
+      "$date": "2026-08-02T12:00:00.000Z"
+    },
+    "updatedBy": "Admin",
+    "updatedOn": {
+      "$date": "2026-08-02T12:00:00.000Z"
+    },
+    "isDeleted": false,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "eb30463a1aab898288870f63"
+    },
+    "ruleId": "8640b5d5-ced9-4e04-afaa-2a50b0cbb5bc",
+    "name": "Capacity Limit",
+    "category": "Capacity",
+    "description": "Limits vendor selection when capacity exceeds threshold.",
+    "status": "Active",
+    "conditions": "IF vendor.utilization > 80% THEN exclude vendor",
+    "createdBy": "Admin",
+    "createdOn": {
+      "$date": "2026-08-03T12:00:00.000Z"
+    },
+    "updatedBy": "Admin",
+    "updatedOn": {
+      "$date": "2026-08-03T12:00:00.000Z"
+    },
+    "isDeleted": false,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e1ceebd49ec706d77b4c04a0"
+    },
+    "ruleId": "0af38d53-a8d0-400d-a036-a591770ecf9d",
+    "name": "KPI Sort",
+    "category": "Ranking",
+    "description": "Sorts eligible vendors by KPI performance score.",
+    "status": "Active",
+    "conditions": "ORDER BY vendor.kpi_score DESC",
+    "createdBy": "Admin",
+    "createdOn": {
+      "$date": "2026-08-04T12:00:00.000Z"
+    },
+    "updatedBy": "Admin",
+    "updatedOn": {
+      "$date": "2026-08-04T12:00:00.000Z"
+    },
+    "isDeleted": false,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "4ae4866edb3d09b9c289c72f"
+    },
+    "ruleId": "3f166a52-7de2-43e8-afcf-05eafc2c3f1e",
+    "name": "ROI Threshold",
+    "category": "Financial",
+    "description": "Excludes vendors below ROI threshold.",
+    "status": "Active",
+    "conditions": "IF vendor.roi >= 30% THEN include vendor",
+    "createdBy": "Admin",
+    "createdOn": {
+      "$date": "2026-08-05T12:00:00.000Z"
+    },
+    "updatedBy": "Admin",
+    "updatedOn": {
+      "$date": "2026-08-05T12:00:00.000Z"
+    },
+    "isDeleted": false,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "42466b7bcf7212440130fe31"
+    },
+    "ruleId": "dbae9297-aded-41e1-abb1-11d2a5022690",
+    "name": "License Valid for Claim State",
+    "category": "Compliance",
+    "description": "Vendor must hold a current Florida licence for the service.",
+    "status": "Active",
+    "conditions": "IF vendor.license_state = claim.state AND vendor.license_status = ACTIVE THEN include vendor",
+    "createdBy": "Admin",
+    "createdOn": {
+      "$date": "2026-08-06T12:00:00.000Z"
+    },
+    "updatedBy": "Admin",
+    "updatedOn": {
+      "$date": "2026-08-06T12:00:00.000Z"
+    },
+    "isDeleted": false,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "eb18744c61dae7de1640a777"
+    },
+    "ruleId": "e0ca51b8-5cfc-42ba-a69b-384631024ab4",
+    "name": "NFIP Authorization Required",
+    "category": "Compliance",
+    "description": "Flood claims go only to adjusters holding a current NFIP certification.",
+    "status": "Active",
+    "conditions": "IF claim.lob = Flood AND vendor.nfip_certified = FALSE THEN exclude vendor",
+    "createdBy": "Admin",
+    "createdOn": {
+      "$date": "2026-08-07T12:00:00.000Z"
+    },
+    "updatedBy": "Admin",
+    "updatedOn": {
+      "$date": "2026-08-07T12:00:00.000Z"
+    },
+    "isDeleted": false,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "15f360fa4786c26e243f4613"
+    },
+    "ruleId": "ec88ed17-9cf6-488b-a93a-111093a3dcbf",
+    "name": "CAT Surge Capacity",
+    "category": "Capacity",
+    "description": "During a declared catastrophe, prefer vendors with a surge attestation and boost.",
+    "status": "Active",
+    "conditions": "IF claim.cat_event_flag = TRUE THEN prefer vendor.cat_surge_attested = TRUE",
+    "createdBy": "Admin",
+    "createdOn": {
+      "$date": "2026-08-08T12:00:00.000Z"
+    },
+    "updatedBy": "Admin",
+    "updatedOn": {
+      "$date": "2026-08-08T12:00:00.000Z"
+    },
+    "isDeleted": false,
+    "__v": 0
+  }
+]

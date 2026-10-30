@@ -1,0 +1,127 @@
+[
+  {
+    "_id": {
+      "$oid": "090041b34c9c77e8c8db8dad"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "fileName": "Homeowners-claims-demo.json",
+    "uploadType": "JSON",
+    "uploadedBy": "Admin",
+    "uploadDate": {
+      "$date": "2026-09-25T12:00:00.000Z"
+    },
+    "status": "Processed",
+    "totalClaims": 15,
+    "successCount": 15,
+    "failedCount": 0,
+    "validationResults": "PASS",
+    "processingMessages": "Processed 15 claim(s). All succeeded.",
+    "createdAt": {
+      "$date": "2026-09-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-25T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "8f5607c4f996f66d1bf188c4"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "fileName": "Renters-claims-demo.json",
+    "uploadType": "JSON",
+    "uploadedBy": "Admin",
+    "uploadDate": {
+      "$date": "2026-09-26T12:00:00.000Z"
+    },
+    "status": "Processed",
+    "totalClaims": 15,
+    "successCount": 15,
+    "failedCount": 0,
+    "validationResults": "PASS",
+    "processingMessages": "Processed 15 claim(s). All succeeded.",
+    "createdAt": {
+      "$date": "2026-09-26T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-26T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "50fc493fdd15f8c879653f3f"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "fileName": "Landlord-claims-demo.json",
+    "uploadType": "JSON",
+    "uploadedBy": "Admin",
+    "uploadDate": {
+      "$date": "2026-09-27T12:00:00.000Z"
+    },
+    "status": "Processed",
+    "totalClaims": 15,
+    "successCount": 15,
+    "failedCount": 0,
+    "validationResults": "PASS",
+    "processingMessages": "Processed 15 claim(s). All succeeded.",
+    "createdAt": {
+      "$date": "2026-09-27T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-27T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "9bee22b32a27f2e46cdd22e4"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "fileName": "Dwelling-claims-demo.json",
+    "uploadType": "JSON",
+    "uploadedBy": "Admin",
+    "uploadDate": {
+      "$date": "2026-09-28T12:00:00.000Z"
+    },
+    "status": "Processed",
+    "totalClaims": 15,
+    "successCount": 15,
+    "failedCount": 0,
+    "validationResults": "PASS",
+    "processingMessages": "Processed 15 claim(s). All succeeded.",
+    "createdAt": {
+      "$date": "2026-09-28T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-28T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "2318a048052d5b5664c120e0"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "fileName": "Flood-claims-demo.json",
+    "uploadType": "JSON",
+    "uploadedBy": "Admin",
+    "uploadDate": {
+      "$date": "2026-09-29T12:00:00.000Z"
+    },
+    "status": "Processed",
+    "totalClaims": 15,
+    "successCount": 15,
+    "failedCount": 0,
+    "validationResults": "PASS",
+    "processingMessages": "Processed 15 claim(s). All succeeded.",
+    "createdAt": {
+      "$date": "2026-09-29T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-29T12:00:00.000Z"
+    },
+    "__v": 0
+  }
+]

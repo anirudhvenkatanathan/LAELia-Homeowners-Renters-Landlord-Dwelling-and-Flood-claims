@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "6a1d5e7ae80d4f953e738e41"
+  },
+  "templateName": "default",
+  "__v": 0,
+  "createdBy": "Admin",
+  "createdDate": {
+    "$date": "2026-06-01T10:27:06.320Z"
+  },
+  "excelHeaders": "[\"Payload Fields\",\"Field Mapping\"]",
+  "templateId": "34b02a0d-e212-46e6-a002-75d48b2631e2"
+}]

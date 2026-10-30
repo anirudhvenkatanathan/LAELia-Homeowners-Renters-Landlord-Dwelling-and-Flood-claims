@@ -1,0 +1,204 @@
+[{
+  "_id": {
+    "$oid": "6a38cf0839676f17698e810e"
+  },
+  "roleId": "d165fec0-380d-470a-828a-7e0c041523fb",
+  "roleName": "Platform Admin",
+  "roleDescription": "Full system access",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.210Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.211Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a38cf0839676f17698e811a"
+  },
+  "roleId": "b6c237e9-974d-4a78-85cb-4d475e6a7f84",
+  "roleName": "Claims Supervisor",
+  "roleDescription": "Manages claims",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.287Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.287Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a4cfe9066e3157fe4ef70"
+  },
+  "roleId": "b6c237e9-974d-4a78-85cb-4d475e6a7f85",
+  "roleName": "Claims Adjuster",
+  "roleDescription": "Adjust and process claims",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.287Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.287Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a38cf0839676f17698e8120"
+  },
+  "roleId": "dc394e13-acbd-49e4-9e59-3f625f567e67",
+  "roleName": "Vendor",
+  "roleDescription": "Vendor-facing user",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.302Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.302Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a38cf0839676f17698e8123"
+  },
+  "roleId": "1e861e5c-e972-4c45-bf1f-a79641e15fea",
+  "roleName": "Read Only User",
+  "roleDescription": "View-only access",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-22T05:58:32.307Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-22T05:58:32.307Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a3b2144e1e258b01b2079"
+  },
+  "roleId": "939d9a2e-93cf-4c11-bffd-a55afa1344c1",
+  "roleName": "Vendor User",
+  "roleDescription": "Vendor-facing user",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-23T07:52:01.367Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T07:52:01.367Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a4cfe9066e3157fe4ef5c"
+  },
+  "roleId": "eb3c1c30-eb94-496b-bc72-56caa044a204",
+  "roleName": "Claims Manager",
+  "roleDescription": "Manage claims and assignments",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-23T09:08:14.829Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T09:08:14.830Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a4cfe9066e3157fe4ef64"
+  },
+  "roleId": "82f1f368-7149-4749-bc27-dc08e4ce896d",
+  "roleName": "Claims Adjuster",
+  "roleDescription": "Adjust and process claims",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-23T09:08:14.843Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T09:08:14.843Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3a4cfe9066e3157fe4ef69"
+  },
+  "roleId": "ecb7644a-ae99-418b-9a09-ce7c620b26d8",
+  "roleName": "Vendor Manager",
+  "roleDescription": "Manage vendor onboarding and selection",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-06-23T09:08:14.846Z"
+  },
+  "updatedTime": {
+    "$date": "2026-06-23T09:08:14.846Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4cd369c9927b697c155982"
+  },
+  "roleId": "e42104c7-5769-49c9-8f22-da3bf2dcea48",
+  "roleName": "Admin",
+  "roleDescription": "Full system access",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-07-07T10:22:33.780Z"
+  },
+  "updatedTime": {
+    "$date": "2026-07-07T10:22:33.780Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5dcba864274beb88cb1910"
+  },
+  "roleId": "b2d04641-6e6b-4769-9f8f-a8e14dac7ed4",
+  "roleName": "Senior Adjuster",
+  "roleDescription": "Senior Claims Adjuster",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-07-20T07:18:00.664Z"
+  },
+  "updatedTime": {
+    "$date": "2026-07-20T07:18:00.664Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5dcba864274beb88cb192f"
+  },
+  "roleId": "3b41c18a-44cb-4fb6-ba65-861800d979a0",
+  "roleName": "Junior Adjuster",
+  "roleDescription": "Junior Claims Adjuster",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "createdTime": {
+    "$date": "2026-07-20T07:18:00.719Z"
+  },
+  "updatedTime": {
+    "$date": "2026-07-20T07:18:00.719Z"
+  },
+  "__v": 0
+}]

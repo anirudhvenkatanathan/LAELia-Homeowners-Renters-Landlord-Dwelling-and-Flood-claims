@@ -1,0 +1,32 @@
+[
+  {
+    "_id": {
+      "$oid": "bc102328f132ae4add3a7551"
+    },
+    "historyId": "2821ae85-d2c9-495d-a6c9-ff1e33a74653",
+    "vendorId": "64df6601ae5678fe06fd38cf",
+    "action": "Suspended",
+    "reason": "Open licence renewal",
+    "remarks": "",
+    "performedBy": "claimsmanager",
+    "performedAt": {
+      "$date": "2026-10-09T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6018b60fddd6f58cfe41514b"
+    },
+    "historyId": "0c0795d0-5dd6-45cb-acb0-66b3c4b2c5a6",
+    "vendorId": "0a84c8b3fa6eff4bd184cef0",
+    "action": "Disqualified",
+    "reason": "Insurance lapsed",
+    "remarks": "",
+    "performedBy": "claimsmanager",
+    "performedAt": {
+      "$date": "2026-10-09T12:00:00.000Z"
+    },
+    "__v": 0
+  }
+]

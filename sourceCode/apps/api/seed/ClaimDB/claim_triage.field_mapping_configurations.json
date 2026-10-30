@@ -1,0 +1,1328 @@
+[
+  {
+    "_id": {
+      "$oid": "b694e236c84ed0c0cbc51a27"
+    },
+    "mappingId": "c2e9d1ce-851c-4311-a781-22a8e392a168",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "claimNumber",
+    "targetField": "claimNumber",
+    "dataType": "String",
+    "isMandatory": true,
+    "sortOrder": 0,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d9f844ccfdf9e5882fb4238d"
+    },
+    "mappingId": "e78b8db9-babd-434e-aef3-c5cf9b891ea3",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "policyNumber",
+    "targetField": "policyNumber",
+    "dataType": "String",
+    "isMandatory": true,
+    "sortOrder": 1,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "9f294c813c05741e01c446fb"
+    },
+    "mappingId": "5ec2bf2d-635e-4a4b-a600-fe1ddf7e64ad",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "insuredName",
+    "targetField": "insuredName",
+    "dataType": "String",
+    "isMandatory": true,
+    "sortOrder": 2,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "1742dea4d300d81c468b754c"
+    },
+    "mappingId": "6e67089e-288f-46cc-a4c1-bf97994e95fa",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "claimType",
+    "targetField": "claimType",
+    "dataType": "String",
+    "isMandatory": true,
+    "sortOrder": 3,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "28b646f72d0c085025386829"
+    },
+    "mappingId": "e5bfd848-a49c-4c97-a60f-a5d59f0bbf08",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "lossDate",
+    "targetField": "lossDate",
+    "dataType": "String",
+    "isMandatory": true,
+    "sortOrder": 4,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "9d633225712bdaba0a11d63c"
+    },
+    "mappingId": "52e4e069-eb15-46de-a38a-96602ff7189b",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "reportedDate",
+    "targetField": "reportedDate",
+    "dataType": "String",
+    "isMandatory": true,
+    "sortOrder": 5,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "40862215e6162f3410f74fc3"
+    },
+    "mappingId": "0aff2dc4-8a51-4624-afc9-3e14465c2259",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "claimAmount",
+    "targetField": "claimAmount",
+    "dataType": "Number",
+    "isMandatory": true,
+    "sortOrder": 6,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5bb6643897d7e4a42707bd99"
+    },
+    "mappingId": "e591040a-2f41-48e7-a482-fb6ca5a808a2",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "claimStatus",
+    "targetField": "claimStatus",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 7,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "b9b85e1afad463c996d931b8"
+    },
+    "mappingId": "0b5f7b43-3916-4c8e-a687-3d20cbd0c8a9",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "validationStatus",
+    "targetField": "validationStatus",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 8,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "dd48bbdeea716eae2269e06f"
+    },
+    "mappingId": "d947e3c1-55d1-4aa2-a64e-b82c33d954d1",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "validationMessage",
+    "targetField": "validationMessage",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 9,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "7a0751058f74db23eb5d0bb6"
+    },
+    "mappingId": "611c722f-f7c7-4426-adfb-7d18e7ae719d",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "roofDamageFlag",
+    "targetField": "roofDamageFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 10,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "7b4f4eb9be3f2b1476684b9f"
+    },
+    "mappingId": "2534ac54-40f8-405c-af6a-42c69e883ab8",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "debrisRemovalRequiredFlag",
+    "targetField": "debrisRemovalRequiredFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 11,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "0f3c2b787975adedea33bb96"
+    },
+    "mappingId": "8ce745d1-52a3-429e-a38e-e2493a226df1",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "hvacOdorRemediationRequiredFlag",
+    "targetField": "hvacOdorRemediationRequiredFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 12,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "26b15c03058f4474b1f6dc8d"
+    },
+    "mappingId": "59c03d0f-b216-4920-aa5f-23a1e01d88c1",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "moldRemediationRequiredFlag",
+    "targetField": "moldRemediationRequiredFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 13,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "83d9cd6af181f54375540974"
+    },
+    "mappingId": "422a6f7b-2992-4aac-a92d-187bdadeb656",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "structuralDryingRequiredFlag",
+    "targetField": "structuralDryingRequiredFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 14,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5260bc71fb1cff27886370ae"
+    },
+    "mappingId": "07cedfe4-5191-4363-a5dc-2ca4de2cd1b0",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "highValueClaimFlag",
+    "targetField": "highValueClaimFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 15,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "dd47d3c795a1ce30cde39dac"
+    },
+    "mappingId": "eb1113de-502e-4b29-a465-df4f9883e163",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "catastrophicClaimFlag",
+    "targetField": "catastrophicClaimFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 16,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "09b7b4b90e038a7183235e47"
+    },
+    "mappingId": "221bb55e-bbce-4313-a377-2a8c156cccc4",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "fraudScore",
+    "targetField": "fraudScore",
+    "dataType": "Number",
+    "isMandatory": false,
+    "sortOrder": 17,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "85a267b9476b9cebff56d25b"
+    },
+    "mappingId": "b669f960-dcfe-4797-a532-4f629c1e2332",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "contractorNegligenceFlag",
+    "targetField": "contractorNegligenceFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 18,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "30af47d95c2c39831b82cca8"
+    },
+    "mappingId": "d9e11a72-2c6e-490b-a7f4-7cca19419323",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "productInvolvementFlag",
+    "targetField": "productInvolvementFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 19,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "8e20df62ca26c189bd12bf4d"
+    },
+    "mappingId": "0b77a4cf-da85-4507-a6c3-ff0e0ba0c51f",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "constructionTradeInvolvementFlag",
+    "targetField": "constructionTradeInvolvementFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 20,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "0843fa36cbf4d7f4c89f434f"
+    },
+    "mappingId": "dcc9289e-b3c7-4003-ae8c-1ae75e774e8c",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "specialHandlingPropertyFlag",
+    "targetField": "specialHandlingPropertyFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 21,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "eccba281ea88d1ecc80219d7"
+    },
+    "mappingId": "20f5559a-d703-4559-a7d8-44410fcf8bf5",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "disputedCauseOriginFlag",
+    "targetField": "disputedCauseOriginFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 22,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5dafc29e85ffabec87ef2b1d"
+    },
+    "mappingId": "4e7e8e31-a11a-446c-a5b5-c3ca2af03e78",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "multipleEntitiesJobsiteFlag",
+    "targetField": "multipleEntitiesJobsiteFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 23,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f781ba6cc49d3ba0e5768496"
+    },
+    "mappingId": "67875a2d-edb6-4493-aa36-71e957fec884",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "liabilityContributionDeterminationFlag",
+    "targetField": "liabilityContributionDeterminationFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 24,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "dba82412878693a9b29b74a4"
+    },
+    "mappingId": "3536d39d-f8f7-499a-a314-cb63eac54aac",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "businessInterruptionFlag",
+    "targetField": "businessInterruptionFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 25,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "15fd0acdbe9ee4cec4ff1b99"
+    },
+    "mappingId": "cd2d2ebf-bf76-47d0-ab0a-ed0a01bf3c4d",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "largeAdditionalExpenseFlag",
+    "targetField": "largeAdditionalExpenseFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 26,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f4e7f5b7f80cdc8f44552988"
+    },
+    "mappingId": "bab509ee-76e9-4570-aca3-423089cc77ab",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "inflatedValueClaimFlag",
+    "targetField": "inflatedValueClaimFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 27,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "2f5fffb0991a0e75adff6491"
+    },
+    "mappingId": "6c709fda-3ea2-4f0f-a724-fe03362d3041",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "complexInventoryLossFlag",
+    "targetField": "complexInventoryLossFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 28,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "c87b5d639f59797cf0e1a781"
+    },
+    "mappingId": "b4448c70-5790-4b3c-a060-9b4f945bc9a8",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "Litigated claim",
+    "targetField": "Litigated claim",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 29,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d3b5669e5922beb8b00897c7"
+    },
+    "mappingId": "c0cb66e0-98e6-495e-afdd-9878122b3c48",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "potentialRecoveryAmount",
+    "targetField": "potentialRecoveryAmount",
+    "dataType": "Number",
+    "isMandatory": false,
+    "sortOrder": 30,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "19dfd223af5338e55a3ed3a7"
+    },
+    "mappingId": "d25ec4a3-7e51-4e8e-a71b-ce943f24b711",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "firstNoticePetitionFlag",
+    "targetField": "firstNoticePetitionFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 31,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5a7eb5bc415d7eb719726776"
+    },
+    "mappingId": "54242f91-87f1-4591-a8bb-4c1ce10afb77",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "Contested claim",
+    "targetField": "Contested claim",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 32,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ff3615db2e0d2e585025e481"
+    },
+    "mappingId": "b05a24f2-b598-44a6-a9d7-5d0225cd5adc",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "Fraud flag",
+    "targetField": "Fraud flag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 33,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "c5a6c6919c31302b28974a42"
+    },
+    "mappingId": "37dfd198-448d-4071-a060-33eec6b51052",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "significantPreexistingConditionFlag",
+    "targetField": "significantPreexistingConditionFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 34,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "962f17388dd1f165239ce4dd"
+    },
+    "mappingId": "2a01e0ba-690c-4473-a63e-dae84427e7f6",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "Diagnosis in dispute",
+    "targetField": "Diagnosis in dispute",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 35,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ce7fba80b8449b5e6ee6ad4b"
+    },
+    "mappingId": "1ef5260c-48d5-400c-a7ba-1594fc667805",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "largeLumpSumResolutionFlag",
+    "targetField": "largeLumpSumResolutionFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 36,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "337ec7b9087df779a62382a0"
+    },
+    "mappingId": "f94bd169-795f-4aba-a5e0-9844635ae5f5",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "medicalSetAsideAgreementFlag",
+    "targetField": "medicalSetAsideAgreementFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 37,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "1a239f5987843656e5f7898b"
+    },
+    "mappingId": "937dea64-1ca9-4e49-a291-5a84adfc275b",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "inconsistentLossVersionFlag",
+    "targetField": "inconsistentLossVersionFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 38,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "4057d9133167116d45b429af"
+    },
+    "mappingId": "8eb1e8e0-9953-4b2b-a68f-49bf5061f39c",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "liabilityNegligenceContestedFlag",
+    "targetField": "liabilityNegligenceContestedFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 39,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "2a64bee963be29b7a4656b8a"
+    },
+    "mappingId": "2575aa0f-c9f8-4618-a43d-3f4e9139febf",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "damagesOverstatedFlag",
+    "targetField": "damagesOverstatedFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 40,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "9cc8ecb2d33937e6fcdea213"
+    },
+    "mappingId": "9ee38e52-0d4f-43ae-ae0c-53a979d7a126",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "priorClaimHistoryFlag",
+    "targetField": "priorClaimHistoryFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 41,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "dd6219226dade69c43975a3f"
+    },
+    "mappingId": "9937081c-c558-4389-aa9b-641aca228cdd",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "partyNonCooperationFlag",
+    "targetField": "partyNonCooperationFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 42,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "84108042800e83e0d7cba2d0"
+    },
+    "mappingId": "6f883491-35ef-4341-a63d-c0c7cbb51f08",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "statusIntervalDays",
+    "targetField": "statusIntervalDays",
+    "dataType": "Number",
+    "isMandatory": false,
+    "sortOrder": 43,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "2656b186e6a7c1da7766ab70"
+    },
+    "mappingId": "261bf874-52fb-4c72-a2b9-70f5965c73b0",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "liabilityEvidenceFlag",
+    "targetField": "liabilityEvidenceFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 44,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ed199b0164451f5d8ad562d2"
+    },
+    "mappingId": "7443da3a-ff30-4088-a73b-0ef708f4a269",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "jurisdiction",
+    "targetField": "jurisdiction",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 45,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d1f9bb9e136cbada3e43eae5"
+    },
+    "mappingId": "2fd8ac32-1166-471c-adf6-16467acbf66e",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "multipleInsurerIsoHitFlag",
+    "targetField": "multipleInsurerIsoHitFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 46,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "602ab3141eb357e725d44182"
+    },
+    "mappingId": "847b15ad-bf1f-4212-a0ff-424c9e667d42",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "attorneyInitialNoticeFlag",
+    "targetField": "attorneyInitialNoticeFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 47,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d1d20ccea83444450e4d858a"
+    },
+    "mappingId": "79f7ebba-fcaf-4952-a29e-81491f7bfb4b",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "unwitnessedCredibilityConcernFlag",
+    "targetField": "unwitnessedCredibilityConcernFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 48,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "82c6b272e653fc25fd657e3d"
+    },
+    "mappingId": "95f60f7c-54e6-4ad7-af38-57724454b403",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "immediateCounselRepresentationFlag",
+    "targetField": "immediateCounselRepresentationFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 49,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6965dd2b0dc920bcdc07f359"
+    },
+    "mappingId": "501c3876-0b8c-41d2-a020-1984d4f95e1e",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "severityCategory",
+    "targetField": "severityCategory",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 50,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "784d2c4c188e7baf95192499"
+    },
+    "mappingId": "39a4b13b-56bd-4692-a3c3-8cf9443c38dc",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "totalReserveAmount",
+    "targetField": "totalReserveAmount",
+    "dataType": "Number",
+    "isMandatory": false,
+    "sortOrder": 51,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "29b9ecf640f30a5e47648c0f"
+    },
+    "mappingId": "0c003258-b35c-492e-a7af-340759722ec7",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "catEventFlag",
+    "targetField": "catEventFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 52,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "42df3c86089e2a16c070cc8a"
+    },
+    "mappingId": "f01ba8be-e5bc-4048-aaed-c810ac6c46d2",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "contractorReferralRequiredFlag",
+    "targetField": "contractorReferralRequiredFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 53,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "1564d12ecb492e1b76def1e2"
+    },
+    "mappingId": "766a13eb-b88a-43a8-afba-09fb8f240d46",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "specialtyTradeRequiredFlag",
+    "targetField": "specialtyTradeRequiredFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 54,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "30447515efc52cd61b40655b"
+    },
+    "mappingId": "f7a4aaa7-8215-4462-a61b-aa2eafb72884",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "sceneInvestigationRequiredFlag",
+    "targetField": "sceneInvestigationRequiredFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 55,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "fe454637752f383d06a1a86a"
+    },
+    "mappingId": "b6f3be40-4ddd-4098-a2e5-658271742df8",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "policeReportRequiredFlag",
+    "targetField": "policeReportRequiredFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 56,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5467951c0e5c49fea13256c6"
+    },
+    "mappingId": "07c81241-87ad-450f-ab08-aa1121bd9c47",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "nfipPolicyFlag",
+    "targetField": "nfipPolicyFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 57,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "55241fbd101eb93cc3003f28"
+    },
+    "mappingId": "43b0bc2e-187d-4ca7-ad87-115083b9fd78",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "daysSinceLoss",
+    "targetField": "daysSinceLoss",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 58,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "2329bb585c38a895efd043de"
+    },
+    "mappingId": "1319170c-401f-4da6-ad14-714d21003ce2",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "proofOfLossReceivedFlag",
+    "targetField": "proofOfLossReceivedFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 59,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "19f6af915cec30e01ac6b22b"
+    },
+    "mappingId": "7bf00930-ca4a-4553-a928-1e728b410d18",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "policyDaysBeforeLoss",
+    "targetField": "policyDaysBeforeLoss",
+    "dataType": "Number",
+    "isMandatory": false,
+    "sortOrder": 60,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a31bacd24b5086bc9d592b40"
+    },
+    "mappingId": "31f08f23-dfa1-49cc-a267-8c0ce8a362df",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "waitingPeriodExceptionFlag",
+    "targetField": "waitingPeriodExceptionFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 61,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6df16c702554287f19aecb30"
+    },
+    "mappingId": "0bfa130c-2ee8-4b05-abb0-1500fd00a173",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "repairCostPctOfValue",
+    "targetField": "repairCostPctOfValue",
+    "dataType": "Number",
+    "isMandatory": false,
+    "sortOrder": 62,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "c17b111635fe5bbb01b2ba70"
+    },
+    "mappingId": "9e85d514-c39c-4a1e-afd8-d516a4db8646",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "sfhaFlag",
+    "targetField": "sfhaFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 63,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6d4dddff7e5cb42c2d7f696a"
+    },
+    "mappingId": "32f4bcd9-db47-4555-a118-2eba7ab5217b",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "substantialDamageFlag",
+    "targetField": "substantialDamageFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 64,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "cfbc0688c457d6f5fb691b4e"
+    },
+    "mappingId": "9d5976a5-1a94-4920-a7f8-c4eec7f307e9",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "buildingLossAmount",
+    "targetField": "buildingLossAmount",
+    "dataType": "Number",
+    "isMandatory": false,
+    "sortOrder": 65,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "321288fd5eeef28a8ee3acb5"
+    },
+    "mappingId": "edb09116-c06d-4125-a411-b8ef3c1210f3",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "contentsLossAmount",
+    "targetField": "contentsLossAmount",
+    "dataType": "Number",
+    "isMandatory": false,
+    "sortOrder": 66,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "48814ddfa5d2c29291a84d73"
+    },
+    "mappingId": "358a47d2-ade8-487c-adf8-787ae8ce9128",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "contractorEstimateAmount",
+    "targetField": "contractorEstimateAmount",
+    "dataType": "Number",
+    "isMandatory": false,
+    "sortOrder": 67,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60ced119167a7cec4fe60934"
+    },
+    "mappingId": "8d29529c-80d4-459a-a8d6-628688a35094",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "estimateDisputeFlag",
+    "targetField": "estimateDisputeFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 68,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a76701f9db44476e6d09a50f"
+    },
+    "mappingId": "d63e4910-6bc4-460e-aaf9-5f67acd744be",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "coverageQuestionFlag",
+    "targetField": "coverageQuestionFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 69,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "c37c18885fedba9b55da5dca"
+    },
+    "mappingId": "6bba753d-991d-4abc-a568-203fcd863ac3",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "policyLapseFlag",
+    "targetField": "policyLapseFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 70,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "511e9b8eb67932e81cfc058f"
+    },
+    "mappingId": "1011f81a-7d80-4269-a3ed-10b8964b6f68",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "excludedPerilFlag",
+    "targetField": "excludedPerilFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 71,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "075405f8dcb0c4409ad522c8"
+    },
+    "mappingId": "3812a977-4225-460d-a88f-a97c0148af29",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "lateNoticeFlag",
+    "targetField": "lateNoticeFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 72,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a88a0a54f93eb2de0234290e"
+    },
+    "mappingId": "2d844862-e514-47df-a9ff-c0ec3601f3ab",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "publicAdjusterFlag",
+    "targetField": "publicAdjusterFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 73,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "53d425e9e484cd746a9ce0eb"
+    },
+    "mappingId": "7d225dfa-e0a4-45f7-aa94-7450720c0542",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "appraisalDemandFlag",
+    "targetField": "appraisalDemandFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 74,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5fe93c8b9b71cd71cc2d9439"
+    },
+    "mappingId": "fc694eaf-3536-4fa0-a306-e0aabce965c7",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "windHailFlag",
+    "targetField": "windHailFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 75,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "148dadfb5483a48c260887fb"
+    },
+    "mappingId": "eaa42c32-f6de-431a-a1d3-7780663a1738",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "roofAgeYears",
+    "targetField": "roofAgeYears",
+    "dataType": "Number",
+    "isMandatory": false,
+    "sortOrder": 76,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "09c0611c7aabb56f0fff1a57"
+    },
+    "mappingId": "6c712ae2-de58-464f-aafc-3dac2d67c1b5",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "roofPaymentScheduleFlag",
+    "targetField": "roofPaymentScheduleFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 77,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "3c4dfa7bf29116acf571ec77"
+    },
+    "mappingId": "9086920e-4406-4505-ac87-fd1dcf94c4e1",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "insuranceToValuePct",
+    "targetField": "insuranceToValuePct",
+    "dataType": "Number",
+    "isMandatory": false,
+    "sortOrder": 78,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "b11a3e7c88b9cfa59b78b622"
+    },
+    "mappingId": "bf6d44b9-0099-43f6-a2b6-035267bda7bd",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "contentsValuationDisputeFlag",
+    "targetField": "contentsValuationDisputeFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 79,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "cd7ae6cb5624e080375e92c1"
+    },
+    "mappingId": "36a5f917-90fc-4da1-a41f-3b68bd295e11",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "contentsCleaningRequiredFlag",
+    "targetField": "contentsCleaningRequiredFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 80,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "dc4eff78f2a5235bfb9c3d9a"
+    },
+    "mappingId": "6ee2c2a5-4592-427e-a3b2-c7040b9152cc",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "smokeOdorFlag",
+    "targetField": "smokeOdorFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 81,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "b2856eb030f361f7db8c43c7"
+    },
+    "mappingId": "7db9ee2c-1144-48fd-a741-882c140831e5",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "displacedFlag",
+    "targetField": "displacedFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 82,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "7564f13c6df9251e3b76fc3f"
+    },
+    "mappingId": "f755656a-7e72-4c0f-aa9b-8bd764c2a0a5",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "uninhabitableFlag",
+    "targetField": "uninhabitableFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 83,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ddd5511194405acfad612e0c"
+    },
+    "mappingId": "eebd1ed0-37e8-48c1-a19e-935268aeb1c0",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "vacancyDays",
+    "targetField": "vacancyDays",
+    "dataType": "Number",
+    "isMandatory": false,
+    "sortOrder": 84,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "30e05c96465de49a37f8b9af"
+    },
+    "mappingId": "990557d4-707d-4abd-a872-99aa1b5aeb38",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "unoccupiedFlag",
+    "targetField": "unoccupiedFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 85,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "8120b9bb1431191ec8a8cbec"
+    },
+    "mappingId": "c5433b92-66b3-4b67-a622-c9f87c630a0b",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "tenantCausedFlag",
+    "targetField": "tenantCausedFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 86,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "8af8e49c33b4985d435b6210"
+    },
+    "mappingId": "7db83082-9b2a-42ff-af5e-f4adb2ab4deb",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "daysSinceNotice",
+    "targetField": "daysSinceNotice",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 87,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "4d001fa70bf91398ab3fd917"
+    },
+    "mappingId": "7919efed-fc2d-49e5-ac86-221d5d8bbcb6",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "acknowledgedFlag",
+    "targetField": "acknowledgedFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 88,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "141c5e1ac3c71441fccd362e"
+    },
+    "mappingId": "72fda3e9-ea8b-441e-a355-6d3b67e27618",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "daysSinceProofOfLoss",
+    "targetField": "daysSinceProofOfLoss",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 89,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "8905e1cd7ef932e5e4361283"
+    },
+    "mappingId": "7217d8c8-6110-465b-abca-539fd46e5079",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "inspectionCompletedFlag",
+    "targetField": "inspectionCompletedFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 90,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f9ded3c580226977375717c6"
+    },
+    "mappingId": "a69015a3-af17-47b0-a189-6d3e04e87747",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "paymentDecisionIssuedFlag",
+    "targetField": "paymentDecisionIssuedFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 91,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "9bb29ba4f966cbf1cf4c9223"
+    },
+    "mappingId": "74bb51bf-1756-4262-aaf3-c158988ef9be",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "deductibleWaiverSuspectedFlag",
+    "targetField": "deductibleWaiverSuspectedFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 92,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a99356f93cd69111f7b42f45"
+    },
+    "mappingId": "7b029c73-1b12-4bd6-ac22-8533ecc13ce1",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "causeOfLoss",
+    "targetField": "causeOfLoss",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 93,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "0f391e791cb8757d04bbd50a"
+    },
+    "mappingId": "438d0755-df80-4477-a498-0052d836091c",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "policyForm",
+    "targetField": "policyForm",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 94,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ac41b3e7824783b4132486f6"
+    },
+    "mappingId": "825e1c11-4e3d-4933-a654-5db130c8bbd0",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "floodZone",
+    "targetField": "floodZone",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 95,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ca14173a53c3f03d611453c8"
+    },
+    "mappingId": "82ab0ce6-c90e-4083-a759-79b555c8d406",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "coverageALimit",
+    "targetField": "coverageALimit",
+    "dataType": "Number",
+    "isMandatory": false,
+    "sortOrder": 96,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ba31390ff8ed8b3c3adfafa7"
+    },
+    "mappingId": "02ae1b2f-6f9f-4537-a754-cdd946985bff",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "buildingExposure",
+    "targetField": "buildingExposure",
+    "dataType": "Number",
+    "isMandatory": false,
+    "sortOrder": 97,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "bec9b9dffe0dc79dc1517dd4"
+    },
+    "mappingId": "e3643649-92e0-44c3-addb-70099a482d4d",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "contentsExposure",
+    "targetField": "contentsExposure",
+    "dataType": "Number",
+    "isMandatory": false,
+    "sortOrder": 98,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d547616c07de9f439fc07975"
+    },
+    "mappingId": "f5d926c2-2a0a-43be-a25c-190415fe813b",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "propertyAddress",
+    "targetField": "propertyAddress",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 99,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "633fa3c2bf8cc81015388827"
+    },
+    "mappingId": "9fb9da4b-4f46-4b15-a377-0ca36dd9858e",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "assignedAdjuster",
+    "targetField": "assignedAdjuster",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 100,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f86b3d54c282afca92552e7c"
+    },
+    "mappingId": "b6b5bdad-b616-4aed-a8cf-cc749fa220eb",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "contractorName",
+    "targetField": "contractorName",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 101,
+    "__v": 0
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "_id": {
+      "$oid": "d20edd968d114aca0238dbc5"
+    },
+    "requestId": "1f50ad42-026a-40ba-a693-0af8af3a91f6",
+    "companyName": "Panhandle Claims Services",
+    "address": "Pensacola, FL",
+    "email": "claims@panhandle-claims-services.example",
+    "phone": "+1 (305) 555-0110",
+    "services": [
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a"
+    ],
+    "coverage": [
+      "FL"
+    ],
+    "status": "submitted",
+    "vendorDetailId": "b88521e00f0224f154b8eade",
+    "submittedBy": "Admin",
+    "submittedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "reviewedBy": "",
+    "reviewedAt": null,
+    "notes": "",
+    "createdAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "cb168646740e3e767c442c01"
+    },
+    "requestId": "a467db37-86bd-425c-aacd-0f98d4ae3d73",
+    "companyName": "Cornerstone Trades Network",
+    "address": "Jacksonville, FL",
+    "email": "claims@cornerstone-trades-network.example",
+    "phone": "+1 (407) 555-0111",
+    "services": [
+      "43017e2f-5a5a-418a-a972-f10cef277c2f"
+    ],
+    "coverage": [
+      "FL"
+    ],
+    "status": "submitted",
+    "vendorDetailId": "f27291c9c6e414f1e23bdb21",
+    "submittedBy": "Admin",
+    "submittedAt": {
+      "$date": "2026-10-15T12:00:00.000Z"
+    },
+    "reviewedBy": "",
+    "reviewedAt": null,
+    "notes": "",
+    "createdAt": {
+      "$date": "2026-10-15T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-15T12:00:00.000Z"
+    },
+    "__v": 0
+  }
+]

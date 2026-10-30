@@ -1,0 +1,42 @@
+[{
+  "_id": "6841a101f1a23c0012343451",
+  "statusId": "6841a101f1a23c0012343451",
+  "VendorStatusCode": "Active",
+  "VendorStatusName": "Active"
+},
+{
+  "_id": "6841a101f1a23c0012343452",
+  "statusId": "6841a101f1a23c0012343452",
+  "VendorStatusCode": "requalDue",
+  "VendorStatusName": "Requalification Due"
+},
+{
+  "_id": "6841a101f1a23c0012343453",
+  "statusId": "6841a101f1a23c0012343453",
+  "VendorStatusCode": "Suspended",
+  "VendorStatusName": "Suspended"
+},
+{
+  "_id": "6841a101f1a23c0012343455",
+  "statusId": "6841a101f1a23c0012343455",
+  "VendorStatusCode": "InProgress",
+  "VendorStatusName": "InProgress"
+},
+{
+  "_id": "6841a101f1a23c0012343456",
+  "statusId": "6841a101f1a23c0012343456",
+  "VendorStatusCode": "Disqualified",
+  "VendorStatusName": "Disqualified"
+},
+{
+  "_id": "6841a101f1a23c0012343457",
+  "statusId": "6841a101f1a23c0012343457",
+  "VendorStatusCode": "ReadyForActivation",
+  "VendorStatusName": "Ready for Activation"
+},
+{
+  "_id": "6841a101f1a23c0012343454",
+  "statusId": "6841a101f1a23c0012343454",
+  "VendorStatusCode": "PendingApproval",
+  "VendorStatusName": "Pending Approval"
+}]

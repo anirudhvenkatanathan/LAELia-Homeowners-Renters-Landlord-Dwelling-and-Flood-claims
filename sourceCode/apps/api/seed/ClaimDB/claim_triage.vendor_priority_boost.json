@@ -1,0 +1,75 @@
+[
+  {
+    "_id": {
+      "$oid": "d6b0fcee85a02d298db0da64"
+    },
+    "vendorId": "e7b83120e0c5fdeb4f1a0f75",
+    "__v": 0,
+    "assignmentLimit": null,
+    "boostApplied": true,
+    "createdAt": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    },
+    "createdBy": "claimssupervisor",
+    "reasonForBoost": "Boost for 90 days: CAT season capacity",
+    "serviceDisciplines": [
+      "24/7 Loss Mitigation Contractors",
+      "Pack-out & Contents Cleaning",
+      "CAT Response"
+    ],
+    "states": [
+      "FL"
+    ],
+    "updatedAt": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ec1cef460bf187be4634cbdd"
+    },
+    "vendorId": "7d6b28257a571966dd2ef089",
+    "__v": 0,
+    "assignmentLimit": null,
+    "boostApplied": true,
+    "createdAt": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    },
+    "createdBy": "claimssupervisor",
+    "reasonForBoost": "Boost for 90 days: CAT season capacity",
+    "serviceDisciplines": [
+      "CAT Response",
+      "Statutory Deadline Watch"
+    ],
+    "states": [
+      "FL"
+    ],
+    "updatedAt": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5f89fb008a9e75708672921f"
+    },
+    "vendorId": "728e2d88b71133e2dfd17c57",
+    "__v": 0,
+    "assignmentLimit": null,
+    "boostApplied": true,
+    "createdAt": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    },
+    "createdBy": "claimssupervisor",
+    "reasonForBoost": "Boost for 90 days: CAT season capacity",
+    "serviceDisciplines": [
+      "NFIP Authorized Adjuster",
+      "Proof of Loss Follow-up"
+    ],
+    "states": [
+      "FL"
+    ],
+    "updatedAt": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    }
+  }
+]

@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "6a23e71725d49733eeb06972"
+  },
+  "waiveReasonId": "WR001",
+  "waiveReasonCode": "NOT_APPLICABLE",
+  "waiveReasonName": "Not Applicable to Service Category",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a23e71725d49733eeb06973"
+  },
+  "waiveReasonId": "WR002",
+  "waiveReasonCode": "UNDER_REVIEW",
+  "waiveReasonName": "Under Review",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a23e71725d49733eeb06974"
+  },
+  "waiveReasonId": "WR003",
+  "waiveReasonCode": "ADMIN_OVERRIDE",
+  "waiveReasonName": "Admin Override",
+  "isActive": true
+}]
