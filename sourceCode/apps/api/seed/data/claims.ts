@@ -25,13 +25,14 @@ export interface ClaimSpec {
   flags?: string[];         // fields set to "present"
   ov?: Record<string, string | number>;   // overrides ('' removes a default)
   sev?: 'low' | 'moderate' | 'high' | 'catastrophic';
+  st: string;               // state code, default FL
 }
 
 type Tuple = [string, string, string, string, string, string[], number, number, number, Stage, string[]?, Record<string, string | number>?, ClaimSpec['sev']?];
 
 const mk = (lob: LineOfBusiness, n: number, t: Tuple): ClaimSpec => ({
   lob, n, insured: t[0], city: t[1], county: t[2], form: t[3], cause: t[4], areas: t[5],
-  lossAgo: t[6], reportedAgo: t[7], amount: t[8], stage: t[9], flags: t[10], ov: t[11], sev: t[12],
+  lossAgo: t[6], reportedAgo: t[7], amount: t[8], stage: t[9], flags: t[10], ov: t[11], sev: t[12], st: 'FL',
 });
 
 const HOMEOWNERS: Tuple[] = [
@@ -199,7 +200,7 @@ const FLOOD: Tuple[] = [
     ['nfip_policy_flag', 'sfha_flag'], { proof_of_loss_received_flag: '', fraud_score: 74, contents_loss_amount: 12000, building_loss_amount: 29000, repair_cost_pct_of_value: 22, policy_days_before_loss: 365 }],
 ];
 
-export const CLAIMS: ClaimSpec[] = [
+const BASE_CLAIMS: ClaimSpec[] = [
   ...HOMEOWNERS.map((t, i) => mk('Homeowners', i + 1, t)),
   ...RENTERS.map((t, i) => mk('Renters', i + 1, t)),
   ...LANDLORD.map((t, i) => mk('Landlord', i + 1, t)),
@@ -210,3 +211,17 @@ export const CLAIMS: ClaimSpec[] = [
 export const CLAIM_PREFIX: Record<LineOfBusiness, string> = {
   Homeowners: 'HO', Renters: 'RN', Landlord: 'LL', Dwelling: 'DW', Flood: 'FL',
 };
+
+// Wider footprint: move selected claims out of Florida (city, county and state). Everything else stays in FL.
+const MOVES: Record<string, [string, string, string]> = {
+  'Homeowners:2': ['Houston', 'Harris', 'TX'], 'Homeowners:4': ['Atlanta', 'Fulton', 'GA'], 'Homeowners:9': ['Charleston', 'Charleston', 'SC'],
+  'Homeowners:10': ['Mobile', 'Mobile', 'AL'], 'Homeowners:13': ['Baton Rouge', 'East Baton Rouge', 'LA'],
+  'Renters:3': ['Atlanta', 'Fulton', 'GA'], 'Renters:7': ['Houston', 'Harris', 'TX'], 'Renters:12': ['New Orleans', 'Orleans', 'LA'], 'Renters:14': ['Charlotte', 'Mecklenburg', 'NC'],
+  'Landlord:4': ['Savannah', 'Chatham', 'GA'], 'Landlord:9': ['Mobile', 'Mobile', 'AL'], 'Landlord:13': ['Wilmington', 'New Hanover', 'NC'], 'Landlord:5': ['Dallas', 'Dallas', 'TX'],
+  'Dwelling:3': ['Mobile', 'Mobile', 'AL'], 'Dwelling:7': ['Corpus Christi', 'Nueces', 'TX'], 'Dwelling:10': ['Charleston', 'Charleston', 'SC'], 'Dwelling:13': ['Birmingham', 'Jefferson', 'AL'],
+  'Flood:3': ['New Orleans', 'Orleans', 'LA'], 'Flood:5': ['Savannah', 'Chatham', 'GA'], 'Flood:10': ['Mobile', 'Mobile', 'AL'], 'Flood:11': ['Charleston', 'Charleston', 'SC'], 'Flood:13': ['Galveston', 'Galveston', 'TX'], 'Flood:15': ['Wilmington', 'New Hanover', 'NC'],
+};
+export const CLAIMS: ClaimSpec[] = BASE_CLAIMS.map((c) => {
+  const m = MOVES[`${c.lob}:${c.n}`];
+  return m ? { ...c, city: m[0], county: m[1], st: m[2] } : c;
+});
