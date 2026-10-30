@@ -141,6 +141,17 @@ export const PROVIDERS: ProviderDef[] = [
   X('Holy City Mitigation', 'Charleston', 'Charleston', 'South Carolina', 'SC, NC', 4.2, '4 Hours', 'Beth Calloway', ['24/7 Loss Mitigation Contractors', 'Temporary Housing / ALE']),
   X('Cape Fear Catastrophe Services', 'Wilmington', 'New Hanover', 'North Carolina', 'NC, SC', 4.3, '12 Hours', 'Russell Pike', ['CAT Response', 'Desk investigations']),
   X('Outer Banks Flood Review', 'Wilmington', 'New Hanover', 'North Carolina', 'NC, SC, VA', 4.1, '3 Business Days', 'Mallory Quinn', ['NFIP Authorized Adjuster', 'NFIP Limit Exposure']),
+  // ── Real companies (name, city and services from public listings; rating, turnaround and contact are demo placeholders) ──
+  X('Hi Low Roofing', 'Winter Garden', 'Orange', 'Florida', 'FL', 4.0, '3 Business Days', 'Main office', ['Roof Surface Review', 'Estimate & Invoice Review', 'Repair Network Referral']),
+  X('Bigfoot Roofing & Construction', 'Jacksonville', 'Duval', 'Florida', 'FL', 4.0, '3 Business Days', 'Main office', ['Roof Surface Review', 'Estimate & Invoice Review', 'Repair Network Referral', 'CAT Response']),
+  X('Janney Roofing', 'Casselberry', 'Seminole', 'Florida', 'FL', 4.0, '3 Business Days', 'Main office', ['Roof Surface Review', 'Estimate & Invoice Review', 'CAT Response']),
+  X('E2 Roofing', 'Jacksonville', 'Duval', 'Florida', 'FL', 4.0, '3 Business Days', 'Main office', ['Roof Surface Review', 'Repair Network Referral', 'Estimate & Invoice Review']),
+  X('Neumann Construction & Roofing', 'San Antonio', 'Pasco', 'Florida', 'FL', 4.0, '4 Business Days', 'Main office', ['Roof Surface Review', 'Repair Network Referral']),
+  X('Dehlinger Construction', 'Longwood', 'Seminole', 'Florida', 'FL', 4.0, '4 Business Days', 'Main office', ['Repair Network Referral', 'Estimate & Invoice Review', 'Roof Surface Review']),
+  X('Megram Construction', 'Oviedo', 'Seminole', 'Florida', 'FL', 4.0, '5 Business Days', 'Main office', ['Repair Network Referral', 'Estimate & Invoice Review']),
+  X('Herring Cleaning and Restoration', 'Jacksonville', 'Duval', 'Florida', 'FL', 4.0, '4 Hours', 'Main office', ['24/7 Loss Mitigation Contractors', 'Pack-out & Contents Cleaning']),
+  X('Paul Davis Restoration', 'Savannah', 'Chatham', 'Georgia', 'GA, FL, AL, SC, NC', 4.0, '4 Hours', 'Franchise network', ['24/7 Loss Mitigation Contractors', 'Pack-out & Contents Cleaning', 'CAT Response']),
+  X('DDA Forensics', 'Regional (multi-state)', 'N/A', 'Florida', 'AL, FL, GA, LA, MS, SC, TX', 4.0, '5 Business Days', 'Main office', ['Forensic Engineers', 'Cause & Origin Specialists']),
 ];
 
 // Spread the Florida providers across neighbouring states so the coverage column shows a realistic footprint.
