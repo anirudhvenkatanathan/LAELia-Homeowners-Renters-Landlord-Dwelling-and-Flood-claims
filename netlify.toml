@@ -1,6 +1,6 @@
 # LAELia (property lines) — static React frontend + one serverless function for the API.
 [build]
-  command = "npm --prefix sourceCode/apps/api ci && npm --prefix sourceCode/apps/frontEnd ci && npm --prefix sourceCode/apps/frontEnd run build"
+  command = "npm --prefix sourceCode/apps/api ci --include=dev && npm --prefix sourceCode/apps/frontEnd ci --include=dev && npm --prefix sourceCode/apps/frontEnd run build"
   publish = "sourceCode/apps/frontEnd/dist"
   functions = "sourceCode/apps/api/netlify/functions"
 
