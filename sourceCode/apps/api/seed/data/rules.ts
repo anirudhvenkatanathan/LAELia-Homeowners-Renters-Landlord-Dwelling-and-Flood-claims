@@ -124,7 +124,7 @@ export const RULES: RuleDef[] = [
     description: 'Pursue recovery from tenants where the tenant caused the loss and there is recoverable value.',
     conds: [['tenant_caused_flag', '!=', ''], ['potential_recovery_amount', '>', '0', 'AND']] },
   { name: 'Statutory Deadline Watch', origin: 'new', lobs: NOT_FLOOD,
-    description: 'Florida 627.70131 clocks: acknowledge in 7 days, inspect within 7 days of proof of loss, decide within 60 days of notice.',
+    description: 'Florida 627.70131 clocks: acknowledge within 7 days of notice, begin investigation within 7 days and inspect within 30 days of proof of loss (alert at day 23), pay or deny within 60 days of notice.',
     conds: [['days_since_notice', '>', '7'], ['acknowledged_flag', '=', '', 'AND'], ['days_since_proof_of_loss', '>=', '23', 'OR'], ['inspection_completed_flag', '=', '', 'AND'], ['days_since_notice', '>=', '50', 'OR'], ['payment_decision_issued_flag', '=', '', 'AND']] },
   { name: 'Deductible Waiver Review', origin: 'new', lobs: NOT_FLOOD,
     description: 'Review suspected improper deductible waivers or rebates by contractors.',
