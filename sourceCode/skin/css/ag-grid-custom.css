@@ -1,0 +1,346 @@
+/* ================================================================
+   AG Grid Custom Theme — matches Grid-design.webp reference
+   Applied on top of ag-theme-alpine using CSS variable overrides.
+   LAElia teal re-theme (2026-07-23): the grid previously used a
+   standalone purple (#7C3AED) accent, distinct from the rest of the app's
+   brand color at the time — now unified with the app-wide Primary/Action
+   teal (var(--color-primary)) instead of keeping its own separate accent.
+   ================================================================ */
+
+/* ── Theme Variables ─────────────────────────────────────────── */
+
+.ag-theme-alpine {
+  /* Foreground / background */
+  --ag-foreground-color:              #1a1d23;
+  --ag-secondary-foreground-color:    #6b7280;
+  --ag-disabled-foreground-color:     #9ca3af;
+  --ag-background-color:              #ffffff;
+  --ag-modal-overlay-background-color: rgba(15,23,42,0.4);
+
+  /* Header */
+  --ag-header-background-color:       #f8f9fb;
+  --ag-header-cell-hover-background-color: #f1f5f9;
+  --ag-header-column-separator-display: none;
+  --ag-header-column-resize-handle-color: var(--color-border);
+  --ag-header-column-resize-handle-height: 50%;
+  --ag-header-column-resize-handle-width: 2px;
+
+  /* Rows */
+  --ag-odd-row-background-color:      #ffffff;
+  --ag-row-hover-color:               #F2FAF9;
+  /* Primary-subtle, per the Color Guide's explicit callout: "For
+     selected-row and active-nav backgrounds". */
+  --ag-selected-row-background-color: var(--color-primary-lt);
+
+  /* Teal accent for selection, focus, checkboxes */
+  --ag-alpine-active-color:           var(--color-primary);
+  --ag-checkbox-checked-color:        var(--color-primary);
+  --ag-range-selection-border-color:  var(--color-primary);
+  --ag-input-focus-border-color:      var(--color-primary);
+  --ag-input-focus-box-shadow:        0 0 0 3px rgba(11,128,123,0.12);
+
+  /* Borders */
+  --ag-border-color:                  var(--color-border);
+  --ag-row-border-color:              #f3f4f6;
+  --ag-cell-horizontal-border:        none;
+  --ag-borders:                       solid 1px;
+  --ag-border-radius:                 0px;
+
+  /* Checkbox */
+  --ag-checkbox-background-color:     #ffffff;
+  --ag-checkbox-border-color:         #d1d5db;
+  --ag-checkbox-unchecked-color:      #d1d5db;
+  --ag-checkbox-indeterminate-color:  var(--color-primary);
+
+  /* Sizing */
+  --ag-font-family:                   'Inter', system-ui, sans-serif;
+  --ag-font-size:                     13px;
+  --ag-row-height:                    44px;
+  --ag-header-height:                 42px;
+  --ag-list-item-height:              32px;
+  --ag-cell-horizontal-padding:       16px;
+  --ag-grid-size:                     4px;
+  --ag-icon-size:                     14px;
+  --ag-widget-container-horizontal-padding: 12px;
+  --ag-widget-container-vertical-padding:   6px;
+  --ag-widget-horizontal-spacing:     8px;
+  --ag-widget-vertical-spacing:       6px;
+  --ag-cell-widget-spacing:           8px;
+  --ag-indentation-level:             16px;
+  --ag-column-select-indent-size:     16px;
+  --ag-set-filter-indent-size:        16px;
+  --ag-line-height:                   1.5;
+  --ag-tab-min-width:                 220px;
+  --ag-menu-min-width:                180px;
+
+  /* Card popups (filter menus, column menus) */
+  --ag-card-radius:                   8px;
+  --ag-card-shadow:                   0 8px 24px rgba(15,23,42,0.12), 0 2px 6px rgba(15,23,42,0.06);
+
+  /* Pagination */
+  --ag-pagination-button-color:       #6b7280;
+}
+
+/* ── Header ──────────────────────────────────────────────────── */
+
+.ag-theme-alpine .ag-header {
+  border-bottom: 1px solid var(--ag-border-color);
+  background-color: var(--ag-header-background-color);
+}
+
+.ag-theme-alpine .ag-header-row {
+  background-color: var(--ag-header-background-color);
+}
+
+.ag-theme-alpine .ag-header-cell {
+  border-right: none;
+  padding: 0 16px;
+}
+
+.ag-theme-alpine .ag-header-cell:hover {
+  background-color: var(--ag-header-cell-hover-background-color);
+}
+
+.ag-theme-alpine .ag-header-cell-text {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ag-header-foreground-color);
+}
+
+.ag-theme-alpine .ag-sort-indicator-icon {
+  color: var(--ag-alpine-active-color);
+}
+
+.ag-theme-alpine .ag-icon-asc,
+.ag-theme-alpine .ag-icon-desc {
+  color: var(--ag-alpine-active-color);
+}
+
+.ag-theme-alpine .ag-header-cell-resize::after {
+  background-color: var(--ag-border-color);
+  width: 1px;
+  height: 50%;
+  top: 25%;
+}
+
+/* ── Rows ────────────────────────────────────────────────────── */
+
+.ag-theme-alpine .ag-row {
+  border-bottom: 1px solid var(--ag-row-border-color);
+  font-size: 13px;
+  color: var(--ag-foreground-color);
+  transition: background-color 0.1s ease;
+}
+
+.ag-theme-alpine .ag-row-odd,
+.ag-theme-alpine .ag-row-even {
+  background-color: #ffffff;
+}
+
+.ag-theme-alpine .ag-row:hover:not(.ag-row-selected) {
+  background-color: var(--ag-row-hover-color) !important;
+}
+
+/* Selected row: teal bg + left accent border */
+.ag-theme-alpine .ag-row-selected {
+  background-color: var(--ag-selected-row-background-color) !important;
+  border-left: 3px solid var(--ag-alpine-active-color);
+}
+
+.ag-theme-alpine .ag-row-selected .ag-cell {
+  color: var(--ag-foreground-color);
+}
+
+/* ── Cells ───────────────────────────────────────────────────── */
+
+.ag-theme-alpine .ag-cell {
+  display: flex;
+  align-items: center;
+  border-right: none !important;
+  font-size: 13px;
+  padding: 0 16px;
+  line-height: 1;
+}
+
+.ag-theme-alpine .ag-cell-value {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Cell focus — remove Alpine default blue outline */
+.ag-theme-alpine .ag-cell-focus:not(.ag-cell-range-selected) {
+  border: 1px solid transparent !important;
+}
+
+/* ── Checkbox column ─────────────────────────────────────────── */
+
+.ag-theme-alpine .ag-checkbox-input-wrapper {
+  border-radius: 4px;
+  width: 16px;
+  height: 16px;
+  border: 1.5px solid var(--ag-checkbox-border-color);
+  background-color: var(--ag-checkbox-background-color);
+  transition: border-color 0.12s, background 0.12s;
+  box-shadow: none;
+}
+
+.ag-theme-alpine .ag-checkbox-input-wrapper.ag-checked {
+  background-color: var(--ag-checkbox-checked-color);
+  border-color: var(--ag-checkbox-checked-color);
+}
+
+.ag-theme-alpine .ag-checkbox-input-wrapper.ag-checked::after {
+  color: #ffffff;
+}
+
+.ag-theme-alpine .ag-checkbox-input-wrapper:hover {
+  border-color: var(--ag-alpine-active-color);
+}
+
+.ag-theme-alpine .ag-header-select-all {
+  padding: 0 16px;
+}
+
+/* ── Filter cells / floating filter ─────────────────────────── */
+
+.ag-theme-alpine .ag-floating-filter-input input,
+.ag-theme-alpine .ag-text-field-input {
+  border: 1px solid var(--ag-border-color);
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-family: var(--ag-font-family);
+  background: #ffffff;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.ag-theme-alpine .ag-floating-filter-input input:focus,
+.ag-theme-alpine .ag-text-field-input:focus {
+  outline: none;
+  border-color: var(--ag-alpine-active-color);
+  box-shadow: var(--ag-input-focus-box-shadow);
+}
+
+/* ── Column menu / popup ─────────────────────────────────────── */
+
+.ag-theme-alpine .ag-menu {
+  border-radius: var(--ag-card-radius);
+  box-shadow: var(--ag-card-shadow);
+  border: 1px solid var(--ag-border-color);
+  overflow: hidden;
+}
+
+.ag-theme-alpine .ag-menu-option-active {
+  background-color: var(--ag-row-hover-color);
+  color: var(--ag-alpine-active-color);
+}
+
+/* ── Pagination ──────────────────────────────────────────────── */
+
+.ag-theme-alpine .ag-paging-panel {
+  border-top: 1px solid var(--ag-border-color);
+  padding: 0 16px;
+  font-size: 12px;
+  color: var(--ag-secondary-foreground-color);
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.ag-theme-alpine .ag-paging-row-summary-panel {
+  font-size: 12px;
+  color: var(--ag-secondary-foreground-color);
+}
+
+.ag-theme-alpine .ag-paging-button {
+  min-width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--ag-border-color);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+  background: transparent;
+  padding: 0 6px;
+}
+
+.ag-theme-alpine .ag-paging-button:hover:not(.ag-disabled) {
+  background-color: var(--ag-row-hover-color);
+  border-color: var(--ag-alpine-active-color);
+  color: var(--ag-alpine-active-color);
+}
+
+.ag-theme-alpine .ag-paging-button.ag-disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+/* Current page number gets teal pill (via .ag-paging-button:hover above,
+   which already keys off var(--ag-alpine-active-color)) */
+.ag-theme-alpine .ag-paging-page-summary-panel {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* ── Loading / No-rows overlay ───────────────────────────────── */
+
+.ag-theme-alpine .ag-overlay-no-rows-wrapper {
+  font-size: 13px;
+  color: var(--ag-disabled-foreground-color);
+}
+
+.ag-theme-alpine .ag-overlay-loading-wrapper {
+  background: rgba(255,255,255,0.7);
+}
+
+/* ── Row drag handle ─────────────────────────────────────────── */
+
+.ag-theme-alpine .ag-drag-handle {
+  color: #d1d5db;
+  cursor: grab;
+}
+
+.ag-theme-alpine .ag-drag-handle:hover {
+  color: #9ca3af;
+}
+
+/* ── Scrollbar ───────────────────────────────────────────────── */
+
+.ag-theme-alpine ::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.ag-theme-alpine ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.ag-theme-alpine ::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 3px;
+}
+
+.ag-theme-alpine ::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* ── Responsive ──────────────────────────────────────────────── */
+
+@media (max-width: 768px) {
+  .ag-theme-alpine {
+    --ag-cell-horizontal-padding: 10px;
+    --ag-font-size: 12px;
+    --ag-row-height: 40px;
+    --ag-header-height: 38px;
+  }
+  .ag-theme-alpine .ag-cell,
+  .ag-theme-alpine .ag-header-cell { padding: 0 10px; }
+}
