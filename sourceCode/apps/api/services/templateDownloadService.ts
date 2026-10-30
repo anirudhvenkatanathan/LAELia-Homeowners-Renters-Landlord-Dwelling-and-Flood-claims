@@ -25,7 +25,11 @@ export interface TemplateResult {
  */
 export async function resolveTemplatePath(templateName: string): Promise<TemplateResult> {
   try {
-    const folderPath = process.env['TEMPLATE_FOLDER_PATH'] ?? '';
+    const configured = process.env['TEMPLATE_FOLDER_PATH'] ?? '';
+    // A relative folder (e.g. "Template" on Netlify) is looked up from the working directory and the function root.
+    const folderPath = !configured.trim() || path.isAbsolute(configured) ? configured
+      : [process.cwd(), process.env['LAMBDA_TASK_ROOT'] ?? '', path.resolve(__dirname, '../../..')]
+          .filter(Boolean).map((b) => path.resolve(b, configured)).find((c) => fs.existsSync(c)) ?? configured;
 
     // Folder config missing
     if (!folderPath.trim()) {
