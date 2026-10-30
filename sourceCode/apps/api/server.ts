@@ -18,7 +18,6 @@ import kpiMetricsRoutes         from './routes/kpiMetricsRoutes';
 import vendorServiceRequestRoutes from './routes/vendorServiceRequestRoutes';
 import activeVendorRoutes         from './routes/activeVendorRoutes';
 import { MenuItemModel }        from './graphQL/menuEntity';
-import { ensureServiceRequestRoleLOB } from './services/serviceRequestRoleLOBBackfill';
 import { seedFromExportIfEmpty } from './services/seedFromExport';
 import path from 'path';
 import fs from 'fs';
@@ -61,11 +60,6 @@ async function bootstrap(): Promise<void> {
 
   // Seed Active Vendor Portal menu items if not present
   await seedActiveVendorMenus();
-
-  // Backfill lineOfBusiness on any service_request_role record that predates
-  // it — runs in every environment on every startup, so a fresh deploy's DB
-  // self-heals without a manual migration step.
-  await ensureServiceRequestRoleLOB();
 
   const app = express();
   app.disable('etag');

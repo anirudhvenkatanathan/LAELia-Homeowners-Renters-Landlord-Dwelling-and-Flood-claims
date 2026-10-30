@@ -85,7 +85,7 @@ const DashboardMaster: React.FC = () => {
               </div>
             </div>
 
-            {/* ── ROW 1: LAE Ratio Trend + Medical Savings Trend + Indemnity Savings Trend ── */}
+            {/* ── ROW 1: LAE Ratio Trend + Repair Cost Savings Trend + Contents & ALE Savings Trend ── */}
             <div className={styles.chartRow3}>
               <div className={styles.chartWidget}>
                 <div className={styles.chartWidgetTitle}>LAE Savings Trend</div>
@@ -105,8 +105,8 @@ const DashboardMaster: React.FC = () => {
               </div>
 
               <div className={styles.chartWidget}>
-                <div className={styles.chartWidgetTitle}>Medical Savings Trend</div>
-                <div className={styles.chartWidgetSub}>Monthly medical savings captured</div>
+                <div className={styles.chartWidgetTitle}>Repair Cost Savings Trend</div>
+                <div className={styles.chartWidgetSub}>Monthly estimate-review savings captured</div>
                 <div className={styles.chartHeroValue}>{eo.medicalSavingsTrend.currentValue}</div>
                 <div className={styles.chartWidgetBody}>
                   <AreaTrendChart
@@ -116,14 +116,14 @@ const DashboardMaster: React.FC = () => {
                     yMin={0}
                     yMax={2}
                     xAxisLabel="Month"
-                    yAxisLabel="Medical Savings ($M)"
+                    yAxisLabel="Repair Cost Savings ($M)"
                   />
                 </div>
               </div>
 
               <div className={styles.chartWidget}>
-                <div className={styles.chartWidgetTitle}>Indemnity Savings Trend</div>
-                <div className={styles.chartWidgetSub}>Monthly indemnity savings captured</div>
+                <div className={styles.chartWidgetTitle}>Contents & ALE Savings Trend</div>
+                <div className={styles.chartWidgetSub}>Monthly contents and loss-of-use savings captured</div>
                 <div className={styles.chartHeroValue}>{eo.indemnitySavingsTrend.currentValue}</div>
                 <div className={styles.chartWidgetBody}>
                   <AreaTrendChart
@@ -133,7 +133,7 @@ const DashboardMaster: React.FC = () => {
                     yMin={0}
                     yMax={2}
                     xAxisLabel="Month"
-                    yAxisLabel="Indemnity Savings ($M)"
+                    yAxisLabel="Contents & ALE Savings ($M)"
                   />
                 </div>
               </div>

@@ -83,7 +83,7 @@ const SAMPLE_RECORD = {
   claimNumber: 'CLM-001',
   policyNumber: 'POL-001',
   insuredName: 'John Doe',
-  claimType: 'Medical',
+  claimType: 'Homeowners',
   lossDate: '2026-01-01',
   reportedDate: '2026-01-02',
   claimAmount: '5000',

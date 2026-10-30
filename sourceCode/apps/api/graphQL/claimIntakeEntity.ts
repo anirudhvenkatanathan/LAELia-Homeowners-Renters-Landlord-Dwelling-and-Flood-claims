@@ -520,6 +520,12 @@ function validateRawRecord(raw: RawRecord): { valid: boolean; message: string } 
     console.warn('[validateRawRecord] Validation failed. Missing fields:', missing, '| Raw record keys:', Object.keys(raw), '| Values:', JSON.stringify(raw));
     return { valid: false, message: `Missing required fields: ${missing.join(', ')}` };
   }
+  if (!mapClaimTypeToLOB(raw['claimType'])) {
+    return {
+      valid: false,
+      message: `Unrecognised claimType "${raw['claimType']}". Use Homeowners, Renters, Landlord, Dwelling or Flood.`,
+    };
+  }
   return { valid: true, message: 'Passed' };
 }
 
@@ -718,12 +724,13 @@ function matchRolesForRecord(
 ): string[] {
   const recordLOB = mapClaimTypeToLOB(getClaimField(record, 'claimType'));
   const matched: string[] = [];
+  if (!recordLOB) return matched;   // unrecognised claimType: no rules apply
   for (const role of activeRoles) {
     // Only rules configured for this claim's LOB are eligible — a role may
     // now be configured for more than one LOB, and a single bulk upload can
     // mix claimTypes/LOBs across records, so this must be checked per-record
     // rather than once for the whole batch.
-    const roleLOBs = role.lineOfBusiness?.length ? role.lineOfBusiness : ['WCM'];
+    const roleLOBs = role.lineOfBusiness ?? [];
     if (!roleLOBs.includes(recordLOB)) continue;
     const conds = condsByRole.get(role.roleId) ?? [];
     if (evaluateRoleConditions(record, conds)) {
@@ -765,7 +772,7 @@ async function resolveRoleNames(roleIds: string[]): Promise<string[]> {
 }
 
 // Guards against a role selected for a claim that belongs to a different LOB
-// (e.g. an Auto rule submitted against a WCM claim) — the UI already filters
+// (e.g. a Flood rule submitted against a Renters claim) — the UI already filters
 // the choices it offers by LOB, so this only ever fires on stale/tampered
 // input, but it's the enforcement point since the UI filter alone isn't a
 // server-side guarantee.
@@ -777,7 +784,7 @@ async function validateRolesMatchClaimLOB(
   const claimLOB = mapClaimTypeToLOB(claimType);
   const roles = await ServiceRequestRoleModel.find({ roleId: { $in: roleIds } }).lean().exec();
   const invalidRoleNames = roles
-    .filter((r) => !(r.lineOfBusiness?.length ? r.lineOfBusiness : ['WCM']).includes(claimLOB))
+    .filter((r) => !claimLOB || !(r.lineOfBusiness ?? []).includes(claimLOB))
     .map((r) => r.roleName);
   return { valid: invalidRoleNames.length === 0, invalidRoleNames };
 }

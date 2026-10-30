@@ -124,11 +124,11 @@ export function useServiceRequestRoleCreate(): UseServiceRequestRoleCreateReturn
         getRoleConditions(roleId),
       ]);
       const role = fullRole ?? listRole;
-      setRoleForm({ roleName: role.roleName, description: role.description, status: role.status, nlpCondition: role.nlpCondition ?? '', conditionExpression: role.conditionExpression ?? '', nlpConditionInWords: role.nlpConditionInWords ?? '', lineOfBusiness: role.lineOfBusiness?.length ? role.lineOfBusiness : ['WCM'] });
+      setRoleForm({ roleName: role.roleName, description: role.description, status: role.status, nlpCondition: role.nlpCondition ?? '', conditionExpression: role.conditionExpression ?? '', nlpConditionInWords: role.nlpConditionInWords ?? '', lineOfBusiness: role.lineOfBusiness ?? [] });
       setConditions(conds);
     } catch (err) {
       logError(err, 'useServiceRequestRoleCreate.selectRole');
-      setRoleForm({ roleName: listRole.roleName, description: listRole.description, status: listRole.status, nlpCondition: listRole.nlpCondition ?? '', conditionExpression: '', nlpConditionInWords: listRole.nlpConditionInWords ?? '', lineOfBusiness: listRole.lineOfBusiness?.length ? listRole.lineOfBusiness : ['WCM'] });
+      setRoleForm({ roleName: listRole.roleName, description: listRole.description, status: listRole.status, nlpCondition: listRole.nlpCondition ?? '', conditionExpression: '', nlpConditionInWords: listRole.nlpConditionInWords ?? '', lineOfBusiness: listRole.lineOfBusiness ?? [] });
       setConditions([]);
     }
   }, [roles]);

@@ -130,44 +130,46 @@ export interface LaeRatioTrendData {
   data: LaeTrendPoint[];
 }
 
-/** LAE savings captured (USD millions), split into Allocated / Unallocated LAE, monthly — Nov '25 to Apr '26. */
+/** LAE savings captured (USD millions), split into Allocated / Unallocated LAE, monthly — May '26 to Oct '26. */
 export const BASE_LAE_TREND: LaeTrendPoint[] = [
-  { month: "Nov '25", allocated: 1.6, unallocated: 0.9 },
-  { month: "Dec '25", allocated: 1.7, unallocated: 1.0 },
-  { month: "Jan '26", allocated: 1.9, unallocated: 0.9 },
-  { month: "Feb '26", allocated: 2.0, unallocated: 1.1 },
-  { month: "Mar '26", allocated: 2.2, unallocated: 1.2 },
-  { month: "Apr '26", allocated: 2.4, unallocated: 1.5 },
+  { month: "May '26", allocated: 1.6, unallocated: 0.9 },
+  { month: "Jun '26", allocated: 1.7, unallocated: 1.0 },
+  { month: "Jul '26", allocated: 1.9, unallocated: 0.9 },
+  { month: "Aug '26", allocated: 2.0, unallocated: 1.1 },
+  { month: "Sep '26", allocated: 2.2, unallocated: 1.2 },
+  { month: "Oct '26", allocated: 2.4, unallocated: 1.5 },
 ];
 
-/** Subrogation recovery amount (USD millions), monthly — Nov '25 to Apr '26. */
+/** Subrogation recovery amount (USD millions), monthly — May '26 to Oct '26. */
 export const BASE_SUBROGATION_TREND: TrendPoint[] = [
-  { month: "Nov '25", value: 1.5 },
-  { month: "Dec '25", value: 1.8 },
-  { month: "Jan '26", value: 1.6 },
-  { month: "Feb '26", value: 2.4 },
-  { month: "Mar '26", value: 2.2 },
-  { month: "Apr '26", value: 3.21 },
+  { month: "May '26", value: 1.5 },
+  { month: "Jun '26", value: 1.8 },
+  { month: "Jul '26", value: 1.6 },
+  { month: "Aug '26", value: 2.4 },
+  { month: "Sep '26", value: 2.2 },
+  { month: "Oct '26", value: 3.21 },
 ];
 
-/** Medical savings captured (USD millions), monthly — Nov '25 to Apr '26. */
+/** Estimate-review (repair cost) savings captured (USD millions), monthly — shown as "Repair Cost Savings"; identifiers keep their original names.
+ *  (was: Medical savings captured, USD millions), monthly — May '26 to Oct '26. */
 export const BASE_MEDICAL_SAVINGS_TREND: TrendPoint[] = [
-  { month: "Nov '25", value: 1.2 },
-  { month: "Dec '25", value: 1.4 },
-  { month: "Jan '26", value: 1.3 },
-  { month: "Feb '26", value: 1.6 },
-  { month: "Mar '26", value: 1.5 },
-  { month: "Apr '26", value: 1.8 },
+  { month: "May '26", value: 1.2 },
+  { month: "Jun '26", value: 1.4 },
+  { month: "Jul '26", value: 1.3 },
+  { month: "Aug '26", value: 1.6 },
+  { month: "Sep '26", value: 1.5 },
+  { month: "Oct '26", value: 1.8 },
 ];
 
-/** Indemnity savings captured (USD millions), monthly — Nov '25 to Apr '26. */
+/** Contents and loss-of-use savings captured (USD millions), monthly — shown as "Contents & ALE Savings".
+ *  (was: Indemnity savings captured, USD millions), monthly — May '26 to Oct '26. */
 export const BASE_INDEMNITY_SAVINGS_TREND: TrendPoint[] = [
-  { month: "Nov '25", value: 0.9 },
-  { month: "Dec '25", value: 1.3 },
-  { month: "Jan '26", value: 1.0 },
-  { month: "Feb '26", value: 1.5 },
-  { month: "Mar '26", value: 1.1 },
-  { month: "Apr '26", value: 1.4 },
+  { month: "May '26", value: 0.9 },
+  { month: "Jun '26", value: 1.3 },
+  { month: "Jul '26", value: 1.0 },
+  { month: "Aug '26", value: 1.5 },
+  { month: "Sep '26", value: 1.1 },
+  { month: "Oct '26", value: 1.4 },
 ];
 
 // ─── Savings by Service (FRD §6) ────────────────────────────────────────────
@@ -201,16 +203,16 @@ export interface VendorRow {
 }
 
 export const BASE_VENDORS: Omit<VendorRow, 'rank'>[] = [
-  { id: 'v1',  vendorName: 'MedReview Solutions',          overallScore: 92.4, slaCompliance: 96.3, cycleTimeDays: 7.1,  trendValue: 5.2, trendDirection: 'up' },
-  { id: 'v2',  vendorName: 'Care Network Partners',        overallScore: 89.7, slaCompliance: 94.8, cycleTimeDays: 12.3, trendValue: 3.1, trendDirection: 'up' },
-  { id: 'v3',  vendorName: 'PharmaMetrics',                overallScore: 88.9, slaCompliance: 93.6, cycleTimeDays: 8.4,  trendValue: 2.8, trendDirection: 'up' },
-  { id: 'v4',  vendorName: 'DME Care Services',            overallScore: 87.1, slaCompliance: 92.1, cycleTimeDays: 2.6,  trendValue: 1.4, trendDirection: 'down' },
-  { id: 'v5',  vendorName: 'NurseSupport 360',             overallScore: 86.3, slaCompliance: 93.0, cycleTimeDays: 14.2, trendValue: 1.9, trendDirection: 'up' },
-  { id: 'v6',  vendorName: 'Apex Diagnostics Group',       overallScore: 84.6, slaCompliance: 90.8, cycleTimeDays: 9.7,  trendValue: 0.8, trendDirection: 'up' },
-  { id: 'v7',  vendorName: 'Pinnacle Rehab Partners',      overallScore: 83.2, slaCompliance: 89.5, cycleTimeDays: 11.5, trendValue: 1.1, trendDirection: 'down' },
-  { id: 'v8',  vendorName: 'SwiftTransport Solutions',     overallScore: 81.5, slaCompliance: 88.2, cycleTimeDays: 5.3,  trendValue: 0.6, trendDirection: 'up' },
-  { id: 'v9',  vendorName: 'ClearPath Legal Services',     overallScore: 79.8, slaCompliance: 86.4, cycleTimeDays: 18.9, trendValue: 2.3, trendDirection: 'down' },
-  { id: 'v10', vendorName: 'VocWorks Vocational Services', overallScore: 78.1, slaCompliance: 85.0, cycleTimeDays: 16.2, trendValue: 0.4, trendDirection: 'up' },
+  { id: 'v1',  vendorName: 'Gulfshore Restoration Group',   overallScore: 92.4, slaCompliance: 96.3, cycleTimeDays: 2.1,  trendValue: 5.2, trendDirection: 'up' },
+  { id: 'v2',  vendorName: 'Palmetto Flood Adjusters',      overallScore: 89.7, slaCompliance: 94.8, cycleTimeDays: 4.3,  trendValue: 3.1, trendDirection: 'up' },
+  { id: 'v3',  vendorName: 'Coastal Claim Estimators',      overallScore: 88.9, slaCompliance: 93.6, cycleTimeDays: 3.4,  trendValue: 2.8, trendDirection: 'up' },
+  { id: 'v4',  vendorName: 'Sunstate Roofing Inspections',  overallScore: 87.1, slaCompliance: 92.1, cycleTimeDays: 2.6,  trendValue: 1.4, trendDirection: 'down' },
+  { id: 'v5',  vendorName: 'Everglades Cause & Origin',     overallScore: 86.3, slaCompliance: 93.0, cycleTimeDays: 6.2,  trendValue: 1.9, trendDirection: 'up' },
+  { id: 'v6',  vendorName: 'Bayfront Independent Adjusters', overallScore: 84.6, slaCompliance: 90.8, cycleTimeDays: 3.7,  trendValue: 0.8, trendDirection: 'up' },
+  { id: 'v7',  vendorName: 'Keystone Contents Services',    overallScore: 83.2, slaCompliance: 89.5, cycleTimeDays: 5.5,  trendValue: 1.1, trendDirection: 'down' },
+  { id: 'v8',  vendorName: 'Harbor Forensic Engineering',   overallScore: 81.5, slaCompliance: 88.2, cycleTimeDays: 8.3,  trendValue: 0.6, trendDirection: 'up' },
+  { id: 'v9',  vendorName: 'Tidewater Recovery Partners',   overallScore: 79.8, slaCompliance: 86.4, cycleTimeDays: 12.9, trendValue: 2.3, trendDirection: 'down' },
+  { id: 'v10', vendorName: 'Magnolia Coverage Counsel',     overallScore: 78.1, slaCompliance: 85.0, cycleTimeDays: 9.2,  trendValue: 0.4, trendDirection: 'up' },
 ];
 
 export const VENDOR_OPTIONS: string[] = BASE_VENDORS.map((v) => v.vendorName);
@@ -233,61 +235,62 @@ export function resolveSlaStatus(compliance: number): SlaStatus {
 }
 
 // ─── 15 Claims Services (shared — savings, SLA, filters) ───────────────────
+// Names match the service rules/providers seeded for the five property lines.
 
 export const SERVICE_OPTIONS: string[] = [
-  'Medical Bill Review',
-  'Network Optimization',
-  'Pharmacy Carve-Out',
-  'DME & Supplies',
-  'UR Management',
-  'Nurse Case Mgmt',
-  'Independent Medical Exam',
-  'Diagnostic Imaging',
-  'Physical Therapy',
-  'Transportation Services',
-  'Translation Services',
-  'Home Health Care',
-  'Vocational Rehabilitation',
-  'Surveillance Services',
-  'Legal & Litigation Support',
+  'Water Extraction & Mitigation',
+  'Independent Adjusting',
+  'Estimate & Invoice Review',
+  'Roof & Wind/Hail Inspection',
+  'Cause & Origin Investigation',
+  'Contents Valuation & Pack-out',
+  'NFIP Flood Adjusting',
+  'Forensic Engineering',
+  'Temporary Housing / ALE',
+  'Repair Network Referral',
+  'Appraisal & Public Adjuster Support',
+  'Loss of Rents Review',
+  'Desk Investigations (SIU)',
+  'Subrogation & Recovery',
+  'Legal & Coverage Counsel',
 ];
 
 /** Total savings (USD) per service for the base period. */
 export const BASE_SAVINGS_BY_SERVICE: Record<string, number> = {
-  'Medical Bill Review':        1.85e6,
-  'Network Optimization':       1.32e6,
-  'Pharmacy Carve-Out':         1.15e6,
-  'DME & Supplies':             0.98e6,
-  'UR Management':              0.76e6,
-  'Nurse Case Mgmt':            0.62e6,
-  'Independent Medical Exam':   0.54e6,
-  'Diagnostic Imaging':         0.48e6,
-  'Physical Therapy':           0.41e6,
-  'Transportation Services':    0.33e6,
-  'Translation Services':       0.27e6,
-  'Home Health Care':           0.24e6,
-  'Vocational Rehabilitation':  0.19e6,
-  'Surveillance Services':      0.15e6,
-  'Legal & Litigation Support': 0.11e6,
+  'Water Extraction & Mitigation': 1.85e6,
+  'Independent Adjusting': 1.32e6,
+  'Estimate & Invoice Review': 1.15e6,
+  'Roof & Wind/Hail Inspection': 0.98e6,
+  'Cause & Origin Investigation': 0.76e6,
+  'Contents Valuation & Pack-out': 0.62e6,
+  'NFIP Flood Adjusting': 0.54e6,
+  'Forensic Engineering': 0.48e6,
+  'Temporary Housing / ALE': 0.41e6,
+  'Repair Network Referral': 0.33e6,
+  'Appraisal & Public Adjuster Support': 0.27e6,
+  'Loss of Rents Review': 0.24e6,
+  'Desk Investigations (SIU)': 0.19e6,
+  'Subrogation & Recovery': 0.15e6,
+  'Legal & Coverage Counsel': 0.11e6,
 };
 
 /** SLA compliance % per service for the base period. */
 export const BASE_SLA_COMPLIANCE: Record<string, number> = {
-  'Medical Bill Review':        96.8,
-  'UR Management':               80.6,
-  'Network Optimization':        75.7,
-  'Nurse Case Mgmt':              50.9,
-  'Pharmacy Carve-Out':           40.2,
-  'DME & Supplies':               80.4,
-  'Independent Medical Exam':     70.7,
-  'Diagnostic Imaging':           75.3,
-  'Physical Therapy':             86.5,
-  'Transportation Services':      84.1,
-  'Translation Services':         40.6,
-  'Home Health Care':             30.8,
-  'Vocational Rehabilitation':    80.2,
-  'Surveillance Services':        90.5,
-  'Legal & Litigation Support':   65.9,
+  'Water Extraction & Mitigation': 96.8,
+  'Independent Adjusting': 75.7,
+  'Estimate & Invoice Review': 40.2,
+  'Roof & Wind/Hail Inspection': 80.4,
+  'Cause & Origin Investigation': 80.6,
+  'Contents Valuation & Pack-out': 50.9,
+  'NFIP Flood Adjusting': 70.7,
+  'Forensic Engineering': 75.3,
+  'Temporary Housing / ALE': 86.5,
+  'Repair Network Referral': 84.1,
+  'Appraisal & Public Adjuster Support': 40.6,
+  'Loss of Rents Review': 30.8,
+  'Desk Investigations (SIU)': 80.2,
+  'Subrogation & Recovery': 90.5,
+  'Legal & Coverage Counsel': 65.9,
 };
 
 // ─── Alerts & Exceptions (FRD §10) ──────────────────────────────────────────
@@ -318,8 +321,8 @@ export const SEVERITY_OPTIONS: { label: string; value: AlertSeverity }[] = [
 
 export const BASE_ALERTS: AlertItem[] = [
   { id: 'a1', severity: 'critical', title: 'SLA Breaches',                description: '12 services breached SLA',          count: 23 },
-  { id: 'a2', severity: 'high',     title: 'High Cycle Time',              description: '5 services exceeding benchmark',    count: 17 },
-  { id: 'a3', severity: 'warning',  title: 'Leakage Risk',                 description: '8 claims flagged for leakage',      count: 8 },
+  { id: 'a2', severity: 'high',     title: 'Statutory Deadline at Risk',   description: '17 claims near a Florida deadline', count: 17 },
+  { id: 'a3', severity: 'warning',  title: 'Proof of Loss Overdue',        description: '8 flood claims past 45 days',       count: 8 },
   { id: 'a4', severity: 'info',     title: 'Vendor Score Below Threshold', description: '3 vendors below score threshold',   count: 3 },
 ];
 
@@ -331,7 +334,7 @@ export interface AiInsight {
 }
 
 export const DEFAULT_AI_INSIGHT: AiInsight = {
-  insightText: 'DME delivery TAT is above SLA for Region West. Consider vendor rebalancing.',
+  insightText: 'Water extraction response time is above SLA in South Florida. Consider routing more claims to repair network contractors.',
   generatedAt: new Date().toISOString(),
 };
 
@@ -353,12 +356,6 @@ export const EMPTY_FILTERS: FilterState = {
   severity: [],
 };
 
-export const REGION_OPTIONS: string[] = ['West', 'East', 'Midwest', 'South', 'Northeast'];
+export const REGION_OPTIONS: string[] = ['South Florida', 'Central Florida', 'Tampa Bay', 'North Florida', 'Panhandle'];
 
-export const CLAIM_TYPE_OPTIONS: string[] = [
-  "Workers' Compensation",
-  'Auto Liability',
-  'General Liability',
-  'Property',
-  'Disability',
-];
+export const CLAIM_TYPE_OPTIONS: string[] = ['Homeowners', 'Renters', 'Landlord', 'Dwelling', 'Flood'];

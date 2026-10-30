@@ -51,13 +51,14 @@ const ServiceRequestRoleSchema = new Schema<IServiceRequestRole>({
   nlpCondition:        { type: String, default: '' },
   conditionExpression: { type: String, default: '' },
   nlpConditionInWords: { type: String, default: '' },
-  // A role can now serve multiple LOBs (e.g. a GL rule reused instead of
-  // duplicated per LOB). Excel bulk-upload has no LOB column, so it (and any
-  // pre-LOB record) stays WCM by default — see
-  // scripts/backfillServiceRequestRoleLOB.ts for the one-time backfill of
-  // records created before this field existed, and for the legacy
-  // single-string → array migration.
-  lineOfBusiness:      { type: [String], required: true, enum: LINE_OF_BUSINESS_OPTIONS, default: ['WCM'] },
+  // A role can serve several LOBs (e.g. Legal applies to all five). At least
+  // one LOB is required: there is no default, so a rule never silently picks
+  // up a line it was not configured for.
+  lineOfBusiness:      {
+    type: [String],
+    enum: LINE_OF_BUSINESS_OPTIONS,
+    validate: { validator: (v: string[]) => Array.isArray(v) && v.length > 0, message: 'At least one line of business is required.' },
+  },
 });
 
 // ─── Mongoose: Condition ──────────────────────────────────────────────────────
@@ -319,12 +320,11 @@ function fmt(d: Date | undefined | null): string {
 }
 
 /** Normalize a lean-read lineOfBusiness value to an array. Defends against
- *  legacy single-string records the startup migration (ensureServiceRequestRoleLOB)
- *  hasn't reached yet, in addition to the normal missing/empty cases. */
+ *  legacy single-string records, in addition to the normal missing/empty cases. */
 function toLOBArray(v: unknown): string[] {
   if (Array.isArray(v) && v.length) return v as string[];
   if (typeof v === 'string' && v) return [v];
-  return ['WCM'];
+  return [];
 }
 
 /** Convert camelCase field name to lowercase spaced alias for NLP matching.
@@ -396,8 +396,9 @@ export const serviceRequestRoleResolvers = {
           roleName:       r.roleName,
           description:    r.description ?? '',
           status:         r.status ?? 'Active',
-          // Excel bulk upload has no LOB column today — defaults to WCM.
-          lineOfBusiness: r.lineOfBusiness?.length ? r.lineOfBusiness : ['WCM'],
+          // Excel bulk upload has no LOB column: a role uploaded without one
+          // applies to all five lines until someone edits it.
+          lineOfBusiness: r.lineOfBusiness?.length ? r.lineOfBusiness : [...LINE_OF_BUSINESS_OPTIONS],
         }));
         await ServiceRequestRoleModel.insertMany(docs);
 
