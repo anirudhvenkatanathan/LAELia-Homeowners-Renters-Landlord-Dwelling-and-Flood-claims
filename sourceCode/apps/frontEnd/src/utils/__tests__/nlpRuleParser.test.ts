@@ -7,7 +7,7 @@ describe('buildFieldDictionary', () => {
   it('returns built-in mappings when no dynamic entries are provided', () => {
     const dict = buildFieldDictionary([]);
     expect(dict['claim amount']).toBe('claimAmount');
-    expect(dict['injury type']).toBe('injuryType');
+    expect(dict['cause of loss']).toBe('causeOfLoss');
   });
 
   it('merges dynamic DB entries over built-ins', () => {
@@ -58,25 +58,25 @@ describe('buildConditionExpression', () => {
 
   it('wraps text values in single quotes', () => {
     const result = buildConditionExpression([
-      { fieldName: 'injuryType', operator: 'contains', value: 'soft tissue', conditionType: 'AND' },
+      { fieldName: 'causeOfLoss', operator: 'contains', value: 'water damage', conditionType: 'AND' },
     ]);
-    expect(result).toBe("(injuryType CONTAINS 'soft tissue')");
+    expect(result).toBe("(causeOfLoss CONTAINS 'water damage')");
   });
 
   it('joins multiple conditions with their connector', () => {
     const result = buildConditionExpression([
       { fieldName: 'claimAmount', operator: '>', value: '10000', conditionType: 'AND' },
-      { fieldName: 'injuryType', operator: 'contains', value: 'soft tissue', conditionType: 'AND' },
+      { fieldName: 'causeOfLoss', operator: 'contains', value: 'water damage', conditionType: 'AND' },
     ]);
-    expect(result).toBe("(claimAmount > 10000) AND (injuryType CONTAINS 'soft tissue')");
+    expect(result).toBe("(claimAmount > 10000) AND (causeOfLoss CONTAINS 'water damage')");
   });
 
   it('uses OR connector correctly', () => {
     const result = buildConditionExpression([
       { fieldName: 'severityScore', operator: '>', value: '75', conditionType: 'OR' },
-      { fieldName: 'claimType', operator: '=', value: 'Medical', conditionType: 'AND' },
+      { fieldName: 'claimType', operator: '=', value: 'Homeowners', conditionType: 'AND' },
     ]);
-    expect(result).toBe("(severityScore > 75) OR (claimType = 'Medical')");
+    expect(result).toBe("(severityScore > 75) OR (claimType = 'Homeowners')");
   });
 
   it('uppercases operator symbols without change', () => {
@@ -96,10 +96,10 @@ describe('parseNlpRule – basic matching', () => {
     expect(result[0]).toMatchObject({ fieldName: 'claimAmount', operator: '>', value: '10000' });
   });
 
-  it('parses "injury type contains soft tissue"', () => {
-    const result = parseNlpRule('injury type contains soft tissue');
+  it('parses "cause of loss contains water damage"', () => {
+    const result = parseNlpRule('cause of loss contains water damage');
     expect(result).toHaveLength(1);
-    expect(result[0]).toMatchObject({ fieldName: 'injuryType', operator: 'contains', value: 'soft tissue' });
+    expect(result[0]).toMatchObject({ fieldName: 'causeOfLoss', operator: 'contains', value: 'water damage' });
   });
 
   it('parses "severity score less than 50"', () => {
@@ -107,9 +107,9 @@ describe('parseNlpRule – basic matching', () => {
     expect(result[0]).toMatchObject({ fieldName: 'severityScore', operator: '<', value: '50' });
   });
 
-  it('parses "claim type equals Medical" preserving value casing', () => {
-    const result = parseNlpRule('claim type equals Medical');
-    expect(result[0]).toMatchObject({ fieldName: 'claimType', operator: '=', value: 'Medical' });
+  it('parses "claim type equals Homeowners" preserving value casing', () => {
+    const result = parseNlpRule('claim type equals Homeowners');
+    expect(result[0]).toMatchObject({ fieldName: 'claimType', operator: '=', value: 'Homeowners' });
   });
 });
 
@@ -145,26 +145,26 @@ describe('parseNlpRule – filler word stripping', () => {
 describe('parseNlpRule – compound conditions', () => {
   it('parses two AND conditions', () => {
     const result = parseNlpRule(
-      'claim amount greater than 10000 and injury type contains soft tissue',
+      'claim amount greater than 10000 and cause of loss contains water damage',
     );
     expect(result).toHaveLength(2);
     expect(result[0]).toMatchObject({ fieldName: 'claimAmount', operator: '>', value: '10000', conditionType: 'AND' });
-    expect(result[1]).toMatchObject({ fieldName: 'injuryType', operator: 'contains', value: 'soft tissue', conditionType: 'AND' });
+    expect(result[1]).toMatchObject({ fieldName: 'causeOfLoss', operator: 'contains', value: 'water damage', conditionType: 'AND' });
   });
 
   it('parses OR conditions', () => {
     const result = parseNlpRule(
-      'severity score greater than 75 or claim type equals Medical',
+      'severity score greater than 75 or claim type equals Homeowners',
     );
     expect(result).toHaveLength(2);
     expect(result[0].conditionType).toBe('OR');
     expect(result[1].fieldName).toBe('claimType');
-    expect(result[1].value).toBe('Medical');
+    expect(result[1].value).toBe('Homeowners');
   });
 
   it('parses mixed AND/OR', () => {
     const result = parseNlpRule(
-      'claim amount greater than 1000 and injury type contains soft tissue or claim type equals Medical',
+      'claim amount greater than 1000 and cause of loss contains water damage or claim type equals Homeowners',
     );
     expect(result).toHaveLength(3);
     expect(result[0].conditionType).toBe('AND');
@@ -179,7 +179,7 @@ describe('parseNlpRule – compound conditions', () => {
 
   it('all-OR chain: every condition gets conditionType OR', () => {
     const result = parseNlpRule(
-      'claim amount greater than 1000 or severity score less than 50 or claim type equals Medical',
+      'claim amount greater than 1000 or severity score less than 50 or claim type equals Homeowners',
     );
     expect(result).toHaveLength(3);
     expect(result[0].conditionType).toBe('OR');
@@ -324,13 +324,13 @@ describe('parseNlpRule – symbolic operators', () => {
 
 describe('parseNlpRule – operator variations', () => {
   it('handles "equal to"', () => {
-    const r = parseNlpRule('claim type equal to Medical');
-    expect(r[0]).toMatchObject({ operator: '=', value: 'Medical' });
+    const r = parseNlpRule('claim type equal to Homeowners');
+    expect(r[0]).toMatchObject({ operator: '=', value: 'Homeowners' });
   });
 
   it('handles "not equal to"', () => {
-    const r = parseNlpRule('claim type not equal to Medical');
-    expect(r[0]).toMatchObject({ operator: '!=', value: 'Medical' });
+    const r = parseNlpRule('claim type not equal to Homeowners');
+    expect(r[0]).toMatchObject({ operator: '!=', value: 'Homeowners' });
   });
 
   it('handles "greater than or equal to"', () => {
@@ -339,12 +339,12 @@ describe('parseNlpRule – operator variations', () => {
   });
 
   it('handles "starts with"', () => {
-    const r = parseNlpRule('injury type starts with soft');
+    const r = parseNlpRule('cause of loss starts with soft');
     expect(r[0]).toMatchObject({ operator: 'starts_with', value: 'soft' });
   });
 
   it('handles "ends with"', () => {
-    const r = parseNlpRule('injury type ends with tissue');
+    const r = parseNlpRule('cause of loss ends with tissue');
     expect(r[0]).toMatchObject({ operator: 'ends_with', value: 'tissue' });
   });
 });
@@ -442,8 +442,8 @@ describe('parseNlpRule – compromise fallback (operator synonyms + number norma
   });
 
   it('preserves text values unchanged (no number normalisation)', () => {
-    const r = parseNlpRule('injury type includes soft tissue');
-    expect(r[0]).toMatchObject({ fieldName: 'injuryType', operator: 'contains', value: 'soft tissue' });
+    const r = parseNlpRule('cause of loss includes water damage');
+    expect(r[0]).toMatchObject({ fieldName: 'causeOfLoss', operator: 'contains', value: 'water damage' });
   });
 
   it('mixes primary-parsed and compromise-fallback clauses in one statement', () => {
@@ -470,16 +470,16 @@ describe('round-trip: parseNlpRule → buildConditionExpression', () => {
 
   it('Example 2: compound AND', () => {
     const expr = buildConditionExpression(
-      parseNlpRule('Claim amount greater than 10000 and injury type contains soft tissue'),
+      parseNlpRule('Claim amount greater than 10000 and cause of loss contains water damage'),
     );
-    expect(expr).toBe("(claimAmount > 10000) AND (injuryType CONTAINS 'soft tissue')");
+    expect(expr).toBe("(claimAmount > 10000) AND (causeOfLoss CONTAINS 'water damage')");
   });
 
   it('Example 3: compound OR with text value casing preserved', () => {
     const expr = buildConditionExpression(
-      parseNlpRule('Severity score greater than 75 or claim type equals Medical'),
+      parseNlpRule('Severity score greater than 75 or claim type equals Homeowners'),
     );
-    expect(expr).toBe("(severityScore > 75) OR (claimType = 'Medical')");
+    expect(expr).toBe("(severityScore > 75) OR (claimType = 'Homeowners')");
   });
 
   it('returns empty string for unparseable input', () => {
@@ -514,7 +514,7 @@ describe('parseConditionExpression', () => {
   });
 
   it('strips surrounding quotes from text values', () => {
-    const result = parseConditionExpression("(injuryType CONTAINS 'soft tissue')");
-    expect(result[0].value).toBe('soft tissue');
+    const result = parseConditionExpression("(causeOfLoss CONTAINS 'water damage')");
+    expect(result[0].value).toBe('water damage');
   });
 });

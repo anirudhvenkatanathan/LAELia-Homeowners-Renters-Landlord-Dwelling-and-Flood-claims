@@ -1,15 +1,15 @@
 // ISO ClaimSearch mock data — a claim can carry 1 or 2 flags (stacked, most
 // significant first), each built from the claim's own real fields
-// (claimNumber, insuredName, injuryType, bodyParts, jurisdiction,
-// policyNumber, lossDate, claimStatus, employerName, treatingProvider,
-// vendorServices) wherever they're populated, falling back to deterministic
-// generated values only where the real claim record has nothing for that
-// field. Every match record refers only to THIS claim's own insured — no
-// other/fictional claimant names are ever introduced, so "Claimant" always
-// reads the same as the claim's real Insured Name. Injury fallback reuses
-// claimSummaryMockData's own resolved injury for this claim number, so the
+// (claimNumber, insuredName, causeOfLoss, damagedAreas, jurisdiction,
+// policyNumber, lossDate, claimStatus, propertyAddress, assignedAdjuster,
+// contractorName, vendorServices) wherever they're populated, falling back to
+// deterministic generated values only where the real claim record has nothing
+// for that field. Every match record refers only to THIS claim's own insured —
+// no other/fictional insured names are ever introduced, so "Insured" always
+// reads the same as the claim's real Insured Name. The loss fallback reuses
+// claimSummaryMockData's own resolved loss for this claim number, so the
 // Q-AI "Claims Summary" section and this ISO section never disagree about
-// what the claim's injury is. Not a live ISO ClaimSearch lookup — mock data
+// what the claim's loss is. Not a live ISO ClaimSearch lookup — mock data
 // for demo purposes, clearly labeled as such in the UI.
 //
 // Assignment is randomized once per browser/device — not hardcoded forever
@@ -23,11 +23,11 @@ import { getClaimSummaryData } from './claimSummaryMockData';
 
 export type IsoFlagType =
   | 'PriorClaimsHistory'
-  | 'SharedLegalRepresentation'
-  | 'EmployerClaimClustering'
-  | 'EmployerFrequencySpike'
-  | 'CrossJurisdictionMatch'
-  | 'TreatingProviderUtilizationOutlier'
+  | 'SharedRepresentation'
+  | 'PropertyClaimClustering'
+  | 'PropertyFrequencySpike'
+  | 'CrossCarrierMatch'
+  | 'ContractorUtilizationOutlier'
   | 'ClaimFrequency';
 
 export interface IsoMatchField { label: string; value: string; }
@@ -70,31 +70,31 @@ export interface IsoClaimSearchData {
 const FLAG_META: Record<IsoFlagType, { heading: string; description: string }> = {
   PriorClaimsHistory: {
     heading: 'PRIOR CLAIMS HISTORY',
-    description: 'Prior claim for the same body part under a different employer — may be pre-existing or aggravated, not a new injury.',
+    description: 'Prior claim for the same cause of loss and area at this property — may be pre-existing or previously paid damage, not a new loss.',
   },
-  SharedLegalRepresentation: {
-    heading: 'SHARED LEGAL REPRESENTATION',
-    description: 'Same attorney representing this claimant on a separate, similar-injury claim filed close together — possible coordinated activity.',
+  SharedRepresentation: {
+    heading: 'SHARED REPRESENTATION',
+    description: 'Same public adjuster or attorney representing this insured on a separate, similar claim filed close together — possible coordinated activity.',
   },
-  EmployerClaimClustering: {
-    heading: 'EMPLOYER CLAIM CLUSTERING',
-    description: 'Another claim from this claimant at the same employer, same legal representation, within a short timeframe.',
+  PropertyClaimClustering: {
+    heading: 'PROPERTY CLAIM CLUSTERING',
+    description: 'Another claim at the same property address with the same representation, filed within a short timeframe.',
   },
-  EmployerFrequencySpike: {
-    heading: 'EMPLOYER FREQUENCY SPIKE',
-    description: 'Multiple claims from this claimant at the same employer within one policy term — a frequency pattern worth reviewing.',
+  PropertyFrequencySpike: {
+    heading: 'PROPERTY FREQUENCY SPIKE',
+    description: 'Multiple claims at the same property within one policy term — a frequency pattern worth reviewing.',
   },
-  CrossJurisdictionMatch: {
-    heading: 'CROSS-JURISDICTION MATCH',
-    description: "Another active workers' comp claim exists in a different state under another employer — review to prevent overlapping indemnity.",
+  CrossCarrierMatch: {
+    heading: 'CROSS-CARRIER MATCH',
+    description: 'Another open claim exists for the same property and loss date with a different carrier — review to prevent duplicate payment.',
   },
-  TreatingProviderUtilizationOutlier: {
-    heading: 'TREATING PROVIDER UTILIZATION OUTLIER',
-    description: "Treating provider has this claimant on multiple claims, with treatment durations well above regional averages.",
+  ContractorUtilizationOutlier: {
+    heading: 'CONTRACTOR UTILIZATION OUTLIER',
+    description: 'Contractor appears on multiple claims with estimates and repair durations well above regional averages.',
   },
   ClaimFrequency: {
     heading: 'CLAIM FREQUENCY',
-    description: "Claimant has filed more workers' comp claims than occupational peers over a comparable period — raises overall risk profile.",
+    description: 'Insured has filed more property claims than peers over a comparable period — raises overall risk profile.',
   },
 };
 
@@ -121,26 +121,29 @@ function daysAgo(n: number): string {
   return d.toISOString().slice(0, 10);
 }
 
-const FALLBACK_EMPLOYERS = [
-  'Redwood Freight Systems', 'Harbor View Logistics', 'Granite Peak Construction',
-  'Silverline Manufacturing', 'Coastal Produce Distributors', 'Ironclad Warehousing Co.',
+const FALLBACK_ADDRESSES = [
+  '1420 Palmetto Ave, Tampa, FL', '88 Seabreeze Dr, Naples, FL', '305 Coral Way, Miami, FL',
+  '2210 Magnolia Ln, Jacksonville, FL', '47 Heron Cove, Sarasota, FL', '915 Sawgrass Ct, Orlando, FL',
 ];
-const FALLBACK_STATES = [
-  { code: 'TX', name: 'Texas' }, { code: 'FL', name: 'Florida' }, { code: 'GA', name: 'Georgia' },
-  { code: 'AZ', name: 'Arizona' }, { code: 'NC', name: 'North Carolina' }, { code: 'OH', name: 'Ohio' },
+const POLICY_FORMS = [
+  { code: 'HO3', label: 'Homeowners (HO3)' }, { code: 'HO5', label: 'Homeowners (HO5)' },
+  { code: 'HO6', label: 'Condo (HO6)' }, { code: 'HO4', label: 'Renters (HO4)' },
+  { code: 'DF3', label: 'Dwelling Fire (DF3)' }, { code: 'SFIP', label: 'Flood (SFIP)' },
 ];
 const INSURING_COMPANIES = [
-  'Meridian Casualty Group', 'Continental Indemnity Co.', 'Heartland Mutual Insurance',
-  'Pinnacle Casualty Group', 'Union Surety & Casualty', 'Bayview Underwriters',
+  'Palmetto Shield Insurance', 'Gulfstream Mutual', 'Sunshine State Underwriters',
+  'Bayview Underwriters', 'Atlantic Coast Casualty', 'Everglades Indemnity Co.',
 ];
 const ADJUSTERS = [
   'Delgado, Marisol', 'Chen, Kevin', 'Whitfield, Renee', 'Brooks, Tamika', 'Alvarez, Diego', 'Nakamura, Sarah',
 ];
-const ATTORNEYS = [
-  'Marcus Feld, Esq. — Feld & Grayson LLP', 'Lisa Tran, Esq. — Tran Injury Law',
-  'Robert Halloway, Esq. — Halloway & Associates', 'Denise Whitmore, Esq. — Whitmore Legal Group',
+const REPRESENTATIVES = [
+  'Gulf Coast Claims Advocates (public adjuster)', 'Sunrise Public Adjusting (public adjuster)',
+  'Halloway & Associates, Attorneys at Law', 'Whitmore Legal Group, Attorneys at Law',
 ];
-const PROVIDER_SURNAMES = ['Bennett', 'Alvarez', 'Whitfield', 'Nakamura', 'Sorensen', 'Delgado', 'Okafor', 'Marsh'];
+const CONTRACTORS = [
+  'Palm Coast Restoration', 'Bayshore Roofing & Exteriors', 'Sunstate Water Mitigation', 'Keystone Builders of Florida',
+];
 
 function policyPeriod(lossDateIso: string): string {
   const d = lossDateIso ? new Date(lossDateIso) : new Date();
@@ -149,26 +152,35 @@ function policyPeriod(lossDateIso: string): string {
   return `${start.toISOString().slice(0, 7)}-01 – ${end.toISOString().slice(0, 7)}-01`;
 }
 
-// Resolves this claim's injury/body part from the exact same source
-// claimSummaryMockData.ts uses (real record fields when present, otherwise
-// its hashed mock pick) — never an independently-generated value, so the
-// Claims Summary section and this panel always agree.
-interface ResolvedInjury { alleged: string; bodyPart: string; }
-function resolveInjury(r: IndividualClaimRecord): ResolvedInjury {
-  const summary = getClaimSummaryData(r.claimNumber ?? '', r.insuredName, r.injuryType, r.bodyParts);
-  return {
-    alleged:  summary.injury.label,
-    bodyPart: summary.injury.bodyPart,
-  };
+function policyLabel(h: number, salt: number, base: number): string {
+  const f = pick(POLICY_FORMS, h, salt);
+  return `FL${f.code}-${String(base + (h % 100000)).slice(0, 6)} · ${f.label}`;
+}
+
+// Resolves this claim's cause of loss / damaged area from the exact same
+// source claimSummaryMockData.ts uses (real record fields when present,
+// otherwise its hashed mock pick) — never an independently-generated value, so
+// the Claims Summary section and this panel always agree.
+interface ResolvedLoss { cause: string; area: string; }
+function resolveLoss(r: IndividualClaimRecord): ResolvedLoss {
+  const summary = getClaimSummaryData(r.claimNumber ?? '', r.insuredName, r.causeOfLoss, r.damagedAreas);
+  return { cause: summary.loss.label, area: summary.loss.area };
 }
 
 // ─── Per-flag builders — every match refers only to this claim's own insured ──
-// Each returns one IsoFlagCard; claimant/current-claim fields are assembled
+// Each returns one IsoFlagCard; insured/current-claim fields are assembled
 // once at the top level (getIsoClaimSearchData), not duplicated per card.
 
-function buildPriorClaimsHistory(r: IndividualClaimRecord, h: number, inj: ResolvedInjury): IsoFlagCard {
-  const claimant = r.insuredName?.trim() || 'The claimant';
-  const priorEmployer = pick(FALLBACK_EMPLOYERS, h, 13);
+function lossFields(loss: ResolvedLoss): IsoMatchField[] {
+  return [
+    { label: 'Cause of Loss', value: loss.cause },
+    { label: 'Damaged Area',  value: loss.area },
+  ];
+}
+
+function buildPriorClaimsHistory(r: IndividualClaimRecord, h: number, loss: ResolvedLoss): IsoFlagCard {
+  const insured = r.insuredName?.trim() || 'The insured';
+  const address = r.propertyAddress?.trim() || pick(FALLBACK_ADDRESSES, h, 13);
   const monthsAgo = 12 + (h % 12);
   const priorDol = daysAgo(monthsAgo * 30 + 20);
 
@@ -180,209 +192,197 @@ function buildPriorClaimsHistory(r: IndividualClaimRecord, h: number, inj: Resol
         { label: 'Date of Loss',          value: priorDol },
         { label: 'Claim Number',          value: `BIN${String(100000 + (h % 900000))}` },
         { label: 'Insuring Company',      value: pick(INSURING_COMPANIES, h, 9) },
-        { label: 'Policy Number / Type',  value: `${pick(FALLBACK_STATES, h, 2).code}WC${String(100000 + (h % 900000)).slice(0, 6)} · Workers Compensation` },
+        { label: 'Policy Number / Type',  value: policyLabel(h, 2, 100000) },
         { label: 'Policy Period',         value: policyPeriod(priorDol) },
         { label: 'Claim Status',          value: 'CLOSED' },
-        { label: 'Coverage / Loss Type',  value: 'Indemnity / Medical' },
-        { label: 'Alleged Injury',        value: inj.alleged },
-        { label: 'Part of Body',          value: inj.bodyPart },
-        { label: 'Employer',              value: priorEmployer },
+        { label: 'Coverage / Loss Type',  value: 'Dwelling / Contents' },
+        ...lossFields(loss),
+        { label: 'Property Address',      value: address },
         { label: 'Adjuster',              value: pick(ADJUSTERS, h, 15) },
-        { label: 'Matched On',            value: 'Name, SSN' },
+        { label: 'Matched On',            value: 'Name, Property Address' },
       ],
     }],
     flagHeading: FLAG_META.PriorClaimsHistory.heading,
     flagDescription: FLAG_META.PriorClaimsHistory.description,
     claimSpecificInsight:
-      `${claimant} has a prior closed claim for the same body part (${inj.bodyPart.toLowerCase()}) under ${priorEmployer}, `
-      + `filed ~${monthsAgo} months earlier — current claim: ${inj.alleged.toLowerCase()}, ${r.claimStatus?.trim() || 'open'}.`,
+      `${insured} has a prior closed claim for the same area (${loss.area.toLowerCase()}) at ${address}, `
+      + `filed ~${monthsAgo} months earlier — current claim: ${loss.cause.toLowerCase()}, ${r.claimStatus?.trim() || 'open'}.`,
   };
 }
 
-function buildSharedLegalRepresentation(r: IndividualClaimRecord, h: number, inj: ResolvedInjury): IsoFlagCard {
-  const claimant = r.insuredName?.trim() || 'The claimant';
-  const attorney = pick(ATTORNEYS, h, 11);
-  const legalVendor = r.vendorServices?.find(v => /legal/i.test(v));
-  const attorneyLine = legalVendor ? `${attorney} (via ${legalVendor})` : attorney;
-  const priorEmployer = pick(FALLBACK_EMPLOYERS, h, 6);
+function buildSharedRepresentation(r: IndividualClaimRecord, h: number, loss: ResolvedLoss): IsoFlagCard {
+  const insured = r.insuredName?.trim() || 'The insured';
+  const rep = pick(REPRESENTATIVES, h, 11);
+  const legalVendor = r.vendorServices?.find(v => /legal|public adjuster/i.test(v));
+  const repLine = legalVendor ? `${rep} (via ${legalVendor})` : rep;
+  const address = pick(FALLBACK_ADDRESSES, h, 6);
   const daysApart = 14 + (h % 15);
 
   return {
-    flagType: 'SharedLegalRepresentation',
+    flagType: 'SharedRepresentation',
     matches: [{
       isoFileNumber: isoFileNumber(h, 4),
       fields: [
         { label: 'Date of Loss',          value: daysAgo(daysApart) },
         { label: 'Claim Number',          value: `BIN${String(150000 + (h % 850000))}` },
-        { label: 'Attorney',              value: attorneyLine },
+        { label: 'Representative',        value: repLine },
         { label: 'Insuring Company',      value: pick(INSURING_COMPANIES, h, 17) },
-        { label: 'Policy Number / Type',  value: `${pick(FALLBACK_STATES, h, 6).code}WC${String(150000 + (h % 850000)).slice(0, 6)} · Workers Compensation` },
+        { label: 'Policy Number / Type',  value: policyLabel(h, 6, 150000) },
         { label: 'Policy Period',         value: policyPeriod(daysAgo(daysApart)) },
         { label: 'Claim Status',          value: 'OPEN' },
-        { label: 'Coverage / Loss Type',  value: 'Indemnity / Medical' },
-        { label: 'Employer',              value: priorEmployer },
-        { label: 'Alleged Injury',        value: inj.alleged },
-        { label: 'Part of Body',          value: inj.bodyPart },
+        { label: 'Coverage / Loss Type',  value: 'Dwelling / Contents' },
+        { label: 'Property Address',      value: address },
+        ...lossFields(loss),
         { label: 'Adjuster',              value: pick(ADJUSTERS, h, 19) },
-        { label: 'Matched On',            value: 'Attorney of Record' },
+        { label: 'Matched On',            value: 'Representative of Record' },
       ],
     }],
-    flagHeading: FLAG_META.SharedLegalRepresentation.heading,
-    flagDescription: FLAG_META.SharedLegalRepresentation.description,
+    flagHeading: FLAG_META.SharedRepresentation.heading,
+    flagDescription: FLAG_META.SharedRepresentation.description,
     claimSpecificInsight:
-      `${attorneyLine} also represents ${claimant} on a separate ${inj.alleged.toLowerCase()} claim at ${priorEmployer}, filed within ${daysApart} days of this claim.`,
+      `${repLine} also represents ${insured} on a separate ${loss.cause.toLowerCase()} claim at ${address}, filed within ${daysApart} days of this claim.`,
   };
 }
 
-function buildEmployerClaimClustering(r: IndividualClaimRecord, h: number, inj: ResolvedInjury): IsoFlagCard {
-  const claimant = r.insuredName?.trim() || 'The claimant';
-  const employer = r.employerName?.trim() || pick(FALLBACK_EMPLOYERS, h, 4);
-  const attorney = pick(ATTORNEYS, h, 12);
+function buildPropertyClaimClustering(r: IndividualClaimRecord, h: number, loss: ResolvedLoss): IsoFlagCard {
+  const insured = r.insuredName?.trim() || 'The insured';
+  const address = r.propertyAddress?.trim() || pick(FALLBACK_ADDRESSES, h, 4);
+  const rep = pick(REPRESENTATIVES, h, 12);
   const d1 = daysAgo(9 + (h % 8));
 
   return {
-    flagType: 'EmployerClaimClustering',
+    flagType: 'PropertyClaimClustering',
     matches: [{
       isoFileNumber: isoFileNumber(h, 5),
       fields: [
         { label: 'Date of Loss',          value: d1 },
         { label: 'Claim Number',          value: `BIN${String(160000 + (h % 840000))}` },
-        { label: 'Employer',              value: employer },
-        { label: 'Attorney',              value: attorney },
+        { label: 'Property Address',      value: address },
+        { label: 'Representative',        value: rep },
         { label: 'Insuring Company',      value: pick(INSURING_COMPANIES, h, 21) },
-        { label: 'Policy Number / Type',  value: `${pick(FALLBACK_STATES, h, 8).code}WC${String(160000 + (h % 840000)).slice(0, 6)} · Workers Compensation` },
+        { label: 'Policy Number / Type',  value: policyLabel(h, 8, 160000) },
         { label: 'Policy Period',         value: policyPeriod(d1) },
         { label: 'Claim Status',          value: 'OPEN' },
-        { label: 'Coverage / Loss Type',  value: 'Indemnity / Medical' },
-        { label: 'Alleged Injury',        value: inj.alleged },
-        { label: 'Part of Body',          value: inj.bodyPart },
+        { label: 'Coverage / Loss Type',  value: 'Dwelling / Contents' },
+        ...lossFields(loss),
         { label: 'Adjuster',              value: pick(ADJUSTERS, h, 23) },
-        { label: 'Matched On',            value: 'Employer + Attorney of Record' },
+        { label: 'Matched On',            value: 'Property Address + Representative of Record' },
       ],
     }],
-    flagHeading: FLAG_META.EmployerClaimClustering.heading,
-    flagDescription: FLAG_META.EmployerClaimClustering.description,
+    flagHeading: FLAG_META.PropertyClaimClustering.heading,
+    flagDescription: FLAG_META.PropertyClaimClustering.description,
     claimSpecificInsight:
-      `${claimant} has another claim at ${employer} with the same attorney (${attorney}), filed within weeks of this ${inj.alleged.toLowerCase()} claim.`,
+      `${insured} has another claim at ${address} with the same representative (${rep}), filed within weeks of this ${loss.cause.toLowerCase()} claim.`,
   };
 }
 
-function buildEmployerFrequencySpike(r: IndividualClaimRecord, h: number, inj: ResolvedInjury): IsoFlagCard {
-  const claimant = r.insuredName?.trim() || 'The claimant';
-  const employer = r.employerName?.trim() || pick(FALLBACK_EMPLOYERS, h, 8);
+function buildPropertyFrequencySpike(r: IndividualClaimRecord, h: number, loss: ResolvedLoss): IsoFlagCard {
+  const insured = r.insuredName?.trim() || 'The insured';
+  const address = r.propertyAddress?.trim() || pick(FALLBACK_ADDRESSES, h, 8);
   const period = policyPeriod(r.lossDate || daysAgo(30));
 
   return {
-    flagType: 'EmployerFrequencySpike',
+    flagType: 'PropertyFrequencySpike',
     matches: [
       { isoFileNumber: isoFileNumber(h, 14), fields: [
         { label: 'Date of Loss', value: daysAgo(11 + (h % 6)) },
         { label: 'Claim Number', value: `BIN${String(170000 + (h % 830000))}` },
-        { label: 'Employer', value: employer },
+        { label: 'Property Address', value: address },
         { label: 'Insuring Company', value: pick(INSURING_COMPANIES, h, 27) },
         { label: 'Policy Period', value: period },
         { label: 'Claim Status', value: 'OPEN' },
-        { label: 'Alleged Injury', value: inj.alleged },
-        { label: 'Part of Body', value: inj.bodyPart },
+        ...lossFields(loss),
         { label: 'Adjuster', value: pick(ADJUSTERS, h, 29) },
       ] },
       { isoFileNumber: isoFileNumber(h, 16), fields: [
-        // Employer Frequency Spike's own premise is claims clustering in a
-        // short window — deliberately landing this one on the exact same
-        // date of loss as the current claim (when it has a real one) is a
-        // realistic, stronger version of that pattern (e.g. one incident
-        // affecting multiple employees), not just "close together".
+        // The frequency spike's own premise is claims clustering in a short
+        // window — deliberately landing this one on the exact same date of
+        // loss as the current claim (when it has a real one) is a realistic,
+        // stronger version of that pattern (e.g. one storm affecting several
+        // structures on the property), not just "close together".
         { label: 'Date of Loss', value: r.lossDate?.trim() || daysAgo(24 + (h % 6)) },
         { label: 'Claim Number', value: `BIN${String(180000 + (h % 820000))}` },
-        { label: 'Employer', value: employer },
+        { label: 'Property Address', value: address },
         { label: 'Insuring Company', value: pick(INSURING_COMPANIES, h, 31) },
         { label: 'Policy Period', value: period },
         { label: 'Claim Status', value: 'CLOSED' },
-        { label: 'Alleged Injury', value: inj.alleged },
-        { label: 'Part of Body', value: inj.bodyPart },
+        ...lossFields(loss),
         { label: 'Adjuster', value: pick(ADJUSTERS, h, 33) },
       ] },
     ],
-    flagHeading: FLAG_META.EmployerFrequencySpike.heading,
-    flagDescription: FLAG_META.EmployerFrequencySpike.description,
+    flagHeading: FLAG_META.PropertyFrequencySpike.heading,
+    flagDescription: FLAG_META.PropertyFrequencySpike.description,
     claimSpecificInsight:
-      `${claimant} has 2 other matched claims at ${employer} within the same policy term as this ${inj.alleged.toLowerCase()} claim.`,
+      `${insured} has 2 other matched claims at ${address} within the same policy term as this ${loss.cause.toLowerCase()} claim.`,
   };
 }
 
-function buildCrossJurisdictionMatch(r: IndividualClaimRecord, h: number, inj: ResolvedInjury): IsoFlagCard {
-  const claimant = r.insuredName?.trim() || 'The claimant';
-  const homeState = r.jurisdiction?.trim() || pick(FALLBACK_STATES, h, 2).name;
-  const homeEmployer = r.employerName?.trim() || '';
-  const otherState = pick(FALLBACK_STATES, h, 27);
-  const employer = pick(FALLBACK_EMPLOYERS, h, 9);
-  const dol = daysAgo(18 + (h % 20));
+function buildCrossCarrierMatch(r: IndividualClaimRecord, h: number, loss: ResolvedLoss): IsoFlagCard {
+  const insured = r.insuredName?.trim() || 'The insured';
+  const address = r.propertyAddress?.trim() || pick(FALLBACK_ADDRESSES, h, 9);
+  const otherCarrier = pick(INSURING_COMPANIES, h, 25);
+  const dol = r.lossDate?.trim() || daysAgo(18 + (h % 20));
 
   return {
-    flagType: 'CrossJurisdictionMatch',
+    flagType: 'CrossCarrierMatch',
     matches: [{
       isoFileNumber: isoFileNumber(h, 21),
       fields: [
         { label: 'Date of Loss',          value: dol },
         { label: 'Claim Number',          value: `BIN${String(200000 + (h % 700000))}` },
-        { label: 'State',                 value: `${otherState.name} (${otherState.code})` },
-        { label: 'Employer',              value: employer },
-        { label: 'Insuring Company',      value: pick(INSURING_COMPANIES, h, 25) },
-        { label: 'Policy Number / Type',  value: `${otherState.code}WC${String(200000 + (h % 700000)).slice(0, 6)} · Workers Compensation` },
+        { label: 'Insuring Company',      value: otherCarrier },
+        { label: 'Policy Number / Type',  value: policyLabel(h, 14, 200000) },
         { label: 'Policy Period',         value: policyPeriod(dol) },
-        { label: 'Coverage / Loss Type',  value: 'Indemnity / Medical' },
-        { label: 'Claim Status',          value: 'OPEN — Active Indemnity' },
-        { label: 'Alleged Injury',        value: inj.alleged },
-        { label: 'Part of Body',          value: inj.bodyPart },
+        { label: 'Coverage / Loss Type',  value: 'Dwelling / Contents' },
+        { label: 'Claim Status',          value: 'OPEN — Active Payment' },
+        { label: 'Property Address',      value: address },
+        ...lossFields(loss),
         { label: 'Adjuster',              value: pick(ADJUSTERS, h, 37) },
-        { label: 'Matched On',            value: 'Name, DOB' },
+        { label: 'Matched On',            value: 'Name, Property Address, Date of Loss' },
       ],
     }],
-    flagHeading: FLAG_META.CrossJurisdictionMatch.heading,
-    flagDescription: FLAG_META.CrossJurisdictionMatch.description,
+    flagHeading: FLAG_META.CrossCarrierMatch.heading,
+    flagDescription: FLAG_META.CrossCarrierMatch.description,
     claimSpecificInsight:
-      `${claimant} has an active indemnity claim in ${otherState.name} under ${employer} — different employer and state than `
-      + `this ${homeState} ${inj.alleged.toLowerCase()} claim` + (homeEmployer ? ` at ${homeEmployer}.` : '.'),
+      `${insured} has an open ${loss.cause.toLowerCase()} claim with ${otherCarrier} for ${address} on the same loss date as this claim — verify no duplicate payment.`,
   };
 }
 
-function buildTreatingProviderUtilizationOutlier(r: IndividualClaimRecord, h: number, inj: ResolvedInjury): IsoFlagCard {
-  const claimant = r.insuredName?.trim() || 'The claimant';
-  const provider = r.treatingProvider?.trim() || `Dr. ${pick(PROVIDER_SURNAMES, h, 43)}`;
-  const facility = r.medicalFacility?.trim() || 'Regional Occupational Health Clinic';
-  const employer = r.employerName?.trim() || pick(FALLBACK_EMPLOYERS, h, 45);
-  const avgWeeks = 6 + (h % 4);
+function buildContractorUtilizationOutlier(r: IndividualClaimRecord, h: number, loss: ResolvedLoss): IsoFlagCard {
+  const insured = r.insuredName?.trim() || 'The insured';
+  const contractor = r.contractorName?.trim() || pick(CONTRACTORS, h, 43);
+  const address = r.propertyAddress?.trim() || pick(FALLBACK_ADDRESSES, h, 45);
+  const avgWeeks = 4 + (h % 4);
   const dol = daysAgo(95 + (h % 30));
 
   return {
-    flagType: 'TreatingProviderUtilizationOutlier',
+    flagType: 'ContractorUtilizationOutlier',
     matches: [{
       isoFileNumber: isoFileNumber(h, 29),
       fields: [
         { label: 'Date of Loss',          value: dol },
         { label: 'Claim Number',          value: `BIN${String(220000 + (h % 680000))}` },
-        { label: 'Treating Provider',     value: `${provider} — ${facility}` },
-        { label: 'Employer',              value: employer },
+        { label: 'Contractor',            value: contractor },
+        { label: 'Property Address',      value: address },
         { label: 'Insuring Company',      value: pick(INSURING_COMPANIES, h, 39) },
-        { label: 'Policy Number / Type',  value: `${pick(FALLBACK_STATES, h, 12).code}WC${String(220000 + (h % 680000)).slice(0, 6)} · Workers Compensation` },
-        { label: 'Alleged Injury',        value: inj.alleged },
-        { label: 'Part of Body',          value: inj.bodyPart },
-        { label: 'Treatment Duration',    value: `${avgWeeks + 4 + (h % 5)} weeks (regional avg: ${avgWeeks} weeks)` },
+        { label: 'Policy Number / Type',  value: policyLabel(h, 12, 220000) },
+        ...lossFields(loss),
+        { label: 'Repair Duration',       value: `${avgWeeks + 3 + (h % 5)} weeks (regional avg: ${avgWeeks} weeks)` },
         { label: 'Claim Status',          value: 'CLOSED' },
         { label: 'Adjuster',              value: pick(ADJUSTERS, h, 41) },
       ],
     }],
-    flagHeading: FLAG_META.TreatingProviderUtilizationOutlier.heading,
-    flagDescription: FLAG_META.TreatingProviderUtilizationOutlier.description,
+    flagHeading: FLAG_META.ContractorUtilizationOutlier.heading,
+    flagDescription: FLAG_META.ContractorUtilizationOutlier.description,
     claimSpecificInsight:
-      `${provider} at ${facility} previously treated ${claimant} on an earlier claim — durations trending above the ${avgWeeks}-week regional average.`,
+      `${contractor} previously worked an earlier claim for ${insured} — estimates and durations trending above the ${avgWeeks}-week regional average.`,
   };
 }
 
-function buildClaimFrequency(r: IndividualClaimRecord, h: number, inj: ResolvedInjury): IsoFlagCard {
-  const claimant = r.insuredName?.trim() || 'The claimant';
-  const employer1 = r.employerName?.trim() || pick(FALLBACK_EMPLOYERS, h, 51);
-  const employer2 = pick(FALLBACK_EMPLOYERS, h, 53);
+function buildClaimFrequency(r: IndividualClaimRecord, h: number, loss: ResolvedLoss): IsoFlagCard {
+  const insured = r.insuredName?.trim() || 'The insured';
+  const address1 = r.propertyAddress?.trim() || pick(FALLBACK_ADDRESSES, h, 51);
+  const address2 = pick(FALLBACK_ADDRESSES, h, 53);
   const claimCount = 3 + (h % 2);
 
   return {
@@ -391,24 +391,22 @@ function buildClaimFrequency(r: IndividualClaimRecord, h: number, inj: ResolvedI
       { isoFileNumber: isoFileNumber(h, 35), fields: [
         { label: 'Date of Loss',          value: daysAgo(240 + (h % 60)) },
         { label: 'Claim Number',          value: `BIN${String(300000 + (h % 600000))}` },
-        { label: 'Employer',              value: employer1 },
+        { label: 'Property Address',      value: address1 },
         { label: 'Insuring Company',      value: pick(INSURING_COMPANIES, h, 43) },
-        { label: 'Policy Number / Type',  value: `${pick(FALLBACK_STATES, h, 14).code}WC${String(300000 + (h % 600000)).slice(0, 6)} · Workers Compensation` },
-        { label: 'Coverage / Loss Type',  value: 'Indemnity / Medical' },
-        { label: 'Alleged Injury',        value: inj.alleged },
-        { label: 'Part of Body',          value: inj.bodyPart },
+        { label: 'Policy Number / Type',  value: policyLabel(h, 14, 300000) },
+        { label: 'Coverage / Loss Type',  value: 'Dwelling / Contents' },
+        ...lossFields(loss),
         { label: 'Claim Status',          value: 'CLOSED' },
         { label: 'Adjuster',              value: pick(ADJUSTERS, h, 45) },
       ] },
       { isoFileNumber: isoFileNumber(h, 39), fields: [
         { label: 'Date of Loss',          value: daysAgo(120 + (h % 60)) },
         { label: 'Claim Number',          value: `BIN${String(400000 + (h % 600000))}` },
-        { label: 'Employer',              value: employer2 },
+        { label: 'Property Address',      value: address2 },
         { label: 'Insuring Company',      value: pick(INSURING_COMPANIES, h, 47) },
-        { label: 'Policy Number / Type',  value: `${pick(FALLBACK_STATES, h, 16).code}WC${String(400000 + (h % 600000)).slice(0, 6)} · Workers Compensation` },
-        { label: 'Coverage / Loss Type',  value: 'Indemnity / Medical' },
-        { label: 'Alleged Injury',        value: inj.alleged },
-        { label: 'Part of Body',          value: inj.bodyPart },
+        { label: 'Policy Number / Type',  value: policyLabel(h, 16, 400000) },
+        { label: 'Coverage / Loss Type',  value: 'Dwelling / Contents' },
+        ...lossFields(loss),
         { label: 'Claim Status',          value: 'CLOSED' },
         { label: 'Adjuster',              value: pick(ADJUSTERS, h, 49) },
       ] },
@@ -416,45 +414,45 @@ function buildClaimFrequency(r: IndividualClaimRecord, h: number, inj: ResolvedI
     flagHeading: FLAG_META.ClaimFrequency.heading,
     flagDescription: FLAG_META.ClaimFrequency.description,
     claimSpecificInsight:
-      `${claimant} has filed ${claimCount} workers' comp claims across ${employer1} and ${employer2}, most recently this ${inj.alleged.toLowerCase()} claim.`,
+      `${insured} has filed ${claimCount} property claims across ${address1} and ${address2}, most recently this ${loss.cause.toLowerCase()} claim.`,
   };
 }
 
-const BUILDERS: Record<IsoFlagType, (r: IndividualClaimRecord, h: number, inj: ResolvedInjury) => IsoFlagCard> = {
-  PriorClaimsHistory:                  buildPriorClaimsHistory,
-  SharedLegalRepresentation:           buildSharedLegalRepresentation,
-  EmployerClaimClustering:             buildEmployerClaimClustering,
-  EmployerFrequencySpike:              buildEmployerFrequencySpike,
-  CrossJurisdictionMatch:              buildCrossJurisdictionMatch,
-  TreatingProviderUtilizationOutlier:  buildTreatingProviderUtilizationOutlier,
-  ClaimFrequency:                      buildClaimFrequency,
+const BUILDERS: Record<IsoFlagType, (r: IndividualClaimRecord, h: number, loss: ResolvedLoss) => IsoFlagCard> = {
+  PriorClaimsHistory:           buildPriorClaimsHistory,
+  SharedRepresentation:         buildSharedRepresentation,
+  PropertyClaimClustering:      buildPropertyClaimClustering,
+  PropertyFrequencySpike:       buildPropertyFrequencySpike,
+  CrossCarrierMatch:            buildCrossCarrierMatch,
+  ContractorUtilizationOutlier: buildContractorUtilizationOutlier,
+  ClaimFrequency:               buildClaimFrequency,
 };
 
 const ALL_FLAG_TYPES: IsoFlagType[] = [
-  'PriorClaimsHistory', 'SharedLegalRepresentation', 'EmployerClaimClustering',
-  'EmployerFrequencySpike', 'CrossJurisdictionMatch', 'TreatingProviderUtilizationOutlier', 'ClaimFrequency',
+  'PriorClaimsHistory', 'SharedRepresentation', 'PropertyClaimClustering',
+  'PropertyFrequencySpike', 'CrossCarrierMatch', 'ContractorUtilizationOutlier', 'ClaimFrequency',
 ];
 
 // Higher up this list = shown first when a claim has multiple flags stacked.
-// Coordinated/legal patterns and provider billing risk lead (SIU-worthy);
-// frequency-based, informational patterns trail.
+// Coordinated/representation patterns and duplicate-payment risk lead
+// (SIU-worthy); frequency-based, informational patterns trail.
 const SIGNIFICANCE_ORDER: IsoFlagType[] = [
-  'SharedLegalRepresentation',
-  'EmployerClaimClustering',
-  'TreatingProviderUtilizationOutlier',
+  'SharedRepresentation',
+  'PropertyClaimClustering',
+  'CrossCarrierMatch',
+  'ContractorUtilizationOutlier',
   'PriorClaimsHistory',
-  'CrossJurisdictionMatch',
-  'EmployerFrequencySpike',
+  'PropertyFrequencySpike',
   'ClaimFrequency',
 ];
 function bySignificance(a: IsoFlagType, b: IsoFlagType): number {
   return SIGNIFICANCE_ORDER.indexOf(a) - SIGNIFICANCE_ORDER.indexOf(b);
 }
 
-// Today's 4 real demo claims (see research notes) — used to guarantee a
-// visible spread each session (no match / 1 flag / 2 stacked flags); any
-// other/future claim number is assigned purely by the random session seed.
-const KNOWN_CLAIM_NUMBERS = ['WCM-2026-007', 'WCM-2026-100001', 'WCM-2026-008', 'WCM-2026-006'];
+// The four anchor demo claims (one per major line, see seed) — used to
+// guarantee a visible spread each session (no match / 1 flag / 2 stacked
+// flags); any other claim number is assigned purely by the random session seed.
+const KNOWN_CLAIM_NUMBERS = ['HO-2026-001', 'LL-2026-001', 'DW-2026-001', 'FL-2026-001'];
 
 // Rolled once and persisted in localStorage — NOT re-rolled on every page
 // refresh (a plain module-level Math.random() would reshuffle on every
@@ -502,7 +500,7 @@ function seededShuffle<T>(arr: T[], seed: number): T[] {
 // flag — which specific claim lands in which bucket is reshuffled per
 // SESSION_SEED. (Whether an individual flag itself has 1 or 2 match records
 // is a separate, natural side effect of which flag type gets picked —
-// EmployerFrequencySpike/ClaimFrequency always carry 2.)
+// PropertyFrequencySpike/ClaimFrequency always carry 2.)
 type ClaimCategory = 'none' | 'double' | 'single';
 const CATEGORY_TEMPLATE: ClaimCategory[] = ['none', 'double', 'single', 'single'];
 const shuffledCategories = seededShuffle(CATEGORY_TEMPLATE, SESSION_SEED);
@@ -538,8 +536,8 @@ export function getIsoClaimSearchData(record: IndividualClaimRecord | null | und
   if (flagTypes.length === 0) return null;
   flagTypes = [...flagTypes].sort(bySignificance);
 
-  const inj = resolveInjury(record);
-  const flags = flagTypes.map(ft => BUILDERS[ft](record, h, inj));
+  const loss = resolveLoss(record);
+  const flags = flagTypes.map(ft => BUILDERS[ft](record, h, loss));
 
   // Flag any match whose own "Date of Loss" field lands on the exact same
   // date as this claim's real lossDate — the panel's most visually
@@ -555,7 +553,7 @@ export function getIsoClaimSearchData(record: IndividualClaimRecord | null | und
   }
 
   return {
-    claimantName: record.insuredName?.trim() || 'The claimant',
+    claimantName: record.insuredName?.trim() || 'The insured',
     maskedId: maskedId(h),
     flags,
     currentClaimNumber:  record.claimNumber ?? '',

@@ -313,18 +313,18 @@ export const typeDefs = gql`
     adjusterComments:      String
     adjusterSubmittedBy:   String
     adjusterSubmittedAt:   String
-    injuryType:            String
-    bodyParts:              String
-    icd10:                  String
+    causeOfLoss:            String
+    damagedAreas:              String
+    policyForm:                  String
     severity:                String
     jurisdiction:            String
-    employerCooperation:    String
-    avgWeeklyWage:          String
-    indemnityExposure:      String
-    medicalExposure:        String
-    employerName:           String
-    treatingProvider:       String
-    medicalFacility:        String
+    floodZone:    String
+    coverageALimit:          String
+    buildingExposure:      String
+    contentsExposure:        String
+    propertyAddress:           String
+    assignedAdjuster:       String
+    contractorName:        String
   }
 
   type CompleteClaimResponse {
@@ -789,37 +789,36 @@ async function validateRolesMatchClaimLOB(
   return { valid: invalidRoleNames.length === 0, invalidRoleNames };
 }
 
-// ─── Clinical fields: read-only, extracted from the nested sub-documents that
-// uploads populate (injuryInformation / claimInformation / claimIndicators /
-// financialExposure). Not part of the declared schema (strict:false), so
-// docs from older uploads simply lack these keys and every field resolves ''.
-interface ClinicalFields {
-  injuryType:           string;
-  bodyParts:             string;
-  icd10:                 string;
-  severity:              string;
-  jurisdiction:          string;
-  employerCooperation:   string;
-  avgWeeklyWage:         string;
-  indemnityExposure:     string;
-  medicalExposure:       string;
-  employerName:          string;
-  treatingProvider:      string;
-  medicalFacility:       string;
+// ─── Property fields: read-only, extracted from the nested sub-documents that
+// uploads and the seed populate (lossInformation / policyInformation /
+// claimInformation / financialExposure / property / assignment). Not part of
+// the declared schema (strict:false), so docs that lack these keys simply
+// resolve every field to ''.
+interface PropertyFields {
+  causeOfLoss:       string;
+  damagedAreas:      string;
+  policyForm:        string;
+  severity:          string;
+  jurisdiction:      string;
+  floodZone:         string;
+  coverageALimit:    string;
+  buildingExposure:  string;
+  contentsExposure:  string;
+  propertyAddress:   string;
+  assignedAdjuster:  string;
+  contractorName:    string;
 }
 
-function extractClinicalFields(doc: Record<string, unknown>): ClinicalFields {
-  const injuryInfo = (doc['injuryInformation'] ?? {}) as Record<string, unknown>;
+function extractPropertyFields(doc: Record<string, unknown>): PropertyFields {
+  const lossInfo   = (doc['lossInformation']   ?? {}) as Record<string, unknown>;
+  const policyInfo = (doc['policyInformation'] ?? {}) as Record<string, unknown>;
   const claimInfo  = (doc['claimInformation']  ?? {}) as Record<string, unknown>;
-  const indicators = (doc['claimIndicators']   ?? {}) as Record<string, unknown>;
-  const financials  = (doc['financialExposure'] ?? {}) as Record<string, unknown>;
-  const employer    = (doc['employer']          ?? {}) as Record<string, unknown>;
-  const medicalInfo = (doc['medicalInformation'] ?? {}) as Record<string, unknown>;
+  const financials = (doc['financialExposure'] ?? {}) as Record<string, unknown>;
+  const property   = (doc['property']          ?? {}) as Record<string, unknown>;
+  const assignment = (doc['assignment']        ?? {}) as Record<string, unknown>;
 
-  const bodyPartsRaw = injuryInfo['bodyParts'];
-  const bodyParts = Array.isArray(bodyPartsRaw)
-    ? bodyPartsRaw.join(', ')
-    : String(bodyPartsRaw ?? '');
+  const areasRaw = lossInfo['damagedAreas'];
+  const damagedAreas = Array.isArray(areasRaw) ? areasRaw.join(', ') : String(areasRaw ?? '');
 
   const claimSeverity = claimInfo['claimSeverity'];
   const severityScore = claimInfo['severityScore'];
@@ -827,22 +826,21 @@ function extractClinicalFields(doc: Record<string, unknown>): ClinicalFields {
     ? `${claimSeverity} (${severityScore})`
     : String(claimSeverity ?? severityScore ?? '');
 
-  const coopScore = indicators['employerCooperationScore'];
-  const employerCooperation = coopScore != null ? `${coopScore} / 10` : '';
+  const money = (v: unknown): string => (v != null ? String(v) : '');
 
   return {
-    injuryType:          String(injuryInfo['injuryType'] ?? ''),
-    bodyParts,
-    icd10:               String(injuryInfo['icd10Code'] ?? ''),
+    causeOfLoss:      String(lossInfo['causeOfLoss'] ?? ''),
+    damagedAreas,
+    policyForm:       String(policyInfo['policyForm'] ?? ''),
     severity,
-    jurisdiction:        String(claimInfo['jurisdiction'] ?? ''),
-    employerCooperation,
-    avgWeeklyWage:       financials['averageWeeklyWage'] != null ? String(financials['averageWeeklyWage']) : '',
-    indemnityExposure:   financials['indemnityExposure'] != null ? String(financials['indemnityExposure']) : '',
-    medicalExposure:     financials['medicalExposure']   != null ? String(financials['medicalExposure'])   : '',
-    employerName:        String(employer['employerName'] ?? ''),
-    treatingProvider:    String(medicalInfo['treatingPhysician'] ?? ''),
-    medicalFacility:     String(medicalInfo['medicalFacility'] ?? ''),
+    jurisdiction:     String(claimInfo['jurisdiction'] ?? ''),
+    floodZone:        String(policyInfo['floodZone'] ?? ''),
+    coverageALimit:   money(policyInfo['coverageALimit']),
+    buildingExposure: money(financials['buildingExposure']),
+    contentsExposure: money(financials['contentsExposure']),
+    propertyAddress:  String(property['address'] ?? ''),
+    assignedAdjuster: String(assignment['assignedAdjuster'] ?? ''),
+    contractorName:   String(assignment['contractorName'] ?? ''),
   };
 }
 
@@ -1496,7 +1494,7 @@ export const resolvers = {
             vendorServiceComments: r.vendorServiceComments ?? '',
             serviceVendorReview:   r.serviceVendorReview ?? [],
             suggestedVendors:      [],
-            ...extractClinicalFields(r as unknown as Record<string, unknown>),
+            ...extractPropertyFields(r as unknown as Record<string, unknown>),
           };
         });
       } catch (err) {
@@ -1746,7 +1744,7 @@ export const resolvers = {
             adjusterSubmittedBy:       r.adjusterSubmittedBy ?? '',
             adjusterSubmittedAt:       r.adjusterSubmittedAt ?? '',
             suggestedVendors,
-            ...extractClinicalFields(r as unknown as Record<string, unknown>),
+            ...extractPropertyFields(r as unknown as Record<string, unknown>),
           };
         });
 

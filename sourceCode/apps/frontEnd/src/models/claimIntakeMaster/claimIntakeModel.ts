@@ -92,18 +92,18 @@ export interface IndividualClaimRecord {
   adjusterComments?:     string;
   adjusterSubmittedBy?:  string;
   adjusterSubmittedAt?:  string;
-  injuryType?:            string;
-  bodyParts?:              string;
-  icd10?:                  string;
+  causeOfLoss?:            string;
+  damagedAreas?:              string;
+  policyForm?:                  string;
   severity?:               string;
   jurisdiction?:           string;
-  employerCooperation?:   string;
-  avgWeeklyWage?:         string;
-  indemnityExposure?:     string;
-  medicalExposure?:       string;
-  employerName?:          string;
-  treatingProvider?:      string;
-  medicalFacility?:       string;
+  floodZone?:   string;
+  coverageALimit?:         string;
+  buildingExposure?:     string;
+  contentsExposure?:       string;
+  propertyAddress?:          string;
+  assignedAdjuster?:      string;
+  contractorName?:       string;
 }
 
 // ─── Details — upload header + all claim records ──────────────────────────────

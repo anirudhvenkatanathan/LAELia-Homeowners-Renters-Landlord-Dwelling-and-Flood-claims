@@ -96,18 +96,18 @@ const UPLOADED_CLAIM_DETAILS_QUERY = gql`
         isCompleted
         completedAt
         completedBy
-        injuryType
-        bodyParts
-        icd10
+        causeOfLoss
+        damagedAreas
+        policyForm
         severity
         jurisdiction
-        employerCooperation
-        avgWeeklyWage
-        indemnityExposure
-        medicalExposure
-        employerName
-        treatingProvider
-        medicalFacility
+        floodZone
+        coverageALimit
+        buildingExposure
+        contentsExposure
+        propertyAddress
+        assignedAdjuster
+        contractorName
       }
     }
   }

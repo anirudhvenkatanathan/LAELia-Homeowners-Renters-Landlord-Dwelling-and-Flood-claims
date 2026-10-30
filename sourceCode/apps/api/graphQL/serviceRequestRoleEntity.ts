@@ -328,7 +328,7 @@ function toLOBArray(v: unknown): string[] {
 }
 
 /** Convert camelCase field name to lowercase spaced alias for NLP matching.
- *  e.g. "claimAmount" → "claim amount", "injuryType" → "injury type" */
+ *  e.g. "claimAmount" → "claim amount", "causeOfLoss" → "cause of loss" */
 function camelToWords(s: string): string {
   return s.replace(/([A-Z])/g, ' $1').toLowerCase().trim();
 }

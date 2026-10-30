@@ -1,5 +1,6 @@
 // Deterministic claim summary mock data — keyed by claim number.
 // Same claimNumber always produces the same summary; add new pool entries to expand variety.
+// Property lines (Homeowners, Renters, Landlord, Dwelling, Flood) — Florida.
 
 export interface ClaimSummaryItem {
   text: string;
@@ -17,112 +18,102 @@ export interface ClaimSummaryData {
   items: ClaimSummaryItem[];
   signals: ClaimSignal[];
   footerNote: string;
-  // The injury this claim number deterministically resolved to — exposed so
+  // The loss this claim number deterministically resolved to — exposed so
   // other mock-data modules (e.g. ISO ClaimSearch) can reuse the exact same
   // value instead of picking their own, independently-hashed one, so every
-  // section on the page describing "this claim's injury" agrees.
-  injury: { label: string; icd: string; bodyPart: string; description: string };
+  // section on the page describing "this claim's loss" agrees.
+  loss: { label: string; policyForm: string; area: string; description: string };
 }
 
 // ─── Data pools ───────────────────────────────────────────────────────────────
 
-const EMPLOYERS = [
-  'ABC Manufacturing Inc.',        'Pacific Construction LLC',      'Metro Health Systems',
-  'Southern Logistics Co.',        'Allied Steel Works',            'Coastal Warehousing Corp.',
-  'Tri-State Transport Ltd.',      'Peak Retail Group',             'Continental Foods Inc.',
-  'Midwest Auto Parts Co.',        'Sunrise Hospitality Group',     'Atlantic Shipbuilding',
-  'National Freight Services',     'Blue Ridge Mining Corp.',       'Summit Healthcare Network',
-  'Heritage Farm Products',        'Cardinal Electric Co.',         'Horizon Distribution Inc.',
-  'Pinnacle Security Services',    'Delta Chemical Corp.',
+interface County { county: string; area: string; }
+const COUNTIES: County[] = [
+  { county: 'Miami-Dade',   area: 'coastal southeast Florida' },
+  { county: 'Broward',      area: 'coastal southeast Florida' },
+  { county: 'Palm Beach',   area: 'coastal southeast Florida' },
+  { county: 'Hillsborough', area: 'Tampa Bay'                 },
+  { county: 'Pinellas',     area: 'Tampa Bay'                 },
+  { county: 'Orange',       area: 'central Florida'           },
+  { county: 'Lee',          area: 'southwest Florida'         },
+  { county: 'Collier',      area: 'southwest Florida'         },
+  { county: 'Duval',        area: 'northeast Florida'         },
+  { county: 'Polk',         area: 'central Florida'           },
+  { county: 'Volusia',      area: 'east-central Florida'      },
+  { county: 'Brevard',      area: 'Space Coast'               },
+  { county: 'Sarasota',     area: 'southwest Florida'         },
+  { county: 'Charlotte',    area: 'southwest Florida'         },
+  { county: 'Monroe',       area: 'Florida Keys'              },
 ];
 
-interface Jurisdiction { state: string; name: string; industry: string; }
-const JURISDICTIONS: Jurisdiction[] = [
-  { state: 'CA', name: 'California',     industry: 'manufacturing'  },
-  { state: 'TX', name: 'Texas',          industry: 'construction'   },
-  { state: 'FL', name: 'Florida',        industry: 'hospitality'    },
-  { state: 'NY', name: 'New York',       industry: 'logistics'      },
-  { state: 'IL', name: 'Illinois',       industry: 'warehousing'    },
-  { state: 'PA', name: 'Pennsylvania',   industry: 'steel works'    },
-  { state: 'OH', name: 'Ohio',           industry: 'auto parts'     },
-  { state: 'GA', name: 'Georgia',        industry: 'distribution'   },
-  { state: 'NC', name: 'North Carolina', industry: 'textiles'       },
-  { state: 'MI', name: 'Michigan',       industry: 'automotive'     },
-  { state: 'WA', name: 'Washington',     industry: 'healthcare'     },
-  { state: 'AZ', name: 'Arizona',        industry: 'construction'   },
-  { state: 'CO', name: 'Colorado',       industry: 'transportation' },
-  { state: 'NJ', name: 'New Jersey',     industry: 'chemical'       },
-  { state: 'VA', name: 'Virginia',       industry: 'mining'         },
-];
-
-interface InjuryData {
+interface LossData {
   description: string;
-  icd: string;
+  policyForm: string;
   label: string;
-  bodyPart: string;
+  area: string;
   resolutionWeeks: string;
   laeOpportunity: string;
 }
-const INJURIES: InjuryData[] = [
+const LOSSES: LossData[] = [
   {
-    description:    'lumbar strain to the lower back caused by lifting equipment',
-    icd: 'M54.5',  label: 'lumbar strain',   bodyPart: 'Lumbar spine', resolutionWeeks: '12–16',
-    laeOpportunity: 'Early FCE recommended for lumbar claims with lifting mechanism — intervention window is open.',
+    description: 'water damage to the kitchen and adjoining rooms from a burst supply line',
+    policyForm: 'HO3', label: 'water damage', area: 'Kitchen, Dining room', resolutionWeeks: '6–10',
+    laeOpportunity: '24/7 mitigation within 24 hours limits secondary damage — dispatch drying contractor before estimate review.',
   },
   {
-    description:    'rotator cuff tear to the right shoulder from repetitive overhead work',
-    icd: 'M75.1',  label: 'rotator cuff tear', bodyPart: 'Right shoulder', resolutionWeeks: '16–24',
-    laeOpportunity: 'Surgical referral for rotator cuff should be evaluated by week 8 — early orthopedic consult is cost-effective.',
+    description: 'wind damage to the roof covering with interior water intrusion',
+    policyForm: 'HO3', label: 'wind damage', area: 'Roof, Attic', resolutionWeeks: '8–14',
+    laeOpportunity: 'Roof age and payment-schedule terms drive severity — early roof surface review prevents over-payment.',
   },
   {
-    description:    'medial meniscus tear to the left knee sustained in a slip-and-fall',
-    icd: 'M23.20', label: 'meniscus injury', bodyPart: 'Left knee', resolutionWeeks: '12–20',
-    laeOpportunity: 'MRI-confirmed meniscus tear — arthroscopy referral within 6 weeks reduces long-term duration.',
+    description: 'hurricane wind and rain damage to the roof, windows and interior',
+    policyForm: 'HO5', label: 'hurricane damage', area: 'Roof, Windows, Interior', resolutionWeeks: '14–26',
+    laeOpportunity: 'Catastrophe event — CAT response team and surge capacity should be engaged before volume peaks.',
   },
   {
-    description:    'carpal tunnel syndrome in the right wrist from prolonged keyboard use',
-    icd: 'G56.01', label: 'CTS',             bodyPart: 'Right wrist', resolutionWeeks: '8–12',
-    laeOpportunity: 'Conservative splinting and nerve conduction study recommended — surgical candidacy to be assessed at 8 weeks.',
+    description: 'flood damage to the ground floor from storm surge',
+    policyForm: 'SFIP', label: 'flood damage', area: 'Ground floor, Utilities', resolutionWeeks: '10–20',
+    laeOpportunity: 'NFIP authorised adjuster and early proof-of-loss follow-up keep the 60-day deadline on track.',
   },
   {
-    description:    'cervical strain to the neck following a vehicle collision on site',
-    icd: 'S13.4',  label: 'cervical strain', bodyPart: 'Neck', resolutionWeeks: '10–14',
-    laeOpportunity: 'Cervical strain with collision mechanism — early physio referral within 2 weeks reduces chronicity risk.',
+    description: 'fire damage originating in the kitchen with smoke throughout the home',
+    policyForm: 'HO3', label: 'fire damage', area: 'Kitchen, Living areas', resolutionWeeks: '16–28',
+    laeOpportunity: 'Cause and origin specialist plus pack-out and contents cleaning should start within 3 days.',
   },
   {
-    description:    'fractured left wrist sustained when falling from a ladder',
-    icd: 'S52.501A', label: 'wrist fracture', bodyPart: 'Left wrist', resolutionWeeks: '8–12',
-    laeOpportunity: 'Fracture management — occupational therapy referral at 4–6 weeks post-cast removal is cost-effective.',
+    description: 'hail damage to the roof and exterior gutters',
+    policyForm: 'DF3-DO', label: 'hail damage', area: 'Roof, Gutters', resolutionWeeks: '6–10',
+    laeOpportunity: 'Estimate and invoice review plus roof surface assessment recommended before approving full replacement.',
   },
   {
-    description:    'herniated disc at L4–L5 resulting from a forklift incident',
-    icd: 'M51.16', label: 'disc herniation', bodyPart: 'Lower back (L4–L5)', resolutionWeeks: '16–26',
-    laeOpportunity: 'L4–L5 herniation — pain management specialist engagement recommended before surgical consideration.',
+    description: 'theft of personal property following a forced entry',
+    policyForm: 'HO4', label: 'theft', area: 'Bedroom, Living room', resolutionWeeks: '4–8',
+    laeOpportunity: 'Contents inventory and valuation with police report verification should be completed within 14 days.',
   },
   {
-    description:    'bilateral knee aggravation from prolonged standing on the production floor',
-    icd: 'M17.11', label: 'knee OA',         bodyPart: 'Bilateral knees', resolutionWeeks: '20–32',
-    laeOpportunity: 'Bilateral knee aggravation — job modification review and FCE recommended to determine RTW capacity.',
+    description: 'tenant-caused water leak damaging a rental unit',
+    policyForm: 'DF3-DL', label: 'water leak', area: 'Bathroom, Unit below', resolutionWeeks: '6–12',
+    laeOpportunity: 'Subrogation against the responsible tenant should be evaluated before payment is finalized.',
   },
   {
-    description:    'crush injury to the right hand from machinery entanglement',
-    icd: 'S67.10XA', label: 'crush injury',  bodyPart: 'Right hand', resolutionWeeks: '14–20',
-    laeOpportunity: 'Hand crush injury — early hand therapy referral within 2 weeks significantly improves functional outcomes.',
+    description: 'tree fall through the roof during a tropical storm',
+    policyForm: 'HO3', label: 'tree impact', area: 'Roof, Bedroom', resolutionWeeks: '8–14',
+    laeOpportunity: 'Emergency tarping and temporary housing review within 48 hours reduces loss-of-use exposure.',
   },
   {
-    description:    'chemical burns to the forearms sustained during solvent exposure',
-    icd: 'T54.91XA', label: 'chemical burn', bodyPart: 'Forearms', resolutionWeeks: '6–10',
-    laeOpportunity: 'Chemical burn — wound care specialist and burn nurse case management referral recommended within 7 days.',
+    description: 'mold growth following a slow leak in the bathroom wall',
+    policyForm: 'HO6', label: 'mold damage', area: 'Bathroom, Hallway', resolutionWeeks: '8–16',
+    laeOpportunity: 'Coverage verification and a mold remediation protocol should be settled before work begins.',
   },
   {
-    description:    'traumatic brain injury sustained in a warehouse vehicle accident',
-    icd: 'S09.90XA', label: 'TBI',           bodyPart: 'Head', resolutionWeeks: '26–52',
-    laeOpportunity: 'Moderate TBI — neuropsychological evaluation and catastrophic case management engagement recommended.',
+    description: 'lightning strike causing electrical and appliance damage',
+    policyForm: 'HO3', label: 'lightning damage', area: 'Electrical panel, Appliances', resolutionWeeks: '4–8',
+    laeOpportunity: 'Electrical inspection and appliance repair-versus-replace review can close this claim quickly.',
   },
   {
-    description:    'Achilles tendon rupture from stepping into an unguarded floor opening',
-    icd: 'S86.011A', label: 'tendon rupture', bodyPart: 'Right ankle (Achilles)', resolutionWeeks: '20–28',
-    laeOpportunity: 'Achilles rupture — surgical vs. conservative management decision point at 2 weeks is cost-critical.',
+    description: 'water damage to a vacant dwelling from an unnoticed pipe failure',
+    policyForm: 'DF1', label: 'vacancy water loss', area: 'Entire dwelling', resolutionWeeks: '10–18',
+    laeOpportunity: 'Vacancy review is needed — policy conditions may limit coverage after 60 days vacant.',
   },
 ];
 
@@ -134,16 +125,16 @@ interface ReserveData {
   action: string;
 }
 const RESERVES: ReserveData[] = [
-  { amount: '$37,000',   amountK: '$37K',    priorPayments: '$5,000',   benchmarkNote: 'aligns with CA median',                           action: 'reassess if PT extends beyond 8 weeks'                       },
-  { amount: '$62,500',   amountK: '$62.5K',  priorPayments: '$8,200',   benchmarkNote: 'is above TX median by 18%',                       action: 'reserve adequacy review recommended at 90 days'               },
-  { amount: '$115,000',  amountK: '$115K',   priorPayments: '$22,000',  benchmarkNote: 'is within the NY high-severity band',              action: 'surgical pathway costs should be modeled'                     },
-  { amount: '$28,750',   amountK: '$28.75K', priorPayments: '$3,500',   benchmarkNote: 'is below FL median — may be under-reserved',       action: 'reassess reserve adequacy at 60-day mark'                     },
-  { amount: '$84,000',   amountK: '$84K',    priorPayments: '$12,500',  benchmarkNote: 'aligns with IL construction benchmark',            action: 'monitor for extension beyond 16 weeks'                        },
-  { amount: '$195,000',  amountK: '$195K',   priorPayments: '$45,000',  benchmarkNote: 'reflects catastrophic severity classification',    action: 'structured settlement evaluation recommended at 6 months'      },
-  { amount: '$51,200',   amountK: '$51.2K',  priorPayments: '$9,800',   benchmarkNote: 'tracks with OH auto sector median',                action: 'IME recommended before 12-week mark'                          },
-  { amount: '$73,400',   amountK: '$73.4K',  priorPayments: '$14,200',  benchmarkNote: 'is 12% above GA distribution average',            action: 'FCE results should drive RTW decision by week 14'             },
-  { amount: '$22,000',   amountK: '$22K',    priorPayments: '$2,100',   benchmarkNote: 'is within AZ low-severity range',                  action: 'conservative management is appropriate — monitor bi-weekly'   },
-  { amount: '$142,000',  amountK: '$142K',   priorPayments: '$38,000',  benchmarkNote: 'exceeds MI automotive median by 28%',              action: 'nurse case management engagement is recommended immediately'   },
+  { amount: '$18,500',  amountK: '$18.5K', priorPayments: '$2,500',  benchmarkNote: 'aligns with the county median',                  action: 'reassess if drying extends beyond 10 days'            },
+  { amount: '$42,000',  amountK: '$42K',   priorPayments: '$6,000',  benchmarkNote: 'is above the county median by 15%',              action: 'estimate review recommended before approval'           },
+  { amount: '$96,000',  amountK: '$96K',   priorPayments: '$15,000', benchmarkNote: 'is within the hurricane high-severity band',     action: 'reserve adequacy review recommended at 60 days'        },
+  { amount: '$27,750',  amountK: '$27.8K', priorPayments: '$3,500',  benchmarkNote: 'is below the regional median — may be under-reserved', action: 'reassess reserve at the 30-day mark'            },
+  { amount: '$64,000',  amountK: '$64K',   priorPayments: '$9,500',  benchmarkNote: 'aligns with the fire-loss benchmark',            action: 'monitor contents and loss-of-use for growth'           },
+  { amount: '$215,000', amountK: '$215K',  priorPayments: '$40,000', benchmarkNote: 'reflects total-loss severity classification',    action: 'ICC and limits exposure should be reviewed'            },
+  { amount: '$9,800',   amountK: '$9.8K',  priorPayments: '$1,200',  benchmarkNote: 'is within the low-severity range',               action: 'conservative handling is appropriate'                  },
+  { amount: '$73,400',  amountK: '$73.4K', priorPayments: '$14,200', benchmarkNote: 'is 12% above the regional average',              action: 'contractor estimate should be reconciled by week 4'    },
+  { amount: '$31,200',  amountK: '$31.2K', priorPayments: '$4,100',  benchmarkNote: 'is within the roof-replacement band',            action: 'roof payment schedule should be confirmed'             },
+  { amount: '$152,000', amountK: '$152K',  priorPayments: '$32,000', benchmarkNote: 'exceeds the county CAT median by 22%',           action: 'engage CAT response team and confirm deductible'       },
 ];
 
 // Offsets (days before "today"), not fixed calendar dates — so the intake
@@ -198,56 +189,55 @@ function cap(s: string): string {
 export function getClaimSummaryData(
   claimNumber: string,
   insuredName?: string | null,
-  realInjuryType?: string | null,
-  realBodyPart?: string | null,
+  realCauseOfLoss?: string | null,
+  realDamagedAreas?: string | null,
 ): ClaimSummaryData {
   const h        = djb2(claimNumber || 'default');
-  const employer = pick(EMPLOYERS,    h, 3);
-  const jx       = pick(JURISDICTIONS, h, 7);
-  const baseInjury = pick(INJURIES,   h, 11);
-  const reserve  = pick(RESERVES,     h, 17);
+  const jx       = pick(COUNTIES,   h, 7);
+  const baseLoss = pick(LOSSES,     h, 11);
+  const reserve  = pick(RESERVES,   h, 17);
   const base     = resolveBaseDate(pick(BASE_DATE_OFFSETS, h, 23));
-  const claimant = insuredName?.trim() || 'The claimant';
+  const insured  = insuredName?.trim() || 'The insured';
 
-  // When the claim record carries a real injury type, it takes precedence
+  // When the claim record carries a real cause of loss, it takes precedence
   // over the hashed mock pick — every section that describes "this claim's
-  // injury" (Claims Summary here, and ISO ClaimSearch via the returned
-  // `injury` field) must agree with the claim's own real data when it exists.
-  const realLabel = realInjuryType?.trim();
-  const realPart  = realBodyPart?.trim();
-  const injury: InjuryData = realLabel
+  // loss" (Claims Summary here, and ISO ClaimSearch via the returned `loss`
+  // field) must agree with the claim's own real data when it exists.
+  const realLabel = realCauseOfLoss?.trim();
+  const realPart  = realDamagedAreas?.trim();
+  const loss: LossData = realLabel
     ? {
-        ...baseInjury,
+        ...baseLoss,
         label:       realLabel.toLowerCase(),
-        bodyPart:    realPart || baseInjury.bodyPart,
-        description: realPart ? `${realLabel.toLowerCase()} to the ${realPart.toLowerCase()}` : realLabel.toLowerCase(),
+        area:        realPart || baseLoss.area,
+        description: realPart ? `${realLabel.toLowerCase()} affecting the ${realPart.toLowerCase()}` : realLabel.toLowerCase(),
       }
-    : baseInjury;
+    : baseLoss;
 
   const ts = (offset: number) => makeTs(base, offset);
 
   const items: ClaimSummaryItem[] = [
     {
-      text: `${claimant} is employed by ${employer}.`,
+      text: `${insured} holds a ${loss.policyForm} policy for a property in ${jx.county} County, Florida.`,
       popup: {
         source:          'Policy data',
-        comparedAgainst: `Employer records · ${employer}`,
+        comparedAgainst: `Policy records · ${loss.policyForm} · ${jx.county} County`,
         fetched:          ts(0),
       },
     },
     {
-      text: `Claim number ${claimNumber} is open within the ${jx.name} jurisdiction.`,
+      text: `Claim number ${claimNumber} is open in ${jx.county} County (${jx.area}).`,
       popup: {
         source:          'Policy data',
-        comparedAgainst: `${jx.state} WC jurisdiction records`,
+        comparedAgainst: `Florida claim-handling timelines (s. 627.70131)`,
         fetched:          ts(1),
       },
     },
     {
-      text: `The injury type is a ${injury.description}.`,
+      text: `The reported loss is ${loss.description}.`,
       popup: {
         source:          'Policy data',
-        comparedAgainst: `ICD ${injury.icd} injury profiles · ${jx.state}`,
+        comparedAgainst: `${loss.label} loss profiles · ${jx.county} County`,
         fetched:          ts(1),
       },
     },
@@ -255,7 +245,7 @@ export function getClaimSummaryData(
       text: `Total reserve is set at ${reserve.amount} with prior payments totaling ${reserve.priorPayments}.`,
       popup: {
         source:          'Policy data',
-        comparedAgainst: `${jx.state} ${injury.label} reserve averages`,
+        comparedAgainst: `${jx.county} County ${loss.label} reserve averages`,
         fetched:          ts(2),
       },
     },
@@ -263,12 +253,12 @@ export function getClaimSummaryData(
 
   const signals: ClaimSignal[] = [
     {
-      text:    `${cap(injury.label)} in ${jx.state} ${jx.industry} typically resolves within ${injury.resolutionWeeks} weeks — monitor for extension.`,
+      text:    `${cap(loss.label)} in ${jx.area} typically resolves within ${loss.resolutionWeeks} weeks — monitor for extension.`,
       badge:   'Duration Risk · High',
       variant: 'duration',
       popup: {
-        source:          'ODG by MCG (Official Disability Guidelines) — odgtwc.com',
-        comparedAgainst: `ICD ${injury.icd} · Duration velocity · ${jx.state}`,
+        source:          'Internal cycle-time benchmarks (demo data)',
+        comparedAgainst: `${loss.label} cycle time · ${jx.county} County`,
         fetched:          ts(3),
       },
     },
@@ -277,27 +267,27 @@ export function getClaimSummaryData(
       badge:   'Reserve Risk · High',
       variant: 'reserve',
       popup: {
-        source:          'WCRI CompScope Benchmarks — wcri.org',
-        comparedAgainst: `${jx.state} ${injury.label} settlement benchmarks`,
+        source:          'Regional property reserve benchmarks (demo data)',
+        comparedAgainst: `${jx.county} County ${loss.label} severity benchmarks`,
         fetched:          ts(3),
       },
     },
     {
-      text:    injury.laeOpportunity,
+      text:    loss.laeOpportunity,
       badge:   'LAE Opportunity · High',
       variant: 'lae',
       popup: {
-        source:          'ACOEM Occupational Medicine Practice Guidelines — acoem.org',
-        comparedAgainst: `${jx.state} ${injury.label} FCE intervention rates`,
+        source:          'Internal LAE playbook (demo data)',
+        comparedAgainst: `${jx.county} County ${loss.label} intervention outcomes`,
         fetched:          ts(4),
       },
     },
   ];
 
-  const footerNote = `Generated by Intake Agent · ICD ${injury.icd} · ${jx.state} ${injury.label} benchmarks · ${base.date}`;
+  const footerNote = `Generated by Intake Agent · ${loss.policyForm} · ${jx.county} County ${loss.label} benchmarks · ${base.date}`;
 
   return {
     items, signals, footerNote,
-    injury: { label: injury.label, icd: injury.icd, bodyPart: injury.bodyPart, description: injury.description },
+    loss: { label: loss.label, policyForm: loss.policyForm, area: loss.area, description: loss.description },
   };
 }

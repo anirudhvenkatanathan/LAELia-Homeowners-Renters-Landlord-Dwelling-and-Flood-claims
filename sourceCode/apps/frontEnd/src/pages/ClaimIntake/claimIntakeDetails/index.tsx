@@ -441,7 +441,7 @@ const ClaimIntakeDetails: React.FC = () => {
 
   console.log('selectedRecord', selectedRecord);
 
-  const claimSummaryData = getClaimSummaryData(selectedRecord?.claimNumber ?? '', selectedRecord?.insuredName, selectedRecord?.injuryType, selectedRecord?.bodyParts);
+  const claimSummaryData = getClaimSummaryData(selectedRecord?.claimNumber ?? '', selectedRecord?.insuredName, selectedRecord?.causeOfLoss, selectedRecord?.damagedAreas);
   const isoClaimSearchData = getIsoClaimSearchData(selectedRecord);
   // Stores the trigger's own rect, not a pre-computed panel position — the
   // panel's real (rendered) size is only known once its actual content has
