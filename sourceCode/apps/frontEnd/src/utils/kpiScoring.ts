@@ -108,11 +108,30 @@ export function vendorKpiScores(vendorName: string, role: string, targetRating: 
     .filter((row): row is NonNullable<typeof row> => row !== null);
 }
 
-export function vendorRatingForRole(vendorName: string, roleName: string): number {
+// Vendor ratings (Google review rating, 0–5) registered whenever a vendor list loads. When a vendor's rating
+// is known, its PPI / FitIQ is anchored to it (plus a small per-service variation) instead of an arbitrary hash,
+// so a 4.9-star roofer outranks a 4.0-star one. Vendors without a registered rating keep the hash behaviour.
+const vendorRatingRegistry = new Map<string, number>();
+
+export function registerVendorRatings(vendors: ReadonlyArray<{ companyName?: string; rating?: number | null }>): void {
+  vendors.forEach((v) => {
+    const r = Number(v.rating);
+    if (v.companyName && Number.isFinite(r) && r > 0) vendorRatingRegistry.set(v.companyName, r);
+  });
+}
+
+function hashOf(key: string): number {
   let h = 5381;
-  const key = vendorName + '|' + roleName;
-  for (let i = 0; i < key.length; i++) {
-    h = ((h * 33) ^ key.charCodeAt(i)) >>> 0;
+  for (let i = 0; i < key.length; i++) h = ((h * 33) ^ key.charCodeAt(i)) >>> 0;
+  return h;
+}
+
+export function vendorRatingForRole(vendorName: string, roleName: string): number {
+  const h = hashOf(vendorName + '|' + roleName);
+  const base = vendorRatingRegistry.get(vendorName);
+  if (base !== undefined) {
+    const jitter = ((h & 0xFF) / 255 - 0.5) * 0.3;               // ±0.15 per service
+    return parseFloat(Math.min(5, Math.max(2.5, base + jitter)).toFixed(1));
   }
   return parseFloat((3.5 + ((h & 0xFF) / 255) * 1.5).toFixed(1));
 }
@@ -140,7 +159,10 @@ export function vendorRoleScorecard(vendorName: string, roleName: string): Vendo
   const riskSeed = vendorName + '|' + roleName + '|Risk';
   let rh = 5381;
   for (let i = 0; i < riskSeed.length; i++) rh = ((rh * 33) ^ riskSeed.charCodeAt(i)) >>> 0;
-  const riskScore = parseFloat((2.5 + ((rh & 0xFF) / 255) * 2.5).toFixed(2));
+  const anchor = vendorRatingRegistry.get(vendorName);
+  const riskScore = anchor !== undefined
+    ? parseFloat(Math.min(5, Math.max(2.5, anchor + ((rh & 0xFF) / 255 - 0.5) * 0.4)).toFixed(2))
+    : parseFloat((2.5 + ((rh & 0xFF) / 255) * 2.5).toFixed(2));
 
   // Compliance is always shown as a perfect score and Risk is a category
   // outside the base KPI config. Redistribute Geographic proximity's freed-up

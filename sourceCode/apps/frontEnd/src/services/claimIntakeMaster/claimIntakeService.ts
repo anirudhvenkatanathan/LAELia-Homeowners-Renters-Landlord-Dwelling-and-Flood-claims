@@ -1,6 +1,7 @@
 import { gql } from '@apollo/client';
 import { getApolloClient } from '../../config/apolloClient';
 import { logError } from '../../utils/logError';
+import { registerVendorRatings } from '../../utils/kpiScoring';
 import type {
   UploadClaimInput,
   UploadClaimResponse,
@@ -484,6 +485,7 @@ export async function getVendorsByRoleIdsWithDetails(roleIds: string[]): Promise
     const { data } = await client.query<{ getVendorsByRoleIdsWithDetails: import('../../models/claimIntakeMaster/claimIntakeModel').VendorOption[] }>({
       query: GET_VENDORS_WITH_DETAILS_QUERY, variables: { roleIds }, fetchPolicy: 'network-only',
     });
+    registerVendorRatings(data?.getVendorsByRoleIdsWithDetails ?? []);
     return data?.getVendorsByRoleIdsWithDetails ?? [];
   } catch (err) { logError(err, 'claimIntakeService.getVendorsByRoleIdsWithDetails'); return []; }
 }
