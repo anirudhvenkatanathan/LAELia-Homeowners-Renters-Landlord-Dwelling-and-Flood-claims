@@ -326,6 +326,15 @@ export const typeDefs = gql`
     propertyAddress:           String
     assignedAdjuster:       String
     contractorName:        String
+    catNumber: String
+    catEventName: String
+    publicAdjusterFirm: String
+    publicAdjusterFeePct: String
+    publicAdjusterFeeCapPct: String
+    publicAdjusterFeeStatus: String
+    independentInvestigatorFirm: String
+    secondLevelReviewRequired: String
+    secondLevelReviewStatus: String
   }
 
   type CompleteClaimResponse {
@@ -447,6 +456,9 @@ export const typeDefs = gql`
     companyName:  String!
     rating:       Float
     boostApplied: Boolean
+    capacity:          Int
+    activeAssignments: Int
+    utilizationPct:    Int
   }
 `;
 
@@ -694,6 +706,15 @@ interface PropertyFields {
   propertyAddress:   string;
   assignedAdjuster:  string;
   contractorName:    string;
+  catNumber: string;
+  catEventName: string;
+  publicAdjusterFirm: string;
+  publicAdjusterFeePct: string;
+  publicAdjusterFeeCapPct: string;
+  publicAdjusterFeeStatus: string;
+  independentInvestigatorFirm: string;
+  secondLevelReviewRequired: string;
+  secondLevelReviewStatus: string;
 }
 
 function extractPropertyFields(doc: Record<string, unknown>): PropertyFields {
@@ -728,6 +749,15 @@ function extractPropertyFields(doc: Record<string, unknown>): PropertyFields {
     propertyAddress:  String(property['address'] ?? ''),
     assignedAdjuster: String(assignment['assignedAdjuster'] ?? ''),
     contractorName:   String(assignment['contractorName'] ?? ''),
+    catNumber: String(doc['catNumber'] ?? ''),
+    catEventName: String(doc['catEventName'] ?? ''),
+    publicAdjusterFirm: String(doc['publicAdjusterFirm'] ?? ''),
+    publicAdjusterFeePct: String(doc['publicAdjusterFeePct'] ?? ''),
+    publicAdjusterFeeCapPct: String(doc['publicAdjusterFeeCapPct'] ?? ''),
+    publicAdjusterFeeStatus: String(doc['publicAdjusterFeeStatus'] ?? ''),
+    independentInvestigatorFirm: String(doc['independentInvestigatorFirm'] ?? ''),
+    secondLevelReviewRequired: String(doc['secondLevelReviewRequired'] ?? ''),
+    secondLevelReviewStatus: String(doc['secondLevelReviewStatus'] ?? ''),
   };
 }
 

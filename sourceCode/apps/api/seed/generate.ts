@@ -9,6 +9,7 @@ import { RULES, type RuleDef } from './data/rules';
 import { PROVIDERS, type ProviderDef } from './data/providers';
 import { L1_BY_RULE, L2_UNIVERSAL, L3_TECHNOLOGY, L4_TRACK_RECORD } from './data/onboarding';
 import { CLAIMS, CLAIM_PREFIX, type ClaimSpec } from './data/claims';
+import { CAT_EVENTS } from './data/cat';
 import { evaluateRoleConditions, type ConditionData } from '../utils/ruleEvaluator';
 import { mapClaimTypeToLOB, type LineOfBusiness } from '../utils/lineOfBusiness';
 
@@ -82,13 +83,21 @@ const STATUS_NAME: Record<string, string> = { requalDue: 'Requalification Due', 
 const STREETS = ['Harbor Blvd', 'Palm Ave', 'Cypress Way', 'Bayshore Dr', 'Magnolia St', 'Gulf Breeze Pkwy', 'Citrus Grove Rd', 'Sawgrass Ln'];
 const ph = (i: number) => `+1 (${['305', '407', '813', '904', '239', '941'][i % 6]}) 555-01${String(10 + (i % 80)).padStart(2, '0')}`;
 const vid = (p: ProviderDef) => hex24('vendor:' + p.company);
+// Concurrent-assignment capacity: small roofing crews fill up first during a catastrophe; law and specialist firms have headroom.
+const capacityOf = (p: ProviderDef): number => {
+  if (p.rules.some((n) => ['Roof Surface Review', 'Repair Network Referral'].includes(n))) return 6;
+  if (p.rules.some((n) => ['24/7 Loss Mitigation Contractors', 'Pack-out & Contents Cleaning'].includes(n))) return 8;
+  if (p.rules.some((n) => ['Independent Adjusters', 'Appraisers/Independent Adjusters', 'NFIP Authorized Adjuster'].includes(n))) return 14;
+  if (p.rules.some((n) => ['Legal', 'Subrogation'].includes(n))) return 24;
+  return 15;
+};
 const vendorDetails = PROVIDERS.map((p, i) => {
   const roleIds = p.rules.map((n) => { const id = ROLE_BY_NAME.get(n); if (!id) throw new Error(`Provider ${p.company}: unknown rule "${n}"`); return id; });
   const row: Record<string, unknown> = {
     _id: hex24('vd:' + p.company), vendorId: vid(p), companyName: p.company, emailId: p.email ?? `claims@${slug(p.company)}.example`, rating: p.rating,
     address: p.street ?? `${100 + i * 7} ${STREETS[i % STREETS.length]}`, city: p.city, state: p.state ?? 'Florida', country: 'USA', Status: STATUS_ID[p.status],
     RequalificationStartDate: ago(p.status === 'requalDue' ? 372 : 120).toISOString(), RequalificationEndDate: ago(p.status === 'requalDue' ? 7 : -245).toISOString(),
-    Coverage: p.coverage, phoneNumber: p.phone ?? ph(i), turnaroundTime: p.turnaround, serviceRequestRoleId: roleIds, serviceRequestRoleName: p.rules.join(', '),
+    capacity: capacityOf(p), Coverage: p.coverage, phoneNumber: p.phone ?? ph(i), turnaroundTime: p.turnaround, serviceRequestRoleId: roleIds, serviceRequestRoleName: p.rules.join(', '),
     createdBy: 'admin', createdAt: ago(150).toISOString(), uploadedBy: 'admin', uploadedAt: ago(150).toISOString(),
     vendorStatus: STATUS_NAME[p.status] ?? p.status, vendorStatusId: STATUS_ID[p.status],
   };
@@ -198,6 +207,33 @@ for (const c of CLAIMS) {
     acknowledgedFlag: 'present', paymentDecisionIssuedFlag: 'present',
   };
   if (c.lob === 'Flood') flat['proofOfLossReceivedFlag'] = 'present';
+  // catastrophe tagging: only claims whose loss date and county fall inside an event window carry a CAT number
+  const catEv = CAT_EVENTS.find((e) => e.eventId === c.catEventId);
+  if (catEv) { flat['catEventId'] = catEv.eventId; flat['catNumber'] = catEv.eventId; flat['catEventName'] = catEv.eventName; }
+  flat['lossCounty'] = c.county; flat['lossZip'] = c.zip ?? '';
+  // public adjuster / independent investigator
+  if (c.pa) {
+    const capPct = catEv?.emergencyDeclared ? 10 : 20;            // s.626.854(11): 10% within a year of a declared emergency, else 20%
+    Object.assign(flat, { publicAdjusterFirm: c.pa.firm, publicAdjusterFeePct: c.pa.feePct, publicAdjusterContractDate: ymd(ago(c.pa.contractAgo)),
+      publicAdjusterFeeCapPct: c.st === 'FL' ? capPct : 0, publicAdjusterFeeStatus: c.st !== 'FL' ? 'Not reviewed (non-Florida)' : c.pa.feePct > capPct ? 'Exceeds cap' : 'Within cap' });
+  }
+  if (c.investigator) flat['independentInvestigatorFirm'] = c.investigator;
+  if (c.pa || c.investigator) { flat['secondLevelReviewRequired'] = true; flat['secondLevelReviewStatus'] = c.stage === 'PS' || c.stage === 'PR' ? 'Pending claims manager review' : 'Completed'; }
+  // CRF-26A data points: Florida line of business, claim status and paid loss. NFIP (SFIP) claims are federal and are not reported to the OIR.
+  const privateFlood = c.lob === 'Flood' && /private flood/i.test(c.cause);
+  flat['crfLine'] = c.st !== 'FL' ? '' : c.lob === 'Homeowners' || c.lob === 'Renters' ? 'HO' : c.lob === 'Flood' ? (privateFlood ? 'PF' : '') : 'DW';
+  const open = c.stage !== 'DN' && c.stage !== 'CP';
+  const paidPct = c.stage === 'CP' ? 0.9 : c.stage === 'FS' ? 0.5 : c.stage === 'PR' && c.n % 2 ? 0.25 : 0;
+  const paid = Math.round(c.amount * paidPct);
+  flat['crfStatus'] = c.stage === 'DN' ? 'closed_no_payment' : c.stage === 'CP' ? 'closed_payment' : paid > 0 ? 'open_payment' : 'open_no_payment';
+  flat['crfClosedNoPaymentReason'] = c.stage === 'DN' ? 'exclusions_or_no_policy' : '';
+  flat['paidLossAmount'] = paid; flat['paidAlaeAmount'] = Math.round(paid * 0.06);
+  flat['incurredLossAmount'] = open ? Math.max(paid, Math.round(c.amount * 1.15)) : paid;
+  flat['crfDaysToClose'] = open ? 0 : Math.max(1, c.reportedAgo - 2);
+  flat['crfInAppraisal'] = c.flags?.includes('appraisal_demand_flag') ?? false;
+  flat['crfAttorneyRepresented'] = c.flags?.includes('attorney_initial_notice_flag') ?? false;
+  flat['crfWaitingOnContractors'] = open && (c.flags?.includes('contractor_referral_required_flag') ?? false);
+  flat['crfWindVsFlood'] = c.flags?.includes('disputed_cause_origin_flag') ?? false;
   for (const f of c.flags ?? []) flat[camel(f)] = 'present';
   for (const [k, v] of Object.entries(c.ov ?? {})) {
     const key = camel(k);
@@ -209,7 +245,7 @@ for (const c of CLAIMS) {
     policyInformation: { policyForm: c.form, floodZone: c.lob === 'Flood' ? (flat['sfhaFlag'] ? 'AE' : 'X') : '', coverageALimit: c.lob === 'Flood' ? 250000 : Math.round(c.amount * 4 / 1000) * 1000 + 150000 },
     claimInformation: { jurisdiction: c.st, claimSeverity: sev, severityScore: SEVSCORE[sev] },
     financialExposure: { buildingExposure: Number(flat['buildingLossAmount'] ?? flat['contractorEstimateAmount'] ?? c.amount), contentsExposure: Number(flat['contentsLossAmount'] ?? 0) },
-    property: { address: `${100 + c.n * 13} ${STREETS[c.n % STREETS.length]}, ${c.city}, ${c.st}`, county: c.county },
+    property: { address: `${100 + c.n * 13} ${STREETS[c.n % STREETS.length]}, ${c.city}, ${c.st} ${c.zip ?? ''}`.trim(), county: c.county, zip: c.zip ?? '' },
     assignment: { assignedAdjuster: adj, contractorName: '' },
   };
 
@@ -277,6 +313,7 @@ for (const c of CLAIMS) {
   }
 }
 put('claim_intake_records', records);
+put('cat_events', CAT_EVENTS.map((e) => ({ _id: oid('cat' + e.eventId), ...e, createdAt: dt(ago(21)), updatedAt: dt(ago(1)), __v: 0 })));
 put('claim_change_logs', changeLogs);
 put('claim_intakes', uploads.map((u, i) => ({ _id: oid('up' + u.lob), uploadId: u.uploadId, fileName: `${u.lob}-claims-demo.json`, uploadType: 'JSON', uploadedBy: 'Admin', uploadDate: dt(ago(35 - i)), status: 'Processed', totalClaims: 15, successCount: 15, failedCount: 0, validationResults: 'PASS', processingMessages: 'Processed 15 claim(s). All succeeded.', createdAt: dt(ago(35 - i)), updatedAt: dt(ago(35 - i)), __v: 0 })));
 put('claim_intake_audits', uploads.map((u, i) => ({ _id: oid('ua' + u.lob), uploadId: u.uploadId, action: 'UPLOAD', user: 'Admin', timestamp: dt(ago(35 - i)), status: 'Processed', remarks: 'JSON upload — 15 record(s)', __v: 0 })));

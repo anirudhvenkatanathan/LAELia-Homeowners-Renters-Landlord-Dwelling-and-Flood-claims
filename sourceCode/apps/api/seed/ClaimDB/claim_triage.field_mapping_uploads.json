@@ -10,11 +10,11 @@
     "uploadDate": {
       "$date": "2026-09-15T12:00:00.000Z"
     },
-    "totalRecords": 104,
+    "totalRecords": 105,
     "status": "Processed",
     "headers": "[\"Payload Fields\",\"Field Mapping\"]",
     "validationResults": "PASS",
-    "processingMessages": "Processed 104 record(s), 104 mapping(s).",
+    "processingMessages": "Processed 105 record(s), 105 mapping(s).",
     "createdAt": {
       "$date": "2026-09-15T12:00:00.000Z"
     },

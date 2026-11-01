@@ -13,7 +13,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-02T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -31,7 +31,7 @@
     "reason": "Closer to the loss location and faster on site",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-02T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -49,7 +49,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-02T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -67,7 +67,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-02T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -85,7 +85,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-02T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -103,7 +103,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-02T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -121,7 +121,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-02T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -139,7 +139,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-02T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -157,7 +157,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-02T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -175,7 +175,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-02T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -193,7 +193,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-02T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -211,7 +211,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-02T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -229,7 +229,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-02T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -247,7 +247,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-02T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -733,7 +733,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Sarah Mitchell",
     "updatedAt": {
-      "$date": "2026-10-07T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -751,13 +751,193 @@
     "reason": "Faster arrival time",
     "updatedBy": "Sarah Mitchell",
     "updatedAt": {
-      "$date": "2026-10-07T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "ad4bf3241aac41eb172d0b3a"
+      "$oid": "8d7bd3928e029c9d1c564e1c"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 7,
+    "claimNumber": "HO-2026-100007",
+    "type": "role",
+    "changedItem": "Cause & Origin Specialists",
+    "previousValue": "—",
+    "updatedValue": "Cause & Origin Specialists",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-14T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d6a33471a65bc3b966332527"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 7,
+    "claimNumber": "HO-2026-100007",
+    "type": "vendor",
+    "changedItem": "DDA Forensics",
+    "previousValue": "DDA Forensics",
+    "updatedValue": "DDA Forensics",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-14T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "b9e505cf3900c70f12f71c98"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 7,
+    "claimNumber": "HO-2026-100007",
+    "type": "role",
+    "changedItem": "Appraisers/Independent Adjusters",
+    "previousValue": "—",
+    "updatedValue": "Appraisers/Independent Adjusters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-14T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "82efe63670911f74bb65b90a"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 7,
+    "claimNumber": "HO-2026-100007",
+    "type": "vendor",
+    "changedItem": "Colonial Claims",
+    "previousValue": "Colonial Claims",
+    "updatedValue": "Colonial Claims",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-14T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "73e630b40d3d98f8dba5b749"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 7,
+    "claimNumber": "HO-2026-100007",
+    "type": "role",
+    "changedItem": "Independent Adjusters",
+    "previousValue": "—",
+    "updatedValue": "Independent Adjusters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-14T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "79f9c4699b3c5e0e3954cb17"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 7,
+    "claimNumber": "HO-2026-100007",
+    "type": "vendor",
+    "changedItem": "Colonial Claims",
+    "previousValue": "Colonial Claims",
+    "updatedValue": "Colonial Claims",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-14T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ab85d814926035233b63e190"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 7,
+    "claimNumber": "HO-2026-100007",
+    "type": "role",
+    "changedItem": "CAT Response",
+    "previousValue": "—",
+    "updatedValue": "CAT Response",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-14T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "2202c7d824792b5e8741858f"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 7,
+    "claimNumber": "HO-2026-100007",
+    "type": "vendor",
+    "changedItem": "Janney Roofing",
+    "previousValue": "Janney Roofing",
+    "updatedValue": "Janney Roofing",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-14T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e347bbe8672c4180ef04f4b9"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 7,
+    "claimNumber": "HO-2026-100007",
+    "type": "role",
+    "changedItem": "Repair Network Referral",
+    "previousValue": "—",
+    "updatedValue": "Repair Network Referral",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-14T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ae09d53c77a2ca850ac860f0"
+    },
+    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
+    "recordIndex": 7,
+    "claimNumber": "HO-2026-100007",
+    "type": "vendor",
+    "changedItem": "M6 Building Solutions",
+    "previousValue": "M6 Building Solutions",
+    "updatedValue": "M6 Building Solutions",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-10-14T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d11dc07738e189e665bb5b7d"
     },
     "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
     "recordIndex": 7,
@@ -769,13 +949,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Sarah Mitchell",
     "updatedAt": {
-      "$date": "2026-10-07T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "4bf47ca52c289b9b844538fe"
+      "$oid": "317a74e4e3063fd921ef0e0b"
     },
     "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
     "recordIndex": 7,
@@ -787,13 +967,13 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Sarah Mitchell",
     "updatedAt": {
-      "$date": "2026-10-07T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "118796455b63caa295b85b80"
+      "$oid": "e0206eddb628a5906098c7ba"
     },
     "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
     "recordIndex": 7,
@@ -805,13 +985,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Sarah Mitchell",
     "updatedAt": {
-      "$date": "2026-10-07T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "f7b7198406bceb3a1256b1da"
+      "$oid": "24083675032a0a23a2965c43"
     },
     "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
     "recordIndex": 7,
@@ -823,13 +1003,13 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Sarah Mitchell",
     "updatedAt": {
-      "$date": "2026-10-07T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "c71b799696b30370b24447d3"
+      "$oid": "4f77dc1097b33f9a2200f4ea"
     },
     "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
     "recordIndex": 7,
@@ -841,13 +1021,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Sarah Mitchell",
     "updatedAt": {
-      "$date": "2026-10-07T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "28c5bbce622c298314be7b38"
+      "$oid": "bec1d9679e5b41a62429c5b3"
     },
     "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
     "recordIndex": 7,
@@ -859,13 +1039,13 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Sarah Mitchell",
     "updatedAt": {
-      "$date": "2026-10-07T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "74e42b9da5edd150f051a734"
+      "$oid": "66866ced53f631b023aad6bf"
     },
     "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
     "recordIndex": 7,
@@ -877,13 +1057,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Sarah Mitchell",
     "updatedAt": {
-      "$date": "2026-10-07T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "6d4ba96bc9dc55c2d2fa1d61"
+      "$oid": "a8a8b193f72e63781f0766bb"
     },
     "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
     "recordIndex": 7,
@@ -895,7 +1075,7 @@
     "reason": "Rent loss needs validating",
     "updatedBy": "Sarah Mitchell",
     "updatedAt": {
-      "$date": "2026-10-07T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -1579,7 +1759,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-03T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -1597,7 +1777,7 @@
     "reason": "Faster arrival time",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-03T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -1615,7 +1795,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-03T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -1633,7 +1813,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-03T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -1651,7 +1831,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-03T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -1669,7 +1849,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-03T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -1687,7 +1867,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-03T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -1945,7 +2125,151 @@
   },
   {
     "_id": {
-      "$oid": "9cbf8316290c60d019c92b0e"
+      "$oid": "a3abfdbb4a84b565ebac879d"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 8,
+    "claimNumber": "RN-2026-100108",
+    "type": "role",
+    "changedItem": "Cause & Origin Specialists",
+    "previousValue": "—",
+    "updatedValue": "Cause & Origin Specialists",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "85d81a2596eb9120e1cb19dc"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 8,
+    "claimNumber": "RN-2026-100108",
+    "type": "vendor",
+    "changedItem": "Proclaim Engineering, Inc",
+    "previousValue": "DDA Forensics",
+    "updatedValue": "Proclaim Engineering, Inc",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6d87d3fe307f070f44c0cbb0"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 8,
+    "claimNumber": "RN-2026-100108",
+    "type": "role",
+    "changedItem": "Appraisers/Independent Adjusters",
+    "previousValue": "—",
+    "updatedValue": "Appraisers/Independent Adjusters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "8314301df74e7d768df5a342"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 8,
+    "claimNumber": "RN-2026-100108",
+    "type": "vendor",
+    "changedItem": "Colonial Claims",
+    "previousValue": "Colonial Claims",
+    "updatedValue": "Colonial Claims",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "9ea04afb2f00fa8192a0b08c"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 8,
+    "claimNumber": "RN-2026-100108",
+    "type": "role",
+    "changedItem": "Independent Adjusters",
+    "previousValue": "—",
+    "updatedValue": "Independent Adjusters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "2533e14d2d9837bf58bd4eaf"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 8,
+    "claimNumber": "RN-2026-100108",
+    "type": "vendor",
+    "changedItem": "Colonial Claims",
+    "previousValue": "Colonial Claims",
+    "updatedValue": "Colonial Claims",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "dff78fc2714513d013c6ed32"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 8,
+    "claimNumber": "RN-2026-100108",
+    "type": "role",
+    "changedItem": "CAT Response",
+    "previousValue": "—",
+    "updatedValue": "CAT Response",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "0ebb778ecc7e694a282b33f4"
+    },
+    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
+    "recordIndex": 8,
+    "claimNumber": "RN-2026-100108",
+    "type": "vendor",
+    "changedItem": "Janney Roofing",
+    "previousValue": "Janney Roofing",
+    "updatedValue": "Janney Roofing",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5e85f6184e80b1cbe078243f"
     },
     "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
     "recordIndex": 8,
@@ -1957,13 +2281,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-09-30T12:00:00.000Z"
+      "$date": "2026-10-16T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "6c7356a26570055e3a595f71"
+      "$oid": "443b382883275e074ad13cea"
     },
     "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
     "recordIndex": 8,
@@ -1972,16 +2296,16 @@
     "changedItem": "Gold Star Adjusters",
     "previousValue": "Gold Star Adjusters",
     "updatedValue": "Gold Star Adjusters",
-    "reason": "Closer to the loss location and faster on site",
+    "reason": "Vendor selection confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-09-30T12:00:00.000Z"
+      "$date": "2026-10-16T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "85425f9222a2345a84db9cac"
+      "$oid": "a4c7bf832dd350c0a3f7db10"
     },
     "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
     "recordIndex": 8,
@@ -1993,13 +2317,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-09-30T12:00:00.000Z"
+      "$date": "2026-10-16T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "676cef8184105cb38002c2bd"
+      "$oid": "77b14ade81e64b4926138fdd"
     },
     "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
     "recordIndex": 8,
@@ -2011,7 +2335,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-09-30T12:00:00.000Z"
+      "$date": "2026-10-16T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -2191,7 +2515,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-09-29T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -2209,7 +2533,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-09-29T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -2227,7 +2551,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-09-29T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -2245,7 +2569,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-09-29T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -2263,7 +2587,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-09-29T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -2281,7 +2605,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-09-29T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -2953,7 +3277,187 @@
   },
   {
     "_id": {
-      "$oid": "e065dfd9dddf54a8a8d605d0"
+      "$oid": "6e533f83a853d408d2765b0f"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 6,
+    "claimNumber": "LL-2026-100206",
+    "type": "role",
+    "changedItem": "Cause & Origin Specialists",
+    "previousValue": "—",
+    "updatedValue": "Cause & Origin Specialists",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "abe8ed1051248468375c2576"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 6,
+    "claimNumber": "LL-2026-100206",
+    "type": "vendor",
+    "changedItem": "Proclaim Engineering, Inc",
+    "previousValue": "DDA Forensics",
+    "updatedValue": "Proclaim Engineering, Inc",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a2be70f58960ff956065bb2f"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 6,
+    "claimNumber": "LL-2026-100206",
+    "type": "role",
+    "changedItem": "Appraisers/Independent Adjusters",
+    "previousValue": "—",
+    "updatedValue": "Appraisers/Independent Adjusters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "01281b1acb356e2fa4fa021c"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 6,
+    "claimNumber": "LL-2026-100206",
+    "type": "vendor",
+    "changedItem": "Colonial Claims",
+    "previousValue": "Colonial Claims",
+    "updatedValue": "Colonial Claims",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64cb5e461f97b58ea6e50b0a"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 6,
+    "claimNumber": "LL-2026-100206",
+    "type": "role",
+    "changedItem": "Independent Adjusters",
+    "previousValue": "—",
+    "updatedValue": "Independent Adjusters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "7504f69573b8b09416750366"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 6,
+    "claimNumber": "LL-2026-100206",
+    "type": "vendor",
+    "changedItem": "Colonial Claims",
+    "previousValue": "Colonial Claims",
+    "updatedValue": "Colonial Claims",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "0b66cd6fe7b1efd0169db948"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 6,
+    "claimNumber": "LL-2026-100206",
+    "type": "role",
+    "changedItem": "CAT Response",
+    "previousValue": "—",
+    "updatedValue": "CAT Response",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "fd91ce9af90bf05ff4b6e6ab"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 6,
+    "claimNumber": "LL-2026-100206",
+    "type": "vendor",
+    "changedItem": "Janney Roofing",
+    "previousValue": "Janney Roofing",
+    "updatedValue": "Janney Roofing",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "37579a1163dc417fd7f46d54"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 6,
+    "claimNumber": "LL-2026-100206",
+    "type": "role",
+    "changedItem": "Repair Network Referral",
+    "previousValue": "—",
+    "updatedValue": "Repair Network Referral",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "79645b969228040706f91a0b"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 6,
+    "claimNumber": "LL-2026-100206",
+    "type": "vendor",
+    "changedItem": "M6 Building Solutions",
+    "previousValue": "M6 Building Solutions",
+    "updatedValue": "M6 Building Solutions",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63ca48b00d8f18bb0c191965"
     },
     "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
     "recordIndex": 6,
@@ -2965,31 +3469,31 @@
     "reason": "Plan services confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-09-27T12:00:00.000Z"
+      "$date": "2026-10-17T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "30531f312f594bd92e95d289"
+      "$oid": "fb632b725955dd37e21d7726"
     },
     "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
     "recordIndex": 6,
     "claimNumber": "LL-2026-100206",
     "type": "vendor",
-    "changedItem": "Hi Low Roofing",
+    "changedItem": "M6 Building Solutions",
     "previousValue": "M6 Building Solutions",
-    "updatedValue": "Hi Low Roofing",
-    "reason": "Closer to the loss location and faster on site",
+    "updatedValue": "M6 Building Solutions",
+    "reason": "Vendor selection confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-09-27T12:00:00.000Z"
+      "$date": "2026-10-17T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "e6353a6468c638506d108189"
+      "$oid": "b0cc01b28a653b3e9fec58d4"
     },
     "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
     "recordIndex": 6,
@@ -3001,13 +3505,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-09-27T12:00:00.000Z"
+      "$date": "2026-10-17T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "90079eec6f2e653c29000c1b"
+      "$oid": "cbac829c87c379f9241d0224"
     },
     "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
     "recordIndex": 6,
@@ -3019,13 +3523,13 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-09-27T12:00:00.000Z"
+      "$date": "2026-10-17T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "37ef73416d4689a23e8ac114"
+      "$oid": "8b8197c783e327de24060eea"
     },
     "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
     "recordIndex": 6,
@@ -3037,13 +3541,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-09-27T12:00:00.000Z"
+      "$date": "2026-10-17T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "2a3dbaf7cdfa89bd68a845e0"
+      "$oid": "92fd2e491ad38699f05aefd4"
     },
     "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
     "recordIndex": 6,
@@ -3055,7 +3559,7 @@
     "reason": "Coverage position needs counsel",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-09-27T12:00:00.000Z"
+      "$date": "2026-10-17T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -3109,7 +3613,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-10-05T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -3127,7 +3631,7 @@
     "reason": "Closer to the loss location and faster on site",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-10-05T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -3145,7 +3649,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-10-05T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -3163,7 +3667,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-10-05T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -3181,7 +3685,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-10-05T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -3199,7 +3703,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-10-05T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -3217,7 +3721,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-10-05T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -3235,7 +3739,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-10-05T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -3253,7 +3757,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-10-05T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -3271,7 +3775,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-10-05T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -3289,7 +3793,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-10-05T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -3307,7 +3811,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-10-05T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -3325,7 +3829,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-10-05T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -3343,7 +3847,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-10-05T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -3739,7 +4243,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-09-30T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -3757,13 +4261,49 @@
     "reason": "Faster arrival time",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-09-30T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "a1c5dd4be0afccc7d58fa28d"
+      "$oid": "251bc8b6ec4de493682f1df9"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 4,
+    "claimNumber": "DW-2026-100304",
+    "type": "role",
+    "changedItem": "Appraisers/Independent Adjusters",
+    "previousValue": "—",
+    "updatedValue": "Appraisers/Independent Adjusters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-14T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a3d8bc17b2b64a9d6ebd49a7"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 4,
+    "claimNumber": "DW-2026-100304",
+    "type": "vendor",
+    "changedItem": "Colonial Claims",
+    "previousValue": "Colonial Claims",
+    "updatedValue": "Colonial Claims",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-14T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "b783b21315cafaa1c75fbb0e"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 4,
@@ -3775,13 +4315,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-09-30T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "84493d980fbc66b6a597df7c"
+      "$oid": "ad54bdebf9ab65ddaa03dc9c"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 4,
@@ -3793,13 +4333,13 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-09-30T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "53c237a60144ba7af53e0656"
+      "$oid": "dbe66ab5731681546fe7ef53"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 4,
@@ -3811,13 +4351,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-09-30T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "3bb78ccd3551670fb9aed33d"
+      "$oid": "ac71d2c69717c2d808f735a1"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 4,
@@ -3829,13 +4369,49 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-09-30T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "dacb6cbd686d14b8d6ae202f"
+      "$oid": "348dd27cbedca5c1fd3c979e"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 4,
+    "claimNumber": "DW-2026-100304",
+    "type": "role",
+    "changedItem": "Independent Adjusters",
+    "previousValue": "—",
+    "updatedValue": "Independent Adjusters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-14T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "50e3df704dd125fd7f46edac"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 4,
+    "claimNumber": "DW-2026-100304",
+    "type": "vendor",
+    "changedItem": "Colonial Claims",
+    "previousValue": "Colonial Claims",
+    "updatedValue": "Colonial Claims",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-14T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "999521b3c0ffffa8b3f7ecda"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 4,
@@ -3847,13 +4423,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-09-30T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "243e7977f2c34c84fecae4d2"
+      "$oid": "00db8b0df6a7760c7cae0f95"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 4,
@@ -3865,13 +4441,49 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-09-30T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "793515462759c10216626a06"
+      "$oid": "dc00b354dc1161a300972bfa"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 4,
+    "claimNumber": "DW-2026-100304",
+    "type": "role",
+    "changedItem": "Repair Network Referral",
+    "previousValue": "—",
+    "updatedValue": "Repair Network Referral",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-14T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "76efc91bb684dbe5c587b260"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 4,
+    "claimNumber": "DW-2026-100304",
+    "type": "vendor",
+    "changedItem": "M6 Building Solutions",
+    "previousValue": "M6 Building Solutions",
+    "updatedValue": "M6 Building Solutions",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-14T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d4c44d2c90b2484110393e42"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 4,
@@ -3883,13 +4495,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-09-30T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "cad8b6e727a1c27eebb42835"
+      "$oid": "4c86ac1c4d4790ccdf4a2bb3"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 4,
@@ -3901,13 +4513,13 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-09-30T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "a0e73ad453fe8b10e850f8fb"
+      "$oid": "c218fd31f1b9c110ca6b4f52"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 4,
@@ -3919,13 +4531,49 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-09-30T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "a25f650d8fe540d6666c6a87"
+      "$oid": "c52913c2bfcc94bacbe55c65"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 5,
+    "claimNumber": "DW-2026-100305",
+    "type": "role",
+    "changedItem": "Cause & Origin Specialists",
+    "previousValue": "—",
+    "updatedValue": "Cause & Origin Specialists",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "507d0f22e6dd5bf2962dea2d"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 5,
+    "claimNumber": "DW-2026-100305",
+    "type": "vendor",
+    "changedItem": "Proclaim Engineering, Inc",
+    "previousValue": "DDA Forensics",
+    "updatedValue": "Proclaim Engineering, Inc",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "1967290332dbadbbf01cb13c"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 5,
@@ -3943,7 +4591,7 @@
   },
   {
     "_id": {
-      "$oid": "34c812a9ef106d9edee22b95"
+      "$oid": "d1c10741a0f8972cd75a0ecf"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 5,
@@ -3952,7 +4600,7 @@
     "changedItem": "Colonial Claims",
     "previousValue": "Colonial Claims",
     "updatedValue": "Colonial Claims",
-    "reason": "Closer to the loss location and faster on site",
+    "reason": "Vendor selection confirmed",
     "updatedBy": "Sarah Mitchell",
     "updatedAt": {
       "$date": "2026-09-20T12:00:00.000Z"
@@ -3961,7 +4609,7 @@
   },
   {
     "_id": {
-      "$oid": "a7ba474eb6bef3dc3ed66a34"
+      "$oid": "e3a7f8674f39903839beeae5"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 5,
@@ -3979,7 +4627,7 @@
   },
   {
     "_id": {
-      "$oid": "dc4c32ab95f47d4236cc7b2d"
+      "$oid": "4c73816ac2d4824b5f65b494"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 5,
@@ -3997,15 +4645,15 @@
   },
   {
     "_id": {
-      "$oid": "501e6790b69f838bb90ab5e2"
+      "$oid": "7dc4d01e200169e2f2ee5548"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 5,
     "claimNumber": "DW-2026-100305",
     "type": "role",
-    "changedItem": "Estimate & Invoice Review",
+    "changedItem": "Independent Adjusters",
     "previousValue": "—",
-    "updatedValue": "Estimate & Invoice Review",
+    "updatedValue": "Independent Adjusters",
     "reason": "Plan services confirmed",
     "updatedBy": "Sarah Mitchell",
     "updatedAt": {
@@ -4015,7 +4663,43 @@
   },
   {
     "_id": {
-      "$oid": "572529cd1c4afb23980918e9"
+      "$oid": "deaf43eab00036933b9c5359"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 5,
+    "claimNumber": "DW-2026-100305",
+    "type": "vendor",
+    "changedItem": "Colonial Claims",
+    "previousValue": "Colonial Claims",
+    "updatedValue": "Colonial Claims",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ff3b60ae44a115c6acdbf0bc"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 5,
+    "claimNumber": "DW-2026-100305",
+    "type": "role",
+    "changedItem": "Repair Network Referral",
+    "previousValue": "—",
+    "updatedValue": "Repair Network Referral",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "02940de44834b796742b2ebf"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 5,
@@ -4033,7 +4717,43 @@
   },
   {
     "_id": {
-      "$oid": "ddf818285d382f216b707f9d"
+      "$oid": "9b01f4b2f15ff74fc7d06df0"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 5,
+    "claimNumber": "DW-2026-100305",
+    "type": "role",
+    "changedItem": "Estimate & Invoice Review",
+    "previousValue": "—",
+    "updatedValue": "Estimate & Invoice Review",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "9b3e3561dd72ec4b799e43b4"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 5,
+    "claimNumber": "DW-2026-100305",
+    "type": "vendor",
+    "changedItem": "M6 Building Solutions",
+    "previousValue": "M6 Building Solutions",
+    "updatedValue": "M6 Building Solutions",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e456146e91dda5493973908a"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 5,
@@ -4051,7 +4771,7 @@
   },
   {
     "_id": {
-      "$oid": "c86600499d1b491166297b93"
+      "$oid": "89a2114efae2e9b9af25b101"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 5,
@@ -4060,6 +4780,42 @@
     "changedItem": "GrayRobinson",
     "previousValue": "GrayRobinson",
     "updatedValue": "GrayRobinson",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "9632531dcead9ecda6c03606"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 5,
+    "claimNumber": "DW-2026-100305",
+    "type": "role",
+    "changedItem": "Public Adjuster / Appraisal",
+    "previousValue": "—",
+    "updatedValue": "Public Adjuster / Appraisal",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Sarah Mitchell",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "4954d747abd33266ef71dfb7"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 5,
+    "claimNumber": "DW-2026-100305",
+    "type": "vendor",
+    "changedItem": "Gold Star Adjusters",
+    "previousValue": "Gold Star Adjusters",
+    "updatedValue": "Gold Star Adjusters",
     "reason": "Vendor selection confirmed",
     "updatedBy": "Sarah Mitchell",
     "updatedAt": {
@@ -4213,7 +4969,151 @@
   },
   {
     "_id": {
-      "$oid": "2a08d5383243cff8c5ba2c96"
+      "$oid": "22932d67b426437e8ac2839c"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 10,
+    "claimNumber": "DW-2026-100310",
+    "type": "role",
+    "changedItem": "Cause & Origin Specialists",
+    "previousValue": "—",
+    "updatedValue": "Cause & Origin Specialists",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-25T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "930509f15458be4483f02b8f"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 10,
+    "claimNumber": "DW-2026-100310",
+    "type": "vendor",
+    "changedItem": "Proclaim Engineering, Inc",
+    "previousValue": "DDA Forensics",
+    "updatedValue": "Proclaim Engineering, Inc",
+    "reason": "Closer to the loss location and faster on site",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-25T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "fdb74238561ad30b09e398c9"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 10,
+    "claimNumber": "DW-2026-100310",
+    "type": "role",
+    "changedItem": "Appraisers/Independent Adjusters",
+    "previousValue": "—",
+    "updatedValue": "Appraisers/Independent Adjusters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-25T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "01cc95646c5799ec6d63563f"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 10,
+    "claimNumber": "DW-2026-100310",
+    "type": "vendor",
+    "changedItem": "Colonial Claims",
+    "previousValue": "Colonial Claims",
+    "updatedValue": "Colonial Claims",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-25T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "c4d3e28320993a872d7fa571"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 10,
+    "claimNumber": "DW-2026-100310",
+    "type": "role",
+    "changedItem": "Independent Adjusters",
+    "previousValue": "—",
+    "updatedValue": "Independent Adjusters",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-25T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "53f2bf2f3402da3cdb1319f4"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 10,
+    "claimNumber": "DW-2026-100310",
+    "type": "vendor",
+    "changedItem": "Colonial Claims",
+    "previousValue": "Colonial Claims",
+    "updatedValue": "Colonial Claims",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-25T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "922ff532c4940c96d6f829d5"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 10,
+    "claimNumber": "DW-2026-100310",
+    "type": "role",
+    "changedItem": "Repair Network Referral",
+    "previousValue": "—",
+    "updatedValue": "Repair Network Referral",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-25T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "4135970976c8e589407e3ea8"
+    },
+    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
+    "recordIndex": 10,
+    "claimNumber": "DW-2026-100310",
+    "type": "vendor",
+    "changedItem": "M6 Building Solutions",
+    "previousValue": "M6 Building Solutions",
+    "updatedValue": "M6 Building Solutions",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-09-25T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ad7138af387e2f293c17db88"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 10,
@@ -4231,16 +5131,16 @@
   },
   {
     "_id": {
-      "$oid": "fcecab3e4d0820ac0d3d3dd1"
+      "$oid": "dc68361d78307e639e09b07b"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 10,
     "claimNumber": "DW-2026-100310",
     "type": "vendor",
-    "changedItem": "Hi Low Roofing",
+    "changedItem": "M6 Building Solutions",
     "previousValue": "M6 Building Solutions",
-    "updatedValue": "Hi Low Roofing",
-    "reason": "Closer to the loss location and faster on site",
+    "updatedValue": "M6 Building Solutions",
+    "reason": "Vendor selection confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
       "$date": "2026-09-25T12:00:00.000Z"
@@ -4249,7 +5149,7 @@
   },
   {
     "_id": {
-      "$oid": "0644abfe9bd4ba5d529f7cc4"
+      "$oid": "963b0205043253a2d2fc5231"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 10,
@@ -4267,7 +5167,7 @@
   },
   {
     "_id": {
-      "$oid": "c497030d8e24db03f7435536"
+      "$oid": "8aa79d6adbe792cc8cea4c1b"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 10,
@@ -4285,7 +5185,7 @@
   },
   {
     "_id": {
-      "$oid": "8a78e7d08e0dea2f6b59f2ae"
+      "$oid": "9ffc8fea8035a5b370ec91db"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 10,
@@ -4303,7 +5203,7 @@
   },
   {
     "_id": {
-      "$oid": "7c1e91ce02bb5835188ac235"
+      "$oid": "71dbb5c28edbb1413991f404"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 10,
@@ -4693,7 +5593,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-10-06T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -4711,13 +5611,49 @@
     "reason": "Closer to the loss location and faster on site",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-10-06T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "2723def1a8b79b310f66c152"
+      "$oid": "874ebb6900eb90450e7c0852"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 1,
+    "claimNumber": "FL-2026-100401",
+    "type": "role",
+    "changedItem": "CAT Response",
+    "previousValue": "—",
+    "updatedValue": "CAT Response",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-14T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5b48d3f167ac734cac771850"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 1,
+    "claimNumber": "FL-2026-100401",
+    "type": "vendor",
+    "changedItem": "Janney Roofing",
+    "previousValue": "Janney Roofing",
+    "updatedValue": "Janney Roofing",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-14T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6e42fcc92ea376f465aef534"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 1,
@@ -4729,13 +5665,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-10-06T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "64863f3c3b169f2779c860b1"
+      "$oid": "995c962c65e264c1f79d057d"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 1,
@@ -4747,13 +5683,13 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-10-06T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "f8c42322a0e89c7685089494"
+      "$oid": "c22116cb536646f7f4573dbb"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 1,
@@ -4765,13 +5701,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-10-06T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "905abf24cea6cd03b477c76a"
+      "$oid": "c985bc3216271f384bfc9bfc"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 1,
@@ -4783,13 +5719,13 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-10-06T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "d5f23987f253b253ca36f46d"
+      "$oid": "ae75c035b242241f2fceaf50"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 1,
@@ -4801,13 +5737,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-10-06T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "09a69822d77c63a9eae1ca55"
+      "$oid": "6c25b254dc40edea414a1464"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 1,
@@ -4819,13 +5755,13 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-10-06T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "a25f130873cb89e6d28c3640"
+      "$oid": "943d375e118a53cfcb4f13b4"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 1,
@@ -4837,13 +5773,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-10-06T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "5e7c814723d47a3d5912e021"
+      "$oid": "81a2940fe3745067e60635fa"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 1,
@@ -4855,7 +5791,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-10-06T12:00:00.000Z"
+      "$date": "2026-10-14T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -4873,7 +5809,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-01T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -4891,7 +5827,7 @@
     "reason": "Faster arrival time",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-01T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -4909,7 +5845,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-01T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -4927,7 +5863,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-01T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -4945,7 +5881,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-01T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -4963,7 +5899,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-01T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -4981,7 +5917,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-01T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -4999,7 +5935,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-01T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -5017,7 +5953,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-01T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -5035,7 +5971,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-01T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -5053,7 +5989,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-01T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -5071,7 +6007,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-01T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -5089,7 +6025,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-10-01T12:00:00.000Z"
+      "$date": "2026-10-13T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -5359,7 +6295,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-10-08T12:00:00.000Z"
+      "$date": "2026-10-16T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -5377,13 +6313,49 @@
     "reason": "Faster arrival time",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-10-08T12:00:00.000Z"
+      "$date": "2026-10-16T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "8d1e7c7ea468ee148bf3f2d9"
+      "$oid": "9e2aed4984ffc959c48de4eb"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 7,
+    "claimNumber": "FL-2026-100407",
+    "type": "role",
+    "changedItem": "CAT Response",
+    "previousValue": "—",
+    "updatedValue": "CAT Response",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6f059bfe711c9b1c46ef224c"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 7,
+    "claimNumber": "FL-2026-100407",
+    "type": "vendor",
+    "changedItem": "Janney Roofing",
+    "previousValue": "Janney Roofing",
+    "updatedValue": "Janney Roofing",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Priya Nair",
+    "updatedAt": {
+      "$date": "2026-10-16T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5354f2698607f29f31c296aa"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 7,
@@ -5395,13 +6367,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-10-08T12:00:00.000Z"
+      "$date": "2026-10-16T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "bb510ec39ec515376dabe2e4"
+      "$oid": "1aa00d6e5b7180dfb4dfa65b"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 7,
@@ -5413,13 +6385,13 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-10-08T12:00:00.000Z"
+      "$date": "2026-10-16T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "374e37e392a65b1ee1efb6c9"
+      "$oid": "1950d2d02387fbb93815f1a3"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 7,
@@ -5431,13 +6403,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-10-08T12:00:00.000Z"
+      "$date": "2026-10-16T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "f6964a28178ccdaa71ddedc7"
+      "$oid": "aec1db6a158d6c728dc4d6b5"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 7,
@@ -5449,7 +6421,7 @@
     "reason": "Rent loss needs validating",
     "updatedBy": "Priya Nair",
     "updatedAt": {
-      "$date": "2026-10-08T12:00:00.000Z"
+      "$date": "2026-10-16T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -5503,7 +6475,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-09-28T12:00:00.000Z"
+      "$date": "2026-10-15T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -5521,13 +6493,49 @@
     "reason": "Closer to the loss location and faster on site",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-09-28T12:00:00.000Z"
+      "$date": "2026-10-15T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "11b6574fc0905edc8b4e1619"
+      "$oid": "8c7a834e898f11cd5699ffc2"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 9,
+    "claimNumber": "FL-2026-100409",
+    "type": "role",
+    "changedItem": "CAT Response",
+    "previousValue": "—",
+    "updatedValue": "CAT Response",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-15T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d130aee48bedb614ce2829d0"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 9,
+    "claimNumber": "FL-2026-100409",
+    "type": "vendor",
+    "changedItem": "Janney Roofing",
+    "previousValue": "Janney Roofing",
+    "updatedValue": "Janney Roofing",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2026-10-15T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "42bea1d9dba0673bb9574649"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 9,
@@ -5539,13 +6547,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-09-28T12:00:00.000Z"
+      "$date": "2026-10-15T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "54771b6fbf0f88da3ccd3328"
+      "$oid": "81eb1e228a7efda939a222d2"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 9,
@@ -5557,13 +6565,13 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-09-28T12:00:00.000Z"
+      "$date": "2026-10-15T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "3136246eaff72eacb128ef0a"
+      "$oid": "12da7ac410a8906df2b9be71"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 9,
@@ -5575,13 +6583,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-09-28T12:00:00.000Z"
+      "$date": "2026-10-15T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "a7c7333f6ae66e8bc174c071"
+      "$oid": "b1814936651a37c64dc172e9"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 9,
@@ -5593,13 +6601,13 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-09-28T12:00:00.000Z"
+      "$date": "2026-10-15T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "e8f3abfd2f22609226958f84"
+      "$oid": "36d07d70cd0c9de50c8f3937"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 9,
@@ -5611,13 +6619,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-09-28T12:00:00.000Z"
+      "$date": "2026-10-15T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "b7c6a398d776851d753d5d1e"
+      "$oid": "15d6bda59fc95bbd52af16a6"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 9,
@@ -5629,13 +6637,13 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-09-28T12:00:00.000Z"
+      "$date": "2026-10-15T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "1f75ec0e378e222a11d0090a"
+      "$oid": "69d46257b4e7fe30bc0f5b95"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 9,
@@ -5647,13 +6655,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-09-28T12:00:00.000Z"
+      "$date": "2026-10-15T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "b1069046ef75d48a2255442d"
+      "$oid": "f650768be904537abd152631"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 9,
@@ -5665,13 +6673,13 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-09-28T12:00:00.000Z"
+      "$date": "2026-10-15T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "fed997d9562efefb49500e97"
+      "$oid": "dc54432ce365f16629e75a6b"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 9,
@@ -5683,13 +6691,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-09-28T12:00:00.000Z"
+      "$date": "2026-10-15T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "f2a17923da8e51b6d124b64a"
+      "$oid": "35aea2e845fd85490108a9ad"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 9,
@@ -5701,13 +6709,13 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-09-28T12:00:00.000Z"
+      "$date": "2026-10-15T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "065f720e36248ead1d5c289e"
+      "$oid": "f24565278d2b7e20b9f78b58"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 9,
@@ -5719,13 +6727,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-09-28T12:00:00.000Z"
+      "$date": "2026-10-15T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "61196b4dae69dc499a2601a2"
+      "$oid": "b4129b36c522b8706d395482"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 9,
@@ -5737,7 +6745,7 @@
     "reason": "Coverage position needs counsel",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-09-28T12:00:00.000Z"
+      "$date": "2026-10-15T12:00:00.000Z"
     },
     "__v": 0
   },

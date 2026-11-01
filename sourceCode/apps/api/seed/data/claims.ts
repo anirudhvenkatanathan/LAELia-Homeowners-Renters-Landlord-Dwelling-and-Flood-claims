@@ -1,6 +1,7 @@
 // 75 demo claims (15 per line) for a Florida carrier. All people, addresses and
 // amounts are invented. Reference "today" for ages and clocks: 2026-10-30.
 import type { LineOfBusiness } from '../../utils/lineOfBusiness';
+import { ISAIAS_CLAIMS, EDOUARD_CLAIMS, PUBLIC_ADJUSTERS, INVESTIGATORS, ZIPS } from './cat';
 
 export type Stage =
   | 'PS'   // Pending Selection — adjuster has not chosen providers yet
@@ -26,6 +27,10 @@ export interface ClaimSpec {
   ov?: Record<string, string | number>;   // overrides ('' removes a default)
   sev?: 'low' | 'moderate' | 'high' | 'catastrophic';
   st: string;               // state code, default FL
+  zip?: string;
+  catEventId?: string;      // tied to a catastrophe event (loss date and county inside the event window)
+  pa?: { firm: string; feePct: number; contractAgo: number };
+  investigator?: string;
 }
 
 type Tuple = [string, string, string, string, string, string[], number, number, number, Stage, string[]?, Record<string, string | number>?, ClaimSpec['sev']?];
@@ -224,7 +229,19 @@ const MOVES: Record<string, [string, string, string]> = {
 // Injury claims (guest or tenant hurt on the property) feed the Medical Management / Rehab service.
 const INJURY = new Set(['Homeowners:1', 'Homeowners:6', 'Homeowners:11', 'Renters:2', 'Renters:9', 'Landlord:2', 'Landlord:7']);
 export const CLAIMS: ClaimSpec[] = BASE_CLAIMS.map((c) => {
-  const m = MOVES[`${c.lob}:${c.n}`];
-  const base = m ? { ...c, city: m[0], county: m[1], st: m[2] } : c;
-  return INJURY.has(`${c.lob}:${c.n}`) ? { ...base, flags: [...(base.flags ?? []), 'bodily_injury_flag'] } : base;
+  const key = `${c.lob}:${c.n}`;
+  const m = MOVES[key];
+  let out: ClaimSpec = m ? { ...c, city: m[0], county: m[1], st: m[2] } : { ...c };
+  const ev = ISAIAS_CLAIMS[key] ? ['CAT-2026-ISAIAS', ISAIAS_CLAIMS[key]] as const : EDOUARD_CLAIMS[key] ? ['CAT-2026-EDOUARD', EDOUARD_CLAIMS[key]] as const : undefined;
+  if (ev) {
+    const [id, t] = ev;
+    out = { ...out, city: t[0], county: t[1], lossAgo: t[2], reportedAgo: t[3], cause: t[4], catEventId: id, st: id === 'CAT-2026-EDOUARD' ? 'TX' : 'FL',
+      flags: [...new Set([...(out.flags ?? []), 'cat_event_flag'])] };
+  }
+  const pa = PUBLIC_ADJUSTERS[key];
+  if (pa) out = { ...out, pa, flags: [...new Set([...(out.flags ?? []), 'public_adjuster_flag'])] };
+  const inv = INVESTIGATORS[key];
+  if (inv) out = { ...out, investigator: inv, flags: [...new Set([...(out.flags ?? []), 'independent_investigator_flag'])] };
+  if (INJURY.has(key)) out = { ...out, flags: [...(out.flags ?? []), 'bodily_injury_flag'] };
+  return { ...out, zip: ZIPS[out.city] ?? '' };
 });

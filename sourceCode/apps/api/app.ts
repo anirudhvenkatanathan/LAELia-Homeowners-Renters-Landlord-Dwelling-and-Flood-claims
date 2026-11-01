@@ -15,6 +15,7 @@ import aiSummaryRoutes          from './routes/aiSummaryRoutes';
 import kpiMetricsRoutes         from './routes/kpiMetricsRoutes';
 import vendorServiceRequestRoutes from './routes/vendorServiceRequestRoutes';
 import activeVendorRoutes         from './routes/activeVendorRoutes';
+import complianceRoutes           from './routes/complianceRoutes';
 
 /**
  * Builds the Express app (REST + GraphQL). Pure construction: it does not connect to
@@ -57,6 +58,7 @@ export async function createApp(): Promise<express.Express> {
   app.use('/api/admin/kpi-metrics',  kpiMetricsRoutes);
   app.use('/api/vendor-service-requests', vendorServiceRequestRoutes);
   app.use('/api/vendors/active',          activeVendorRoutes);
+  app.use('/api/compliance',              complianceRoutes);
 
   // Apollo Server (GraphQL)
   const server = new ApolloServer({

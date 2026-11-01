@@ -103,6 +103,16 @@ export interface IndividualClaimRecord {
   contentsExposure?:       string;
   propertyAddress?:          string;
   assignedAdjuster?:      string;
+  catNumber?: string;
+  catEventName?: string;
+  publicAdjusterFirm?: string;
+  publicAdjusterFeePct?: string;
+  publicAdjusterFeeCapPct?: string;
+  publicAdjusterFeeStatus?: string;
+  independentInvestigatorFirm?: string;
+  secondLevelReviewRequired?: string;
+  secondLevelReviewStatus?: string;
+
   contractorName?:       string;
 }
 
@@ -127,6 +137,9 @@ export interface VendorOption {
   companyName:  string;
   rating:       number;
   boostApplied?: boolean;
+  capacity?:          number;
+  activeAssignments?: number;
+  utilizationPct?:    number;
 }
 
 export interface ClaimChangeLogEntry {

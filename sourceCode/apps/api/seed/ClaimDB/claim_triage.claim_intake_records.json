@@ -7,8 +7,8 @@
     "policyNumber": "POL-HO3-310037",
     "insuredName": "Maria Santos",
     "claimType": "HO3",
-    "lossDate": "2026-09-27",
-    "reportedDate": "2026-09-29",
+    "lossDate": "2026-10-09",
+    "reportedDate": "2026-10-10",
     "claimAmount": "86000",
     "claimStatus": "Active",
     "validationStatus": "Passed",
@@ -20,10 +20,26 @@
     "statusIntervalDays": 10,
     "totalReserveAmount": 98900,
     "potentialRecoveryAmount": 0,
-    "daysSinceLoss": 33,
-    "daysSinceNotice": 31,
+    "daysSinceLoss": 21,
+    "daysSinceNotice": 20,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "catEventId": "CAT-2026-ISAIAS",
+    "catNumber": "CAT-2026-ISAIAS",
+    "catEventName": "Hurricane Isaias",
+    "lossCounty": "Escambia",
+    "lossZip": "32502",
+    "crfLine": "HO",
+    "crfStatus": "open_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 21500,
+    "paidAlaeAmount": 1290,
+    "incurredLossAmount": 98900,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": true,
+    "crfWindVsFlood": false,
     "catEventFlag": "present",
     "windHailFlag": "present",
     "roofDamageFlag": "present",
@@ -33,13 +49,13 @@
     "roofAgeYears": 24,
     "contractorEstimateAmount": 64000,
     "lossInformation": {
-      "causeOfLoss": "Hurricane wind and rain damage",
+      "causeOfLoss": "Hurricane Isaias wind and rain damage",
       "damagedAreas": [
         "Roof",
         "Windows",
         "Interior"
       ],
-      "lossDate": "2026-09-27"
+      "lossDate": "2026-10-09"
     },
     "policyInformation": {
       "policyForm": "HO3",
@@ -56,8 +72,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "113 Palm Ave, Cape Coral, FL",
-      "county": "Lee"
+      "address": "113 Palm Ave, Pensacola, FL 32502",
+      "county": "Escambia",
+      "zip": "32502"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -104,7 +121,7 @@
         "selectedVendor": "Kruger Property Solutions",
         "status": "Pending Review",
         "confirmedBy": "Derek Chan",
-        "confirmedAt": "2026-10-02T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "_id": {
           "$oid": "3fe6baadc862844fdeebbebc"
         },
@@ -118,7 +135,7 @@
         "selectedVendor": "Janney Roofing",
         "status": "Pending Review",
         "confirmedBy": "Derek Chan",
-        "confirmedAt": "2026-10-02T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "_id": {
           "$oid": "ebeaa53670b57e5b8dcf6c7d"
         }
@@ -131,7 +148,7 @@
         "selectedVendor": "M6 Building Solutions",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
-        "confirmedAt": "2026-10-02T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "_id": {
           "$oid": "a129e6e84b1b984a106ea106"
         }
@@ -144,7 +161,7 @@
         "selectedVendor": "M6 Building Solutions",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
-        "confirmedAt": "2026-10-02T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "_id": {
           "$oid": "0153678d9ba6c7fc3a9c2011"
         }
@@ -157,7 +174,7 @@
         "selectedVendor": "M6 Building Solutions",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
-        "confirmedAt": "2026-10-02T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "_id": {
           "$oid": "3c92c5233ea9e1f3515b7342"
         }
@@ -170,7 +187,7 @@
         "selectedVendor": "CorVel Corporation",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
-        "confirmedAt": "2026-10-02T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "_id": {
           "$oid": "822bb12e7c6f9e2ca529f929"
         }
@@ -183,7 +200,7 @@
         "selectedVendor": "ALE Solutions",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
-        "confirmedAt": "2026-10-02T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "_id": {
           "$oid": "446fc400bc32914bf54b9e54"
         }
@@ -201,7 +218,7 @@
     "servicesTriggered": 7,
     "__v": 0,
     "adjusterSubmittedBy": "Derek Chan",
-    "adjusterSubmittedAt": "2026-10-02T12:00:00.000Z",
+    "adjusterSubmittedAt": "2026-10-13T12:00:00.000Z",
     "adjusterComments": "Closer to the loss location and faster on site"
   },
   {
@@ -229,6 +246,19 @@
     "daysSinceNotice": 11,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Harris",
+    "lossZip": "77002",
+    "crfLine": "",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 16330,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": true,
+    "crfWindVsFlood": false,
     "structuralDryingRequiredFlag": "present",
     "contractorReferralRequiredFlag": "present",
     "contractorEstimateAmount": 11800,
@@ -255,8 +285,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "126 Cypress Way, Houston, TX",
-      "county": "Harris"
+      "address": "126 Cypress Way, Houston, TX 77002",
+      "county": "Harris",
+      "zip": "77002"
     },
     "assignment": {
       "assignedAdjuster": "Priya Nair",
@@ -310,6 +341,19 @@
     "daysSinceNotice": 20,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Hillsborough",
+    "lossZip": "33602",
+    "crfLine": "HO",
+    "crfStatus": "open_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 14500,
+    "paidAlaeAmount": 870,
+    "incurredLossAmount": 66700,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "smokeOdorFlag": "present",
     "contentsCleaningRequiredFlag": "present",
     "sceneInvestigationRequiredFlag": "present",
@@ -340,8 +384,9 @@
       "contentsExposure": 31000
     },
     "property": {
-      "address": "139 Bayshore Dr, Tampa, FL",
-      "county": "Hillsborough"
+      "address": "139 Bayshore Dr, Tampa, FL 33602",
+      "county": "Hillsborough",
+      "zip": "33602"
     },
     "assignment": {
       "assignedAdjuster": "Sarah Mitchell",
@@ -545,6 +590,19 @@
     "daysSinceNotice": 8,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Fulton",
+    "lossZip": "30303",
+    "crfLine": "",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 8740,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "policeReportRequiredFlag": "present",
     "contentsValuationDisputeFlag": "present",
     "contentsLossAmount": 7600,
@@ -571,8 +629,9 @@
       "contentsExposure": 7600
     },
     "property": {
-      "address": "152 Magnolia St, Atlanta, GA",
-      "county": "Fulton"
+      "address": "152 Magnolia St, Atlanta, GA 30303",
+      "county": "Fulton",
+      "zip": "30303"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -624,10 +683,31 @@
     "daysSinceNotice": 17,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Miami-Dade",
+    "lossZip": "33130",
+    "publicAdjusterFirm": "Biscayne Public Adjusting",
+    "publicAdjusterFeePct": 20,
+    "publicAdjusterContractDate": "2026-10-16",
+    "publicAdjusterFeeCapPct": 20,
+    "publicAdjusterFeeStatus": "Within cap",
+    "secondLevelReviewRequired": true,
+    "secondLevelReviewStatus": "Pending claims manager review",
+    "crfLine": "HO",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 11270,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": true,
     "structuralDryingRequiredFlag": "present",
     "liabilityEvidenceFlag": "present",
     "disputedCauseOriginFlag": "present",
     "multipleEntitiesJobsiteFlag": "present",
+    "publicAdjusterFlag": "present",
     "contractorEstimateAmount": 3200,
     "lossInformation": {
       "causeOfLoss": "Water intrusion from unit above",
@@ -652,8 +732,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "165 Gulf Breeze Pkwy, Miami, FL",
-      "county": "Miami-Dade"
+      "address": "165 Gulf Breeze Pkwy, Miami, FL 33130",
+      "county": "Miami-Dade",
+      "zip": "33130"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -663,13 +744,23 @@
     "recordIndex": 5,
     "planServices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
+      "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
+      "d2329338-efe4-49c4-af73-bae9a39c55cb",
       "de2a54b5-1dab-48f6-aafe-09ab14d462ec",
-      "558e9abc-e33d-46fc-a519-839fafb746eb"
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+      "558e9abc-e33d-46fc-a519-839fafb746eb",
+      "43017e2f-5a5a-418a-a972-f10cef277c2f",
+      "5a3693f8-0fc6-4985-ae83-37bfe5ce7235"
     ],
     "existingplanservices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
+      "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
+      "d2329338-efe4-49c4-af73-bae9a39c55cb",
       "de2a54b5-1dab-48f6-aafe-09ab14d462ec",
-      "558e9abc-e33d-46fc-a519-839fafb746eb"
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+      "558e9abc-e33d-46fc-a519-839fafb746eb",
+      "43017e2f-5a5a-418a-a972-f10cef277c2f",
+      "5a3693f8-0fc6-4985-ae83-37bfe5ce7235"
     ],
     "confirmedPlanServices": [],
     "planServiceStatus": "Pending Selection",
@@ -679,7 +770,7 @@
     "completedBy": "",
     "serviceVendorReview": [],
     "vendorServices": [],
-    "servicesTriggered": 3,
+    "servicesTriggered": 8,
     "__v": 0
   },
   {
@@ -707,6 +798,19 @@
     "daysSinceNotice": 22,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Sarasota",
+    "lossZip": "34236",
+    "crfLine": "HO",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 14260,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "moldRemediationRequiredFlag": "present",
     "coverageQuestionFlag": "present",
     "excludedPerilFlag": "present",
@@ -734,8 +838,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "178 Citrus Grove Rd, Sarasota, FL",
-      "county": "Sarasota"
+      "address": "178 Citrus Grove Rd, Sarasota, FL 34236",
+      "county": "Sarasota",
+      "zip": "34236"
     },
     "assignment": {
       "assignedAdjuster": "Priya Nair",
@@ -837,8 +942,8 @@
     "policyNumber": "POL-HO3-310259",
     "insuredName": "Linda Okafor",
     "claimType": "HO3",
-    "lossDate": "2026-10-03",
-    "reportedDate": "2026-10-04",
+    "lossDate": "2026-10-09",
+    "reportedDate": "2026-10-11",
     "claimAmount": "21800",
     "claimStatus": "Active",
     "validationStatus": "Passed",
@@ -850,23 +955,47 @@
     "statusIntervalDays": 10,
     "totalReserveAmount": 25070,
     "potentialRecoveryAmount": 0,
-    "daysSinceLoss": 27,
-    "daysSinceNotice": 26,
+    "daysSinceLoss": 21,
+    "daysSinceNotice": 19,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "catEventId": "CAT-2026-ISAIAS",
+    "catNumber": "CAT-2026-ISAIAS",
+    "catEventName": "Hurricane Isaias",
+    "lossCounty": "Santa Rosa",
+    "lossZip": "32566",
+    "publicAdjusterFirm": "Bayline Public Adjusting",
+    "publicAdjusterFeePct": 20,
+    "publicAdjusterContractDate": "2026-10-13",
+    "publicAdjusterFeeCapPct": 10,
+    "publicAdjusterFeeStatus": "Exceeds cap",
+    "secondLevelReviewRequired": true,
+    "secondLevelReviewStatus": "Completed",
+    "crfLine": "HO",
+    "crfStatus": "open_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 10900,
+    "paidAlaeAmount": 654,
+    "incurredLossAmount": 25070,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "windHailFlag": "present",
     "roofDamageFlag": "present",
     "roofPaymentScheduleFlag": "present",
     "publicAdjusterFlag": "present",
+    "catEventFlag": "present",
     "roofAgeYears": 17,
     "contractorEstimateAmount": 21800,
     "lossInformation": {
-      "causeOfLoss": "Roof hail damage",
+      "causeOfLoss": "Hurricane Isaias roof wind damage",
       "damagedAreas": [
         "Roof",
         "Gutters"
       ],
-      "lossDate": "2026-10-03"
+      "lossDate": "2026-10-09"
     },
     "policyInformation": {
       "policyForm": "HO3",
@@ -883,8 +1012,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "191 Sawgrass Ln, Orlando, FL",
-      "county": "Orange"
+      "address": "191 Sawgrass Ln, Navarre, FL 32566",
+      "county": "Santa Rosa",
+      "zip": "32566"
     },
     "assignment": {
       "assignedAdjuster": "Sarah Mitchell",
@@ -894,18 +1024,33 @@
     "recordIndex": 7,
     "planServices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
+      "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
+      "d2329338-efe4-49c4-af73-bae9a39c55cb",
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
+      "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "5a3693f8-0fc6-4985-ae83-37bfe5ce7235",
       "953716fb-084f-41be-a85d-c7f32b82c23e"
     ],
     "existingplanservices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
+      "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
+      "d2329338-efe4-49c4-af73-bae9a39c55cb",
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
+      "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "5a3693f8-0fc6-4985-ae83-37bfe5ce7235",
       "953716fb-084f-41be-a85d-c7f32b82c23e"
     ],
     "confirmedPlanServices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
+      "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
+      "d2329338-efe4-49c4-af73-bae9a39c55cb",
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
+      "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "5a3693f8-0fc6-4985-ae83-37bfe5ce7235",
       "953716fb-084f-41be-a85d-c7f32b82c23e",
@@ -925,14 +1070,79 @@
         "selectedVendor": "Kruger Property Solutions",
         "status": "Modified",
         "confirmedBy": "Sarah Mitchell",
-        "confirmedAt": "2026-10-07T12:00:00.000Z",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
         "_id": {
           "$oid": "5fb68d9956d84b1ecbdfd26e"
         },
         "adjusterComment": "Faster arrival time",
         "supervisorComment": "Approved: closer to the risk",
         "reviewedBy": "claimssupervisor",
-        "reviewedAt": "2026-10-10T12:00:00.000Z"
+        "reviewedAt": "2026-10-17T12:00:00.000Z"
+      },
+      {
+        "roleName": "Cause & Origin Specialists",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "DDA Forensics",
+        "proposedVendor": "DDA Forensics",
+        "selectedVendor": "DDA Forensics",
+        "status": "Locked",
+        "confirmedBy": "Sarah Mitchell",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
+        "_id": {
+          "$oid": "e0eb2a8943200a34de04f92b"
+        }
+      },
+      {
+        "roleName": "Appraisers/Independent Adjusters",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "Colonial Claims",
+        "proposedVendor": "Colonial Claims",
+        "selectedVendor": "Colonial Claims",
+        "status": "Locked",
+        "confirmedBy": "Sarah Mitchell",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
+        "_id": {
+          "$oid": "92cc080de9ac355bc670ae2c"
+        }
+      },
+      {
+        "roleName": "Independent Adjusters",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "Colonial Claims",
+        "proposedVendor": "Colonial Claims",
+        "selectedVendor": "Colonial Claims",
+        "status": "Locked",
+        "confirmedBy": "Sarah Mitchell",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
+        "_id": {
+          "$oid": "c496f0ced6211fc8515e650c"
+        }
+      },
+      {
+        "roleName": "CAT Response",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "Janney Roofing",
+        "proposedVendor": "Janney Roofing",
+        "selectedVendor": "Janney Roofing",
+        "status": "Locked",
+        "confirmedBy": "Sarah Mitchell",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
+        "_id": {
+          "$oid": "025a47bfd27538cf9188e02b"
+        }
+      },
+      {
+        "roleName": "Repair Network Referral",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "M6 Building Solutions",
+        "status": "Locked",
+        "confirmedBy": "Sarah Mitchell",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
+        "_id": {
+          "$oid": "70b9e22a800a0347a1f7fae6"
+        }
       },
       {
         "roleName": "Estimate & Invoice Review",
@@ -942,7 +1152,7 @@
         "selectedVendor": "M6 Building Solutions",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
-        "confirmedAt": "2026-10-07T12:00:00.000Z",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
         "_id": {
           "$oid": "7adae618853561889f44fb3f"
         }
@@ -955,7 +1165,7 @@
         "selectedVendor": "Gold Star Adjusters",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
-        "confirmedAt": "2026-10-07T12:00:00.000Z",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
         "_id": {
           "$oid": "38cbf63877dbbd25b32c168d"
         }
@@ -968,7 +1178,7 @@
         "selectedVendor": "M6 Building Solutions",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
-        "confirmedAt": "2026-10-07T12:00:00.000Z",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
         "_id": {
           "$oid": "52fe80fbc8159fd7ea00ddb2"
         }
@@ -981,11 +1191,11 @@
         "selectedVendor": "MDD Forensic Accountants",
         "status": "Included",
         "confirmedBy": "Sarah Mitchell",
-        "confirmedAt": "2026-10-07T12:00:00.000Z",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
         "adjusterComment": "Rent loss needs validating",
         "supervisorComment": "Agreed, include",
         "reviewedBy": "claimssupervisor",
-        "reviewedAt": "2026-10-10T12:00:00.000Z",
+        "reviewedAt": "2026-10-17T12:00:00.000Z",
         "_id": {
           "$oid": "a507a3fe4d8cbe628114a7c4"
         }
@@ -993,15 +1203,20 @@
     ],
     "vendorServices": [
       "Kruger Property Solutions",
+      "DDA Forensics",
+      "Colonial Claims",
+      "Colonial Claims",
+      "Janney Roofing",
+      "M6 Building Solutions",
       "M6 Building Solutions",
       "Gold Star Adjusters",
       "M6 Building Solutions",
       "MDD Forensic Accountants"
     ],
-    "servicesTriggered": 4,
+    "servicesTriggered": 9,
     "__v": 0,
     "adjusterSubmittedBy": "Sarah Mitchell",
-    "adjusterSubmittedAt": "2026-10-07T12:00:00.000Z",
+    "adjusterSubmittedAt": "2026-10-14T12:00:00.000Z",
     "adjusterComments": "Faster arrival time",
     "vendorServiceComments": "Vendor selection confirmed"
   },
@@ -1030,12 +1245,29 @@
     "daysSinceNotice": 54,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Miami-Dade",
+    "lossZip": "33130",
+    "independentInvestigatorFirm": "Meridian Investigative Services",
+    "secondLevelReviewRequired": true,
+    "secondLevelReviewStatus": "Completed",
+    "crfLine": "HO",
+    "crfStatus": "open_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 47000,
+    "paidAlaeAmount": 2820,
+    "incurredLossAmount": 108100,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": true,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "priorClaimHistoryFlag": "present",
     "multipleInsurerIsoHitFlag": "present",
     "inconsistentLossVersionFlag": "present",
     "unwitnessedCredibilityConcernFlag": "present",
     "attorneyInitialNoticeFlag": "present",
     "highValueClaimFlag": "present",
+    "independentInvestigatorFlag": "present",
     "lossInformation": {
       "causeOfLoss": "Fire damage with suspected arson",
       "damagedAreas": [
@@ -1059,8 +1291,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "204 Harbor Blvd, Miami, FL",
-      "county": "Miami-Dade"
+      "address": "204 Harbor Blvd, Miami, FL 33130",
+      "county": "Miami-Dade",
+      "zip": "33130"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -1238,6 +1471,19 @@
     "daysSinceNotice": 14,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Charleston",
+    "lossZip": "29401",
+    "crfLine": "",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 10695,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "structuralDryingRequiredFlag": "present",
     "productInvolvementFlag": "present",
     "liabilityEvidenceFlag": "present",
@@ -1263,8 +1509,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "217 Palm Ave, Charleston, SC",
-      "county": "Charleston"
+      "address": "217 Palm Ave, Charleston, SC 29401",
+      "county": "Charleston",
+      "zip": "29401"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -1318,6 +1565,19 @@
     "daysSinceNotice": 23,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Mobile",
+    "lossZip": "36602",
+    "crfLine": "",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 37950,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "roofDamageFlag": "present",
     "displacedFlag": "present",
     "uninhabitableFlag": "present",
@@ -1347,8 +1607,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "230 Cypress Way, Mobile, AL",
-      "county": "Mobile"
+      "address": "230 Cypress Way, Mobile, AL 36602",
+      "county": "Mobile",
+      "zip": "36602"
     },
     "assignment": {
       "assignedAdjuster": "Priya Nair",
@@ -1469,8 +1730,8 @@
     "policyNumber": "POL-HO3-310407",
     "insuredName": "Karen Liu",
     "claimType": "HO3",
-    "lossDate": "2026-10-19",
-    "reportedDate": "2026-10-20",
+    "lossDate": "2026-10-09",
+    "reportedDate": "2026-10-12",
     "claimAmount": "26500",
     "claimStatus": "Active",
     "validationStatus": "Passed",
@@ -1482,21 +1743,38 @@
     "statusIntervalDays": 10,
     "totalReserveAmount": 30475,
     "potentialRecoveryAmount": 0,
-    "daysSinceLoss": 11,
-    "daysSinceNotice": 10,
+    "daysSinceLoss": 21,
+    "daysSinceNotice": 18,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "catEventId": "CAT-2026-ISAIAS",
+    "catNumber": "CAT-2026-ISAIAS",
+    "catEventName": "Hurricane Isaias",
+    "lossCounty": "Okaloosa",
+    "lossZip": "32541",
+    "crfLine": "HO",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 30475,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "structuralDryingRequiredFlag": "present",
+    "catEventFlag": "present",
     "bodilyInjuryFlag": "present",
     "insuranceToValuePct": 68,
     "contractorEstimateAmount": 17500,
     "lossInformation": {
-      "causeOfLoss": "Pipe burst with insurance-to-value shortfall",
+      "causeOfLoss": "Hurricane Isaias wind-driven rain and burst pipe",
       "damagedAreas": [
         "Kitchen",
         "Laundry"
       ],
-      "lossDate": "2026-10-19"
+      "lossDate": "2026-10-09"
     },
     "policyInformation": {
       "policyForm": "HO3",
@@ -1513,8 +1791,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "243 Bayshore Dr, Hollywood, FL",
-      "county": "Broward"
+      "address": "243 Bayshore Dr, Destin, FL 32541",
+      "county": "Okaloosa",
+      "zip": "32541"
     },
     "assignment": {
       "assignedAdjuster": "Sarah Mitchell",
@@ -1524,12 +1803,14 @@
     "recordIndex": 11,
     "planServices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "0e056f9a-3549-4d0b-a11c-6e2b5ebdf4a5",
       "f3a4f46c-cce9-44d2-a479-d9a4f6ccdb5a"
     ],
     "existingplanservices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "0e056f9a-3549-4d0b-a11c-6e2b5ebdf4a5",
       "f3a4f46c-cce9-44d2-a479-d9a4f6ccdb5a"
@@ -1542,7 +1823,7 @@
     "completedBy": "",
     "serviceVendorReview": [],
     "vendorServices": [],
-    "servicesTriggered": 4,
+    "servicesTriggered": 5,
     "__v": 0
   },
   {
@@ -1570,6 +1851,19 @@
     "daysSinceNotice": 62,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Broward",
+    "lossZip": "33301",
+    "crfLine": "HO",
+    "crfStatus": "closed_no_payment",
+    "crfClosedNoPaymentReason": "exclusions_or_no_policy",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 0,
+    "crfDaysToClose": 60,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "lateNoticeFlag": "present",
     "coverageQuestionFlag": "present",
     "excludedPerilFlag": "present",
@@ -1596,8 +1890,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "256 Magnolia St, Fort Lauderdale, FL",
-      "county": "Broward"
+      "address": "256 Magnolia St, Fort Lauderdale, FL 33301",
+      "county": "Broward",
+      "zip": "33301"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -1671,6 +1966,19 @@
     "daysSinceNotice": 5,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "East Baton Rouge",
+    "lossZip": "70802",
+    "crfLine": "",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 4830,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "deductibleWaiverSuspectedFlag": "present",
     "contentsLossAmount": 2100,
     "lossInformation": {
@@ -1696,8 +2004,9 @@
       "contentsExposure": 2100
     },
     "property": {
-      "address": "269 Gulf Breeze Pkwy, Baton Rouge, LA",
-      "county": "East Baton Rouge"
+      "address": "269 Gulf Breeze Pkwy, Baton Rouge, LA 70802",
+      "county": "East Baton Rouge",
+      "zip": "70802"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -1732,8 +2041,8 @@
     "policyNumber": "POL-HO3-310518",
     "insuredName": "Anthony Russo",
     "claimType": "HO3",
-    "lossDate": "2026-10-16",
-    "reportedDate": "2026-10-17",
+    "lossDate": "2026-10-08",
+    "reportedDate": "2026-10-13",
     "claimAmount": "6100",
     "claimStatus": "Active",
     "validationStatus": "Passed",
@@ -1745,17 +2054,34 @@
     "statusIntervalDays": 10,
     "totalReserveAmount": 7015,
     "potentialRecoveryAmount": 0,
-    "daysSinceLoss": 14,
-    "daysSinceNotice": 13,
+    "daysSinceLoss": 22,
+    "daysSinceNotice": 17,
     "paymentDecisionIssuedFlag": "present",
+    "catEventId": "CAT-2026-ISAIAS",
+    "catNumber": "CAT-2026-ISAIAS",
+    "catEventName": "Hurricane Isaias",
+    "lossCounty": "Escambia",
+    "lossZip": "32502",
+    "crfLine": "HO",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 7015,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "structuralDryingRequiredFlag": "present",
+    "catEventFlag": "present",
     "contractorEstimateAmount": 6100,
     "lossInformation": {
-      "causeOfLoss": "Bathroom water damage, acknowledgement overdue",
+      "causeOfLoss": "Hurricane Isaias water intrusion, acknowledgement overdue",
       "damagedAreas": [
         "Bathroom"
       ],
-      "lossDate": "2026-10-16"
+      "lossDate": "2026-10-08"
     },
     "policyInformation": {
       "policyForm": "HO3",
@@ -1772,8 +2098,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "282 Citrus Grove Rd, Daytona Beach, FL",
-      "county": "Volusia"
+      "address": "282 Citrus Grove Rd, Pensacola, FL 32502",
+      "county": "Escambia",
+      "zip": "32502"
     },
     "assignment": {
       "assignedAdjuster": "Priya Nair",
@@ -1783,11 +2110,13 @@
     "recordIndex": 14,
     "planServices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "1f5b97d6-24a7-4880-a10e-cf540be4089c"
     ],
     "existingplanservices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "1f5b97d6-24a7-4880-a10e-cf540be4089c"
     ],
@@ -1799,7 +2128,7 @@
     "completedBy": "",
     "serviceVendorReview": [],
     "vendorServices": [],
-    "servicesTriggered": 3,
+    "servicesTriggered": 4,
     "__v": 0
   },
   {
@@ -1827,6 +2156,19 @@
     "daysSinceNotice": 79,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Miami-Dade",
+    "lossZip": "33056",
+    "crfLine": "HO",
+    "crfStatus": "closed_no_payment",
+    "crfClosedNoPaymentReason": "exclusions_or_no_policy",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 0,
+    "crfDaysToClose": 77,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "coverageQuestionFlag": "present",
     "policyLapseFlag": "present",
     "smokeOdorFlag": "present",
@@ -1853,8 +2195,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "295 Sawgrass Ln, Miami Gardens, FL",
-      "county": "Miami-Dade"
+      "address": "295 Sawgrass Ln, Miami Gardens, FL 33056",
+      "county": "Miami-Dade",
+      "zip": "33056"
     },
     "assignment": {
       "assignedAdjuster": "Sarah Mitchell",
@@ -1930,6 +2273,19 @@
     "daysSinceNotice": 7,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Orange",
+    "lossZip": "32801",
+    "crfLine": "HO",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 7130,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "displacedFlag": "present",
     "contentsLossAmount": 6200,
     "lossInformation": {
@@ -1955,8 +2311,9 @@
       "contentsExposure": 6200
     },
     "property": {
-      "address": "113 Palm Ave, Orlando, FL",
-      "county": "Orange"
+      "address": "113 Palm Ave, Orlando, FL 32801",
+      "county": "Orange",
+      "zip": "32801"
     },
     "assignment": {
       "assignedAdjuster": "Priya Nair",
@@ -2008,6 +2365,19 @@
     "daysSinceNotice": 18,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Hillsborough",
+    "lossZip": "33602",
+    "crfLine": "HO",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 17710,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "smokeOdorFlag": "present",
     "contentsCleaningRequiredFlag": "present",
     "sceneInvestigationRequiredFlag": "present",
@@ -2036,8 +2406,9 @@
       "contentsExposure": 15400
     },
     "property": {
-      "address": "126 Cypress Way, Tampa, FL",
-      "county": "Hillsborough"
+      "address": "126 Cypress Way, Tampa, FL 33602",
+      "county": "Hillsborough",
+      "zip": "33602"
     },
     "assignment": {
       "assignedAdjuster": "Sarah Mitchell",
@@ -2175,6 +2546,19 @@
     "daysSinceNotice": 4,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Fulton",
+    "lossZip": "30303",
+    "crfLine": "",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 10235,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "policeReportRequiredFlag": "present",
     "contentsValuationDisputeFlag": "present",
     "contentsLossAmount": 8900,
@@ -2201,8 +2585,9 @@
       "contentsExposure": 8900
     },
     "property": {
-      "address": "139 Bayshore Dr, Atlanta, GA",
-      "county": "Fulton"
+      "address": "139 Bayshore Dr, Atlanta, GA 30303",
+      "county": "Fulton",
+      "zip": "30303"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -2237,8 +2622,8 @@
     "policyNumber": "POL-HO4-307148",
     "insuredName": "Marcus Reed",
     "claimType": "HO4",
-    "lossDate": "2026-09-29",
-    "reportedDate": "2026-09-30",
+    "lossDate": "2026-10-09",
+    "reportedDate": "2026-10-10",
     "claimAmount": "12800",
     "claimStatus": "Active",
     "validationStatus": "Passed",
@@ -2250,19 +2635,35 @@
     "statusIntervalDays": 10,
     "totalReserveAmount": 14720,
     "potentialRecoveryAmount": 0,
-    "daysSinceLoss": 31,
-    "daysSinceNotice": 30,
+    "daysSinceLoss": 21,
+    "daysSinceNotice": 20,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "catEventId": "CAT-2026-ISAIAS",
+    "catNumber": "CAT-2026-ISAIAS",
+    "catEventName": "Hurricane Isaias",
+    "lossCounty": "Escambia",
+    "lossZip": "32502",
+    "crfLine": "HO",
+    "crfStatus": "open_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 6400,
+    "paidAlaeAmount": 384,
+    "incurredLossAmount": 14720,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "catEventFlag": "present",
     "displacedFlag": "present",
     "contentsLossAmount": 12800,
     "lossInformation": {
-      "causeOfLoss": "Hurricane wind-driven rain",
+      "causeOfLoss": "Hurricane Isaias wind-driven rain",
       "damagedAreas": [
         "Living room"
       ],
-      "lossDate": "2026-09-29"
+      "lossDate": "2026-10-09"
     },
     "policyInformation": {
       "policyForm": "HO4",
@@ -2279,8 +2680,9 @@
       "contentsExposure": 12800
     },
     "property": {
-      "address": "152 Magnolia St, Miami, FL",
-      "county": "Miami-Dade"
+      "address": "152 Magnolia St, Pensacola, FL 32502",
+      "county": "Escambia",
+      "zip": "32502"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -2317,14 +2719,14 @@
         "selectedVendor": "Bigfoot Roofing & Construction",
         "status": "Modified",
         "confirmedBy": "Derek Chan",
-        "confirmedAt": "2026-10-03T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "_id": {
           "$oid": "61506d0945610d6e2e0ecccc"
         },
         "adjusterComment": "Faster arrival time",
         "supervisorComment": "Approved: closer to the risk",
         "reviewedBy": "claimssupervisor",
-        "reviewedAt": "2026-10-06T12:00:00.000Z"
+        "reviewedAt": "2026-10-16T12:00:00.000Z"
       },
       {
         "roleName": "Contents Inventory & Valuation",
@@ -2334,7 +2736,7 @@
         "selectedVendor": "Total Inventory, LLC",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
-        "confirmedAt": "2026-10-03T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "_id": {
           "$oid": "37413050cf69463f2289aa1c"
         }
@@ -2347,7 +2749,7 @@
         "selectedVendor": "ALE Solutions",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
-        "confirmedAt": "2026-10-03T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "_id": {
           "$oid": "8463e023f58f552523df8d4d"
         }
@@ -2360,11 +2762,11 @@
         "selectedVendor": "MDD Forensic Accountants",
         "status": "Rejected",
         "confirmedBy": "Derek Chan",
-        "confirmedAt": "2026-10-03T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "adjusterComment": "Rent loss needs validating",
         "supervisorComment": "Not warranted at this exposure",
         "reviewedBy": "claimssupervisor",
-        "reviewedAt": "2026-10-06T12:00:00.000Z",
+        "reviewedAt": "2026-10-16T12:00:00.000Z",
         "_id": {
           "$oid": "8e68b3668f76845606ca6394"
         }
@@ -2378,7 +2780,7 @@
     "servicesTriggered": 3,
     "__v": 0,
     "adjusterSubmittedBy": "Derek Chan",
-    "adjusterSubmittedAt": "2026-10-03T12:00:00.000Z",
+    "adjusterSubmittedAt": "2026-10-13T12:00:00.000Z",
     "adjusterComments": "Faster arrival time",
     "vendorServiceComments": "Vendor selection confirmed"
   },
@@ -2407,11 +2809,28 @@
     "daysSinceNotice": 44,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Orange",
+    "lossZip": "32801",
+    "independentInvestigatorFirm": "Tidewater Investigations",
+    "secondLevelReviewRequired": true,
+    "secondLevelReviewStatus": "Pending claims manager review",
+    "crfLine": "HO",
+    "crfStatus": "open_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 9500,
+    "paidAlaeAmount": 570,
+    "incurredLossAmount": 43700,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "priorClaimHistoryFlag": "present",
     "inconsistentLossVersionFlag": "present",
     "immediateCounselRepresentationFlag": "present",
     "contentsValuationDisputeFlag": "present",
     "Fraud flag": "present",
+    "independentInvestigatorFlag": "present",
     "contentsLossAmount": 38000,
     "lossInformation": {
       "causeOfLoss": "Theft with questionable inventory",
@@ -2435,8 +2854,9 @@
       "contentsExposure": 38000
     },
     "property": {
-      "address": "165 Gulf Breeze Pkwy, Orlando, FL",
-      "county": "Orange"
+      "address": "165 Gulf Breeze Pkwy, Orlando, FL 32801",
+      "county": "Orange",
+      "zip": "32801"
     },
     "assignment": {
       "assignedAdjuster": "Priya Nair",
@@ -2574,6 +2994,19 @@
     "daysSinceNotice": 12,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Alachua",
+    "lossZip": "32601",
+    "crfLine": "HO",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 8510,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "liabilityEvidenceFlag": "present",
     "productInvolvementFlag": "present",
     "contentsLossAmount": 7400,
@@ -2600,8 +3033,9 @@
       "contentsExposure": 7400
     },
     "property": {
-      "address": "178 Citrus Grove Rd, Gainesville, FL",
-      "county": "Alachua"
+      "address": "178 Citrus Grove Rd, Gainesville, FL 32601",
+      "county": "Alachua",
+      "zip": "32601"
     },
     "assignment": {
       "assignedAdjuster": "Sarah Mitchell",
@@ -2655,6 +3089,19 @@
     "daysSinceNotice": 21,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Harris",
+    "lossZip": "77002",
+    "crfLine": "",
+    "crfStatus": "closed_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 4590,
+    "paidAlaeAmount": 275,
+    "incurredLossAmount": 4590,
+    "crfDaysToClose": 19,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "smokeOdorFlag": "present",
     "contentsCleaningRequiredFlag": "present",
     "contentsLossAmount": 5100,
@@ -2680,8 +3127,9 @@
       "contentsExposure": 5100
     },
     "property": {
-      "address": "191 Sawgrass Ln, Houston, TX",
-      "county": "Harris"
+      "address": "191 Sawgrass Ln, Houston, TX 77002",
+      "county": "Harris",
+      "zip": "77002"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -2753,8 +3201,8 @@
     "policyNumber": "POL-HO4-307296",
     "insuredName": "Daniel Ortiz",
     "claimType": "HO4",
-    "lossDate": "2026-09-25",
-    "reportedDate": "2026-09-27",
+    "lossDate": "2026-10-09",
+    "reportedDate": "2026-10-13",
     "claimAmount": "14300",
     "claimStatus": "Active",
     "validationStatus": "Passed",
@@ -2766,20 +3214,44 @@
     "statusIntervalDays": 10,
     "totalReserveAmount": 16445,
     "potentialRecoveryAmount": 0,
-    "daysSinceLoss": 35,
-    "daysSinceNotice": 33,
+    "daysSinceLoss": 21,
+    "daysSinceNotice": 17,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "catEventId": "CAT-2026-ISAIAS",
+    "catNumber": "CAT-2026-ISAIAS",
+    "catEventName": "Hurricane Isaias",
+    "lossCounty": "Bay",
+    "lossZip": "32401",
+    "publicAdjusterFirm": "Gulfstream Claim Advocates",
+    "publicAdjusterFeePct": 10,
+    "publicAdjusterContractDate": "2026-10-14",
+    "publicAdjusterFeeCapPct": 10,
+    "publicAdjusterFeeStatus": "Within cap",
+    "secondLevelReviewRequired": true,
+    "secondLevelReviewStatus": "Pending claims manager review",
+    "crfLine": "HO",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 16445,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": true,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "publicAdjusterFlag": "present",
     "appraisalDemandFlag": "present",
     "contentsValuationDisputeFlag": "present",
+    "catEventFlag": "present",
     "contentsLossAmount": 14300,
     "lossInformation": {
-      "causeOfLoss": "Water damage with public adjuster",
+      "causeOfLoss": "Hurricane Isaias water damage with public adjuster",
       "damagedAreas": [
         "Living room"
       ],
-      "lossDate": "2026-09-25"
+      "lossDate": "2026-10-09"
     },
     "policyInformation": {
       "policyForm": "HO4",
@@ -2796,8 +3268,9 @@
       "contentsExposure": 14300
     },
     "property": {
-      "address": "204 Harbor Blvd, Miami, FL",
-      "county": "Miami-Dade"
+      "address": "204 Harbor Blvd, Panama City, FL 32401",
+      "county": "Bay",
+      "zip": "32401"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -2806,14 +3279,25 @@
     "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
     "recordIndex": 8,
     "planServices": [
+      "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
+      "d2329338-efe4-49c4-af73-bae9a39c55cb",
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "5a3693f8-0fc6-4985-ae83-37bfe5ce7235",
       "d25a0874-807e-43b7-af32-863e746db8b2"
     ],
     "existingplanservices": [
+      "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
+      "d2329338-efe4-49c4-af73-bae9a39c55cb",
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "5a3693f8-0fc6-4985-ae83-37bfe5ce7235",
       "d25a0874-807e-43b7-af32-863e746db8b2"
     ],
     "confirmedPlanServices": [
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
+      "5a3693f8-0fc6-4985-ae83-37bfe5ce7235",
       "d25a0874-807e-43b7-af32-863e746db8b2"
     ],
     "planServiceStatus": "Pending Review",
@@ -2823,18 +3307,70 @@
     "completedBy": "",
     "serviceVendorReview": [
       {
+        "roleName": "Cause & Origin Specialists",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "DDA Forensics",
+        "proposedVendor": "DDA Forensics",
+        "selectedVendor": "Proclaim Engineering, Inc",
+        "status": "Pending Review",
+        "confirmedBy": "Derek Chan",
+        "confirmedAt": "2026-10-16T12:00:00.000Z",
+        "_id": {
+          "$oid": "0e9e8dfe122021adb0e8c2c7"
+        },
+        "adjusterComment": "Closer to the loss location and faster on site"
+      },
+      {
+        "roleName": "Appraisers/Independent Adjusters",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "Colonial Claims",
+        "proposedVendor": "Colonial Claims",
+        "selectedVendor": "Colonial Claims",
+        "status": "Pending Review",
+        "confirmedBy": "Derek Chan",
+        "confirmedAt": "2026-10-16T12:00:00.000Z",
+        "_id": {
+          "$oid": "1595a21a8450e4def2393108"
+        }
+      },
+      {
+        "roleName": "Independent Adjusters",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "Colonial Claims",
+        "proposedVendor": "Colonial Claims",
+        "selectedVendor": "Colonial Claims",
+        "status": "Locked",
+        "confirmedBy": "Derek Chan",
+        "confirmedAt": "2026-10-16T12:00:00.000Z",
+        "_id": {
+          "$oid": "9f03e41b387a69efa96f0e6f"
+        }
+      },
+      {
+        "roleName": "CAT Response",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "Janney Roofing",
+        "proposedVendor": "Janney Roofing",
+        "selectedVendor": "Janney Roofing",
+        "status": "Locked",
+        "confirmedBy": "Derek Chan",
+        "confirmedAt": "2026-10-16T12:00:00.000Z",
+        "_id": {
+          "$oid": "28216881ea2d6a26dcd4213f"
+        }
+      },
+      {
         "roleName": "Public Adjuster / Appraisal",
         "changeType": "ProviderChange",
         "recommendedVendor": "Gold Star Adjusters",
         "proposedVendor": "Gold Star Adjusters",
         "selectedVendor": "Gold Star Adjusters",
-        "status": "Pending Review",
+        "status": "Locked",
         "confirmedBy": "Derek Chan",
-        "confirmedAt": "2026-09-30T12:00:00.000Z",
+        "confirmedAt": "2026-10-16T12:00:00.000Z",
         "_id": {
           "$oid": "e75b81c5fc5fa81b92527d37"
-        },
-        "adjusterComment": "Closer to the loss location and faster on site"
+        }
       },
       {
         "roleName": "Contents Inventory & Valuation",
@@ -2844,20 +3380,24 @@
         "selectedVendor": "Total Inventory, LLC",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
-        "confirmedAt": "2026-09-30T12:00:00.000Z",
+        "confirmedAt": "2026-10-16T12:00:00.000Z",
         "_id": {
           "$oid": "1b3cc2787c3711a0374a9144"
         }
       }
     ],
     "vendorServices": [
+      "Proclaim Engineering, Inc",
+      "Colonial Claims",
+      "Colonial Claims",
+      "Janney Roofing",
       "Gold Star Adjusters",
       "Total Inventory, LLC"
     ],
-    "servicesTriggered": 2,
+    "servicesTriggered": 6,
     "__v": 0,
     "adjusterSubmittedBy": "Derek Chan",
-    "adjusterSubmittedAt": "2026-09-30T12:00:00.000Z",
+    "adjusterSubmittedAt": "2026-10-16T12:00:00.000Z",
     "adjusterComments": "Closer to the loss location and faster on site"
   },
   {
@@ -2885,6 +3425,19 @@
     "daysSinceNotice": 9,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Hillsborough",
+    "lossZip": "33602",
+    "crfLine": "HO",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 3795,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "deductibleWaiverSuspectedFlag": "present",
     "bodilyInjuryFlag": "present",
     "contentsLossAmount": 3300,
@@ -2910,8 +3463,9 @@
       "contentsExposure": 3300
     },
     "property": {
-      "address": "217 Palm Ave, Tampa, FL",
-      "county": "Hillsborough"
+      "address": "217 Palm Ave, Tampa, FL 33602",
+      "county": "Hillsborough",
+      "zip": "33602"
     },
     "assignment": {
       "assignedAdjuster": "Priya Nair",
@@ -2965,6 +3519,19 @@
     "daysSinceNotice": 58,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Pinellas",
+    "lossZip": "33701",
+    "crfLine": "HO",
+    "crfStatus": "closed_no_payment",
+    "crfClosedNoPaymentReason": "exclusions_or_no_policy",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 0,
+    "crfDaysToClose": 56,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "policyLapseFlag": "present",
     "coverageQuestionFlag": "present",
     "lateNoticeFlag": "present",
@@ -2991,8 +3558,9 @@
       "contentsExposure": 22000
     },
     "property": {
-      "address": "230 Cypress Way, St. Petersburg, FL",
-      "county": "Pinellas"
+      "address": "230 Cypress Way, St. Petersburg, FL 33701",
+      "county": "Pinellas",
+      "zip": "33701"
     },
     "assignment": {
       "assignedAdjuster": "Sarah Mitchell",
@@ -3067,6 +3635,19 @@
     "daysSinceLoss": 20,
     "daysSinceNotice": 19,
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Orange",
+    "lossZip": "32801",
+    "crfLine": "HO",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 5290,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "contentsLossAmount": 4600,
     "lossInformation": {
       "causeOfLoss": "Bathroom leak, acknowledgement overdue",
@@ -3090,8 +3671,9 @@
       "contentsExposure": 4600
     },
     "property": {
-      "address": "243 Bayshore Dr, Orlando, FL",
-      "county": "Orange"
+      "address": "243 Bayshore Dr, Orlando, FL 32801",
+      "county": "Orange",
+      "zip": "32801"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -3143,6 +3725,19 @@
     "daysSinceNotice": 27,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Orleans",
+    "lossZip": "70112",
+    "crfLine": "",
+    "crfStatus": "open_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 3550,
+    "paidAlaeAmount": 213,
+    "incurredLossAmount": 8165,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": true,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "policeReportRequiredFlag": "present",
     "attorneyInitialNoticeFlag": "present",
     "contentsLossAmount": 7100,
@@ -3168,8 +3763,9 @@
       "contentsExposure": 7100
     },
     "property": {
-      "address": "256 Magnolia St, New Orleans, LA",
-      "county": "Orleans"
+      "address": "256 Magnolia St, New Orleans, LA 70112",
+      "county": "Orleans",
+      "zip": "70112"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -3279,8 +3875,8 @@
     "policyNumber": "POL-HO4-307481",
     "insuredName": "Natalie Cruz",
     "claimType": "HO4",
-    "lossDate": "2026-09-24",
-    "reportedDate": "2026-09-26",
+    "lossDate": "2026-10-09",
+    "reportedDate": "2026-10-11",
     "claimAmount": "17500",
     "claimStatus": "Closed",
     "validationStatus": "Passed",
@@ -3292,20 +3888,36 @@
     "statusIntervalDays": 10,
     "totalReserveAmount": 20125,
     "potentialRecoveryAmount": 0,
-    "daysSinceLoss": 36,
-    "daysSinceNotice": 34,
+    "daysSinceLoss": 21,
+    "daysSinceNotice": 19,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "catEventId": "CAT-2026-ISAIAS",
+    "catNumber": "CAT-2026-ISAIAS",
+    "catEventName": "Hurricane Isaias",
+    "lossCounty": "Okaloosa",
+    "lossZip": "32548",
+    "crfLine": "HO",
+    "crfStatus": "closed_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 15750,
+    "paidAlaeAmount": 945,
+    "incurredLossAmount": 15750,
+    "crfDaysToClose": 17,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "catEventFlag": "present",
     "displacedFlag": "present",
     "uninhabitableFlag": "present",
     "contentsLossAmount": 17500,
     "lossInformation": {
-      "causeOfLoss": "Hurricane, tenant displaced",
+      "causeOfLoss": "Hurricane Isaias, tenant displaced",
       "damagedAreas": [
         "Entire unit"
       ],
-      "lossDate": "2026-09-24"
+      "lossDate": "2026-10-09"
     },
     "policyInformation": {
       "policyForm": "HO4",
@@ -3322,8 +3934,9 @@
       "contentsExposure": 17500
     },
     "property": {
-      "address": "269 Gulf Breeze Pkwy, Sarasota, FL",
-      "county": "Sarasota"
+      "address": "269 Gulf Breeze Pkwy, Fort Walton Beach, FL 32548",
+      "county": "Okaloosa",
+      "zip": "32548"
     },
     "assignment": {
       "assignedAdjuster": "Priya Nair",
@@ -3360,7 +3973,7 @@
         "selectedVendor": "Janney Roofing",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
-        "confirmedAt": "2026-09-29T12:00:00.000Z",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
         "_id": {
           "$oid": "72ee27e2413ad742179faf46"
         }
@@ -3373,7 +3986,7 @@
         "selectedVendor": "Total Inventory, LLC",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
-        "confirmedAt": "2026-09-29T12:00:00.000Z",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
         "_id": {
           "$oid": "a4f60930b04ba1819aa93b53"
         }
@@ -3386,7 +3999,7 @@
         "selectedVendor": "ALE Solutions",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
-        "confirmedAt": "2026-09-29T12:00:00.000Z",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
         "_id": {
           "$oid": "b0858f0f70202e2bb7bf0323"
         }
@@ -3400,7 +4013,7 @@
     "servicesTriggered": 3,
     "__v": 0,
     "adjusterSubmittedBy": "Priya Nair",
-    "adjusterSubmittedAt": "2026-09-29T12:00:00.000Z",
+    "adjusterSubmittedAt": "2026-10-14T12:00:00.000Z",
     "adjusterComments": "Plan services confirmed",
     "vendorServiceComments": "Vendor selection confirmed"
   },
@@ -3428,6 +4041,19 @@
     "daysSinceLoss": 90,
     "daysSinceNotice": 52,
     "acknowledgedFlag": "present",
+    "lossCounty": "Mecklenburg",
+    "lossZip": "28202",
+    "crfLine": "",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 6210,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "lateNoticeFlag": "present",
     "coverageQuestionFlag": "present",
     "contentsLossAmount": 5400,
@@ -3453,8 +4079,9 @@
       "contentsExposure": 5400
     },
     "property": {
-      "address": "282 Citrus Grove Rd, Charlotte, NC",
-      "county": "Mecklenburg"
+      "address": "282 Citrus Grove Rd, Charlotte, NC 28202",
+      "county": "Mecklenburg",
+      "zip": "28202"
     },
     "assignment": {
       "assignedAdjuster": "Sarah Mitchell",
@@ -3542,6 +4169,19 @@
     "daysSinceNotice": 29,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Brevard",
+    "lossZip": "32901",
+    "crfLine": "HO",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 7820,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "policeReportRequiredFlag": "present",
     "contentsLossAmount": 6800,
     "lossInformation": {
@@ -3566,8 +4206,9 @@
       "contentsExposure": 6800
     },
     "property": {
-      "address": "295 Sawgrass Ln, Melbourne, FL",
-      "county": "Brevard"
+      "address": "295 Sawgrass Ln, Melbourne, FL 32901",
+      "county": "Brevard",
+      "zip": "32901"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -3621,6 +4262,19 @@
     "daysSinceNotice": 24,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Orange",
+    "lossZip": "32801",
+    "crfLine": "DW",
+    "crfStatus": "open_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 9500,
+    "paidAlaeAmount": 570,
+    "incurredLossAmount": 43700,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "tenantCausedFlag": "present",
     "liabilityEvidenceFlag": "present",
     "structuralDryingRequiredFlag": "present",
@@ -3649,8 +4303,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "113 Palm Ave, Orlando, FL",
-      "county": "Orange"
+      "address": "113 Palm Ave, Orlando, FL 32801",
+      "county": "Orange",
+      "zip": "32801"
     },
     "assignment": {
       "assignedAdjuster": "Sarah Mitchell",
@@ -3754,8 +4409,8 @@
     "policyNumber": "POL-DF3DL-308074",
     "insuredName": "Gloria Hensley",
     "claimType": "DF3-DL",
-    "lossDate": "2026-09-28",
-    "reportedDate": "2026-09-30",
+    "lossDate": "2026-10-09",
+    "reportedDate": "2026-10-10",
     "claimAmount": "72000",
     "claimStatus": "Active",
     "validationStatus": "Passed",
@@ -3767,10 +4422,26 @@
     "statusIntervalDays": 10,
     "totalReserveAmount": 82800,
     "potentialRecoveryAmount": 0,
-    "daysSinceLoss": 32,
-    "daysSinceNotice": 30,
+    "daysSinceLoss": 21,
+    "daysSinceNotice": 20,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "catEventId": "CAT-2026-ISAIAS",
+    "catNumber": "CAT-2026-ISAIAS",
+    "catEventName": "Hurricane Isaias",
+    "lossCounty": "Escambia",
+    "lossZip": "32502",
+    "crfLine": "DW",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 82800,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "catEventFlag": "present",
     "windHailFlag": "present",
     "roofDamageFlag": "present",
@@ -3779,11 +4450,11 @@
     "roofAgeYears": 26,
     "contractorEstimateAmount": 72000,
     "lossInformation": {
-      "causeOfLoss": "Hurricane roof damage to rental duplex",
+      "causeOfLoss": "Hurricane Isaias roof damage to rental duplex",
       "damagedAreas": [
         "Roof"
       ],
-      "lossDate": "2026-09-28"
+      "lossDate": "2026-10-09"
     },
     "policyInformation": {
       "policyForm": "DF3-DL",
@@ -3800,8 +4471,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "126 Cypress Way, Tampa, FL",
-      "county": "Hillsborough"
+      "address": "126 Cypress Way, Pensacola, FL 32502",
+      "county": "Escambia",
+      "zip": "32502"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -3861,6 +4533,19 @@
     "daysSinceNotice": 46,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Miami-Dade",
+    "lossZip": "33130",
+    "crfLine": "DW",
+    "crfStatus": "open_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 7250,
+    "paidAlaeAmount": 435,
+    "incurredLossAmount": 33350,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "unoccupiedFlag": "present",
     "structuralDryingRequiredFlag": "present",
     "moldRemediationRequiredFlag": "present",
@@ -3889,8 +4574,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "139 Bayshore Dr, Miami, FL",
-      "county": "Miami-Dade"
+      "address": "139 Bayshore Dr, Miami, FL 33130",
+      "county": "Miami-Dade",
+      "zip": "33130"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -4026,6 +4712,19 @@
     "daysSinceNotice": 17,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Chatham",
+    "lossZip": "31401",
+    "crfLine": "",
+    "crfStatus": "open_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 44000,
+    "paidAlaeAmount": 2640,
+    "incurredLossAmount": 101200,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "highValueClaimFlag": "present",
     "sceneInvestigationRequiredFlag": "present",
     "tenantCausedFlag": "present",
@@ -4053,8 +4752,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "152 Magnolia St, Savannah, GA",
-      "county": "Chatham"
+      "address": "152 Magnolia St, Savannah, GA 31401",
+      "county": "Chatham",
+      "zip": "31401"
     },
     "assignment": {
       "assignedAdjuster": "Priya Nair",
@@ -4249,6 +4949,19 @@
     "daysSinceNotice": 13,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Dallas",
+    "lossZip": "75201",
+    "crfLine": "",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 12880,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "shortTermRentalFlag": "present",
     "tenantCausedFlag": "present",
     "coverageQuestionFlag": "present",
@@ -4276,8 +4989,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "165 Gulf Breeze Pkwy, Dallas, TX",
-      "county": "Dallas"
+      "address": "165 Gulf Breeze Pkwy, Dallas, TX 75201",
+      "county": "Dallas",
+      "zip": "75201"
     },
     "assignment": {
       "assignedAdjuster": "Sarah Mitchell",
@@ -4314,8 +5028,8 @@
     "policyNumber": "POL-DF3DL-308222",
     "insuredName": "Beatrice Okoye",
     "claimType": "DF3-DL",
-    "lossDate": "2026-09-22",
-    "reportedDate": "2026-09-24",
+    "lossDate": "2026-10-09",
+    "reportedDate": "2026-10-14",
     "claimAmount": "46000",
     "claimStatus": "Active",
     "validationStatus": "Passed",
@@ -4327,23 +5041,47 @@
     "statusIntervalDays": 10,
     "totalReserveAmount": 52900,
     "potentialRecoveryAmount": 0,
-    "daysSinceLoss": 38,
-    "daysSinceNotice": 36,
+    "daysSinceLoss": 21,
+    "daysSinceNotice": 16,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "catEventId": "CAT-2026-ISAIAS",
+    "catNumber": "CAT-2026-ISAIAS",
+    "catEventName": "Hurricane Isaias",
+    "lossCounty": "Okaloosa",
+    "lossZip": "32536",
+    "publicAdjusterFirm": "Sunrise Claim Advocates",
+    "publicAdjusterFeePct": 20,
+    "publicAdjusterContractDate": "2026-10-15",
+    "publicAdjusterFeeCapPct": 10,
+    "publicAdjusterFeeStatus": "Exceeds cap",
+    "secondLevelReviewRequired": true,
+    "secondLevelReviewStatus": "Pending claims manager review",
+    "crfLine": "DW",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 52900,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": true,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "publicAdjusterFlag": "present",
     "appraisalDemandFlag": "present",
     "estimateDisputeFlag": "present",
     "windHailFlag": "present",
+    "catEventFlag": "present",
     "roofAgeYears": 15,
     "contractorEstimateAmount": 46000,
     "lossInformation": {
-      "causeOfLoss": "Storm damage, appraisal demanded",
+      "causeOfLoss": "Hurricane Isaias storm damage, appraisal demanded",
       "damagedAreas": [
         "Roof",
         "Soffit"
       ],
-      "lossDate": "2026-09-22"
+      "lossDate": "2026-10-09"
     },
     "policyInformation": {
       "policyForm": "DF3-DL",
@@ -4360,8 +5098,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "178 Citrus Grove Rd, Orlando, FL",
-      "county": "Orange"
+      "address": "178 Citrus Grove Rd, Crestview, FL 32536",
+      "county": "Okaloosa",
+      "zip": "32536"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -4370,14 +5109,28 @@
     "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
     "recordIndex": 6,
     "planServices": [
+      "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
+      "d2329338-efe4-49c4-af73-bae9a39c55cb",
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
+      "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "5a3693f8-0fc6-4985-ae83-37bfe5ce7235"
     ],
     "existingplanservices": [
+      "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
+      "d2329338-efe4-49c4-af73-bae9a39c55cb",
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
+      "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "5a3693f8-0fc6-4985-ae83-37bfe5ce7235"
     ],
     "confirmedPlanServices": [
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
+      "43017e2f-5a5a-418a-a972-f10cef277c2f",
+      "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "5a3693f8-0fc6-4985-ae83-37bfe5ce7235"
     ],
     "planServiceStatus": "Pending Review",
@@ -4387,18 +5140,83 @@
     "completedBy": "",
     "serviceVendorReview": [
       {
+        "roleName": "Cause & Origin Specialists",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "DDA Forensics",
+        "proposedVendor": "DDA Forensics",
+        "selectedVendor": "Proclaim Engineering, Inc",
+        "status": "Pending Review",
+        "confirmedBy": "James Okoro",
+        "confirmedAt": "2026-10-17T12:00:00.000Z",
+        "_id": {
+          "$oid": "bb7867c297cb549a6a7c592b"
+        },
+        "adjusterComment": "Closer to the loss location and faster on site"
+      },
+      {
+        "roleName": "Appraisers/Independent Adjusters",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "Colonial Claims",
+        "proposedVendor": "Colonial Claims",
+        "selectedVendor": "Colonial Claims",
+        "status": "Pending Review",
+        "confirmedBy": "James Okoro",
+        "confirmedAt": "2026-10-17T12:00:00.000Z",
+        "_id": {
+          "$oid": "c1fd23b2543428021bac931d"
+        }
+      },
+      {
+        "roleName": "Independent Adjusters",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "Colonial Claims",
+        "proposedVendor": "Colonial Claims",
+        "selectedVendor": "Colonial Claims",
+        "status": "Locked",
+        "confirmedBy": "James Okoro",
+        "confirmedAt": "2026-10-17T12:00:00.000Z",
+        "_id": {
+          "$oid": "603c707e9af30da9fcc7af31"
+        }
+      },
+      {
+        "roleName": "CAT Response",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "Janney Roofing",
+        "proposedVendor": "Janney Roofing",
+        "selectedVendor": "Janney Roofing",
+        "status": "Locked",
+        "confirmedBy": "James Okoro",
+        "confirmedAt": "2026-10-17T12:00:00.000Z",
+        "_id": {
+          "$oid": "cffb8f4b5de293b970012153"
+        }
+      },
+      {
+        "roleName": "Repair Network Referral",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "M6 Building Solutions",
+        "status": "Locked",
+        "confirmedBy": "James Okoro",
+        "confirmedAt": "2026-10-17T12:00:00.000Z",
+        "_id": {
+          "$oid": "12df91b4de548994597126bb"
+        }
+      },
+      {
         "roleName": "Estimate & Invoice Review",
         "changeType": "ProviderChange",
         "recommendedVendor": "M6 Building Solutions",
         "proposedVendor": "M6 Building Solutions",
-        "selectedVendor": "Hi Low Roofing",
-        "status": "Pending Review",
+        "selectedVendor": "M6 Building Solutions",
+        "status": "Locked",
         "confirmedBy": "James Okoro",
-        "confirmedAt": "2026-09-27T12:00:00.000Z",
+        "confirmedAt": "2026-10-17T12:00:00.000Z",
         "_id": {
           "$oid": "c307b2c47670e30fc96795f9"
-        },
-        "adjusterComment": "Closer to the loss location and faster on site"
+        }
       },
       {
         "roleName": "Public Adjuster / Appraisal",
@@ -4408,7 +5226,7 @@
         "selectedVendor": "Gold Star Adjusters",
         "status": "Locked",
         "confirmedBy": "James Okoro",
-        "confirmedAt": "2026-09-27T12:00:00.000Z",
+        "confirmedAt": "2026-10-17T12:00:00.000Z",
         "_id": {
           "$oid": "8918556ebc0a6a98cd8e8ab9"
         }
@@ -4421,7 +5239,7 @@
         "selectedVendor": "GrayRobinson",
         "status": "Pending Review",
         "confirmedBy": "James Okoro",
-        "confirmedAt": "2026-09-27T12:00:00.000Z",
+        "confirmedAt": "2026-10-17T12:00:00.000Z",
         "adjusterComment": "Coverage position needs counsel",
         "_id": {
           "$oid": "23b18e5fffefcc02c0212b32"
@@ -4429,14 +5247,19 @@
       }
     ],
     "vendorServices": [
-      "Hi Low Roofing",
+      "Proclaim Engineering, Inc",
+      "Colonial Claims",
+      "Colonial Claims",
+      "Janney Roofing",
+      "M6 Building Solutions",
+      "M6 Building Solutions",
       "Gold Star Adjusters",
       "GrayRobinson"
     ],
-    "servicesTriggered": 2,
+    "servicesTriggered": 7,
     "__v": 0,
     "adjusterSubmittedBy": "James Okoro",
-    "adjusterSubmittedAt": "2026-09-27T12:00:00.000Z",
+    "adjusterSubmittedAt": "2026-10-17T12:00:00.000Z",
     "adjusterComments": "Closer to the loss location and faster on site"
   },
   {
@@ -4464,6 +5287,19 @@
     "daysSinceNotice": 60,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Alachua",
+    "lossZip": "32601",
+    "crfLine": "DW",
+    "crfStatus": "closed_no_payment",
+    "crfClosedNoPaymentReason": "exclusions_or_no_policy",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 0,
+    "crfDaysToClose": 58,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "unoccupiedFlag": "present",
     "excludedPerilFlag": "present",
     "coverageQuestionFlag": "present",
@@ -4492,8 +5328,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "191 Sawgrass Ln, Gainesville, FL",
-      "county": "Alachua"
+      "address": "191 Sawgrass Ln, Gainesville, FL 32601",
+      "county": "Alachua",
+      "zip": "32601"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -4556,8 +5393,8 @@
     "policyNumber": "POL-DF3DL-308296",
     "insuredName": "Janice Morrow",
     "claimType": "DF3-DL",
-    "lossDate": "2026-10-01",
-    "reportedDate": "2026-10-02",
+    "lossDate": "2026-10-09",
+    "reportedDate": "2026-10-10",
     "claimAmount": "310000",
     "claimStatus": "Active",
     "validationStatus": "Passed",
@@ -4569,10 +5406,26 @@
     "statusIntervalDays": 10,
     "totalReserveAmount": 540000,
     "potentialRecoveryAmount": 0,
-    "daysSinceLoss": 29,
-    "daysSinceNotice": 28,
+    "daysSinceLoss": 21,
+    "daysSinceNotice": 20,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "catEventId": "CAT-2026-ISAIAS",
+    "catNumber": "CAT-2026-ISAIAS",
+    "catEventName": "Hurricane Isaias",
+    "lossCounty": "Bay",
+    "lossZip": "32408",
+    "crfLine": "DW",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 356500,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "catEventFlag": "present",
     "catastrophicClaimFlag": "present",
     "highValueClaimFlag": "present",
@@ -4580,12 +5433,12 @@
     "roofDamageFlag": "present",
     "contractorEstimateAmount": 280000,
     "lossInformation": {
-      "causeOfLoss": "Hurricane damage to multi-unit property",
+      "causeOfLoss": "Hurricane Isaias damage to multi-unit property",
       "damagedAreas": [
         "Roofs",
         "Units"
       ],
-      "lossDate": "2026-10-01"
+      "lossDate": "2026-10-09"
     },
     "policyInformation": {
       "policyForm": "DF3-DL",
@@ -4602,8 +5455,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "204 Harbor Blvd, Fort Myers, FL",
-      "county": "Lee"
+      "address": "204 Harbor Blvd, Panama City Beach, FL 32408",
+      "county": "Bay",
+      "zip": "32408"
     },
     "assignment": {
       "assignedAdjuster": "Priya Nair",
@@ -4650,7 +5504,7 @@
         "selectedVendor": "Kruger Property Solutions",
         "status": "Pending Review",
         "confirmedBy": "Priya Nair",
-        "confirmedAt": "2026-10-05T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "_id": {
           "$oid": "8538e6d9e0cd0a95fd5c87d9"
         },
@@ -4664,7 +5518,7 @@
         "selectedVendor": "DDA Forensics",
         "status": "Pending Review",
         "confirmedBy": "Priya Nair",
-        "confirmedAt": "2026-10-05T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "_id": {
           "$oid": "bed04ab1ce30aa782bcb1e28"
         }
@@ -4677,7 +5531,7 @@
         "selectedVendor": "DDA Forensics",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
-        "confirmedAt": "2026-10-05T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "_id": {
           "$oid": "e44aa9d5c33a27dda563a209"
         }
@@ -4690,7 +5544,7 @@
         "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
-        "confirmedAt": "2026-10-05T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "_id": {
           "$oid": "d882fbf53026daf6b7698dd0"
         }
@@ -4703,7 +5557,7 @@
         "selectedVendor": "Janney Roofing",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
-        "confirmedAt": "2026-10-05T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "_id": {
           "$oid": "7e2b2598fa6b227acb184e79"
         }
@@ -4716,7 +5570,7 @@
         "selectedVendor": "M6 Building Solutions",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
-        "confirmedAt": "2026-10-05T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "_id": {
           "$oid": "750603c573ac3f9383c5e003"
         }
@@ -4729,7 +5583,7 @@
         "selectedVendor": "M6 Building Solutions",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
-        "confirmedAt": "2026-10-05T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "_id": {
           "$oid": "a0c4153f11b8abd7c9be6cc9"
         }
@@ -4747,7 +5601,7 @@
     "servicesTriggered": 7,
     "__v": 0,
     "adjusterSubmittedBy": "Priya Nair",
-    "adjusterSubmittedAt": "2026-10-05T12:00:00.000Z",
+    "adjusterSubmittedAt": "2026-10-13T12:00:00.000Z",
     "adjusterComments": "Closer to the loss location and faster on site"
   },
   {
@@ -4775,6 +5629,19 @@
     "daysSinceNotice": 19,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Mobile",
+    "lossZip": "36602",
+    "crfLine": "",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 20700,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "contractorNegligenceFlag": "present",
     "liabilityEvidenceFlag": "present",
     "multipleEntitiesJobsiteFlag": "present",
@@ -4801,8 +5668,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "217 Palm Ave, Mobile, AL",
-      "county": "Mobile"
+      "address": "217 Palm Ave, Mobile, AL 36602",
+      "county": "Mobile",
+      "zip": "36602"
     },
     "assignment": {
       "assignedAdjuster": "Sarah Mitchell",
@@ -4858,6 +5726,19 @@
     "daysSinceNotice": 50,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Orange",
+    "lossZip": "32801",
+    "crfLine": "DW",
+    "crfStatus": "open_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 32000,
+    "paidAlaeAmount": 1920,
+    "incurredLossAmount": 73600,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "businessInterruptionFlag": "present",
     "largeAdditionalExpenseFlag": "present",
     "tenantCausedFlag": "present",
@@ -4883,8 +5764,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "230 Cypress Way, Orlando, FL",
-      "county": "Orange"
+      "address": "230 Cypress Way, Orlando, FL 32801",
+      "county": "Orange",
+      "zip": "32801"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -4977,8 +5859,8 @@
     "policyNumber": "POL-DF3DL-308407",
     "insuredName": "Calvin Brooks",
     "claimType": "DF3-DL",
-    "lossDate": "2026-10-07",
-    "reportedDate": "2026-10-08",
+    "lossDate": "2026-10-10",
+    "reportedDate": "2026-10-12",
     "claimAmount": "15500",
     "claimStatus": "Active",
     "validationStatus": "Passed",
@@ -4990,22 +5872,39 @@
     "statusIntervalDays": 10,
     "totalReserveAmount": 17825,
     "potentialRecoveryAmount": 0,
-    "daysSinceLoss": 23,
-    "daysSinceNotice": 22,
+    "daysSinceLoss": 20,
+    "daysSinceNotice": 18,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "catEventId": "CAT-2026-ISAIAS",
+    "catNumber": "CAT-2026-ISAIAS",
+    "catEventName": "Hurricane Isaias",
+    "lossCounty": "Santa Rosa",
+    "lossZip": "32570",
+    "crfLine": "DW",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 17825,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "deductibleWaiverSuspectedFlag": "present",
     "roofDamageFlag": "present",
     "windHailFlag": "present",
     "roofPaymentScheduleFlag": "present",
+    "catEventFlag": "present",
     "roofAgeYears": 21,
     "contractorEstimateAmount": 15500,
     "lossInformation": {
-      "causeOfLoss": "Roof damage, deductible waiver suspected",
+      "causeOfLoss": "Hurricane Isaias roof damage, deductible waiver suspected",
       "damagedAreas": [
         "Roof"
       ],
-      "lossDate": "2026-10-07"
+      "lossDate": "2026-10-10"
     },
     "policyInformation": {
       "policyForm": "DF3-DL",
@@ -5022,8 +5921,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "243 Bayshore Dr, Tampa, FL",
-      "county": "Hillsborough"
+      "address": "243 Bayshore Dr, Milton, FL 32570",
+      "county": "Santa Rosa",
+      "zip": "32570"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -5033,12 +5933,14 @@
     "recordIndex": 11,
     "planServices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "953716fb-084f-41be-a85d-c7f32b82c23e",
       "dd83632f-6e75-429b-a53e-6bbae87e5d0d"
     ],
     "existingplanservices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "953716fb-084f-41be-a85d-c7f32b82c23e",
       "dd83632f-6e75-429b-a53e-6bbae87e5d0d"
@@ -5051,7 +5953,7 @@
     "completedBy": "",
     "serviceVendorReview": [],
     "vendorServices": [],
-    "servicesTriggered": 4,
+    "servicesTriggered": 5,
     "__v": 0
   },
   {
@@ -5062,8 +5964,8 @@
     "policyNumber": "POL-DF3DL-308444",
     "insuredName": "Naomi Shapiro",
     "claimType": "DF3-DL",
-    "lossDate": "2026-10-21",
-    "reportedDate": "2026-10-22",
+    "lossDate": "2026-10-10",
+    "reportedDate": "2026-10-13",
     "claimAmount": "12300",
     "claimStatus": "Active",
     "validationStatus": "Passed",
@@ -5075,19 +5977,36 @@
     "statusIntervalDays": 10,
     "totalReserveAmount": 14145,
     "potentialRecoveryAmount": 0,
-    "daysSinceLoss": 9,
-    "daysSinceNotice": 8,
+    "daysSinceLoss": 20,
+    "daysSinceNotice": 17,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "catEventId": "CAT-2026-ISAIAS",
+    "catNumber": "CAT-2026-ISAIAS",
+    "catEventName": "Hurricane Isaias",
+    "lossCounty": "Okaloosa",
+    "lossZip": "32548",
+    "crfLine": "DW",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 14145,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "structuralDryingRequiredFlag": "present",
+    "catEventFlag": "present",
     "insuranceToValuePct": 62,
     "contractorEstimateAmount": 12300,
     "lossInformation": {
-      "causeOfLoss": "Water damage, underinsured",
+      "causeOfLoss": "Hurricane Isaias water intrusion, underinsured",
       "damagedAreas": [
         "Kitchen"
       ],
-      "lossDate": "2026-10-21"
+      "lossDate": "2026-10-10"
     },
     "policyInformation": {
       "policyForm": "DF3-DL",
@@ -5104,8 +6023,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "256 Magnolia St, Boca Raton, FL",
-      "county": "Palm Beach"
+      "address": "256 Magnolia St, Fort Walton Beach, FL 32548",
+      "county": "Okaloosa",
+      "zip": "32548"
     },
     "assignment": {
       "assignedAdjuster": "Priya Nair",
@@ -5115,11 +6035,13 @@
     "recordIndex": 12,
     "planServices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "0e056f9a-3549-4d0b-a11c-6e2b5ebdf4a5"
     ],
     "existingplanservices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "0e056f9a-3549-4d0b-a11c-6e2b5ebdf4a5"
     ],
@@ -5131,7 +6053,7 @@
     "completedBy": "",
     "serviceVendorReview": [],
     "vendorServices": [],
-    "servicesTriggered": 3,
+    "servicesTriggered": 4,
     "__v": 0
   },
   {
@@ -5158,6 +6080,19 @@
     "daysSinceLoss": 16,
     "daysSinceNotice": 15,
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "New Hanover",
+    "lossZip": "28401",
+    "crfLine": "",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 31050,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": true,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "sceneInvestigationRequiredFlag": "present",
     "attorneyInitialNoticeFlag": "present",
     "immediateCounselRepresentationFlag": "present",
@@ -5184,8 +6119,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "269 Gulf Breeze Pkwy, Wilmington, NC",
-      "county": "New Hanover"
+      "address": "269 Gulf Breeze Pkwy, Wilmington, NC 28401",
+      "county": "New Hanover",
+      "zip": "28401"
     },
     "assignment": {
       "assignedAdjuster": "Sarah Mitchell",
@@ -5239,6 +6175,19 @@
     "daysSinceNotice": 98,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Orange",
+    "lossZip": "32801",
+    "crfLine": "DW",
+    "crfStatus": "closed_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 8460,
+    "paidAlaeAmount": 508,
+    "incurredLossAmount": 8460,
+    "crfDaysToClose": 96,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "windHailFlag": "present",
     "roofAgeYears": 12,
     "contractorEstimateAmount": 9400,
@@ -5265,8 +6214,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "282 Citrus Grove Rd, Orlando, FL",
-      "county": "Orange"
+      "address": "282 Citrus Grove Rd, Orlando, FL 32801",
+      "county": "Orange",
+      "zip": "32801"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -5355,6 +6305,19 @@
     "daysSinceNotice": 74,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Miami-Dade",
+    "lossZip": "33130",
+    "crfLine": "DW",
+    "crfStatus": "closed_no_payment",
+    "crfClosedNoPaymentReason": "exclusions_or_no_policy",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 0,
+    "crfDaysToClose": 72,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "policyLapseFlag": "present",
     "coverageQuestionFlag": "present",
     "contractorEstimateAmount": 31000,
@@ -5380,8 +6343,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "295 Sawgrass Ln, Miami, FL",
-      "county": "Miami-Dade"
+      "address": "295 Sawgrass Ln, Miami, FL 33130",
+      "county": "Miami-Dade",
+      "zip": "33130"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -5457,6 +6421,19 @@
     "daysSinceNotice": 16,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Polk",
+    "lossZip": "33801",
+    "crfLine": "DW",
+    "crfStatus": "open_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 13000,
+    "paidAlaeAmount": 780,
+    "incurredLossAmount": 59800,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "highValueClaimFlag": "present",
     "sceneInvestigationRequiredFlag": "present",
     "contractorEstimateAmount": 52000,
@@ -5483,8 +6460,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "113 Palm Ave, Lakeland, FL",
-      "county": "Polk"
+      "address": "113 Palm Ave, Lakeland, FL 33801",
+      "county": "Polk",
+      "zip": "33801"
     },
     "assignment": {
       "assignedAdjuster": "Sarah Mitchell",
@@ -5622,6 +6600,19 @@
     "daysSinceNotice": 57,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Miami-Dade",
+    "lossZip": "33010",
+    "crfLine": "DW",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 27600,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "unoccupiedFlag": "present",
     "moldRemediationRequiredFlag": "present",
     "coverageQuestionFlag": "present",
@@ -5649,8 +6640,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "126 Cypress Way, Hialeah, FL",
-      "county": "Miami-Dade"
+      "address": "126 Cypress Way, Hialeah, FL 33010",
+      "county": "Miami-Dade",
+      "zip": "33010"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -5706,6 +6698,19 @@
     "daysSinceNotice": 25,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Mobile",
+    "lossZip": "36602",
+    "crfLine": "",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 22770,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "windHailFlag": "present",
     "roofDamageFlag": "present",
     "roofAgeYears": 28,
@@ -5732,8 +6737,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "139 Bayshore Dr, Mobile, AL",
-      "county": "Mobile"
+      "address": "139 Bayshore Dr, Mobile, AL 36602",
+      "county": "Mobile",
+      "zip": "36602"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -5770,8 +6776,8 @@
     "policyNumber": "POL-DF3DO-308148",
     "insuredName": "Lucille Baptiste",
     "claimType": "DF3-DO",
-    "lossDate": "2026-09-26",
-    "reportedDate": "2026-09-27",
+    "lossDate": "2026-10-09",
+    "reportedDate": "2026-10-11",
     "claimAmount": "245000",
     "claimStatus": "Active",
     "validationStatus": "Passed",
@@ -5783,20 +6789,43 @@
     "statusIntervalDays": 10,
     "totalReserveAmount": 560000,
     "potentialRecoveryAmount": 0,
-    "daysSinceLoss": 34,
-    "daysSinceNotice": 33,
+    "daysSinceLoss": 21,
+    "daysSinceNotice": 19,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "catEventId": "CAT-2026-ISAIAS",
+    "catNumber": "CAT-2026-ISAIAS",
+    "catEventName": "Hurricane Isaias",
+    "lossCounty": "Okaloosa",
+    "lossZip": "32548",
+    "publicAdjusterFirm": "Coastal Loss Consultants",
+    "publicAdjusterFeePct": 10,
+    "publicAdjusterContractDate": "2026-10-13",
+    "publicAdjusterFeeCapPct": 10,
+    "publicAdjusterFeeStatus": "Within cap",
+    "secondLevelReviewRequired": true,
+    "secondLevelReviewStatus": "Completed",
+    "crfLine": "DW",
+    "crfStatus": "open_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 122500,
+    "paidAlaeAmount": 7350,
+    "incurredLossAmount": 281750,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "catEventFlag": "present",
     "catastrophicClaimFlag": "present",
     "highValueClaimFlag": "present",
     "publicAdjusterFlag": "present",
     "lossInformation": {
-      "causeOfLoss": "Hurricane total loss",
+      "causeOfLoss": "Hurricane Isaias total loss",
       "damagedAreas": [
         "Entire dwelling"
       ],
-      "lossDate": "2026-09-26"
+      "lossDate": "2026-10-09"
     },
     "policyInformation": {
       "policyForm": "DF3-DO",
@@ -5813,8 +6842,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "152 Magnolia St, Fort Pierce, FL",
-      "county": "St. Lucie"
+      "address": "152 Magnolia St, Fort Walton Beach, FL 32548",
+      "county": "Okaloosa",
+      "zip": "32548"
     },
     "assignment": {
       "assignedAdjuster": "Priya Nair",
@@ -5824,23 +6854,32 @@
     "recordIndex": 4,
     "planServices": [
       "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
+      "d2329338-efe4-49c4-af73-bae9a39c55cb",
       "de2a54b5-1dab-48f6-aafe-09ab14d462ec",
       "afd882e6-5968-41a5-a627-499eea6a6ef0",
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
       "c1a4282d-12fe-4faa-aef3-8c8631646edd",
+      "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "5a3693f8-0fc6-4985-ae83-37bfe5ce7235"
     ],
     "existingplanservices": [
       "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
+      "d2329338-efe4-49c4-af73-bae9a39c55cb",
       "de2a54b5-1dab-48f6-aafe-09ab14d462ec",
       "afd882e6-5968-41a5-a627-499eea6a6ef0",
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
       "c1a4282d-12fe-4faa-aef3-8c8631646edd",
+      "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "5a3693f8-0fc6-4985-ae83-37bfe5ce7235"
     ],
     "confirmedPlanServices": [
       "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
+      "d2329338-efe4-49c4-af73-bae9a39c55cb",
       "de2a54b5-1dab-48f6-aafe-09ab14d462ec",
       "afd882e6-5968-41a5-a627-499eea6a6ef0",
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
       "c1a4282d-12fe-4faa-aef3-8c8631646edd",
+      "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "5a3693f8-0fc6-4985-ae83-37bfe5ce7235"
     ],
     "planServiceStatus": "Finalized Selection",
@@ -5857,14 +6896,27 @@
         "selectedVendor": "Proclaim Engineering, Inc",
         "status": "Modified",
         "confirmedBy": "Priya Nair",
-        "confirmedAt": "2026-09-30T12:00:00.000Z",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
         "_id": {
           "$oid": "b8bc2eb689ed6df136b5be63"
         },
         "adjusterComment": "Faster arrival time",
         "supervisorComment": "Approved: closer to the risk",
         "reviewedBy": "claimssupervisor",
-        "reviewedAt": "2026-10-03T12:00:00.000Z"
+        "reviewedAt": "2026-10-17T12:00:00.000Z"
+      },
+      {
+        "roleName": "Appraisers/Independent Adjusters",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "Colonial Claims",
+        "proposedVendor": "Colonial Claims",
+        "selectedVendor": "Colonial Claims",
+        "status": "Locked",
+        "confirmedBy": "Priya Nair",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
+        "_id": {
+          "$oid": "e41342bf482749cdd65c2527"
+        }
       },
       {
         "roleName": "Forensic Engineers",
@@ -5874,7 +6926,7 @@
         "selectedVendor": "DDA Forensics",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
-        "confirmedAt": "2026-09-30T12:00:00.000Z",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
         "_id": {
           "$oid": "5aa161707083314aa1f27d57"
         }
@@ -5887,9 +6939,22 @@
         "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
-        "confirmedAt": "2026-09-30T12:00:00.000Z",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
         "_id": {
           "$oid": "5322e95395bf17f87b6e8db7"
+        }
+      },
+      {
+        "roleName": "Independent Adjusters",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "Colonial Claims",
+        "proposedVendor": "Colonial Claims",
+        "selectedVendor": "Colonial Claims",
+        "status": "Locked",
+        "confirmedBy": "Priya Nair",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
+        "_id": {
+          "$oid": "3ab40e3dd63a12fea2df2050"
         }
       },
       {
@@ -5900,9 +6965,22 @@
         "selectedVendor": "Janney Roofing",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
-        "confirmedAt": "2026-09-30T12:00:00.000Z",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
         "_id": {
           "$oid": "3e654576c7715eb4bf317e92"
+        }
+      },
+      {
+        "roleName": "Repair Network Referral",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "M6 Building Solutions",
+        "status": "Locked",
+        "confirmedBy": "Priya Nair",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
+        "_id": {
+          "$oid": "70841330b882f02d0264d8f7"
         }
       },
       {
@@ -5913,7 +6991,7 @@
         "selectedVendor": "Gold Star Adjusters",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
-        "confirmedAt": "2026-09-30T12:00:00.000Z",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
         "_id": {
           "$oid": "ccd3396e810c91bb49f5f7f3"
         }
@@ -5926,11 +7004,11 @@
         "selectedVendor": "MDD Forensic Accountants",
         "status": "Rejected",
         "confirmedBy": "Priya Nair",
-        "confirmedAt": "2026-09-30T12:00:00.000Z",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
         "adjusterComment": "Rent loss needs validating",
         "supervisorComment": "Not warranted at this exposure",
         "reviewedBy": "claimssupervisor",
-        "reviewedAt": "2026-10-03T12:00:00.000Z",
+        "reviewedAt": "2026-10-17T12:00:00.000Z",
         "_id": {
           "$oid": "c209d923f9c842a00116db70"
         }
@@ -5938,15 +7016,18 @@
     ],
     "vendorServices": [
       "Proclaim Engineering, Inc",
+      "Colonial Claims",
       "DDA Forensics",
       "GrayRobinson",
+      "Colonial Claims",
       "Janney Roofing",
+      "M6 Building Solutions",
       "Gold Star Adjusters"
     ],
-    "servicesTriggered": 5,
+    "servicesTriggered": 8,
     "__v": 0,
     "adjusterSubmittedBy": "Priya Nair",
-    "adjusterSubmittedAt": "2026-09-30T12:00:00.000Z",
+    "adjusterSubmittedAt": "2026-10-14T12:00:00.000Z",
     "adjusterComments": "Faster arrival time",
     "vendorServiceComments": "Vendor selection confirmed"
   },
@@ -5975,10 +7056,31 @@
     "daysSinceNotice": 43,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Pinellas",
+    "lossZip": "33756",
+    "publicAdjusterFirm": "Pinellas Claim Advocates",
+    "publicAdjusterFeePct": 20,
+    "publicAdjusterContractDate": "2026-09-20",
+    "publicAdjusterFeeCapPct": 20,
+    "publicAdjusterFeeStatus": "Within cap",
+    "secondLevelReviewRequired": true,
+    "secondLevelReviewStatus": "Pending claims manager review",
+    "crfLine": "DW",
+    "crfStatus": "open_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 19500,
+    "paidAlaeAmount": 1170,
+    "incurredLossAmount": 89700,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": true,
     "disputedCauseOriginFlag": "present",
     "constructionTradeInvolvementFlag": "present",
     "specialHandlingPropertyFlag": "present",
     "coverageQuestionFlag": "present",
+    "publicAdjusterFlag": "present",
     "contractorEstimateAmount": 78000,
     "lossInformation": {
       "causeOfLoss": "Structural settlement dispute",
@@ -6002,8 +7104,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "165 Gulf Breeze Pkwy, Clearwater, FL",
-      "county": "Pinellas"
+      "address": "165 Gulf Breeze Pkwy, Clearwater, FL 33756",
+      "county": "Pinellas",
+      "zip": "33756"
     },
     "assignment": {
       "assignedAdjuster": "Sarah Mitchell",
@@ -6012,20 +7115,32 @@
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 5,
     "planServices": [
+      "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
       "d2329338-efe4-49c4-af73-bae9a39c55cb",
       "de2a54b5-1dab-48f6-aafe-09ab14d462ec",
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+      "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
-      "3455af34-b088-440b-a1f7-99dea13403cf"
+      "3455af34-b088-440b-a1f7-99dea13403cf",
+      "5a3693f8-0fc6-4985-ae83-37bfe5ce7235"
     ],
     "existingplanservices": [
+      "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
       "d2329338-efe4-49c4-af73-bae9a39c55cb",
       "de2a54b5-1dab-48f6-aafe-09ab14d462ec",
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+      "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
-      "3455af34-b088-440b-a1f7-99dea13403cf"
+      "3455af34-b088-440b-a1f7-99dea13403cf",
+      "5a3693f8-0fc6-4985-ae83-37bfe5ce7235"
     ],
     "confirmedPlanServices": [
+      "de2a54b5-1dab-48f6-aafe-09ab14d462ec",
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+      "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
-      "3455af34-b088-440b-a1f7-99dea13403cf"
+      "3455af34-b088-440b-a1f7-99dea13403cf",
+      "5a3693f8-0fc6-4985-ae83-37bfe5ce7235"
     ],
     "planServiceStatus": "Pending Review",
     "planServiceComments": "Plan services confirmed",
@@ -6033,6 +7148,20 @@
     "completedAt": null,
     "completedBy": "",
     "serviceVendorReview": [
+      {
+        "roleName": "Cause & Origin Specialists",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "DDA Forensics",
+        "proposedVendor": "DDA Forensics",
+        "selectedVendor": "Proclaim Engineering, Inc",
+        "status": "Pending Review",
+        "confirmedBy": "Sarah Mitchell",
+        "confirmedAt": "2026-09-20T12:00:00.000Z",
+        "_id": {
+          "$oid": "5a8f12198cedd6c48ecd6493"
+        },
+        "adjusterComment": "Closer to the loss location and faster on site"
+      },
       {
         "roleName": "Appraisers/Independent Adjusters",
         "changeType": "ProviderChange",
@@ -6044,8 +7173,7 @@
         "confirmedAt": "2026-09-20T12:00:00.000Z",
         "_id": {
           "$oid": "63676b06c394e1ed0acf6545"
-        },
-        "adjusterComment": "Closer to the loss location and faster on site"
+        }
       },
       {
         "roleName": "Forensic Engineers",
@@ -6053,11 +7181,37 @@
         "recommendedVendor": "DDA Forensics",
         "proposedVendor": "DDA Forensics",
         "selectedVendor": "DDA Forensics",
-        "status": "Pending Review",
+        "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-09-20T12:00:00.000Z",
         "_id": {
           "$oid": "a1661e74243fc81bbc0f4005"
+        }
+      },
+      {
+        "roleName": "Independent Adjusters",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "Colonial Claims",
+        "proposedVendor": "Colonial Claims",
+        "selectedVendor": "Colonial Claims",
+        "status": "Locked",
+        "confirmedBy": "Sarah Mitchell",
+        "confirmedAt": "2026-09-20T12:00:00.000Z",
+        "_id": {
+          "$oid": "1cae9beea3be5476a07f32ae"
+        }
+      },
+      {
+        "roleName": "Repair Network Referral",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "M6 Building Solutions",
+        "status": "Locked",
+        "confirmedBy": "Sarah Mitchell",
+        "confirmedAt": "2026-09-20T12:00:00.000Z",
+        "_id": {
+          "$oid": "bf2f0080a180c5c12e2bd659"
         }
       },
       {
@@ -6085,15 +7239,32 @@
         "_id": {
           "$oid": "b4d8ce536a9ab2ef1787294c"
         }
+      },
+      {
+        "roleName": "Public Adjuster / Appraisal",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "Gold Star Adjusters",
+        "proposedVendor": "Gold Star Adjusters",
+        "selectedVendor": "Gold Star Adjusters",
+        "status": "Locked",
+        "confirmedBy": "Sarah Mitchell",
+        "confirmedAt": "2026-09-20T12:00:00.000Z",
+        "_id": {
+          "$oid": "0d605b1755990bf50b0e9490"
+        }
       }
     ],
     "vendorServices": [
+      "Proclaim Engineering, Inc",
       "Colonial Claims",
       "DDA Forensics",
+      "Colonial Claims",
       "M6 Building Solutions",
-      "GrayRobinson"
+      "M6 Building Solutions",
+      "GrayRobinson",
+      "Gold Star Adjusters"
     ],
-    "servicesTriggered": 4,
+    "servicesTriggered": 8,
     "__v": 0,
     "adjusterSubmittedBy": "Sarah Mitchell",
     "adjusterSubmittedAt": "2026-09-20T12:00:00.000Z",
@@ -6107,8 +7278,8 @@
     "policyNumber": "POL-DF3DO-308222",
     "insuredName": "Yolanda Price",
     "claimType": "DF3-DO",
-    "lossDate": "2026-10-09",
-    "reportedDate": "2026-10-10",
+    "lossDate": "2026-10-10",
+    "reportedDate": "2026-10-12",
     "claimAmount": "13700",
     "claimStatus": "Active",
     "validationStatus": "Passed",
@@ -6120,19 +7291,36 @@
     "statusIntervalDays": 10,
     "totalReserveAmount": 15755,
     "potentialRecoveryAmount": 0,
-    "daysSinceLoss": 21,
-    "daysSinceNotice": 20,
+    "daysSinceLoss": 20,
+    "daysSinceNotice": 18,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "catEventId": "CAT-2026-ISAIAS",
+    "catNumber": "CAT-2026-ISAIAS",
+    "catEventName": "Hurricane Isaias",
+    "lossCounty": "Santa Rosa",
+    "lossZip": "32561",
+    "crfLine": "DW",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 15755,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": true,
+    "crfWindVsFlood": false,
     "deductibleWaiverSuspectedFlag": "present",
     "contractorReferralRequiredFlag": "present",
+    "catEventFlag": "present",
     "contractorEstimateAmount": 13700,
     "lossInformation": {
-      "causeOfLoss": "Roof repair, contractor rebate suspected",
+      "causeOfLoss": "Hurricane Isaias roof repair, contractor rebate suspected",
       "damagedAreas": [
         "Roof"
       ],
-      "lossDate": "2026-10-09"
+      "lossDate": "2026-10-10"
     },
     "policyInformation": {
       "policyForm": "DF3-DO",
@@ -6149,8 +7337,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "178 Citrus Grove Rd, Ocala, FL",
-      "county": "Marion"
+      "address": "178 Citrus Grove Rd, Gulf Breeze, FL 32561",
+      "county": "Santa Rosa",
+      "zip": "32561"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -6159,11 +7348,13 @@
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 6,
     "planServices": [
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "dd83632f-6e75-429b-a53e-6bbae87e5d0d"
     ],
     "existingplanservices": [
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "dd83632f-6e75-429b-a53e-6bbae87e5d0d"
@@ -6176,7 +7367,7 @@
     "completedBy": "",
     "serviceVendorReview": [],
     "vendorServices": [],
-    "servicesTriggered": 3,
+    "servicesTriggered": 4,
     "__v": 0
   },
   {
@@ -6204,6 +7395,19 @@
     "daysSinceNotice": 14,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Nueces",
+    "lossZip": "78401",
+    "crfLine": "",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 20125,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "productInvolvementFlag": "present",
     "liabilityEvidenceFlag": "present",
     "sceneInvestigationRequiredFlag": "present",
@@ -6229,8 +7433,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "191 Sawgrass Ln, Corpus Christi, TX",
-      "county": "Nueces"
+      "address": "191 Sawgrass Ln, Corpus Christi, TX 78401",
+      "county": "Nueces",
+      "zip": "78401"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -6284,6 +7489,19 @@
     "daysSinceNotice": 11,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Osceola",
+    "lossZip": "34741",
+    "crfLine": "DW",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 10120,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "policeReportRequiredFlag": "present",
     "contractorEstimateAmount": 8800,
     "lossInformation": {
@@ -6308,8 +7526,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "204 Harbor Blvd, Kissimmee, FL",
-      "county": "Osceola"
+      "address": "204 Harbor Blvd, Kissimmee, FL 34741",
+      "county": "Osceola",
+      "zip": "34741"
     },
     "assignment": {
       "assignedAdjuster": "Priya Nair",
@@ -6360,6 +7579,19 @@
     "daysSinceLoss": 85,
     "daysSinceNotice": 50,
     "acknowledgedFlag": "present",
+    "lossCounty": "Miami-Dade",
+    "lossZip": "33130",
+    "crfLine": "DW",
+    "crfStatus": "open_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 2750,
+    "paidAlaeAmount": 165,
+    "incurredLossAmount": 12650,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "lateNoticeFlag": "present",
     "coverageQuestionFlag": "present",
     "contractorEstimateAmount": 11000,
@@ -6385,8 +7617,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "217 Palm Ave, Miami, FL",
-      "county": "Miami-Dade"
+      "address": "217 Palm Ave, Miami, FL 33130",
+      "county": "Miami-Dade",
+      "zip": "33130"
     },
     "assignment": {
       "assignedAdjuster": "Sarah Mitchell",
@@ -6505,6 +7738,26 @@
     "daysSinceNotice": 38,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Charleston",
+    "lossZip": "29401",
+    "publicAdjusterFirm": "Palmetto Claim Advocates",
+    "publicAdjusterFeePct": 20,
+    "publicAdjusterContractDate": "2026-09-24",
+    "publicAdjusterFeeCapPct": 0,
+    "publicAdjusterFeeStatus": "Not reviewed (non-Florida)",
+    "secondLevelReviewRequired": true,
+    "secondLevelReviewStatus": "Pending claims manager review",
+    "crfLine": "",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 33925,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": true,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "appraisalDemandFlag": "present",
     "publicAdjusterFlag": "present",
     "estimateDisputeFlag": "present",
@@ -6533,8 +7786,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "230 Cypress Way, Charleston, SC",
-      "county": "Charleston"
+      "address": "230 Cypress Way, Charleston, SC 29401",
+      "county": "Charleston",
+      "zip": "29401"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -6543,16 +7797,28 @@
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 10,
     "planServices": [
+      "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
+      "d2329338-efe4-49c4-af73-bae9a39c55cb",
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+      "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "5a3693f8-0fc6-4985-ae83-37bfe5ce7235",
       "953716fb-084f-41be-a85d-c7f32b82c23e"
     ],
     "existingplanservices": [
+      "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
+      "d2329338-efe4-49c4-af73-bae9a39c55cb",
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+      "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "5a3693f8-0fc6-4985-ae83-37bfe5ce7235",
       "953716fb-084f-41be-a85d-c7f32b82c23e"
     ],
     "confirmedPlanServices": [
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+      "43017e2f-5a5a-418a-a972-f10cef277c2f",
+      "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
+      "5a3693f8-0fc6-4985-ae83-37bfe5ce7235",
       "953716fb-084f-41be-a85d-c7f32b82c23e"
     ],
     "planServiceStatus": "Pending Review",
@@ -6562,18 +7828,70 @@
     "completedBy": "",
     "serviceVendorReview": [
       {
-        "roleName": "Estimate & Invoice Review",
+        "roleName": "Cause & Origin Specialists",
         "changeType": "ProviderChange",
-        "recommendedVendor": "M6 Building Solutions",
-        "proposedVendor": "M6 Building Solutions",
-        "selectedVendor": "Hi Low Roofing",
+        "recommendedVendor": "DDA Forensics",
+        "proposedVendor": "DDA Forensics",
+        "selectedVendor": "Proclaim Engineering, Inc",
         "status": "Pending Review",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-25T12:00:00.000Z",
         "_id": {
-          "$oid": "0dd3555184ede860bd99ec7a"
+          "$oid": "18d36eb8ca3fe821ece856c3"
         },
         "adjusterComment": "Closer to the loss location and faster on site"
+      },
+      {
+        "roleName": "Appraisers/Independent Adjusters",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "Colonial Claims",
+        "proposedVendor": "Colonial Claims",
+        "selectedVendor": "Colonial Claims",
+        "status": "Pending Review",
+        "confirmedBy": "James Okoro",
+        "confirmedAt": "2026-09-25T12:00:00.000Z",
+        "_id": {
+          "$oid": "90004a809ea6ee1616ea5b2d"
+        }
+      },
+      {
+        "roleName": "Independent Adjusters",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "Colonial Claims",
+        "proposedVendor": "Colonial Claims",
+        "selectedVendor": "Colonial Claims",
+        "status": "Locked",
+        "confirmedBy": "James Okoro",
+        "confirmedAt": "2026-09-25T12:00:00.000Z",
+        "_id": {
+          "$oid": "b4179c7a09eb56256abe63a5"
+        }
+      },
+      {
+        "roleName": "Repair Network Referral",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "M6 Building Solutions",
+        "status": "Locked",
+        "confirmedBy": "James Okoro",
+        "confirmedAt": "2026-09-25T12:00:00.000Z",
+        "_id": {
+          "$oid": "e277eb365a79c9dbbb2ddd95"
+        }
+      },
+      {
+        "roleName": "Estimate & Invoice Review",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "M6 Building Solutions",
+        "status": "Locked",
+        "confirmedBy": "James Okoro",
+        "confirmedAt": "2026-09-25T12:00:00.000Z",
+        "_id": {
+          "$oid": "0dd3555184ede860bd99ec7a"
+        }
       },
       {
         "roleName": "Public Adjuster / Appraisal",
@@ -6581,7 +7899,7 @@
         "recommendedVendor": "Gold Star Adjusters",
         "proposedVendor": "Gold Star Adjusters",
         "selectedVendor": "Gold Star Adjusters",
-        "status": "Pending Review",
+        "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-25T12:00:00.000Z",
         "_id": {
@@ -6603,11 +7921,15 @@
       }
     ],
     "vendorServices": [
-      "Hi Low Roofing",
+      "Proclaim Engineering, Inc",
+      "Colonial Claims",
+      "Colonial Claims",
+      "M6 Building Solutions",
+      "M6 Building Solutions",
       "Gold Star Adjusters",
       "M6 Building Solutions"
     ],
-    "servicesTriggered": 3,
+    "servicesTriggered": 7,
     "__v": 0,
     "adjusterSubmittedBy": "James Okoro",
     "adjusterSubmittedAt": "2026-09-25T12:00:00.000Z",
@@ -6638,6 +7960,22 @@
     "daysSinceNotice": 47,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Miami-Dade",
+    "lossZip": "33030",
+    "independentInvestigatorFirm": "Orion Claims Investigations",
+    "secondLevelReviewRequired": true,
+    "secondLevelReviewStatus": "Completed",
+    "crfLine": "DW",
+    "crfStatus": "open_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 30500,
+    "paidAlaeAmount": 1830,
+    "incurredLossAmount": 70150,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "priorClaimHistoryFlag": "present",
     "multipleInsurerIsoHitFlag": "present",
     "inconsistentLossVersionFlag": "present",
@@ -6645,6 +7983,7 @@
     "Litigated claim": "present",
     "highValueClaimFlag": "present",
     "inflatedValueClaimFlag": "present",
+    "independentInvestigatorFlag": "present",
     "lossInformation": {
       "causeOfLoss": "Fire with suspected fraud",
       "damagedAreas": [
@@ -6667,8 +8006,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "243 Bayshore Dr, Homestead, FL",
-      "county": "Miami-Dade"
+      "address": "243 Bayshore Dr, Homestead, FL 33030",
+      "county": "Miami-Dade",
+      "zip": "33030"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -6848,8 +8188,8 @@
     "policyNumber": "POL-DF3DO-308444",
     "insuredName": "Evelyn Sharpe",
     "claimType": "DF3-DO",
-    "lossDate": "2026-10-11",
-    "reportedDate": "2026-10-12",
+    "lossDate": "2026-10-09",
+    "reportedDate": "2026-10-13",
     "claimAmount": "22600",
     "claimStatus": "Active",
     "validationStatus": "Passed",
@@ -6861,21 +8201,38 @@
     "statusIntervalDays": 10,
     "totalReserveAmount": 25990,
     "potentialRecoveryAmount": 0,
-    "daysSinceLoss": 19,
-    "daysSinceNotice": 18,
+    "daysSinceLoss": 21,
+    "daysSinceNotice": 17,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "catEventId": "CAT-2026-ISAIAS",
+    "catNumber": "CAT-2026-ISAIAS",
+    "catEventName": "Hurricane Isaias",
+    "lossCounty": "Escambia",
+    "lossZip": "32502",
+    "crfLine": "DW",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 25990,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "windHailFlag": "present",
+    "catEventFlag": "present",
     "insuranceToValuePct": 71,
     "roofAgeYears": 14,
     "contractorEstimateAmount": 22600,
     "lossInformation": {
-      "causeOfLoss": "Wind loss, underinsured dwelling",
+      "causeOfLoss": "Hurricane Isaias wind loss, underinsured dwelling",
       "damagedAreas": [
         "Roof",
         "Siding"
       ],
-      "lossDate": "2026-10-11"
+      "lossDate": "2026-10-09"
     },
     "policyInformation": {
       "policyForm": "DF3-DO",
@@ -6892,8 +8249,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "256 Magnolia St, Ocala, FL",
-      "county": "Marion"
+      "address": "256 Magnolia St, Pensacola, FL 32502",
+      "county": "Escambia",
+      "zip": "32502"
     },
     "assignment": {
       "assignedAdjuster": "Priya Nair",
@@ -6902,10 +8260,12 @@
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 12,
     "planServices": [
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "0e056f9a-3549-4d0b-a11c-6e2b5ebdf4a5"
     ],
     "existingplanservices": [
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "0e056f9a-3549-4d0b-a11c-6e2b5ebdf4a5"
     ],
@@ -6917,7 +8277,7 @@
     "completedBy": "",
     "serviceVendorReview": [],
     "vendorServices": [],
-    "servicesTriggered": 2,
+    "servicesTriggered": 3,
     "__v": 0
   },
   {
@@ -6945,6 +8305,19 @@
     "daysSinceNotice": 108,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Jefferson",
+    "lossZip": "35203",
+    "crfLine": "",
+    "crfStatus": "closed_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 7380,
+    "paidAlaeAmount": 443,
+    "incurredLossAmount": 7380,
+    "crfDaysToClose": 106,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "lossInformation": {
       "causeOfLoss": "Kitchen water damage",
       "damagedAreas": [
@@ -6967,8 +8340,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "269 Gulf Breeze Pkwy, Birmingham, AL",
-      "county": "Jefferson"
+      "address": "269 Gulf Breeze Pkwy, Birmingham, AL 35203",
+      "county": "Jefferson",
+      "zip": "35203"
     },
     "assignment": {
       "assignedAdjuster": "Sarah Mitchell",
@@ -7040,6 +8414,19 @@
     "daysSinceNotice": 60,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Sarasota",
+    "lossZip": "34236",
+    "crfLine": "DW",
+    "crfStatus": "closed_no_payment",
+    "crfClosedNoPaymentReason": "exclusions_or_no_policy",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 0,
+    "crfDaysToClose": 58,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "excludedPerilFlag": "present",
     "coverageQuestionFlag": "present",
     "lossInformation": {
@@ -7064,8 +8451,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "282 Citrus Grove Rd, Sarasota, FL",
-      "county": "Sarasota"
+      "address": "282 Citrus Grove Rd, Sarasota, FL 34236",
+      "county": "Sarasota",
+      "zip": "34236"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -7122,8 +8510,8 @@
     "policyNumber": "POL-DF3DO-308555",
     "insuredName": "Nathan Brooks",
     "claimType": "DF3-DO",
-    "lossDate": "2026-09-22",
-    "reportedDate": "2026-09-23",
+    "lossDate": "2026-10-09",
+    "reportedDate": "2026-10-11",
     "claimAmount": "98000",
     "claimStatus": "Active",
     "validationStatus": "Passed",
@@ -7135,10 +8523,26 @@
     "statusIntervalDays": 10,
     "totalReserveAmount": 112700,
     "potentialRecoveryAmount": 0,
-    "daysSinceLoss": 38,
-    "daysSinceNotice": 37,
+    "daysSinceLoss": 21,
+    "daysSinceNotice": 19,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "catEventId": "CAT-2026-ISAIAS",
+    "catNumber": "CAT-2026-ISAIAS",
+    "catEventName": "Hurricane Isaias",
+    "lossCounty": "Bay",
+    "lossZip": "32401",
+    "crfLine": "DW",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 112700,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": true,
+    "crfWindVsFlood": false,
     "catEventFlag": "present",
     "roofDamageFlag": "present",
     "windHailFlag": "present",
@@ -7147,12 +8551,12 @@
     "roofAgeYears": 25,
     "contractorEstimateAmount": 98000,
     "lossInformation": {
-      "causeOfLoss": "Hurricane damage to roof and windows",
+      "causeOfLoss": "Hurricane Isaias damage to roof and windows",
       "damagedAreas": [
         "Roof",
         "Windows"
       ],
-      "lossDate": "2026-09-22"
+      "lossDate": "2026-10-09"
     },
     "policyInformation": {
       "policyForm": "DF3-DO",
@@ -7169,8 +8573,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "295 Sawgrass Ln, Panama City, FL",
-      "county": "Bay"
+      "address": "295 Sawgrass Ln, Panama City, FL 32401",
+      "county": "Bay",
+      "zip": "32401"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -7211,8 +8616,8 @@
     "policyNumber": "POL-SFIP-305037",
     "insuredName": "Ricardo Salazar",
     "claimType": "SFIP",
-    "lossDate": "2026-10-02",
-    "reportedDate": "2026-10-03",
+    "lossDate": "2026-10-09",
+    "reportedDate": "2026-10-11",
     "claimAmount": "142000",
     "claimStatus": "Active",
     "validationStatus": "Passed",
@@ -7224,26 +8629,43 @@
     "statusIntervalDays": 10,
     "totalReserveAmount": 163300,
     "potentialRecoveryAmount": 0,
-    "daysSinceLoss": 28,
-    "daysSinceNotice": 27,
+    "daysSinceLoss": 21,
+    "daysSinceNotice": 19,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
     "proofOfLossReceivedFlag": "present",
+    "catEventId": "CAT-2026-ISAIAS",
+    "catNumber": "CAT-2026-ISAIAS",
+    "catEventName": "Hurricane Isaias",
+    "lossCounty": "Okaloosa",
+    "lossZip": "32541",
+    "crfLine": "",
+    "crfStatus": "open_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 35500,
+    "paidAlaeAmount": 2130,
+    "incurredLossAmount": 163300,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "nfipPolicyFlag": "present",
     "sfhaFlag": "present",
     "structuralDryingRequiredFlag": "present",
     "substantialDamageFlag": "present",
+    "catEventFlag": "present",
     "repairCostPctOfValue": 54,
     "buildingLossAmount": 142000,
     "contentsLossAmount": 22000,
     "policyDaysBeforeLoss": 600,
     "lossInformation": {
-      "causeOfLoss": "Storm surge",
+      "causeOfLoss": "Hurricane Isaias storm surge",
       "damagedAreas": [
         "Ground floor",
         "Utilities"
       ],
-      "lossDate": "2026-10-02"
+      "lossDate": "2026-10-09"
     },
     "policyInformation": {
       "policyForm": "SFIP",
@@ -7260,8 +8682,9 @@
       "contentsExposure": 22000
     },
     "property": {
-      "address": "113 Palm Ave, Naples, FL",
-      "county": "Collier"
+      "address": "113 Palm Ave, Destin, FL 32541",
+      "county": "Okaloosa",
+      "zip": "32541"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -7271,6 +8694,7 @@
     "recordIndex": 1,
     "planServices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "2a0941a9-ab8e-42c5-aa96-53a4124d097e",
       "d094afe9-ba8f-412f-aa9b-aca77e7db7f1",
       "be8db67b-6f4c-49b7-a14f-da9ca27c509a",
@@ -7278,12 +8702,14 @@
     ],
     "existingplanservices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "2a0941a9-ab8e-42c5-aa96-53a4124d097e",
       "d094afe9-ba8f-412f-aa9b-aca77e7db7f1",
       "be8db67b-6f4c-49b7-a14f-da9ca27c509a",
       "d25a0874-807e-43b7-af32-863e746db8b2"
     ],
     "confirmedPlanServices": [
+      "2a0941a9-ab8e-42c5-aa96-53a4124d097e",
       "d094afe9-ba8f-412f-aa9b-aca77e7db7f1",
       "be8db67b-6f4c-49b7-a14f-da9ca27c509a",
       "d25a0874-807e-43b7-af32-863e746db8b2"
@@ -7302,11 +8728,24 @@
         "selectedVendor": "Kruger Property Solutions",
         "status": "Pending Review",
         "confirmedBy": "James Okoro",
-        "confirmedAt": "2026-10-06T12:00:00.000Z",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
         "_id": {
           "$oid": "1200ffa3dd90201c1b3c7021"
         },
         "adjusterComment": "Closer to the loss location and faster on site"
+      },
+      {
+        "roleName": "CAT Response",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "Janney Roofing",
+        "proposedVendor": "Janney Roofing",
+        "selectedVendor": "Janney Roofing",
+        "status": "Pending Review",
+        "confirmedBy": "James Okoro",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
+        "_id": {
+          "$oid": "22c6193cafb104b082efc8ee"
+        }
       },
       {
         "roleName": "NFIP Authorized Adjuster",
@@ -7314,9 +8753,9 @@
         "recommendedVendor": "Crawford & Company",
         "proposedVendor": "Crawford & Company",
         "selectedVendor": "Crawford & Company",
-        "status": "Pending Review",
+        "status": "Locked",
         "confirmedBy": "James Okoro",
-        "confirmedAt": "2026-10-06T12:00:00.000Z",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
         "_id": {
           "$oid": "609693894b7a4865081d3910"
         }
@@ -7329,7 +8768,7 @@
         "selectedVendor": "J.S. Held",
         "status": "Locked",
         "confirmedBy": "James Okoro",
-        "confirmedAt": "2026-10-06T12:00:00.000Z",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
         "_id": {
           "$oid": "b8bd44f2532727eade077d37"
         }
@@ -7342,7 +8781,7 @@
         "selectedVendor": "J.S. Held",
         "status": "Locked",
         "confirmedBy": "James Okoro",
-        "confirmedAt": "2026-10-06T12:00:00.000Z",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
         "_id": {
           "$oid": "d1aeadad227365d789c37ac5"
         }
@@ -7355,7 +8794,7 @@
         "selectedVendor": "Total Inventory, LLC",
         "status": "Locked",
         "confirmedBy": "James Okoro",
-        "confirmedAt": "2026-10-06T12:00:00.000Z",
+        "confirmedAt": "2026-10-14T12:00:00.000Z",
         "_id": {
           "$oid": "60d50a39ea7bd968547ecf6b"
         }
@@ -7363,15 +8802,16 @@
     ],
     "vendorServices": [
       "Kruger Property Solutions",
+      "Janney Roofing",
       "Crawford & Company",
       "J.S. Held",
       "J.S. Held",
       "Total Inventory, LLC"
     ],
-    "servicesTriggered": 5,
+    "servicesTriggered": 6,
     "__v": 0,
     "adjusterSubmittedBy": "James Okoro",
-    "adjusterSubmittedAt": "2026-10-06T12:00:00.000Z",
+    "adjusterSubmittedAt": "2026-10-14T12:00:00.000Z",
     "adjusterComments": "Closer to the loss location and faster on site"
   },
   {
@@ -7382,8 +8822,8 @@
     "policyNumber": "POL-SFIP-305074",
     "insuredName": "Teresa Holloway",
     "claimType": "SFIP",
-    "lossDate": "2026-09-27",
-    "reportedDate": "2026-09-28",
+    "lossDate": "2026-10-09",
+    "reportedDate": "2026-10-10",
     "claimAmount": "310000",
     "claimStatus": "Active",
     "validationStatus": "Passed",
@@ -7395,11 +8835,27 @@
     "statusIntervalDays": 10,
     "totalReserveAmount": 356500,
     "potentialRecoveryAmount": 0,
-    "daysSinceLoss": 33,
-    "daysSinceNotice": 32,
+    "daysSinceLoss": 21,
+    "daysSinceNotice": 20,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
     "proofOfLossReceivedFlag": "present",
+    "catEventId": "CAT-2026-ISAIAS",
+    "catNumber": "CAT-2026-ISAIAS",
+    "catEventName": "Hurricane Isaias",
+    "lossCounty": "Escambia",
+    "lossZip": "32561",
+    "crfLine": "",
+    "crfStatus": "open_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 155000,
+    "paidAlaeAmount": 9300,
+    "incurredLossAmount": 356500,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "nfipPolicyFlag": "present",
     "sfhaFlag": "present",
     "substantialDamageFlag": "present",
@@ -7409,11 +8865,11 @@
     "contentsLossAmount": 48000,
     "policyDaysBeforeLoss": 900,
     "lossInformation": {
-      "causeOfLoss": "Hurricane flood, total loss",
+      "causeOfLoss": "Hurricane Isaias flood, total loss",
       "damagedAreas": [
         "Entire building"
       ],
-      "lossDate": "2026-09-27"
+      "lossDate": "2026-10-09"
     },
     "policyInformation": {
       "policyForm": "SFIP",
@@ -7430,8 +8886,9 @@
       "contentsExposure": 48000
     },
     "property": {
-      "address": "126 Cypress Way, Fort Myers, FL",
-      "county": "Lee"
+      "address": "126 Cypress Way, Pensacola Beach, FL 32561",
+      "county": "Escambia",
+      "zip": "32561"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -7477,14 +8934,14 @@
         "selectedVendor": "Bigfoot Roofing & Construction",
         "status": "Modified",
         "confirmedBy": "Derek Chan",
-        "confirmedAt": "2026-10-01T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "_id": {
           "$oid": "3d4236535592d43c576732fe"
         },
         "adjusterComment": "Faster arrival time",
         "supervisorComment": "Approved: closer to the risk",
         "reviewedBy": "claimssupervisor",
-        "reviewedAt": "2026-10-04T12:00:00.000Z"
+        "reviewedAt": "2026-10-16T12:00:00.000Z"
       },
       {
         "roleName": "NFIP Authorized Adjuster",
@@ -7494,7 +8951,7 @@
         "selectedVendor": "Crawford & Company",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
-        "confirmedAt": "2026-10-01T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "_id": {
           "$oid": "634c2fda4929271dd1a9dc1e"
         }
@@ -7507,7 +8964,7 @@
         "selectedVendor": "J.S. Held",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
-        "confirmedAt": "2026-10-01T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "_id": {
           "$oid": "b9fc03f0562e02f864da4716"
         }
@@ -7520,7 +8977,7 @@
         "selectedVendor": "J.S. Held",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
-        "confirmedAt": "2026-10-01T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "_id": {
           "$oid": "4f10fe3d1999e300991315b6"
         }
@@ -7533,7 +8990,7 @@
         "selectedVendor": "Crawford & Company",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
-        "confirmedAt": "2026-10-01T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "_id": {
           "$oid": "0306b44235ff00d77736abf5"
         }
@@ -7546,7 +9003,7 @@
         "selectedVendor": "Total Inventory, LLC",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
-        "confirmedAt": "2026-10-01T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "_id": {
           "$oid": "6a1bd16d35ffe6e438249af9"
         }
@@ -7559,11 +9016,11 @@
         "selectedVendor": "MDD Forensic Accountants",
         "status": "Rejected",
         "confirmedBy": "Derek Chan",
-        "confirmedAt": "2026-10-01T12:00:00.000Z",
+        "confirmedAt": "2026-10-13T12:00:00.000Z",
         "adjusterComment": "Rent loss needs validating",
         "supervisorComment": "Not warranted at this exposure",
         "reviewedBy": "claimssupervisor",
-        "reviewedAt": "2026-10-04T12:00:00.000Z",
+        "reviewedAt": "2026-10-16T12:00:00.000Z",
         "_id": {
           "$oid": "f231a8039b93350d2be4156a"
         }
@@ -7580,7 +9037,7 @@
     "servicesTriggered": 6,
     "__v": 0,
     "adjusterSubmittedBy": "Derek Chan",
-    "adjusterSubmittedAt": "2026-10-01T12:00:00.000Z",
+    "adjusterSubmittedAt": "2026-10-13T12:00:00.000Z",
     "adjusterComments": "Faster arrival time",
     "vendorServiceComments": "Vendor selection confirmed"
   },
@@ -7609,6 +9066,19 @@
     "daysSinceNotice": 51,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Orleans",
+    "lossZip": "70112",
+    "crfLine": "",
+    "crfStatus": "open_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 9500,
+    "paidAlaeAmount": 570,
+    "incurredLossAmount": 43700,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "nfipPolicyFlag": "present",
     "contentsLossAmount": 9000,
     "buildingLossAmount": 29000,
@@ -7635,8 +9105,9 @@
       "contentsExposure": 9000
     },
     "property": {
-      "address": "139 Bayshore Dr, New Orleans, LA",
-      "county": "Orleans"
+      "address": "139 Bayshore Dr, New Orleans, LA 70112",
+      "county": "Orleans",
+      "zip": "70112"
     },
     "assignment": {
       "assignedAdjuster": "Priya Nair",
@@ -7756,6 +9227,19 @@
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
     "proofOfLossReceivedFlag": "present",
+    "lossCounty": "Miami-Dade",
+    "lossZip": "33130",
+    "crfLine": "",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 29900,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "nfipPolicyFlag": "present",
     "policyDaysBeforeLoss": 18,
     "contentsLossAmount": 4000,
@@ -7782,8 +9266,9 @@
       "contentsExposure": 4000
     },
     "property": {
-      "address": "152 Magnolia St, Miami, FL",
-      "county": "Miami-Dade"
+      "address": "152 Magnolia St, Miami, FL 33130",
+      "county": "Miami-Dade",
+      "zip": "33130"
     },
     "assignment": {
       "assignedAdjuster": "Sarah Mitchell",
@@ -7837,6 +9322,19 @@
     "daysSinceNotice": 47,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "Chatham",
+    "lossZip": "31401",
+    "crfLine": "",
+    "crfStatus": "open_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 13500,
+    "paidAlaeAmount": 810,
+    "incurredLossAmount": 62100,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "nfipPolicyFlag": "present",
     "sfhaFlag": "present",
     "repairCostPctOfValue": 38,
@@ -7865,8 +9363,9 @@
       "contentsExposure": 11000
     },
     "property": {
-      "address": "165 Gulf Breeze Pkwy, Savannah, GA",
-      "county": "Chatham"
+      "address": "165 Gulf Breeze Pkwy, Savannah, GA 31401",
+      "county": "Chatham",
+      "zip": "31401"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -7953,8 +9452,8 @@
     "policyNumber": "POL-SFIP-305222",
     "insuredName": "Monica Estrada",
     "claimType": "SFIP",
-    "lossDate": "2026-10-15",
-    "reportedDate": "2026-10-16",
+    "lossDate": "2026-10-09",
+    "reportedDate": "2026-10-12",
     "claimAmount": "83000",
     "claimStatus": "Active",
     "validationStatus": "Passed",
@@ -7966,24 +9465,41 @@
     "statusIntervalDays": 10,
     "totalReserveAmount": 95450,
     "potentialRecoveryAmount": 0,
-    "daysSinceLoss": 15,
-    "daysSinceNotice": 14,
+    "daysSinceLoss": 21,
+    "daysSinceNotice": 18,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
     "proofOfLossReceivedFlag": "present",
+    "catEventId": "CAT-2026-ISAIAS",
+    "catNumber": "CAT-2026-ISAIAS",
+    "catEventName": "Hurricane Isaias",
+    "lossCounty": "Walton",
+    "lossZip": "32459",
+    "crfLine": "",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 95450,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "nfipPolicyFlag": "present",
     "sfhaFlag": "present",
     "substantialDamageFlag": "present",
     "structuralDryingRequiredFlag": "present",
+    "catEventFlag": "present",
     "repairCostPctOfValue": 52,
     "buildingLossAmount": 83000,
     "policyDaysBeforeLoss": 1200,
     "lossInformation": {
-      "causeOfLoss": "Storm surge",
+      "causeOfLoss": "Hurricane Isaias storm surge",
       "damagedAreas": [
         "Ground floor"
       ],
-      "lossDate": "2026-10-15"
+      "lossDate": "2026-10-09"
     },
     "policyInformation": {
       "policyForm": "SFIP",
@@ -8000,8 +9516,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "178 Citrus Grove Rd, Key West, FL",
-      "county": "Monroe"
+      "address": "178 Citrus Grove Rd, Santa Rosa Beach, FL 32459",
+      "county": "Walton",
+      "zip": "32459"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -8011,12 +9528,14 @@
     "recordIndex": 6,
     "planServices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "2a0941a9-ab8e-42c5-aa96-53a4124d097e",
       "d094afe9-ba8f-412f-aa9b-aca77e7db7f1",
       "be8db67b-6f4c-49b7-a14f-da9ca27c509a"
     ],
     "existingplanservices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "2a0941a9-ab8e-42c5-aa96-53a4124d097e",
       "d094afe9-ba8f-412f-aa9b-aca77e7db7f1",
       "be8db67b-6f4c-49b7-a14f-da9ca27c509a"
@@ -8029,7 +9548,7 @@
     "completedBy": "",
     "serviceVendorReview": [],
     "vendorServices": [],
-    "servicesTriggered": 4,
+    "servicesTriggered": 5,
     "__v": 0
   },
   {
@@ -8040,8 +9559,8 @@
     "policyNumber": "POL-SFIP-305259",
     "insuredName": "Harvey Dillon",
     "claimType": "SFIP",
-    "lossDate": "2026-10-04",
-    "reportedDate": "2026-10-05",
+    "lossDate": "2026-10-09",
+    "reportedDate": "2026-10-13",
     "claimAmount": "19000",
     "claimStatus": "Active",
     "validationStatus": "Passed",
@@ -8053,21 +9572,38 @@
     "statusIntervalDays": 30,
     "totalReserveAmount": 21850,
     "potentialRecoveryAmount": 0,
-    "daysSinceLoss": 26,
-    "daysSinceNotice": 25,
+    "daysSinceLoss": 21,
+    "daysSinceNotice": 17,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
     "proofOfLossReceivedFlag": "present",
+    "catEventId": "CAT-2026-ISAIAS",
+    "catNumber": "CAT-2026-ISAIAS",
+    "catEventName": "Hurricane Isaias",
+    "lossCounty": "Gulf",
+    "lossZip": "32456",
+    "crfLine": "",
+    "crfStatus": "open_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 9500,
+    "paidAlaeAmount": 570,
+    "incurredLossAmount": 21850,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "nfipPolicyFlag": "present",
     "waitingPeriodExceptionFlag": "present",
+    "catEventFlag": "present",
     "policyDaysBeforeLoss": 12,
     "buildingLossAmount": 19000,
     "lossInformation": {
-      "causeOfLoss": "Flooding, waiting-period exception applies",
+      "causeOfLoss": "Hurricane Isaias flooding, waiting-period exception applies",
       "damagedAreas": [
         "Ground floor"
       ],
-      "lossDate": "2026-10-04"
+      "lossDate": "2026-10-09"
     },
     "policyInformation": {
       "policyForm": "SFIP",
@@ -8084,8 +9620,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "191 Sawgrass Ln, Sarasota, FL",
-      "county": "Sarasota"
+      "address": "191 Sawgrass Ln, Port St. Joe, FL 32456",
+      "county": "Gulf",
+      "zip": "32456"
     },
     "assignment": {
       "assignedAdjuster": "Priya Nair",
@@ -8095,14 +9632,17 @@
     "recordIndex": 7,
     "planServices": [
       "aeda679c-ad7b-4fec-a6a4-5b6616cb15c2",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "2a0941a9-ab8e-42c5-aa96-53a4124d097e"
     ],
     "existingplanservices": [
       "aeda679c-ad7b-4fec-a6a4-5b6616cb15c2",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "2a0941a9-ab8e-42c5-aa96-53a4124d097e"
     ],
     "confirmedPlanServices": [
       "aeda679c-ad7b-4fec-a6a4-5b6616cb15c2",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "2a0941a9-ab8e-42c5-aa96-53a4124d097e",
       "a0efd921-2a5e-424f-a4db-2419d12c121a"
     ],
@@ -8120,14 +9660,27 @@
         "selectedVendor": "GrayRobinson",
         "status": "Modified",
         "confirmedBy": "Priya Nair",
-        "confirmedAt": "2026-10-08T12:00:00.000Z",
+        "confirmedAt": "2026-10-16T12:00:00.000Z",
         "_id": {
           "$oid": "fc7d9702a62a21bd617e9c47"
         },
         "adjusterComment": "Faster arrival time",
         "supervisorComment": "Approved: closer to the risk",
         "reviewedBy": "claimssupervisor",
-        "reviewedAt": "2026-10-11T12:00:00.000Z"
+        "reviewedAt": "2026-10-19T12:00:00.000Z"
+      },
+      {
+        "roleName": "CAT Response",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "Janney Roofing",
+        "proposedVendor": "Janney Roofing",
+        "selectedVendor": "Janney Roofing",
+        "status": "Locked",
+        "confirmedBy": "Priya Nair",
+        "confirmedAt": "2026-10-16T12:00:00.000Z",
+        "_id": {
+          "$oid": "c7ba5a42300689b3f54dca76"
+        }
       },
       {
         "roleName": "NFIP Authorized Adjuster",
@@ -8137,7 +9690,7 @@
         "selectedVendor": "Crawford & Company",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
-        "confirmedAt": "2026-10-08T12:00:00.000Z",
+        "confirmedAt": "2026-10-16T12:00:00.000Z",
         "_id": {
           "$oid": "39f8b219aee4d9b80a94fb8e"
         }
@@ -8150,11 +9703,11 @@
         "selectedVendor": "MDD Forensic Accountants",
         "status": "Included",
         "confirmedBy": "Priya Nair",
-        "confirmedAt": "2026-10-08T12:00:00.000Z",
+        "confirmedAt": "2026-10-16T12:00:00.000Z",
         "adjusterComment": "Rent loss needs validating",
         "supervisorComment": "Agreed, include",
         "reviewedBy": "claimssupervisor",
-        "reviewedAt": "2026-10-11T12:00:00.000Z",
+        "reviewedAt": "2026-10-19T12:00:00.000Z",
         "_id": {
           "$oid": "2934cacc843478d2d4049647"
         }
@@ -8162,13 +9715,14 @@
     ],
     "vendorServices": [
       "GrayRobinson",
+      "Janney Roofing",
       "Crawford & Company",
       "MDD Forensic Accountants"
     ],
-    "servicesTriggered": 2,
+    "servicesTriggered": 3,
     "__v": 0,
     "adjusterSubmittedBy": "Priya Nair",
-    "adjusterSubmittedAt": "2026-10-08T12:00:00.000Z",
+    "adjusterSubmittedAt": "2026-10-16T12:00:00.000Z",
     "adjusterComments": "Faster arrival time",
     "vendorServiceComments": "Vendor selection confirmed"
   },
@@ -8198,6 +9752,19 @@
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
     "proofOfLossReceivedFlag": "present",
+    "lossCounty": "Miami-Dade",
+    "lossZip": "33010",
+    "crfLine": "",
+    "crfStatus": "closed_no_payment",
+    "crfClosedNoPaymentReason": "exclusions_or_no_policy",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 0,
+    "crfDaysToClose": 36,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "nfipPolicyFlag": "present",
     "policyDaysBeforeLoss": 9,
     "buildingLossAmount": 31000,
@@ -8223,8 +9790,9 @@
       "contentsExposure": 0
     },
     "property": {
-      "address": "204 Harbor Blvd, Hialeah, FL",
-      "county": "Miami-Dade"
+      "address": "204 Harbor Blvd, Hialeah, FL 33010",
+      "county": "Miami-Dade",
+      "zip": "33010"
     },
     "assignment": {
       "assignedAdjuster": "Sarah Mitchell",
@@ -8283,8 +9851,8 @@
     "policyNumber": "POL-SFIP-305333",
     "insuredName": "Phillip Grant",
     "claimType": "SFIP",
-    "lossDate": "2026-09-24",
-    "reportedDate": "2026-09-25",
+    "lossDate": "2026-10-09",
+    "reportedDate": "2026-10-12",
     "claimAmount": "288000",
     "claimStatus": "Active",
     "validationStatus": "Passed",
@@ -8296,26 +9864,43 @@
     "statusIntervalDays": 10,
     "totalReserveAmount": 331200,
     "potentialRecoveryAmount": 0,
-    "daysSinceLoss": 36,
-    "daysSinceNotice": 35,
+    "daysSinceLoss": 21,
+    "daysSinceNotice": 18,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
     "proofOfLossReceivedFlag": "present",
+    "catEventId": "CAT-2026-ISAIAS",
+    "catNumber": "CAT-2026-ISAIAS",
+    "catEventName": "Hurricane Isaias",
+    "lossCounty": "Bay",
+    "lossZip": "32410",
+    "crfLine": "",
+    "crfStatus": "open_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 72000,
+    "paidAlaeAmount": 4320,
+    "incurredLossAmount": 331200,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "nfipPolicyFlag": "present",
     "sfhaFlag": "present",
     "substantialDamageFlag": "present",
     "Contested claim": "present",
+    "catEventFlag": "present",
     "repairCostPctOfValue": 61,
     "buildingLossAmount": 270000,
     "contentsLossAmount": 18000,
     "policyDaysBeforeLoss": 800,
     "lossInformation": {
-      "causeOfLoss": "Canal overflow",
+      "causeOfLoss": "Hurricane Isaias canal overflow",
       "damagedAreas": [
         "Garage",
         "Lower level"
       ],
-      "lossDate": "2026-09-24"
+      "lossDate": "2026-10-09"
     },
     "policyInformation": {
       "policyForm": "SFIP",
@@ -8332,8 +9917,9 @@
       "contentsExposure": 18000
     },
     "property": {
-      "address": "217 Palm Ave, Cape Coral, FL",
-      "county": "Lee"
+      "address": "217 Palm Ave, Mexico Beach, FL 32410",
+      "county": "Bay",
+      "zip": "32410"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -8343,6 +9929,7 @@
     "recordIndex": 9,
     "planServices": [
       "afd882e6-5968-41a5-a627-499eea6a6ef0",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "2a0941a9-ab8e-42c5-aa96-53a4124d097e",
       "d094afe9-ba8f-412f-aa9b-aca77e7db7f1",
       "be8db67b-6f4c-49b7-a14f-da9ca27c509a",
@@ -8351,6 +9938,7 @@
     ],
     "existingplanservices": [
       "afd882e6-5968-41a5-a627-499eea6a6ef0",
+      "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "2a0941a9-ab8e-42c5-aa96-53a4124d097e",
       "d094afe9-ba8f-412f-aa9b-aca77e7db7f1",
       "be8db67b-6f4c-49b7-a14f-da9ca27c509a",
@@ -8358,6 +9946,7 @@
       "d25a0874-807e-43b7-af32-863e746db8b2"
     ],
     "confirmedPlanServices": [
+      "2a0941a9-ab8e-42c5-aa96-53a4124d097e",
       "d094afe9-ba8f-412f-aa9b-aca77e7db7f1",
       "be8db67b-6f4c-49b7-a14f-da9ca27c509a",
       "53a227b9-317f-48dc-aeb6-6bf1a0c7a4ab",
@@ -8377,11 +9966,24 @@
         "selectedVendor": "GrayRobinson",
         "status": "Pending Review",
         "confirmedBy": "James Okoro",
-        "confirmedAt": "2026-09-28T12:00:00.000Z",
+        "confirmedAt": "2026-10-15T12:00:00.000Z",
         "_id": {
           "$oid": "4755a9c5ff7b1457d3ca1766"
         },
         "adjusterComment": "Closer to the loss location and faster on site"
+      },
+      {
+        "roleName": "CAT Response",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "Janney Roofing",
+        "proposedVendor": "Janney Roofing",
+        "selectedVendor": "Janney Roofing",
+        "status": "Pending Review",
+        "confirmedBy": "James Okoro",
+        "confirmedAt": "2026-10-15T12:00:00.000Z",
+        "_id": {
+          "$oid": "2c48a1bb5c673ee2efaf99ab"
+        }
       },
       {
         "roleName": "NFIP Authorized Adjuster",
@@ -8389,9 +9991,9 @@
         "recommendedVendor": "Crawford & Company",
         "proposedVendor": "Crawford & Company",
         "selectedVendor": "Crawford & Company",
-        "status": "Pending Review",
+        "status": "Locked",
         "confirmedBy": "James Okoro",
-        "confirmedAt": "2026-09-28T12:00:00.000Z",
+        "confirmedAt": "2026-10-15T12:00:00.000Z",
         "_id": {
           "$oid": "d3787f6f8224149a3aa10501"
         }
@@ -8404,7 +10006,7 @@
         "selectedVendor": "J.S. Held",
         "status": "Locked",
         "confirmedBy": "James Okoro",
-        "confirmedAt": "2026-09-28T12:00:00.000Z",
+        "confirmedAt": "2026-10-15T12:00:00.000Z",
         "_id": {
           "$oid": "6146707f3d4b173adc773426"
         }
@@ -8417,7 +10019,7 @@
         "selectedVendor": "J.S. Held",
         "status": "Locked",
         "confirmedBy": "James Okoro",
-        "confirmedAt": "2026-09-28T12:00:00.000Z",
+        "confirmedAt": "2026-10-15T12:00:00.000Z",
         "_id": {
           "$oid": "c715b287cdfd82944c7bf92b"
         }
@@ -8430,7 +10032,7 @@
         "selectedVendor": "Crawford & Company",
         "status": "Locked",
         "confirmedBy": "James Okoro",
-        "confirmedAt": "2026-09-28T12:00:00.000Z",
+        "confirmedAt": "2026-10-15T12:00:00.000Z",
         "_id": {
           "$oid": "920595de10dad05a46ca172d"
         }
@@ -8443,7 +10045,7 @@
         "selectedVendor": "Total Inventory, LLC",
         "status": "Locked",
         "confirmedBy": "James Okoro",
-        "confirmedAt": "2026-09-28T12:00:00.000Z",
+        "confirmedAt": "2026-10-15T12:00:00.000Z",
         "_id": {
           "$oid": "3d4ead6bbbea0da88e0c0548"
         }
@@ -8456,7 +10058,7 @@
         "selectedVendor": "GrayRobinson",
         "status": "Pending Review",
         "confirmedBy": "James Okoro",
-        "confirmedAt": "2026-09-28T12:00:00.000Z",
+        "confirmedAt": "2026-10-15T12:00:00.000Z",
         "adjusterComment": "Coverage position needs counsel",
         "_id": {
           "$oid": "4755a9c5ff7b1457d3ca1766"
@@ -8465,6 +10067,7 @@
     ],
     "vendorServices": [
       "GrayRobinson",
+      "Janney Roofing",
       "Crawford & Company",
       "J.S. Held",
       "J.S. Held",
@@ -8472,10 +10075,10 @@
       "Total Inventory, LLC",
       "GrayRobinson"
     ],
-    "servicesTriggered": 6,
+    "servicesTriggered": 7,
     "__v": 0,
     "adjusterSubmittedBy": "James Okoro",
-    "adjusterSubmittedAt": "2026-09-28T12:00:00.000Z",
+    "adjusterSubmittedAt": "2026-10-15T12:00:00.000Z",
     "adjusterComments": "Closer to the loss location and faster on site"
   },
   {
@@ -8504,6 +10107,19 @@
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
     "proofOfLossReceivedFlag": "present",
+    "lossCounty": "Mobile",
+    "lossZip": "36602",
+    "crfLine": "",
+    "crfStatus": "closed_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 22050,
+    "paidAlaeAmount": 1323,
+    "incurredLossAmount": 22050,
+    "crfDaysToClose": 55,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "nfipPolicyFlag": "present",
     "contentsLossAmount": 6000,
     "buildingLossAmount": 18500,
@@ -8530,8 +10146,9 @@
       "contentsExposure": 6000
     },
     "property": {
-      "address": "230 Cypress Way, Mobile, AL",
-      "county": "Mobile"
+      "address": "230 Cypress Way, Mobile, AL 36602",
+      "county": "Mobile",
+      "zip": "36602"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -8621,6 +10238,19 @@
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
     "proofOfLossReceivedFlag": "present",
+    "lossCounty": "Charleston",
+    "lossZip": "29401",
+    "crfLine": "",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 17250,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "nfipPolicyFlag": "present",
     "contentsValuationDisputeFlag": "present",
     "contentsLossAmount": 15000,
@@ -8647,8 +10277,9 @@
       "contentsExposure": 15000
     },
     "property": {
-      "address": "243 Bayshore Dr, Charleston, SC",
-      "county": "Charleston"
+      "address": "243 Bayshore Dr, Charleston, SC 29401",
+      "county": "Charleston",
+      "zip": "29401"
     },
     "assignment": {
       "assignedAdjuster": "Priya Nair",
@@ -8701,6 +10332,19 @@
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
     "proofOfLossReceivedFlag": "present",
+    "lossCounty": "Broward",
+    "lossZip": "33301",
+    "crfLine": "PF",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 54050,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "structuralDryingRequiredFlag": "present",
     "coverageQuestionFlag": "present",
     "contentsLossAmount": 8000,
@@ -8728,8 +10372,9 @@
       "contentsExposure": 8000
     },
     "property": {
-      "address": "256 Magnolia St, Fort Lauderdale, FL",
-      "county": "Broward"
+      "address": "256 Magnolia St, Fort Lauderdale, FL 33301",
+      "county": "Broward",
+      "zip": "33301"
     },
     "assignment": {
       "assignedAdjuster": "Sarah Mitchell",
@@ -8766,8 +10411,8 @@
     "policyNumber": "POL-SFIP-305481",
     "insuredName": "Leonard Ruiz",
     "claimType": "SFIP",
-    "lossDate": "2026-09-19",
-    "reportedDate": "2026-09-20",
+    "lossDate": "2026-09-02",
+    "reportedDate": "2026-09-05",
     "claimAmount": "357000",
     "claimStatus": "Active",
     "validationStatus": "Passed",
@@ -8779,11 +10424,27 @@
     "statusIntervalDays": 10,
     "totalReserveAmount": 410550,
     "potentialRecoveryAmount": 0,
-    "daysSinceLoss": 41,
-    "daysSinceNotice": 40,
+    "daysSinceLoss": 58,
+    "daysSinceNotice": 55,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
     "proofOfLossReceivedFlag": "present",
+    "catEventId": "CAT-2026-EDOUARD",
+    "catNumber": "CAT-2026-EDOUARD",
+    "catEventName": "Tropical Storm Edouard",
+    "lossCounty": "Galveston",
+    "lossZip": "77550",
+    "crfLine": "",
+    "crfStatus": "open_no_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 0,
+    "paidAlaeAmount": 0,
+    "incurredLossAmount": 410550,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "nfipPolicyFlag": "present",
     "sfhaFlag": "present",
     "substantialDamageFlag": "present",
@@ -8793,11 +10454,11 @@
     "contentsLossAmount": 102000,
     "policyDaysBeforeLoss": 1500,
     "lossInformation": {
-      "causeOfLoss": "Hurricane storm surge",
+      "causeOfLoss": "Tropical Storm Edouard storm surge",
       "damagedAreas": [
         "Entire building"
       ],
-      "lossDate": "2026-09-19"
+      "lossDate": "2026-09-02"
     },
     "policyInformation": {
       "policyForm": "SFIP",
@@ -8814,8 +10475,9 @@
       "contentsExposure": 102000
     },
     "property": {
-      "address": "269 Gulf Breeze Pkwy, Galveston, TX",
-      "county": "Galveston"
+      "address": "269 Gulf Breeze Pkwy, Galveston, TX 77550",
+      "county": "Galveston",
+      "zip": "77550"
     },
     "assignment": {
       "assignedAdjuster": "James Okoro",
@@ -8876,6 +10538,19 @@
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
     "proofOfLossReceivedFlag": "present",
+    "lossCounty": "Miami-Dade",
+    "lossZip": "33130",
+    "crfLine": "",
+    "crfStatus": "closed_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 15300,
+    "paidAlaeAmount": 918,
+    "incurredLossAmount": 15300,
+    "crfDaysToClose": 116,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "nfipPolicyFlag": "present",
     "contentsLossAmount": 3000,
     "buildingLossAmount": 14000,
@@ -8902,8 +10577,9 @@
       "contentsExposure": 3000
     },
     "property": {
-      "address": "282 Citrus Grove Rd, Miami, FL",
-      "county": "Miami-Dade"
+      "address": "282 Citrus Grove Rd, Miami, FL 33130",
+      "county": "Miami-Dade",
+      "zip": "33130"
     },
     "assignment": {
       "assignedAdjuster": "Derek Chan",
@@ -9009,6 +10685,19 @@
     "daysSinceNotice": 64,
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
+    "lossCounty": "New Hanover",
+    "lossZip": "28401",
+    "crfLine": "",
+    "crfStatus": "open_payment",
+    "crfClosedNoPaymentReason": "",
+    "paidLossAmount": 10250,
+    "paidAlaeAmount": 615,
+    "incurredLossAmount": 47150,
+    "crfDaysToClose": 0,
+    "crfInAppraisal": false,
+    "crfAttorneyRepresented": false,
+    "crfWaitingOnContractors": false,
+    "crfWindVsFlood": false,
     "nfipPolicyFlag": "present",
     "sfhaFlag": "present",
     "contentsLossAmount": 12000,
@@ -9037,8 +10726,9 @@
       "contentsExposure": 12000
     },
     "property": {
-      "address": "295 Sawgrass Ln, Wilmington, NC",
-      "county": "New Hanover"
+      "address": "295 Sawgrass Ln, Wilmington, NC 28401",
+      "county": "New Hanover",
+      "zip": "28401"
     },
     "assignment": {
       "assignedAdjuster": "Priya Nair",

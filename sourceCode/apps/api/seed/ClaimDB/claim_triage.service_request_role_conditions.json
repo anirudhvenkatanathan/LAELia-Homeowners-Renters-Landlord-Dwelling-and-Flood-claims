@@ -131,6 +131,19 @@
   },
   {
     "_id": {
+      "$oid": "e8a1de3849da0470e8dfb02c"
+    },
+    "conditionId": "64c39bf5-2b97-494b-a58e-a93e903ce098",
+    "roleId": "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
+    "fieldName": "public_adjuster_flag",
+    "operator": "!=",
+    "value": "",
+    "conditionType": "OR",
+    "sortOrder": 5,
+    "__v": 0
+  },
+  {
+    "_id": {
       "$oid": "7d19d4dac1eb94321058fd78"
     },
     "conditionId": "3d9cefa2-2196-40a9-a89c-6f0753742ba6",
@@ -153,6 +166,19 @@
     "value": "",
     "conditionType": "OR",
     "sortOrder": 1,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ca551275c5cb70da0d36735f"
+    },
+    "conditionId": "3f4f0fe3-2b82-4fe8-ada7-9c8da8b5e6b4",
+    "roleId": "d2329338-efe4-49c4-af73-bae9a39c55cb",
+    "fieldName": "public_adjuster_flag",
+    "operator": "!=",
+    "value": "",
+    "conditionType": "OR",
+    "sortOrder": 2,
     "__v": 0
   },
   {
@@ -508,6 +534,32 @@
   },
   {
     "_id": {
+      "$oid": "1eb9413b422d885064eb24d3"
+    },
+    "conditionId": "0a676bcb-4394-445c-a0b4-55d7ca4cc07a",
+    "roleId": "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+    "fieldName": "public_adjuster_flag",
+    "operator": "!=",
+    "value": "",
+    "conditionType": "OR",
+    "sortOrder": 5,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "521373784ea9d8b818e1ac43"
+    },
+    "conditionId": "02eb2e35-1681-477b-a0d2-1531864d4dfa",
+    "roleId": "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+    "fieldName": "independent_investigator_flag",
+    "operator": "!=",
+    "value": "",
+    "conditionType": "OR",
+    "sortOrder": 6,
+    "__v": 0
+  },
+  {
+    "_id": {
       "$oid": "56c5ea272083043dfa706539"
     },
     "conditionId": "62c7698b-e427-4ae7-a040-ba0b36a83745",
@@ -764,6 +816,19 @@
     "value": "",
     "conditionType": "OR",
     "sortOrder": 1,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f8a728d8d4d627602140f53b"
+    },
+    "conditionId": "49480711-7a45-46dc-ac04-5a9a886f6211",
+    "roleId": "43017e2f-5a5a-418a-a972-f10cef277c2f",
+    "fieldName": "public_adjuster_flag",
+    "operator": "!=",
+    "value": "",
+    "conditionType": "OR",
+    "sortOrder": 2,
     "__v": 0
   },
   {
