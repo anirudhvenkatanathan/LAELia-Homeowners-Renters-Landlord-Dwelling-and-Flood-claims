@@ -16,6 +16,8 @@ export interface ProviderDef {
   rules: string[];         // exact rule names (see rules.ts)
   boosted?: boolean;
   state?: string;          // full state name; defaults to Florida
+  phone?: string;          // real listed phone (real companies only)
+  street?: string;         // real listed street address (real companies only)
 }
 
 const P = (company: string, city: string, county: string, rating: number, turnaround: string,
@@ -23,8 +25,8 @@ const P = (company: string, city: string, county: string, rating: number, turnar
   ({ company, city, county, rating, status, turnaround, coverage, contact, rules, boosted });
 
 const X = (company: string, city: string, county: string, state: string, coverage: string, rating: number, turnaround: string,
-           contact: string, rules: string[], status: ProviderStatus = 'Active', boosted = false): ProviderDef =>
-  ({ company, city, county, state, rating, status, turnaround, coverage, contact, rules, boosted });
+           contact: string, rules: string[], status: ProviderStatus = 'Active', boosted = false, phone?: string, street?: string): ProviderDef =>
+  ({ company, city, county, state, rating, status, turnaround, coverage, contact, rules, boosted, phone, street });
 
 export const PROVIDERS: ProviderDef[] = [
   // 24/7 Loss Mitigation Contractors
@@ -152,6 +154,11 @@ export const PROVIDERS: ProviderDef[] = [
   X('Herring Cleaning and Restoration', 'Jacksonville', 'Duval', 'Florida', 'FL', 4.0, '4 Hours', 'Main office', ['24/7 Loss Mitigation Contractors', 'Pack-out & Contents Cleaning']),
   X('Paul Davis Restoration', 'Savannah', 'Chatham', 'Georgia', 'GA, FL, AL, SC, NC', 4.0, '4 Hours', 'Franchise network', ['24/7 Loss Mitigation Contractors', 'Pack-out & Contents Cleaning', 'CAT Response']),
   X('DDA Forensics', 'Regional (multi-state)', 'N/A', 'Florida', 'AL, FL, GA, LA, MS, SC, TX', 4.0, '5 Business Days', 'Main office', ['Forensic Engineers', 'Cause & Origin Specialists']),
+  // Real companies, details taken from their Google Business listings (rating = Google rating)
+  X('Southeast Roofing & Construction', 'Pensacola', 'Escambia', 'Florida', 'FL', 4.4, '3 Business Days', 'Main office', ['Roof Surface Review', 'Estimate & Invoice Review', 'Repair Network Referral'], 'Active', false, '(850) 478-4715', '9531 N Palafox St, Pensacola, FL 32534'),
+  X('M6 Building Solutions', 'Tampa', 'Hillsborough', 'Florida', 'FL', 4.9, '2 Business Days', 'Main office', ['Roof Surface Review', 'Estimate & Invoice Review', 'Repair Network Referral'], 'Active', false, undefined, '401 E Jackson St Ste 3300, Tampa, FL 33602'),
+  X('Proclaim Engineering, Inc', 'Winter Haven', 'Polk', 'Florida', 'FL', 4.0, '5 Business Days', 'Main office', ['Forensic Engineers', 'Cause & Origin Specialists'], 'Active', false, '(800) 309-2755', '264 Terranova Blvd, Winter Haven, FL 33884'),
+  X('Kruger Property Solutions', 'Boca Raton', 'Palm Beach', 'Florida', 'FL', 4.0, '4 Hours', 'Main office', ['24/7 Loss Mitigation Contractors', 'CAT Response', 'Roof Surface Review'], 'Active', false, '(954) 933-1298', '456 NW 35th St, Boca Raton, FL 33431'),
 ];
 
 // Spread the Florida providers across neighbouring states so the coverage column shows a realistic footprint.

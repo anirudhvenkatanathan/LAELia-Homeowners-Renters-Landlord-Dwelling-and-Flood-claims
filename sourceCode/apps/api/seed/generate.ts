@@ -86,9 +86,9 @@ const vendorDetails = PROVIDERS.map((p, i) => {
   const roleIds = p.rules.map((n) => { const id = ROLE_BY_NAME.get(n); if (!id) throw new Error(`Provider ${p.company}: unknown rule "${n}"`); return id; });
   const row: Record<string, unknown> = {
     _id: hex24('vd:' + p.company), vendorId: vid(p), companyName: p.company, emailId: `claims@${slug(p.company)}.example`, rating: p.rating,
-    address: `${100 + i * 7} ${STREETS[i % STREETS.length]}`, city: p.city, state: p.state ?? 'Florida', country: 'USA', Status: STATUS_ID[p.status],
+    address: p.street ?? `${100 + i * 7} ${STREETS[i % STREETS.length]}`, city: p.city, state: p.state ?? 'Florida', country: 'USA', Status: STATUS_ID[p.status],
     RequalificationStartDate: ago(p.status === 'requalDue' ? 372 : 120).toISOString(), RequalificationEndDate: ago(p.status === 'requalDue' ? 7 : -245).toISOString(),
-    Coverage: p.coverage, phoneNumber: ph(i), turnaroundTime: p.turnaround, serviceRequestRoleId: roleIds, serviceRequestRoleName: p.rules.join(', '),
+    Coverage: p.coverage, phoneNumber: p.phone ?? ph(i), turnaroundTime: p.turnaround, serviceRequestRoleId: roleIds, serviceRequestRoleName: p.rules.join(', '),
     createdBy: 'admin', createdAt: ago(150).toISOString(), uploadedBy: 'admin', uploadedAt: ago(150).toISOString(),
     vendorStatus: STATUS_NAME[p.status] ?? p.status, vendorStatusId: STATUS_ID[p.status],
   };
