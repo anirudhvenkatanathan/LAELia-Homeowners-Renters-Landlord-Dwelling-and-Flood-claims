@@ -1,6 +1,6 @@
-// Fictional service providers for the demo (mostly Florida, plus the wider Gulf and Southeast footprint). Every name, address, e-mail
-// and phone number is invented (e-mail uses the reserved .example domain,
-// phone numbers use the 555-01xx fictional range).
+// Service providers for the demo: real property-claims firms (public listings supplied by the client team plus market research).
+// Names, cities, addresses, phones and Google ratings come from those listings where found. Where nothing was found
+// the field is a demo placeholder: rating 4.0, generated .example e-mail, 555-01xx phone. Turnaround is indicative.
 export type ProviderStatus =
   | 'Active' | 'requalDue' | 'Suspended' | 'InProgress' | 'Disqualified' | 'ReadyForActivation' | 'PendingApproval';
 
@@ -16,151 +16,71 @@ export interface ProviderDef {
   rules: string[];         // exact rule names (see rules.ts)
   boosted?: boolean;
   state?: string;          // full state name; defaults to Florida
-  phone?: string;          // real listed phone (real companies only)
-  street?: string;         // real listed street address (real companies only)
+  phone?: string;          // real listed phone, when found
+  street?: string;         // real listed street address, when found
+  email?: string;          // real published business e-mail, when found
 }
 
-const P = (company: string, city: string, county: string, rating: number, turnaround: string,
-           contact: string, rules: string[], status: ProviderStatus = 'Active', coverage = 'FL', boosted = false): ProviderDef =>
-  ({ company, city, county, rating, status, turnaround, coverage, contact, rules, boosted });
+type Extra = { phone?: string; street?: string; email?: string; boosted?: boolean; state?: string; status?: ProviderStatus };
+const V = (company: string, city: string, county: string, rating: number, turnaround: string, coverage: string,
+           rules: string[], x: Extra = {}): ProviderDef =>
+  ({ company, city, county, rating, turnaround, coverage, rules, contact: 'Main office', status: x.status ?? 'Active',
+     boosted: x.boosted ?? false, state: x.state, phone: x.phone, street: x.street, email: x.email });
 
-const X = (company: string, city: string, county: string, state: string, coverage: string, rating: number, turnaround: string,
-           contact: string, rules: string[], status: ProviderStatus = 'Active', boosted = false, phone?: string, street?: string): ProviderDef =>
-  ({ company, city, county, state, rating, status, turnaround, coverage, contact, rules, boosted, phone, street });
+const ROOF = ['Roof Surface Review', 'Estimate & Invoice Review', 'Repair Network Referral'];
 
 export const PROVIDERS: ProviderDef[] = [
-  // 24/7 Loss Mitigation Contractors
-  P('Gulfshore Restoration Group', 'Fort Myers', 'Lee', 4.8, '4 Hours', 'Dana Whitfield', ['24/7 Loss Mitigation Contractors', 'Pack-out & Contents Cleaning', 'CAT Response'], 'Active', 'FL', true),
-  P('Sunstate Water Mitigation', 'Orlando', 'Orange', 4.5, '4 Hours', 'Luis Barrios', ['24/7 Loss Mitigation Contractors']),
-  P('Palm Coast Restoration', 'Daytona Beach', 'Volusia', 4.3, '6 Hours', 'Tamara Cole', ['24/7 Loss Mitigation Contractors', 'Repair Network Referral']),
-  P('Bluewater Dry-Out Services', 'Miami', 'Miami-Dade', 3.9, '6 Hours', 'Omar Reyes', ['24/7 Loss Mitigation Contractors'], 'requalDue'),
+  // ── Core 14: roofing, restoration, mitigation and engineering firms ─────────────
+  V('Southeast Roofing & Construction', 'Pensacola', 'Escambia', 4.4, '3 Business Days', 'FL', ROOF,
+    { phone: '(850) 478-4715', street: '9531 N Palafox St, Pensacola, FL 32534' }),
+  V('E2 Roofing', 'Jacksonville', 'Duval', 4.8, '3 Business Days', 'FL', ROOF,
+    { phone: '(904) 420-8844', street: '6900 Philips Hwy Suite 31, Jacksonville, FL 32216' }),
+  V('Paul Davis Restoration', 'Fort Lauderdale', 'Broward', 4.0, '4 Hours', 'FL', ['24/7 Loss Mitigation Contractors', 'Pack-out & Contents Cleaning', 'CAT Response'],
+    { phone: '(954) 979-9078', street: '4571 NW 8th Ave, Fort Lauderdale, FL 33309', email: 'BCFLemergency@pauldavis.com' }),
+  V('M6 Building Solutions', 'Tampa', 'Hillsborough', 4.9, '3 Business Days', 'FL', ROOF,
+    { street: '401 E Jackson St Ste 3300, Tampa, FL 33602' }),
+  V('Proclaim Engineering, Inc', 'Winter Haven', 'Polk', 4.0, '5 Business Days', 'FL', ['Forensic Engineers', 'Cause & Origin Specialists'],
+    { phone: '(800) 309-2755', street: '264 Terranova Blvd, Winter Haven, FL 33884' }),
+  V('Hi Low Roofing', 'Winter Garden', 'Orange', 4.9, '3 Business Days', 'FL', ROOF,
+    { phone: '(407) 287-6171', street: '13330 W Colonial Dr Suite 110, Winter Garden, FL 34787' }),
+  V('Dehlinger Construction', 'Longwood', 'Seminole', 4.6, '4 Business Days', 'FL', ROOF,
+    { phone: '(407) 636-9322', street: '157 E Lake Brantley Dr, Longwood, FL 32779', status: 'InProgress' }),
+  V('Neumann Construction & Roofing', 'San Antonio', 'Pasco', 4.0, '4 Business Days', 'FL', ['Roof Surface Review', 'Repair Network Referral'],
+    { phone: '(877) 762-6350', street: '30427 Commerce Dr, San Antonio, FL 33576', status: 'PendingApproval' }),
+  V('DDA Forensics', 'Miami', 'Miami-Dade', 4.0, '5 Business Days', 'AL, FL, GA, LA, MS, SC, TX', ['Forensic Engineers', 'Cause & Origin Specialists'],
+    { phone: '(786) 772-5643', street: '5335 NW 87th Ave Suite 109, Miami, FL', email: 'info@DDAForensics.com' }),
+  V('Herring Cleaning and Restoration', 'Jacksonville', 'Duval', 4.0, '1 Business Day', 'FL', ['24/7 Loss Mitigation Contractors', 'Pack-out & Contents Cleaning'],
+    { street: '239 Jones Rd, Jacksonville, FL 32220', status: 'InProgress' }),
+  V('Janney Roofing', 'Casselberry', 'Seminole', 4.9, '3 Business Days', 'FL', ['Roof Surface Review', 'Estimate & Invoice Review', 'CAT Response'],
+    { phone: '(407) 305-5049', street: '1211 FL-436 #227, Casselberry, FL 32707' }),
+  V('Megram Construction', 'Oviedo', 'Seminole', 4.8, '5 Business Days', 'FL', ['Repair Network Referral', 'Estimate & Invoice Review'],
+    { phone: '(407) 592-7360', street: '400 W State Rd 434 Ste 106, Oviedo, FL 32765', status: 'PendingApproval' }),
+  V('Bigfoot Roofing & Construction', 'Jacksonville', 'Duval', 4.8, '1 Business Day', 'FL', [...ROOF, 'CAT Response'],
+    { phone: '(904) 751-6112', street: '2929 Edison Ave, Jacksonville, FL 32254' }),
+  V('Kruger Property Solutions', 'Boca Raton', 'Palm Beach', 4.0, '4 Hours', 'FL, LA', ['24/7 Loss Mitigation Contractors', 'CAT Response', 'Roof Surface Review'],
+    { phone: '(954) 933-1298', street: '456 NW 35th St, Boca Raton, FL 33431', email: 'claims@callkruger.com', boosted: true }),
 
-  // Cause & Origin Specialists
-  P('Everglades Cause & Origin', 'Hialeah', 'Miami-Dade', 4.7, '48 Hours', 'Marcus Feld', ['Cause & Origin Specialists']),
-  P('Tri-County Fire Analysis', 'Tampa', 'Hillsborough', 4.4, '48 Hours', 'Renee Alvarado', ['Cause & Origin Specialists', 'Scene Investigation & Official Reports']),
-  P('Meridian Origin Consultants', 'Jacksonville', 'Duval', 4.1, '72 Hours', 'Peter Nakamura', ['Cause & Origin Specialists'], 'Suspended'),
-
-  // Appraisers / Independent Adjusters
-  P('Coastal Claim Estimators', 'Sarasota', 'Sarasota', 4.6, '3 Business Days', 'Janelle Brooks', ['Appraisers/Independent Adjusters', 'Estimate & Invoice Review']),
-  P('Bayfront Independent Adjusters', 'St. Petersburg', 'Pinellas', 4.4, '3 Business Days', 'Kevin Chen', ['Independent Adjusters', 'Appraisers/Independent Adjusters']),
-  P('Citrus Valley Appraisal Group', 'Lakeland', 'Polk', 4.0, '4 Business Days', 'Sofia Marsh', ['Appraisers/Independent Adjusters']),
-
-  // Independent Adjusters
-  P('Heron Adjusting Services', 'Naples', 'Collier', 4.2, '2 Business Days', 'Diego Alvarez', ['Independent Adjusters']),
-  P('Keys Independent Adjusters', 'Key West', 'Monroe', 4.1, '3 Business Days', 'Maria Delgado', ['Independent Adjusters'], 'Active', 'FL Keys'),
-  P('Panhandle Claims Services', 'Pensacola', 'Escambia', 3.8, '3 Business Days', 'Robert Halloway', ['Independent Adjusters'], 'InProgress'),
-
-  // Forensic Engineers
-  P('Harbor Forensic Engineering', 'Fort Lauderdale', 'Broward', 4.7, '5 Business Days', 'Dr. Anita Sorensen', ['Forensic Engineers']),
-  P('Pelican Structural Engineers', 'Clearwater', 'Pinellas', 4.5, '5 Business Days', 'Grant Okafor', ['Forensic Engineers']),
-  P('Atlantic Building Sciences', 'Melbourne', 'Brevard', 4.2, '7 Business Days', 'Helen Park', ['Forensic Engineers'], 'ReadyForActivation'),
-
-  // Forensic Accountant
-  P('Lakeshore Forensic Accounting', 'Orlando', 'Orange', 4.5, '5 Business Days', 'Noah Whitmore', ['Forensic Accountant']),
-  P('Cardinal Loss Analytics', 'Boca Raton', 'Palm Beach', 4.3, '5 Business Days', 'Imani Hughes', ['Forensic Accountant']),
-
-  // Legal / Coverage
-  P('Magnolia Coverage Counsel', 'Tallahassee', 'Leon', 4.3, '5 Business Days', 'Denise Whitmore, Esq.', ['Legal', 'Coverage Verification & ROR']),
-  P('Sawgrass Insurance Law Group', 'Fort Lauderdale', 'Broward', 4.4, '5 Business Days', 'Lisa Tran, Esq.', ['Legal', 'Public Adjuster / Appraisal']),
-  P('Bayshore Legal Partners', 'Tampa', 'Hillsborough', 4.0, '7 Business Days', 'Carl Jennings, Esq.', ['Legal']),
-  P('Fidelity Coverage Review', 'Miami', 'Miami-Dade', 4.2, '3 Business Days', 'Yara Haddad', ['Coverage Verification & ROR']),
-
-  // Decision letters
-  P('Clarity Claim Letters', 'Orlando', 'Orange', 4.6, '24 Hours', 'Brianna Cole', ['Decision letters', 'Statutory Deadline Watch']),
-  P('Sunrise Correspondence Services', 'Jacksonville', 'Duval', 4.3, '24 Hours', 'Theo Marsh', ['Decision letters']),
-  P('Plainspoken Notices', 'Tampa', 'Hillsborough', 4.0, '48 Hours', 'Alicia Brooks', ['Decision letters']),
-
-  // Subrogation / recovery
-  P('Tidewater Recovery Partners', 'Jacksonville', 'Duval', 4.4, '10 Business Days', 'Gordon Pike', ['Subrogation', 'Tenant-Caused Loss Recovery']),
-  P('Recoup Florida Subrogation', 'Miami', 'Miami-Dade', 4.2, '10 Business Days', 'Natalia Cruz', ['Subrogation']),
-  P('Anchor Recovery Group', 'Tampa', 'Hillsborough', 3.9, '12 Business Days', 'Victor Lang', ['Subrogation', 'Tenant-Caused Loss Recovery'], 'requalDue'),
-  P('Landlord Recovery Partners', 'Orlando', 'Orange', 4.1, '8 Business Days', 'Whitney Boyd', ['Tenant-Caused Loss Recovery']),
-
-  // Desk investigations
-  P('Meridian Desk Investigations', 'Jacksonville', 'Duval', 4.5, '3 Business Days', 'Colleen Roark', ['Desk investigations']),
-  P('Northpoint Special Investigations', 'Orlando', 'Orange', 4.3, '3 Business Days', 'Andre Wilkes', ['Desk investigations', 'Scene Investigation & Official Reports']),
-  P('Cardinal Claims Verification', 'Miami', 'Miami-Dade', 4.1, '4 Business Days', 'Esteban Ruiz', ['Desk investigations']),
-
-  // CAT Response
-  P('Stormline CAT Services', 'Fort Myers', 'Lee', 4.6, '12 Hours', 'Jordan Pierce', ['CAT Response', 'Statutory Deadline Watch'], 'Active', 'FL, GA, AL', true),
-  P('Hurricane Alley Response Team', 'Miami', 'Miami-Dade', 4.4, '12 Hours', 'Camila Soto', ['CAT Response']),
-  P('Gulfstream CAT Adjusters', 'Tampa', 'Hillsborough', 4.2, '24 Hours', 'Ben Hartley', ['CAT Response']),
-
-  // Repair Network Referral
-  P('Palmetto Contractor Network', 'Orlando', 'Orange', 4.4, '48 Hours', 'Renata Silva', ['Repair Network Referral']),
-  P('Sunbelt Repair Alliance', 'Tampa', 'Hillsborough', 4.2, '48 Hours', 'Jerome Tate', ['Repair Network Referral']),
-  P('Cornerstone Trades Network', 'Jacksonville', 'Duval', 3.9, '72 Hours', 'Nadia Karim', ['Repair Network Referral'], 'PendingApproval'),
-
-  // Scene investigation
-  P('Beacon Scene Investigations', 'Orlando', 'Orange', 4.2, '48 Hours', 'Hector Villa', ['Scene Investigation & Official Reports']),
-  P('Orange Grove Reports & Records', 'Orlando', 'Orange', 4.0, '48 Hours', 'Faith Obi', ['Scene Investigation & Official Reports']),
-
-  // Flood
-  P('Palmetto Flood Adjusters', 'Tampa', 'Hillsborough', 4.7, '24 Hours', 'Gina Alvarez', ['NFIP Authorized Adjuster', 'Proof of Loss Follow-up'], 'Active', 'FL, GA, SC', true),
-  P('Tidewater Flood Services', 'Fort Lauderdale', 'Broward', 4.5, '24 Hours', 'Samir Patel', ['NFIP Authorized Adjuster']),
-  P('Gulf Coast NFIP Adjusting', 'Naples', 'Collier', 4.3, '36 Hours', 'Leah Brandt', ['NFIP Authorized Adjuster'], 'Active', 'FL, AL, MS'),
-  P('Clearwater Documentation Services', 'Clearwater', 'Pinellas', 4.2, '48 Hours', 'Irene Fox', ['Proof of Loss Follow-up']),
-  P('Harborview Policy Review', 'Miami', 'Miami-Dade', 4.1, '3 Business Days', 'Dmitri Volkov', ['Waiting Period Review']),
-  P('Coverage Timeline Analysts', 'Orlando', 'Orange', 4.0, '3 Business Days', 'Joy Ellison', ['Waiting Period Review']),
-  P('Sunshine Floodplain Consultants', 'Sarasota', 'Sarasota', 4.5, '5 Business Days', 'Tom Lindqvist', ['Substantial Damage Determination']),
-  P('Elevation & Damage Assessors', 'Fort Myers', 'Lee', 4.3, '5 Business Days', 'Priscilla Ng', ['Substantial Damage Determination']),
-  P('Resilient Home Consultants', 'Tampa', 'Hillsborough', 4.4, '5 Business Days', 'Marcus Bell', ['ICC Claim Handling']),
-  P('Mitigation Grant & ICC Services', 'Tallahassee', 'Leon', 4.1, '7 Business Days', 'Olivia Grant', ['ICC Claim Handling']),
-  P('Limit Review Associates', 'Miami', 'Miami-Dade', 4.2, '3 Business Days', 'Peter Zhao', ['NFIP Limit Exposure']),
-  P('Flood Exposure Analysts', 'Jacksonville', 'Duval', 4.0, '3 Business Days', 'Rosa Medina', ['NFIP Limit Exposure']),
-
-  // Property
-  P('Estimate Integrity Partners', 'Orlando', 'Orange', 4.5, '2 Business Days', 'Vince Carter', ['Estimate & Invoice Review']),
-  P('Keystone Estimate Review', 'Tampa', 'Hillsborough', 4.2, '2 Business Days', 'Ruth Adeyemi', ['Estimate & Invoice Review']),
-  P('Neutral Appraisal Group of Florida', 'Orlando', 'Orange', 4.3, '10 Business Days', 'Howard Kim', ['Public Adjuster / Appraisal']),
-  P('Umpire Services of Tampa Bay', 'Tampa', 'Hillsborough', 4.1, '10 Business Days', 'Elaine Ross', ['Public Adjuster / Appraisal']),
-  P('Sunstate Roofing Inspections', 'Orlando', 'Orange', 4.6, '3 Business Days', 'Caleb Ortiz', ['Roof Surface Review', 'Repair Network Referral']),
-  P('Skyline Roof Analysts', 'Fort Myers', 'Lee', 4.3, '3 Business Days', 'Mei Tanaka', ['Roof Surface Review']),
-  P('Valuation Insight Group', 'Miami', 'Miami-Dade', 4.4, '3 Business Days', 'Adrian Stone', ['Insurance-to-Value Review']),
-  P('Replacement Cost Analytics', 'Tampa', 'Hillsborough', 4.1, '3 Business Days', 'Fiona Burke', ['Insurance-to-Value Review']),
-  P('Keystone Contents Services', 'Orlando', 'Orange', 4.4, '5 Business Days', 'Daniel Okoye', ['Contents Inventory & Valuation', 'Pack-out & Contents Cleaning']),
-  P('Inventory Pros of Florida', 'Tampa', 'Hillsborough', 4.2, '5 Business Days', 'Sabrina Lowe', ['Contents Inventory & Valuation']),
-  P('Careful Hands Pack-Out', 'Jacksonville', 'Duval', 4.3, '48 Hours', 'Walter Finch', ['Pack-out & Contents Cleaning']),
-  P('Safe Harbor Temporary Housing', 'Orlando', 'Orange', 4.5, '24 Hours', 'Gloria Mendez', ['Temporary Housing / ALE']),
-  P('Interim Living Solutions', 'Tampa', 'Hillsborough', 4.2, '24 Hours', 'Patrick Doyle', ['Temporary Housing / ALE']),
-  P('Occupancy Verification Services', 'Orlando', 'Orange', 4.1, '3 Business Days', 'Nora Feldman', ['Vacancy Review']),
-  P('Property Watch Inspections', 'Tampa', 'Hillsborough', 4.0, '3 Business Days', 'Ian Murphy', ['Vacancy Review']),
-  P('Compliance Clock Services', 'Tallahassee', 'Leon', 4.4, '24 Hours', 'Celeste Rowe', ['Statutory Deadline Watch']),
-  P('Fee & Waiver Audit Group', 'Orlando', 'Orange', 4.2, '5 Business Days', 'Dennis Hall', ['Deductible Waiver Review']),
-  P('Integrity Review Associates', 'Miami', 'Miami-Dade', 4.0, '5 Business Days', 'Tasha Greene', ['Deductible Waiver Review'], 'Disqualified'),
-
-  // ── Wider footprint: Gulf and Southeast coast (fictional) ────────────────────
-  X('Lone Star Storm Response', 'Houston', 'Harris', 'Texas', 'TX, LA', 4.5, '12 Hours', 'Marcus Delaney', ['CAT Response', '24/7 Loss Mitigation Contractors'], 'Active', true),
-  X('Gulf Coast Flood Adjusters', 'Corpus Christi', 'Nueces', 'Texas', 'TX, LA, MS', 4.4, '2 Business Days', 'Renata Silva', ['NFIP Authorized Adjuster', 'Proof of Loss Follow-up', 'Waiting Period Review']),
-  X('Brazos Independent Adjusters', 'Dallas', 'Dallas', 'Texas', 'TX, OK', 4.1, '3 Business Days', 'Cole Hendricks', ['Independent Adjusters', 'Appraisers/Independent Adjusters', 'Estimate & Invoice Review']),
-  X('Bayou Restoration Partners', 'New Orleans', 'Orleans', 'Louisiana', 'LA, MS', 4.3, '6 Hours', 'Antoine Boudreaux', ['24/7 Loss Mitigation Contractors', 'Pack-out & Contents Cleaning']),
-  X('Crescent Flood Services', 'Baton Rouge', 'East Baton Rouge', 'Louisiana', 'LA', 4.2, '2 Business Days', 'Simone Arceneaux', ['NFIP Authorized Adjuster', 'Substantial Damage Determination', 'ICC Claim Handling']),
-  X('Mobile Bay Claims Group', 'Mobile', 'Mobile', 'Alabama', 'AL, MS, FL', 4.4, '3 Business Days', 'Tyrone Wells', ['Independent Adjusters', 'Roof Surface Review', 'Repair Network Referral']),
-  X('Yellowhammer Roof Inspections', 'Birmingham', 'Jefferson', 'Alabama', 'AL, GA', 4.0, '4 Business Days', 'Carla Whitfield', ['Roof Surface Review', 'Estimate & Invoice Review']),
-  X('Peach State Property Adjusters', 'Atlanta', 'Fulton', 'Georgia', 'GA, SC, AL', 4.3, '3 Business Days', 'Jamal Ellis', ['Independent Adjusters', 'Appraisers/Independent Adjusters', 'Coverage Verification & ROR']),
-  X('Lowcountry Coastal Claims', 'Savannah', 'Chatham', 'Georgia', 'GA, SC', 4.4, '2 Business Days', 'Hannah Dorsey', ['NFIP Authorized Adjuster', 'CAT Response', 'Contents Inventory & Valuation']),
-  X('Palmetto Recovery Group', 'Charleston', 'Charleston', 'South Carolina', 'SC, NC, GA', 4.5, '10 Business Days', 'Gideon Marsh', ['Subrogation', 'Tenant-Caused Loss Recovery', 'Legal']),
-  X('Holy City Mitigation', 'Charleston', 'Charleston', 'South Carolina', 'SC, NC', 4.2, '4 Hours', 'Beth Calloway', ['24/7 Loss Mitigation Contractors', 'Temporary Housing / ALE']),
-  X('Cape Fear Catastrophe Services', 'Wilmington', 'New Hanover', 'North Carolina', 'NC, SC', 4.3, '12 Hours', 'Russell Pike', ['CAT Response', 'Desk investigations']),
-  X('Outer Banks Flood Review', 'Wilmington', 'New Hanover', 'North Carolina', 'NC, SC, VA', 4.1, '3 Business Days', 'Mallory Quinn', ['NFIP Authorized Adjuster', 'NFIP Limit Exposure']),
-  // ── Real companies (name, city and services from public listings; rating, turnaround and contact are demo placeholders) ──
-  X('Hi Low Roofing', 'Winter Garden', 'Orange', 'Florida', 'FL', 4.0, '3 Business Days', 'Main office', ['Roof Surface Review', 'Estimate & Invoice Review', 'Repair Network Referral']),
-  X('Bigfoot Roofing & Construction', 'Jacksonville', 'Duval', 'Florida', 'FL', 4.0, '3 Business Days', 'Main office', ['Roof Surface Review', 'Estimate & Invoice Review', 'Repair Network Referral', 'CAT Response']),
-  X('Janney Roofing', 'Casselberry', 'Seminole', 'Florida', 'FL', 4.0, '3 Business Days', 'Main office', ['Roof Surface Review', 'Estimate & Invoice Review', 'CAT Response']),
-  X('E2 Roofing', 'Jacksonville', 'Duval', 'Florida', 'FL', 4.0, '3 Business Days', 'Main office', ['Roof Surface Review', 'Repair Network Referral', 'Estimate & Invoice Review']),
-  X('Neumann Construction & Roofing', 'San Antonio', 'Pasco', 'Florida', 'FL', 4.0, '4 Business Days', 'Main office', ['Roof Surface Review', 'Repair Network Referral']),
-  X('Dehlinger Construction', 'Longwood', 'Seminole', 'Florida', 'FL', 4.0, '4 Business Days', 'Main office', ['Repair Network Referral', 'Estimate & Invoice Review', 'Roof Surface Review']),
-  X('Megram Construction', 'Oviedo', 'Seminole', 'Florida', 'FL', 4.0, '5 Business Days', 'Main office', ['Repair Network Referral', 'Estimate & Invoice Review']),
-  X('Herring Cleaning and Restoration', 'Jacksonville', 'Duval', 'Florida', 'FL', 4.0, '4 Hours', 'Main office', ['24/7 Loss Mitigation Contractors', 'Pack-out & Contents Cleaning']),
-  X('Paul Davis Restoration', 'Savannah', 'Chatham', 'Georgia', 'GA, FL, AL, SC, NC', 4.0, '4 Hours', 'Franchise network', ['24/7 Loss Mitigation Contractors', 'Pack-out & Contents Cleaning', 'CAT Response']),
-  X('DDA Forensics', 'Regional (multi-state)', 'N/A', 'Florida', 'AL, FL, GA, LA, MS, SC, TX', 4.0, '5 Business Days', 'Main office', ['Forensic Engineers', 'Cause & Origin Specialists']),
-  // Real companies, details taken from their Google Business listings (rating = Google rating)
-  X('Southeast Roofing & Construction', 'Pensacola', 'Escambia', 'Florida', 'FL', 4.4, '3 Business Days', 'Main office', ['Roof Surface Review', 'Estimate & Invoice Review', 'Repair Network Referral'], 'Active', false, '(850) 478-4715', '9531 N Palafox St, Pensacola, FL 32534'),
-  X('M6 Building Solutions', 'Tampa', 'Hillsborough', 'Florida', 'FL', 4.9, '2 Business Days', 'Main office', ['Roof Surface Review', 'Estimate & Invoice Review', 'Repair Network Referral'], 'Active', false, undefined, '401 E Jackson St Ste 3300, Tampa, FL 33602'),
-  X('Proclaim Engineering, Inc', 'Winter Haven', 'Polk', 'Florida', 'FL', 4.0, '5 Business Days', 'Main office', ['Forensic Engineers', 'Cause & Origin Specialists'], 'Active', false, '(800) 309-2755', '264 Terranova Blvd, Winter Haven, FL 33884'),
-  X('Kruger Property Solutions', 'Boca Raton', 'Palm Beach', 'Florida', 'FL', 4.0, '4 Hours', 'Main office', ['24/7 Loss Mitigation Contractors', 'CAT Response', 'Roof Surface Review'], 'Active', false, '(954) 933-1298', '456 NW 35th St, Boca Raton, FL 33431'),
+  // ── Market additions: adjusting, investigation, legal and subrogation, specialists ──
+  V('Colonial Claims', 'Dunedin', 'Pinellas', 4.0, '3 Business Days', 'FL, KY',
+    ['Independent Adjusters', 'Appraisers/Independent Adjusters', 'Insurance-to-Value Review', 'Vacancy Review', 'Deductible Waiver Review', 'Statutory Deadline Watch'],
+    { phone: '(727) 738-1366', street: '2200 Bayshore Blvd, Dunedin, FL' }),
+  V('Specialty Adjusting International', 'Miami', 'Miami-Dade', 4.0, '2 Business Days', 'FL', ['Independent Adjusters', 'Appraisers/Independent Adjusters', 'CAT Response'],
+    { street: '10737 SW 104 St, Miami, FL 33176', status: 'ReadyForActivation' }),
+  V('Gold Star Adjusters', 'Jacksonville', 'Duval', 4.9, '3 Business Days', 'FL', ['Public Adjuster / Appraisal'],
+    { street: '3771 San Jose Pl, Jacksonville, FL 32257' }),
+  V('K&R Investigative Group', 'Tampa', 'Hillsborough', 4.4, '3 Business Days', 'FL', ['Desk investigations', 'Scene Investigation & Official Reports']),
+  V('GrayRobinson', 'Orlando', 'Orange', 4.0, '5 Business Days', 'FL',
+    ['Legal', 'Subrogation', 'Tenant-Caused Loss Recovery', 'Coverage Verification & ROR', 'Decision letters'],
+    { phone: '(407) 843-8880', street: '301 E Pine St Suite 1400, Orlando, FL 32801' }),
+  V('The Chapman Law Firm, P.A.', 'Boca Raton', 'Palm Beach', 4.0, '5 Business Days', 'FL', ['Subrogation', 'Tenant-Caused Loss Recovery', 'Legal'],
+    { phone: '(561) 997-0449', street: '7200 W Camino Real Suite 102, Boca Raton, FL 33433', status: 'ReadyForActivation' }),
+  V('Total Inventory, LLC', 'Maitland', 'Orange', 4.0, '4 Business Days', 'FL', ['Contents Inventory & Valuation'],
+    { phone: '(689) 777-3665', street: 'PO Box 940242, Maitland, FL 32794' }),
+  V('MDD Forensic Accountants', 'Lake Mary', 'Seminole', 4.0, '7 Business Days', 'FL', ['Forensic Accountant'],
+    { street: '100 Colonial Center Pkwy Suite 240, Lake Mary, FL 32746' }),
+  V('J.S. Held', 'Jericho', 'Nassau', 4.0, '7 Business Days', 'FL, TX, LA, AL, GA, SC, NC', ['Substantial Damage Determination', 'ICC Claim Handling'], { state: 'New York' }),
+  V('Crawford & Company', 'Peachtree Corners', 'Gwinnett', 4.0, '3 Business Days', 'FL, TX, LA, AL, GA, SC, NC',
+    ['NFIP Authorized Adjuster', 'Proof of Loss Follow-up', 'Waiting Period Review', 'NFIP Limit Exposure', 'CAT Response'], { state: 'Georgia' }),
+  V('ALE Solutions', 'Nationwide', 'N/A', 4.0, '1 Business Day', 'FL, TX, LA, AL, GA, SC, NC', ['Temporary Housing / ALE'], { state: 'Florida' }),
+  V('CorVel Corporation', 'Irvine', 'Orange', 4.0, '2 Business Days', 'FL, TX, LA, AL, GA, SC, NC', ['Medical Management / Rehab'], { state: 'California' }),
 ];
-
-// Spread the Florida providers across neighbouring states so the coverage column shows a realistic footprint.
-const WIDER_COVERAGE = ['FL, GA, AL', 'FL, GA', 'FL, AL, MS', 'FL, SC, NC', 'FL, GA, SC'];
-PROVIDERS.forEach((pr, i) => { if (pr.coverage === 'FL' && i % 3 === 1) pr.coverage = WIDER_COVERAGE[(i / 3 | 0) % WIDER_COVERAGE.length]; });

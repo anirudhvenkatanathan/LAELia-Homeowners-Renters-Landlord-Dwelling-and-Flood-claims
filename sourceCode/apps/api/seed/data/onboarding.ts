@@ -43,6 +43,7 @@ export const L1_BY_RULE: Record<string, Item[]> = {
   'Appraisers/Independent Adjusters': [['Florida all-lines adjuster licence', true], ['Xactimate proficiency evidence', true], ['Sample estimate and photo report', true], SLA],
   'Forensic Engineers': [['Florida Professional Engineer licence', true], ['Sample forensic engineering report', true], ['Expert witness history', true], ['Roof and structural testing methodology', true]],
   'Forensic Accountant': [['CPA / CFE credentials', true], ['Sample loss-of-rents analysis', true], ['Valuation methodology documentation', true], ['Conflict of interest screening SOP', true]],
+  'Medical Management / Rehab': [['Nurse case manager and clinical licence documentation', true], ['Medical bill review and fee-schedule methodology', true], ['Provider network coverage by state', true], ['Return-to-activity and rehab outcome reporting', true]],
   'Legal': [['Florida Bar membership and property-coverage experience', true], ['Reservation of rights letter templates', true], ['Litigation fee schedule', true], ['Conflict of interest screening SOP', true]],
   'Independent Adjusters': [['Florida all-lines adjuster licence', true], ['Sample field adjuster report', true], ['Caseload capacity attestation', true], SLA],
   'Decision letters': [['Florida statute-compliant letter templates (s. 627.70131)', true], ['Attorney review and compliance approval process', true], ['State filing and delivery compliance SOP', true], SLA],

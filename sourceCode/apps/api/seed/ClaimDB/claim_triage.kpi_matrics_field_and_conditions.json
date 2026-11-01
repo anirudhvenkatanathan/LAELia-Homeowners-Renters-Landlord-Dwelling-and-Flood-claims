@@ -1951,5 +1951,68 @@
     "updatedAt": {
       "$date": "2026-09-20T12:00:00.000Z"
     }
+  },
+  {
+    "_id": {
+      "$oid": "99356702494ecb6d0212cc7f"
+    },
+    "kpiMatricsFieldAndConditionId": "d99b0008-660a-40bc-a541-4436a3fb05d2",
+    "kpiMatricsFieldAndSectionsId": "34f75802-3d2e-4ffd-a72d-10c3327aaeb9",
+    "fieldName": "Jobs Delivered On Time",
+    "operator": "/",
+    "value": "Total Jobs * 100",
+    "conditionType": "",
+    "sortOrder": 0,
+    "ShowValue": "88%",
+    "createdBy": "Admin",
+    "createdAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "updatedBy": "Admin",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0a475b00670fb68eb728be4c"
+    },
+    "kpiMatricsFieldAndConditionId": "c317447d-f464-4b5f-a747-21f2873d70ec",
+    "kpiMatricsFieldAndSectionsId": "4c34dcbb-cd6f-46a5-a418-cfca3717091a",
+    "fieldName": "Reports Accepted First Time",
+    "operator": "/",
+    "value": "Reports Submitted * 100",
+    "conditionType": "",
+    "sortOrder": 0,
+    "ShowValue": "88%",
+    "createdBy": "Admin",
+    "createdAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "updatedBy": "Admin",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9982903d817a52fa68dc9519"
+    },
+    "kpiMatricsFieldAndConditionId": "da85b7a0-0121-43b6-ad86-071d527d2dfd",
+    "kpiMatricsFieldAndSectionsId": "61371fb0-014e-4290-a588-a2f7440725b1",
+    "fieldName": "Abs(Vendor Estimate - Final Cost)",
+    "operator": "/",
+    "value": "Final Cost * 100",
+    "conditionType": "",
+    "sortOrder": 0,
+    "ShowValue": "7%",
+    "createdBy": "Admin",
+    "createdAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "updatedBy": "Admin",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    }
   }
 ]

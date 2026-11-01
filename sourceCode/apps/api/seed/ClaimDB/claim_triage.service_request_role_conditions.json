@@ -1080,6 +1080,32 @@
   },
   {
     "_id": {
+      "$oid": "a7d76978903da756dcb76bb4"
+    },
+    "conditionId": "9fd95901-e5bc-429b-ab5d-86f50edd89d7",
+    "roleId": "f3a4f46c-cce9-44d2-a479-d9a4f6ccdb5a",
+    "fieldName": "bodily_injury_flag",
+    "operator": "!=",
+    "value": "",
+    "conditionType": "AND",
+    "sortOrder": 0,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6c7c254d958897169c1b0197"
+    },
+    "conditionId": "d1d237c9-06f5-421c-aaaf-8532b67f2b42",
+    "roleId": "f3a4f46c-cce9-44d2-a479-d9a4f6ccdb5a",
+    "fieldName": "medical_payments_claim_flag",
+    "operator": "!=",
+    "value": "",
+    "conditionType": "OR",
+    "sortOrder": 1,
+    "__v": 0
+  },
+  {
+    "_id": {
       "$oid": "c46d163b23126eeab2550e64"
     },
     "conditionId": "3c1ecbc0-534c-4c89-a8c4-6c55d27ddc93",

@@ -1765,5 +1765,62 @@
     "updatedAt": {
       "$date": "2026-09-20T12:00:00.000Z"
     }
+  },
+  {
+    "_id": {
+      "$oid": "ac0d29574276fe55a1d21ab0"
+    },
+    "kpiMatricsFieldAndSectionsId": "34f75802-3d2e-4ffd-a72d-10c3327aaeb9",
+    "kpiMatricsGroupTrackingId": "4e7fcf7d-c3f0-4bb4-a634-0e48afc1a31c",
+    "thresholdsGood": "90",
+    "thresholdsModerate": "80",
+    "thresholdsPoor": "70",
+    "betterWhen": "Higher",
+    "createdBy": "Admin",
+    "createdAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "updatedBy": "Admin",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "37550565a03183680a7d274a"
+    },
+    "kpiMatricsFieldAndSectionsId": "4c34dcbb-cd6f-46a5-a418-cfca3717091a",
+    "kpiMatricsGroupTrackingId": "425ba1e2-e645-4ad1-a0c2-5f6ec7bfdcf1",
+    "thresholdsGood": "90",
+    "thresholdsModerate": "80",
+    "thresholdsPoor": "70",
+    "betterWhen": "Higher",
+    "createdBy": "Admin",
+    "createdAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "updatedBy": "Admin",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "00761975f3d684747dcd41a6"
+    },
+    "kpiMatricsFieldAndSectionsId": "61371fb0-014e-4290-a588-a2f7440725b1",
+    "kpiMatricsGroupTrackingId": "70ace25e-90d2-4a6c-a3cf-b68e550f5087",
+    "thresholdsGood": "5",
+    "thresholdsModerate": "10",
+    "thresholdsPoor": "15",
+    "betterWhen": "Lower",
+    "createdBy": "Admin",
+    "createdAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "updatedBy": "Admin",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    }
   }
 ]

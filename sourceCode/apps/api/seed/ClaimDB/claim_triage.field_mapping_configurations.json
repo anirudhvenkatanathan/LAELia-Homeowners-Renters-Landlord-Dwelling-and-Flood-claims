@@ -1028,6 +1028,32 @@
   },
   {
     "_id": {
+      "$oid": "37a071f5646e86cd873da6dd"
+    },
+    "mappingId": "ecdcd1fd-b466-42ab-a631-d0a6f6e7aa0d",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "bodilyInjuryFlag",
+    "targetField": "bodilyInjuryFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 79,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e0cfc384385f43d0049ee7ef"
+    },
+    "mappingId": "fdc9ca12-ff58-4ada-a34a-32888e6d73ed",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "medicalPaymentsClaimFlag",
+    "targetField": "medicalPaymentsClaimFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 80,
+    "__v": 0
+  },
+  {
+    "_id": {
       "$oid": "b11a3e7c88b9cfa59b78b622"
     },
     "mappingId": "bf6d44b9-0099-43f6-a2b6-035267bda7bd",
@@ -1036,7 +1062,7 @@
     "targetField": "contentsValuationDisputeFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 79,
+    "sortOrder": 81,
     "__v": 0
   },
   {
@@ -1049,7 +1075,7 @@
     "targetField": "contentsCleaningRequiredFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 80,
+    "sortOrder": 82,
     "__v": 0
   },
   {
@@ -1062,7 +1088,7 @@
     "targetField": "smokeOdorFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 81,
+    "sortOrder": 83,
     "__v": 0
   },
   {
@@ -1075,7 +1101,7 @@
     "targetField": "displacedFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 82,
+    "sortOrder": 84,
     "__v": 0
   },
   {
@@ -1088,7 +1114,7 @@
     "targetField": "uninhabitableFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 83,
+    "sortOrder": 85,
     "__v": 0
   },
   {
@@ -1101,7 +1127,7 @@
     "targetField": "vacancyDays",
     "dataType": "Number",
     "isMandatory": false,
-    "sortOrder": 84,
+    "sortOrder": 86,
     "__v": 0
   },
   {
@@ -1114,7 +1140,7 @@
     "targetField": "unoccupiedFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 85,
+    "sortOrder": 87,
     "__v": 0
   },
   {
@@ -1127,7 +1153,7 @@
     "targetField": "tenantCausedFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 86,
+    "sortOrder": 88,
     "__v": 0
   },
   {
@@ -1140,7 +1166,7 @@
     "targetField": "daysSinceNotice",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 87,
+    "sortOrder": 89,
     "__v": 0
   },
   {
@@ -1153,7 +1179,7 @@
     "targetField": "acknowledgedFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 88,
+    "sortOrder": 90,
     "__v": 0
   },
   {
@@ -1166,7 +1192,7 @@
     "targetField": "daysSinceProofOfLoss",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 89,
+    "sortOrder": 91,
     "__v": 0
   },
   {
@@ -1179,7 +1205,7 @@
     "targetField": "inspectionCompletedFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 90,
+    "sortOrder": 92,
     "__v": 0
   },
   {
@@ -1192,7 +1218,7 @@
     "targetField": "paymentDecisionIssuedFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 91,
+    "sortOrder": 93,
     "__v": 0
   },
   {
@@ -1205,7 +1231,7 @@
     "targetField": "deductibleWaiverSuspectedFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 92,
+    "sortOrder": 94,
     "__v": 0
   },
   {
@@ -1218,7 +1244,7 @@
     "targetField": "causeOfLoss",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 93,
+    "sortOrder": 95,
     "__v": 0
   },
   {
@@ -1231,7 +1257,7 @@
     "targetField": "policyForm",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 94,
+    "sortOrder": 96,
     "__v": 0
   },
   {
@@ -1244,7 +1270,7 @@
     "targetField": "floodZone",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 95,
+    "sortOrder": 97,
     "__v": 0
   },
   {
@@ -1257,7 +1283,7 @@
     "targetField": "coverageALimit",
     "dataType": "Number",
     "isMandatory": false,
-    "sortOrder": 96,
+    "sortOrder": 98,
     "__v": 0
   },
   {
@@ -1270,7 +1296,7 @@
     "targetField": "buildingExposure",
     "dataType": "Number",
     "isMandatory": false,
-    "sortOrder": 97,
+    "sortOrder": 99,
     "__v": 0
   },
   {
@@ -1283,7 +1309,7 @@
     "targetField": "contentsExposure",
     "dataType": "Number",
     "isMandatory": false,
-    "sortOrder": 98,
+    "sortOrder": 100,
     "__v": 0
   },
   {
@@ -1296,7 +1322,7 @@
     "targetField": "propertyAddress",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 99,
+    "sortOrder": 101,
     "__v": 0
   },
   {
@@ -1309,7 +1335,7 @@
     "targetField": "assignedAdjuster",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 100,
+    "sortOrder": 102,
     "__v": 0
   },
   {
@@ -1322,7 +1348,7 @@
     "targetField": "contractorName",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 101,
+    "sortOrder": 103,
     "__v": 0
   }
 ]
