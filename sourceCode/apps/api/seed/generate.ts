@@ -38,7 +38,7 @@ const conds: ConditionData[] = [];
 const expr = (r: RuleDef) => '(' + r.conds.map((c, i) => `${i ? ' ' + (c[3] ?? 'AND') + ' ' : ''}${c[0]} ${c[1]} ${c[2] === '' ? "''" : c[2]}`).join('') + ')';
 
 put('service_request_roles', RULES.map((r, i) => ({
-  _id: oid('role' + r.name), roleId: roleId(r), uploadId: 'manual', roleName: r.name, description: r.description,
+  _id: { $oid: '6841b200' + String(i + 1).padStart(16, '0') }, roleId: roleId(r), uploadId: 'manual', roleName: r.name, description: r.description,
   status: 'Active', __v: 0, conditionExpression: expr(r), nlpCondition: expr(r).slice(1, -1), nlpConditionInWords: r.description,
   lineOfBusiness: r.lobs,
 })));
@@ -209,15 +209,23 @@ for (const c of CLAIMS) {
   if (c.lob === 'Flood') flat['proofOfLossReceivedFlag'] = 'present';
   // catastrophe tagging: only claims whose loss date and county fall inside an event window carry a CAT number
   const catEv = CAT_EVENTS.find((e) => e.eventId === c.catEventId);
-  if (catEv) { flat['catEventId'] = catEv.eventId; flat['catNumber'] = catEv.eventId; flat['catEventName'] = catEv.eventName; }
+  if (catEv) { flat['catEventId'] = catEv.eventId; flat['catNumber'] = catEv.eventId; flat['catEventName'] = catEv.eventName; flat['catEventType'] = catEv.eventType; }
   flat['lossCounty'] = c.county; flat['lossZip'] = c.zip ?? '';
   // public adjuster / independent investigator
   if (c.pa) {
-    const capPct = catEv?.emergencyDeclared ? 10 : 20;            // s.626.854(11): 10% within a year of a declared emergency, else 20%
+    // s.626.854(11): 10% cap for claims made within a year of a declared state of emergency, else 20%
+    const declaredAt = catEv?.emergencyDeclared ? new Date(catEv.lossDateFrom).getTime() : 0;
+    const reportedAt = ago(c.reportedAgo).getTime();
+    const capPct = declaredAt && reportedAt >= declaredAt && reportedAt - declaredAt <= 365 * DAY ? 10 : 20;
     Object.assign(flat, { publicAdjusterFirm: c.pa.firm, publicAdjusterFeePct: c.pa.feePct, publicAdjusterContractDate: ymd(ago(c.pa.contractAgo)),
       publicAdjusterFeeCapPct: c.st === 'FL' ? capPct : 0, publicAdjusterFeeStatus: c.st !== 'FL' ? 'Not reviewed (non-Florida)' : c.pa.feePct > capPct ? 'Exceeds cap' : 'Within cap' });
+    // independent adjuster assigned to the claim and the settlement outcome (amount actually offered to the insured)
+    const settled = c.stage === 'CP' || c.stage === 'FS';
+    const settlement = settled ? Math.round(c.amount * (35 + (c.n * 11) % 30) / 100 / 100) * 100 : 0;
+    Object.assign(flat, { independentAdjusterName: bestProvider('Independent Adjusters'), claimSettlementAmount: settled ? settlement : '' });
+    // internal quality metric (backend only): dollars and % by which the independent adjuster reduced the submitted amount
+    if (settled) Object.assign(flat, { adjusterReductionAmount: c.amount - settlement, adjusterReductionPct: Math.round(((c.amount - settlement) / c.amount) * 100) });
   }
-  if (c.investigator) flat['independentInvestigatorFirm'] = c.investigator;
   if (c.pa || c.investigator) { flat['secondLevelReviewRequired'] = true; flat['secondLevelReviewStatus'] = c.stage === 'PS' || c.stage === 'PR' ? 'Pending claims manager review' : 'Completed'; }
   // CRF-26A data points: Florida line of business, claim status and paid loss. NFIP (SFIP) claims are federal and are not reported to the OIR.
   const privateFlood = c.lob === 'Flood' && /private flood/i.test(c.cause);

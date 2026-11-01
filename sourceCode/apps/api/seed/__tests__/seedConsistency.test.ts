@@ -63,4 +63,39 @@ describe('property-lines seed', () => {
     const listedPhones = new Set(PROVIDERS.filter((p) => p.phone).map((p) => p.phone as string));
     vendors.forEach((v) => { if (!listedEmails.has(String(v.emailId))) expect(v.emailId).toMatch(/\.example$/); if (!listedPhones.has(String(v.phoneNumber))) expect(v.phoneNumber).toMatch(/555-01\d\d$/); });
   });
+
+  it('ties every CAT claim to an event window and county, and tags nothing else', () => {
+    const events = rd('cat_events');
+    const ids = events.map((e) => e.eventId);
+    expect(new Set(ids).size).toBe(ids.length);
+    for (const c of claims) {
+      if (!c.catEventId) { expect(c.catNumber).toBeUndefined(); continue; }
+      const e = events.find((x) => x.eventId === c.catEventId);
+      expect(e).toBeDefined();
+      expect(c.catNumber).toBe(e.eventId);
+      expect(c.catEventName).toBe(e.eventName);
+      expect(c.lossDate >= e.lossDateFrom && c.lossDate <= e.lossDateTo).toBe(true);
+      expect(e.counties).toContain(c.lossCounty);
+    }
+  });
+
+  it('keeps public adjuster claims internally consistent', () => {
+    const pa = claims.filter((c) => c.publicAdjusterFirm);
+    expect(pa.length).toBeGreaterThan(0);
+    for (const c of pa) {
+      expect(c.independentAdjusterName).toBeTruthy();
+      const submitted = Number(c.claimAmount);
+      if (c.claimSettlementAmount !== '') {
+        expect(Number(c.claimSettlementAmount)).toBeLessThan(submitted);
+        expect(Number(c.adjusterReductionAmount)).toBe(submitted - Number(c.claimSettlementAmount));
+      } else {
+        expect(c.adjusterReductionAmount).toBeUndefined();
+      }
+    }
+  });
+
+  it('has unique claim numbers and unique service names', () => {
+    expect(new Set(claims.map((c) => c.claimNumber)).size).toBe(claims.length);
+    expect(new Set(roles.map((r) => r.roleName)).size).toBe(roles.length);
+  });
 });

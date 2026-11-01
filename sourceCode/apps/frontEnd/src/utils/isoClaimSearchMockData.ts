@@ -212,7 +212,7 @@ function buildPriorClaimsHistory(r: IndividualClaimRecord, h: number, loss: Reso
 
 function buildSharedRepresentation(r: IndividualClaimRecord, h: number, loss: ResolvedLoss): IsoFlagCard {
   const insured = r.insuredName?.trim() || 'The insured';
-  const rep = pick(REPRESENTATIVES, h, 11);
+  const rep = r.publicAdjusterFirm?.trim() || pick(REPRESENTATIVES, h, 11);
   const legalVendor = r.vendorServices?.find(v => /legal|public adjuster/i.test(v));
   const repLine = legalVendor ? `${rep} (via ${legalVendor})` : rep;
   const address = pick(FALLBACK_ADDRESSES, h, 6);
@@ -452,7 +452,7 @@ function bySignificance(a: IsoFlagType, b: IsoFlagType): number {
 // The four anchor demo claims (one per major line, see seed) — used to
 // guarantee a visible spread each session (no match / 1 flag / 2 stacked
 // flags); any other claim number is assigned purely by the random session seed.
-const KNOWN_CLAIM_NUMBERS = ['HO-2026-001', 'LL-2026-001', 'DW-2026-001', 'FL-2026-001'];
+const KNOWN_CLAIM_NUMBERS = ['HO-2026-100001', 'LL-2026-100201', 'DW-2026-100301', 'FL-2026-100401'];
 
 // Rolled once and persisted in localStorage — NOT re-rolled on every page
 // refresh (a plain module-level Math.random() would reshuffle on every
@@ -517,19 +517,23 @@ export function getIsoClaimSearchData(record: IndividualClaimRecord | null | und
   const h = sessionHash(record.claimNumber);
   const category = CLAIM_CATEGORY[record.claimNumber];
 
+  // A shared-representation flag only makes sense when someone represents the insured (public adjuster or legal service).
+  const hasRep = !!record.publicAdjusterFirm || (record.vendorServices ?? []).some(v => /legal|public adjuster/i.test(v));
+  const pool = ALL_FLAG_TYPES.filter(ft => ft !== 'SharedRepresentation' || hasRep);
+
   let flagTypes: IsoFlagType[];
   if (category === 'none') {
     flagTypes = [];
   } else if (category === 'double') {
-    const first = pick(ALL_FLAG_TYPES, h, 41);
-    let second = pick(ALL_FLAG_TYPES, h, 57);
-    if (second === first) second = ALL_FLAG_TYPES[(ALL_FLAG_TYPES.indexOf(second) + 1) % ALL_FLAG_TYPES.length];
+    const first = record.publicAdjusterFirm ? 'SharedRepresentation' : pick(pool, h, 41);
+    let second = pick(pool, h, 57);
+    if (second === first) second = pool[(pool.indexOf(second) + 1) % pool.length];
     flagTypes = [first, second];
   } else if (category === 'single') {
-    flagTypes = [pick(ALL_FLAG_TYPES, h, 41)];
+    flagTypes = [record.publicAdjusterFirm ? 'SharedRepresentation' : pick(pool, h, 41)];
   } else {
-    const pool: (IsoFlagType | null)[] = [...ALL_FLAG_TYPES, ...Array(NO_MATCH_WEIGHT).fill(null)];
-    const picked = pick(pool, h, 41);
+    const withNone: (IsoFlagType | null)[] = [...pool, ...Array(NO_MATCH_WEIGHT).fill(null)];
+    const picked = pick(withNone, h, 41);
     flagTypes = picked === null ? [] : [picked];
   }
 

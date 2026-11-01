@@ -1,6 +1,6 @@
 export interface CatEvent {
   eventId: string; eventName: string; eventType: string; states: string[]; lossDateFrom: string; lossDateTo: string; counties: string[];
-  emergencyDeclared: boolean; crfApplicable: boolean; dataCallStatus: string; note: string; claimCount: number;
+  emergencyDeclared: boolean; crfApplicable: boolean; crfForm: string; dataCallStatus: string; note: string; claimCount: number;
 }
 export interface CrfCounts { claims: number; openPay: number; openNoPay: number; closedPay: number; closedNoPay: number; paidLoss: number; paidAlae: number; incurred: number; }
 export interface CrfRow extends CrfCounts { lob: string; lobName: string; county: string; zip: string; }
@@ -13,8 +13,8 @@ export interface VendorWorkloadRow {
   vendor: string; services: string; rating: number; assignedInScope: number; activeAssignments: number; capacity: number; utilizationPct: number; status: string;
 }
 export interface PaClaimRow {
-  claimNumber: string; insured: string; county: string; claimAmount: number; publicAdjusterFirm: string; feePct: number | null; feeCapPct: number | null;
-  feeStatus: string; investigatorFirm: string; catEventId: string; reviewStatus: string;
+  claimNumber: string; insured: string; county: string; submittedAmount: number; publicAdjusterFirm: string; settlementAmount: number | null;
+  independentAdjuster: string; status: string; catNumber: string;
 }
 export interface ComplianceSummary {
   event: CatEvent | null; eventId: string; totalRecords: number; crfEligibleCount: number; excluded: { claimNumber: string; reason: string }[];

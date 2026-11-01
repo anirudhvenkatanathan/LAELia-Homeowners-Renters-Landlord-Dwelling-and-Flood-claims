@@ -1,7 +1,7 @@
 // 75 demo claims (15 per line) for a Florida carrier. All people, addresses and
 // amounts are invented. Reference "today" for ages and clocks: 2026-10-30.
 import type { LineOfBusiness } from '../../utils/lineOfBusiness';
-import { ISAIAS_CLAIMS, EDOUARD_CLAIMS, PUBLIC_ADJUSTERS, INVESTIGATORS, ZIPS } from './cat';
+import { ISAIAS_CLAIMS, EDOUARD_CLAIMS, HIST_CLAIMS, PUBLIC_ADJUSTERS, INVESTIGATORS, ZIPS } from './cat';
 
 export type Stage =
   | 'PS'   // Pending Selection — adjuster has not chosen providers yet
@@ -232,10 +232,12 @@ export const CLAIMS: ClaimSpec[] = BASE_CLAIMS.map((c) => {
   const key = `${c.lob}:${c.n}`;
   const m = MOVES[key];
   let out: ClaimSpec = m ? { ...c, city: m[0], county: m[1], st: m[2] } : { ...c };
-  const ev = ISAIAS_CLAIMS[key] ? ['CAT-2026-ISAIAS', ISAIAS_CLAIMS[key]] as const : EDOUARD_CLAIMS[key] ? ['CAT-2026-EDOUARD', EDOUARD_CLAIMS[key]] as const : undefined;
+  const hist = HIST_CLAIMS[key];
+  const ev = hist ? [hist[0], hist.slice(1) as unknown as [string, string, number, number, string]] as const
+    : ISAIAS_CLAIMS[key] ? ['26B-FL', ISAIAS_CLAIMS[key]] as const : EDOUARD_CLAIMS[key] ? ['26A-TX', EDOUARD_CLAIMS[key]] as const : undefined;
   if (ev) {
     const [id, t] = ev;
-    out = { ...out, city: t[0], county: t[1], lossAgo: t[2], reportedAgo: t[3], cause: t[4], catEventId: id, st: id === 'CAT-2026-EDOUARD' ? 'TX' : 'FL',
+    out = { ...out, city: t[0], county: t[1], lossAgo: t[2], reportedAgo: t[3], cause: t[4], catEventId: id, st: id === '26A-TX' ? 'TX' : 'FL',
       flags: [...new Set([...(out.flags ?? []), 'cat_event_flag'])] };
   }
   const pa = PUBLIC_ADJUSTERS[key];

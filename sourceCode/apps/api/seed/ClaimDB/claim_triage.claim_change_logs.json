@@ -3577,7 +3577,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-09-03T12:00:00.000Z"
+      "$date": "2025-01-27T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -3595,7 +3595,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-09-03T12:00:00.000Z"
+      "$date": "2025-01-27T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -3955,7 +3955,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-07-27T12:00:00.000Z"
+      "$date": "2025-03-15T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -3973,13 +3973,49 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-07-27T12:00:00.000Z"
+      "$date": "2025-03-15T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "49d88eb7987f25aa504b2110"
+      "$oid": "f5d81c3ca967b1900c9c6803"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 14,
+    "claimNumber": "LL-2026-100214",
+    "type": "role",
+    "changedItem": "CAT Response",
+    "previousValue": "—",
+    "updatedValue": "CAT Response",
+    "reason": "Plan services confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2025-03-15T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "3e33e11d23a5fc5e51ba4ddf"
+    },
+    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
+    "recordIndex": 14,
+    "claimNumber": "LL-2026-100214",
+    "type": "vendor",
+    "changedItem": "Janney Roofing",
+    "previousValue": "Janney Roofing",
+    "updatedValue": "Janney Roofing",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "James Okoro",
+    "updatedAt": {
+      "$date": "2025-03-15T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "983b82c6a27443e8515f778a"
     },
     "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
     "recordIndex": 14,
@@ -3991,13 +4027,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-07-27T12:00:00.000Z"
+      "$date": "2025-03-15T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "965ad3f9f88ab104f61c6a26"
+      "$oid": "e956b35d357b638759e1887d"
     },
     "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
     "recordIndex": 14,
@@ -4009,7 +4045,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "James Okoro",
     "updatedAt": {
-      "$date": "2026-07-27T12:00:00.000Z"
+      "$date": "2025-03-15T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -6439,7 +6475,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Sarah Mitchell",
     "updatedAt": {
-      "$date": "2026-09-25T12:00:00.000Z"
+      "$date": "2025-11-01T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -6457,7 +6493,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Sarah Mitchell",
     "updatedAt": {
-      "$date": "2026-09-25T12:00:00.000Z"
+      "$date": "2025-11-01T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -6835,7 +6871,7 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-07-07T12:00:00.000Z"
+      "$date": "2025-11-01T12:00:00.000Z"
     },
     "__v": 0
   },
@@ -6853,13 +6889,49 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-07-07T12:00:00.000Z"
+      "$date": "2025-11-01T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "82e6150882b5aec181bc26ec"
+      "$oid": "5c8ee1cfbd509b9ec00e9b9c"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 14,
+    "claimNumber": "FL-2026-100414",
+    "type": "role",
+    "changedItem": "CAT Response",
+    "previousValue": "—",
+    "updatedValue": "CAT Response",
+    "reason": "Plan services confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2025-11-01T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "798cb95e66a3c962a2de2b56"
+    },
+    "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
+    "recordIndex": 14,
+    "claimNumber": "FL-2026-100414",
+    "type": "vendor",
+    "changedItem": "Janney Roofing",
+    "previousValue": "Janney Roofing",
+    "updatedValue": "Janney Roofing",
+    "reason": "Vendor selection confirmed",
+    "updatedBy": "Derek Chan",
+    "updatedAt": {
+      "$date": "2025-11-01T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "578e69e8334987a8b562340b"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 14,
@@ -6871,13 +6943,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-07-07T12:00:00.000Z"
+      "$date": "2025-11-01T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "95a543b8d65a34244a6a33ef"
+      "$oid": "89c1d0cb20ca70b3f04689c8"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 14,
@@ -6889,13 +6961,13 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-07-07T12:00:00.000Z"
+      "$date": "2025-11-01T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "4a979729fc1b20c5e43fe9a5"
+      "$oid": "86698f6db26fd000d455353b"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 14,
@@ -6907,13 +6979,13 @@
     "reason": "Plan services confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-07-07T12:00:00.000Z"
+      "$date": "2025-11-01T12:00:00.000Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "77e8818cc1b4151323439a21"
+      "$oid": "26e36412f3a25a71da0edf44"
     },
     "uploadId": "3a04a360-6860-474d-a5d2-8bba1b187fdd",
     "recordIndex": 14,
@@ -6925,7 +6997,7 @@
     "reason": "Vendor selection confirmed",
     "updatedBy": "Derek Chan",
     "updatedAt": {
-      "$date": "2026-07-07T12:00:00.000Z"
+      "$date": "2025-11-01T12:00:00.000Z"
     },
     "__v": 0
   },

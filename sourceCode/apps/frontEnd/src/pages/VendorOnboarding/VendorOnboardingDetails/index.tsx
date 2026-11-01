@@ -1402,7 +1402,7 @@ const VendorOnboardingDetails: React.FC = () => {
                     <h2 className="vod-section-title" style={{ margin: 0 }}>Service Category Approval</h2>
                   </div>
                   <p className="sca-info-text">
-                    Qualified only when all 4 layers are Complete AND the L4 mandatory item for that category is Approved.
+                    Qualified only when all 4 stages are Complete AND the Performance & Track Record mandatory item for that category is Approved.
                   </p>
                   <div className="sca-grid">
                     {vendorRoles.map((role: RoleSummaryItem) => (

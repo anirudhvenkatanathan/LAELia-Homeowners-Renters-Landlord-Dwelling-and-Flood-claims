@@ -2,23 +2,23 @@
   "_id": "6841a101f1a23c0012342451",
   "vendorStageId": "6841a101f1a23c0012342455",
   "vendorStageCode": "Service-Category_Specific",
-  "vendorStageName": "L1 Service-Category Specific"
+  "vendorStageName": "Service Capability & Credentials"
 },
 {
   "_id": "6841a101f1a23c0012342452",
   "vendorStageId": "6841a101f1a23c0012342452",
   "vendorStageCode": "Universal_legal_Insurance",
-  "vendorStageName": "L2 Universal (Legal & Insurance)"
+  "vendorStageName": "Licensing, Insurance & Compliance"
 },
 {
   "_id": "6841a101f1a23c0012342453",
   "vendorStageId": "6841a101f1a23c0012342453",
   "vendorStageCode": "Technology_Readiness",
-  "vendorStageName": "L3 Technology Readiness"
+  "vendorStageName": "Technology & Data Integration"
 },
 {
   "_id": "6841a101f1a23c0012343454",
   "vendorStageId": "6841a101f1a23c0012342454",
   "vendorStageCode": "Track_Record",
-  "vendorStageName": "L4 Track Record"
+  "vendorStageName": "Performance & Track Record"
 }]

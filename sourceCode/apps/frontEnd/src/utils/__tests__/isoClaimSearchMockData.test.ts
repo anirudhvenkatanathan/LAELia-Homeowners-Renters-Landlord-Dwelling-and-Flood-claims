@@ -8,7 +8,7 @@ const ALL_TYPES: IsoFlagType[] = [
   'PropertyFrequencySpike', 'CrossCarrierMatch', 'ContractorUtilizationOutlier', 'ClaimFrequency',
 ];
 
-const KNOWN_CLAIM_NUMBERS = ['HO-2026-001', 'LL-2026-001', 'DW-2026-001', 'FL-2026-001'];
+const KNOWN_CLAIM_NUMBERS = ['HO-2026-100001', 'LL-2026-100201', 'DW-2026-100301', 'FL-2026-100401'];
 
 function makeRecord(overrides: Partial<IndividualClaimRecord>): IndividualClaimRecord {
   return {

@@ -1,9 +1,132 @@
 [
   {
     "_id": {
-      "$oid": "7ed8a54cfe2614a08ff0cc56"
+      "$oid": "d70d460685ad3ea849ac7f24"
     },
-    "eventId": "CAT-2026-ISAIAS",
+    "eventId": "25A-FL",
+    "eventName": "Gulf Coast Winter Storm",
+    "eventType": "Winter storm",
+    "states": [
+      "FL"
+    ],
+    "lossDateFrom": "2025-01-20",
+    "lossDateTo": "2025-01-22",
+    "counties": [
+      "Escambia",
+      "Santa Rosa",
+      "Okaloosa",
+      "Walton",
+      "Bay",
+      "Leon",
+      "Jackson"
+    ],
+    "emergencyDeclared": true,
+    "crfApplicable": false,
+    "crfForm": "CRF-25",
+    "dataCallStatus": "No OIR data call on file (historical; confirm)",
+    "note": "Record Panhandle snow and ice, Jan 21-22 2025; Governor declared a state of emergency (FPREN, Dec 2025 review).",
+    "createdAt": {
+      "$date": "2026-10-09T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-29T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "abc176e50cf0293be4ed343e"
+    },
+    "eventId": "25B-FL",
+    "eventName": "Central Florida Tornado Outbreak",
+    "eventType": "Tornado",
+    "states": [
+      "FL"
+    ],
+    "lossDateFrom": "2025-03-10",
+    "lossDateTo": "2025-03-10",
+    "counties": [
+      "Seminole",
+      "Orange",
+      "Okeechobee",
+      "St. Lucie"
+    ],
+    "emergencyDeclared": false,
+    "crfApplicable": false,
+    "crfForm": "CRF-25",
+    "dataCallStatus": "No OIR data call on file (historical; confirm)",
+    "note": "EF-2 tornado, Longwood/I-4 corridor, Mar 10 2025; at least $4M property damage reported.",
+    "createdAt": {
+      "$date": "2026-10-09T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-29T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "8528d02b2cadfd86961b0718"
+    },
+    "eventId": "25C-FL",
+    "eventName": "Late-October Flash Flooding",
+    "eventType": "Flash flood",
+    "states": [
+      "FL"
+    ],
+    "lossDateFrom": "2025-10-25",
+    "lossDateTo": "2025-10-28",
+    "counties": [
+      "Lake",
+      "Palm Beach"
+    ],
+    "emergencyDeclared": false,
+    "crfApplicable": false,
+    "crfForm": "CRF-25",
+    "dataCallStatus": "No OIR data call on file (historical; confirm)",
+    "note": "Lake County (Mount Dora) and Palm Beach County (Boca Raton) flash flooding, late Oct 2025; exact dates approximate.",
+    "createdAt": {
+      "$date": "2026-10-09T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-29T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "1fb80baf64a4802c0e83fe2b"
+    },
+    "eventId": "26A-TX",
+    "eventName": "Tropical Storm Edouard",
+    "eventType": "Tropical storm",
+    "states": [
+      "LA",
+      "TX"
+    ],
+    "lossDateFrom": "2026-08-31",
+    "lossDateTo": "2026-09-03",
+    "counties": [
+      "Galveston"
+    ],
+    "emergencyDeclared": false,
+    "crfApplicable": false,
+    "crfForm": "n/a",
+    "dataCallStatus": "Not a Florida event (no CRF-26A)",
+    "note": "Louisiana and Texas, 2026-08-31 to 2026-09-03 (NAIC 2026 catastrophe event list).",
+    "createdAt": {
+      "$date": "2026-10-09T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-29T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "c96f17d8241ce60c2e91c5b2"
+    },
+    "eventId": "26B-FL",
     "eventName": "Hurricane Isaias",
     "eventType": "Hurricane",
     "states": [
@@ -25,36 +148,9 @@
     ],
     "emergencyDeclared": true,
     "crfApplicable": true,
+    "crfForm": "CRF-26A",
     "dataCallStatus": "Data call active (demo)",
     "note": "Landfall near Destin, FL on 2026-10-09. Emergency declaration is assumed for the demo; confirm against the OIR data call notice.",
-    "createdAt": {
-      "$date": "2026-10-09T12:00:00.000Z"
-    },
-    "updatedAt": {
-      "$date": "2026-10-29T12:00:00.000Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "bb1d281c8412c57a4bdfd6ba"
-    },
-    "eventId": "CAT-2026-EDOUARD",
-    "eventName": "Tropical Storm Edouard",
-    "eventType": "Tropical storm",
-    "states": [
-      "LA",
-      "TX"
-    ],
-    "lossDateFrom": "2026-08-31",
-    "lossDateTo": "2026-09-03",
-    "counties": [
-      "Galveston"
-    ],
-    "emergencyDeclared": false,
-    "crfApplicable": false,
-    "dataCallStatus": "Not a Florida event (no CRF-26A)",
-    "note": "Louisiana and Texas, 2026-08-31 to 2026-09-03 (NAIC 2026 catastrophe event list).",
     "createdAt": {
       "$date": "2026-10-09T12:00:00.000Z"
     },
