@@ -1,0 +1,66 @@
+[
+  {
+    "_id": {
+      "$oid": "7ed8a54cfe2614a08ff0cc56"
+    },
+    "eventId": "CAT-2026-ISAIAS",
+    "eventName": "Hurricane Isaias",
+    "eventType": "Hurricane",
+    "states": [
+      "FL"
+    ],
+    "lossDateFrom": "2026-10-08",
+    "lossDateTo": "2026-10-11",
+    "counties": [
+      "Escambia",
+      "Santa Rosa",
+      "Okaloosa",
+      "Walton",
+      "Holmes",
+      "Bay",
+      "Washington",
+      "Gulf",
+      "Franklin",
+      "Calhoun"
+    ],
+    "emergencyDeclared": true,
+    "crfApplicable": true,
+    "dataCallStatus": "Data call active (demo)",
+    "note": "Landfall near Destin, FL on 2026-10-09. Emergency declaration is assumed for the demo; confirm against the OIR data call notice.",
+    "createdAt": {
+      "$date": "2026-10-09T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-29T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "bb1d281c8412c57a4bdfd6ba"
+    },
+    "eventId": "CAT-2026-EDOUARD",
+    "eventName": "Tropical Storm Edouard",
+    "eventType": "Tropical storm",
+    "states": [
+      "LA",
+      "TX"
+    ],
+    "lossDateFrom": "2026-08-31",
+    "lossDateTo": "2026-09-03",
+    "counties": [
+      "Galveston"
+    ],
+    "emergencyDeclared": false,
+    "crfApplicable": false,
+    "dataCallStatus": "Not a Florida event (no CRF-26A)",
+    "note": "Louisiana and Texas, 2026-08-31 to 2026-09-03 (NAIC 2026 catastrophe event list).",
+    "createdAt": {
+      "$date": "2026-10-09T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-29T12:00:00.000Z"
+    },
+    "__v": 0
+  }
+]

@@ -109,6 +109,15 @@ const UPLOADED_CLAIM_DETAILS_QUERY = gql`
         propertyAddress
         assignedAdjuster
         contractorName
+        catNumber
+        catEventName
+        publicAdjusterFirm
+        publicAdjusterFeePct
+        publicAdjusterFeeCapPct
+        publicAdjusterFeeStatus
+        independentInvestigatorFirm
+        secondLevelReviewRequired
+        secondLevelReviewStatus
       }
     }
   }
@@ -474,7 +483,7 @@ export async function getChangeLogEntries(uploadId: string, recordIndex: number)
 
 const GET_VENDORS_WITH_DETAILS_QUERY = gql`
   query GetVendorsByRoleIdsWithDetails($roleIds: [String!]!) {
-    getVendorsByRoleIdsWithDetails(roleIds: $roleIds) { companyName rating boostApplied }
+    getVendorsByRoleIdsWithDetails(roleIds: $roleIds) { companyName rating boostApplied capacity activeAssignments utilizationPct }
   }
 `;
 

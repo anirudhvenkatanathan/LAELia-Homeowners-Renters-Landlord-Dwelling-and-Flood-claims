@@ -7,6 +7,7 @@ import VendorPerformanceTable from '../../../components/dashboard/VendorPerforma
 import AlertsPanel from '../../../components/dashboard/AlertsPanel';
 import DateRangePicker from '../../../components/dashboard/DateRangePicker';
 import FiltersPanel from '../../../components/dashboard/FiltersPanel';
+import ComplianceReport from '../../../components/dashboard/ComplianceReport';
 import { useExecutiveOverview } from '../../../hooks/dashboard/useExecutiveOverview';
 import { formatCurrency, formatPercent } from './types';
 import { styles } from './styles';
@@ -32,6 +33,7 @@ const InfoIcon: React.FC = () => (
 const DashboardMaster: React.FC = () => {
   const eo = useExecutiveOverview();
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const [tab, setTab] = useState<'overview' | 'compliance'>('overview');
 
   return (
     <AppShell>
@@ -63,8 +65,14 @@ const DashboardMaster: React.FC = () => {
           )}
         </div>
 
-        {/* ── Content ────────────────────────────────────────────────────── */}
-        {eo.loading && eo.kpis.length === 0 ? (
+        <div className="sp-tabs" role="tablist" aria-label="Dashboard sections">
+          <button type="button" role="tab" aria-selected={tab === 'overview'} className={`sp-tab${tab === 'overview' ? ' sp-tab--active' : ''}`} onClick={() => setTab('overview')}>LAE Savings</button>
+          <button type="button" role="tab" aria-selected={tab === 'compliance'} className={`sp-tab${tab === 'compliance' ? ' sp-tab--active' : ''}`} onClick={() => setTab('compliance')}>Compliance & CRF-26A</button>
+        </div>
+
+        {tab === 'compliance' ? (
+          <div className={styles.contentArea}><ComplianceReport /></div>
+        ) : eo.loading && eo.kpis.length === 0 ? (
           <div className={styles.contentArea}>
             <p className={styles.textMuted}>Loading dashboard…</p>
           </div>

@@ -159,7 +159,7 @@ export async function recordVendorHistory(
  *  so that both API-managed and seeded vendors are covered. */
 export async function getActiveVendorsByRoleIds(
   roleIds: string[],
-): Promise<Array<{ companyName: string; rating: number; boostApplied: boolean }>> {
+): Promise<Array<{ companyName: string; rating: number; boostApplied: boolean; capacity: number; activeAssignments: number; utilizationPct: number }>> {
   if (!roleIds.length) return [];
 
   const activeDoc = await VendorStatusModel
@@ -180,12 +180,32 @@ export async function getActiveVendorsByRoleIds(
   if (statusConditions.length) query['$or'] = statusConditions;
 
   const vendors = await VendorModel.find(query).sort({ rating: -1 }).lean().exec();
+
+  // Open assignments per vendor (distinct claims whose plan is not completed), used to spot over-utilised vendors during a catastrophe.
+  const active = new Map<string, Set<string>>();
+  try {
+    const open = await mongoose.connection.db!.collection('claim_intake_records')
+      .find({ planServiceStatus: { $ne: 'Completed' } }, { projection: { claimNumber: 1, serviceVendorReview: 1 } }).toArray();
+    open.forEach((r) => ((r['serviceVendorReview'] as Array<Record<string, unknown>> | undefined) ?? []).forEach((e) => {
+      const name = String(e['selectedVendor'] ?? '');
+      if (!name || e['status'] === 'Rejected') return;
+      (active.get(name) ?? active.set(name, new Set()).get(name)!).add(String(r['claimNumber']));
+    }));
+  } catch { /* workload is optional */ }
+
   return vendors
-    .map((v) => ({
-      companyName:  String((v as Record<string, unknown>)['companyName'] ?? ''),
-      rating:       Number((v as Record<string, unknown>)['rating'] ?? 0),
-      boostApplied: (v as Record<string, unknown>)['boostApplied'] === true,
-    }))
+    .map((v) => {
+      const rec = v as Record<string, unknown>;
+      const companyName = String(rec['companyName'] ?? '');
+      const capacity = Number(rec['capacity'] ?? 0) || 10;
+      const activeAssignments = active.get(companyName)?.size ?? 0;
+      return {
+        companyName,
+        rating:       Number(rec['rating'] ?? 0),
+        boostApplied: rec['boostApplied'] === true,
+        capacity, activeAssignments, utilizationPct: Math.round((activeAssignments / capacity) * 100),
+      };
+    })
     .filter((v) => v.companyName);
 }
 

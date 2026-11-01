@@ -406,9 +406,22 @@ const vendorMatchPercent = (vendorName: string, role: string): number =>
 // The displayed FitIQ % itself is never altered by boost — it stays each
 // vendor's real computed score, so it keeps agreeing with the Provider
 // Scoreboard/View Performance screens.
+// Claim context for ranking (set each render from the open claim):
+//  • catClaim — claim is tied to a CAT event: vendors already over capacity are
+//    demoted so the next-best available vendor becomes the recommendation.
+//  • paClaim  — a public adjuster / independent investigator is involved:
+//    adjuster-type roles ignore capacity and take the top-rated (senior) adjuster.
+const rankCtx = { catClaim: false, paClaim: false };
+const isAdjusterRole = (role: string) => /adjuster|appraiser|origin/i.test(role);
+const isAtCapacity = (v: VendorOption) => (v.utilizationPct ?? 0) > 100;
+
 function vendorRankCompare(a: VendorOption, b: VendorOption, role: string): number {
   const boostDiff = (b.boostApplied === true ? 1 : 0) - (a.boostApplied === true ? 1 : 0);
   if (boostDiff !== 0) return boostDiff;
+  if (rankCtx.catClaim && !(rankCtx.paClaim && isAdjusterRole(role))) {
+    const capDiff = (isAtCapacity(a) ? 1 : 0) - (isAtCapacity(b) ? 1 : 0);
+    if (capDiff !== 0) return capDiff;
+  }
   return vendorMatchPercent(b.companyName, role) - vendorMatchPercent(a.companyName, role);
 }
 
@@ -440,6 +453,8 @@ const ClaimIntakeDetails: React.FC = () => {
     : localRecords[0] ?? null;
 
   console.log('selectedRecord', selectedRecord);
+  rankCtx.catClaim = !!selectedRecord?.catNumber;
+  rankCtx.paClaim  = !!(selectedRecord?.publicAdjusterFirm || selectedRecord?.independentInvestigatorFirm);
 
   const claimSummaryData = getClaimSummaryData(selectedRecord?.claimNumber ?? '', selectedRecord?.insuredName, selectedRecord?.causeOfLoss, selectedRecord?.damagedAreas);
   const isoClaimSearchData = getIsoClaimSearchData(selectedRecord);
@@ -1559,6 +1574,18 @@ const ClaimIntakeDetails: React.FC = () => {
                       </div>
                     </div>
                     <div className="cid-snapshot__body">
+                      <div style={{display:'flex',flexWrap:'wrap',gap:8,marginBottom:10}}>
+                        {record.catNumber
+                          ? <span style={{background:'#fef3c7',color:'#92400e',borderRadius:6,padding:'3px 8px',fontSize:12,fontWeight:600}}>CAT {record.catNumber} · {record.catEventName} · Incident {record.lossDate||'—'}</span>
+                          : <span style={{background:'#f1f5f9',color:'#475569',borderRadius:6,padding:'3px 8px',fontSize:12}}>Non-CAT claim — CAT number not applicable</span>}
+                      </div>
+                      {(record.publicAdjusterFirm || record.independentInvestigatorFirm) && (
+                        <div role="alert" style={{background:'#fef2f2',border:'1px solid #fecaca',color:'#991b1b',borderRadius:8,padding:'8px 12px',marginBottom:10,fontSize:12.5}}>
+                          {record.publicAdjusterFirm && (<div><strong>🚩 Public adjuster retained:</strong> {record.publicAdjusterFirm}{record.publicAdjusterFeePct ? ` — fee ${record.publicAdjusterFeePct}%` : ''}{record.publicAdjusterFeeCapPct ? ` (cap ${record.publicAdjusterFeeCapPct}%, s.626.854(11))` : ''}{record.publicAdjusterFeeStatus ? ` · ${record.publicAdjusterFeeStatus}` : ''}. Claim amount likely to be high.</div>)}
+                          {record.independentInvestigatorFirm && (<div><strong>🚩 Independent investigator:</strong> {record.independentInvestigatorFirm}</div>)}
+                          <div>Assign a senior top-rated independent adjuster, field appraiser, contractor and cause &amp; origin specialist.{record.secondLevelReviewRequired ? ` Claims manager second-level review: ${record.secondLevelReviewStatus || 'Pending'}.` : ''}</div>
+                        </div>
+                      )}
                       <div className="cid-snapshot__fields">
                         {[{label:'Claim Number',value:record.claimNumber},{label:'Insured Name',value:record.insuredName},{label:'Policy Number',value:record.policyNumber},{label:'Loss Date',value:record.lossDate},{label:'Reported Date',value:record.reportedDate},{label:'Claim Amount',value:record.claimAmount},{label:'Claim Status',value:record.claimStatus}].map(({label,value})=>(
                           <div key={label}><div className="cid-snapshot__field-label">{label}</div><div className="cid-snapshot__field-value">{value||'—'}</div></div>
@@ -1936,6 +1963,11 @@ const ClaimIntakeDetails: React.FC = () => {
                                                                 </svg>
                                                               ) : <span style={{ width: 13, display: 'inline-block', flexShrink: 0 }} />}
                                                               <span className="cid-vdrop__item-name">{v.companyName}</span>
+                                                              {v.utilizationPct != null && v.utilizationPct >= 80 && (
+                                                                <span style={{ marginLeft: 6, fontSize: 10, fontWeight: 600, color: v.utilizationPct > 100 ? '#b91c1c' : '#b45309' }}>
+                                                                  {v.utilizationPct > 100 ? 'At capacity' : 'Near capacity'} ({v.activeAssignments}/{v.capacity})
+                                                                </span>
+                                                              )}
                                                             </div>
                                                             <div className="cid-vdrop__item-right">
                                                               {!hideVendorRating && (
