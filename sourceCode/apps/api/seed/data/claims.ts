@@ -221,7 +221,10 @@ const MOVES: Record<string, [string, string, string]> = {
   'Dwelling:3': ['Mobile', 'Mobile', 'AL'], 'Dwelling:7': ['Corpus Christi', 'Nueces', 'TX'], 'Dwelling:10': ['Charleston', 'Charleston', 'SC'], 'Dwelling:13': ['Birmingham', 'Jefferson', 'AL'],
   'Flood:3': ['New Orleans', 'Orleans', 'LA'], 'Flood:5': ['Savannah', 'Chatham', 'GA'], 'Flood:10': ['Mobile', 'Mobile', 'AL'], 'Flood:11': ['Charleston', 'Charleston', 'SC'], 'Flood:13': ['Galveston', 'Galveston', 'TX'], 'Flood:15': ['Wilmington', 'New Hanover', 'NC'],
 };
+// Injury claims (guest or tenant hurt on the property) feed the Medical Management / Rehab service.
+const INJURY = new Set(['Homeowners:1', 'Homeowners:6', 'Homeowners:11', 'Renters:2', 'Renters:9', 'Landlord:2', 'Landlord:7']);
 export const CLAIMS: ClaimSpec[] = BASE_CLAIMS.map((c) => {
   const m = MOVES[`${c.lob}:${c.n}`];
-  return m ? { ...c, city: m[0], county: m[1], st: m[2] } : c;
+  const base = m ? { ...c, city: m[0], county: m[1], st: m[2] } : c;
+  return INJURY.has(`${c.lob}:${c.n}`) ? { ...base, flags: [...(base.flags ?? []), 'bodily_injury_flag'] } : base;
 });

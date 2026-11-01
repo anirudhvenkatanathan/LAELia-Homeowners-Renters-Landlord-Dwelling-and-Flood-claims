@@ -140,6 +140,34 @@
     "isMandatory": true
   },
   {
+    "_id": "83f1efb3eb01e6f10c9468e0",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "83f1efb3eb01e6f10c9468e0",
+    "vendorConfirmationName": "Nurse case manager and clinical licence documentation",
+    "isMandatory": true
+  },
+  {
+    "_id": "baa9e8d8207eba952cfe11a5",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "baa9e8d8207eba952cfe11a5",
+    "vendorConfirmationName": "Medical bill review and fee-schedule methodology",
+    "isMandatory": true
+  },
+  {
+    "_id": "fafb8764ffbe727dc50ef9dd",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "fafb8764ffbe727dc50ef9dd",
+    "vendorConfirmationName": "Provider network coverage by state",
+    "isMandatory": true
+  },
+  {
+    "_id": "0b4c8294a7415221bb8e32a6",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "0b4c8294a7415221bb8e32a6",
+    "vendorConfirmationName": "Return-to-activity and rehab outcome reporting",
+    "isMandatory": true
+  },
+  {
     "_id": "1ac93b1ce8c805c08482e63b",
     "vendorStageId": "6841a101f1a23c0012342455",
     "vendorConfirmationId": "1ac93b1ce8c805c08482e63b",

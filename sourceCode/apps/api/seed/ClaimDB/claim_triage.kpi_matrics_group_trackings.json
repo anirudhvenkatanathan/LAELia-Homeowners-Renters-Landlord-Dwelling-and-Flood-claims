@@ -1765,5 +1765,62 @@
     "updatedAt": {
       "$date": "2026-09-20T12:00:00.000Z"
     }
+  },
+  {
+    "_id": {
+      "$oid": "1c822ebd0a2bcc47178a40af"
+    },
+    "kpiMatricsGroupTrackingId": "4e7fcf7d-c3f0-4bb4-a634-0e48afc1a31c",
+    "kpiMatricsId": "KPI032",
+    "kpiGroupTracking": "Turnaround Time",
+    "kpiGroupTrackingSuggestion": "SLA Compliance %",
+    "isVendorKPI": true,
+    "isActive": true,
+    "createdBy": "Admin",
+    "createdAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "updatedBy": "Admin",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "95f068a6f5ae4f64900f67c3"
+    },
+    "kpiMatricsGroupTrackingId": "425ba1e2-e645-4ad1-a0c2-5f6ec7bfdcf1",
+    "kpiMatricsId": "KPI032",
+    "kpiGroupTracking": "Report Quality",
+    "kpiGroupTrackingSuggestion": "First Pass Acceptance Rate",
+    "isVendorKPI": true,
+    "isActive": true,
+    "createdBy": "Admin",
+    "createdAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "updatedBy": "Admin",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3cb7f8803940d20becedfbef"
+    },
+    "kpiMatricsGroupTrackingId": "70ace25e-90d2-4a6c-a3cf-b68e550f5087",
+    "kpiMatricsId": "KPI032",
+    "kpiGroupTracking": "Cost Efficiency",
+    "kpiGroupTrackingSuggestion": "Estimate Variance %",
+    "isVendorKPI": true,
+    "isActive": true,
+    "createdBy": "Admin",
+    "createdAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    },
+    "updatedBy": "Admin",
+    "updatedAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    }
   }
 ]

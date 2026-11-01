@@ -85,7 +85,7 @@ const vid = (p: ProviderDef) => hex24('vendor:' + p.company);
 const vendorDetails = PROVIDERS.map((p, i) => {
   const roleIds = p.rules.map((n) => { const id = ROLE_BY_NAME.get(n); if (!id) throw new Error(`Provider ${p.company}: unknown rule "${n}"`); return id; });
   const row: Record<string, unknown> = {
-    _id: hex24('vd:' + p.company), vendorId: vid(p), companyName: p.company, emailId: `claims@${slug(p.company)}.example`, rating: p.rating,
+    _id: hex24('vd:' + p.company), vendorId: vid(p), companyName: p.company, emailId: p.email ?? `claims@${slug(p.company)}.example`, rating: p.rating,
     address: p.street ?? `${100 + i * 7} ${STREETS[i % STREETS.length]}`, city: p.city, state: p.state ?? 'Florida', country: 'USA', Status: STATUS_ID[p.status],
     RequalificationStartDate: ago(p.status === 'requalDue' ? 372 : 120).toISOString(), RequalificationEndDate: ago(p.status === 'requalDue' ? 7 : -245).toISOString(),
     Coverage: p.coverage, phoneNumber: p.phone ?? ph(i), turnaroundTime: p.turnaround, serviceRequestRoleId: roleIds, serviceRequestRoleName: p.rules.join(', '),
@@ -95,6 +95,7 @@ const vendorDetails = PROVIDERS.map((p, i) => {
   if (p.status === 'Suspended') { row['suspendedReason'] = 'Open licence renewal'; row['manualStatusOverride'] = true; }
   if (p.status === 'Disqualified') row['disqualifiedReason'] = 'Insurance lapsed';
   if (p.boosted) row['boostApplied'] = true;
+  if (['Active', 'ReadyForActivation'].includes(p.status)) row['vendorSource'] = 'panel';   // shows in Curated Provider Network
   return row;
 });
 put('vendor_details', vendorDetails);
@@ -108,7 +109,7 @@ put('vendor_status_history', PROVIDERS.filter((p) => ['Suspended', 'Disqualified
 })));
 const pending = PROVIDERS.filter((p) => ['PendingApproval', 'InProgress'].includes(p.status));
 put('vendor_service_requests', pending.map((p, i) => ({
-  _id: oid('vsr' + p.company), requestId: uuid('vsr' + p.company), companyName: p.company, address: `${p.city}, FL`, email: `claims@${slug(p.company)}.example`, phone: ph(i),
+  _id: oid('vsr' + p.company), requestId: uuid('vsr' + p.company), companyName: p.company, address: p.street ?? `${p.city}, FL`, email: p.email ?? `claims@${slug(p.company)}.example`, phone: p.phone ?? ph(i),
   services: p.rules.map((n) => ROLE_BY_NAME.get(n)), coverage: ['FL'], status: 'submitted', vendorDetailId: hex24('vd:' + p.company),
   submittedBy: 'Admin', submittedAt: dt(ago(14 + i)), reviewedBy: '', reviewedAt: null, notes: '', createdAt: dt(ago(14 + i)), updatedAt: dt(ago(14 + i)), __v: 0,
 })));

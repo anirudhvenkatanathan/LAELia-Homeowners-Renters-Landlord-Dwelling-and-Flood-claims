@@ -29,6 +29,7 @@
     "roofDamageFlag": "present",
     "displacedFlag": "present",
     "contractorReferralRequiredFlag": "present",
+    "bodilyInjuryFlag": "present",
     "roofAgeYears": 24,
     "contractorEstimateAmount": 64000,
     "lossInformation": {
@@ -70,6 +71,7 @@
       "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "953716fb-084f-41be-a85d-c7f32b82c23e",
+      "f3a4f46c-cce9-44d2-a479-d9a4f6ccdb5a",
       "f1eac9f3-ae9a-4584-a776-35f7428c0ff7"
     ],
     "existingplanservices": [
@@ -78,12 +80,14 @@
       "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "953716fb-084f-41be-a85d-c7f32b82c23e",
+      "f3a4f46c-cce9-44d2-a479-d9a4f6ccdb5a",
       "f1eac9f3-ae9a-4584-a776-35f7428c0ff7"
     ],
     "confirmedPlanServices": [
       "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "953716fb-084f-41be-a85d-c7f32b82c23e",
+      "f3a4f46c-cce9-44d2-a479-d9a4f6ccdb5a",
       "f1eac9f3-ae9a-4584-a776-35f7428c0ff7"
     ],
     "planServiceStatus": "Pending Review",
@@ -95,9 +99,9 @@
       {
         "roleName": "24/7 Loss Mitigation Contractors",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Gulfshore Restoration Group",
-        "proposedVendor": "Gulfshore Restoration Group",
-        "selectedVendor": "Sunstate Water Mitigation",
+        "recommendedVendor": "Paul Davis Restoration",
+        "proposedVendor": "Paul Davis Restoration",
+        "selectedVendor": "Kruger Property Solutions",
         "status": "Pending Review",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-10-02T12:00:00.000Z",
@@ -109,9 +113,9 @@
       {
         "roleName": "CAT Response",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Gulfshore Restoration Group",
-        "proposedVendor": "Gulfshore Restoration Group",
-        "selectedVendor": "Gulfshore Restoration Group",
+        "recommendedVendor": "Janney Roofing",
+        "proposedVendor": "Janney Roofing",
+        "selectedVendor": "Janney Roofing",
         "status": "Pending Review",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-10-02T12:00:00.000Z",
@@ -159,11 +163,24 @@
         }
       },
       {
+        "roleName": "Medical Management / Rehab",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "CorVel Corporation",
+        "proposedVendor": "CorVel Corporation",
+        "selectedVendor": "CorVel Corporation",
+        "status": "Locked",
+        "confirmedBy": "Derek Chan",
+        "confirmedAt": "2026-10-02T12:00:00.000Z",
+        "_id": {
+          "$oid": "822bb12e7c6f9e2ca529f929"
+        }
+      },
+      {
         "roleName": "Temporary Housing / ALE",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Safe Harbor Temporary Housing",
-        "proposedVendor": "Safe Harbor Temporary Housing",
-        "selectedVendor": "Safe Harbor Temporary Housing",
+        "recommendedVendor": "ALE Solutions",
+        "proposedVendor": "ALE Solutions",
+        "selectedVendor": "ALE Solutions",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-10-02T12:00:00.000Z",
@@ -173,14 +190,15 @@
       }
     ],
     "vendorServices": [
-      "Sunstate Water Mitigation",
-      "Gulfshore Restoration Group",
+      "Kruger Property Solutions",
+      "Janney Roofing",
       "M6 Building Solutions",
       "M6 Building Solutions",
       "M6 Building Solutions",
-      "Safe Harbor Temporary Housing"
+      "CorVel Corporation",
+      "ALE Solutions"
     ],
-    "servicesTriggered": 6,
+    "servicesTriggered": 7,
     "__v": 0,
     "adjusterSubmittedBy": "Derek Chan",
     "adjusterSubmittedAt": "2026-10-02T12:00:00.000Z",
@@ -368,9 +386,9 @@
       {
         "roleName": "Cause & Origin Specialists",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Everglades Cause & Origin",
-        "proposedVendor": "Everglades Cause & Origin",
-        "selectedVendor": "Tri-County Fire Analysis",
+        "recommendedVendor": "Proclaim Engineering, Inc",
+        "proposedVendor": "Proclaim Engineering, Inc",
+        "selectedVendor": "DDA Forensics",
         "status": "Pending Review",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-13T12:00:00.000Z",
@@ -382,9 +400,9 @@
       {
         "roleName": "Forensic Engineers",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Harbor Forensic Engineering",
-        "proposedVendor": "Harbor Forensic Engineering",
-        "selectedVendor": "Harbor Forensic Engineering",
+        "recommendedVendor": "Proclaim Engineering, Inc",
+        "proposedVendor": "Proclaim Engineering, Inc",
+        "selectedVendor": "Proclaim Engineering, Inc",
         "status": "Pending Review",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-13T12:00:00.000Z",
@@ -395,9 +413,9 @@
       {
         "roleName": "Legal",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Recovery Group",
-        "proposedVendor": "Palmetto Recovery Group",
-        "selectedVendor": "Palmetto Recovery Group",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-13T12:00:00.000Z",
@@ -408,9 +426,9 @@
       {
         "roleName": "Scene Investigation & Official Reports",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Tri-County Fire Analysis",
-        "proposedVendor": "Tri-County Fire Analysis",
-        "selectedVendor": "Tri-County Fire Analysis",
+        "recommendedVendor": "K&R Investigative Group",
+        "proposedVendor": "K&R Investigative Group",
+        "selectedVendor": "K&R Investigative Group",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-13T12:00:00.000Z",
@@ -434,9 +452,9 @@
       {
         "roleName": "Contents Inventory & Valuation",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Keystone Contents Services",
-        "proposedVendor": "Keystone Contents Services",
-        "selectedVendor": "Keystone Contents Services",
+        "recommendedVendor": "Total Inventory, LLC",
+        "proposedVendor": "Total Inventory, LLC",
+        "selectedVendor": "Total Inventory, LLC",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-13T12:00:00.000Z",
@@ -447,9 +465,9 @@
       {
         "roleName": "Pack-out & Contents Cleaning",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Gulfshore Restoration Group",
-        "proposedVendor": "Gulfshore Restoration Group",
-        "selectedVendor": "Gulfshore Restoration Group",
+        "recommendedVendor": "Paul Davis Restoration",
+        "proposedVendor": "Paul Davis Restoration",
+        "selectedVendor": "Paul Davis Restoration",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-13T12:00:00.000Z",
@@ -460,9 +478,9 @@
       {
         "roleName": "Temporary Housing / ALE",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Safe Harbor Temporary Housing",
-        "proposedVendor": "Safe Harbor Temporary Housing",
-        "selectedVendor": "Safe Harbor Temporary Housing",
+        "recommendedVendor": "ALE Solutions",
+        "proposedVendor": "ALE Solutions",
+        "selectedVendor": "ALE Solutions",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-13T12:00:00.000Z",
@@ -474,8 +492,8 @@
         "roleName": "Legal",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Palmetto Recovery Group",
-        "selectedVendor": "Palmetto Recovery Group",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Pending Review",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-13T12:00:00.000Z",
@@ -486,15 +504,15 @@
       }
     ],
     "vendorServices": [
-      "Tri-County Fire Analysis",
-      "Harbor Forensic Engineering",
-      "Palmetto Recovery Group",
-      "Tri-County Fire Analysis",
+      "DDA Forensics",
+      "Proclaim Engineering, Inc",
+      "GrayRobinson",
+      "K&R Investigative Group",
       "M6 Building Solutions",
-      "Keystone Contents Services",
-      "Gulfshore Restoration Group",
-      "Safe Harbor Temporary Housing",
-      "Palmetto Recovery Group"
+      "Total Inventory, LLC",
+      "Paul Davis Restoration",
+      "ALE Solutions",
+      "GrayRobinson"
     ],
     "servicesTriggered": 8,
     "__v": 0,
@@ -693,6 +711,7 @@
     "coverageQuestionFlag": "present",
     "excludedPerilFlag": "present",
     "lateNoticeFlag": "present",
+    "bodilyInjuryFlag": "present",
     "lossInformation": {
       "causeOfLoss": "Mold growth after slow leak",
       "damagedAreas": [
@@ -726,14 +745,16 @@
     "recordIndex": 6,
     "planServices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
-      "3455af34-b088-440b-a1f7-99dea13403cf"
+      "3455af34-b088-440b-a1f7-99dea13403cf",
+      "f3a4f46c-cce9-44d2-a479-d9a4f6ccdb5a"
     ],
     "existingplanservices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
-      "3455af34-b088-440b-a1f7-99dea13403cf"
+      "3455af34-b088-440b-a1f7-99dea13403cf",
+      "f3a4f46c-cce9-44d2-a479-d9a4f6ccdb5a"
     ],
     "confirmedPlanServices": [
-      "3455af34-b088-440b-a1f7-99dea13403cf"
+      "f3a4f46c-cce9-44d2-a479-d9a4f6ccdb5a"
     ],
     "planServiceStatus": "Pending Review",
     "planServiceComments": "Plan services confirmed",
@@ -744,9 +765,9 @@
       {
         "roleName": "24/7 Loss Mitigation Contractors",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Gulfshore Restoration Group",
-        "proposedVendor": "Gulfshore Restoration Group",
-        "selectedVendor": "Sunstate Water Mitigation",
+        "recommendedVendor": "Paul Davis Restoration",
+        "proposedVendor": "Paul Davis Restoration",
+        "selectedVendor": "Kruger Property Solutions",
         "status": "Pending Review",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-11T12:00:00.000Z",
@@ -758,10 +779,10 @@
       {
         "roleName": "Coverage Verification & ROR",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Magnolia Coverage Counsel",
-        "proposedVendor": "Magnolia Coverage Counsel",
-        "selectedVendor": "Magnolia Coverage Counsel",
-        "status": "Locked",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
+        "status": "Pending Review",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-11T12:00:00.000Z",
         "_id": {
@@ -769,11 +790,24 @@
         }
       },
       {
+        "roleName": "Medical Management / Rehab",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "CorVel Corporation",
+        "proposedVendor": "CorVel Corporation",
+        "selectedVendor": "CorVel Corporation",
+        "status": "Locked",
+        "confirmedBy": "Priya Nair",
+        "confirmedAt": "2026-10-11T12:00:00.000Z",
+        "_id": {
+          "$oid": "e7bae3cbe6a5fc1c7bbe4322"
+        }
+      },
+      {
         "roleName": "Legal",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Palmetto Recovery Group",
-        "selectedVendor": "Palmetto Recovery Group",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Pending Review",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-11T12:00:00.000Z",
@@ -784,11 +818,12 @@
       }
     ],
     "vendorServices": [
-      "Sunstate Water Mitigation",
-      "Magnolia Coverage Counsel",
-      "Palmetto Recovery Group"
+      "Kruger Property Solutions",
+      "GrayRobinson",
+      "CorVel Corporation",
+      "GrayRobinson"
     ],
-    "servicesTriggered": 2,
+    "servicesTriggered": 3,
     "__v": 0,
     "adjusterSubmittedBy": "Priya Nair",
     "adjusterSubmittedAt": "2026-10-11T12:00:00.000Z",
@@ -885,9 +920,9 @@
       {
         "roleName": "24/7 Loss Mitigation Contractors",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Gulfshore Restoration Group",
-        "proposedVendor": "Gulfshore Restoration Group",
-        "selectedVendor": "Sunstate Water Mitigation",
+        "recommendedVendor": "Paul Davis Restoration",
+        "proposedVendor": "Paul Davis Restoration",
+        "selectedVendor": "Kruger Property Solutions",
         "status": "Modified",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-07T12:00:00.000Z",
@@ -915,9 +950,9 @@
       {
         "roleName": "Public Adjuster / Appraisal",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Sawgrass Insurance Law Group",
-        "proposedVendor": "Sawgrass Insurance Law Group",
-        "selectedVendor": "Sawgrass Insurance Law Group",
+        "recommendedVendor": "Gold Star Adjusters",
+        "proposedVendor": "Gold Star Adjusters",
+        "selectedVendor": "Gold Star Adjusters",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-07T12:00:00.000Z",
@@ -942,8 +977,8 @@
         "roleName": "Forensic Accountant",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Lakeshore Forensic Accounting",
-        "selectedVendor": "Lakeshore Forensic Accounting",
+        "proposedVendor": "MDD Forensic Accountants",
+        "selectedVendor": "MDD Forensic Accountants",
         "status": "Included",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-07T12:00:00.000Z",
@@ -957,11 +992,11 @@
       }
     ],
     "vendorServices": [
-      "Sunstate Water Mitigation",
+      "Kruger Property Solutions",
       "M6 Building Solutions",
-      "Sawgrass Insurance Law Group",
+      "Gold Star Adjusters",
       "M6 Building Solutions",
-      "Lakeshore Forensic Accounting"
+      "MDD Forensic Accountants"
     ],
     "servicesTriggered": 4,
     "__v": 0,
@@ -1066,9 +1101,9 @@
       {
         "roleName": "Cause & Origin Specialists",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Everglades Cause & Origin",
-        "proposedVendor": "Everglades Cause & Origin",
-        "selectedVendor": "Tri-County Fire Analysis",
+        "recommendedVendor": "Proclaim Engineering, Inc",
+        "proposedVendor": "Proclaim Engineering, Inc",
+        "selectedVendor": "DDA Forensics",
         "status": "Modified",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-09T12:00:00.000Z",
@@ -1083,9 +1118,9 @@
       {
         "roleName": "Forensic Engineers",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Harbor Forensic Engineering",
-        "proposedVendor": "Harbor Forensic Engineering",
-        "selectedVendor": "Harbor Forensic Engineering",
+        "recommendedVendor": "Proclaim Engineering, Inc",
+        "proposedVendor": "Proclaim Engineering, Inc",
+        "selectedVendor": "Proclaim Engineering, Inc",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-09T12:00:00.000Z",
@@ -1096,9 +1131,9 @@
       {
         "roleName": "Legal",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Recovery Group",
-        "proposedVendor": "Palmetto Recovery Group",
-        "selectedVendor": "Palmetto Recovery Group",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-09T12:00:00.000Z",
@@ -1109,9 +1144,9 @@
       {
         "roleName": "Independent Adjusters",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Bayfront Independent Adjusters",
-        "proposedVendor": "Bayfront Independent Adjusters",
-        "selectedVendor": "Bayfront Independent Adjusters",
+        "recommendedVendor": "Colonial Claims",
+        "proposedVendor": "Colonial Claims",
+        "selectedVendor": "Colonial Claims",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-09T12:00:00.000Z",
@@ -1122,9 +1157,9 @@
       {
         "roleName": "Subrogation",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Recovery Group",
-        "proposedVendor": "Palmetto Recovery Group",
-        "selectedVendor": "Palmetto Recovery Group",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-09T12:00:00.000Z",
@@ -1135,9 +1170,9 @@
       {
         "roleName": "Desk investigations",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Meridian Desk Investigations",
-        "proposedVendor": "Meridian Desk Investigations",
-        "selectedVendor": "Meridian Desk Investigations",
+        "recommendedVendor": "K&R Investigative Group",
+        "proposedVendor": "K&R Investigative Group",
+        "selectedVendor": "K&R Investigative Group",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-09T12:00:00.000Z",
@@ -1149,8 +1184,8 @@
         "roleName": "Forensic Accountant",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Lakeshore Forensic Accounting",
-        "selectedVendor": "Lakeshore Forensic Accounting",
+        "proposedVendor": "MDD Forensic Accountants",
+        "selectedVendor": "MDD Forensic Accountants",
         "status": "Rejected",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-09T12:00:00.000Z",
@@ -1164,12 +1199,12 @@
       }
     ],
     "vendorServices": [
-      "Tri-County Fire Analysis",
-      "Harbor Forensic Engineering",
-      "Palmetto Recovery Group",
-      "Bayfront Independent Adjusters",
-      "Palmetto Recovery Group",
-      "Meridian Desk Investigations"
+      "DDA Forensics",
+      "Proclaim Engineering, Inc",
+      "GrayRobinson",
+      "Colonial Claims",
+      "GrayRobinson",
+      "K&R Investigative Group"
     ],
     "servicesTriggered": 6,
     "__v": 0,
@@ -1349,9 +1384,9 @@
       {
         "roleName": "24/7 Loss Mitigation Contractors",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Gulfshore Restoration Group",
-        "proposedVendor": "Gulfshore Restoration Group",
-        "selectedVendor": "Sunstate Water Mitigation",
+        "recommendedVendor": "Paul Davis Restoration",
+        "proposedVendor": "Paul Davis Restoration",
+        "selectedVendor": "Kruger Property Solutions",
         "status": "Pending Review",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-10T12:00:00.000Z",
@@ -1363,9 +1398,9 @@
       {
         "roleName": "Appraisers/Independent Adjusters",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Coastal Claim Estimators",
-        "proposedVendor": "Coastal Claim Estimators",
-        "selectedVendor": "Coastal Claim Estimators",
+        "recommendedVendor": "Colonial Claims",
+        "proposedVendor": "Colonial Claims",
+        "selectedVendor": "Colonial Claims",
         "status": "Pending Review",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-10T12:00:00.000Z",
@@ -1402,9 +1437,9 @@
       {
         "roleName": "Temporary Housing / ALE",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Safe Harbor Temporary Housing",
-        "proposedVendor": "Safe Harbor Temporary Housing",
-        "selectedVendor": "Safe Harbor Temporary Housing",
+        "recommendedVendor": "ALE Solutions",
+        "proposedVendor": "ALE Solutions",
+        "selectedVendor": "ALE Solutions",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-10T12:00:00.000Z",
@@ -1414,11 +1449,11 @@
       }
     ],
     "vendorServices": [
-      "Sunstate Water Mitigation",
-      "Coastal Claim Estimators",
+      "Kruger Property Solutions",
+      "Colonial Claims",
       "M6 Building Solutions",
       "M6 Building Solutions",
-      "Safe Harbor Temporary Housing"
+      "ALE Solutions"
     ],
     "servicesTriggered": 5,
     "__v": 0,
@@ -1452,6 +1487,7 @@
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
     "structuralDryingRequiredFlag": "present",
+    "bodilyInjuryFlag": "present",
     "insuranceToValuePct": 68,
     "contractorEstimateAmount": 17500,
     "lossInformation": {
@@ -1489,12 +1525,14 @@
     "planServices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
-      "0e056f9a-3549-4d0b-a11c-6e2b5ebdf4a5"
+      "0e056f9a-3549-4d0b-a11c-6e2b5ebdf4a5",
+      "f3a4f46c-cce9-44d2-a479-d9a4f6ccdb5a"
     ],
     "existingplanservices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
-      "0e056f9a-3549-4d0b-a11c-6e2b5ebdf4a5"
+      "0e056f9a-3549-4d0b-a11c-6e2b5ebdf4a5",
+      "f3a4f46c-cce9-44d2-a479-d9a4f6ccdb5a"
     ],
     "confirmedPlanServices": [],
     "planServiceStatus": "Pending Selection",
@@ -1504,7 +1542,7 @@
     "completedBy": "",
     "serviceVendorReview": [],
     "vendorServices": [],
-    "servicesTriggered": 3,
+    "servicesTriggered": 4,
     "__v": 0
   },
   {
@@ -1587,9 +1625,9 @@
       {
         "roleName": "Decision letters",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Clarity Claim Letters",
-        "proposedVendor": "Clarity Claim Letters",
-        "selectedVendor": "Clarity Claim Letters",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-01T12:00:00.000Z",
@@ -1599,7 +1637,7 @@
       }
     ],
     "vendorServices": [
-      "Clarity Claim Letters"
+      "GrayRobinson"
     ],
     "servicesTriggered": 2,
     "__v": 0,
@@ -1846,9 +1884,9 @@
       {
         "roleName": "Decision letters",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Clarity Claim Letters",
-        "proposedVendor": "Clarity Claim Letters",
-        "selectedVendor": "Clarity Claim Letters",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-08-15T12:00:00.000Z",
@@ -1858,7 +1896,7 @@
       }
     ],
     "vendorServices": [
-      "Clarity Claim Letters"
+      "GrayRobinson"
     ],
     "servicesTriggered": 3,
     "__v": 0,
@@ -1974,6 +2012,7 @@
     "contentsCleaningRequiredFlag": "present",
     "sceneInvestigationRequiredFlag": "present",
     "uninhabitableFlag": "present",
+    "bodilyInjuryFlag": "present",
     "contentsLossAmount": 15400,
     "lossInformation": {
       "causeOfLoss": "Kitchen fire",
@@ -2008,17 +2047,20 @@
     "recordIndex": 2,
     "planServices": [
       "34ff1d01-fb6c-44d6-a77b-062615d797a4",
+      "f3a4f46c-cce9-44d2-a479-d9a4f6ccdb5a",
       "d25a0874-807e-43b7-af32-863e746db8b2",
       "4791beff-4706-4585-afb4-ebb0f7e2bfe0",
       "f1eac9f3-ae9a-4584-a776-35f7428c0ff7"
     ],
     "existingplanservices": [
       "34ff1d01-fb6c-44d6-a77b-062615d797a4",
+      "f3a4f46c-cce9-44d2-a479-d9a4f6ccdb5a",
       "d25a0874-807e-43b7-af32-863e746db8b2",
       "4791beff-4706-4585-afb4-ebb0f7e2bfe0",
       "f1eac9f3-ae9a-4584-a776-35f7428c0ff7"
     ],
     "confirmedPlanServices": [
+      "d25a0874-807e-43b7-af32-863e746db8b2",
       "4791beff-4706-4585-afb4-ebb0f7e2bfe0",
       "f1eac9f3-ae9a-4584-a776-35f7428c0ff7"
     ],
@@ -2031,9 +2073,9 @@
       {
         "roleName": "Scene Investigation & Official Reports",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Tri-County Fire Analysis",
-        "proposedVendor": "Tri-County Fire Analysis",
-        "selectedVendor": "Northpoint Special Investigations",
+        "recommendedVendor": "K&R Investigative Group",
+        "proposedVendor": "K&R Investigative Group",
+        "selectedVendor": "K&R Investigative Group",
         "status": "Pending Review",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-15T12:00:00.000Z",
@@ -2043,12 +2085,25 @@
         "adjusterComment": "Closer to the loss location and faster on site"
       },
       {
+        "roleName": "Medical Management / Rehab",
+        "changeType": "ProviderChange",
+        "recommendedVendor": "CorVel Corporation",
+        "proposedVendor": "CorVel Corporation",
+        "selectedVendor": "CorVel Corporation",
+        "status": "Pending Review",
+        "confirmedBy": "Sarah Mitchell",
+        "confirmedAt": "2026-10-15T12:00:00.000Z",
+        "_id": {
+          "$oid": "920745222db1336e675055fe"
+        }
+      },
+      {
         "roleName": "Contents Inventory & Valuation",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Keystone Contents Services",
-        "proposedVendor": "Keystone Contents Services",
-        "selectedVendor": "Keystone Contents Services",
-        "status": "Pending Review",
+        "recommendedVendor": "Total Inventory, LLC",
+        "proposedVendor": "Total Inventory, LLC",
+        "selectedVendor": "Total Inventory, LLC",
+        "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-15T12:00:00.000Z",
         "_id": {
@@ -2058,9 +2113,9 @@
       {
         "roleName": "Pack-out & Contents Cleaning",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Gulfshore Restoration Group",
-        "proposedVendor": "Gulfshore Restoration Group",
-        "selectedVendor": "Gulfshore Restoration Group",
+        "recommendedVendor": "Paul Davis Restoration",
+        "proposedVendor": "Paul Davis Restoration",
+        "selectedVendor": "Paul Davis Restoration",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-15T12:00:00.000Z",
@@ -2071,9 +2126,9 @@
       {
         "roleName": "Temporary Housing / ALE",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Safe Harbor Temporary Housing",
-        "proposedVendor": "Safe Harbor Temporary Housing",
-        "selectedVendor": "Safe Harbor Temporary Housing",
+        "recommendedVendor": "ALE Solutions",
+        "proposedVendor": "ALE Solutions",
+        "selectedVendor": "ALE Solutions",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-15T12:00:00.000Z",
@@ -2083,12 +2138,13 @@
       }
     ],
     "vendorServices": [
-      "Northpoint Special Investigations",
-      "Keystone Contents Services",
-      "Gulfshore Restoration Group",
-      "Safe Harbor Temporary Housing"
+      "K&R Investigative Group",
+      "CorVel Corporation",
+      "Total Inventory, LLC",
+      "Paul Davis Restoration",
+      "ALE Solutions"
     ],
-    "servicesTriggered": 4,
+    "servicesTriggered": 5,
     "__v": 0,
     "adjusterSubmittedBy": "Sarah Mitchell",
     "adjusterSubmittedAt": "2026-10-15T12:00:00.000Z",
@@ -2256,9 +2312,9 @@
       {
         "roleName": "CAT Response",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Gulfshore Restoration Group",
-        "proposedVendor": "Gulfshore Restoration Group",
-        "selectedVendor": "Stormline CAT Services",
+        "recommendedVendor": "Janney Roofing",
+        "proposedVendor": "Janney Roofing",
+        "selectedVendor": "Bigfoot Roofing & Construction",
         "status": "Modified",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-10-03T12:00:00.000Z",
@@ -2273,9 +2329,9 @@
       {
         "roleName": "Contents Inventory & Valuation",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Keystone Contents Services",
-        "proposedVendor": "Keystone Contents Services",
-        "selectedVendor": "Keystone Contents Services",
+        "recommendedVendor": "Total Inventory, LLC",
+        "proposedVendor": "Total Inventory, LLC",
+        "selectedVendor": "Total Inventory, LLC",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-10-03T12:00:00.000Z",
@@ -2286,9 +2342,9 @@
       {
         "roleName": "Temporary Housing / ALE",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Safe Harbor Temporary Housing",
-        "proposedVendor": "Safe Harbor Temporary Housing",
-        "selectedVendor": "Safe Harbor Temporary Housing",
+        "recommendedVendor": "ALE Solutions",
+        "proposedVendor": "ALE Solutions",
+        "selectedVendor": "ALE Solutions",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-10-03T12:00:00.000Z",
@@ -2300,8 +2356,8 @@
         "roleName": "Forensic Accountant",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Lakeshore Forensic Accounting",
-        "selectedVendor": "Lakeshore Forensic Accounting",
+        "proposedVendor": "MDD Forensic Accountants",
+        "selectedVendor": "MDD Forensic Accountants",
         "status": "Rejected",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-10-03T12:00:00.000Z",
@@ -2315,9 +2371,9 @@
       }
     ],
     "vendorServices": [
-      "Stormline CAT Services",
-      "Keystone Contents Services",
-      "Safe Harbor Temporary Housing"
+      "Bigfoot Roofing & Construction",
+      "Total Inventory, LLC",
+      "ALE Solutions"
     ],
     "servicesTriggered": 3,
     "__v": 0,
@@ -2416,9 +2472,9 @@
       {
         "roleName": "Cause & Origin Specialists",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Everglades Cause & Origin",
-        "proposedVendor": "Everglades Cause & Origin",
-        "selectedVendor": "Tri-County Fire Analysis",
+        "recommendedVendor": "Proclaim Engineering, Inc",
+        "proposedVendor": "Proclaim Engineering, Inc",
+        "selectedVendor": "DDA Forensics",
         "status": "Pending Review",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-09-19T12:00:00.000Z",
@@ -2430,9 +2486,9 @@
       {
         "roleName": "Legal",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Recovery Group",
-        "proposedVendor": "Palmetto Recovery Group",
-        "selectedVendor": "Palmetto Recovery Group",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Pending Review",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-09-19T12:00:00.000Z",
@@ -2443,9 +2499,9 @@
       {
         "roleName": "Independent Adjusters",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Bayfront Independent Adjusters",
-        "proposedVendor": "Bayfront Independent Adjusters",
-        "selectedVendor": "Bayfront Independent Adjusters",
+        "recommendedVendor": "Colonial Claims",
+        "proposedVendor": "Colonial Claims",
+        "selectedVendor": "Colonial Claims",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-09-19T12:00:00.000Z",
@@ -2456,9 +2512,9 @@
       {
         "roleName": "Desk investigations",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Meridian Desk Investigations",
-        "proposedVendor": "Meridian Desk Investigations",
-        "selectedVendor": "Meridian Desk Investigations",
+        "recommendedVendor": "K&R Investigative Group",
+        "proposedVendor": "K&R Investigative Group",
+        "selectedVendor": "K&R Investigative Group",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-09-19T12:00:00.000Z",
@@ -2469,9 +2525,9 @@
       {
         "roleName": "Contents Inventory & Valuation",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Keystone Contents Services",
-        "proposedVendor": "Keystone Contents Services",
-        "selectedVendor": "Keystone Contents Services",
+        "recommendedVendor": "Total Inventory, LLC",
+        "proposedVendor": "Total Inventory, LLC",
+        "selectedVendor": "Total Inventory, LLC",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-09-19T12:00:00.000Z",
@@ -2481,11 +2537,11 @@
       }
     ],
     "vendorServices": [
-      "Tri-County Fire Analysis",
-      "Palmetto Recovery Group",
-      "Bayfront Independent Adjusters",
-      "Meridian Desk Investigations",
-      "Keystone Contents Services"
+      "DDA Forensics",
+      "GrayRobinson",
+      "Colonial Claims",
+      "K&R Investigative Group",
+      "Total Inventory, LLC"
     ],
     "servicesTriggered": 5,
     "__v": 0,
@@ -2654,9 +2710,9 @@
       {
         "roleName": "Contents Inventory & Valuation",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Keystone Contents Services",
-        "proposedVendor": "Keystone Contents Services",
-        "selectedVendor": "Keystone Contents Services",
+        "recommendedVendor": "Total Inventory, LLC",
+        "proposedVendor": "Total Inventory, LLC",
+        "selectedVendor": "Total Inventory, LLC",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-10-12T12:00:00.000Z",
@@ -2667,9 +2723,9 @@
       {
         "roleName": "Pack-out & Contents Cleaning",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Gulfshore Restoration Group",
-        "proposedVendor": "Gulfshore Restoration Group",
-        "selectedVendor": "Gulfshore Restoration Group",
+        "recommendedVendor": "Paul Davis Restoration",
+        "proposedVendor": "Paul Davis Restoration",
+        "selectedVendor": "Paul Davis Restoration",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-10-12T12:00:00.000Z",
@@ -2679,8 +2735,8 @@
       }
     ],
     "vendorServices": [
-      "Keystone Contents Services",
-      "Gulfshore Restoration Group"
+      "Total Inventory, LLC",
+      "Paul Davis Restoration"
     ],
     "servicesTriggered": 2,
     "__v": 0,
@@ -2769,9 +2825,9 @@
       {
         "roleName": "Public Adjuster / Appraisal",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Sawgrass Insurance Law Group",
-        "proposedVendor": "Sawgrass Insurance Law Group",
-        "selectedVendor": "Neutral Appraisal Group of Florida",
+        "recommendedVendor": "Gold Star Adjusters",
+        "proposedVendor": "Gold Star Adjusters",
+        "selectedVendor": "Gold Star Adjusters",
         "status": "Pending Review",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-09-30T12:00:00.000Z",
@@ -2783,9 +2839,9 @@
       {
         "roleName": "Contents Inventory & Valuation",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Keystone Contents Services",
-        "proposedVendor": "Keystone Contents Services",
-        "selectedVendor": "Keystone Contents Services",
+        "recommendedVendor": "Total Inventory, LLC",
+        "proposedVendor": "Total Inventory, LLC",
+        "selectedVendor": "Total Inventory, LLC",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-09-30T12:00:00.000Z",
@@ -2795,8 +2851,8 @@
       }
     ],
     "vendorServices": [
-      "Neutral Appraisal Group of Florida",
-      "Keystone Contents Services"
+      "Gold Star Adjusters",
+      "Total Inventory, LLC"
     ],
     "servicesTriggered": 2,
     "__v": 0,
@@ -2830,6 +2886,7 @@
     "acknowledgedFlag": "present",
     "paymentDecisionIssuedFlag": "present",
     "deductibleWaiverSuspectedFlag": "present",
+    "bodilyInjuryFlag": "present",
     "contentsLossAmount": 3300,
     "lossInformation": {
       "causeOfLoss": "Lightning damage to electronics",
@@ -2863,10 +2920,12 @@
     "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
     "recordIndex": 9,
     "planServices": [
+      "f3a4f46c-cce9-44d2-a479-d9a4f6ccdb5a",
       "d25a0874-807e-43b7-af32-863e746db8b2",
       "dd83632f-6e75-429b-a53e-6bbae87e5d0d"
     ],
     "existingplanservices": [
+      "f3a4f46c-cce9-44d2-a479-d9a4f6ccdb5a",
       "d25a0874-807e-43b7-af32-863e746db8b2",
       "dd83632f-6e75-429b-a53e-6bbae87e5d0d"
     ],
@@ -2878,7 +2937,7 @@
     "completedBy": "",
     "serviceVendorReview": [],
     "vendorServices": [],
-    "servicesTriggered": 2,
+    "servicesTriggered": 3,
     "__v": 0
   },
   {
@@ -2963,9 +3022,9 @@
       {
         "roleName": "Decision letters",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Clarity Claim Letters",
-        "proposedVendor": "Clarity Claim Letters",
-        "selectedVendor": "Clarity Claim Letters",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-09-05T12:00:00.000Z",
@@ -2975,7 +3034,7 @@
       }
     ],
     "vendorServices": [
-      "Clarity Claim Letters"
+      "GrayRobinson"
     ],
     "servicesTriggered": 3,
     "__v": 0,
@@ -3142,9 +3201,9 @@
       {
         "roleName": "Desk investigations",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Meridian Desk Investigations",
-        "proposedVendor": "Meridian Desk Investigations",
-        "selectedVendor": "Northpoint Special Investigations",
+        "recommendedVendor": "K&R Investigative Group",
+        "proposedVendor": "K&R Investigative Group",
+        "selectedVendor": "K&R Investigative Group",
         "status": "Modified",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-10-06T12:00:00.000Z",
@@ -3159,9 +3218,9 @@
       {
         "roleName": "Scene Investigation & Official Reports",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Tri-County Fire Analysis",
-        "proposedVendor": "Tri-County Fire Analysis",
-        "selectedVendor": "Tri-County Fire Analysis",
+        "recommendedVendor": "K&R Investigative Group",
+        "proposedVendor": "K&R Investigative Group",
+        "selectedVendor": "K&R Investigative Group",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-10-06T12:00:00.000Z",
@@ -3172,9 +3231,9 @@
       {
         "roleName": "Contents Inventory & Valuation",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Keystone Contents Services",
-        "proposedVendor": "Keystone Contents Services",
-        "selectedVendor": "Keystone Contents Services",
+        "recommendedVendor": "Total Inventory, LLC",
+        "proposedVendor": "Total Inventory, LLC",
+        "selectedVendor": "Total Inventory, LLC",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-10-06T12:00:00.000Z",
@@ -3186,8 +3245,8 @@
         "roleName": "Forensic Accountant",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Lakeshore Forensic Accounting",
-        "selectedVendor": "Lakeshore Forensic Accounting",
+        "proposedVendor": "MDD Forensic Accountants",
+        "selectedVendor": "MDD Forensic Accountants",
         "status": "Rejected",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-10-06T12:00:00.000Z",
@@ -3201,9 +3260,9 @@
       }
     ],
     "vendorServices": [
-      "Northpoint Special Investigations",
-      "Tri-County Fire Analysis",
-      "Keystone Contents Services"
+      "K&R Investigative Group",
+      "K&R Investigative Group",
+      "Total Inventory, LLC"
     ],
     "servicesTriggered": 3,
     "__v": 0,
@@ -3296,9 +3355,9 @@
       {
         "roleName": "CAT Response",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Gulfshore Restoration Group",
-        "proposedVendor": "Gulfshore Restoration Group",
-        "selectedVendor": "Gulfshore Restoration Group",
+        "recommendedVendor": "Janney Roofing",
+        "proposedVendor": "Janney Roofing",
+        "selectedVendor": "Janney Roofing",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-09-29T12:00:00.000Z",
@@ -3309,9 +3368,9 @@
       {
         "roleName": "Contents Inventory & Valuation",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Keystone Contents Services",
-        "proposedVendor": "Keystone Contents Services",
-        "selectedVendor": "Keystone Contents Services",
+        "recommendedVendor": "Total Inventory, LLC",
+        "proposedVendor": "Total Inventory, LLC",
+        "selectedVendor": "Total Inventory, LLC",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-09-29T12:00:00.000Z",
@@ -3322,9 +3381,9 @@
       {
         "roleName": "Temporary Housing / ALE",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Safe Harbor Temporary Housing",
-        "proposedVendor": "Safe Harbor Temporary Housing",
-        "selectedVendor": "Safe Harbor Temporary Housing",
+        "recommendedVendor": "ALE Solutions",
+        "proposedVendor": "ALE Solutions",
+        "selectedVendor": "ALE Solutions",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-09-29T12:00:00.000Z",
@@ -3334,9 +3393,9 @@
       }
     ],
     "vendorServices": [
-      "Gulfshore Restoration Group",
-      "Keystone Contents Services",
-      "Safe Harbor Temporary Housing"
+      "Janney Roofing",
+      "Total Inventory, LLC",
+      "ALE Solutions"
     ],
     "servicesTriggered": 3,
     "__v": 0,
@@ -3423,9 +3482,9 @@
       {
         "roleName": "Coverage Verification & ROR",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Magnolia Coverage Counsel",
-        "proposedVendor": "Magnolia Coverage Counsel",
-        "selectedVendor": "Peach State Property Adjusters",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Pending Review",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-09-11T12:00:00.000Z",
@@ -3437,9 +3496,9 @@
       {
         "roleName": "Contents Inventory & Valuation",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Keystone Contents Services",
-        "proposedVendor": "Keystone Contents Services",
-        "selectedVendor": "Keystone Contents Services",
+        "recommendedVendor": "Total Inventory, LLC",
+        "proposedVendor": "Total Inventory, LLC",
+        "selectedVendor": "Total Inventory, LLC",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-09-11T12:00:00.000Z",
@@ -3449,8 +3508,8 @@
       }
     ],
     "vendorServices": [
-      "Peach State Property Adjusters",
-      "Keystone Contents Services"
+      "GrayRobinson",
+      "Total Inventory, LLC"
     ],
     "servicesTriggered": 2,
     "__v": 0,
@@ -3624,9 +3683,9 @@
       {
         "roleName": "24/7 Loss Mitigation Contractors",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Gulfshore Restoration Group",
-        "proposedVendor": "Gulfshore Restoration Group",
-        "selectedVendor": "Sunstate Water Mitigation",
+        "recommendedVendor": "Paul Davis Restoration",
+        "proposedVendor": "Paul Davis Restoration",
+        "selectedVendor": "Kruger Property Solutions",
         "status": "Pending Review",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-09T12:00:00.000Z",
@@ -3638,9 +3697,9 @@
       {
         "roleName": "Forensic Accountant",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Lakeshore Forensic Accounting",
-        "proposedVendor": "Lakeshore Forensic Accounting",
-        "selectedVendor": "Lakeshore Forensic Accounting",
+        "recommendedVendor": "MDD Forensic Accountants",
+        "proposedVendor": "MDD Forensic Accountants",
+        "selectedVendor": "MDD Forensic Accountants",
         "status": "Pending Review",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-09T12:00:00.000Z",
@@ -3664,9 +3723,9 @@
       {
         "roleName": "Tenant-Caused Loss Recovery",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Recovery Group",
-        "proposedVendor": "Palmetto Recovery Group",
-        "selectedVendor": "Palmetto Recovery Group",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-09T12:00:00.000Z",
@@ -3676,10 +3735,10 @@
       }
     ],
     "vendorServices": [
-      "Sunstate Water Mitigation",
-      "Lakeshore Forensic Accounting",
+      "Kruger Property Solutions",
+      "MDD Forensic Accountants",
       "M6 Building Solutions",
-      "Palmetto Recovery Group"
+      "GrayRobinson"
     ],
     "servicesTriggered": 4,
     "__v": 0,
@@ -3716,6 +3775,7 @@
     "windHailFlag": "present",
     "roofDamageFlag": "present",
     "specialtyTradeRequiredFlag": "present",
+    "bodilyInjuryFlag": "present",
     "roofAgeYears": 26,
     "contractorEstimateAmount": 72000,
     "lossInformation": {
@@ -3754,14 +3814,16 @@
       "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
-      "953716fb-084f-41be-a85d-c7f32b82c23e"
+      "953716fb-084f-41be-a85d-c7f32b82c23e",
+      "f3a4f46c-cce9-44d2-a479-d9a4f6ccdb5a"
     ],
     "existingplanservices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
       "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
-      "953716fb-084f-41be-a85d-c7f32b82c23e"
+      "953716fb-084f-41be-a85d-c7f32b82c23e",
+      "f3a4f46c-cce9-44d2-a479-d9a4f6ccdb5a"
     ],
     "confirmedPlanServices": [],
     "planServiceStatus": "Pending Selection",
@@ -3771,7 +3833,7 @@
     "completedBy": "",
     "serviceVendorReview": [],
     "vendorServices": [],
-    "servicesTriggered": 5,
+    "servicesTriggered": 6,
     "__v": 0
   },
   {
@@ -3861,9 +3923,9 @@
       {
         "roleName": "24/7 Loss Mitigation Contractors",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Gulfshore Restoration Group",
-        "proposedVendor": "Gulfshore Restoration Group",
-        "selectedVendor": "Sunstate Water Mitigation",
+        "recommendedVendor": "Paul Davis Restoration",
+        "proposedVendor": "Paul Davis Restoration",
+        "selectedVendor": "Kruger Property Solutions",
         "status": "Pending Review",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-09-17T12:00:00.000Z",
@@ -3888,9 +3950,9 @@
       {
         "roleName": "Coverage Verification & ROR",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Magnolia Coverage Counsel",
-        "proposedVendor": "Magnolia Coverage Counsel",
-        "selectedVendor": "Magnolia Coverage Counsel",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-09-17T12:00:00.000Z",
@@ -3901,9 +3963,9 @@
       {
         "roleName": "Vacancy Review",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Occupancy Verification Services",
-        "proposedVendor": "Occupancy Verification Services",
-        "selectedVendor": "Occupancy Verification Services",
+        "recommendedVendor": "Colonial Claims",
+        "proposedVendor": "Colonial Claims",
+        "selectedVendor": "Colonial Claims",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-09-17T12:00:00.000Z",
@@ -3915,8 +3977,8 @@
         "roleName": "Legal",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Palmetto Recovery Group",
-        "selectedVendor": "Palmetto Recovery Group",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Pending Review",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-09-17T12:00:00.000Z",
@@ -3927,11 +3989,11 @@
       }
     ],
     "vendorServices": [
-      "Sunstate Water Mitigation",
+      "Kruger Property Solutions",
       "M6 Building Solutions",
-      "Magnolia Coverage Counsel",
-      "Occupancy Verification Services",
-      "Palmetto Recovery Group"
+      "GrayRobinson",
+      "Colonial Claims",
+      "GrayRobinson"
     ],
     "servicesTriggered": 4,
     "__v": 0,
@@ -4036,9 +4098,9 @@
       {
         "roleName": "Cause & Origin Specialists",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Everglades Cause & Origin",
-        "proposedVendor": "Everglades Cause & Origin",
-        "selectedVendor": "Tri-County Fire Analysis",
+        "recommendedVendor": "Proclaim Engineering, Inc",
+        "proposedVendor": "Proclaim Engineering, Inc",
+        "selectedVendor": "DDA Forensics",
         "status": "Modified",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-16T12:00:00.000Z",
@@ -4053,9 +4115,9 @@
       {
         "roleName": "Forensic Engineers",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Harbor Forensic Engineering",
-        "proposedVendor": "Harbor Forensic Engineering",
-        "selectedVendor": "Harbor Forensic Engineering",
+        "recommendedVendor": "Proclaim Engineering, Inc",
+        "proposedVendor": "Proclaim Engineering, Inc",
+        "selectedVendor": "Proclaim Engineering, Inc",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-16T12:00:00.000Z",
@@ -4066,9 +4128,9 @@
       {
         "roleName": "Forensic Accountant",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Lakeshore Forensic Accounting",
-        "proposedVendor": "Lakeshore Forensic Accounting",
-        "selectedVendor": "Lakeshore Forensic Accounting",
+        "recommendedVendor": "MDD Forensic Accountants",
+        "proposedVendor": "MDD Forensic Accountants",
+        "selectedVendor": "MDD Forensic Accountants",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-16T12:00:00.000Z",
@@ -4079,9 +4141,9 @@
       {
         "roleName": "Legal",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Recovery Group",
-        "proposedVendor": "Palmetto Recovery Group",
-        "selectedVendor": "Palmetto Recovery Group",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-16T12:00:00.000Z",
@@ -4092,9 +4154,9 @@
       {
         "roleName": "Subrogation",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Recovery Group",
-        "proposedVendor": "Palmetto Recovery Group",
-        "selectedVendor": "Palmetto Recovery Group",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-16T12:00:00.000Z",
@@ -4105,9 +4167,9 @@
       {
         "roleName": "Scene Investigation & Official Reports",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Tri-County Fire Analysis",
-        "proposedVendor": "Tri-County Fire Analysis",
-        "selectedVendor": "Tri-County Fire Analysis",
+        "recommendedVendor": "K&R Investigative Group",
+        "proposedVendor": "K&R Investigative Group",
+        "selectedVendor": "K&R Investigative Group",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-16T12:00:00.000Z",
@@ -4118,9 +4180,9 @@
       {
         "roleName": "Tenant-Caused Loss Recovery",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Recovery Group",
-        "proposedVendor": "Palmetto Recovery Group",
-        "selectedVendor": "Palmetto Recovery Group",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-16T12:00:00.000Z",
@@ -4132,8 +4194,8 @@
         "roleName": "Forensic Accountant",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Lakeshore Forensic Accounting",
-        "selectedVendor": "Lakeshore Forensic Accounting",
+        "proposedVendor": "MDD Forensic Accountants",
+        "selectedVendor": "MDD Forensic Accountants",
         "status": "Rejected",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-16T12:00:00.000Z",
@@ -4147,13 +4209,13 @@
       }
     ],
     "vendorServices": [
-      "Tri-County Fire Analysis",
-      "Harbor Forensic Engineering",
-      "Lakeshore Forensic Accounting",
-      "Palmetto Recovery Group",
-      "Palmetto Recovery Group",
-      "Tri-County Fire Analysis",
-      "Palmetto Recovery Group"
+      "DDA Forensics",
+      "Proclaim Engineering, Inc",
+      "MDD Forensic Accountants",
+      "GrayRobinson",
+      "GrayRobinson",
+      "K&R Investigative Group",
+      "GrayRobinson"
     ],
     "servicesTriggered": 7,
     "__v": 0,
@@ -4329,7 +4391,7 @@
         "changeType": "ProviderChange",
         "recommendedVendor": "M6 Building Solutions",
         "proposedVendor": "M6 Building Solutions",
-        "selectedVendor": "Coastal Claim Estimators",
+        "selectedVendor": "Hi Low Roofing",
         "status": "Pending Review",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-27T12:00:00.000Z",
@@ -4341,9 +4403,9 @@
       {
         "roleName": "Public Adjuster / Appraisal",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Sawgrass Insurance Law Group",
-        "proposedVendor": "Sawgrass Insurance Law Group",
-        "selectedVendor": "Sawgrass Insurance Law Group",
+        "recommendedVendor": "Gold Star Adjusters",
+        "proposedVendor": "Gold Star Adjusters",
+        "selectedVendor": "Gold Star Adjusters",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-27T12:00:00.000Z",
@@ -4355,8 +4417,8 @@
         "roleName": "Legal",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Palmetto Recovery Group",
-        "selectedVendor": "Palmetto Recovery Group",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Pending Review",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-27T12:00:00.000Z",
@@ -4367,9 +4429,9 @@
       }
     ],
     "vendorServices": [
-      "Coastal Claim Estimators",
-      "Sawgrass Insurance Law Group",
-      "Palmetto Recovery Group"
+      "Hi Low Roofing",
+      "Gold Star Adjusters",
+      "GrayRobinson"
     ],
     "servicesTriggered": 2,
     "__v": 0,
@@ -4405,6 +4467,7 @@
     "unoccupiedFlag": "present",
     "excludedPerilFlag": "present",
     "coverageQuestionFlag": "present",
+    "bodilyInjuryFlag": "present",
     "vacancyDays": 90,
     "contractorEstimateAmount": 22000,
     "lossInformation": {
@@ -4442,12 +4505,14 @@
       "aeda679c-ad7b-4fec-a6a4-5b6616cb15c2",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "3455af34-b088-440b-a1f7-99dea13403cf",
+      "f3a4f46c-cce9-44d2-a479-d9a4f6ccdb5a",
       "26e206b6-c156-492e-aa11-41c474ca3827"
     ],
     "existingplanservices": [
       "aeda679c-ad7b-4fec-a6a4-5b6616cb15c2",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "3455af34-b088-440b-a1f7-99dea13403cf",
+      "f3a4f46c-cce9-44d2-a479-d9a4f6ccdb5a",
       "26e206b6-c156-492e-aa11-41c474ca3827"
     ],
     "confirmedPlanServices": [
@@ -4462,9 +4527,9 @@
       {
         "roleName": "Decision letters",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Clarity Claim Letters",
-        "proposedVendor": "Clarity Claim Letters",
-        "selectedVendor": "Clarity Claim Letters",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-09-03T12:00:00.000Z",
@@ -4474,9 +4539,9 @@
       }
     ],
     "vendorServices": [
-      "Clarity Claim Letters"
+      "GrayRobinson"
     ],
-    "servicesTriggered": 4,
+    "servicesTriggered": 5,
     "__v": 0,
     "adjusterSubmittedBy": "Derek Chan",
     "adjusterSubmittedAt": "2026-09-03T12:00:00.000Z",
@@ -4580,9 +4645,9 @@
       {
         "roleName": "24/7 Loss Mitigation Contractors",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Gulfshore Restoration Group",
-        "proposedVendor": "Gulfshore Restoration Group",
-        "selectedVendor": "Sunstate Water Mitigation",
+        "recommendedVendor": "Paul Davis Restoration",
+        "proposedVendor": "Paul Davis Restoration",
+        "selectedVendor": "Kruger Property Solutions",
         "status": "Pending Review",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-05T12:00:00.000Z",
@@ -4594,9 +4659,9 @@
       {
         "roleName": "Cause & Origin Specialists",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Everglades Cause & Origin",
-        "proposedVendor": "Everglades Cause & Origin",
-        "selectedVendor": "Everglades Cause & Origin",
+        "recommendedVendor": "Proclaim Engineering, Inc",
+        "proposedVendor": "Proclaim Engineering, Inc",
+        "selectedVendor": "Proclaim Engineering, Inc",
         "status": "Pending Review",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-05T12:00:00.000Z",
@@ -4607,9 +4672,9 @@
       {
         "roleName": "Forensic Engineers",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Harbor Forensic Engineering",
-        "proposedVendor": "Harbor Forensic Engineering",
-        "selectedVendor": "Harbor Forensic Engineering",
+        "recommendedVendor": "Proclaim Engineering, Inc",
+        "proposedVendor": "Proclaim Engineering, Inc",
+        "selectedVendor": "Proclaim Engineering, Inc",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-05T12:00:00.000Z",
@@ -4620,9 +4685,9 @@
       {
         "roleName": "Legal",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Recovery Group",
-        "proposedVendor": "Palmetto Recovery Group",
-        "selectedVendor": "Palmetto Recovery Group",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-05T12:00:00.000Z",
@@ -4633,9 +4698,9 @@
       {
         "roleName": "CAT Response",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Gulfshore Restoration Group",
-        "proposedVendor": "Gulfshore Restoration Group",
-        "selectedVendor": "Gulfshore Restoration Group",
+        "recommendedVendor": "Janney Roofing",
+        "proposedVendor": "Janney Roofing",
+        "selectedVendor": "Janney Roofing",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-05T12:00:00.000Z",
@@ -4671,11 +4736,11 @@
       }
     ],
     "vendorServices": [
-      "Sunstate Water Mitigation",
-      "Everglades Cause & Origin",
-      "Harbor Forensic Engineering",
-      "Palmetto Recovery Group",
-      "Gulfshore Restoration Group",
+      "Kruger Property Solutions",
+      "Proclaim Engineering, Inc",
+      "Proclaim Engineering, Inc",
+      "GrayRobinson",
+      "Janney Roofing",
       "M6 Building Solutions",
       "M6 Building Solutions"
     ],
@@ -4848,9 +4913,9 @@
       {
         "roleName": "Forensic Accountant",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Lakeshore Forensic Accounting",
-        "proposedVendor": "Lakeshore Forensic Accounting",
-        "selectedVendor": "Cardinal Loss Analytics",
+        "recommendedVendor": "MDD Forensic Accountants",
+        "proposedVendor": "MDD Forensic Accountants",
+        "selectedVendor": "MDD Forensic Accountants",
         "status": "Modified",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-13T12:00:00.000Z",
@@ -4865,9 +4930,9 @@
       {
         "roleName": "Tenant-Caused Loss Recovery",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Recovery Group",
-        "proposedVendor": "Palmetto Recovery Group",
-        "selectedVendor": "Palmetto Recovery Group",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-13T12:00:00.000Z",
@@ -4879,8 +4944,8 @@
         "roleName": "Forensic Accountant",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Lakeshore Forensic Accounting",
-        "selectedVendor": "Lakeshore Forensic Accounting",
+        "proposedVendor": "MDD Forensic Accountants",
+        "selectedVendor": "MDD Forensic Accountants",
         "status": "Rejected",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-13T12:00:00.000Z",
@@ -4894,8 +4959,8 @@
       }
     ],
     "vendorServices": [
-      "Cardinal Loss Analytics",
-      "Palmetto Recovery Group"
+      "MDD Forensic Accountants",
+      "GrayRobinson"
     ],
     "servicesTriggered": 2,
     "__v": 0,
@@ -5230,9 +5295,9 @@
       {
         "roleName": "Decision letters",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Clarity Claim Letters",
-        "proposedVendor": "Clarity Claim Letters",
-        "selectedVendor": "Clarity Claim Letters",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-07-27T12:00:00.000Z",
@@ -5255,7 +5320,7 @@
       }
     ],
     "vendorServices": [
-      "Clarity Claim Letters",
+      "GrayRobinson",
       "M6 Building Solutions"
     ],
     "servicesTriggered": 2,
@@ -5346,9 +5411,9 @@
       {
         "roleName": "Decision letters",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Clarity Claim Letters",
-        "proposedVendor": "Clarity Claim Letters",
-        "selectedVendor": "Clarity Claim Letters",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-08-20T12:00:00.000Z",
@@ -5358,7 +5423,7 @@
       }
     ],
     "vendorServices": [
-      "Clarity Claim Letters"
+      "GrayRobinson"
     ],
     "servicesTriggered": 3,
     "__v": 0,
@@ -5455,9 +5520,9 @@
       {
         "roleName": "Cause & Origin Specialists",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Everglades Cause & Origin",
-        "proposedVendor": "Everglades Cause & Origin",
-        "selectedVendor": "Tri-County Fire Analysis",
+        "recommendedVendor": "Proclaim Engineering, Inc",
+        "proposedVendor": "Proclaim Engineering, Inc",
+        "selectedVendor": "DDA Forensics",
         "status": "Pending Review",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-17T12:00:00.000Z",
@@ -5469,9 +5534,9 @@
       {
         "roleName": "Forensic Engineers",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Harbor Forensic Engineering",
-        "proposedVendor": "Harbor Forensic Engineering",
-        "selectedVendor": "Harbor Forensic Engineering",
+        "recommendedVendor": "Proclaim Engineering, Inc",
+        "proposedVendor": "Proclaim Engineering, Inc",
+        "selectedVendor": "Proclaim Engineering, Inc",
         "status": "Pending Review",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-17T12:00:00.000Z",
@@ -5482,9 +5547,9 @@
       {
         "roleName": "Legal",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Recovery Group",
-        "proposedVendor": "Palmetto Recovery Group",
-        "selectedVendor": "Palmetto Recovery Group",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-17T12:00:00.000Z",
@@ -5495,9 +5560,9 @@
       {
         "roleName": "Scene Investigation & Official Reports",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Tri-County Fire Analysis",
-        "proposedVendor": "Tri-County Fire Analysis",
-        "selectedVendor": "Tri-County Fire Analysis",
+        "recommendedVendor": "K&R Investigative Group",
+        "proposedVendor": "K&R Investigative Group",
+        "selectedVendor": "K&R Investigative Group",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-17T12:00:00.000Z",
@@ -5520,10 +5585,10 @@
       }
     ],
     "vendorServices": [
-      "Tri-County Fire Analysis",
-      "Harbor Forensic Engineering",
-      "Palmetto Recovery Group",
-      "Tri-County Fire Analysis",
+      "DDA Forensics",
+      "Proclaim Engineering, Inc",
+      "GrayRobinson",
+      "K&R Investigative Group",
       "M6 Building Solutions"
     ],
     "servicesTriggered": 5,
@@ -5787,9 +5852,9 @@
       {
         "roleName": "Cause & Origin Specialists",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Everglades Cause & Origin",
-        "proposedVendor": "Everglades Cause & Origin",
-        "selectedVendor": "Tri-County Fire Analysis",
+        "recommendedVendor": "Proclaim Engineering, Inc",
+        "proposedVendor": "Proclaim Engineering, Inc",
+        "selectedVendor": "DDA Forensics",
         "status": "Modified",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-09-30T12:00:00.000Z",
@@ -5804,9 +5869,9 @@
       {
         "roleName": "Forensic Engineers",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Harbor Forensic Engineering",
-        "proposedVendor": "Harbor Forensic Engineering",
-        "selectedVendor": "Harbor Forensic Engineering",
+        "recommendedVendor": "Proclaim Engineering, Inc",
+        "proposedVendor": "Proclaim Engineering, Inc",
+        "selectedVendor": "Proclaim Engineering, Inc",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-09-30T12:00:00.000Z",
@@ -5817,9 +5882,9 @@
       {
         "roleName": "Legal",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Recovery Group",
-        "proposedVendor": "Palmetto Recovery Group",
-        "selectedVendor": "Palmetto Recovery Group",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-09-30T12:00:00.000Z",
@@ -5830,9 +5895,9 @@
       {
         "roleName": "CAT Response",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Gulfshore Restoration Group",
-        "proposedVendor": "Gulfshore Restoration Group",
-        "selectedVendor": "Gulfshore Restoration Group",
+        "recommendedVendor": "Janney Roofing",
+        "proposedVendor": "Janney Roofing",
+        "selectedVendor": "Janney Roofing",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-09-30T12:00:00.000Z",
@@ -5843,9 +5908,9 @@
       {
         "roleName": "Public Adjuster / Appraisal",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Sawgrass Insurance Law Group",
-        "proposedVendor": "Sawgrass Insurance Law Group",
-        "selectedVendor": "Sawgrass Insurance Law Group",
+        "recommendedVendor": "Gold Star Adjusters",
+        "proposedVendor": "Gold Star Adjusters",
+        "selectedVendor": "Gold Star Adjusters",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-09-30T12:00:00.000Z",
@@ -5857,8 +5922,8 @@
         "roleName": "Forensic Accountant",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Lakeshore Forensic Accounting",
-        "selectedVendor": "Lakeshore Forensic Accounting",
+        "proposedVendor": "MDD Forensic Accountants",
+        "selectedVendor": "MDD Forensic Accountants",
         "status": "Rejected",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-09-30T12:00:00.000Z",
@@ -5872,11 +5937,11 @@
       }
     ],
     "vendorServices": [
-      "Tri-County Fire Analysis",
-      "Harbor Forensic Engineering",
-      "Palmetto Recovery Group",
-      "Gulfshore Restoration Group",
-      "Sawgrass Insurance Law Group"
+      "DDA Forensics",
+      "Proclaim Engineering, Inc",
+      "GrayRobinson",
+      "Janney Roofing",
+      "Gold Star Adjusters"
     ],
     "servicesTriggered": 5,
     "__v": 0,
@@ -5971,9 +6036,9 @@
       {
         "roleName": "Appraisers/Independent Adjusters",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Coastal Claim Estimators",
-        "proposedVendor": "Coastal Claim Estimators",
-        "selectedVendor": "Bayfront Independent Adjusters",
+        "recommendedVendor": "Colonial Claims",
+        "proposedVendor": "Colonial Claims",
+        "selectedVendor": "Colonial Claims",
         "status": "Pending Review",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-09-20T12:00:00.000Z",
@@ -5985,9 +6050,9 @@
       {
         "roleName": "Forensic Engineers",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Harbor Forensic Engineering",
-        "proposedVendor": "Harbor Forensic Engineering",
-        "selectedVendor": "Harbor Forensic Engineering",
+        "recommendedVendor": "Proclaim Engineering, Inc",
+        "proposedVendor": "Proclaim Engineering, Inc",
+        "selectedVendor": "Proclaim Engineering, Inc",
         "status": "Pending Review",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-09-20T12:00:00.000Z",
@@ -6011,9 +6076,9 @@
       {
         "roleName": "Coverage Verification & ROR",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Magnolia Coverage Counsel",
-        "proposedVendor": "Magnolia Coverage Counsel",
-        "selectedVendor": "Magnolia Coverage Counsel",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-09-20T12:00:00.000Z",
@@ -6023,10 +6088,10 @@
       }
     ],
     "vendorServices": [
-      "Bayfront Independent Adjusters",
-      "Harbor Forensic Engineering",
+      "Colonial Claims",
+      "Proclaim Engineering, Inc",
       "M6 Building Solutions",
-      "Magnolia Coverage Counsel"
+      "GrayRobinson"
     ],
     "servicesTriggered": 4,
     "__v": 0,
@@ -6353,7 +6418,7 @@
         "changeType": "ProviderChange",
         "recommendedVendor": "M6 Building Solutions",
         "proposedVendor": "M6 Building Solutions",
-        "selectedVendor": "Coastal Claim Estimators",
+        "selectedVendor": "Hi Low Roofing",
         "status": "Pending Review",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-09-13T12:00:00.000Z",
@@ -6365,9 +6430,9 @@
       {
         "roleName": "Coverage Verification & ROR",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Magnolia Coverage Counsel",
-        "proposedVendor": "Magnolia Coverage Counsel",
-        "selectedVendor": "Magnolia Coverage Counsel",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Pending Review",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-09-13T12:00:00.000Z",
@@ -6378,9 +6443,9 @@
       {
         "roleName": "Statutory Deadline Watch",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Clarity Claim Letters",
-        "proposedVendor": "Clarity Claim Letters",
-        "selectedVendor": "Clarity Claim Letters",
+        "recommendedVendor": "Colonial Claims",
+        "proposedVendor": "Colonial Claims",
+        "selectedVendor": "Colonial Claims",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-09-13T12:00:00.000Z",
@@ -6392,8 +6457,8 @@
         "roleName": "Legal",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Palmetto Recovery Group",
-        "selectedVendor": "Palmetto Recovery Group",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Pending Review",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-09-13T12:00:00.000Z",
@@ -6404,10 +6469,10 @@
       }
     ],
     "vendorServices": [
-      "Coastal Claim Estimators",
-      "Magnolia Coverage Counsel",
-      "Clarity Claim Letters",
-      "Palmetto Recovery Group"
+      "Hi Low Roofing",
+      "GrayRobinson",
+      "Colonial Claims",
+      "GrayRobinson"
     ],
     "servicesTriggered": 3,
     "__v": 0,
@@ -6501,7 +6566,7 @@
         "changeType": "ProviderChange",
         "recommendedVendor": "M6 Building Solutions",
         "proposedVendor": "M6 Building Solutions",
-        "selectedVendor": "Coastal Claim Estimators",
+        "selectedVendor": "Hi Low Roofing",
         "status": "Pending Review",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-25T12:00:00.000Z",
@@ -6513,9 +6578,9 @@
       {
         "roleName": "Public Adjuster / Appraisal",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Sawgrass Insurance Law Group",
-        "proposedVendor": "Sawgrass Insurance Law Group",
-        "selectedVendor": "Sawgrass Insurance Law Group",
+        "recommendedVendor": "Gold Star Adjusters",
+        "proposedVendor": "Gold Star Adjusters",
+        "selectedVendor": "Gold Star Adjusters",
         "status": "Pending Review",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-25T12:00:00.000Z",
@@ -6538,8 +6603,8 @@
       }
     ],
     "vendorServices": [
-      "Coastal Claim Estimators",
-      "Sawgrass Insurance Law Group",
+      "Hi Low Roofing",
+      "Gold Star Adjusters",
       "M6 Building Solutions"
     ],
     "servicesTriggered": 3,
@@ -6648,9 +6713,9 @@
       {
         "roleName": "Cause & Origin Specialists",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Everglades Cause & Origin",
-        "proposedVendor": "Everglades Cause & Origin",
-        "selectedVendor": "Tri-County Fire Analysis",
+        "recommendedVendor": "Proclaim Engineering, Inc",
+        "proposedVendor": "Proclaim Engineering, Inc",
+        "selectedVendor": "DDA Forensics",
         "status": "Modified",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-09-16T12:00:00.000Z",
@@ -6665,9 +6730,9 @@
       {
         "roleName": "Forensic Engineers",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Harbor Forensic Engineering",
-        "proposedVendor": "Harbor Forensic Engineering",
-        "selectedVendor": "Harbor Forensic Engineering",
+        "recommendedVendor": "Proclaim Engineering, Inc",
+        "proposedVendor": "Proclaim Engineering, Inc",
+        "selectedVendor": "Proclaim Engineering, Inc",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-09-16T12:00:00.000Z",
@@ -6678,9 +6743,9 @@
       {
         "roleName": "Forensic Accountant",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Lakeshore Forensic Accounting",
-        "proposedVendor": "Lakeshore Forensic Accounting",
-        "selectedVendor": "Lakeshore Forensic Accounting",
+        "recommendedVendor": "MDD Forensic Accountants",
+        "proposedVendor": "MDD Forensic Accountants",
+        "selectedVendor": "MDD Forensic Accountants",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-09-16T12:00:00.000Z",
@@ -6691,9 +6756,9 @@
       {
         "roleName": "Legal",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Recovery Group",
-        "proposedVendor": "Palmetto Recovery Group",
-        "selectedVendor": "Palmetto Recovery Group",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-09-16T12:00:00.000Z",
@@ -6704,9 +6769,9 @@
       {
         "roleName": "Independent Adjusters",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Bayfront Independent Adjusters",
-        "proposedVendor": "Bayfront Independent Adjusters",
-        "selectedVendor": "Bayfront Independent Adjusters",
+        "recommendedVendor": "Colonial Claims",
+        "proposedVendor": "Colonial Claims",
+        "selectedVendor": "Colonial Claims",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-09-16T12:00:00.000Z",
@@ -6717,9 +6782,9 @@
       {
         "roleName": "Subrogation",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Recovery Group",
-        "proposedVendor": "Palmetto Recovery Group",
-        "selectedVendor": "Palmetto Recovery Group",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-09-16T12:00:00.000Z",
@@ -6730,9 +6795,9 @@
       {
         "roleName": "Desk investigations",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Meridian Desk Investigations",
-        "proposedVendor": "Meridian Desk Investigations",
-        "selectedVendor": "Meridian Desk Investigations",
+        "recommendedVendor": "K&R Investigative Group",
+        "proposedVendor": "K&R Investigative Group",
+        "selectedVendor": "K&R Investigative Group",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-09-16T12:00:00.000Z",
@@ -6744,8 +6809,8 @@
         "roleName": "Forensic Accountant",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Lakeshore Forensic Accounting",
-        "selectedVendor": "Lakeshore Forensic Accounting",
+        "proposedVendor": "MDD Forensic Accountants",
+        "selectedVendor": "MDD Forensic Accountants",
         "status": "Included",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-09-16T12:00:00.000Z",
@@ -6759,14 +6824,14 @@
       }
     ],
     "vendorServices": [
-      "Tri-County Fire Analysis",
-      "Harbor Forensic Engineering",
-      "Lakeshore Forensic Accounting",
-      "Palmetto Recovery Group",
-      "Bayfront Independent Adjusters",
-      "Palmetto Recovery Group",
-      "Meridian Desk Investigations",
-      "Lakeshore Forensic Accounting"
+      "DDA Forensics",
+      "Proclaim Engineering, Inc",
+      "MDD Forensic Accountants",
+      "GrayRobinson",
+      "Colonial Claims",
+      "GrayRobinson",
+      "K&R Investigative Group",
+      "MDD Forensic Accountants"
     ],
     "servicesTriggered": 7,
     "__v": 0,
@@ -6929,9 +6994,9 @@
       {
         "roleName": "Decision letters",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Clarity Claim Letters",
-        "proposedVendor": "Clarity Claim Letters",
-        "selectedVendor": "Clarity Claim Letters",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-07-17T12:00:00.000Z",
@@ -6941,7 +7006,7 @@
       }
     ],
     "vendorServices": [
-      "Clarity Claim Letters"
+      "GrayRobinson"
     ],
     "servicesTriggered": 1,
     "__v": 0,
@@ -7028,9 +7093,9 @@
       {
         "roleName": "Decision letters",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Clarity Claim Letters",
-        "proposedVendor": "Clarity Claim Letters",
-        "selectedVendor": "Clarity Claim Letters",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-03T12:00:00.000Z",
@@ -7040,7 +7105,7 @@
       }
     ],
     "vendorServices": [
-      "Clarity Claim Letters"
+      "GrayRobinson"
     ],
     "servicesTriggered": 2,
     "__v": 0,
@@ -7232,9 +7297,9 @@
       {
         "roleName": "24/7 Loss Mitigation Contractors",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Gulfshore Restoration Group",
-        "proposedVendor": "Gulfshore Restoration Group",
-        "selectedVendor": "Sunstate Water Mitigation",
+        "recommendedVendor": "Paul Davis Restoration",
+        "proposedVendor": "Paul Davis Restoration",
+        "selectedVendor": "Kruger Property Solutions",
         "status": "Pending Review",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-10-06T12:00:00.000Z",
@@ -7246,9 +7311,9 @@
       {
         "roleName": "NFIP Authorized Adjuster",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Flood Adjusters",
-        "proposedVendor": "Palmetto Flood Adjusters",
-        "selectedVendor": "Palmetto Flood Adjusters",
+        "recommendedVendor": "Crawford & Company",
+        "proposedVendor": "Crawford & Company",
+        "selectedVendor": "Crawford & Company",
         "status": "Pending Review",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-10-06T12:00:00.000Z",
@@ -7259,9 +7324,9 @@
       {
         "roleName": "Substantial Damage Determination",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Sunshine Floodplain Consultants",
-        "proposedVendor": "Sunshine Floodplain Consultants",
-        "selectedVendor": "Sunshine Floodplain Consultants",
+        "recommendedVendor": "J.S. Held",
+        "proposedVendor": "J.S. Held",
+        "selectedVendor": "J.S. Held",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-10-06T12:00:00.000Z",
@@ -7272,9 +7337,9 @@
       {
         "roleName": "ICC Claim Handling",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Resilient Home Consultants",
-        "proposedVendor": "Resilient Home Consultants",
-        "selectedVendor": "Resilient Home Consultants",
+        "recommendedVendor": "J.S. Held",
+        "proposedVendor": "J.S. Held",
+        "selectedVendor": "J.S. Held",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-10-06T12:00:00.000Z",
@@ -7285,9 +7350,9 @@
       {
         "roleName": "Contents Inventory & Valuation",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Keystone Contents Services",
-        "proposedVendor": "Keystone Contents Services",
-        "selectedVendor": "Keystone Contents Services",
+        "recommendedVendor": "Total Inventory, LLC",
+        "proposedVendor": "Total Inventory, LLC",
+        "selectedVendor": "Total Inventory, LLC",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-10-06T12:00:00.000Z",
@@ -7297,11 +7362,11 @@
       }
     ],
     "vendorServices": [
-      "Sunstate Water Mitigation",
-      "Palmetto Flood Adjusters",
-      "Sunshine Floodplain Consultants",
-      "Resilient Home Consultants",
-      "Keystone Contents Services"
+      "Kruger Property Solutions",
+      "Crawford & Company",
+      "J.S. Held",
+      "J.S. Held",
+      "Total Inventory, LLC"
     ],
     "servicesTriggered": 5,
     "__v": 0,
@@ -7407,9 +7472,9 @@
       {
         "roleName": "CAT Response",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Gulfshore Restoration Group",
-        "proposedVendor": "Gulfshore Restoration Group",
-        "selectedVendor": "Stormline CAT Services",
+        "recommendedVendor": "Janney Roofing",
+        "proposedVendor": "Janney Roofing",
+        "selectedVendor": "Bigfoot Roofing & Construction",
         "status": "Modified",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-10-01T12:00:00.000Z",
@@ -7424,9 +7489,9 @@
       {
         "roleName": "NFIP Authorized Adjuster",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Flood Adjusters",
-        "proposedVendor": "Palmetto Flood Adjusters",
-        "selectedVendor": "Palmetto Flood Adjusters",
+        "recommendedVendor": "Crawford & Company",
+        "proposedVendor": "Crawford & Company",
+        "selectedVendor": "Crawford & Company",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-10-01T12:00:00.000Z",
@@ -7437,9 +7502,9 @@
       {
         "roleName": "Substantial Damage Determination",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Sunshine Floodplain Consultants",
-        "proposedVendor": "Sunshine Floodplain Consultants",
-        "selectedVendor": "Sunshine Floodplain Consultants",
+        "recommendedVendor": "J.S. Held",
+        "proposedVendor": "J.S. Held",
+        "selectedVendor": "J.S. Held",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-10-01T12:00:00.000Z",
@@ -7450,9 +7515,9 @@
       {
         "roleName": "ICC Claim Handling",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Resilient Home Consultants",
-        "proposedVendor": "Resilient Home Consultants",
-        "selectedVendor": "Resilient Home Consultants",
+        "recommendedVendor": "J.S. Held",
+        "proposedVendor": "J.S. Held",
+        "selectedVendor": "J.S. Held",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-10-01T12:00:00.000Z",
@@ -7463,9 +7528,9 @@
       {
         "roleName": "NFIP Limit Exposure",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Limit Review Associates",
-        "proposedVendor": "Limit Review Associates",
-        "selectedVendor": "Limit Review Associates",
+        "recommendedVendor": "Crawford & Company",
+        "proposedVendor": "Crawford & Company",
+        "selectedVendor": "Crawford & Company",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-10-01T12:00:00.000Z",
@@ -7476,9 +7541,9 @@
       {
         "roleName": "Contents Inventory & Valuation",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Keystone Contents Services",
-        "proposedVendor": "Keystone Contents Services",
-        "selectedVendor": "Keystone Contents Services",
+        "recommendedVendor": "Total Inventory, LLC",
+        "proposedVendor": "Total Inventory, LLC",
+        "selectedVendor": "Total Inventory, LLC",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-10-01T12:00:00.000Z",
@@ -7490,8 +7555,8 @@
         "roleName": "Forensic Accountant",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Lakeshore Forensic Accounting",
-        "selectedVendor": "Lakeshore Forensic Accounting",
+        "proposedVendor": "MDD Forensic Accountants",
+        "selectedVendor": "MDD Forensic Accountants",
         "status": "Rejected",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-10-01T12:00:00.000Z",
@@ -7505,12 +7570,12 @@
       }
     ],
     "vendorServices": [
-      "Stormline CAT Services",
-      "Palmetto Flood Adjusters",
-      "Sunshine Floodplain Consultants",
-      "Resilient Home Consultants",
-      "Limit Review Associates",
-      "Keystone Contents Services"
+      "Bigfoot Roofing & Construction",
+      "Crawford & Company",
+      "J.S. Held",
+      "J.S. Held",
+      "Crawford & Company",
+      "Total Inventory, LLC"
     ],
     "servicesTriggered": 6,
     "__v": 0,
@@ -7601,9 +7666,9 @@
       {
         "roleName": "NFIP Authorized Adjuster",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Flood Adjusters",
-        "proposedVendor": "Palmetto Flood Adjusters",
-        "selectedVendor": "Tidewater Flood Services",
+        "recommendedVendor": "Crawford & Company",
+        "proposedVendor": "Crawford & Company",
+        "selectedVendor": "Crawford & Company",
         "status": "Pending Review",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-09-12T12:00:00.000Z",
@@ -7615,9 +7680,9 @@
       {
         "roleName": "Proof of Loss Follow-up",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Flood Adjusters",
-        "proposedVendor": "Palmetto Flood Adjusters",
-        "selectedVendor": "Palmetto Flood Adjusters",
+        "recommendedVendor": "Crawford & Company",
+        "proposedVendor": "Crawford & Company",
+        "selectedVendor": "Crawford & Company",
         "status": "Pending Review",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-09-12T12:00:00.000Z",
@@ -7628,9 +7693,9 @@
       {
         "roleName": "Contents Inventory & Valuation",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Keystone Contents Services",
-        "proposedVendor": "Keystone Contents Services",
-        "selectedVendor": "Keystone Contents Services",
+        "recommendedVendor": "Total Inventory, LLC",
+        "proposedVendor": "Total Inventory, LLC",
+        "selectedVendor": "Total Inventory, LLC",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-09-12T12:00:00.000Z",
@@ -7642,8 +7707,8 @@
         "roleName": "Legal",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Palmetto Recovery Group",
-        "selectedVendor": "Palmetto Recovery Group",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Pending Review",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-09-12T12:00:00.000Z",
@@ -7654,10 +7719,10 @@
       }
     ],
     "vendorServices": [
-      "Tidewater Flood Services",
-      "Palmetto Flood Adjusters",
-      "Keystone Contents Services",
-      "Palmetto Recovery Group"
+      "Crawford & Company",
+      "Crawford & Company",
+      "Total Inventory, LLC",
+      "GrayRobinson"
     ],
     "servicesTriggered": 3,
     "__v": 0,
@@ -7831,9 +7896,9 @@
       {
         "roleName": "NFIP Authorized Adjuster",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Flood Adjusters",
-        "proposedVendor": "Palmetto Flood Adjusters",
-        "selectedVendor": "Tidewater Flood Services",
+        "recommendedVendor": "Crawford & Company",
+        "proposedVendor": "Crawford & Company",
+        "selectedVendor": "Crawford & Company",
         "status": "Pending Review",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-16T12:00:00.000Z",
@@ -7845,9 +7910,9 @@
       {
         "roleName": "Proof of Loss Follow-up",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Flood Adjusters",
-        "proposedVendor": "Palmetto Flood Adjusters",
-        "selectedVendor": "Palmetto Flood Adjusters",
+        "recommendedVendor": "Crawford & Company",
+        "proposedVendor": "Crawford & Company",
+        "selectedVendor": "Crawford & Company",
         "status": "Pending Review",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-16T12:00:00.000Z",
@@ -7858,9 +7923,9 @@
       {
         "roleName": "Contents Inventory & Valuation",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Keystone Contents Services",
-        "proposedVendor": "Keystone Contents Services",
-        "selectedVendor": "Keystone Contents Services",
+        "recommendedVendor": "Total Inventory, LLC",
+        "proposedVendor": "Total Inventory, LLC",
+        "selectedVendor": "Total Inventory, LLC",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-16T12:00:00.000Z",
@@ -7870,9 +7935,9 @@
       }
     ],
     "vendorServices": [
-      "Tidewater Flood Services",
-      "Palmetto Flood Adjusters",
-      "Keystone Contents Services"
+      "Crawford & Company",
+      "Crawford & Company",
+      "Total Inventory, LLC"
     ],
     "servicesTriggered": 3,
     "__v": 0,
@@ -8050,9 +8115,9 @@
       {
         "roleName": "Decision letters",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Clarity Claim Letters",
-        "proposedVendor": "Clarity Claim Letters",
-        "selectedVendor": "Sunrise Correspondence Services",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Modified",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-08T12:00:00.000Z",
@@ -8067,9 +8132,9 @@
       {
         "roleName": "NFIP Authorized Adjuster",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Flood Adjusters",
-        "proposedVendor": "Palmetto Flood Adjusters",
-        "selectedVendor": "Palmetto Flood Adjusters",
+        "recommendedVendor": "Crawford & Company",
+        "proposedVendor": "Crawford & Company",
+        "selectedVendor": "Crawford & Company",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-08T12:00:00.000Z",
@@ -8081,8 +8146,8 @@
         "roleName": "Forensic Accountant",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Lakeshore Forensic Accounting",
-        "selectedVendor": "Lakeshore Forensic Accounting",
+        "proposedVendor": "MDD Forensic Accountants",
+        "selectedVendor": "MDD Forensic Accountants",
         "status": "Included",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-08T12:00:00.000Z",
@@ -8096,9 +8161,9 @@
       }
     ],
     "vendorServices": [
-      "Sunrise Correspondence Services",
-      "Palmetto Flood Adjusters",
-      "Lakeshore Forensic Accounting"
+      "GrayRobinson",
+      "Crawford & Company",
+      "MDD Forensic Accountants"
     ],
     "servicesTriggered": 2,
     "__v": 0,
@@ -8189,9 +8254,9 @@
       {
         "roleName": "Decision letters",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Clarity Claim Letters",
-        "proposedVendor": "Clarity Claim Letters",
-        "selectedVendor": "Clarity Claim Letters",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-09-25T12:00:00.000Z",
@@ -8201,7 +8266,7 @@
       }
     ],
     "vendorServices": [
-      "Clarity Claim Letters"
+      "GrayRobinson"
     ],
     "servicesTriggered": 3,
     "__v": 0,
@@ -8307,9 +8372,9 @@
       {
         "roleName": "Legal",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Recovery Group",
-        "proposedVendor": "Palmetto Recovery Group",
-        "selectedVendor": "Sawgrass Insurance Law Group",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Pending Review",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-28T12:00:00.000Z",
@@ -8321,9 +8386,9 @@
       {
         "roleName": "NFIP Authorized Adjuster",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Flood Adjusters",
-        "proposedVendor": "Palmetto Flood Adjusters",
-        "selectedVendor": "Palmetto Flood Adjusters",
+        "recommendedVendor": "Crawford & Company",
+        "proposedVendor": "Crawford & Company",
+        "selectedVendor": "Crawford & Company",
         "status": "Pending Review",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-28T12:00:00.000Z",
@@ -8334,9 +8399,9 @@
       {
         "roleName": "Substantial Damage Determination",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Sunshine Floodplain Consultants",
-        "proposedVendor": "Sunshine Floodplain Consultants",
-        "selectedVendor": "Sunshine Floodplain Consultants",
+        "recommendedVendor": "J.S. Held",
+        "proposedVendor": "J.S. Held",
+        "selectedVendor": "J.S. Held",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-28T12:00:00.000Z",
@@ -8347,9 +8412,9 @@
       {
         "roleName": "ICC Claim Handling",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Resilient Home Consultants",
-        "proposedVendor": "Resilient Home Consultants",
-        "selectedVendor": "Resilient Home Consultants",
+        "recommendedVendor": "J.S. Held",
+        "proposedVendor": "J.S. Held",
+        "selectedVendor": "J.S. Held",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-28T12:00:00.000Z",
@@ -8360,9 +8425,9 @@
       {
         "roleName": "NFIP Limit Exposure",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Limit Review Associates",
-        "proposedVendor": "Limit Review Associates",
-        "selectedVendor": "Limit Review Associates",
+        "recommendedVendor": "Crawford & Company",
+        "proposedVendor": "Crawford & Company",
+        "selectedVendor": "Crawford & Company",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-28T12:00:00.000Z",
@@ -8373,9 +8438,9 @@
       {
         "roleName": "Contents Inventory & Valuation",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Keystone Contents Services",
-        "proposedVendor": "Keystone Contents Services",
-        "selectedVendor": "Keystone Contents Services",
+        "recommendedVendor": "Total Inventory, LLC",
+        "proposedVendor": "Total Inventory, LLC",
+        "selectedVendor": "Total Inventory, LLC",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-28T12:00:00.000Z",
@@ -8387,8 +8452,8 @@
         "roleName": "Legal",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Palmetto Recovery Group",
-        "selectedVendor": "Palmetto Recovery Group",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Pending Review",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-28T12:00:00.000Z",
@@ -8399,13 +8464,13 @@
       }
     ],
     "vendorServices": [
-      "Sawgrass Insurance Law Group",
-      "Palmetto Flood Adjusters",
-      "Sunshine Floodplain Consultants",
-      "Resilient Home Consultants",
-      "Limit Review Associates",
-      "Keystone Contents Services",
-      "Palmetto Recovery Group"
+      "GrayRobinson",
+      "Crawford & Company",
+      "J.S. Held",
+      "J.S. Held",
+      "Crawford & Company",
+      "Total Inventory, LLC",
+      "GrayRobinson"
     ],
     "servicesTriggered": 6,
     "__v": 0,
@@ -8495,9 +8560,9 @@
       {
         "roleName": "NFIP Authorized Adjuster",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Flood Adjusters",
-        "proposedVendor": "Palmetto Flood Adjusters",
-        "selectedVendor": "Palmetto Flood Adjusters",
+        "recommendedVendor": "Crawford & Company",
+        "proposedVendor": "Crawford & Company",
+        "selectedVendor": "Crawford & Company",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-09-06T12:00:00.000Z",
@@ -8508,9 +8573,9 @@
       {
         "roleName": "Contents Inventory & Valuation",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Keystone Contents Services",
-        "proposedVendor": "Keystone Contents Services",
-        "selectedVendor": "Keystone Contents Services",
+        "recommendedVendor": "Total Inventory, LLC",
+        "proposedVendor": "Total Inventory, LLC",
+        "selectedVendor": "Total Inventory, LLC",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-09-06T12:00:00.000Z",
@@ -8520,8 +8585,8 @@
       }
     ],
     "vendorServices": [
-      "Palmetto Flood Adjusters",
-      "Keystone Contents Services"
+      "Crawford & Company",
+      "Total Inventory, LLC"
     ],
     "servicesTriggered": 2,
     "__v": 0,
@@ -8870,9 +8935,9 @@
       {
         "roleName": "Decision letters",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Clarity Claim Letters",
-        "proposedVendor": "Clarity Claim Letters",
-        "selectedVendor": "Clarity Claim Letters",
+        "recommendedVendor": "GrayRobinson",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-07-07T12:00:00.000Z",
@@ -8883,9 +8948,9 @@
       {
         "roleName": "NFIP Authorized Adjuster",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Flood Adjusters",
-        "proposedVendor": "Palmetto Flood Adjusters",
-        "selectedVendor": "Palmetto Flood Adjusters",
+        "recommendedVendor": "Crawford & Company",
+        "proposedVendor": "Crawford & Company",
+        "selectedVendor": "Crawford & Company",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-07-07T12:00:00.000Z",
@@ -8896,9 +8961,9 @@
       {
         "roleName": "Contents Inventory & Valuation",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Keystone Contents Services",
-        "proposedVendor": "Keystone Contents Services",
-        "selectedVendor": "Keystone Contents Services",
+        "recommendedVendor": "Total Inventory, LLC",
+        "proposedVendor": "Total Inventory, LLC",
+        "selectedVendor": "Total Inventory, LLC",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-07-07T12:00:00.000Z",
@@ -8908,9 +8973,9 @@
       }
     ],
     "vendorServices": [
-      "Clarity Claim Letters",
-      "Palmetto Flood Adjusters",
-      "Keystone Contents Services"
+      "GrayRobinson",
+      "Crawford & Company",
+      "Total Inventory, LLC"
     ],
     "servicesTriggered": 3,
     "__v": 0,
@@ -9006,9 +9071,9 @@
       {
         "roleName": "Desk investigations",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Meridian Desk Investigations",
-        "proposedVendor": "Meridian Desk Investigations",
-        "selectedVendor": "Northpoint Special Investigations",
+        "recommendedVendor": "K&R Investigative Group",
+        "proposedVendor": "K&R Investigative Group",
+        "selectedVendor": "K&R Investigative Group",
         "status": "Pending Review",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-08-30T12:00:00.000Z",
@@ -9020,9 +9085,9 @@
       {
         "roleName": "NFIP Authorized Adjuster",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Flood Adjusters",
-        "proposedVendor": "Palmetto Flood Adjusters",
-        "selectedVendor": "Palmetto Flood Adjusters",
+        "recommendedVendor": "Crawford & Company",
+        "proposedVendor": "Crawford & Company",
+        "selectedVendor": "Crawford & Company",
         "status": "Pending Review",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-08-30T12:00:00.000Z",
@@ -9033,9 +9098,9 @@
       {
         "roleName": "Proof of Loss Follow-up",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Palmetto Flood Adjusters",
-        "proposedVendor": "Palmetto Flood Adjusters",
-        "selectedVendor": "Palmetto Flood Adjusters",
+        "recommendedVendor": "Crawford & Company",
+        "proposedVendor": "Crawford & Company",
+        "selectedVendor": "Crawford & Company",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-08-30T12:00:00.000Z",
@@ -9046,9 +9111,9 @@
       {
         "roleName": "Contents Inventory & Valuation",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Keystone Contents Services",
-        "proposedVendor": "Keystone Contents Services",
-        "selectedVendor": "Keystone Contents Services",
+        "recommendedVendor": "Total Inventory, LLC",
+        "proposedVendor": "Total Inventory, LLC",
+        "selectedVendor": "Total Inventory, LLC",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-08-30T12:00:00.000Z",
@@ -9060,8 +9125,8 @@
         "roleName": "Legal",
         "changeType": "ServiceAdded",
         "recommendedVendor": "",
-        "proposedVendor": "Palmetto Recovery Group",
-        "selectedVendor": "Palmetto Recovery Group",
+        "proposedVendor": "GrayRobinson",
+        "selectedVendor": "GrayRobinson",
         "status": "Pending Review",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-08-30T12:00:00.000Z",
@@ -9072,11 +9137,11 @@
       }
     ],
     "vendorServices": [
-      "Northpoint Special Investigations",
-      "Palmetto Flood Adjusters",
-      "Palmetto Flood Adjusters",
-      "Keystone Contents Services",
-      "Palmetto Recovery Group"
+      "K&R Investigative Group",
+      "Crawford & Company",
+      "Crawford & Company",
+      "Total Inventory, LLC",
+      "GrayRobinson"
     ],
     "servicesTriggered": 4,
     "__v": 0,

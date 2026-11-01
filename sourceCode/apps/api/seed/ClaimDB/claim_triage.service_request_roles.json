@@ -465,6 +465,25 @@
   },
   {
     "_id": {
+      "$oid": "de7edb8f3defe0663c62930e"
+    },
+    "roleId": "f3a4f46c-cce9-44d2-a479-d9a4f6ccdb5a",
+    "uploadId": "manual",
+    "roleName": "Medical Management / Rehab",
+    "description": "Injury to a guest, tenant or third party on the property (medical payments or liability). Route to medical management and rehab, with bill review and recovery follow-up.",
+    "status": "Active",
+    "__v": 0,
+    "conditionExpression": "(bodily_injury_flag != '' OR medical_payments_claim_flag != '')",
+    "nlpCondition": "bodily_injury_flag != '' OR medical_payments_claim_flag != ''",
+    "nlpConditionInWords": "Injury to a guest, tenant or third party on the property (medical payments or liability). Route to medical management and rehab, with bill review and recovery follow-up.",
+    "lineOfBusiness": [
+      "Homeowners",
+      "Renters",
+      "Landlord"
+    ]
+  },
+  {
+    "_id": {
       "$oid": "1f604df0741340e00d75570b"
     },
     "roleId": "d25a0874-807e-43b7-af32-863e746db8b2",

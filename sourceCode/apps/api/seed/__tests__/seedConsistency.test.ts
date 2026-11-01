@@ -58,8 +58,9 @@ describe('property-lines seed', () => {
     }
   });
 
-  it('uses fictional contact details only (except phones listed publicly for real companies)', () => {
+  it('uses fictional contact details only (except phones and e-mails published by real companies)', () => {
+    const listedEmails = new Set(PROVIDERS.filter((p) => p.email).map((p) => p.email as string));
     const listedPhones = new Set(PROVIDERS.filter((p) => p.phone).map((p) => p.phone as string));
-    vendors.forEach((v) => { expect(v.emailId).toMatch(/\.example$/); if (!listedPhones.has(String(v.phoneNumber))) expect(v.phoneNumber).toMatch(/555-01\d\d$/); });
+    vendors.forEach((v) => { if (!listedEmails.has(String(v.emailId))) expect(v.emailId).toMatch(/\.example$/); if (!listedPhones.has(String(v.phoneNumber))) expect(v.phoneNumber).toMatch(/555-01\d\d$/); });
   });
 });
