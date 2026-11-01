@@ -31,7 +31,7 @@ export async function listEvents(_req: Request, res: Response): Promise<void> {
     claims.forEach((c) => { const id = str(c['catEventId']); if (id) counts.set(id, (counts.get(id) ?? 0) + 1); });
     res.status(200).json({ success: true, totalClaims: claims.length, nonCatClaims: claims.length - [...counts.values()].reduce((a, b) => a + b, 0),
       data: events.map((e) => ({ eventId: e['eventId'], eventName: e['eventName'], eventType: e['eventType'], states: e['states'], lossDateFrom: e['lossDateFrom'], lossDateTo: e['lossDateTo'],
-        counties: e['counties'], emergencyDeclared: e['emergencyDeclared'], crfApplicable: e['crfApplicable'], dataCallStatus: e['dataCallStatus'], note: e['note'], claimCount: counts.get(str(e['eventId'])) ?? 0 })) });
+        counties: e['counties'], emergencyDeclared: e['emergencyDeclared'], crfApplicable: e['crfApplicable'], crfForm: e['crfForm'], dataCallStatus: e['dataCallStatus'], note: e['note'], claimCount: counts.get(str(e['eventId'])) ?? 0 })) });
   } catch (err) {
     await logError(err as Error, 'complianceController.listEvents');
     res.status(500).json({ success: false, message: 'Failed to load catastrophe events.' });
@@ -47,12 +47,22 @@ export async function getSummary(req: Request, res: Response): Promise<void> {
       db().collection('vendor_details').find({}, { projection: { companyName: 1, capacity: 1, rating: 1, serviceRequestRoleName: 1 } }).toArray(),
     ]);
     const event = events.find((e) => e['eventId'] === eventId) ?? null;
-    const records = eventId === 'ALL' ? allRecords : allRecords.filter((r) => r['catEventId'] === eventId);
+    // scope: one event, or all claims narrowed by loss-date range and/or event type (CAT claims only when a type is chosen)
+    const from = str(req.query['from']); const to = str(req.query['to']); const eventType = str(req.query['eventType']);
+    const eventOf = (r: Doc) => events.find((e) => e['eventId'] === r['catEventId']);
+    let records = eventId === 'ALL' ? allRecords : allRecords.filter((r) => r['catEventId'] === eventId);
+    if (from) records = records.filter((r) => str(r['lossDate']) >= from);
+    if (to) records = records.filter((r) => str(r['lossDate']) <= to);
+    if (eventType) records = records.filter((r) => str(eventOf(r)?.['eventType']) === eventType);
 
-    // ── totals / CRF eligibility ──
-    const crfEligible = records.filter((r) => str(r['crfLine']) !== '' && str(r['jurisdiction']) === 'FL');
+    // ── totals / CRF eligibility: Florida, tied to a catastrophe event with an OIR data call, not NFIP ──
+    const crfEligible = records.filter((r) => str(r['crfLine']) !== '' && str(r['jurisdiction']) === 'FL' && eventOf(r)?.['crfApplicable'] === true);
     const excluded = records.filter((r) => !crfEligible.includes(r)).map((r) => ({
-      claimNumber: str(r['claimNumber']), reason: str(r['jurisdiction']) !== 'FL' ? 'Outside Florida (CRF-26A is a Florida data call)' : 'NFIP (SFIP) claim: federal program, not reported to the OIR' }));
+      claimNumber: str(r['claimNumber']),
+      reason: !str(r['catEventId']) ? 'Not tied to a catastrophe event (Non-CAT)'
+        : str(r['jurisdiction']) !== 'FL' ? 'Outside Florida (CRF-26A is a Florida data call)'
+        : eventOf(r)?.['crfApplicable'] !== true ? 'Event has no OIR data call on file'
+        : 'NFIP (SFIP) claim: federal program, not reported to the OIR' }));
     const totals = zero(); crfEligible.forEach((r) => add(totals, r));
 
     // ── by line, by county / zip ──
@@ -113,11 +123,14 @@ export async function getSummary(req: Request, res: Response): Promise<void> {
     }).filter((v) => v.assignedInScope > 0).sort((a, b) => b.utilizationPct - a.utilizationPct);
 
     // ── public adjuster / investigator exposure ──
-    const paClaims = records.filter((r) => str(r['publicAdjusterFirm']) || str(r['independentInvestigatorFirm'])).map((r) => ({
-      claimNumber: str(r['claimNumber']), insured: str(r['insuredName']), county: str(r['lossCounty']), claimAmount: num(r['claimAmount']),
-      publicAdjusterFirm: str(r['publicAdjusterFirm']), feePct: r['publicAdjusterFeePct'] == null ? null : num(r['publicAdjusterFeePct']),
-      feeCapPct: r['publicAdjusterFeeCapPct'] == null ? null : num(r['publicAdjusterFeeCapPct']), feeStatus: str(r['publicAdjusterFeeStatus']),
-      investigatorFirm: str(r['independentInvestigatorFirm']), catEventId: str(r['catEventId']), reviewStatus: str(r['secondLevelReviewStatus']) }));
+    const paClaims = records.filter((r) => str(r['publicAdjusterFirm'])).map((r) => {
+      const settled = r['claimSettlementAmount'] !== '' && r['claimSettlementAmount'] != null;
+      return {
+        claimNumber: str(r['claimNumber']), insured: str(r['insuredName']), county: str(r['lossCounty']), submittedAmount: num(r['claimAmount']),
+        publicAdjusterFirm: str(r['publicAdjusterFirm']), settlementAmount: settled ? num(r['claimSettlementAmount']) : null,
+        independentAdjuster: str(r['independentAdjusterName']), status: str(r['claimStatus']), catNumber: str(r['catNumber']),
+      };
+    });
 
     // ── CRF-26A row validation checks 3-5 (1 and 2 are list checks done at export) ──
     const rows = [...byCountyZip.values()].map((x) => ({ lob: x.lob, lobName: CRF_LINES[x.lob] ?? x.lob, county: x.county, zip: x.zip, ...x.c }));

@@ -44,10 +44,10 @@ async function resolveServiceRoleNames(roleIds: string[]): Promise<{ roleId: str
 
 /** Placeholder filename for synthetic pre-approved qualification documents
  *  (Suspended / Requalification Due testing stub) — no real file exists.
- *  Named after the layer it belongs to, e.g. "L1 Service-Category Specific" → "Doc_L1.pdf". */
+ *  Named after the stage it belongs to, e.g. "Service Capability & Credentials" → "Doc_Service-Capability-Credentials.pdf". */
 function layerPlaceholderFileName(vendorStageName: string): string {
-  const match = /^L\d+/.exec(vendorStageName.trim());
-  return `Doc_${match ? match[0] : 'L0'}.pdf`;
+  const slug = vendorStageName.trim().replace(/[^A-Za-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+  return `Doc_${slug || 'Stage'}.pdf`;
 }
 
 // ─── Stage status computation ─────────────────────────────────────────────────

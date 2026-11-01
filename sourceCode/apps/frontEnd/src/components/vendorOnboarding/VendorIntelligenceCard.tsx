@@ -36,7 +36,7 @@ export function buildVendorIntelligence(companyName: string): VendorIntelligence
       {
         severity:    'MODERATE',
         category:    'INSURANCE',
-        description: 'Verify E&O and general liability certificates match the coverage thresholds required under L1 — investigative firms are frequently underinsured on cyber liability.',
+        description: 'Verify E&O and general liability certificates match the coverage thresholds required under Licensing, Insurance & Compliance — investigative firms are frequently underinsured on cyber liability.',
         reference:   'acord.org',
       },
       {

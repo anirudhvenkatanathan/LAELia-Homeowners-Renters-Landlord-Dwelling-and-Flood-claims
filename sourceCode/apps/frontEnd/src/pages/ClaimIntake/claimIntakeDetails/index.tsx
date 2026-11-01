@@ -1574,20 +1574,15 @@ const ClaimIntakeDetails: React.FC = () => {
                       </div>
                     </div>
                     <div className="cid-snapshot__body">
-                      <div style={{display:'flex',flexWrap:'wrap',gap:8,marginBottom:10}}>
-                        {record.catNumber
-                          ? <span style={{background:'#fef3c7',color:'#92400e',borderRadius:6,padding:'3px 8px',fontSize:12,fontWeight:600}}>CAT {record.catNumber} · {record.catEventName} · Incident {record.lossDate||'—'}</span>
-                          : <span style={{background:'#f1f5f9',color:'#475569',borderRadius:6,padding:'3px 8px',fontSize:12}}>Non-CAT claim — CAT number not applicable</span>}
-                      </div>
                       {(record.publicAdjusterFirm || record.independentInvestigatorFirm) && (
                         <div role="alert" style={{background:'#fef2f2',border:'1px solid #fecaca',color:'#991b1b',borderRadius:8,padding:'8px 12px',marginBottom:10,fontSize:12.5}}>
-                          {record.publicAdjusterFirm && (<div><strong>🚩 Public adjuster retained:</strong> {record.publicAdjusterFirm}{record.publicAdjusterFeePct ? ` — fee ${record.publicAdjusterFeePct}%` : ''}{record.publicAdjusterFeeCapPct ? ` (cap ${record.publicAdjusterFeeCapPct}%, s.626.854(11))` : ''}{record.publicAdjusterFeeStatus ? ` · ${record.publicAdjusterFeeStatus}` : ''}. Claim amount likely to be high.</div>)}
+                          {record.publicAdjusterFirm && (<div><strong>🚩 Public adjuster:</strong> {record.publicAdjusterFirm}</div>)}
                           {record.independentInvestigatorFirm && (<div><strong>🚩 Independent investigator:</strong> {record.independentInvestigatorFirm}</div>)}
-                          <div>Assign a senior top-rated independent adjuster, field appraiser, contractor and cause &amp; origin specialist.{record.secondLevelReviewRequired ? ` Claims manager second-level review: ${record.secondLevelReviewStatus || 'Pending'}.` : ''}</div>
+                          <div>Assign a top-rated independent adjuster, field appraiser, contractor and cause &amp; origin specialist. The claim then passes to the claims manager for second-level review.</div>
                         </div>
                       )}
                       <div className="cid-snapshot__fields">
-                        {[{label:'Claim Number',value:record.claimNumber},{label:'Insured Name',value:record.insuredName},{label:'Policy Number',value:record.policyNumber},{label:'Loss Date',value:record.lossDate},{label:'Reported Date',value:record.reportedDate},{label:'Claim Amount',value:record.claimAmount},{label:'Claim Status',value:record.claimStatus}].map(({label,value})=>(
+                        {[{label:'Claim Number',value:record.claimNumber},{label:'Insured Name',value:record.insuredName},{label:'Policy Number',value:record.policyNumber},{label:'Loss Date',value:record.lossDate},{label:'CAT Number',value:record.catNumber||'Non-CAT'},{label:'Event Name',value:record.catEventName||'Non-CAT'},{label:'Reported Date',value:record.reportedDate},{label:'Claim Amount',value:record.claimAmount},{label:'Claim Status',value:record.claimStatus}].map(({label,value})=>(
                           <div key={label}><div className="cid-snapshot__field-label">{label}</div><div className="cid-snapshot__field-value">{value||'—'}</div></div>
                         ))}
                       </div>
@@ -1673,6 +1668,30 @@ const ClaimIntakeDetails: React.FC = () => {
                             </div>
                           </li>
                         )}
+                        {selectedRecord && (
+                          <li className="cid-ai-sum-section__item cid-ai-signal">
+                            <span className="cid-ai-signal__text">
+                              {selectedRecord.catNumber
+                                ? `CAT claim: ${selectedRecord.catNumber}, ${selectedRecord.catEventName} (incident ${selectedRecord.lossDate || 'date unknown'})`
+                                : 'Non-CAT claim: not tied to a catastrophe event'}
+                            </span>
+                            <span className={`cid-ai-signal__badge ${selectedRecord.catNumber ? 'cid-ai-signal__badge--iso' : 'cid-ai-signal__badge--iso-clear'}`}>
+                              {selectedRecord.catNumber ? 'CAT' : 'Non-CAT'}
+                            </span>
+                          </li>
+                        )}
+                        {selectedRecord && (
+                          <li className="cid-ai-sum-section__item cid-ai-signal">
+                            <span className="cid-ai-signal__text">
+                              {selectedRecord.publicAdjusterFirm
+                                ? `Public adjuster retained: ${selectedRecord.publicAdjusterFirm}`
+                                : 'No public adjuster on this claim'}
+                            </span>
+                            <span className={`cid-ai-signal__badge ${selectedRecord.publicAdjusterFirm ? 'cid-ai-signal__badge--iso' : 'cid-ai-signal__badge--iso-clear'}`}>
+                              {selectedRecord.publicAdjusterFirm ? 'Public adjuster' : 'No PA'}
+                            </span>
+                          </li>
+                        )}
                         {claimSummaryData.signals.map((sig, i) => (
                           <li key={i} className="cid-ai-sum-section__item cid-ai-signal">
                             <span className="cid-ai-signal__text">{sig.text}</span>
@@ -1709,7 +1728,7 @@ const ClaimIntakeDetails: React.FC = () => {
                           const role    = roleIdx >= 0 ? allRoles[roleIdx] : undefined;
                           return {
                             svcName,
-                            svcNum:      roleIdx >= 0 ? `S-${String(roleIdx + 1).padStart(2, '0')}` : `S-${String(i + 1).padStart(2, '0')}`,
+                            svcNum:      roleIdx >= 0 ? `S-${String(roleIdx + 1).padStart(2, '0')}` : `S-${String(allRoles.length + i + 1).padStart(2, '0')}`,
                             explanation: role?.nlpConditionInWords || role?.nlpCondition || '',
                             color:       QAI_COLORS[i % QAI_COLORS.length],
                           };

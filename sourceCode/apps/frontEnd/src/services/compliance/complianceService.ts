@@ -11,7 +11,14 @@ export async function fetchCatEvents(): Promise<ComplianceEventsResponse> {
   return json<ComplianceEventsResponse>(await fetch(`${BASE}/events`));
 }
 
-export async function fetchComplianceSummary(eventId: string): Promise<ComplianceSummary> {
-  const data = await json<{ success: boolean; data: ComplianceSummary }>(await fetch(`${BASE}/summary?eventId=${encodeURIComponent(eventId)}`));
+export interface SummaryScope { eventId: string; from?: string; to?: string; eventType?: string; }
+
+export async function fetchComplianceSummary(scope: SummaryScope | string): Promise<ComplianceSummary> {
+  const sc: SummaryScope = typeof scope === 'string' ? { eventId: scope } : scope;
+  const q = new URLSearchParams({ eventId: sc.eventId });
+  if (sc.from) q.set('from', sc.from);
+  if (sc.to) q.set('to', sc.to);
+  if (sc.eventType) q.set('eventType', sc.eventType);
+  const data = await json<{ success: boolean; data: ComplianceSummary }>(await fetch(`${BASE}/summary?${q.toString()}`));
   return data.data;
 }
