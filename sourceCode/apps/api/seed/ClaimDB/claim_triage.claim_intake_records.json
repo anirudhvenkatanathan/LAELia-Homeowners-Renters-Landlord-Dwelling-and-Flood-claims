@@ -122,9 +122,9 @@
       {
         "roleName": "Repair Network Referral",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Sunstate Roofing Inspections",
-        "proposedVendor": "Sunstate Roofing Inspections",
-        "selectedVendor": "Sunstate Roofing Inspections",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "M6 Building Solutions",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-10-02T12:00:00.000Z",
@@ -135,9 +135,9 @@
       {
         "roleName": "Estimate & Invoice Review",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Coastal Claim Estimators",
-        "proposedVendor": "Coastal Claim Estimators",
-        "selectedVendor": "Coastal Claim Estimators",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "M6 Building Solutions",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-10-02T12:00:00.000Z",
@@ -148,9 +148,9 @@
       {
         "roleName": "Roof Surface Review",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Sunstate Roofing Inspections",
-        "proposedVendor": "Sunstate Roofing Inspections",
-        "selectedVendor": "Sunstate Roofing Inspections",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "M6 Building Solutions",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-10-02T12:00:00.000Z",
@@ -175,9 +175,9 @@
     "vendorServices": [
       "Sunstate Water Mitigation",
       "Gulfshore Restoration Group",
-      "Sunstate Roofing Inspections",
-      "Coastal Claim Estimators",
-      "Sunstate Roofing Inspections",
+      "M6 Building Solutions",
+      "M6 Building Solutions",
+      "M6 Building Solutions",
       "Safe Harbor Temporary Housing"
     ],
     "servicesTriggered": 6,
@@ -421,9 +421,9 @@
       {
         "roleName": "Estimate & Invoice Review",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Coastal Claim Estimators",
-        "proposedVendor": "Coastal Claim Estimators",
-        "selectedVendor": "Coastal Claim Estimators",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "M6 Building Solutions",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-13T12:00:00.000Z",
@@ -490,7 +490,7 @@
       "Harbor Forensic Engineering",
       "Palmetto Recovery Group",
       "Tri-County Fire Analysis",
-      "Coastal Claim Estimators",
+      "M6 Building Solutions",
       "Keystone Contents Services",
       "Gulfshore Restoration Group",
       "Safe Harbor Temporary Housing",
@@ -902,9 +902,9 @@
       {
         "roleName": "Estimate & Invoice Review",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Coastal Claim Estimators",
-        "proposedVendor": "Coastal Claim Estimators",
-        "selectedVendor": "Coastal Claim Estimators",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "M6 Building Solutions",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-07T12:00:00.000Z",
@@ -928,9 +928,9 @@
       {
         "roleName": "Roof Surface Review",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Sunstate Roofing Inspections",
-        "proposedVendor": "Sunstate Roofing Inspections",
-        "selectedVendor": "Sunstate Roofing Inspections",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "M6 Building Solutions",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-07T12:00:00.000Z",
@@ -958,9 +958,9 @@
     ],
     "vendorServices": [
       "Sunstate Water Mitigation",
-      "Coastal Claim Estimators",
+      "M6 Building Solutions",
       "Sawgrass Insurance Law Group",
-      "Sunstate Roofing Inspections",
+      "M6 Building Solutions",
       "Lakeshore Forensic Accounting"
     ],
     "servicesTriggered": 4,
@@ -1376,9 +1376,9 @@
       {
         "roleName": "Repair Network Referral",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Sunstate Roofing Inspections",
-        "proposedVendor": "Sunstate Roofing Inspections",
-        "selectedVendor": "Sunstate Roofing Inspections",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "M6 Building Solutions",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-10T12:00:00.000Z",
@@ -1389,9 +1389,9 @@
       {
         "roleName": "Estimate & Invoice Review",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Coastal Claim Estimators",
-        "proposedVendor": "Coastal Claim Estimators",
-        "selectedVendor": "Coastal Claim Estimators",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "M6 Building Solutions",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-10T12:00:00.000Z",
@@ -1416,8 +1416,8 @@
     "vendorServices": [
       "Sunstate Water Mitigation",
       "Coastal Claim Estimators",
-      "Sunstate Roofing Inspections",
-      "Coastal Claim Estimators",
+      "M6 Building Solutions",
+      "M6 Building Solutions",
       "Safe Harbor Temporary Housing"
     ],
     "servicesTriggered": 5,
@@ -3651,9 +3651,9 @@
       {
         "roleName": "Estimate & Invoice Review",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Coastal Claim Estimators",
-        "proposedVendor": "Coastal Claim Estimators",
-        "selectedVendor": "Coastal Claim Estimators",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "M6 Building Solutions",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-09T12:00:00.000Z",
@@ -3678,7 +3678,7 @@
     "vendorServices": [
       "Sunstate Water Mitigation",
       "Lakeshore Forensic Accounting",
-      "Coastal Claim Estimators",
+      "M6 Building Solutions",
       "Palmetto Recovery Group"
     ],
     "servicesTriggered": 4,
@@ -3875,9 +3875,9 @@
       {
         "roleName": "Estimate & Invoice Review",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Coastal Claim Estimators",
-        "proposedVendor": "Coastal Claim Estimators",
-        "selectedVendor": "Coastal Claim Estimators",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "M6 Building Solutions",
         "status": "Pending Review",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-09-17T12:00:00.000Z",
@@ -3928,7 +3928,7 @@
     ],
     "vendorServices": [
       "Sunstate Water Mitigation",
-      "Coastal Claim Estimators",
+      "M6 Building Solutions",
       "Magnolia Coverage Counsel",
       "Occupancy Verification Services",
       "Palmetto Recovery Group"
@@ -4327,9 +4327,9 @@
       {
         "roleName": "Estimate & Invoice Review",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Coastal Claim Estimators",
-        "proposedVendor": "Coastal Claim Estimators",
-        "selectedVendor": "Estimate Integrity Partners",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "Coastal Claim Estimators",
         "status": "Pending Review",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-27T12:00:00.000Z",
@@ -4367,7 +4367,7 @@
       }
     ],
     "vendorServices": [
-      "Estimate Integrity Partners",
+      "Coastal Claim Estimators",
       "Sawgrass Insurance Law Group",
       "Palmetto Recovery Group"
     ],
@@ -4646,9 +4646,9 @@
       {
         "roleName": "Repair Network Referral",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Sunstate Roofing Inspections",
-        "proposedVendor": "Sunstate Roofing Inspections",
-        "selectedVendor": "Sunstate Roofing Inspections",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "M6 Building Solutions",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-05T12:00:00.000Z",
@@ -4659,9 +4659,9 @@
       {
         "roleName": "Estimate & Invoice Review",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Coastal Claim Estimators",
-        "proposedVendor": "Coastal Claim Estimators",
-        "selectedVendor": "Coastal Claim Estimators",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "M6 Building Solutions",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-05T12:00:00.000Z",
@@ -4676,8 +4676,8 @@
       "Harbor Forensic Engineering",
       "Palmetto Recovery Group",
       "Gulfshore Restoration Group",
-      "Sunstate Roofing Inspections",
-      "Coastal Claim Estimators"
+      "M6 Building Solutions",
+      "M6 Building Solutions"
     ],
     "servicesTriggered": 7,
     "__v": 0,
@@ -5243,9 +5243,9 @@
       {
         "roleName": "Estimate & Invoice Review",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Coastal Claim Estimators",
-        "proposedVendor": "Coastal Claim Estimators",
-        "selectedVendor": "Coastal Claim Estimators",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "M6 Building Solutions",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-07-27T12:00:00.000Z",
@@ -5256,7 +5256,7 @@
     ],
     "vendorServices": [
       "Clarity Claim Letters",
-      "Coastal Claim Estimators"
+      "M6 Building Solutions"
     ],
     "servicesTriggered": 2,
     "__v": 0,
@@ -5508,9 +5508,9 @@
       {
         "roleName": "Estimate & Invoice Review",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Coastal Claim Estimators",
-        "proposedVendor": "Coastal Claim Estimators",
-        "selectedVendor": "Coastal Claim Estimators",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "M6 Building Solutions",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-17T12:00:00.000Z",
@@ -5524,7 +5524,7 @@
       "Harbor Forensic Engineering",
       "Palmetto Recovery Group",
       "Tri-County Fire Analysis",
-      "Coastal Claim Estimators"
+      "M6 Building Solutions"
     ],
     "servicesTriggered": 5,
     "__v": 0,
@@ -5998,9 +5998,9 @@
       {
         "roleName": "Estimate & Invoice Review",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Coastal Claim Estimators",
-        "proposedVendor": "Coastal Claim Estimators",
-        "selectedVendor": "Coastal Claim Estimators",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "M6 Building Solutions",
         "status": "Locked",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-09-20T12:00:00.000Z",
@@ -6025,7 +6025,7 @@
     "vendorServices": [
       "Bayfront Independent Adjusters",
       "Harbor Forensic Engineering",
-      "Coastal Claim Estimators",
+      "M6 Building Solutions",
       "Magnolia Coverage Counsel"
     ],
     "servicesTriggered": 4,
@@ -6351,9 +6351,9 @@
       {
         "roleName": "Estimate & Invoice Review",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Coastal Claim Estimators",
-        "proposedVendor": "Coastal Claim Estimators",
-        "selectedVendor": "Estimate Integrity Partners",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "Coastal Claim Estimators",
         "status": "Pending Review",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-09-13T12:00:00.000Z",
@@ -6404,7 +6404,7 @@
       }
     ],
     "vendorServices": [
-      "Estimate Integrity Partners",
+      "Coastal Claim Estimators",
       "Magnolia Coverage Counsel",
       "Clarity Claim Letters",
       "Palmetto Recovery Group"
@@ -6499,9 +6499,9 @@
       {
         "roleName": "Estimate & Invoice Review",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Coastal Claim Estimators",
-        "proposedVendor": "Coastal Claim Estimators",
-        "selectedVendor": "Estimate Integrity Partners",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "Coastal Claim Estimators",
         "status": "Pending Review",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-25T12:00:00.000Z",
@@ -6526,9 +6526,9 @@
       {
         "roleName": "Roof Surface Review",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Sunstate Roofing Inspections",
-        "proposedVendor": "Sunstate Roofing Inspections",
-        "selectedVendor": "Sunstate Roofing Inspections",
+        "recommendedVendor": "M6 Building Solutions",
+        "proposedVendor": "M6 Building Solutions",
+        "selectedVendor": "M6 Building Solutions",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-25T12:00:00.000Z",
@@ -6538,9 +6538,9 @@
       }
     ],
     "vendorServices": [
-      "Estimate Integrity Partners",
+      "Coastal Claim Estimators",
       "Sawgrass Insurance Law Group",
-      "Sunstate Roofing Inspections"
+      "M6 Building Solutions"
     ],
     "servicesTriggered": 3,
     "__v": 0,
