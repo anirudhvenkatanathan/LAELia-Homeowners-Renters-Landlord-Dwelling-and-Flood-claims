@@ -1709,7 +1709,7 @@
     "fileName": "general-liability-insurance-1m.pdf",
     "filePath": "",
     "fileBase64": "",
-    "approvalStatus": "Pending",
+    "approvalStatus": "Approved",
     "comments": "",
     "uploadedBy": "admin",
     "uploadedAt": {
@@ -1769,7 +1769,7 @@
     "fileName": "florida-licence-per-covered-service-adju.pdf",
     "filePath": "",
     "fileBase64": "",
-    "approvalStatus": "Pending",
+    "approvalStatus": "Approved",
     "comments": "",
     "uploadedBy": "admin",
     "uploadedAt": {
@@ -1829,7 +1829,7 @@
     "fileName": "carrier-reference-of-comparable-scale.pdf",
     "filePath": "",
     "fileBase64": "",
-    "approvalStatus": "Pending",
+    "approvalStatus": "Approved",
     "comments": "",
     "uploadedBy": "admin",
     "uploadedAt": {
@@ -1889,7 +1889,7 @@
     "fileName": "performance-monitoring-plan-sla-cycle-ti.pdf",
     "filePath": "",
     "fileBase64": "",
-    "approvalStatus": "Pending",
+    "approvalStatus": "Approved",
     "comments": "",
     "uploadedBy": "admin",
     "uploadedAt": {
@@ -1949,11 +1949,291 @@
     "fileName": "willingness-to-accept-performance-based-.pdf",
     "filePath": "",
     "fileBase64": "",
-    "approvalStatus": "Pending",
+    "approvalStatus": "Approved",
     "comments": "",
     "uploadedBy": "admin",
     "uploadedAt": {
       "$date": "2026-07-28T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d697fbb7e5dc13c006131fe0"
+    },
+    "vendorId": "478a79b24dd89ae7eacc3777",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "01cb4203f9db4b456dca0e61",
+    "fileName": "professional-e-o-liability-insurance-1m.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-07-29T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "4b7301987e08b8616b13ab5b"
+    },
+    "vendorId": "478a79b24dd89ae7eacc3777",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "dd791c9bfbe0b23e3dc7278d",
+    "fileName": "general-liability-insurance-1m.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-07-29T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "c8dd9c1955cd48d0b83c218c"
+    },
+    "vendorId": "478a79b24dd89ae7eacc3777",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "461b9414be524186f571f75e",
+    "fileName": "workers-compensation-insurance-statutory.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-07-29T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a89c1aebdd0c80b36aef8765"
+    },
+    "vendorId": "478a79b24dd89ae7eacc3777",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "6c6b2cd793e69918c098ba51",
+    "fileName": "business-license-legal-entity-tax-id.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-07-29T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e07b1c92bb77219a986b081e"
+    },
+    "vendorId": "478a79b24dd89ae7eacc3777",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "48abde57c481c2a80dc4bf66",
+    "fileName": "florida-licence-per-covered-service-adju.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-07-29T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "02a29b7dc9aecb45416f5a85"
+    },
+    "vendorId": "478a79b24dd89ae7eacc3777",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "35e428adf112cb17324a732a",
+    "fileName": "background-checks-on-field-personnel.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-07-29T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a4311505c2bbb6937dbcae60"
+    },
+    "vendorId": "478a79b24dd89ae7eacc3777",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "2dbb79e96f519125dba5c470",
+    "fileName": "3-years-in-each-applied-service-category.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-07-29T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "4e3ee42b0045fe2dbb2ff2c6"
+    },
+    "vendorId": "478a79b24dd89ae7eacc3777",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "18b43fb222458c6c92ea4e12",
+    "fileName": "carrier-reference-of-comparable-scale.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-07-29T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "587a481da9efa6749566e245"
+    },
+    "vendorId": "478a79b24dd89ae7eacc3777",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "674fd9e1d2cc961473f4a2d4",
+    "fileName": "capacity-attestation-max-claim-volume-pe.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-07-29T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "5e7e9b6f195b54a2c3e2ab81"
+    },
+    "vendorId": "478a79b24dd89ae7eacc3777",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "733af2bba9414b0fbcfbbf85",
+    "fileName": "cat-surge-attestation-capacity-to-scale-.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-07-29T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ad758afd5b8660dcb4ff9f79"
+    },
+    "vendorId": "478a79b24dd89ae7eacc3777",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "a4aaadd7164ec4f4b23ef872",
+    "fileName": "performance-monitoring-plan-sla-cycle-ti.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-07-29T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "54bb85ef9a4f6e54467a03fc"
+    },
+    "vendorId": "478a79b24dd89ae7eacc3777",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "2cceee3e18da11631e31e90e",
+    "fileName": "prior-pilot-disclosure-including-failure.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-07-29T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e81f06d53ec0f6b29c15507e"
+    },
+    "vendorId": "478a79b24dd89ae7eacc3777",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "0a695d67e0816e625a7ab887",
+    "fileName": "third-party-analyst-rating-if-category-h.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-07-29T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "3ea550b2b40c3d446e86374f"
+    },
+    "vendorId": "478a79b24dd89ae7eacc3777",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "2c55691e6e89e814fa0358dc",
+    "fileName": "willingness-to-accept-performance-based-.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-07-29T12:00:00.000Z"
     },
     "waiveReasonId": "",
     "waiveReasonName": "",
@@ -2269,7 +2549,7 @@
     "fileName": "general-liability-insurance-1m.pdf",
     "filePath": "",
     "fileBase64": "",
-    "approvalStatus": "Pending",
+    "approvalStatus": "Approved",
     "comments": "",
     "uploadedBy": "admin",
     "uploadedAt": {
@@ -2329,7 +2609,7 @@
     "fileName": "florida-licence-per-covered-service-adju.pdf",
     "filePath": "",
     "fileBase64": "",
-    "approvalStatus": "Pending",
+    "approvalStatus": "Approved",
     "comments": "",
     "uploadedBy": "admin",
     "uploadedAt": {
@@ -2389,7 +2669,7 @@
     "fileName": "carrier-reference-of-comparable-scale.pdf",
     "filePath": "",
     "fileBase64": "",
-    "approvalStatus": "Pending",
+    "approvalStatus": "Approved",
     "comments": "",
     "uploadedBy": "admin",
     "uploadedAt": {
@@ -2449,7 +2729,7 @@
     "fileName": "performance-monitoring-plan-sla-cycle-ti.pdf",
     "filePath": "",
     "fileBase64": "",
-    "approvalStatus": "Pending",
+    "approvalStatus": "Approved",
     "comments": "",
     "uploadedBy": "admin",
     "uploadedAt": {
@@ -2509,7 +2789,7 @@
     "fileName": "willingness-to-accept-performance-based-.pdf",
     "filePath": "",
     "fileBase64": "",
-    "approvalStatus": "Pending",
+    "approvalStatus": "Approved",
     "comments": "",
     "uploadedBy": "admin",
     "uploadedAt": {
@@ -2794,6 +3074,286 @@
     "uploadedBy": "admin",
     "uploadedAt": {
       "$date": "2026-08-01T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "4ec672331af793caa6f78570"
+    },
+    "vendorId": "0fe2f0e542c384a6d176b38d",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "01cb4203f9db4b456dca0e61",
+    "fileName": "professional-e-o-liability-insurance-1m.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-02T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "adbdc62fed57b17d486dc269"
+    },
+    "vendorId": "0fe2f0e542c384a6d176b38d",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "dd791c9bfbe0b23e3dc7278d",
+    "fileName": "general-liability-insurance-1m.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-02T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e90627631192fe0293c5f6a3"
+    },
+    "vendorId": "0fe2f0e542c384a6d176b38d",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "461b9414be524186f571f75e",
+    "fileName": "workers-compensation-insurance-statutory.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-02T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "2b0242023c5ef4f5c1a65e74"
+    },
+    "vendorId": "0fe2f0e542c384a6d176b38d",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "6c6b2cd793e69918c098ba51",
+    "fileName": "business-license-legal-entity-tax-id.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-02T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "43765e727ca241fa843d7524"
+    },
+    "vendorId": "0fe2f0e542c384a6d176b38d",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "48abde57c481c2a80dc4bf66",
+    "fileName": "florida-licence-per-covered-service-adju.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-02T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6e0b84f098c989b35e5ff5ee"
+    },
+    "vendorId": "0fe2f0e542c384a6d176b38d",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "35e428adf112cb17324a732a",
+    "fileName": "background-checks-on-field-personnel.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-02T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d77d8aaaff7f5de47fd73a3a"
+    },
+    "vendorId": "0fe2f0e542c384a6d176b38d",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "2dbb79e96f519125dba5c470",
+    "fileName": "3-years-in-each-applied-service-category.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-02T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "255fe444b23b97482edaf22d"
+    },
+    "vendorId": "0fe2f0e542c384a6d176b38d",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "18b43fb222458c6c92ea4e12",
+    "fileName": "carrier-reference-of-comparable-scale.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-02T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "36d17d8f6dfc49f244bce9ff"
+    },
+    "vendorId": "0fe2f0e542c384a6d176b38d",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "674fd9e1d2cc961473f4a2d4",
+    "fileName": "capacity-attestation-max-claim-volume-pe.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-02T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "778ac03b880082004ee21813"
+    },
+    "vendorId": "0fe2f0e542c384a6d176b38d",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "733af2bba9414b0fbcfbbf85",
+    "fileName": "cat-surge-attestation-capacity-to-scale-.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-02T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "0fffb31fe2b67290fd7cfc6a"
+    },
+    "vendorId": "0fe2f0e542c384a6d176b38d",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "a4aaadd7164ec4f4b23ef872",
+    "fileName": "performance-monitoring-plan-sla-cycle-ti.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-02T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63351a634f12e45d48afa8a7"
+    },
+    "vendorId": "0fe2f0e542c384a6d176b38d",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "2cceee3e18da11631e31e90e",
+    "fileName": "prior-pilot-disclosure-including-failure.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-02T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ce499fef393df3aff80b5582"
+    },
+    "vendorId": "0fe2f0e542c384a6d176b38d",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "0a695d67e0816e625a7ab887",
+    "fileName": "third-party-analyst-rating-if-category-h.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-02T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "eb534faac23671cf1bf92bd8"
+    },
+    "vendorId": "0fe2f0e542c384a6d176b38d",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "2c55691e6e89e814fa0358dc",
+    "fileName": "willingness-to-accept-performance-based-.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-02T12:00:00.000Z"
     },
     "waiveReasonId": "",
     "waiveReasonName": "",
@@ -6714,6 +7274,566 @@
     "uploadedBy": "admin",
     "uploadedAt": {
       "$date": "2026-08-16T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "44fc7416d5b376b864e310e7"
+    },
+    "vendorId": "0d678d3bcb9676ad428a3ced",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "01cb4203f9db4b456dca0e61",
+    "fileName": "professional-e-o-liability-insurance-1m.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-19T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "44a3515d72a6d9ad9c832ca7"
+    },
+    "vendorId": "0d678d3bcb9676ad428a3ced",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "dd791c9bfbe0b23e3dc7278d",
+    "fileName": "general-liability-insurance-1m.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Pending",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-19T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "9f1ca58dc4087fed17e84135"
+    },
+    "vendorId": "0d678d3bcb9676ad428a3ced",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "461b9414be524186f571f75e",
+    "fileName": "workers-compensation-insurance-statutory.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-19T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e76d53b758ea10ea7f2ec1d1"
+    },
+    "vendorId": "0d678d3bcb9676ad428a3ced",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "6c6b2cd793e69918c098ba51",
+    "fileName": "business-license-legal-entity-tax-id.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-19T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "9a7e9592d2a8c0effaf65f9c"
+    },
+    "vendorId": "0d678d3bcb9676ad428a3ced",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "48abde57c481c2a80dc4bf66",
+    "fileName": "florida-licence-per-covered-service-adju.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Pending",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-19T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "2efacb6d6f84e2a430f22dde"
+    },
+    "vendorId": "0d678d3bcb9676ad428a3ced",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "35e428adf112cb17324a732a",
+    "fileName": "background-checks-on-field-personnel.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-19T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6b412a9949d3b2fa9d7e9a00"
+    },
+    "vendorId": "0d678d3bcb9676ad428a3ced",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "2dbb79e96f519125dba5c470",
+    "fileName": "3-years-in-each-applied-service-category.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-19T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "581b51e72b612b3a728469c0"
+    },
+    "vendorId": "0d678d3bcb9676ad428a3ced",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "18b43fb222458c6c92ea4e12",
+    "fileName": "carrier-reference-of-comparable-scale.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Pending",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-19T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "c33995a25b6dbcd20889704c"
+    },
+    "vendorId": "0d678d3bcb9676ad428a3ced",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "674fd9e1d2cc961473f4a2d4",
+    "fileName": "capacity-attestation-max-claim-volume-pe.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-19T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "bdc8fd30c6f3c3418f0ef47d"
+    },
+    "vendorId": "0d678d3bcb9676ad428a3ced",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "733af2bba9414b0fbcfbbf85",
+    "fileName": "cat-surge-attestation-capacity-to-scale-.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-19T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "718f94f4b42542a69623052f"
+    },
+    "vendorId": "0d678d3bcb9676ad428a3ced",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "a4aaadd7164ec4f4b23ef872",
+    "fileName": "performance-monitoring-plan-sla-cycle-ti.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Pending",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-19T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f8673263e2e419e875a76f36"
+    },
+    "vendorId": "0d678d3bcb9676ad428a3ced",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "2cceee3e18da11631e31e90e",
+    "fileName": "prior-pilot-disclosure-including-failure.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-19T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "885ba03c8d9ee118bea832e6"
+    },
+    "vendorId": "0d678d3bcb9676ad428a3ced",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "0a695d67e0816e625a7ab887",
+    "fileName": "third-party-analyst-rating-if-category-h.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-19T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "8768bb5c937e4ccb4f60199f"
+    },
+    "vendorId": "0d678d3bcb9676ad428a3ced",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "2c55691e6e89e814fa0358dc",
+    "fileName": "willingness-to-accept-performance-based-.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Pending",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-19T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "48aa8c2f198a7a3ac8a8a53e"
+    },
+    "vendorId": "aa6d4b9c6ea054b05a1e3daf",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "01cb4203f9db4b456dca0e61",
+    "fileName": "professional-e-o-liability-insurance-1m.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-20T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d8e9e512524b8007cf799997"
+    },
+    "vendorId": "aa6d4b9c6ea054b05a1e3daf",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "dd791c9bfbe0b23e3dc7278d",
+    "fileName": "general-liability-insurance-1m.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Pending",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-20T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d35b1df4949258c1742180ba"
+    },
+    "vendorId": "aa6d4b9c6ea054b05a1e3daf",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "461b9414be524186f571f75e",
+    "fileName": "workers-compensation-insurance-statutory.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-20T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "81496acfbcd52362eb116c71"
+    },
+    "vendorId": "aa6d4b9c6ea054b05a1e3daf",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "6c6b2cd793e69918c098ba51",
+    "fileName": "business-license-legal-entity-tax-id.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-20T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "3ce75d33404518f7a682c45a"
+    },
+    "vendorId": "aa6d4b9c6ea054b05a1e3daf",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "48abde57c481c2a80dc4bf66",
+    "fileName": "florida-licence-per-covered-service-adju.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Pending",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-20T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e630dc1eac648dc3cd0b6d7a"
+    },
+    "vendorId": "aa6d4b9c6ea054b05a1e3daf",
+    "vendorStageId": "6841a101f1a23c0012342452",
+    "vendorConfirmationId": "35e428adf112cb17324a732a",
+    "fileName": "background-checks-on-field-personnel.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-20T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "4b973136b7bd6a3d456a3992"
+    },
+    "vendorId": "aa6d4b9c6ea054b05a1e3daf",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "2dbb79e96f519125dba5c470",
+    "fileName": "3-years-in-each-applied-service-category.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-20T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67de42ff3201699869ba64fa"
+    },
+    "vendorId": "aa6d4b9c6ea054b05a1e3daf",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "18b43fb222458c6c92ea4e12",
+    "fileName": "carrier-reference-of-comparable-scale.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Pending",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-20T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "4e3e470a770e54550b8df7d1"
+    },
+    "vendorId": "aa6d4b9c6ea054b05a1e3daf",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "674fd9e1d2cc961473f4a2d4",
+    "fileName": "capacity-attestation-max-claim-volume-pe.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-20T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "140a341b42739ffe3d72e4b8"
+    },
+    "vendorId": "aa6d4b9c6ea054b05a1e3daf",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "733af2bba9414b0fbcfbbf85",
+    "fileName": "cat-surge-attestation-capacity-to-scale-.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-20T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "720676e8600fb1a301102484"
+    },
+    "vendorId": "aa6d4b9c6ea054b05a1e3daf",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "a4aaadd7164ec4f4b23ef872",
+    "fileName": "performance-monitoring-plan-sla-cycle-ti.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Pending",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-20T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e67eedb2074a61b1a1422cd2"
+    },
+    "vendorId": "aa6d4b9c6ea054b05a1e3daf",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "2cceee3e18da11631e31e90e",
+    "fileName": "prior-pilot-disclosure-including-failure.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-20T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "7f6d1576d517e2b005f81a2a"
+    },
+    "vendorId": "aa6d4b9c6ea054b05a1e3daf",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "0a695d67e0816e625a7ab887",
+    "fileName": "third-party-analyst-rating-if-category-h.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Approved",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-20T12:00:00.000Z"
+    },
+    "waiveReasonId": "",
+    "waiveReasonName": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "35d729f3531cfd873204c77b"
+    },
+    "vendorId": "aa6d4b9c6ea054b05a1e3daf",
+    "vendorStageId": "6841a101f1a23c0012342454",
+    "vendorConfirmationId": "2c55691e6e89e814fa0358dc",
+    "fileName": "willingness-to-accept-performance-based-.pdf",
+    "filePath": "",
+    "fileBase64": "",
+    "approvalStatus": "Pending",
+    "comments": "",
+    "uploadedBy": "admin",
+    "uploadedAt": {
+      "$date": "2026-08-20T12:00:00.000Z"
     },
     "waiveReasonId": "",
     "waiveReasonName": "",

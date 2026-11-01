@@ -386,9 +386,9 @@
       {
         "roleName": "Cause & Origin Specialists",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Proclaim Engineering, Inc",
-        "proposedVendor": "Proclaim Engineering, Inc",
-        "selectedVendor": "DDA Forensics",
+        "recommendedVendor": "DDA Forensics",
+        "proposedVendor": "DDA Forensics",
+        "selectedVendor": "Proclaim Engineering, Inc",
         "status": "Pending Review",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-13T12:00:00.000Z",
@@ -400,9 +400,9 @@
       {
         "roleName": "Forensic Engineers",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Proclaim Engineering, Inc",
-        "proposedVendor": "Proclaim Engineering, Inc",
-        "selectedVendor": "Proclaim Engineering, Inc",
+        "recommendedVendor": "DDA Forensics",
+        "proposedVendor": "DDA Forensics",
+        "selectedVendor": "DDA Forensics",
         "status": "Pending Review",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-13T12:00:00.000Z",
@@ -504,8 +504,8 @@
       }
     ],
     "vendorServices": [
-      "DDA Forensics",
       "Proclaim Engineering, Inc",
+      "DDA Forensics",
       "GrayRobinson",
       "K&R Investigative Group",
       "M6 Building Solutions",
@@ -1101,9 +1101,9 @@
       {
         "roleName": "Cause & Origin Specialists",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Proclaim Engineering, Inc",
-        "proposedVendor": "Proclaim Engineering, Inc",
-        "selectedVendor": "DDA Forensics",
+        "recommendedVendor": "DDA Forensics",
+        "proposedVendor": "DDA Forensics",
+        "selectedVendor": "Proclaim Engineering, Inc",
         "status": "Modified",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-09T12:00:00.000Z",
@@ -1118,9 +1118,9 @@
       {
         "roleName": "Forensic Engineers",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Proclaim Engineering, Inc",
-        "proposedVendor": "Proclaim Engineering, Inc",
-        "selectedVendor": "Proclaim Engineering, Inc",
+        "recommendedVendor": "DDA Forensics",
+        "proposedVendor": "DDA Forensics",
+        "selectedVendor": "DDA Forensics",
         "status": "Locked",
         "confirmedBy": "James Okoro",
         "confirmedAt": "2026-09-09T12:00:00.000Z",
@@ -1199,8 +1199,8 @@
       }
     ],
     "vendorServices": [
-      "DDA Forensics",
       "Proclaim Engineering, Inc",
+      "DDA Forensics",
       "GrayRobinson",
       "Colonial Claims",
       "GrayRobinson",
@@ -2472,9 +2472,9 @@
       {
         "roleName": "Cause & Origin Specialists",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Proclaim Engineering, Inc",
-        "proposedVendor": "Proclaim Engineering, Inc",
-        "selectedVendor": "DDA Forensics",
+        "recommendedVendor": "DDA Forensics",
+        "proposedVendor": "DDA Forensics",
+        "selectedVendor": "Proclaim Engineering, Inc",
         "status": "Pending Review",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-09-19T12:00:00.000Z",
@@ -2537,7 +2537,7 @@
       }
     ],
     "vendorServices": [
-      "DDA Forensics",
+      "Proclaim Engineering, Inc",
       "GrayRobinson",
       "Colonial Claims",
       "K&R Investigative Group",
@@ -4098,9 +4098,9 @@
       {
         "roleName": "Cause & Origin Specialists",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Proclaim Engineering, Inc",
-        "proposedVendor": "Proclaim Engineering, Inc",
-        "selectedVendor": "DDA Forensics",
+        "recommendedVendor": "DDA Forensics",
+        "proposedVendor": "DDA Forensics",
+        "selectedVendor": "Proclaim Engineering, Inc",
         "status": "Modified",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-16T12:00:00.000Z",
@@ -4115,9 +4115,9 @@
       {
         "roleName": "Forensic Engineers",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Proclaim Engineering, Inc",
-        "proposedVendor": "Proclaim Engineering, Inc",
-        "selectedVendor": "Proclaim Engineering, Inc",
+        "recommendedVendor": "DDA Forensics",
+        "proposedVendor": "DDA Forensics",
+        "selectedVendor": "DDA Forensics",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-16T12:00:00.000Z",
@@ -4209,8 +4209,8 @@
       }
     ],
     "vendorServices": [
-      "DDA Forensics",
       "Proclaim Engineering, Inc",
+      "DDA Forensics",
       "MDD Forensic Accountants",
       "GrayRobinson",
       "GrayRobinson",
@@ -4659,9 +4659,9 @@
       {
         "roleName": "Cause & Origin Specialists",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Proclaim Engineering, Inc",
-        "proposedVendor": "Proclaim Engineering, Inc",
-        "selectedVendor": "Proclaim Engineering, Inc",
+        "recommendedVendor": "DDA Forensics",
+        "proposedVendor": "DDA Forensics",
+        "selectedVendor": "DDA Forensics",
         "status": "Pending Review",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-05T12:00:00.000Z",
@@ -4672,9 +4672,9 @@
       {
         "roleName": "Forensic Engineers",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Proclaim Engineering, Inc",
-        "proposedVendor": "Proclaim Engineering, Inc",
-        "selectedVendor": "Proclaim Engineering, Inc",
+        "recommendedVendor": "DDA Forensics",
+        "proposedVendor": "DDA Forensics",
+        "selectedVendor": "DDA Forensics",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-10-05T12:00:00.000Z",
@@ -4737,8 +4737,8 @@
     ],
     "vendorServices": [
       "Kruger Property Solutions",
-      "Proclaim Engineering, Inc",
-      "Proclaim Engineering, Inc",
+      "DDA Forensics",
+      "DDA Forensics",
       "GrayRobinson",
       "Janney Roofing",
       "M6 Building Solutions",
@@ -5520,9 +5520,9 @@
       {
         "roleName": "Cause & Origin Specialists",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Proclaim Engineering, Inc",
-        "proposedVendor": "Proclaim Engineering, Inc",
-        "selectedVendor": "DDA Forensics",
+        "recommendedVendor": "DDA Forensics",
+        "proposedVendor": "DDA Forensics",
+        "selectedVendor": "Proclaim Engineering, Inc",
         "status": "Pending Review",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-17T12:00:00.000Z",
@@ -5534,9 +5534,9 @@
       {
         "roleName": "Forensic Engineers",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Proclaim Engineering, Inc",
-        "proposedVendor": "Proclaim Engineering, Inc",
-        "selectedVendor": "Proclaim Engineering, Inc",
+        "recommendedVendor": "DDA Forensics",
+        "proposedVendor": "DDA Forensics",
+        "selectedVendor": "DDA Forensics",
         "status": "Pending Review",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-10-17T12:00:00.000Z",
@@ -5585,8 +5585,8 @@
       }
     ],
     "vendorServices": [
-      "DDA Forensics",
       "Proclaim Engineering, Inc",
+      "DDA Forensics",
       "GrayRobinson",
       "K&R Investigative Group",
       "M6 Building Solutions"
@@ -5852,9 +5852,9 @@
       {
         "roleName": "Cause & Origin Specialists",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Proclaim Engineering, Inc",
-        "proposedVendor": "Proclaim Engineering, Inc",
-        "selectedVendor": "DDA Forensics",
+        "recommendedVendor": "DDA Forensics",
+        "proposedVendor": "DDA Forensics",
+        "selectedVendor": "Proclaim Engineering, Inc",
         "status": "Modified",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-09-30T12:00:00.000Z",
@@ -5869,9 +5869,9 @@
       {
         "roleName": "Forensic Engineers",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Proclaim Engineering, Inc",
-        "proposedVendor": "Proclaim Engineering, Inc",
-        "selectedVendor": "Proclaim Engineering, Inc",
+        "recommendedVendor": "DDA Forensics",
+        "proposedVendor": "DDA Forensics",
+        "selectedVendor": "DDA Forensics",
         "status": "Locked",
         "confirmedBy": "Priya Nair",
         "confirmedAt": "2026-09-30T12:00:00.000Z",
@@ -5937,8 +5937,8 @@
       }
     ],
     "vendorServices": [
-      "DDA Forensics",
       "Proclaim Engineering, Inc",
+      "DDA Forensics",
       "GrayRobinson",
       "Janney Roofing",
       "Gold Star Adjusters"
@@ -6050,9 +6050,9 @@
       {
         "roleName": "Forensic Engineers",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Proclaim Engineering, Inc",
-        "proposedVendor": "Proclaim Engineering, Inc",
-        "selectedVendor": "Proclaim Engineering, Inc",
+        "recommendedVendor": "DDA Forensics",
+        "proposedVendor": "DDA Forensics",
+        "selectedVendor": "DDA Forensics",
         "status": "Pending Review",
         "confirmedBy": "Sarah Mitchell",
         "confirmedAt": "2026-09-20T12:00:00.000Z",
@@ -6089,7 +6089,7 @@
     ],
     "vendorServices": [
       "Colonial Claims",
-      "Proclaim Engineering, Inc",
+      "DDA Forensics",
       "M6 Building Solutions",
       "GrayRobinson"
     ],
@@ -6713,9 +6713,9 @@
       {
         "roleName": "Cause & Origin Specialists",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Proclaim Engineering, Inc",
-        "proposedVendor": "Proclaim Engineering, Inc",
-        "selectedVendor": "DDA Forensics",
+        "recommendedVendor": "DDA Forensics",
+        "proposedVendor": "DDA Forensics",
+        "selectedVendor": "Proclaim Engineering, Inc",
         "status": "Modified",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-09-16T12:00:00.000Z",
@@ -6730,9 +6730,9 @@
       {
         "roleName": "Forensic Engineers",
         "changeType": "ProviderChange",
-        "recommendedVendor": "Proclaim Engineering, Inc",
-        "proposedVendor": "Proclaim Engineering, Inc",
-        "selectedVendor": "Proclaim Engineering, Inc",
+        "recommendedVendor": "DDA Forensics",
+        "proposedVendor": "DDA Forensics",
+        "selectedVendor": "DDA Forensics",
         "status": "Locked",
         "confirmedBy": "Derek Chan",
         "confirmedAt": "2026-09-16T12:00:00.000Z",
@@ -6824,8 +6824,8 @@
       }
     ],
     "vendorServices": [
-      "DDA Forensics",
       "Proclaim Engineering, Inc",
+      "DDA Forensics",
       "MDD Forensic Accountants",
       "GrayRobinson",
       "Colonial Claims",

@@ -1,6 +1,7 @@
 import { gql } from '@apollo/client';
 import { getApolloClient } from '../../config/apolloClient';
 import { logError } from '../../utils/logError';
+import { registerVendorRatings } from '../../utils/kpiScoring';
 import type { Vendor, VendorFormValues, VendorMutationResponse } from '../../models/vendor/vendorModel';
 
 // ─── Fragments / Queries ──────────────────────────────────────────────────────
@@ -47,6 +48,7 @@ export async function getVendors(): Promise<Vendor[]> {
     const { data } = await client.query<{ getVendors: Vendor[] }>({
       query: GET_VENDORS_QUERY, fetchPolicy: 'network-only',
     });
+    registerVendorRatings(data?.getVendors ?? []);
     return data?.getVendors ?? [];
   } catch (err) { logError(err, 'vendorService.getVendors'); throw err; }
 }
@@ -58,6 +60,7 @@ export async function getVendorById(vendorId: string): Promise<Vendor> {
       query: GET_VENDOR_BY_ID_QUERY, variables: { vendorId }, fetchPolicy: 'network-only',
     });
     if (!data?.getVendorById) throw new Error('Vendor not found');
+    registerVendorRatings([data.getVendorById]);
     return data.getVendorById;
   } catch (err) { logError(err, 'vendorService.getVendorById'); throw err; }
 }
@@ -128,6 +131,7 @@ export async function getVendorPanelVendors(): Promise<Vendor[]> {
     const { data } = await client.query<{ getVendorPanelVendors: Vendor[] }>({
       query: GET_VENDOR_PANEL_QUERY, fetchPolicy: 'network-only',
     });
+    registerVendorRatings(data?.getVendorPanelVendors ?? []);
     return data?.getVendorPanelVendors ?? [];
   } catch (err) { logError(err, 'vendorService.getVendorPanelVendors'); throw err; }
 }
