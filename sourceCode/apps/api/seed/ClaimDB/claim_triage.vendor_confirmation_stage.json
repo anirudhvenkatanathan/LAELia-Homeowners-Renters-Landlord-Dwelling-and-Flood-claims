@@ -77,6 +77,13 @@
     "isMandatory": true
   },
   {
+    "_id": "8eaad75d99aee4f13c909fae",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "8eaad75d99aee4f13c909fae",
+    "vendorConfirmationName": "Appraiser and umpire credentials (appraisal demands)",
+    "isMandatory": false
+  },
+  {
     "_id": "d26c245d1f4ee07863678bb3",
     "vendorStageId": "6841a101f1a23c0012342455",
     "vendorConfirmationId": "d26c245d1f4ee07863678bb3",
@@ -543,34 +550,6 @@
     "vendorStageId": "6841a101f1a23c0012342455",
     "vendorConfirmationId": "5dc6041960d931b3eff11f13",
     "vendorConfirmationName": "Florida licensed counsel evidence",
-    "isMandatory": true
-  },
-  {
-    "_id": "fa7efcc954d88b5850dee224",
-    "vendorStageId": "6841a101f1a23c0012342455",
-    "vendorConfirmationId": "fa7efcc954d88b5850dee224",
-    "vendorConfirmationName": "Appraiser and umpire credentials",
-    "isMandatory": true
-  },
-  {
-    "_id": "25694db910b5b4757dfe5286",
-    "vendorStageId": "6841a101f1a23c0012342455",
-    "vendorConfirmationId": "25694db910b5b4757dfe5286",
-    "vendorConfirmationName": "Appraisal protocol",
-    "isMandatory": true
-  },
-  {
-    "_id": "f7bd9f2aaddefe15cd6a5784",
-    "vendorStageId": "6841a101f1a23c0012342455",
-    "vendorConfirmationId": "f7bd9f2aaddefe15cd6a5784",
-    "vendorConfirmationName": "Sample appraisal award",
-    "isMandatory": true
-  },
-  {
-    "_id": "3cd0fbec829f7ad5f6319c97",
-    "vendorStageId": "6841a101f1a23c0012342455",
-    "vendorConfirmationId": "3cd0fbec829f7ad5f6319c97",
-    "vendorConfirmationName": "Conflict of interest disclosure",
     "isMandatory": true
   },
   {

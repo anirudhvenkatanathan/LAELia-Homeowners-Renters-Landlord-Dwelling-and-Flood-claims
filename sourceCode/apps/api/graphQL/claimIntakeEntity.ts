@@ -333,6 +333,7 @@ export const typeDefs = gql`
     publicAdjusterFeeCapPct: String
     publicAdjusterFeeStatus: String
     independentInvestigatorFirm: String
+    isoFlagTypes: String
     secondLevelReviewRequired: String
     secondLevelReviewStatus: String
   }
@@ -713,6 +714,7 @@ interface PropertyFields {
   publicAdjusterFeeCapPct: string;
   publicAdjusterFeeStatus: string;
   independentInvestigatorFirm: string;
+  isoFlagTypes: string;
   secondLevelReviewRequired: string;
   secondLevelReviewStatus: string;
 }
@@ -756,6 +758,7 @@ function extractPropertyFields(doc: Record<string, unknown>): PropertyFields {
     publicAdjusterFeeCapPct: String(doc['publicAdjusterFeeCapPct'] ?? ''),
     publicAdjusterFeeStatus: String(doc['publicAdjusterFeeStatus'] ?? ''),
     independentInvestigatorFirm: String(doc['independentInvestigatorFirm'] ?? ''),
+    isoFlagTypes: String(doc['isoFlagTypes'] ?? ''),
     secondLevelReviewRequired: String(doc['secondLevelReviewRequired'] ?? ''),
     secondLevelReviewStatus: String(doc['secondLevelReviewStatus'] ?? ''),
   };

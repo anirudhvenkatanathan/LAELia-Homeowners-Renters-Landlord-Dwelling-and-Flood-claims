@@ -23,10 +23,10 @@ const NEW_ROLES = [
 ];
 
 const DEMO_USERS = [
-  { loginId: 'senior-adjuster-login-001', fullName: 'Sarah Mitchell', username: 'sarah.mitchell', roleName: 'Senior Adjuster' },
-  { loginId: 'senior-adjuster-login-002', fullName: 'James Okoro',    username: 'james.okoro',    roleName: 'Senior Adjuster' },
-  { loginId: 'junior-adjuster-login-001', fullName: 'Priya Nair',     username: 'priya.nair',     roleName: 'Junior Adjuster' },
-  { loginId: 'junior-adjuster-login-002', fullName: 'Derek Chan',     username: 'derek.chan',     roleName: 'Junior Adjuster' },
+  { loginId: 'senior-adjuster-login-001', fullName: 'Steve Smith', username: 'steve.smith', roleName: 'Senior Adjuster' },
+  { loginId: 'senior-adjuster-login-002', fullName: 'David Warner',    username: 'david.warner',    roleName: 'Senior Adjuster' },
+  { loginId: 'junior-adjuster-login-001', fullName: 'Pat Cummins',     username: 'pat.cummins',     roleName: 'Junior Adjuster' },
+  { loginId: 'junior-adjuster-login-002', fullName: 'Mitchell Starc',     username: 'mitchell.starc',     roleName: 'Junior Adjuster' },
 ];
 
 async function seed(): Promise<void> {

@@ -110,6 +110,7 @@ export interface IndividualClaimRecord {
   publicAdjusterFeeCapPct?: string;
   publicAdjusterFeeStatus?: string;
   independentInvestigatorFirm?: string;
+  isoFlagTypes?: string;
   secondLevelReviewRequired?: string;
   secondLevelReviewStatus?: string;
 

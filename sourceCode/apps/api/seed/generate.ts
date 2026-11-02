@@ -178,7 +178,7 @@ put('field_mapping_audits', [{ _id: oid('fma'), auditId: uuid('fma'), uploadId: 
 put('field_mapping_records', []);
 
 // ── 7. Claims ──────────────────────────────────────────────────────────────────
-const ADJUSTERS = ['Priya Nair', 'Sarah Mitchell', 'James Okoro', 'Derek Chan'];
+const ADJUSTERS = ['Pat Cummins', 'Steve Smith', 'David Warner', 'Mitchell Starc'];
 const SUPERVISOR = 'claimssupervisor';
 const FORM_TYPE = (c: ClaimSpec) => c.form;
 const active = RULES.map((r) => ({ roleId: roleId(r), roleName: r.name, lineOfBusiness: r.lobs as string[] }));
@@ -210,6 +210,7 @@ for (const c of CLAIMS) {
   // catastrophe tagging: only claims whose loss date and county fall inside an event window carry a CAT number
   const catEv = CAT_EVENTS.find((e) => e.eventId === c.catEventId);
   if (catEv) { flat['catEventId'] = catEv.eventId; flat['catNumber'] = catEv.eventId; flat['catEventName'] = catEv.eventName; flat['catEventType'] = catEv.eventType; }
+  flat['isoFlagTypes'] = c.iso?.length ? c.iso.join(',') : 'None';
   flat['lossCounty'] = c.county; flat['lossZip'] = c.zip ?? '';
   // public adjuster / independent investigator
   if (c.pa) {
@@ -226,6 +227,7 @@ for (const c of CLAIMS) {
     // internal quality metric (backend only): dollars and % by which the independent adjuster reduced the submitted amount
     if (settled) Object.assign(flat, { adjusterReductionAmount: c.amount - settlement, adjusterReductionPct: Math.round(((c.amount - settlement) / c.amount) * 100) });
   }
+  if (c.investigator) flat['independentInvestigatorFirm'] = c.investigator;
   if (c.pa || c.investigator) { flat['secondLevelReviewRequired'] = true; flat['secondLevelReviewStatus'] = c.stage === 'PS' || c.stage === 'PR' ? 'Pending claims manager review' : 'Completed'; }
   // CRF-26A data points: Florida line of business, claim status and paid loss. NFIP (SFIP) claims are federal and are not reported to the OIR.
   const privateFlood = c.lob === 'Flood' && /private flood/i.test(c.cause);

@@ -508,14 +508,15 @@
     "Status": "6841a101f1a23c0012343451",
     "RequalificationStartDate": "2026-07-02T12:00:00.000Z",
     "RequalificationEndDate": "2027-07-02T12:00:00.000Z",
-    "capacity": 15,
+    "capacity": 14,
     "Coverage": "FL",
     "phoneNumber": "+1 (239) 555-0126",
     "turnaroundTime": "3 Business Days",
     "serviceRequestRoleId": [
-      "5a3693f8-0fc6-4985-ae83-37bfe5ce7235"
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+      "d2329338-efe4-49c4-af73-bae9a39c55cb"
     ],
-    "serviceRequestRoleName": "Public Adjuster / Appraisal",
+    "serviceRequestRoleName": "Independent Adjusters, Appraisers/Independent Adjusters",
     "createdBy": "admin",
     "createdAt": "2026-06-02T12:00:00.000Z",
     "uploadedBy": "admin",
@@ -810,14 +811,15 @@
     "Status": "6841a101f1a23c0012343454",
     "RequalificationStartDate": "2026-07-02T12:00:00.000Z",
     "RequalificationEndDate": "2027-07-02T12:00:00.000Z",
-    "capacity": 15,
+    "capacity": 14,
     "Coverage": "FL",
     "phoneNumber": "(321) 701-1371",
     "turnaroundTime": "3 Business Days",
     "serviceRequestRoleId": [
-      "5a3693f8-0fc6-4985-ae83-37bfe5ce7235"
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+      "d2329338-efe4-49c4-af73-bae9a39c55cb"
     ],
-    "serviceRequestRoleName": "Public Adjuster / Appraisal",
+    "serviceRequestRoleName": "Independent Adjusters, Appraisers/Independent Adjusters",
     "createdBy": "admin",
     "createdAt": "2026-06-02T12:00:00.000Z",
     "uploadedBy": "admin",
@@ -843,10 +845,10 @@
     "phoneNumber": "(813) 935-9364",
     "turnaroundTime": "3 Business Days",
     "serviceRequestRoleId": [
-      "5a3693f8-0fc6-4985-ae83-37bfe5ce7235",
-      "05d3b64a-4307-4139-a2c0-4b42bc63199a"
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+      "d2329338-efe4-49c4-af73-bae9a39c55cb"
     ],
-    "serviceRequestRoleName": "Public Adjuster / Appraisal, Independent Adjusters",
+    "serviceRequestRoleName": "Independent Adjusters, Appraisers/Independent Adjusters",
     "createdBy": "admin",
     "createdAt": "2026-06-02T12:00:00.000Z",
     "uploadedBy": "admin",

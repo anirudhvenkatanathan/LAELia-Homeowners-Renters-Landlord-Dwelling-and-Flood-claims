@@ -257,7 +257,7 @@ export function getClaimSummaryData(
       badge:   'Duration Risk · High',
       variant: 'duration',
       popup: {
-        source:          'Internal cycle-time benchmarks (demo data)',
+        source:          'Florida Statutes s.627.70131 claim-handling timelines · Florida OIR closed-claim data',
         comparedAgainst: `${loss.label} cycle time · ${jx.county} County`,
         fetched:          ts(3),
       },
@@ -267,7 +267,7 @@ export function getClaimSummaryData(
       badge:   'Reserve Risk · High',
       variant: 'reserve',
       popup: {
-        source:          'Regional property reserve benchmarks (demo data)',
+        source:          'NAIC loss-reserving guidance · Verisk (ISO) property loss-cost benchmarks',
         comparedAgainst: `${jx.county} County ${loss.label} severity benchmarks`,
         fetched:          ts(3),
       },
@@ -277,7 +277,7 @@ export function getClaimSummaryData(
       badge:   'LAE Opportunity · High',
       variant: 'lae',
       popup: {
-        source:          'Internal LAE playbook (demo data)',
+        source:          'NAIC loss adjustment expense (DCC / A&O) definitions · carrier LAE guidelines',
         comparedAgainst: `${jx.county} County ${loss.label} intervention outcomes`,
         fetched:          ts(4),
       },

@@ -40,7 +40,7 @@ const RULES_BY_PROFILE: Record<keyof typeof PROFILES, string[]> = {
   investigation:     ['Cause & Origin Specialists', 'Forensic Engineers', 'Forensic Accountant', 'Desk investigations', 'Scene Investigation & Official Reports', 'Independent Adjusters', 'Vacancy Review'],
   recovery:          ['Subrogation', 'Tenant-Caused Loss Recovery'],
   mitigationField:   ['24/7 Loss Mitigation Contractors', 'CAT Response', 'Repair Network Referral', 'Pack-out & Contents Cleaning', 'Temporary Housing / ALE'],
-  legalCoverage:     ['Legal', 'Coverage Verification & ROR', 'Public Adjuster / Appraisal', 'Deductible Waiver Review', 'Statutory Deadline Watch'],
+  legalCoverage:     ['Legal', 'Coverage Verification & ROR', 'Deductible Waiver Review', 'Statutory Deadline Watch'],
   floodCompliance:   ['NFIP Authorized Adjuster', 'Proof of Loss Follow-up', 'Waiting Period Review', 'Substantial Damage Determination', 'ICC Claim Handling', 'NFIP Limit Exposure'],
   letters:           ['Decision letters'],
 };

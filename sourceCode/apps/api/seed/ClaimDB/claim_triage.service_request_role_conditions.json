@@ -183,6 +183,19 @@
   },
   {
     "_id": {
+      "$oid": "c9a2731cefd50b81f49c7066"
+    },
+    "conditionId": "e3b2c638-6825-4abb-a63c-fa9de6b2a771",
+    "roleId": "d2329338-efe4-49c4-af73-bae9a39c55cb",
+    "fieldName": "appraisal_demand_flag",
+    "operator": "!=",
+    "value": "",
+    "conditionType": "OR",
+    "sortOrder": 3,
+    "__v": 0
+  },
+  {
+    "_id": {
       "$oid": "6ac7f0facea61fdb41f98958"
     },
     "conditionId": "b02574a2-ac51-4a70-ab64-f10341f89f24",
@@ -755,6 +768,71 @@
   },
   {
     "_id": {
+      "$oid": "539186614206dc53d39a19f7"
+    },
+    "conditionId": "87afa863-e4a2-45af-a615-4509441a000f",
+    "roleId": "ebdc794f-65a3-4b19-ac45-393830e15e13",
+    "fieldName": "independent_investigator_flag",
+    "operator": "!=",
+    "value": "",
+    "conditionType": "OR",
+    "sortOrder": 7,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d4f991dfb2a429a7db7b31e5"
+    },
+    "conditionId": "f01ec89c-726b-45a5-a3a9-833d02241afa",
+    "roleId": "ebdc794f-65a3-4b19-ac45-393830e15e13",
+    "fieldName": "iso_property_claim_clustering_flag",
+    "operator": "!=",
+    "value": "",
+    "conditionType": "OR",
+    "sortOrder": 8,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "f740631cae52b3c9b905c269"
+    },
+    "conditionId": "bb348f8e-3fb6-4ecd-a9a7-dd13a627b394",
+    "roleId": "ebdc794f-65a3-4b19-ac45-393830e15e13",
+    "fieldName": "iso_shared_representation_flag",
+    "operator": "!=",
+    "value": "",
+    "conditionType": "OR",
+    "sortOrder": 9,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "1afe9f32c4ab41bbe510f9e0"
+    },
+    "conditionId": "a4c88c82-65f6-4df9-a335-a97f7dbf53bc",
+    "roleId": "ebdc794f-65a3-4b19-ac45-393830e15e13",
+    "fieldName": "iso_property_frequency_spike_flag",
+    "operator": "!=",
+    "value": "",
+    "conditionType": "OR",
+    "sortOrder": 10,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "de736e668527d633d7ce1ac8"
+    },
+    "conditionId": "2f331ff6-14cc-452f-aff7-3b6bd6c0e4bd",
+    "roleId": "ebdc794f-65a3-4b19-ac45-393830e15e13",
+    "fieldName": "iso_claim_frequency_flag",
+    "operator": "!=",
+    "value": "",
+    "conditionType": "OR",
+    "sortOrder": 11,
+    "__v": 0
+  },
+  {
+    "_id": {
       "$oid": "7050794d6147afc2eab2cf81"
     },
     "conditionId": "1ae8fa3a-3ec5-4beb-adcb-1d0cdaac47c2",
@@ -1015,6 +1093,19 @@
   },
   {
     "_id": {
+      "$oid": "5fe392291ad9f1130b1ba1d2"
+    },
+    "conditionId": "a0ace46c-c4fd-46e2-a7ad-86de6ea2695d",
+    "roleId": "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
+    "fieldName": "iso_contractor_utilization_outlier_flag",
+    "operator": "!=",
+    "value": "",
+    "conditionType": "OR",
+    "sortOrder": 2,
+    "__v": 0
+  },
+  {
+    "_id": {
       "$oid": "ba383df87d5406e5ea3dc7ef"
     },
     "conditionId": "ce238136-6bf1-4ce1-a1fb-f30b3ce115ed",
@@ -1063,32 +1154,6 @@
     "value": "",
     "conditionType": "OR",
     "sortOrder": 3,
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "f21721bd73ebcead9259c5e9"
-    },
-    "conditionId": "112f1643-8fa4-4609-a376-5b8e42c35327",
-    "roleId": "5a3693f8-0fc6-4985-ae83-37bfe5ce7235",
-    "fieldName": "public_adjuster_flag",
-    "operator": "!=",
-    "value": "",
-    "conditionType": "AND",
-    "sortOrder": 0,
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "738cbfd596798372fcf33087"
-    },
-    "conditionId": "42612633-7368-4965-ac64-6ab513e0a914",
-    "roleId": "5a3693f8-0fc6-4985-ae83-37bfe5ce7235",
-    "fieldName": "appraisal_demand_flag",
-    "operator": "!=",
-    "value": "",
-    "conditionType": "OR",
-    "sortOrder": 1,
     "__v": 0
   },
   {
@@ -1427,6 +1492,19 @@
     "value": "",
     "conditionType": "AND",
     "sortOrder": 0,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "398b358fd88c61fa8191cd36"
+    },
+    "conditionId": "bb87f5df-ac1e-4c21-a4c3-c14ab20eb45c",
+    "roleId": "dd83632f-6e75-429b-a53e-6bbae87e5d0d",
+    "fieldName": "iso_contractor_utilization_outlier_flag",
+    "operator": "!=",
+    "value": "",
+    "conditionType": "OR",
+    "sortOrder": 1,
     "__v": 0
   }
 ]

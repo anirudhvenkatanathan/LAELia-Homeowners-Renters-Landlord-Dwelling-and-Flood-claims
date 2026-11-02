@@ -300,6 +300,19 @@
   },
   {
     "_id": {
+      "$oid": "53d425e9e484cd746a9ce0eb"
+    },
+    "mappingId": "7d225dfa-e0a4-45f7-aa94-7450720c0542",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "appraisalDemandFlag",
+    "targetField": "appraisalDemandFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 23,
+    "__v": 0
+  },
+  {
+    "_id": {
       "$oid": "eccba281ea88d1ecc80219d7"
     },
     "mappingId": "20f5559a-d703-4559-a7d8-44410fcf8bf5",
@@ -308,7 +321,7 @@
     "targetField": "disputedCauseOriginFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 23,
+    "sortOrder": 24,
     "__v": 0
   },
   {
@@ -321,7 +334,7 @@
     "targetField": "multipleEntitiesJobsiteFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 24,
+    "sortOrder": 25,
     "__v": 0
   },
   {
@@ -334,7 +347,7 @@
     "targetField": "liabilityContributionDeterminationFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 25,
+    "sortOrder": 26,
     "__v": 0
   },
   {
@@ -347,7 +360,7 @@
     "targetField": "businessInterruptionFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 26,
+    "sortOrder": 27,
     "__v": 0
   },
   {
@@ -360,7 +373,7 @@
     "targetField": "largeAdditionalExpenseFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 27,
+    "sortOrder": 28,
     "__v": 0
   },
   {
@@ -373,7 +386,7 @@
     "targetField": "inflatedValueClaimFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 28,
+    "sortOrder": 29,
     "__v": 0
   },
   {
@@ -386,7 +399,7 @@
     "targetField": "complexInventoryLossFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 29,
+    "sortOrder": 30,
     "__v": 0
   },
   {
@@ -399,7 +412,7 @@
     "targetField": "Litigated claim",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 30,
+    "sortOrder": 31,
     "__v": 0
   },
   {
@@ -412,7 +425,7 @@
     "targetField": "potentialRecoveryAmount",
     "dataType": "Number",
     "isMandatory": false,
-    "sortOrder": 31,
+    "sortOrder": 32,
     "__v": 0
   },
   {
@@ -425,7 +438,7 @@
     "targetField": "firstNoticePetitionFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 32,
+    "sortOrder": 33,
     "__v": 0
   },
   {
@@ -438,7 +451,7 @@
     "targetField": "Contested claim",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 33,
+    "sortOrder": 34,
     "__v": 0
   },
   {
@@ -451,7 +464,7 @@
     "targetField": "Fraud flag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 34,
+    "sortOrder": 35,
     "__v": 0
   },
   {
@@ -464,7 +477,7 @@
     "targetField": "significantPreexistingConditionFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 35,
+    "sortOrder": 36,
     "__v": 0
   },
   {
@@ -477,7 +490,7 @@
     "targetField": "Diagnosis in dispute",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 36,
+    "sortOrder": 37,
     "__v": 0
   },
   {
@@ -490,7 +503,7 @@
     "targetField": "largeLumpSumResolutionFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 37,
+    "sortOrder": 38,
     "__v": 0
   },
   {
@@ -503,7 +516,7 @@
     "targetField": "medicalSetAsideAgreementFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 38,
+    "sortOrder": 39,
     "__v": 0
   },
   {
@@ -516,7 +529,7 @@
     "targetField": "inconsistentLossVersionFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 39,
+    "sortOrder": 40,
     "__v": 0
   },
   {
@@ -529,7 +542,7 @@
     "targetField": "liabilityNegligenceContestedFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 40,
+    "sortOrder": 41,
     "__v": 0
   },
   {
@@ -542,7 +555,7 @@
     "targetField": "damagesOverstatedFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 41,
+    "sortOrder": 42,
     "__v": 0
   },
   {
@@ -555,7 +568,7 @@
     "targetField": "priorClaimHistoryFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 42,
+    "sortOrder": 43,
     "__v": 0
   },
   {
@@ -568,7 +581,7 @@
     "targetField": "partyNonCooperationFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 43,
+    "sortOrder": 44,
     "__v": 0
   },
   {
@@ -581,7 +594,7 @@
     "targetField": "independentInvestigatorFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 44,
+    "sortOrder": 45,
     "__v": 0
   },
   {
@@ -594,7 +607,7 @@
     "targetField": "statusIntervalDays",
     "dataType": "Number",
     "isMandatory": false,
-    "sortOrder": 45,
+    "sortOrder": 46,
     "__v": 0
   },
   {
@@ -607,7 +620,7 @@
     "targetField": "liabilityEvidenceFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 46,
+    "sortOrder": 47,
     "__v": 0
   },
   {
@@ -620,7 +633,7 @@
     "targetField": "jurisdiction",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 47,
+    "sortOrder": 48,
     "__v": 0
   },
   {
@@ -633,7 +646,7 @@
     "targetField": "multipleInsurerIsoHitFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 48,
+    "sortOrder": 49,
     "__v": 0
   },
   {
@@ -646,7 +659,7 @@
     "targetField": "attorneyInitialNoticeFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 49,
+    "sortOrder": 50,
     "__v": 0
   },
   {
@@ -659,7 +672,7 @@
     "targetField": "unwitnessedCredibilityConcernFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 50,
+    "sortOrder": 51,
     "__v": 0
   },
   {
@@ -672,7 +685,59 @@
     "targetField": "immediateCounselRepresentationFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 51,
+    "sortOrder": 52,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "c1c6749e745db63c892c9432"
+    },
+    "mappingId": "ec1f40e8-a2cd-4a51-a655-1f003f2a32c2",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "isoPropertyClaimClusteringFlag",
+    "targetField": "isoPropertyClaimClusteringFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 53,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "cd9dca0558e847e669e7e6b0"
+    },
+    "mappingId": "3ba953c2-4b66-465b-a32a-ae90dba4acf4",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "isoSharedRepresentationFlag",
+    "targetField": "isoSharedRepresentationFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 54,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "cb2cf92d2c5ad26a982d8e4c"
+    },
+    "mappingId": "f136241d-0bf4-4280-ac0a-050fe579ee9b",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "isoPropertyFrequencySpikeFlag",
+    "targetField": "isoPropertyFrequencySpikeFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 55,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "bfd542d4f36dd243beffbd9e"
+    },
+    "mappingId": "7bcbc550-6b7b-4924-a9f2-82a7c6ab9e8c",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "isoClaimFrequencyFlag",
+    "targetField": "isoClaimFrequencyFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 56,
     "__v": 0
   },
   {
@@ -685,7 +750,7 @@
     "targetField": "severityCategory",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 52,
+    "sortOrder": 57,
     "__v": 0
   },
   {
@@ -698,7 +763,7 @@
     "targetField": "totalReserveAmount",
     "dataType": "Number",
     "isMandatory": false,
-    "sortOrder": 53,
+    "sortOrder": 58,
     "__v": 0
   },
   {
@@ -711,7 +776,7 @@
     "targetField": "catEventFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 54,
+    "sortOrder": 59,
     "__v": 0
   },
   {
@@ -724,7 +789,7 @@
     "targetField": "contractorReferralRequiredFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 55,
+    "sortOrder": 60,
     "__v": 0
   },
   {
@@ -737,7 +802,7 @@
     "targetField": "specialtyTradeRequiredFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 56,
+    "sortOrder": 61,
     "__v": 0
   },
   {
@@ -750,7 +815,7 @@
     "targetField": "sceneInvestigationRequiredFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 57,
+    "sortOrder": 62,
     "__v": 0
   },
   {
@@ -763,7 +828,7 @@
     "targetField": "policeReportRequiredFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 58,
+    "sortOrder": 63,
     "__v": 0
   },
   {
@@ -776,7 +841,7 @@
     "targetField": "nfipPolicyFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 59,
+    "sortOrder": 64,
     "__v": 0
   },
   {
@@ -789,7 +854,7 @@
     "targetField": "daysSinceLoss",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 60,
+    "sortOrder": 65,
     "__v": 0
   },
   {
@@ -802,7 +867,7 @@
     "targetField": "proofOfLossReceivedFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 61,
+    "sortOrder": 66,
     "__v": 0
   },
   {
@@ -815,7 +880,7 @@
     "targetField": "policyDaysBeforeLoss",
     "dataType": "Number",
     "isMandatory": false,
-    "sortOrder": 62,
+    "sortOrder": 67,
     "__v": 0
   },
   {
@@ -828,7 +893,7 @@
     "targetField": "waitingPeriodExceptionFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 63,
+    "sortOrder": 68,
     "__v": 0
   },
   {
@@ -841,7 +906,7 @@
     "targetField": "repairCostPctOfValue",
     "dataType": "Number",
     "isMandatory": false,
-    "sortOrder": 64,
+    "sortOrder": 69,
     "__v": 0
   },
   {
@@ -854,7 +919,7 @@
     "targetField": "sfhaFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 65,
+    "sortOrder": 70,
     "__v": 0
   },
   {
@@ -867,7 +932,7 @@
     "targetField": "substantialDamageFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 66,
+    "sortOrder": 71,
     "__v": 0
   },
   {
@@ -880,7 +945,7 @@
     "targetField": "buildingLossAmount",
     "dataType": "Number",
     "isMandatory": false,
-    "sortOrder": 67,
+    "sortOrder": 72,
     "__v": 0
   },
   {
@@ -893,7 +958,7 @@
     "targetField": "contentsLossAmount",
     "dataType": "Number",
     "isMandatory": false,
-    "sortOrder": 68,
+    "sortOrder": 73,
     "__v": 0
   },
   {
@@ -906,7 +971,7 @@
     "targetField": "contractorEstimateAmount",
     "dataType": "Number",
     "isMandatory": false,
-    "sortOrder": 69,
+    "sortOrder": 74,
     "__v": 0
   },
   {
@@ -919,7 +984,20 @@
     "targetField": "estimateDisputeFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 70,
+    "sortOrder": 75,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "9831dac8216470cdb7b48f07"
+    },
+    "mappingId": "f5330704-35de-47bd-a4e1-584475f8a6ff",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "isoContractorUtilizationOutlierFlag",
+    "targetField": "isoContractorUtilizationOutlierFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 76,
     "__v": 0
   },
   {
@@ -932,7 +1010,7 @@
     "targetField": "coverageQuestionFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 71,
+    "sortOrder": 77,
     "__v": 0
   },
   {
@@ -945,7 +1023,7 @@
     "targetField": "policyLapseFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 72,
+    "sortOrder": 78,
     "__v": 0
   },
   {
@@ -958,7 +1036,7 @@
     "targetField": "excludedPerilFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 73,
+    "sortOrder": 79,
     "__v": 0
   },
   {
@@ -971,20 +1049,7 @@
     "targetField": "lateNoticeFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 74,
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "53d425e9e484cd746a9ce0eb"
-    },
-    "mappingId": "7d225dfa-e0a4-45f7-aa94-7450720c0542",
-    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
-    "sourceField": "appraisalDemandFlag",
-    "targetField": "appraisalDemandFlag",
-    "dataType": "String",
-    "isMandatory": false,
-    "sortOrder": 75,
+    "sortOrder": 80,
     "__v": 0
   },
   {
@@ -997,7 +1062,7 @@
     "targetField": "windHailFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 76,
+    "sortOrder": 81,
     "__v": 0
   },
   {
@@ -1010,7 +1075,7 @@
     "targetField": "roofAgeYears",
     "dataType": "Number",
     "isMandatory": false,
-    "sortOrder": 77,
+    "sortOrder": 82,
     "__v": 0
   },
   {
@@ -1023,7 +1088,7 @@
     "targetField": "roofPaymentScheduleFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 78,
+    "sortOrder": 83,
     "__v": 0
   },
   {
@@ -1036,7 +1101,7 @@
     "targetField": "insuranceToValuePct",
     "dataType": "Number",
     "isMandatory": false,
-    "sortOrder": 79,
+    "sortOrder": 84,
     "__v": 0
   },
   {
@@ -1049,7 +1114,7 @@
     "targetField": "bodilyInjuryFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 80,
+    "sortOrder": 85,
     "__v": 0
   },
   {
@@ -1062,7 +1127,7 @@
     "targetField": "medicalPaymentsClaimFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 81,
+    "sortOrder": 86,
     "__v": 0
   },
   {
@@ -1075,7 +1140,7 @@
     "targetField": "contentsValuationDisputeFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 82,
+    "sortOrder": 87,
     "__v": 0
   },
   {
@@ -1088,7 +1153,7 @@
     "targetField": "contentsCleaningRequiredFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 83,
+    "sortOrder": 88,
     "__v": 0
   },
   {
@@ -1101,7 +1166,7 @@
     "targetField": "smokeOdorFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 84,
+    "sortOrder": 89,
     "__v": 0
   },
   {
@@ -1114,7 +1179,7 @@
     "targetField": "displacedFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 85,
+    "sortOrder": 90,
     "__v": 0
   },
   {
@@ -1127,7 +1192,7 @@
     "targetField": "uninhabitableFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 86,
+    "sortOrder": 91,
     "__v": 0
   },
   {
@@ -1140,7 +1205,7 @@
     "targetField": "vacancyDays",
     "dataType": "Number",
     "isMandatory": false,
-    "sortOrder": 87,
+    "sortOrder": 92,
     "__v": 0
   },
   {
@@ -1153,7 +1218,7 @@
     "targetField": "unoccupiedFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 88,
+    "sortOrder": 93,
     "__v": 0
   },
   {
@@ -1166,7 +1231,7 @@
     "targetField": "tenantCausedFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 89,
+    "sortOrder": 94,
     "__v": 0
   },
   {
@@ -1179,7 +1244,7 @@
     "targetField": "daysSinceNotice",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 90,
+    "sortOrder": 95,
     "__v": 0
   },
   {
@@ -1192,7 +1257,7 @@
     "targetField": "acknowledgedFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 91,
+    "sortOrder": 96,
     "__v": 0
   },
   {
@@ -1205,7 +1270,7 @@
     "targetField": "daysSinceProofOfLoss",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 92,
+    "sortOrder": 97,
     "__v": 0
   },
   {
@@ -1218,7 +1283,7 @@
     "targetField": "inspectionCompletedFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 93,
+    "sortOrder": 98,
     "__v": 0
   },
   {
@@ -1231,7 +1296,7 @@
     "targetField": "paymentDecisionIssuedFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 94,
+    "sortOrder": 99,
     "__v": 0
   },
   {
@@ -1244,7 +1309,7 @@
     "targetField": "deductibleWaiverSuspectedFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 95,
+    "sortOrder": 100,
     "__v": 0
   },
   {
@@ -1257,7 +1322,7 @@
     "targetField": "causeOfLoss",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 96,
+    "sortOrder": 101,
     "__v": 0
   },
   {
@@ -1270,7 +1335,7 @@
     "targetField": "policyForm",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 97,
+    "sortOrder": 102,
     "__v": 0
   },
   {
@@ -1283,7 +1348,7 @@
     "targetField": "floodZone",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 98,
+    "sortOrder": 103,
     "__v": 0
   },
   {
@@ -1296,7 +1361,7 @@
     "targetField": "coverageALimit",
     "dataType": "Number",
     "isMandatory": false,
-    "sortOrder": 99,
+    "sortOrder": 104,
     "__v": 0
   },
   {
@@ -1309,7 +1374,7 @@
     "targetField": "buildingExposure",
     "dataType": "Number",
     "isMandatory": false,
-    "sortOrder": 100,
+    "sortOrder": 105,
     "__v": 0
   },
   {
@@ -1322,7 +1387,7 @@
     "targetField": "contentsExposure",
     "dataType": "Number",
     "isMandatory": false,
-    "sortOrder": 101,
+    "sortOrder": 106,
     "__v": 0
   },
   {
@@ -1335,7 +1400,7 @@
     "targetField": "propertyAddress",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 102,
+    "sortOrder": 107,
     "__v": 0
   },
   {
@@ -1348,7 +1413,7 @@
     "targetField": "assignedAdjuster",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 103,
+    "sortOrder": 108,
     "__v": 0
   },
   {
@@ -1361,7 +1426,7 @@
     "targetField": "contractorName",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 104,
+    "sortOrder": 109,
     "__v": 0
   }
 ]

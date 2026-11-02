@@ -42,7 +42,7 @@ const SUPERVISOR_MENU_IDS = [
 // "duplicate email on insert" failure this caused.
 const DEMO_USER_SEED_DATA = [
   { loginId: 'admin-login-001',      email: 'admin@laelia.com',      username: 'admin',       password: 'admin@123',  fullName: '',            roleName: 'Admin',             menuIds: ADMIN_MENU_IDS },
-  { loginId: 'clientadj-login-001',  email: 'claimsadj@laelia.com',  username: 'claimsadj',   password: 'client@123', fullName: 'Priya Nair',  roleName: 'Claims Adjuster',   menuIds: ADJUSTER_MENU_IDS },
+  { loginId: 'clientadj-login-001',  email: 'claimsadj@laelia.com',  username: 'claimsadj',   password: 'client@123', fullName: 'Pat Cummins',  roleName: 'Claims Adjuster',   menuIds: ADJUSTER_MENU_IDS },
   { loginId: 'client-login-001',     email: 'claimssupr@laelia.com', username: 'claimssupr',  password: 'client@123', fullName: '',            roleName: 'Claims Supervisor', menuIds: SUPERVISOR_MENU_IDS },
 ];
 
