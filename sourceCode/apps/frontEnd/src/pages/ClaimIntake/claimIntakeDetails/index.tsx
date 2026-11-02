@@ -1582,8 +1582,13 @@ const ClaimIntakeDetails: React.FC = () => {
                         </div>
                       )}
                       <div className="cid-snapshot__fields">
-                        {[{label:'Claim Number',value:record.claimNumber},{label:'Insured Name',value:record.insuredName},{label:'Policy Number',value:record.policyNumber},{label:'Loss Date',value:record.lossDate},{label:'CAT Number',value:record.catNumber||'Non-CAT'},{label:'Event Name',value:record.catEventName||'Non-CAT'},{label:'Reported Date',value:record.reportedDate},{label:'Claim Amount',value:record.claimAmount},{label:'Claim Status',value:record.claimStatus}].map(({label,value})=>(
+                        {[{label:'Claim Number',value:record.claimNumber},{label:'Insured Name',value:record.insuredName},{label:'Policy Number',value:record.policyNumber},{label:'Loss Date',value:record.lossDate},{label:'Reported Date',value:record.reportedDate},{label:'Claim Amount',value:record.claimAmount},{label:'Claim Status',value:record.claimStatus}].map(({label,value})=>(
                           <div key={label}><div className="cid-snapshot__field-label">{label}</div><div className="cid-snapshot__field-value">{value||'—'}</div></div>
+                        ))}
+                      </div>
+                      <div className="cid-snapshot__fields" style={{ marginTop: 12 }}>
+                        {[{label:'CAT Claim',value:record.catNumber?'Yes':'No'},{label:'CAT Number',value:record.catNumber||'—'},{label:'Event Name',value:record.catEventName||'—'}].map(({label,value})=>(
+                          <div key={label}><div className="cid-snapshot__field-label">{label}</div><div className="cid-snapshot__field-value">{value}</div></div>
                         ))}
                       </div>
                     </div>

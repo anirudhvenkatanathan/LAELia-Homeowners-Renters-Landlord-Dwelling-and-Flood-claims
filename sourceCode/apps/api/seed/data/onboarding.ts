@@ -40,7 +40,7 @@ const SLA: Item = ['Turnaround Time SLA Attestation', true];
 export const L1_BY_RULE: Record<string, Item[]> = {
   '24/7 Loss Mitigation Contractors': [['IICRC certification (WRT / ASD) for technicians', true], ['24/7 emergency response SOP with 2-hour arrival target', true], ['Sample moisture map and drying log', true], ['Equipment inventory and capacity attestation', true]],
   'Cause & Origin Specialists': [['Certified Fire Investigator credentials', true], ['Sample cause-and-origin report', true], ['Evidence preservation and chain-of-custody SOP', true], ['Florida licence documentation', true]],
-  'Appraisers/Independent Adjusters': [['Florida all-lines adjuster licence', true], ['Xactimate proficiency evidence', true], ['Sample estimate and photo report', true], SLA],
+  'Appraisers/Independent Adjusters': [['Florida all-lines adjuster licence', true], ['Xactimate proficiency evidence', true], ['Sample estimate and photo report', true], ['Appraiser and umpire credentials (appraisal demands)', false], SLA],
   'Forensic Engineers': [['Florida Professional Engineer licence', true], ['Sample forensic engineering report', true], ['Expert witness history', true], ['Roof and structural testing methodology', true]],
   'Forensic Accountant': [['CPA / CFE credentials', true], ['Sample loss-of-rents analysis', true], ['Valuation methodology documentation', true], ['Conflict of interest screening SOP', true]],
   'Medical Management / Rehab': [['Nurse case manager and clinical licence documentation', true], ['Medical bill review and fee-schedule methodology', true], ['Provider network coverage by state', true], ['Return-to-activity and rehab outcome reporting', true]],
@@ -60,7 +60,6 @@ export const L1_BY_RULE: Record<string, Item[]> = {
   'NFIP Limit Exposure': [['Limits monitoring methodology', true], ['Sample limit exposure report', true], ['Reporting cadence SLA', true]],
   'Estimate & Invoice Review': [['Xactimate-certified reviewer evidence', true], ['Price-list methodology', true], ['Sample estimate review', true], SLA],
   'Coverage Verification & ROR': [['Coverage opinion template', true], ['Reservation of rights letter library', true], ['Florida licensed counsel evidence', true]],
-  'Public Adjuster / Appraisal': [['Appraiser and umpire credentials', true], ['Appraisal protocol', true], ['Sample appraisal award', true], ['Conflict of interest disclosure', true]],
   'Roof Surface Review': [['Roof inspector credentials', true], ['Sample roof inspection report with age and condition grading', true], ['Drone inspection capability (FAA Part 107)', true], ['Roof payment-schedule training', true]],
   'Insurance-to-Value Review': [['Replacement cost estimator methodology', true], ['Sample insurance-to-value report', true], ['Data source documentation', true]],
   'Contents Inventory & Valuation': [['Inventory software evidence', true], ['Sample contents inventory report', true], ['Valuation methodology (ACV / RCV)', true], ['Salvage handling SOP', true]],

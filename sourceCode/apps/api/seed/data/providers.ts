@@ -66,7 +66,7 @@ export const PROVIDERS: ProviderDef[] = [
     { phone: '(727) 738-1366', street: '2200 Bayshore Blvd, Dunedin, FL' }),
   V('Specialty Adjusting International', 'Miami', 'Miami-Dade', 4.2, '2 Business Days', 'FL', ['Independent Adjusters', 'Appraisers/Independent Adjusters', 'CAT Response'],
     { street: '10737 SW 104 St, Miami, FL 33176', status: 'ReadyForActivation' }),
-  V('Gold Star Adjusters', 'Jacksonville', 'Duval', 4.9, '3 Business Days', 'FL', ['Public Adjuster / Appraisal'],
+  V('Gold Star Adjusters', 'Jacksonville', 'Duval', 4.9, '3 Business Days', 'FL', ['Independent Adjusters', 'Appraisers/Independent Adjusters'],
     { street: '3771 San Jose Pl, Jacksonville, FL 32257' }),
   V('K&R Investigative Group', 'Tampa', 'Hillsborough', 4.4, '3 Business Days', 'FL', ['Desk investigations', 'Scene Investigation & Official Reports']),
   V('GrayRobinson', 'Orlando', 'Orange', 4.7, '5 Business Days', 'FL',
@@ -85,9 +85,9 @@ export const PROVIDERS: ProviderDef[] = [
   V('CorVel Corporation', 'Irvine', 'Orange', 3.9, '2 Business Days', 'FL, TX, LA, AL, GA, SC, NC', ['Medical Management / Rehab'], { state: 'California' }),
 
   // ── Provider onboarding queue (new firms, not yet approved) ──────────────────────
-  V('Five Star Claims Adjusting', 'Oakland Park', 'Broward', 4.8, '3 Business Days', 'FL', ['Public Adjuster / Appraisal'],
+  V('Five Star Claims Adjusting', 'Oakland Park', 'Broward', 4.8, '3 Business Days', 'FL', ['Independent Adjusters', 'Appraisers/Independent Adjusters'],
     { phone: '(321) 701-1371', street: '1640 W Oakland Park Blvd Ste 202, Oakland Park, FL', email: 'help@fsclaimsadj.com', status: 'PendingApproval' }),
-  V('MSR Adjusters', 'Tampa', 'Hillsborough', 4.4, '3 Business Days', 'FL', ['Public Adjuster / Appraisal', 'Independent Adjusters'],
+  V('MSR Adjusters', 'Tampa', 'Hillsborough', 4.4, '3 Business Days', 'FL', ['Independent Adjusters', 'Appraisers/Independent Adjusters'],
     { phone: '(813) 935-9364', street: '3310 W Cypress St Ste 202, Tampa, FL', status: 'PendingApproval' }),
   V('Specialized Investigative Support Inc', 'Lutz', 'Pasco', 4.8, '4 Business Days', 'FL', ['Desk investigations', 'Scene Investigation & Official Reports'],
     { street: 'Lutz, FL 33558', status: 'InProgress' }),

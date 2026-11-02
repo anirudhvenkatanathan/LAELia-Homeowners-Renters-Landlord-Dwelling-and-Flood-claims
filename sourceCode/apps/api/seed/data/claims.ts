@@ -1,6 +1,7 @@
 // 75 demo claims (15 per line) for a Florida carrier. All people, addresses and
 // amounts are invented. Reference "today" for ages and clocks: 2026-10-30.
 import type { LineOfBusiness } from '../../utils/lineOfBusiness';
+import { ISO_CLAIMS, ISO_FLAG_FIELDS } from './iso';
 import { ISAIAS_CLAIMS, EDOUARD_CLAIMS, HIST_CLAIMS, PUBLIC_ADJUSTERS, INVESTIGATORS, ZIPS } from './cat';
 
 export type Stage =
@@ -31,6 +32,7 @@ export interface ClaimSpec {
   catEventId?: string;      // tied to a catastrophe event (loss date and county inside the event window)
   pa?: { firm: string; feePct: number; contractAgo: number };
   investigator?: string;
+  iso?: string[];
 }
 
 type Tuple = [string, string, string, string, string, string[], number, number, number, Stage, string[]?, Record<string, string | number>?, ClaimSpec['sev']?];
@@ -244,6 +246,8 @@ export const CLAIMS: ClaimSpec[] = BASE_CLAIMS.map((c) => {
   if (pa) out = { ...out, pa, flags: [...new Set([...(out.flags ?? []), 'public_adjuster_flag'])] };
   const inv = INVESTIGATORS[key];
   if (inv) out = { ...out, investigator: inv, flags: [...new Set([...(out.flags ?? []), 'independent_investigator_flag'])] };
+  const iso = ISO_CLAIMS[key];
+  if (iso) out = { ...out, iso, flags: [...new Set([...(out.flags ?? []), ...iso.map((t) => ISO_FLAG_FIELDS[t])])] };
   if (INJURY.has(key)) out = { ...out, flags: [...(out.flags ?? []), 'bodily_injury_flag'] };
   return { ...out, zip: ZIPS[out.city] ?? '' };
 });

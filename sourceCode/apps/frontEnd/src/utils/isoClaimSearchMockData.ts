@@ -522,7 +522,11 @@ export function getIsoClaimSearchData(record: IndividualClaimRecord | null | und
   const pool = ALL_FLAG_TYPES.filter(ft => ft !== 'SharedRepresentation' || hasRep);
 
   let flagTypes: IsoFlagType[];
-  if (category === 'none') {
+  // Seeded ISO results (same facts the rule engine used) take precedence over the demo randomiser.
+  const seeded = record.isoFlagTypes?.trim();
+  if (seeded) {
+    flagTypes = seeded === 'None' ? [] : seeded.split(',').map(t => t.trim()).filter((t): t is IsoFlagType => (ALL_FLAG_TYPES as string[]).includes(t));
+  } else if (category === 'none') {
     flagTypes = [];
   } else if (category === 'double') {
     const first = record.publicAdjusterFirm ? 'SharedRepresentation' : pick(pool, h, 41);

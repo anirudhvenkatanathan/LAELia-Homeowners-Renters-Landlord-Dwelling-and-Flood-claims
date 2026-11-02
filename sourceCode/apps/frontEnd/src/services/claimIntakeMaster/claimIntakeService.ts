@@ -116,6 +116,7 @@ const UPLOADED_CLAIM_DETAILS_QUERY = gql`
         publicAdjusterFeeCapPct
         publicAdjusterFeeStatus
         independentInvestigatorFirm
+        isoFlagTypes
         secondLevelReviewRequired
         secondLevelReviewStatus
       }
