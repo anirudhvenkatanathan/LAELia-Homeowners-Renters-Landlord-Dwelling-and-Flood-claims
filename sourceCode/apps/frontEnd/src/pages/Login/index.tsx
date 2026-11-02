@@ -20,7 +20,7 @@ const EyeOffIcon: React.FC = () => (
 
 const QUICK_LOGINS: QuickLoginOption[] = [
   { key: 'admin',      label: 'Admin',              email: 'admin@laelia.com',      password: 'admin@123' },
-  { key: 'adjuster',   label: 'Claims  Adjuster',          email: 'priya.nair@laelia.com', password: 'adjuster@123' },
+  { key: 'adjuster',   label: 'Claims  Adjuster',          email: 'pat.cummins@laelia.com', password: 'adjuster@123' },
   { key: 'supervisor', label: 'Claims Authority Reviewer',   email: 'claimssupr@laelia.com', password: 'client@123' },
 ];
 
