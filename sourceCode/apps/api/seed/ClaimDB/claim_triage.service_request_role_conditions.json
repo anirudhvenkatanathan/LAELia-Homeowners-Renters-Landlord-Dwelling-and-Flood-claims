@@ -144,58 +144,6 @@
   },
   {
     "_id": {
-      "$oid": "7d19d4dac1eb94321058fd78"
-    },
-    "conditionId": "3d9cefa2-2196-40a9-a89c-6f0753742ba6",
-    "roleId": "d2329338-efe4-49c4-af73-bae9a39c55cb",
-    "fieldName": "construction_trade_involvement_flag",
-    "operator": "!=",
-    "value": "",
-    "conditionType": "AND",
-    "sortOrder": 0,
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "1c35f7f26dd930618b3dbbdb"
-    },
-    "conditionId": "446996d1-e19b-426e-a6f7-7294bce797d4",
-    "roleId": "d2329338-efe4-49c4-af73-bae9a39c55cb",
-    "fieldName": "special_handling_property_flag",
-    "operator": "!=",
-    "value": "",
-    "conditionType": "OR",
-    "sortOrder": 1,
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "ca551275c5cb70da0d36735f"
-    },
-    "conditionId": "3f4f0fe3-2b82-4fe8-ada7-9c8da8b5e6b4",
-    "roleId": "d2329338-efe4-49c4-af73-bae9a39c55cb",
-    "fieldName": "public_adjuster_flag",
-    "operator": "!=",
-    "value": "",
-    "conditionType": "OR",
-    "sortOrder": 2,
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "c9a2731cefd50b81f49c7066"
-    },
-    "conditionId": "e3b2c638-6825-4abb-a63c-fa9de6b2a771",
-    "roleId": "d2329338-efe4-49c4-af73-bae9a39c55cb",
-    "fieldName": "appraisal_demand_flag",
-    "operator": "!=",
-    "value": "",
-    "conditionType": "OR",
-    "sortOrder": 3,
-    "__v": 0
-  },
-  {
-    "_id": {
       "$oid": "6ac7f0facea61fdb41f98958"
     },
     "conditionId": "b02574a2-ac51-4a70-ab64-f10341f89f24",
@@ -569,6 +517,45 @@
     "value": "",
     "conditionType": "OR",
     "sortOrder": 6,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "3a4303fec18938848e50cc3a"
+    },
+    "conditionId": "55cac14a-9616-4584-abdd-89e7ed30406f",
+    "roleId": "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+    "fieldName": "construction_trade_involvement_flag",
+    "operator": "!=",
+    "value": "",
+    "conditionType": "OR",
+    "sortOrder": 7,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "92e100e8fe9fb2a0f184cac8"
+    },
+    "conditionId": "bfb1bc8d-0722-4b87-a622-811526a64459",
+    "roleId": "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+    "fieldName": "special_handling_property_flag",
+    "operator": "!=",
+    "value": "",
+    "conditionType": "OR",
+    "sortOrder": 8,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6a03fb9854a25588efcff9aa"
+    },
+    "conditionId": "4488df08-f1e0-4eca-a75f-1ddf6dc7fcc0",
+    "roleId": "05d3b64a-4307-4139-a2c0-4b42bc63199a",
+    "fieldName": "appraisal_demand_flag",
+    "operator": "!=",
+    "value": "",
+    "conditionType": "OR",
+    "sortOrder": 9,
     "__v": 0
   },
   {

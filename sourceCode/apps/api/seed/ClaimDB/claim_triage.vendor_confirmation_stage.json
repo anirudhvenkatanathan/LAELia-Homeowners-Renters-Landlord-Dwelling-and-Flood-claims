@@ -56,41 +56,6 @@
     "isMandatory": true
   },
   {
-    "_id": "abcbb9dbdb2b73d7180f56c8",
-    "vendorStageId": "6841a101f1a23c0012342455",
-    "vendorConfirmationId": "abcbb9dbdb2b73d7180f56c8",
-    "vendorConfirmationName": "Florida all-lines adjuster licence",
-    "isMandatory": true
-  },
-  {
-    "_id": "49644a083d31e87445aa8d85",
-    "vendorStageId": "6841a101f1a23c0012342455",
-    "vendorConfirmationId": "49644a083d31e87445aa8d85",
-    "vendorConfirmationName": "Xactimate proficiency evidence",
-    "isMandatory": true
-  },
-  {
-    "_id": "b440671d1dea88de5bc6617a",
-    "vendorStageId": "6841a101f1a23c0012342455",
-    "vendorConfirmationId": "b440671d1dea88de5bc6617a",
-    "vendorConfirmationName": "Sample estimate and photo report",
-    "isMandatory": true
-  },
-  {
-    "_id": "8eaad75d99aee4f13c909fae",
-    "vendorStageId": "6841a101f1a23c0012342455",
-    "vendorConfirmationId": "8eaad75d99aee4f13c909fae",
-    "vendorConfirmationName": "Appraiser and umpire credentials (appraisal demands)",
-    "isMandatory": false
-  },
-  {
-    "_id": "d26c245d1f4ee07863678bb3",
-    "vendorStageId": "6841a101f1a23c0012342455",
-    "vendorConfirmationId": "d26c245d1f4ee07863678bb3",
-    "vendorConfirmationName": "Turnaround Time SLA Attestation",
-    "isMandatory": true
-  },
-  {
     "_id": "98ec952ce2fcffb105a93232",
     "vendorStageId": "6841a101f1a23c0012342455",
     "vendorConfirmationId": "98ec952ce2fcffb105a93232",
@@ -196,6 +161,20 @@
     "isMandatory": true
   },
   {
+    "_id": "abcbb9dbdb2b73d7180f56c8",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "abcbb9dbdb2b73d7180f56c8",
+    "vendorConfirmationName": "Florida all-lines adjuster licence",
+    "isMandatory": true
+  },
+  {
+    "_id": "49644a083d31e87445aa8d85",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "49644a083d31e87445aa8d85",
+    "vendorConfirmationName": "Xactimate proficiency evidence",
+    "isMandatory": true
+  },
+  {
     "_id": "c16f7d7dc0c147e66c337532",
     "vendorStageId": "6841a101f1a23c0012342455",
     "vendorConfirmationId": "c16f7d7dc0c147e66c337532",
@@ -207,6 +186,20 @@
     "vendorStageId": "6841a101f1a23c0012342455",
     "vendorConfirmationId": "215cea7bdf1da74c0d3e49fe",
     "vendorConfirmationName": "Caseload capacity attestation",
+    "isMandatory": true
+  },
+  {
+    "_id": "8eaad75d99aee4f13c909fae",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "8eaad75d99aee4f13c909fae",
+    "vendorConfirmationName": "Appraiser and umpire credentials (appraisal demands)",
+    "isMandatory": false
+  },
+  {
+    "_id": "d26c245d1f4ee07863678bb3",
+    "vendorStageId": "6841a101f1a23c0012342455",
+    "vendorConfirmationId": "d26c245d1f4ee07863678bb3",
+    "vendorConfirmationName": "Turnaround Time SLA Attestation",
     "isMandatory": true
   },
   {

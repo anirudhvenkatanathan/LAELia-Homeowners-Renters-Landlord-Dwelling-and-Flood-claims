@@ -865,43 +865,7 @@
   },
   {
     "_id": {
-      "$oid": "b9e505cf3900c70f12f71c98"
-    },
-    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
-    "recordIndex": 7,
-    "claimNumber": "HO-2026-100007",
-    "type": "role",
-    "changedItem": "Appraisers/Independent Adjusters",
-    "previousValue": "—",
-    "updatedValue": "Appraisers/Independent Adjusters",
-    "reason": "Plan services confirmed",
-    "updatedBy": "Steve Smith",
-    "updatedAt": {
-      "$date": "2026-10-14T12:00:00.000Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "82efe63670911f74bb65b90a"
-    },
-    "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
-    "recordIndex": 7,
-    "claimNumber": "HO-2026-100007",
-    "type": "vendor",
-    "changedItem": "Gold Star Adjusters",
-    "previousValue": "Gold Star Adjusters",
-    "updatedValue": "Gold Star Adjusters",
-    "reason": "Vendor selection confirmed",
-    "updatedBy": "Steve Smith",
-    "updatedAt": {
-      "$date": "2026-10-14T12:00:00.000Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "73e630b40d3d98f8dba5b749"
+      "$oid": "0e473e7d5479d4e00a05afb1"
     },
     "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
     "recordIndex": 7,
@@ -919,7 +883,7 @@
   },
   {
     "_id": {
-      "$oid": "79f9c4699b3c5e0e3954cb17"
+      "$oid": "fcb074f6b37680ab8cd00ce3"
     },
     "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
     "recordIndex": 7,
@@ -937,7 +901,7 @@
   },
   {
     "_id": {
-      "$oid": "392ef92f5b54923d616212b1"
+      "$oid": "790349429787aa8e4a994a0b"
     },
     "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
     "recordIndex": 7,
@@ -955,7 +919,7 @@
   },
   {
     "_id": {
-      "$oid": "381fdedabba9ed9f3a14d362"
+      "$oid": "d5509f31a995f8c5e3bf5af1"
     },
     "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
     "recordIndex": 7,
@@ -973,7 +937,7 @@
   },
   {
     "_id": {
-      "$oid": "c992ff089d2bfc1abb5fde92"
+      "$oid": "ab85d814926035233b63e190"
     },
     "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
     "recordIndex": 7,
@@ -991,7 +955,7 @@
   },
   {
     "_id": {
-      "$oid": "59eab4c5cd203f492849c411"
+      "$oid": "2202c7d824792b5e8741858f"
     },
     "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
     "recordIndex": 7,
@@ -1009,7 +973,7 @@
   },
   {
     "_id": {
-      "$oid": "9ff0bb29657f024db771d892"
+      "$oid": "e347bbe8672c4180ef04f4b9"
     },
     "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
     "recordIndex": 7,
@@ -1027,7 +991,7 @@
   },
   {
     "_id": {
-      "$oid": "335081ee39e75ecdcf6eb3fb"
+      "$oid": "ae09d53c77a2ca850ac860f0"
     },
     "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
     "recordIndex": 7,
@@ -1045,7 +1009,7 @@
   },
   {
     "_id": {
-      "$oid": "366474de1388b6ffbb214848"
+      "$oid": "d11dc07738e189e665bb5b7d"
     },
     "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
     "recordIndex": 7,
@@ -1063,7 +1027,7 @@
   },
   {
     "_id": {
-      "$oid": "ab843b6271180e813fc2780c"
+      "$oid": "317a74e4e3063fd921ef0e0b"
     },
     "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
     "recordIndex": 7,
@@ -1081,7 +1045,7 @@
   },
   {
     "_id": {
-      "$oid": "4f77dc1097b33f9a2200f4ea"
+      "$oid": "37ffb7cd5a369217cc2087cc"
     },
     "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
     "recordIndex": 7,
@@ -1099,7 +1063,7 @@
   },
   {
     "_id": {
-      "$oid": "bec1d9679e5b41a62429c5b3"
+      "$oid": "c2aa4d70120c059ff5eacaec"
     },
     "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
     "recordIndex": 7,
@@ -1117,7 +1081,7 @@
   },
   {
     "_id": {
-      "$oid": "66866ced53f631b023aad6bf"
+      "$oid": "ddc7764d9a92cc43bb3f8532"
     },
     "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
     "recordIndex": 7,
@@ -1135,7 +1099,7 @@
   },
   {
     "_id": {
-      "$oid": "a8a8b193f72e63781f0766bb"
+      "$oid": "10cd5d4fef384d3ecb9d98ae"
     },
     "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
     "recordIndex": 7,
@@ -1423,15 +1387,15 @@
   },
   {
     "_id": {
-      "$oid": "7d51e394cbe334131ac978ff"
+      "$oid": "f82b3886235e815dd87d7b86"
     },
     "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
     "recordIndex": 10,
     "claimNumber": "HO-2026-100010",
     "type": "role",
-    "changedItem": "Appraisers/Independent Adjusters",
+    "changedItem": "Independent Adjusters",
     "previousValue": "—",
-    "updatedValue": "Appraisers/Independent Adjusters",
+    "updatedValue": "Independent Adjusters",
     "reason": "Plan services confirmed",
     "updatedBy": "Pat Cummins",
     "updatedAt": {
@@ -1441,7 +1405,7 @@
   },
   {
     "_id": {
-      "$oid": "025d2e5b46a0164004393661"
+      "$oid": "a2bc569e44c36d94cb093eb4"
     },
     "uploadId": "44028302-58eb-40ce-a2d8-228bb7c916eb",
     "recordIndex": 10,
@@ -2233,43 +2197,7 @@
   },
   {
     "_id": {
-      "$oid": "6d87d3fe307f070f44c0cbb0"
-    },
-    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
-    "recordIndex": 8,
-    "claimNumber": "RN-2026-100108",
-    "type": "role",
-    "changedItem": "Appraisers/Independent Adjusters",
-    "previousValue": "—",
-    "updatedValue": "Appraisers/Independent Adjusters",
-    "reason": "Plan services confirmed",
-    "updatedBy": "Mitchell Starc",
-    "updatedAt": {
-      "$date": "2026-10-16T12:00:00.000Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "8314301df74e7d768df5a342"
-    },
-    "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
-    "recordIndex": 8,
-    "claimNumber": "RN-2026-100108",
-    "type": "vendor",
-    "changedItem": "Gold Star Adjusters",
-    "previousValue": "Gold Star Adjusters",
-    "updatedValue": "Gold Star Adjusters",
-    "reason": "Vendor selection confirmed",
-    "updatedBy": "Mitchell Starc",
-    "updatedAt": {
-      "$date": "2026-10-16T12:00:00.000Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "9ea04afb2f00fa8192a0b08c"
+      "$oid": "ca01c9bf4c94120131a984f1"
     },
     "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
     "recordIndex": 8,
@@ -2287,7 +2215,7 @@
   },
   {
     "_id": {
-      "$oid": "2533e14d2d9837bf58bd4eaf"
+      "$oid": "cd013d4192a1fcafb1741427"
     },
     "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
     "recordIndex": 8,
@@ -2305,7 +2233,7 @@
   },
   {
     "_id": {
-      "$oid": "6454314cc0aa9a3bb1e4e599"
+      "$oid": "95a56b0a906a83072c17e40f"
     },
     "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
     "recordIndex": 8,
@@ -2323,7 +2251,7 @@
   },
   {
     "_id": {
-      "$oid": "fea80c02147b5d5afd69e0a5"
+      "$oid": "81dbfa5400e47f887805597b"
     },
     "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
     "recordIndex": 8,
@@ -2341,7 +2269,7 @@
   },
   {
     "_id": {
-      "$oid": "de831429ba66852fe90a4a1a"
+      "$oid": "dff78fc2714513d013c6ed32"
     },
     "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
     "recordIndex": 8,
@@ -2359,7 +2287,7 @@
   },
   {
     "_id": {
-      "$oid": "db588d5d7f33675df61578d3"
+      "$oid": "0ebb778ecc7e694a282b33f4"
     },
     "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
     "recordIndex": 8,
@@ -2377,7 +2305,7 @@
   },
   {
     "_id": {
-      "$oid": "a4c7bf832dd350c0a3f7db10"
+      "$oid": "852016a9aa0fdbedb8cbbeef"
     },
     "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
     "recordIndex": 8,
@@ -2395,7 +2323,7 @@
   },
   {
     "_id": {
-      "$oid": "77b14ade81e64b4926138fdd"
+      "$oid": "01a9bba3c8cbfb2281696352"
     },
     "uploadId": "6dfd68bc-4feb-4c89-a9c0-1ab95d169123",
     "recordIndex": 8,
@@ -3421,43 +3349,7 @@
   },
   {
     "_id": {
-      "$oid": "a2be70f58960ff956065bb2f"
-    },
-    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
-    "recordIndex": 6,
-    "claimNumber": "LL-2026-100206",
-    "type": "role",
-    "changedItem": "Appraisers/Independent Adjusters",
-    "previousValue": "—",
-    "updatedValue": "Appraisers/Independent Adjusters",
-    "reason": "Plan services confirmed",
-    "updatedBy": "David Warner",
-    "updatedAt": {
-      "$date": "2026-10-17T12:00:00.000Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "01281b1acb356e2fa4fa021c"
-    },
-    "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
-    "recordIndex": 6,
-    "claimNumber": "LL-2026-100206",
-    "type": "vendor",
-    "changedItem": "Gold Star Adjusters",
-    "previousValue": "Gold Star Adjusters",
-    "updatedValue": "Gold Star Adjusters",
-    "reason": "Vendor selection confirmed",
-    "updatedBy": "David Warner",
-    "updatedAt": {
-      "$date": "2026-10-17T12:00:00.000Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "64cb5e461f97b58ea6e50b0a"
+      "$oid": "7d7de396166b4a5b380d7cb5"
     },
     "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
     "recordIndex": 6,
@@ -3475,7 +3367,7 @@
   },
   {
     "_id": {
-      "$oid": "7504f69573b8b09416750366"
+      "$oid": "ad906160bf2937abe496d095"
     },
     "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
     "recordIndex": 6,
@@ -3493,7 +3385,7 @@
   },
   {
     "_id": {
-      "$oid": "40f5bc80728e956aa03ffbf7"
+      "$oid": "361b6f835fff20406e41098c"
     },
     "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
     "recordIndex": 6,
@@ -3511,7 +3403,7 @@
   },
   {
     "_id": {
-      "$oid": "03d1883d9c91e92836706675"
+      "$oid": "08c7a78a6673f18261fdaffe"
     },
     "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
     "recordIndex": 6,
@@ -3529,7 +3421,7 @@
   },
   {
     "_id": {
-      "$oid": "0b7d1f14b099a394d0683dd4"
+      "$oid": "0b66cd6fe7b1efd0169db948"
     },
     "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
     "recordIndex": 6,
@@ -3547,7 +3439,7 @@
   },
   {
     "_id": {
-      "$oid": "0eb63854e2038fc02b60d96b"
+      "$oid": "fd91ce9af90bf05ff4b6e6ab"
     },
     "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
     "recordIndex": 6,
@@ -3565,7 +3457,7 @@
   },
   {
     "_id": {
-      "$oid": "dbb0ea321617714ea65436d7"
+      "$oid": "37579a1163dc417fd7f46d54"
     },
     "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
     "recordIndex": 6,
@@ -3583,7 +3475,7 @@
   },
   {
     "_id": {
-      "$oid": "f8544bd2170edbe8aa1313f7"
+      "$oid": "79645b969228040706f91a0b"
     },
     "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
     "recordIndex": 6,
@@ -3601,7 +3493,7 @@
   },
   {
     "_id": {
-      "$oid": "c920ed42ec5094fe3154dcea"
+      "$oid": "63ca48b00d8f18bb0c191965"
     },
     "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
     "recordIndex": 6,
@@ -3619,7 +3511,7 @@
   },
   {
     "_id": {
-      "$oid": "8298f27a041e909bb71f96c5"
+      "$oid": "fb632b725955dd37e21d7726"
     },
     "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
     "recordIndex": 6,
@@ -3637,7 +3529,7 @@
   },
   {
     "_id": {
-      "$oid": "8b8197c783e327de24060eea"
+      "$oid": "52046bfbb480170798d4fdbe"
     },
     "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
     "recordIndex": 6,
@@ -3655,7 +3547,7 @@
   },
   {
     "_id": {
-      "$oid": "92fd2e491ad38699f05aefd4"
+      "$oid": "0f097018b2354b3743883def"
     },
     "uploadId": "d827d3e0-8431-4682-a7e5-822199c0c4f0",
     "recordIndex": 6,
@@ -4411,43 +4303,7 @@
   },
   {
     "_id": {
-      "$oid": "251bc8b6ec4de493682f1df9"
-    },
-    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
-    "recordIndex": 4,
-    "claimNumber": "DW-2026-100304",
-    "type": "role",
-    "changedItem": "Appraisers/Independent Adjusters",
-    "previousValue": "—",
-    "updatedValue": "Appraisers/Independent Adjusters",
-    "reason": "Plan services confirmed",
-    "updatedBy": "Pat Cummins",
-    "updatedAt": {
-      "$date": "2026-10-14T12:00:00.000Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "a3d8bc17b2b64a9d6ebd49a7"
-    },
-    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
-    "recordIndex": 4,
-    "claimNumber": "DW-2026-100304",
-    "type": "vendor",
-    "changedItem": "Gold Star Adjusters",
-    "previousValue": "Gold Star Adjusters",
-    "updatedValue": "Gold Star Adjusters",
-    "reason": "Vendor selection confirmed",
-    "updatedBy": "Pat Cummins",
-    "updatedAt": {
-      "$date": "2026-10-14T12:00:00.000Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "b783b21315cafaa1c75fbb0e"
+      "$oid": "a1c5dd4be0afccc7d58fa28d"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 4,
@@ -4465,7 +4321,7 @@
   },
   {
     "_id": {
-      "$oid": "ad54bdebf9ab65ddaa03dc9c"
+      "$oid": "84493d980fbc66b6a597df7c"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 4,
@@ -4483,7 +4339,7 @@
   },
   {
     "_id": {
-      "$oid": "dbe66ab5731681546fe7ef53"
+      "$oid": "53c237a60144ba7af53e0656"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 4,
@@ -4501,7 +4357,7 @@
   },
   {
     "_id": {
-      "$oid": "ac71d2c69717c2d808f735a1"
+      "$oid": "3bb78ccd3551670fb9aed33d"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 4,
@@ -4519,7 +4375,7 @@
   },
   {
     "_id": {
-      "$oid": "348dd27cbedca5c1fd3c979e"
+      "$oid": "c2c4c9413b3ea3ae392692ff"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 4,
@@ -4537,7 +4393,7 @@
   },
   {
     "_id": {
-      "$oid": "50e3df704dd125fd7f46edac"
+      "$oid": "66fdd26d8e8c00f6a7d074c2"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 4,
@@ -4555,7 +4411,7 @@
   },
   {
     "_id": {
-      "$oid": "999521b3c0ffffa8b3f7ecda"
+      "$oid": "488bab3cab6b0080b12081dc"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 4,
@@ -4573,7 +4429,7 @@
   },
   {
     "_id": {
-      "$oid": "00db8b0df6a7760c7cae0f95"
+      "$oid": "a258ea5a6149b745fe4c4091"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 4,
@@ -4591,7 +4447,7 @@
   },
   {
     "_id": {
-      "$oid": "dc00b354dc1161a300972bfa"
+      "$oid": "005c2d260fa1a51105ca469f"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 4,
@@ -4609,7 +4465,7 @@
   },
   {
     "_id": {
-      "$oid": "76efc91bb684dbe5c587b260"
+      "$oid": "e2572e66375f90143783e245"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 4,
@@ -4627,7 +4483,7 @@
   },
   {
     "_id": {
-      "$oid": "796fbb5d995303ddb330dfe4"
+      "$oid": "dcb688cf5df2014177be64a3"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 4,
@@ -4681,43 +4537,7 @@
   },
   {
     "_id": {
-      "$oid": "1967290332dbadbbf01cb13c"
-    },
-    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
-    "recordIndex": 5,
-    "claimNumber": "DW-2026-100305",
-    "type": "role",
-    "changedItem": "Appraisers/Independent Adjusters",
-    "previousValue": "—",
-    "updatedValue": "Appraisers/Independent Adjusters",
-    "reason": "Plan services confirmed",
-    "updatedBy": "Steve Smith",
-    "updatedAt": {
-      "$date": "2026-09-20T12:00:00.000Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "d1c10741a0f8972cd75a0ecf"
-    },
-    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
-    "recordIndex": 5,
-    "claimNumber": "DW-2026-100305",
-    "type": "vendor",
-    "changedItem": "Gold Star Adjusters",
-    "previousValue": "Gold Star Adjusters",
-    "updatedValue": "Gold Star Adjusters",
-    "reason": "Vendor selection confirmed",
-    "updatedBy": "Steve Smith",
-    "updatedAt": {
-      "$date": "2026-09-20T12:00:00.000Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "e3a7f8674f39903839beeae5"
+      "$oid": "a7ba474eb6bef3dc3ed66a34"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 5,
@@ -4735,7 +4555,7 @@
   },
   {
     "_id": {
-      "$oid": "4c73816ac2d4824b5f65b494"
+      "$oid": "dc4c32ab95f47d4236cc7b2d"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 5,
@@ -4753,7 +4573,7 @@
   },
   {
     "_id": {
-      "$oid": "7dc4d01e200169e2f2ee5548"
+      "$oid": "19528410a839b490d1ac9137"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 5,
@@ -4771,7 +4591,7 @@
   },
   {
     "_id": {
-      "$oid": "deaf43eab00036933b9c5359"
+      "$oid": "13116a7ba770d31a5c0c1e84"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 5,
@@ -4789,7 +4609,7 @@
   },
   {
     "_id": {
-      "$oid": "1f5987b08352ade9e5f07804"
+      "$oid": "687ec5c40d21522e28d757cb"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 5,
@@ -4807,7 +4627,7 @@
   },
   {
     "_id": {
-      "$oid": "a311be1118512a1eaabc64c5"
+      "$oid": "b35ee9866c72a3589c3b0449"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 5,
@@ -4825,7 +4645,7 @@
   },
   {
     "_id": {
-      "$oid": "7d1dc6968529ea9dc904b2e3"
+      "$oid": "ff3b60ae44a115c6acdbf0bc"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 5,
@@ -4843,7 +4663,7 @@
   },
   {
     "_id": {
-      "$oid": "e531af91871663653dafa6a8"
+      "$oid": "02940de44834b796742b2ebf"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 5,
@@ -4861,7 +4681,7 @@
   },
   {
     "_id": {
-      "$oid": "61e7e357a9234e5e98d2c1f9"
+      "$oid": "9b01f4b2f15ff74fc7d06df0"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 5,
@@ -4879,7 +4699,7 @@
   },
   {
     "_id": {
-      "$oid": "cf8367404c724dfc574f8f7a"
+      "$oid": "9b3e3561dd72ec4b799e43b4"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 5,
@@ -4897,7 +4717,7 @@
   },
   {
     "_id": {
-      "$oid": "8b768080b4a58a5c99eaf0d3"
+      "$oid": "e456146e91dda5493973908a"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 5,
@@ -4915,7 +4735,7 @@
   },
   {
     "_id": {
-      "$oid": "7b464b8539c18cfd37bc939b"
+      "$oid": "89a2114efae2e9b9af25b101"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 5,
@@ -5149,43 +4969,7 @@
   },
   {
     "_id": {
-      "$oid": "fdb74238561ad30b09e398c9"
-    },
-    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
-    "recordIndex": 10,
-    "claimNumber": "DW-2026-100310",
-    "type": "role",
-    "changedItem": "Appraisers/Independent Adjusters",
-    "previousValue": "—",
-    "updatedValue": "Appraisers/Independent Adjusters",
-    "reason": "Plan services confirmed",
-    "updatedBy": "David Warner",
-    "updatedAt": {
-      "$date": "2026-09-25T12:00:00.000Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "01cc95646c5799ec6d63563f"
-    },
-    "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
-    "recordIndex": 10,
-    "claimNumber": "DW-2026-100310",
-    "type": "vendor",
-    "changedItem": "Gold Star Adjusters",
-    "previousValue": "Gold Star Adjusters",
-    "updatedValue": "Gold Star Adjusters",
-    "reason": "Vendor selection confirmed",
-    "updatedBy": "David Warner",
-    "updatedAt": {
-      "$date": "2026-09-25T12:00:00.000Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "c4d3e28320993a872d7fa571"
+      "$oid": "ac60734dedb6197b71ecd1ee"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 10,
@@ -5203,7 +4987,7 @@
   },
   {
     "_id": {
-      "$oid": "53f2bf2f3402da3cdb1319f4"
+      "$oid": "9f72117d98df54a00d1c0a35"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 10,
@@ -5221,7 +5005,7 @@
   },
   {
     "_id": {
-      "$oid": "922ff532c4940c96d6f829d5"
+      "$oid": "2fd69cfa09474b8b2404f104"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 10,
@@ -5239,7 +5023,7 @@
   },
   {
     "_id": {
-      "$oid": "4135970976c8e589407e3ea8"
+      "$oid": "8956b245e5e164f62bb5fbdc"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 10,
@@ -5257,7 +5041,7 @@
   },
   {
     "_id": {
-      "$oid": "ad7138af387e2f293c17db88"
+      "$oid": "6329813059267968e9911d80"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 10,
@@ -5275,7 +5059,7 @@
   },
   {
     "_id": {
-      "$oid": "dc68361d78307e639e09b07b"
+      "$oid": "f111f435644fda5d14eccc8f"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 10,
@@ -5293,7 +5077,7 @@
   },
   {
     "_id": {
-      "$oid": "6bba94c672f8a3ac898002d9"
+      "$oid": "79e74537028cd19b31aa87de"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 10,
@@ -5311,7 +5095,7 @@
   },
   {
     "_id": {
-      "$oid": "11de914a85fd822705bb12ab"
+      "$oid": "b04c7b1e34fabeb0bbf309c3"
     },
     "uploadId": "70d762e8-329c-4129-aeed-1e233fd733ce",
     "recordIndex": 10,

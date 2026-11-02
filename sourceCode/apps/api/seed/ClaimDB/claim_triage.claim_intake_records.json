@@ -755,7 +755,6 @@
     "planServices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
       "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
-      "d2329338-efe4-49c4-af73-bae9a39c55cb",
       "de2a54b5-1dab-48f6-aafe-09ab14d462ec",
       "05d3b64a-4307-4139-a2c0-4b42bc63199a",
       "558e9abc-e33d-46fc-a519-839fafb746eb",
@@ -765,7 +764,6 @@
     "existingplanservices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
       "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
-      "d2329338-efe4-49c4-af73-bae9a39c55cb",
       "de2a54b5-1dab-48f6-aafe-09ab14d462ec",
       "05d3b64a-4307-4139-a2c0-4b42bc63199a",
       "558e9abc-e33d-46fc-a519-839fafb746eb",
@@ -780,7 +778,7 @@
     "completedBy": "",
     "serviceVendorReview": [],
     "vendorServices": [],
-    "servicesTriggered": 8,
+    "servicesTriggered": 7,
     "__v": 0
   },
   {
@@ -1078,7 +1076,6 @@
     "planServices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
       "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
-      "d2329338-efe4-49c4-af73-bae9a39c55cb",
       "05d3b64a-4307-4139-a2c0-4b42bc63199a",
       "ebdc794f-65a3-4b19-ac45-393830e15e13",
       "c1a4282d-12fe-4faa-aef3-8c8631646edd",
@@ -1089,7 +1086,6 @@
     "existingplanservices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
       "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
-      "d2329338-efe4-49c4-af73-bae9a39c55cb",
       "05d3b64a-4307-4139-a2c0-4b42bc63199a",
       "ebdc794f-65a3-4b19-ac45-393830e15e13",
       "c1a4282d-12fe-4faa-aef3-8c8631646edd",
@@ -1100,7 +1096,6 @@
     "confirmedPlanServices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
       "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
-      "d2329338-efe4-49c4-af73-bae9a39c55cb",
       "05d3b64a-4307-4139-a2c0-4b42bc63199a",
       "ebdc794f-65a3-4b19-ac45-393830e15e13",
       "c1a4282d-12fe-4faa-aef3-8c8631646edd",
@@ -1143,19 +1138,6 @@
         "confirmedAt": "2026-10-14T12:00:00.000Z",
         "_id": {
           "$oid": "e0eb2a8943200a34de04f92b"
-        }
-      },
-      {
-        "roleName": "Appraisers/Independent Adjusters",
-        "changeType": "ProviderChange",
-        "recommendedVendor": "Gold Star Adjusters",
-        "proposedVendor": "Gold Star Adjusters",
-        "selectedVendor": "Gold Star Adjusters",
-        "status": "Locked",
-        "confirmedBy": "Steve Smith",
-        "confirmedAt": "2026-10-14T12:00:00.000Z",
-        "_id": {
-          "$oid": "92cc080de9ac355bc670ae2c"
         }
       },
       {
@@ -1258,7 +1240,6 @@
       "Kruger Property Solutions",
       "DDA Forensics",
       "Gold Star Adjusters",
-      "Gold Star Adjusters",
       "K&R Investigative Group",
       "Janney Roofing",
       "M6 Building Solutions",
@@ -1266,7 +1247,7 @@
       "M6 Building Solutions",
       "MDD Forensic Accountants"
     ],
-    "servicesTriggered": 9,
+    "servicesTriggered": 8,
     "__v": 0,
     "adjusterSubmittedBy": "Steve Smith",
     "adjusterSubmittedAt": "2026-10-14T12:00:00.000Z",
@@ -1678,14 +1659,14 @@
     "recordIndex": 10,
     "planServices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
-      "d2329338-efe4-49c4-af73-bae9a39c55cb",
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
       "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "f1eac9f3-ae9a-4584-a776-35f7428c0ff7"
     ],
     "existingplanservices": [
       "0658976d-6d55-4f61-a2a8-bb245fd7543d",
-      "d2329338-efe4-49c4-af73-bae9a39c55cb",
+      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
       "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "f1eac9f3-ae9a-4584-a776-35f7428c0ff7"
@@ -1716,7 +1697,7 @@
         "adjusterComment": "Closer to the loss location and faster on site"
       },
       {
-        "roleName": "Appraisers/Independent Adjusters",
+        "roleName": "Independent Adjusters",
         "changeType": "ProviderChange",
         "recommendedVendor": "Gold Star Adjusters",
         "proposedVendor": "Gold Star Adjusters",
@@ -1725,7 +1706,7 @@
         "confirmedBy": "Pat Cummins",
         "confirmedAt": "2026-10-10T12:00:00.000Z",
         "_id": {
-          "$oid": "78c7af992669fbd8fb4083e4"
+          "$oid": "a7afbcc20aec61a2af077da1"
         }
       },
       {
@@ -3362,7 +3343,6 @@
     "recordIndex": 8,
     "planServices": [
       "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
-      "d2329338-efe4-49c4-af73-bae9a39c55cb",
       "05d3b64a-4307-4139-a2c0-4b42bc63199a",
       "ebdc794f-65a3-4b19-ac45-393830e15e13",
       "c1a4282d-12fe-4faa-aef3-8c8631646edd",
@@ -3370,14 +3350,12 @@
     ],
     "existingplanservices": [
       "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
-      "d2329338-efe4-49c4-af73-bae9a39c55cb",
       "05d3b64a-4307-4139-a2c0-4b42bc63199a",
       "ebdc794f-65a3-4b19-ac45-393830e15e13",
       "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "d25a0874-807e-43b7-af32-863e746db8b2"
     ],
     "confirmedPlanServices": [
-      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
       "ebdc794f-65a3-4b19-ac45-393830e15e13",
       "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "d25a0874-807e-43b7-af32-863e746db8b2"
@@ -3403,25 +3381,12 @@
         "adjusterComment": "Closer to the loss location and faster on site"
       },
       {
-        "roleName": "Appraisers/Independent Adjusters",
-        "changeType": "ProviderChange",
-        "recommendedVendor": "Gold Star Adjusters",
-        "proposedVendor": "Gold Star Adjusters",
-        "selectedVendor": "Gold Star Adjusters",
-        "status": "Pending Review",
-        "confirmedBy": "Mitchell Starc",
-        "confirmedAt": "2026-10-16T12:00:00.000Z",
-        "_id": {
-          "$oid": "1595a21a8450e4def2393108"
-        }
-      },
-      {
         "roleName": "Independent Adjusters",
         "changeType": "ProviderChange",
         "recommendedVendor": "Gold Star Adjusters",
         "proposedVendor": "Gold Star Adjusters",
         "selectedVendor": "Gold Star Adjusters",
-        "status": "Locked",
+        "status": "Pending Review",
         "confirmedBy": "Mitchell Starc",
         "confirmedAt": "2026-10-16T12:00:00.000Z",
         "_id": {
@@ -3471,12 +3436,11 @@
     "vendorServices": [
       "Proclaim Engineering, Inc",
       "Gold Star Adjusters",
-      "Gold Star Adjusters",
       "K&R Investigative Group",
       "Janney Roofing",
       "Total Inventory, LLC"
     ],
-    "servicesTriggered": 6,
+    "servicesTriggered": 5,
     "__v": 0,
     "adjusterSubmittedBy": "Mitchell Starc",
     "adjusterSubmittedAt": "2026-10-16T12:00:00.000Z",
@@ -5229,7 +5193,6 @@
     "recordIndex": 6,
     "planServices": [
       "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
-      "d2329338-efe4-49c4-af73-bae9a39c55cb",
       "05d3b64a-4307-4139-a2c0-4b42bc63199a",
       "ebdc794f-65a3-4b19-ac45-393830e15e13",
       "c1a4282d-12fe-4faa-aef3-8c8631646edd",
@@ -5238,7 +5201,6 @@
     ],
     "existingplanservices": [
       "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
-      "d2329338-efe4-49c4-af73-bae9a39c55cb",
       "05d3b64a-4307-4139-a2c0-4b42bc63199a",
       "ebdc794f-65a3-4b19-ac45-393830e15e13",
       "c1a4282d-12fe-4faa-aef3-8c8631646edd",
@@ -5246,7 +5208,6 @@
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563"
     ],
     "confirmedPlanServices": [
-      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
       "ebdc794f-65a3-4b19-ac45-393830e15e13",
       "c1a4282d-12fe-4faa-aef3-8c8631646edd",
       "43017e2f-5a5a-418a-a972-f10cef277c2f",
@@ -5273,25 +5234,12 @@
         "adjusterComment": "Closer to the loss location and faster on site"
       },
       {
-        "roleName": "Appraisers/Independent Adjusters",
-        "changeType": "ProviderChange",
-        "recommendedVendor": "Gold Star Adjusters",
-        "proposedVendor": "Gold Star Adjusters",
-        "selectedVendor": "Gold Star Adjusters",
-        "status": "Pending Review",
-        "confirmedBy": "David Warner",
-        "confirmedAt": "2026-10-17T12:00:00.000Z",
-        "_id": {
-          "$oid": "c1fd23b2543428021bac931d"
-        }
-      },
-      {
         "roleName": "Independent Adjusters",
         "changeType": "ProviderChange",
         "recommendedVendor": "Gold Star Adjusters",
         "proposedVendor": "Gold Star Adjusters",
         "selectedVendor": "Gold Star Adjusters",
-        "status": "Locked",
+        "status": "Pending Review",
         "confirmedBy": "David Warner",
         "confirmedAt": "2026-10-17T12:00:00.000Z",
         "_id": {
@@ -5368,14 +5316,13 @@
     "vendorServices": [
       "Proclaim Engineering, Inc",
       "Gold Star Adjusters",
-      "Gold Star Adjusters",
       "K&R Investigative Group",
       "Janney Roofing",
       "M6 Building Solutions",
       "M6 Building Solutions",
       "GrayRobinson"
     ],
-    "servicesTriggered": 7,
+    "servicesTriggered": 6,
     "__v": 0,
     "adjusterSubmittedBy": "David Warner",
     "adjusterSubmittedAt": "2026-10-17T12:00:00.000Z",
@@ -7024,7 +6971,6 @@
     "recordIndex": 4,
     "planServices": [
       "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
-      "d2329338-efe4-49c4-af73-bae9a39c55cb",
       "de2a54b5-1dab-48f6-aafe-09ab14d462ec",
       "afd882e6-5968-41a5-a627-499eea6a6ef0",
       "05d3b64a-4307-4139-a2c0-4b42bc63199a",
@@ -7033,7 +6979,6 @@
     ],
     "existingplanservices": [
       "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
-      "d2329338-efe4-49c4-af73-bae9a39c55cb",
       "de2a54b5-1dab-48f6-aafe-09ab14d462ec",
       "afd882e6-5968-41a5-a627-499eea6a6ef0",
       "05d3b64a-4307-4139-a2c0-4b42bc63199a",
@@ -7042,7 +6987,6 @@
     ],
     "confirmedPlanServices": [
       "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
-      "d2329338-efe4-49c4-af73-bae9a39c55cb",
       "de2a54b5-1dab-48f6-aafe-09ab14d462ec",
       "afd882e6-5968-41a5-a627-499eea6a6ef0",
       "05d3b64a-4307-4139-a2c0-4b42bc63199a",
@@ -7071,19 +7015,6 @@
         "supervisorComment": "Approved: closer to the risk",
         "reviewedBy": "claimssupervisor",
         "reviewedAt": "2026-10-17T12:00:00.000Z"
-      },
-      {
-        "roleName": "Appraisers/Independent Adjusters",
-        "changeType": "ProviderChange",
-        "recommendedVendor": "Gold Star Adjusters",
-        "proposedVendor": "Gold Star Adjusters",
-        "selectedVendor": "Gold Star Adjusters",
-        "status": "Locked",
-        "confirmedBy": "Pat Cummins",
-        "confirmedAt": "2026-10-14T12:00:00.000Z",
-        "_id": {
-          "$oid": "e41342bf482749cdd65c2527"
-        }
       },
       {
         "roleName": "Forensic Engineers",
@@ -7170,14 +7101,13 @@
     ],
     "vendorServices": [
       "Proclaim Engineering, Inc",
-      "Gold Star Adjusters",
       "DDA Forensics",
       "GrayRobinson",
       "Gold Star Adjusters",
       "Janney Roofing",
       "M6 Building Solutions"
     ],
-    "servicesTriggered": 7,
+    "servicesTriggered": 6,
     "__v": 0,
     "adjusterSubmittedBy": "Pat Cummins",
     "adjusterSubmittedAt": "2026-10-14T12:00:00.000Z",
@@ -7274,7 +7204,6 @@
     "recordIndex": 5,
     "planServices": [
       "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
-      "d2329338-efe4-49c4-af73-bae9a39c55cb",
       "de2a54b5-1dab-48f6-aafe-09ab14d462ec",
       "05d3b64a-4307-4139-a2c0-4b42bc63199a",
       "ebdc794f-65a3-4b19-ac45-393830e15e13",
@@ -7284,7 +7213,6 @@
     ],
     "existingplanservices": [
       "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
-      "d2329338-efe4-49c4-af73-bae9a39c55cb",
       "de2a54b5-1dab-48f6-aafe-09ab14d462ec",
       "05d3b64a-4307-4139-a2c0-4b42bc63199a",
       "ebdc794f-65a3-4b19-ac45-393830e15e13",
@@ -7293,7 +7221,6 @@
       "3455af34-b088-440b-a1f7-99dea13403cf"
     ],
     "confirmedPlanServices": [
-      "de2a54b5-1dab-48f6-aafe-09ab14d462ec",
       "05d3b64a-4307-4139-a2c0-4b42bc63199a",
       "ebdc794f-65a3-4b19-ac45-393830e15e13",
       "43017e2f-5a5a-418a-a972-f10cef277c2f",
@@ -7321,25 +7248,12 @@
         "adjusterComment": "Closer to the loss location and faster on site"
       },
       {
-        "roleName": "Appraisers/Independent Adjusters",
-        "changeType": "ProviderChange",
-        "recommendedVendor": "Gold Star Adjusters",
-        "proposedVendor": "Gold Star Adjusters",
-        "selectedVendor": "Gold Star Adjusters",
-        "status": "Pending Review",
-        "confirmedBy": "Steve Smith",
-        "confirmedAt": "2026-09-20T12:00:00.000Z",
-        "_id": {
-          "$oid": "63676b06c394e1ed0acf6545"
-        }
-      },
-      {
         "roleName": "Forensic Engineers",
         "changeType": "ProviderChange",
         "recommendedVendor": "DDA Forensics",
         "proposedVendor": "DDA Forensics",
         "selectedVendor": "DDA Forensics",
-        "status": "Locked",
+        "status": "Pending Review",
         "confirmedBy": "Steve Smith",
         "confirmedAt": "2026-09-20T12:00:00.000Z",
         "_id": {
@@ -7414,7 +7328,6 @@
     ],
     "vendorServices": [
       "Proclaim Engineering, Inc",
-      "Gold Star Adjusters",
       "DDA Forensics",
       "Gold Star Adjusters",
       "K&R Investigative Group",
@@ -7422,7 +7335,7 @@
       "M6 Building Solutions",
       "GrayRobinson"
     ],
-    "servicesTriggered": 8,
+    "servicesTriggered": 7,
     "__v": 0,
     "adjusterSubmittedBy": "Steve Smith",
     "adjusterSubmittedAt": "2026-09-20T12:00:00.000Z",
@@ -7983,7 +7896,6 @@
     "recordIndex": 10,
     "planServices": [
       "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
-      "d2329338-efe4-49c4-af73-bae9a39c55cb",
       "05d3b64a-4307-4139-a2c0-4b42bc63199a",
       "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
@@ -7991,14 +7903,12 @@
     ],
     "existingplanservices": [
       "1ee1f39b-34a2-4b2b-aee4-b281bc95646e",
-      "d2329338-efe4-49c4-af73-bae9a39c55cb",
       "05d3b64a-4307-4139-a2c0-4b42bc63199a",
       "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "953716fb-084f-41be-a85d-c7f32b82c23e"
     ],
     "confirmedPlanServices": [
-      "05d3b64a-4307-4139-a2c0-4b42bc63199a",
       "43017e2f-5a5a-418a-a972-f10cef277c2f",
       "8ae0a7b6-5e34-46fa-ab0a-1680ef58f563",
       "953716fb-084f-41be-a85d-c7f32b82c23e"
@@ -8024,25 +7934,12 @@
         "adjusterComment": "Closer to the loss location and faster on site"
       },
       {
-        "roleName": "Appraisers/Independent Adjusters",
-        "changeType": "ProviderChange",
-        "recommendedVendor": "Gold Star Adjusters",
-        "proposedVendor": "Gold Star Adjusters",
-        "selectedVendor": "Gold Star Adjusters",
-        "status": "Pending Review",
-        "confirmedBy": "David Warner",
-        "confirmedAt": "2026-09-25T12:00:00.000Z",
-        "_id": {
-          "$oid": "90004a809ea6ee1616ea5b2d"
-        }
-      },
-      {
         "roleName": "Independent Adjusters",
         "changeType": "ProviderChange",
         "recommendedVendor": "Gold Star Adjusters",
         "proposedVendor": "Gold Star Adjusters",
         "selectedVendor": "Gold Star Adjusters",
-        "status": "Locked",
+        "status": "Pending Review",
         "confirmedBy": "David Warner",
         "confirmedAt": "2026-09-25T12:00:00.000Z",
         "_id": {
@@ -8092,12 +7989,11 @@
     "vendorServices": [
       "Proclaim Engineering, Inc",
       "Gold Star Adjusters",
-      "Gold Star Adjusters",
       "M6 Building Solutions",
       "M6 Building Solutions",
       "M6 Building Solutions"
     ],
-    "servicesTriggered": 6,
+    "servicesTriggered": 5,
     "__v": 0,
     "adjusterSubmittedBy": "David Warner",
     "adjusterSubmittedAt": "2026-09-25T12:00:00.000Z",

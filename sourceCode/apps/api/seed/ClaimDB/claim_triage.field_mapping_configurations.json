@@ -274,45 +274,6 @@
   },
   {
     "_id": {
-      "$oid": "8e20df62ca26c189bd12bf4d"
-    },
-    "mappingId": "0b77a4cf-da85-4507-a6c3-ff0e0ba0c51f",
-    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
-    "sourceField": "constructionTradeInvolvementFlag",
-    "targetField": "constructionTradeInvolvementFlag",
-    "dataType": "String",
-    "isMandatory": false,
-    "sortOrder": 21,
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "0843fa36cbf4d7f4c89f434f"
-    },
-    "mappingId": "dcc9289e-b3c7-4003-ae8c-1ae75e774e8c",
-    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
-    "sourceField": "specialHandlingPropertyFlag",
-    "targetField": "specialHandlingPropertyFlag",
-    "dataType": "String",
-    "isMandatory": false,
-    "sortOrder": 22,
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "53d425e9e484cd746a9ce0eb"
-    },
-    "mappingId": "7d225dfa-e0a4-45f7-aa94-7450720c0542",
-    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
-    "sourceField": "appraisalDemandFlag",
-    "targetField": "appraisalDemandFlag",
-    "dataType": "String",
-    "isMandatory": false,
-    "sortOrder": 23,
-    "__v": 0
-  },
-  {
-    "_id": {
       "$oid": "eccba281ea88d1ecc80219d7"
     },
     "mappingId": "20f5559a-d703-4559-a7d8-44410fcf8bf5",
@@ -321,7 +282,7 @@
     "targetField": "disputedCauseOriginFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 24,
+    "sortOrder": 21,
     "__v": 0
   },
   {
@@ -334,7 +295,7 @@
     "targetField": "multipleEntitiesJobsiteFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 25,
+    "sortOrder": 22,
     "__v": 0
   },
   {
@@ -347,7 +308,7 @@
     "targetField": "liabilityContributionDeterminationFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 26,
+    "sortOrder": 23,
     "__v": 0
   },
   {
@@ -360,7 +321,7 @@
     "targetField": "businessInterruptionFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 27,
+    "sortOrder": 24,
     "__v": 0
   },
   {
@@ -373,7 +334,7 @@
     "targetField": "largeAdditionalExpenseFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 28,
+    "sortOrder": 25,
     "__v": 0
   },
   {
@@ -386,7 +347,7 @@
     "targetField": "inflatedValueClaimFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 29,
+    "sortOrder": 26,
     "__v": 0
   },
   {
@@ -399,7 +360,7 @@
     "targetField": "complexInventoryLossFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 30,
+    "sortOrder": 27,
     "__v": 0
   },
   {
@@ -412,7 +373,7 @@
     "targetField": "Litigated claim",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 31,
+    "sortOrder": 28,
     "__v": 0
   },
   {
@@ -425,7 +386,7 @@
     "targetField": "potentialRecoveryAmount",
     "dataType": "Number",
     "isMandatory": false,
-    "sortOrder": 32,
+    "sortOrder": 29,
     "__v": 0
   },
   {
@@ -438,7 +399,7 @@
     "targetField": "firstNoticePetitionFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 33,
+    "sortOrder": 30,
     "__v": 0
   },
   {
@@ -451,7 +412,7 @@
     "targetField": "Contested claim",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 34,
+    "sortOrder": 31,
     "__v": 0
   },
   {
@@ -464,7 +425,7 @@
     "targetField": "Fraud flag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 35,
+    "sortOrder": 32,
     "__v": 0
   },
   {
@@ -477,7 +438,7 @@
     "targetField": "significantPreexistingConditionFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 36,
+    "sortOrder": 33,
     "__v": 0
   },
   {
@@ -490,7 +451,7 @@
     "targetField": "Diagnosis in dispute",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 37,
+    "sortOrder": 34,
     "__v": 0
   },
   {
@@ -503,7 +464,7 @@
     "targetField": "largeLumpSumResolutionFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 38,
+    "sortOrder": 35,
     "__v": 0
   },
   {
@@ -516,7 +477,7 @@
     "targetField": "medicalSetAsideAgreementFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 39,
+    "sortOrder": 36,
     "__v": 0
   },
   {
@@ -529,7 +490,7 @@
     "targetField": "inconsistentLossVersionFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 40,
+    "sortOrder": 37,
     "__v": 0
   },
   {
@@ -542,7 +503,7 @@
     "targetField": "liabilityNegligenceContestedFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 41,
+    "sortOrder": 38,
     "__v": 0
   },
   {
@@ -555,7 +516,7 @@
     "targetField": "damagesOverstatedFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 42,
+    "sortOrder": 39,
     "__v": 0
   },
   {
@@ -568,7 +529,7 @@
     "targetField": "priorClaimHistoryFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 43,
+    "sortOrder": 40,
     "__v": 0
   },
   {
@@ -581,7 +542,7 @@
     "targetField": "partyNonCooperationFlag",
     "dataType": "String",
     "isMandatory": false,
-    "sortOrder": 44,
+    "sortOrder": 41,
     "__v": 0
   },
   {
@@ -592,6 +553,45 @@
     "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
     "sourceField": "independentInvestigatorFlag",
     "targetField": "independentInvestigatorFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 42,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "8e20df62ca26c189bd12bf4d"
+    },
+    "mappingId": "0b77a4cf-da85-4507-a6c3-ff0e0ba0c51f",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "constructionTradeInvolvementFlag",
+    "targetField": "constructionTradeInvolvementFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 43,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "0843fa36cbf4d7f4c89f434f"
+    },
+    "mappingId": "dcc9289e-b3c7-4003-ae8c-1ae75e774e8c",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "specialHandlingPropertyFlag",
+    "targetField": "specialHandlingPropertyFlag",
+    "dataType": "String",
+    "isMandatory": false,
+    "sortOrder": 44,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "53d425e9e484cd746a9ce0eb"
+    },
+    "mappingId": "7d225dfa-e0a4-45f7-aa94-7450720c0542",
+    "uploadId": "33ef57a5-1f82-487f-afe4-bdbe0b004187",
+    "sourceField": "appraisalDemandFlag",
+    "targetField": "appraisalDemandFlag",
     "dataType": "String",
     "isMandatory": false,
     "sortOrder": 45,

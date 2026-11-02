@@ -87,7 +87,7 @@ const vid = (p: ProviderDef) => hex24('vendor:' + p.company);
 const capacityOf = (p: ProviderDef): number => {
   if (p.rules.some((n) => ['Roof Surface Review', 'Repair Network Referral'].includes(n))) return 6;
   if (p.rules.some((n) => ['24/7 Loss Mitigation Contractors', 'Pack-out & Contents Cleaning'].includes(n))) return 8;
-  if (p.rules.some((n) => ['Independent Adjusters', 'Appraisers/Independent Adjusters', 'NFIP Authorized Adjuster'].includes(n))) return 14;
+  if (p.rules.some((n) => ['Independent Adjusters', 'NFIP Authorized Adjuster'].includes(n))) return 14;
   if (p.rules.some((n) => ['Legal', 'Subrogation'].includes(n))) return 24;
   return 15;
 };
