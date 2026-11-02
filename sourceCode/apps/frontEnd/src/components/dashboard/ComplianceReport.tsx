@@ -43,7 +43,6 @@ const ComplianceReport: React.FC = () => {
       .finally(() => setLoading(false));
   }, [eventId]);
 
-  const maxDay = useMemo(() => Math.max(1, ...(summary?.timeline ?? []).map((d) => d.count)), [summary]);
   const event = summary?.event ?? null;
   const eventTypes = useMemo(() => [...new Set(events.map((e) => e.eventType))], [events]);
   const contactFor = (sm: ComplianceSummary): CrfContact => ({ ...DEFAULT_CONTACT, grossPayable: Math.round(sm.totals.incurred) });
@@ -120,14 +119,14 @@ const ComplianceReport: React.FC = () => {
         </div>
 
         <div className="cmp-card">
-          <h3>Claims reported per day</h3>
-          <p className="cmp-muted">Losses arrive in clumps. {event ? `${summary.totalRecords} claims tie to ${event.eventName}` : `${counts.nonCat} of ${counts.total} claims are not tied to any event`}; non-event claims trickle in a few at a time.</p>
-          <div className="cmp-bars">
-            {summary.timeline.map((d) => (
-              <div key={d.date} className="cmp-bar" title={`${d.date}: ${d.count} claims`}>
-                <div className="cmp-bar__fill" style={{ height: `${Math.max(6, (d.count / maxDay) * 100)}%` }} />
-                <div className="cmp-bar__n">{d.count}</div>
-                <div className="cmp-bar__d">{d.date.slice(5)}</div>
+          <h3>Claims: CAT vs Non-CAT</h3>
+          <p className="cmp-muted">All claims in the book, split by whether they are tied to a catastrophe event.</p>
+          <div className="cmp-hbars">
+            {[{ label: 'CAT claims', value: counts.total - counts.nonCat }, { label: 'Non-CAT claims', value: counts.nonCat }].map((r) => (
+              <div key={r.label} className="cmp-hbar">
+                <div className="cmp-hbar__label">{r.label}</div>
+                <div className="cmp-hbar__track"><div className="cmp-hbar__fill" style={{ width: `${counts.total ? Math.max(2, (r.value / counts.total) * 100) : 0}%` }} /></div>
+                <div className="cmp-hbar__value">{r.value}</div>
               </div>
             ))}
           </div>
