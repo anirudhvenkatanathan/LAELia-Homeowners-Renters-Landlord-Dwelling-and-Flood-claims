@@ -12461,3 +12461,10 @@ textarea.form-input--readonly:focus {
 .cmp-modal__box { background: #fff; border-radius: 12px; max-width: 880px; width: 100%; max-height: 90vh; overflow: auto; padding: 20px; }
 .cmp-modal__head { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 12px; }
 .cmp-table tfoot td { border-top: 2px solid #e2e8f0; background: #f8fafc; }
+
+/* CAT vs Non-CAT horizontal bars */
+.cmp-hbars { display: flex; flex-direction: column; gap: 12px; margin-top: 8px; }
+.cmp-hbar { display: grid; grid-template-columns: 150px 1fr 48px; align-items: center; gap: 12px; font-size: 13px; }
+.cmp-hbar__track { height: 26px; }
+.cmp-hbar__fill { height: 100%; background: #0f7f77; border-radius: 4px; }
+.cmp-hbar__value { font-weight: 600; }
